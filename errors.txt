@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/screens/main_menu.rpy", line 19: Line is indented, but the preceding add statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    fixed:
+    ^
+
+Ren'Py Version: Ren'Py 8.3.7.25031702
+Mon Jul 28 07:59:39 2025

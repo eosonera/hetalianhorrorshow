@@ -9,11 +9,57 @@ init python:
 
 image ctc_button = Animation(*sum(ctc_frames, ()))
 
+image thumb_hover_anim:
+    "gui/slider/thumb_0.png"
+    pause 1
+    "gui/slider/thumb_2.png"
+    pause 1
+    "gui/slider/thumb_1.png"
+
+image slider_hover_anim:
+    "gui/slider/slider_0.png"
+    pause 1
+    "gui/slider/slider_2.png"
+    pause 1
+    "gui/slider/slider_1.png"
+
+
 ## Transitions ######################################################################
 
 define fade_white = Fade(0.5, 0.0, 0.5, color="#fff")
 
 ## Transforms ######################################################################
+
+init python:
+
+    class TrackCursor(renpy.Displayable):
+
+        def __init__(self, child):
+
+            super(TrackCursor, self).__init__()
+
+            self.child = renpy.displayable(child)
+
+            self.x = None
+            self.y = None
+
+        def render(self, width, height, st, at):
+
+            rv = renpy.Render(width, height)
+
+            if self.x is not None:
+                cr = renpy.render(self.child, width, height, st, at)
+                cw, ch = cr.get_size()
+                rv.blit(cr, (self.x - cw / 2, self.y - ch / 2))
+
+            return rv
+
+        def event(self, ev, x, y, st):
+
+            if (x != self.x) or (y != self.y):
+                self.x = x
+                self.y = y
+                renpy.redraw(self, 0)
 
 transform namebox_float:
     yoffset -30  # Adjust based on how far above the bubble you want it
@@ -32,10 +78,18 @@ transform title_float:
     
     repeat
 
-transform hover_float:
+transform menu_jump:
     on hover:
-        linear 1 yoffset -5
-        linear 1 yoffset 0
+        linear .61 yoffset -6
+        yoffset 0
+        repeat
+    on idle:
+        yoffset 0
+
+transform menu_hover_float:
+    on hover:
+        linear 0.7 yoffset -15
+        linear 0.7 yoffset 0
         repeat
     on idle:
         yoffset 0

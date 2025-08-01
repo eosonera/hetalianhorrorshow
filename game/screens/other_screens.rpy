@@ -9,23 +9,15 @@
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""
-EasyRenPyGui is made by {a=https://github.com/shawna-p}Feniks{/a} {a=https://feniksdev.com/}@feniksdev.com{/a}
-""")
-
 
 screen about():
 
     tag menu
 
-    add "#21212db2" # The background; can be whatever
-
     use game_menu(_("About"))
 
     viewport:
         style_prefix 'game_menu'
-        mousewheel True draggable True pagekeys True
-        scrollbars "vertical"
 
         has vbox
         style_prefix "about"
@@ -37,6 +29,17 @@ screen about():
             text "[gui.about!t]\n"
 
         text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
+
+        vbox:
+            style_prefix "pref"
+            label _("Language")
+            textbutton "Japanese" action Language(None)
+            textbutton "English" action Language("english")
+    
+        textbutton _("Return"):
+            action Return()
+            xalign 1.0
+            yalign 1.0
 
 
 style about_label_text:
@@ -55,7 +58,6 @@ screen help():
 
     default device = "keyboard"
 
-    add HBox(Transform("#292835", xsize=350), "#21212db2") # The background; can be whatever
 
     use game_menu(_("Help"))
 
@@ -198,3 +200,17 @@ style help_label:
 style help_label_text:
     xalign 1.0
     textalign 1.0
+
+## Menu open screen ################################################################
+##
+##
+##
+##
+##
+
+screen menu_open():
+
+    tag menu
+
+    use game_menu(_("Menu"), scroll="viewport"):
+        style_prefix "about"

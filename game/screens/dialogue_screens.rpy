@@ -13,7 +13,6 @@
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
 screen say(who, what):
-    style_prefix "say"
 
     window:
         id "window"
@@ -35,37 +34,46 @@ screen say(who, what):
 init python:
     config.character_id_prefixes.append('namebox')
 
-# Style for the dialogue window
+style window is default
+style say_label is default
+style say_dialogue is default
+style say_thought is say_dialogue
+
+style namebox is default
+style namebox_label is say_label
+
+
 style window:
-    xalign 0.5
-    yalign 1.0
-    xysize (1231, 277)
-    padding (40, 10, 40, 40)
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+    xpos 300
+    ypos 300
+    xsize 300
+    ysize gui.textbox_height
 
-# Style for the dialogue
-style say_dialogue:
-    adjust_spacing False
-    ypos 60
+    background Image("gui/bubbles/center_0.png", xalign=0, yalign=0)
 
-# The style for dialogue said by the narrator
-style say_thought:
-    is say_dialogue
-
-# Style for the box containing the speaker's name
 style namebox:
-    xpos 20
-    xysize (None, None)
-    background Frame("gui/namebox.png", 5, 5, 5, 5, tile=False, xalign=0.0)
-    padding (5, 5, 5, 5)
+    xpos gui.name_xpos
+    xanchor gui.name_xalign
+    xsize gui.namebox_width
+    ypos gui.name_ypos
+    ysize gui.namebox_height
 
-# Style for the text with the speaker's name
+    background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
+    padding gui.namebox_borders.padding
+
 style say_label:
-    color '#5B4A40'
-    xalign 0.0
+    properties gui.text_properties("name", accent=True)
+    xalign gui.name_xalign
     yalign 0.5
-    size gui.name_text_size
-    font gui.name_text_font
+
+style say_dialogue:
+    properties gui.text_properties("dialogue")
+
+    xpos gui.dialogue_xpos
+    xsize gui.dialogue_width
+    ypos gui.dialogue_ypos
+
+    adjust_spacing False
 
 
 ## Dialogue Config ####################################################################
@@ -76,15 +84,12 @@ style say_label:
 ## The height of the textbox containing dialogue.
 define gui.textbox_height = 131
 
-## The placement of the textbox vertically on the screen. 0.0 is the top, 0.5 is
-## center, and 1.0 is the bottom.
-define gui.textbox_yalign = 1.0
 
 
 ## The placement of the speaking character's name, relative to the textbox.
 ## These can be a whole number of pixels from the left or top, or 0.5 to center.
-define gui.name_xpos = 169
-define gui.name_ypos = 0
+define gui.name_xpos = 20
+define gui.name_ypos = -10
 
 ## The horizontal alignment of the character's name. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
@@ -107,8 +112,8 @@ define gui.namebox_tile = False
 ## The placement of dialogue relative to the textbox. These can be a whole
 ## number of pixels relative to the left or top side of the textbox, or 0.5 to
 ## center.
-define gui.dialogue_xpos = 189
-define gui.dialogue_ypos = 36
+define gui.dialogue_xpos = 20
+define gui.dialogue_ypos = 40
 
 ## The maximum width of dialogue text, in pixels.
 define gui.dialogue_width = 524
@@ -254,18 +259,6 @@ define gui.nvl_button_xalign = 0.0
 ##
 ## https://www.renpy.org/doc/html/bubble.html#bubble-screen
 
-
-init python:
-    bubble_right_small = {
-        "area": [440, 90, 250, 70],
-        "properties": "gui/bubble right_small.png"
-    }
-
-    bubble_left_small = {
-        "area": [1040, 90, 480, 225],
-        "properties": "gui/bubble left_small.png"
-    }
-
 screen bubble(who, what):
     style_prefix "bubble"
 
@@ -273,26 +266,13 @@ screen bubble(who, what):
         id "window"
 
         if who is not None:
-            frame:
+
+            window:
                 id "namebox"
                 style "bubble_namebox"
-                xalign 0.0  # Ensure frame aligns to the left
-                yalign 0.0  # Align to top within the window
 
-                at namebox_float
-
-                hbox:
-                    spacing 5  # Adjust spacing between icon and text
-                    xalign 0.0  # Align hbox contents to the left
-                    
-                    # Name icon
-                    add "gui/name_icons/[who].png":
-                        yalign 0.5  # Center vertically
-                        
-                    # Character name
-                    text who:
-                        id "who"
-                        style "bubble_who"
+                text who:
+                    id "who"
 
         text what:
             id "what"
@@ -308,30 +288,21 @@ style bubble_window:
     bottom_padding 5
 
 style bubble_namebox:
-    xalign 0.0  # Align namebox to the left
-    left_padding 10  # Add some padding if needed
-    right_padding 10
-    background None  # Remove any background if not needed
+    xalign 0.5
 
 style bubble_who:
-    xalign 0.0
-    textalign 0
-    color "#5B4A40"
-    outlines [ (0.7, "#fff") ]
-    yalign 0.5  # Center vertically with the icon
+    xalign 0.5
+    textalign 0.5
+    color "#000"
 
 style bubble_what:
-    align (0, 0)
-    text_align 0
+    align (0.5, 0.5)
+    text_align 0.5
     layout "subtitle"
-    color "#5B4A40"
-    outlines [ (0.7, "#fff") ]
+    color "#000"
 
 define bubble.frame = Frame("gui/bubble.png", 55, 55, 55, 95)
 define bubble.thoughtframe = Frame("gui/thoughtbubble.png", 55, 55, 55, 55)
-define bubble.rightsmallframe = Frame("gui/bubbles/bubble_right_small.png", 60, 60, 250, 70)
-define bubble.leftsmallframe = Frame("gui/bubbles/bubble_left_small.png", 60, 60, 250, 70)
-define bubble.left4rowsframe = Frame("gui/bubbles/bubble_left_4rows.png", 60, 60, 250, 70)
 
 define bubble.properties = {
     "bottom_left" : {
@@ -356,19 +327,7 @@ define bubble.properties = {
 
     "thought" : {
         "window_background" : bubble.thoughtframe,
-    },
-
-    "right_small" : {
-        "window_background" : bubble.rightsmallframe,
-    },
-
-    "left_small" : {
-        "window_background" : bubble.leftsmallframe,
-    },
-
-        "left_small" : {
-        "window_background" : bubble.left4rowsframe,
-    },
+    }
 }
 
 define bubble.expand_area = {
@@ -378,4 +337,5 @@ define bubble.expand_area = {
     "top_right" : (0, 22, 0, 0),
     "thought" : (0, 0, 0, 0),
 }
+
 

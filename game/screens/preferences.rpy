@@ -10,14 +10,11 @@ screen preferences():
 
     tag menu
 
-    add HBox(Transform("#292835", xsize=350), "#21212db2") # The background; can be whatever
-
     use game_menu(_("Preferences"))
 
     viewport:
         style_prefix 'game_menu'
         mousewheel True draggable True pagekeys True
-        scrollbars "vertical"
         has vbox
 
         hbox:
@@ -50,58 +47,20 @@ screen preferences():
             ## Additional vboxes of type "radio_pref" or "check_pref" can be
             ## added here, to add additional creator-defined preferences.
 
-        null height 60
-
-        hbox:
-            style_prefix "slider"
-            box_wrap True
-
-            vbox:
-
-                label _("Text Speed")
-                bar value Preference("text speed")
-
-                label _("Auto-Forward Time")
-                bar value Preference("auto-forward time")
-
-            vbox:
-
-                if config.has_music:
-                    label _("Music Volume")
-                    hbox:
-                        bar value Preference("music volume")
-
-                if config.has_sound:
-                    label _("Sound Volume")
-                    hbox:
-                        bar value Preference("sound volume")
-                        if config.sample_sound:
-                            textbutton _("Test") action Play("sound", config.sample_sound)
+        null height (4 * gui.pref_spacing)
 
 
-                if config.has_voice:
-                    label _("Voice Volume")
-                    hbox:
-                        bar value Preference("voice volume")
-                        if config.sample_voice:
-                            textbutton _("Test") action Play("voice", config.sample_voice)
-
-                if config.has_music or config.has_sound or config.has_voice:
-                    null height 15
-                    textbutton _("Mute All"):
-                        style_prefix "check"
-                        action Preference("all mute", "toggle")
 
 ### PREF
 style pref_label:
-    top_margin 15
-    bottom_margin 3
+    top_margin gui.pref_spacing
+    bottom_margin 2
 
 style pref_label_text:
     yalign 1.0
 
 style pref_vbox:
-    xsize 338
+    xsize 159
 
 ## RADIO
 style radio_label:
@@ -111,10 +70,10 @@ style radio_label_text:
     is pref_label_text
 
 style radio_vbox:
-    is pref_vbox
-    spacing 0
+    spacing gui.pref_button_spacing
 
 style radio_button:
+    properties gui.button_properties("radio_button")
     foreground "gui/button/radio_[prefix_]foreground.png"
     padding (35, 6, 6, 6)
 
@@ -132,6 +91,9 @@ style check_button:
     foreground "gui/button/check_[prefix_]foreground.png"
     padding (35, 6, 6, 6)
 
+style check_button_text:
+    properties gui.text_properties("check_button")
+
 ## SLIDER
 style slider_label:
     is pref_label
@@ -139,13 +101,141 @@ style slider_label_text:
     is pref_label_text
 
 style slider_slider:
-    xsize 525
+    xsize 247
 
 style slider_button:
+    properties gui.button_properties("slider_button")
     yalign 0.5
-    left_margin 15
+    left_margin 8
+
+style slider_button_text:
+    properties gui.text_properties("slider_button")
 
 style slider_vbox:
-    is pref_vbox
-    xsize 675
+    xsize 317
 
+
+## Volume popup ################################################################
+##
+## 
+##
+## 
+## 
+
+screen volume_popup():
+
+    tag menu
+    use game_menu(_("Preferences"))
+    style_prefix "volume_popup"
+    add "gui/music.png":
+        xpos 270
+        ypos 123
+
+    frame:
+        style "volume_popup_frame"
+        xpos 300
+        ypos 200
+        xsize 300
+        ysize 120
+
+        hbox:
+            spacing 30
+            vbox:
+                spacing 25
+                xsize 100
+                text _("BGM")
+                text _("SFX")
+                text _("Dialogue")
+            vbox:
+                #style_prefix "volume_popup_slider"
+                spacing 25
+                bar value Preference("music volume")
+                bar value Preference("sfx volume")
+                bar value Preference("voice volume")
+
+    textbutton _("Return"):
+        action Return()
+        xpos 580
+        ypos 350
+        
+style volume_popup_text:
+    size 16
+    xalign 1.0
+
+style volume_popup_slider:
+    ysize 13
+    xsize 155
+    right_bar Frame("gui/slider/volume_bar_empty.png", tile=gui.slider_tile)
+    left_bar Frame("gui/slider/volume_bar_full.png", tile=gui.slider_tile)
+    thumb_offset 30
+    thumb "gui/slider/thumb_0.png"
+    hover_thumb "thumb_hover_anim"
+
+        
+    
+
+## Text speed popup ################################################################
+##
+
+
+screen text_speed_popup():
+    tag menu
+    modal True
+    use game_menu(_("Preferences"))
+
+    style_prefix "text_speed"
+    add "gui/slider/speed.png":
+        xpos 270
+        ypos 162
+    frame:
+        style "text_speed_slider"
+        xpos 300
+        ypos 174
+        xsize 300
+        ysize 120
+
+        vbox:
+            bar value Preference("text speed")
+
+    textbutton _("Return"):
+        action Return()
+        xpos 450
+        ypos 220
+
+style text_speed_slider:
+    ysize 11
+    xsize 153
+    base_bar Frame("gui/slider/bar.png", tile=gui.slider_tile)
+    thumb "gui/slider/slider_0.png"
+    thumb_offset 22
+    hover_thumb "slider_hover_anim"
+    bar_invert True
+
+
+## Auto text speed popup ################################################################
+##
+
+
+screen autotext_speed_popup():
+    tag menu
+    modal True
+    use game_menu(_("Preferences"))
+
+    style_prefix "text_speed"
+    add "gui/slider/speed.png":
+        xpos 270
+        ypos 212
+    frame:
+        style "text_speed_slider"
+        xpos 300
+        ypos 230
+        xsize 300
+        ysize 120
+
+        vbox:
+            bar value Preference("auto-forward time")
+
+    textbutton _("Return"):
+        action Return()
+        xpos 450
+        ypos 270

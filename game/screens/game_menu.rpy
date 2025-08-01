@@ -1,86 +1,151 @@
 ## Game Menu screen ############################################################
 ##
 ## This lays out the basic common structure of a game menu screen. It's called
-## with the screen title, and displays the title and navigation.
+## with the screen title, and displays the background, title, and navigation.
 ##
-## This screen no longer includes a background, and it no longer transcludes
-## its contents. It is intended to be easily removable from any given menu
-## screen and thus you are required to do some of the heavy lifting for
-## setting up containers for the contents of your menu screens.
-##
+## The scroll parameter can be None, or one of "viewport" or "vpgrid".
+## This screen is intended to be used with one or more children, which are
+## transcluded (placed) inside it.
+
 
 screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
-
     style_prefix "game_menu"
 
-    vbox:
-        xpos 60 yalign 0.5
-        spacing 6
+    add gui.game_menu_background
+    add "gui/menu.png"
 
+    if renpy.variant("mobile"):
+        textbutton _("Return"):
+            style "return_button"
+            action Return()
 
-        textbutton _("History") action ShowMenu("history")
+    frame:
 
-        textbutton _("Save") action ShowMenu("save")
+        fixed:
 
-        textbutton _("Load") action ShowMenu("load")
+            imagebutton:
+                xpos 100
+                ypos 432
+                idle "gui/button/0save.png"
+                at menu_hover_float
+                action ShowMenu("save")
 
-        textbutton _("Preferences") action ShowMenu("preferences")
+            imagebutton:
+                xpos 220
+                ypos 432
+                idle "gui/button/1load.png"
+                at menu_hover_float
+                action ShowMenu("load")
 
-        if _in_replay:
+            imagebutton:
+                xpos 340
+                ypos 432
+                idle "gui/button/2backlog.png"
+                at menu_hover_float
+                action ShowMenu("history")
 
-            textbutton _("End Replay") action EndReplay(confirm=True)
+            imagebutton:
+                xpos 460
+                ypos 432
+                idle "gui/button/3auto.png"
+                at menu_hover_float
+                action Preference("auto-forward", "toggle")
 
-        elif not main_menu:
+            imagebutton:
+                xpos 700
+                ypos 432
+                idle "gui/button/5mainmenu.png"
+                at menu_hover_float
+                action MainMenu(confirm=False, save=False)
 
-            textbutton _("Main Menu") action MainMenu()
+            imagebutton:
+                xpos 50
+                ypos 160
+                idle "gui/button/menu_01.png"
+                at menu_jump
+                action ShowMenu("text_speed_popup")
 
-        textbutton _("About") action ShowMenu("about")
+            imagebutton:
+                xpos 50
+                ypos 216
+                idle "gui/button/menu_02.png"
+                at menu_jump
+                action ShowMenu("autotext_speed_popup")
 
-        if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
+            imagebutton:
+                xpos 50
+                ypos 272
+                idle "gui/button/menu_03.png"
+                at menu_jump
+                action ShowMenu("about") 
 
-            ## Help isn't necessary or relevant to mobile devices.
-            textbutton _("Help") action ShowMenu("help")
+            imagebutton:
+                xpos 50
+                ypos 328
+                idle "gui/button/menu_04.png"
+                at menu_jump
+                action Show("volume_popup")
 
-        if renpy.variant("pc"):
+        frame:
+            xpos 300
+            ypos 50
+            left_margin 29
+            right_margin 15
+            top_margin 800
 
-            ## The quit button is banned on iOS and
-            ## unnecessary on Android and Web.
-            textbutton _("Quit") action Quit(confirm=not main_menu)
+            if scroll == "viewport":
+                viewport:
+                    yinitial yinitial
+                    scrollbars "vertical"
+                    mousewheel True
+                    draggable True
+                    pagekeys True
+                    side_yfill True
 
-    textbutton _("Return"):
-        style "return_button"
-        action Return()
+                    vbox:
+                        spacing spacing
+                        transclude
 
-    ## Remove this line if you don't want to show the screen
-    ## title text as a label (for example, if it's baked into
-    ## the background image.)
-    #label title
+            elif scroll == "vpgrid":
+                vpgrid:
+                    cols 1
+                    yinitial yinitial
+                    scrollbars "vertical"
+                    mousewheel True
+                    draggable True
+                    pagekeys True
+                    side_yfill True
+                    spacing spacing
 
-    if main_menu:
-        key "game_menu" action ShowMenu("main_menu")
+                    transclude
 
-style return_button:
-    xpos 60
-    yalign 1.0
-    yoffset -45
+            else:
+                transclude
+
+style game_menu_outer_frame:
+    bottom_padding 22
+    top_padding 85
+
+style game_menu_navigation_frame:
+    xsize 197
+    yfill True
+
+style game_menu_content_frame:
+    left_margin 29
+    right_margin 15
+    top_margin 8
 
 style game_menu_viewport:
-    xsize config.screen_width-420
-    ysize config.screen_height-200
-    align (0.5, 0.5)
-
-style game_menu_side:
-    yfill True
-    align (1.0, 0.5)
+    xsize 400
+    ysize 400
+    xalign 0.6
+    yalign 0.3
 
 style game_menu_vscrollbar:
-    unscrollable "hide"
+    unscrollable gui.unscrollable
 
-style game_menu_label:
-    padding (10, 10)
-style game_menu_label_text:
-    size 45
-
+style game_menu_side:
+    spacing 8
 
 
 ## Quick Menu screen ###########################################################

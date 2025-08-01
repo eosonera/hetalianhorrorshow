@@ -1,29 +1,61 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00start.rpy", line 195, in script
-    python:
-  File "renpy/common/00start.rpy", line 196, in <module>
-    renpy.execute_default_statement(True)
-Exception: store.quick_menu is being given a default a second time.
+  File "game/screens/save_load.rpy", line 22, in execute
+    screen load():
+  File "game/screens/save_load.rpy", line 22, in execute
+    screen load():
+  File "game/screens/save_load.rpy", line 26, in execute
+    use file_slots(_("Load"))
+TypeError: too many positional arguments
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00start.rpy", line 195, in script
-    python:
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
+    python hide:
   File "C:\Program Files\renpy-8.3.7-sdk\renpy\ast.py", line 834, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
   File "C:\Program Files\renpy-8.3.7-sdk\renpy\python.py", line 1187, in py_exec_bytecode
     exec(bytecode, globals, locals)
-  File "renpy/common/00start.rpy", line 196, in <module>
-    renpy.execute_default_statement(True)
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\exports\statementexports.py", line 372, in execute_default_statement
-    i.execute_default(start)
-  File "game/screens2.rpyc", line 70, in execute_default
-Exception: store.quick_menu is being given a default a second time.
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
+    python hide:
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
+    ui.interact()
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\core.py", line 2218, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\core.py", line 2748, in interact_core
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  [Previous line repeated 1 more time]
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\screen.py", line 480, in visit_all
+    callback(self)
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\core.py", line 2748, in <lambda>
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\screen.py", line 491, in per_interact
+    self.update()
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\screen.py", line 700, in update
+    self.screen.function(**self.scope)
+  File "game/screens/save_load.rpy", line 22, in execute
+    screen load():
+  File "game/screens/save_load.rpy", line 22, in execute
+    screen load():
+  File "game/screens/save_load.rpy", line 26, in execute
+    use file_slots(_("Load"))
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\parameter.py", line 313, in apply
+    _raise(TypeError, 'too many positional arguments')
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\parameter.py", line 253, in _raise
+    raise exct(msg.format(*argz, **kwargz)) # from None
+TypeError: too many positional arguments
 
 Windows-10-10.0.26100 AMD64
 Ren'Py 8.3.7.25031702
 hetalianhorrorshow 0.0.1
-Mon Jul 28 07:27:23 2025
+Fri Aug  1 22:29:53 2025

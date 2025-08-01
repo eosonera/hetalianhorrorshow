@@ -24,20 +24,17 @@ define na = Character(None,
 define na2 = Character(None,
     image="na2",
     ctc="ctc_button",
-    ctc_position="nestled",
-    kind=bubble)
+    ctc_position="nestled")
 
-define bul = Character(_("Bulgaria"),
+define bul = Character(_("ブルガリア"),
     image="bulgaria",
     ctc="ctc_button",
-    ctc_position="nestled",
-    kind=bubble)
+    ctc_position="nestled")
 
-define rom = Character(_("Romania"),
+define rom = Character(_("ルーマニア"),
     image="romania",
     ctc="ctc_button",
-    ctc_position="nestled",
-    kind=bubble)
+    ctc_position="nestled")
 
 define nar_nvl = nvl_narrator
     #ctc="ctc_button",
@@ -68,6 +65,7 @@ label start:
 
     show bulgaria ooh at mid_right
     with dissolve
+    #$ bul.window_style = "red_window"
     bul "えっ俺が？"
 
     show romania at mid_left behind bulgaria

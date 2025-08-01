@@ -15,7 +15,7 @@ screen confirm(message, yes_action, no_action=None):
 
     style_prefix "confirm"
 
-    add "#0008" # You can replace this with your own overlay image
+    add "gui/overlay/confirm.png"
 
     frame:
         has vbox
@@ -36,7 +36,7 @@ screen confirm(message, yes_action, no_action=None):
         key "game_menu" action yes_action
 
 style confirm_frame:
-    background Frame("gui/frame.png", 60, 60, 60, 60, tile=False)
+    background Frame([ "gui/confirm_frame.png", "gui/frame.png"], gui.confirm_frame_borders, tile=gui.frame_tile)
     padding (60, 60, 60, 60)
     xalign 0.5
     yalign 0.5
@@ -64,58 +64,6 @@ style confirm_button_text:
     textalign 0.5
 
 
-## Skip indicator screen #######################################################
-##
-## The skip_indicator screen is displayed to indicate that skipping is in
-## progress.
-##
-## https://www.renpy.org/doc/html/screen_special.html#skip-indicator
-
-screen skip_indicator():
-
-    zorder 100
-    style_prefix "skip"
-
-    frame:
-        has hbox
-
-        text _("Skipping")
-
-        text "▸" at delayed_blink(0.0, 1.0) style "skip_triangle"
-        text "▸" at delayed_blink(0.2, 1.0) style "skip_triangle"
-        text "▸" at delayed_blink(0.4, 1.0) style "skip_triangle"
-
-
-## This transform is used to blink the arrows one after another.
-transform delayed_blink(delay, cycle):
-    alpha .5
-
-    pause delay
-
-    block:
-        linear .2 alpha 1.0
-        pause .2
-        linear .2 alpha 0.5
-        pause (cycle - .4)
-        repeat
-
-style skip_hbox:
-    spacing 9
-
-style skip_frame:
-    is empty
-    ypos 15
-    background Frame("gui/skip.png", 24, 8, 75, 8, tile=False)
-    padding (24, 8, 75, 8)
-
-style skip_text:
-    size 24
-
-style skip_triangle:
-    is skip_text
-    ## We have to use a font that has the BLACK RIGHT-POINTING SMALL TRIANGLE
-    ## glyph in it.
-    font "DejaVuSans.ttf"
 
 ## Notify screen ###############################################################
 ##

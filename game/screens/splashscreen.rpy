@@ -5,6 +5,15 @@
 ##
 
 default persistent.seen_splash = False
+image kitayume0 = "gui/splash/kitayume0.png"
+image kitayume = "gui/splash/kitayume.png"
+image cloud1 = "gui/splash/cloud1.png"
+image cloud2 = "gui/splash/cloud2.png"
+image cloud3 = "gui/splash/cloud3.png"
+image cloud4 = "gui/splash/cloud4.png"
+image cloud7 = "gui/splash/cloud7.png"
+image cloud8 = "gui/splash/cloud8.png"
+
 
 label splashscreen:
 
@@ -36,20 +45,16 @@ label splashscreen:
 
     show birds
 
-    show text "{color=#000}{size=+10}eos hetascans\nthe[config.name!t] remake\nversion [config.version!t]{/color}{/size}":
+    show text "{color=#000}{size=+10}eos hetascans\n[config.name!t] remake\nversion [config.version!t]{/color}{/size}":
         xalign 0.5
         yalign 0.3
 
-    ## The first time the game is launched, players cannot skip the animation.
     if not persistent.seen_splash:
         
-        ## No input will be detected for the set time stated.
-        ## Set this to be a little longer than how long the animation takes.
         $ renpy.pause(4.2, hard=True)
  
         $ persistent.seen_splash = True
     
-    ## Players can skip the animation in subsequent launches of the game.
     else:
         if renpy.pause(4.2):
             jump skip_splash
@@ -64,7 +69,7 @@ label splashscreen:
 init python:
     bird_frames = []
     for i in range(46):  # from 0 to 45
-        frame = "gui/birds/birds_{:02}.png".format(i)
+        frame = "gui/splash/birds/birds_{:02}.png".format(i)
         bird_frames.append((frame, 0.08))
 
 image birds = Animation(*sum(bird_frames, ()))

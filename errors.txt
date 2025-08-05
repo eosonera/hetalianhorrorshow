@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens/preferences.rpy", line 210: expected 'simple_expression' not found.
-    bar_invert
-              ^
+File "game/screens/preferences.rpy", line 246: Line is indented, but the preceding activate_sound statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    action Function(delete_all_saves)
+    ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Fri Aug  1 22:15:37 2025
+Tue Aug  5 22:41:32 2025

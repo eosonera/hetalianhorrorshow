@@ -7,6 +7,7 @@
 ##
 ## https://www.renpy.org/doc/html/history.html
 
+define config.history_current_dialogue = False
 
 screen history():
 
@@ -15,39 +16,50 @@ screen history():
     ## Avoid predicting this screen, as it can be very large.
     predict False
 
+    button:
+        action Return()
+        background None
+        xysize (900, 600)
+        focus_mask None
+
     use game_menu(_("History"))
-
-    viewport:
-        style_prefix 'game_menu'
-        mousewheel True draggable True pagekeys True
-        scrollbars "vertical" yinitial 1.0
-
-        has vbox
-
+    add "gui/bg backlog.png":
+        xpos 138
+        ypos 109
+    add "gui/scrollbar/log_1.png":
+        xpos 684
+        ypos 201
+    
+    frame:
         style_prefix "history"
+        viewport:
+            xpos 227
+            ypos 202
+            xsize 462
+            ysize 230
+            mousewheel True draggable True pagekeys True
+            scrollbars "vertical" yinitial 1.0
 
-        for h in _history_list:
+            vbox:
+                spacing 30
+                for h in _history_list:
 
-            frame:
-                has hbox
-                if h.who:
-                    label h.who style 'history_name':
-                        substitute False
-                        ## Take the color of the who text
-                        ## from the Character, if set
-                        if "color" in h.who_args:
-                            text_color h.who_args["color"]
-                        xsize 200   # this number and the null width
-                                    # number should be the same
-                else:
-                    null width 200
+                    frame:
+                        vbox:
+                            spacing 10
+                            if h.who:
+                                label "【　{}　】".format(h.who) style 'history_name':
+                                    substitute False
+                                    xsize 200   
+                            else:
+                                null height 0
 
-                $ what = renpy.filter_text_tags(h.what, allow=gui.history_allow_tags)
-                text what:
-                    substitute False
+                            $ what = renpy.filter_text_tags(h.what, allow=gui.history_allow_tags)
+                            text what:
+                                substitute False
 
-        if not _history_list:
-            label _("The dialogue history is empty.")
+            if not _history_list:
+                label _(" ")
 
 
 ## This determines what tags are allowed to be displayed on the history screen.
@@ -55,33 +67,26 @@ screen history():
 define gui.history_allow_tags = { "alt", "noalt", "rt", "rb", "art" }
 
 
-style history_frame:
-    xsize 1400
-    ysize None
-    background None
-
-style history_hbox:
-    spacing 20
-
-style history_vbox:
-    spacing 20
-
 style history_name:
-    xalign 1.0
+    xalign 0
 
-style history_name_text:
-    textalign 1.0
-    align (1.0, 0.0)
-    color '#f93c3e'
+style history_name_text is history_text
 
 style history_text:
     textalign 0.0
+    size 16
+    color "#fff"
+    outlines [(1.2, "#597a87", 0, 0)]
 
 style history_label:
     xfill True
 
-style history_label_text:
-    xalign 0.5
+style history_vscrollbar:
+    xsize 16
+    ysize 232
+    yoffset -5
+    thumb "gui/slider/thumb_0.png"
+    hover_thumb "thumb_hover_anim"
 
 
 ## History Config #####################################################################
@@ -108,5 +113,5 @@ define gui.history_name_xalign = 1.0
 ## The position, width, and alignment of the dialogue text.
 define gui.history_text_xpos = 120
 define gui.history_text_ypos = 2
-define gui.history_text_width = 521
+define gui.history_text_width = 430
 define gui.history_text_xalign = 0.0

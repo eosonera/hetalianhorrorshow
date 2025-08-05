@@ -11,39 +11,59 @@
 
 
 screen about():
-
     tag menu
+    
+    use game_menu2(_("About"))
 
-    use game_menu(_("About"))
+    add "gui/bg backlog2.png":
+        xpos 138
+        ypos 109
+    
+    add "gui/scrollbar/log_1.png":
+        xpos 684
+        ypos 201
 
+    if renpy.variant("mobile"):
+        imagebutton:
+            xalign 1.0
+            yalign 0
+            idle "gui/button/return.png"
+            action ShowMenu("menu_open2")
+
+    style_prefix "about"
     viewport:
-        style_prefix 'game_menu'
+        xpos 230
+        ypos 202
+        xsize 468
+        ysize 232
+        mousewheel True draggable True pagekeys True
+        scrollbars "vertical" yinitial 1.0
 
-        has vbox
-        style_prefix "about"
-
-        label "[config.name!t]"
-        text _("Version [config.version!t]\n")
-
-        if gui.about:
-            text "[gui.about!t]\n"
-
-        text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
 
         vbox:
-            style_prefix "pref"
-            label _("Language")
-            textbutton "Japanese" action Language(None)
-            textbutton "English" action Language("english")
-    
-        textbutton _("Return"):
-            action Return()
-            xalign 1.0
-            yalign 1.0
+            xsize 400
+            text "[config.name!t]"
+            text _("バージョン [config.version!t]\n")
+
+            text _("Full fan remake and translation of The Hetalian Horror Show by the hetascanlations team.\n")
+
+            text _("Made with {a=https://ja.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"):
+                size 10
 
 
-style about_label_text:
-    size 36
+style hyperlink_text:
+    color "#875832"
+
+
+style about_text:
+    color "#42352D"
+    size 14
+
+
+style about_vscrollbar is history_vscrollbar
+style about_vscrollbar:
+    unscrollable gui.unscrollable
+
 
 
 ## Help screen #################################################################
@@ -57,160 +77,165 @@ screen help():
     tag menu
 
     default device = "keyboard"
+    modal False
 
+    use game_menu2(_("Help"))
 
-    use game_menu(_("Help"))
+    add "gui/bg backlog2.png":
+        xpos 138
+        ypos 109
 
-    viewport:
-        style_prefix 'game_menu'
-        mousewheel True draggable True pagekeys True
-        scrollbars "vertical"
-
-        has vbox
-        style_prefix "help"
-        spacing 23
-
+    frame:
         hbox:
-
-            textbutton _("Keyboard") action SetScreenVariable("device", "keyboard")
-            textbutton _("Mouse") action SetScreenVariable("device", "mouse")
+            ypos 140
+            xalign 0.56
+            spacing 20
+            
+            style_prefix "help1"
+            textbutton _("キーボード") action SetScreenVariable("device", "keyboard")
+            textbutton _("マウス") action SetScreenVariable("device", "mouse")
 
             if GamepadExists():
-                textbutton _("Gamepad") action SetScreenVariable("device", "gamepad")
+                textbutton _("ゲームパッド") action SetScreenVariable("device", "gamepad")
+                
+        viewport:
+            xalign 0.65
+            ypos 200
+            xsize 500
+            ysize 250
+            mousewheel True draggable True pagekeys True
+            scrollbars "vertical"
+            style_prefix "help"
 
-        if device == "keyboard":
-            use keyboard_help
-        elif device == "mouse":
-            use mouse_help
-        elif device == "gamepad":
-            use gamepad_help
+            vbox:
+                xalign 0.5
+                spacing 10
+
+                if device == "keyboard":
+                    use keyboard_help
+                elif device == "mouse":
+                    use mouse_help
+                elif device == "gamepad":
+                    use gamepad_help
 
 
 screen keyboard_help():
 
     hbox:
-        label _("Enter")
-        text _("Advances dialogue and activates the interface.")
+        label _("エンター")
+        text _("台詞を読み進める。またはボタンを選択する。")
 
     hbox:
-        label _("Space")
-        text _("Advances dialogue without selecting choices.")
+        label _("スペース")
+        text _("台詞を読み進める。ただしボタンは選択しない。")
 
     hbox:
-        label _("Arrow Keys")
-        text _("Navigate the interface.")
+        label _("方向キー")
+        text _("インターフェースを移動する。")
 
     hbox:
-        label _("Escape")
-        text _("Accesses the game menu.")
+        label _("ESC")
+        text _("ゲームメニューを開く。")
 
     hbox:
         label _("Ctrl")
-        text _("Skips dialogue while held down.")
+        text _("押し続けている間スキップする。")
 
     hbox:
         label _("Tab")
-        text _("Toggles dialogue skipping.")
+        text _("スキップモードに切り替える。")
 
     hbox:
         label _("Page Up")
-        text _("Rolls back to earlier dialogue.")
+        text _("前の台詞に戻る。")
 
     hbox:
         label _("Page Down")
-        text _("Rolls forward to later dialogue.")
+        text _("ロールバック中、次の台詞に進む。")
 
     hbox:
         label "H"
-        text _("Hides the user interface.")
+        text _("インターフェースを隠す。")
 
     hbox:
         label "S"
-        text _("Takes a screenshot.")
-
-    hbox:
-        label "V"
-        text _("Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}.")
-
-    hbox:
-        label "Shift+A"
-        text _("Opens the accessibility menu.")
+        text _("スクリーンショットを撮る。")
 
 
 screen mouse_help():
 
     hbox:
-        label _("Left Click")
-        text _("Advances dialogue and activates the interface.")
+        label _("左クリック")
+        text _("台詞を読み進める。またはボタンを選択する。")
 
     hbox:
-        label _("Middle Click")
-        text _("Hides the user interface.")
+        label _("中クリック")
+        text _("インターフェースを隠す。")
 
     hbox:
-        label _("Right Click")
-        text _("Accesses the game menu.")
+        label _("右クリック")
+        text _("ゲームメニューを開く。")
 
     hbox:
-        label _("Mouse Wheel Up\nClick Rollback Side")
-        text _("Rolls back to earlier dialogue.")
+        label _("マウスホイール上回転")
+        text _("前の台詞に戻る。")
 
     hbox:
-        label _("Mouse Wheel Down")
-        text _("Rolls forward to later dialogue.")
+        label _("マウスホイール下回転")
+        text _("ロールバック中、次の台詞に進む。")
 
 
 screen gamepad_help():
 
     hbox:
-        label _("Right Trigger\nA/Bottom Button")
-        text _("Advances dialogue and activates the interface.")
+        label _("Ｒトリガー\nＡ／下ボタン")
+        text _("台詞を読み進める。またはボタンを選択する。")
 
     hbox:
-        label _("Left Trigger\nLeft Shoulder")
-        text _("Rolls back to earlier dialogue.")
+        label _("Ｌトリガー\nＬボタン")
+        text _("前の台詞に戻る。")
 
     hbox:
-        label _("Right Shoulder")
-        text _("Rolls forward to later dialogue.")
-
-
-    hbox:
-        label _("D-Pad, Sticks")
-        text _("Navigate the interface.")
+        label _("Ｒボタン")
+        text _("ロールバック中、次の台詞に進む。")
 
     hbox:
-        label _("Start, Guide, B/Right Button")
-        text _("Accesses the game menu.")
+        label _("方向パッド\n左右スティック")
+        text _("インターフェースを移動する。")
 
     hbox:
-        label _("Y/Top Button")
-        text _("Hides the user interface.")
+        label _("スタート、ガイド、 B / Right ボタン")
+        text _("ゲームメニューを開く。")
 
-    textbutton _("Calibrate") action GamepadCalibrate()
+    hbox:
+        label _("Ｙ／上ボタン")
+        text _("インターフェースを隠す。")
+
+    textbutton _("キャリブレート"):
+        xalign 1.0
+        style_prefix "help1"
+        action GamepadCalibrate()
 
 
-style help_button:
-    xmargin 12
+style help1_button is confirm_button
+style help1_button_text is confirm_button_text
+style help1_button_text:
+    xsize 400
+
+style help_text:
+    size 12
 
 style help_label:
-    xsize 375
-    right_padding 30
+    xsize 130
 
 style help_label_text:
-    xalign 1.0
-    textalign 1.0
+    size 12
+    xalign 0
+    textalign 0
 
-## Menu open screen ################################################################
-##
-##
-##
-##
-##
+style help_button_text:
+    hover_color '#5e422b'
 
-screen menu_open():
-
-    tag menu
-
-    use game_menu(_("Menu"), scroll="viewport"):
-        style_prefix "about"
+style help_vscrollbar is history_vscrollbar
+style help_vscrollbar:
+    unscrollable gui.unscrollable

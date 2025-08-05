@@ -13,6 +13,7 @@ init python:
 
 ## Enable checks for invalid or unstable properties in screens or transforms
 define config.check_conflicting_properties = True
+define config.log = "log.txt"
 
 
 ################################################################################
@@ -26,39 +27,42 @@ default _game_menu_screen = "menu_open"
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = '#0099cc'
+define gui.accent_color = '#5B4A40'
 
 ## The color used for a text button when it is neither selected nor hovered.
-define gui.idle_color = '#5B4A40'
+define gui.idle_color = '#42352D'
 
 ## The small color is used for small text, which needs to be brighter/darker to
 ## achieve the same effect.
 define gui.idle_small_color = '#aaaaaa'
 
 ## The color that is used for buttons and bars that are hovered.
-define gui.hover_color = '#66c1e0'
+define gui.hover_color = '#5e422b'
 
 ## The color used for a text button when it is selected but not focused. A
 ## button is selected if it is the current screen or preference value.
-define gui.selected_color = '#ffffff'
+define gui.selected_color = '#5B4A40'
 
 ## The color used for a text button when it cannot be selected.
 define gui.insensitive_color = '#8888887f'
 
-## Colors used for the portions of bars that are not filled in. These are not
-## used directly, but are used when re-generating bar image files.
-define gui.muted_color = '#003d51'
-define gui.hover_muted_color = '#005b7a'
 
 ## The colors used for dialogue and menu choice text.
-define gui.text_color = '#5B4A40'
-define gui.interface_text_color = '#5B4A40'
+define gui.text_color = '#42352D'
+define gui.interface_text_color = '#42352D'
 
 
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "msgothic.ttc"
+define gui.text_font = gui.preference("font", default="msgothic.ttc")
+
+# translate japanese python:
+#     gui.text_font = "SourceHanSans-Light.otf"
+
+# translate japanese style default:
+#     language "japanese-strict"
+ 
 
 ## The font used for character names.
 define gui.name_text_font = "msgothic.ttc"
@@ -176,8 +180,7 @@ define gui.choice_button_text_insensitive_color = '#8888887f'
 ## image files in gui/button, like the other kinds of buttons.
 
 ## The save slot button.
-define gui.slot_button_width = 195
-define gui.slot_button_height = 145
+
 define gui.slot_button_borders = Borders(8, 8, 8, 8)
 define gui.slot_button_text_size = 10
 define gui.slot_button_text_xalign = 0.5
@@ -214,11 +217,6 @@ define gui.pref_spacing = 8
 ## Controls the amount of spacing between preference buttons.
 define gui.pref_button_spacing = 0
 
-## The spacing between file page buttons.
-define gui.page_spacing = 0
-
-## The spacing between file slots.
-define gui.slot_spacing = 8
 
 ## The position of the main menu text.
 define gui.main_menu_text_xalign = 1.0
@@ -282,8 +280,8 @@ define gui.unscrollable = "hide"
 ## Localization ################################################################
 
 ## This controls where a line break is permitted. The default is suitable
-## for most languages. A list of available values can be found at https://
-## www.renpy.org/doc/html/style_properties.html#style-property-language
+## for most languages. A list of available values can be found at 
+## https://www.renpy.org/doc/html/style_properties.html#style-property-language
 
 define gui.language = "unicode"
 
@@ -299,7 +297,7 @@ init python:
     @gui.variant
     def touch():
 
-        gui.quick_button_borders = Borders(29, 10, 29, 0)
+        gui.quick_button_borders = Borders(30, 10, 30, 0)
 
     ## This changes the size and spacing of various GUI elements to ensure they
     ## are easily visible on phones.
@@ -334,9 +332,6 @@ init python:
 
         gui.quick_button_text_size = 15
 
-        ## File button layout.
-        gui.file_slot_cols = 2
-        gui.file_slot_rows = 2
 
         ## NVL-mode.
         gui.nvl_height = 120

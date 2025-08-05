@@ -10,9 +10,6 @@ style input:
     properties gui.text_properties("input", accent=True)
     adjust_spacing False
 
-style hyperlink_text:
-    properties gui.text_properties("hyperlink", accent=True)
-    hover_underline True
 
 style gui_text:
     properties gui.text_properties("interface")
@@ -26,7 +23,7 @@ style button_text is gui_text:
 
 
 style label_text is gui_text:
-    properties gui.text_properties("label", accent=True)
+    properties gui.text_properties("label")
 
 style prompt_text is gui_text:
     properties gui.text_properties("prompt")

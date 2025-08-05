@@ -27,10 +27,10 @@ style choice_button:
     background Frame("gui/button/choice_[prefix_]background.png",
         150, 25, 150, 25, tile=False)
     padding (12, 12)
+    hover_color "#fff"
 
 style choice_button_text:
     is default # This means it doesn't use the usual button text styling
     xalign 0.5 yalign 0.5
-    idle_color "#ccc"
+    color "#74BEC4"
     hover_color "#fff"
-    insensitive_color "#444"

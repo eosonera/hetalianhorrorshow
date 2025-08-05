@@ -1,11 +1,11 @@
-2025-08-01 21:12:25 UTC
+2025-08-05 21:34:46 UTC
 Windows-10-10.0.26100
 Ren'Py 8.3.7.25031702
 
 Early init took 0.05s
 Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
+Loading script took 0.07s
+Loading save slot metadata took 0.01s
 Loading persistent took 0.00s
 Running init code took 0.03s
 Loading analysis data took 0.01s
@@ -19,7 +19,7 @@ Initial gc took 0.02s
 DPI scale factor: 1.750000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.15s
+Creating interface object took 0.14s
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
@@ -28,4 +28,167 @@ Analyze screens took 0.00s
 Save screen analysis took 0.00s
 Prepare screens took 0.03s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.40'
+Display Info: None
+Screen sizes: virtual=(900, 600) physical=(1575, 1050) drawable=(1575, 1050)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+5
+

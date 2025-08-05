@@ -7,88 +7,214 @@
 ## https://www.renpy.org/doc/html/screen_special.html#save
 ## https://www.renpy.org/doc/html/screen_special.html#load
 
+default persistent.saveName = True
+
+screen save():
+    modal True
+    add "gui/bg save.png":
+        xpos 118
+        ypos 150
+    use file_slots(_("Save"))
+
+screen load():
+    modal True
+    add "gui/bg load.png":
+        xpos 118
+        ypos 150
+    use file_slots(_("Load"))
+
+screen file_slots(title):
+    modal True
+    
+    button:
+        if main_menu:
+            action Hide("load")
+        else:
+            action Return()
+        background None
+        xysize (900, 600)
+        focus_mask None
+
+    add "gui/scrollbar/scrollbar.png":
+        xpos 702
+        ypos 241
+
+    frame:
+
+        viewport:
+            style_prefix "slot"
+            mousewheel True draggable True pagekeys True
+            scrollbars "vertical"
+            xpos 213
+            ypos 243
+            xsize 508
+            ysize 178
+
+            vbox:
+                spacing 0
+
+                for slot in range(1, file_slot_rows + 1):
+
+                    button:
+                        ysize 25
+                        xsize 490
+                        hovered ShowTransient("dynamic_preview", what=get_save_preview(slot))
+                        unhovered Hide("dynamic_preview")
+                        if renpy.get_screen("load"):
+                            hover_background Solid("#c4e9ff80")
+                        else:
+                            hover_background Solid("#baffe480")
+                        
+
+                        if renpy.get_screen("save") and persistent.saveName:
+                            action [Function(SetSaveName, slot), Show("savegameName", slot=slot, accept=FileSave(slot))]
+                        else:
+                            action [Function(SetSaveName, slot), FileAction(slot)]
+
+                        hbox:
+                            if FileNewest(slot):
+                                frame:
+                                    xsize 32
+                                    yoffset -6
+                                    add "gui/button/check_0.png":
+                                        at check_hover
+                                        yalign 1
+                            else:
+                                null width 32
+                                
+                            null width 2
+
+                            text "[slot:02d].":
+                                if renpy.get_screen("load"):
+                                    style "slot_load_text"
+                                else:
+                                    style "slot_save_text"
+                            
+                            null width 7
+
+                            $ file_time = FileTime(slot, format=_("%m/%d  %H:%M"), empty="--/--  --:--") or "--/-- --:--"
+                            text "[file_time]":
+                                if renpy.get_screen("load"):
+                                    style "slot_load_text"
+                                else:
+                                    style "slot_save_text"
+
+                            null width 25
+                            
+                            text FileSaveName(slot, empty=27*'-'):
+                                if renpy.get_screen("load"):
+                                    style "slot_load_text"
+                                else:
+                                    style "slot_save_text"
+                            
+
+
+
+screen savegameName(slot, accept=NullAction()):
+    modal True
+    zorder 200
+    style_prefix "confirm_input"
+
+    default save_name = ""
+
+    add "gui/bg confirm_input.png":
+        xpos 206
+        ypos 192
+    add "gui/input.png":
+        xpos 334
+        ypos 290
+        
+    frame:
+        xpos 290
+        xsize 318
+        ypos 260
+        label _("[slot]番にセーブします"):
+            style "confirm_input_prompt"
+            xalign 0.5
+            
+    frame:
+        xpos 296
+        ypos 289
+
+        hbox:
+            spacing 5
+            text _("メモ"):
+                color "#000"
+                
+            input:
+                default store.save_name
+                changed Namer
+                length 27
+                yalign 1.0
+                xalign 0
+                xysize (550, 40)
+                color "#000"
+
+    hbox:
+        xpos 307
+        ypos 315  
+        spacing 11
+        textbutton _("OK"):
+            action [accept, Hide("savegameName")]
+
+        textbutton _("キャンセル"):
+            action Hide("savegameName")
+
+style confirm_input_prompt_text is confirm_prompt_text
+style confirm_input_prompt_text:
+    color "#000"
+    size 16
+
+style confirm_input_button is confirm_button
+style confirm_input_button_text is confirm_button_text
+
+
+screen dynamic_preview(what):
+    add what
+
+init python:
+    def get_save_preview(slot):
+        if FileLoadable(slot):
+            preview = FileScreenshot(slot)
+            return TrackCursor(preview)
+        else:
+            return None
+
+
+
+
+## Styles
+
+style slot_save_text:
+    size 16
+    color "#fff"
+    outlines [(1.2, "#597a87", 0, 0)]
+    hover_color "#a6cfc1"
+    hover_outlines [(1.2, "#fff", 0, 0)]
+
+style slot_load_text:
+    size 16
+    color "#fff"
+    outlines [(1.2, "#5b728e", 0, 0)]
+    hover_color "#b8b8ff"
+    hover_outlines [(1.2, "#fff", 0, 0)]
+
+style slot_vscrollbar:
+    xsize 25
+    ysize 105
+    yoffset 40
+    thumb_offset 15
+    thumb "gui/scrollbar/scrollbar_thumb.png"
 
 ## The width and height of thumbnails used by the save slots.
 define config.thumbnail_width = 270
 define config.thumbnail_height = 180
 define file_slot_rows = 50
 
-screen save():
-    add "gui/save.png":
-        xpos 118
-        ypos 150
-    use file_slots(_("Save"))
-
-screen load():
-    add "gui/load.png":
-        xpos 118
-        ypos 150
-    use file_slots(_("Load"))
-
-screen file_slots(title):
-    
-    frame:
-        xpos 220
-        ypos 245
-        xsize 460
-        ysize 180
-        
-        vbox:
-            spacing 0
-            
-            viewport:
-                mousewheel True draggable True pagekeys True
-                scrollbars "vertical"
-                
-                vbox:
-                    spacing 0
-                    style_prefix "slot"
-                    
-                    for i in range(1, file_slot_rows + 1):
-                        hbox:
-                            spacing 0
-                            
-                            # Save slot button
-                            button:
-                                ysize 30
-                                action FileAction(i)
-                                hovered ShowTransient("save_preview", slot=i)
-                                unhovered Hide("save_preview")
-                                
-                                hbox:
-                                    
-                                    # Save info
-                                    vbox:
-                                        
-                                        text "[i:02d]. [FileTime(i, format=_('%m/%d %H:%M'), empty=_('--/-- --:--'))]":
-                                            style "slot_text"
-                                        
-                                        text FileSaveName(i):
-                                            style "slot_text"
-                            
-            
-            # Close button at bottom
-            textbutton _("Return"):
-                xalign 1.0
-                
-                if main_menu:
-                    pass
-                else:
-                    action Return()
-
-
-screen save_preview(slot):
-    if FileLoadable(slot):
-        frame:
-            xalign 1.0
-            yalign 0.0            
-            vbox:
-                add FileScreenshot(slot):
-                    size (config.thumbnail_width, config.thumbnail_height)
-
-## Styles
-
-style slot_text:
-    color "#728f9b"
-    size 22
+init python:
+    import string
+    def SetSaveName(slot):
+        Namer(FileSaveName(slot))
+    def Namer(name):
+        store.save_name = name
 

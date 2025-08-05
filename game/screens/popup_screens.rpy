@@ -8,26 +8,30 @@
 
 screen confirm(message, yes_action, no_action=None):
 
-    ## Ensure other screens do not get input while this screen is displayed.
     modal True
-
     zorder 200
-
     style_prefix "confirm"
 
-    add "gui/overlay/confirm.png"
+    add "gui/bg confirm.png":
+        xpos 206
+        ypos 192
 
     frame:
-        has vbox
-
+        xpos 305
+        ypos 260
         label _(message) style "confirm_prompt"
+            
+        null height 10
 
-        hbox:
-
-            textbutton _("Confirm") action yes_action
-            # Modified so you can just have a confirmation prompt
-            if no_action is not None:
-                textbutton _("Cancel") action no_action
+    hbox:
+        xpos 306
+        ypos 290   
+        spacing 11
+        
+        textbutton _("OK") action yes_action
+        if no_action is not None:
+            textbutton _("キャンセル") action no_action
+                    
 
     ## Right-click and escape answer "no".
     if no_action is not None:
@@ -35,33 +39,24 @@ screen confirm(message, yes_action, no_action=None):
     else:
         key "game_menu" action yes_action
 
-style confirm_frame:
-    background Frame([ "gui/confirm_frame.png", "gui/frame.png"], gui.confirm_frame_borders, tile=gui.frame_tile)
-    padding (60, 60, 60, 60)
-    xalign 0.5
-    yalign 0.5
 
-style confirm_vbox:
-    align (0.5, 0.5)
-    spacing 45
 
-style confirm_prompt:
-    xalign 0.5
 
 style confirm_prompt_text:
-    textalign 0.5
-    align (0.5, 0.5)
+    color "#000"
+    size 13
     layout "subtitle"
 
-style confirm_hbox:
-    xalign 0.5
-    spacing 150
-
 style confirm_button:
-    xalign 0.5
+    background "gui/button/confirm_button_0.png"
+    hover_background "gui/button/confirm_button_1.png"
+    xsize 138
+    ysize 49
+
 
 style confirm_button_text:
-    textalign 0.5
+    xalign 0.5
+    color "#000"
 
 
 
@@ -76,6 +71,10 @@ screen notify(message):
 
     zorder 100
     style_prefix "notify"
+
+    add "gui/bg confirm.png":
+        xpos 206
+        ypos 192
 
     frame at notify_appear:
         text "[message!tq]"
@@ -92,14 +91,14 @@ transform notify_appear:
 
 
 style notify_frame:
-    is empty
-    ypos 68
+    xpos 305
+    ypos 260
+    xsize 366
+    ysize 90
 
-    background Frame("gui/notify.png", 24, 8, 60, 8, tile=False)
-    padding (24, 8, 60, 8)
 
 style notify_text:
-    size 24
+    size 14
 
 
 

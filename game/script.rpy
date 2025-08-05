@@ -13,6 +13,7 @@ define na = Character(None,
     window_background="textbox_center.png",
     window_xalign=0,
     window_yalign=0,
+    window_xsize=700,
     what_xpos=180,
     what_ypos=210,
     what_color="#5B4A40",
@@ -23,6 +24,7 @@ define na = Character(None,
 
 define na2 = Character(None,
     image="na2",
+    window_xsize=700,
     ctc="ctc_button",
     ctc_position="nestled")
 
@@ -55,8 +57,7 @@ label start:
     scene bg romania_room at top
 
 
-    na "「７カ国が集まる国際怖い話会合があるから\n
-    そこで話を聞いてきてくれないかなー？
+    na "「７カ国が集まる国際怖い話会合があるからそこで話を聞いてきてくれないかなー？
     \n\n{space=200}その一言でそれは始まった。"
 
     scene bg romania_room3 at top
@@ -270,6 +271,10 @@ label start:
     show romania cry_eh
     with dissolve
     rom "…え！？"
+
+    scene bg exterior1 at top
+
+    na "こうしてブルガリアさんは、\n集められた７カ国から怖い話を聞くべく\n今日の会場へと向かう事になったのだった。"
 
 
     # The game ends here

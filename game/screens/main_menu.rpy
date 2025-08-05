@@ -57,3 +57,12 @@ screen main_menu():
                 activate_sound "sfx/bell01.ogg"
             at fade_in_title
 
+        imagebutton:
+            xalign 1.0
+            yalign 1.0
+            activate_sound "sfx/bell01.ogg"
+            idle "gui/button/title_07.png"
+            hover "gui/button/title2_07.png"
+            action ShowMenu("menu_open2")
+            at fade_in_title
+

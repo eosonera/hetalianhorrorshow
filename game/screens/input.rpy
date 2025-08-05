@@ -13,7 +13,7 @@ screen input(prompt):
     style_prefix "input"
 
     window:
-        # This makes the background the same as the ADV dialogue box
+        
 
         vbox:
             xanchor 0.0 ypos 20 spacing 10
@@ -23,8 +23,10 @@ screen input(prompt):
 style input_prompt:
     xalign 0.0
 
+
+
 style input:
     xalign 0.0
     xmaximum 1116
-
+    color "#000"
 

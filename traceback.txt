@@ -1,61 +1,76 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/screens/save_load.rpy", line 22, in execute
-    screen load():
-  File "game/screens/save_load.rpy", line 22, in execute
-    screen load():
-  File "game/screens/save_load.rpy", line 26, in execute
-    use file_slots(_("Load"))
-TypeError: too many positional arguments
+After initialization, but before game start.
+  File "game/screens/preferences.rpy", line 196, in prepare_screen
+    screen preferences():
+  File "game/screens/preferences.rpy", line 196, in prepare
+    screen preferences():
+  File "game/screens/preferences.rpy", line 206, in prepare
+    viewport:
+  File "game/screens/preferences.rpy", line 206, in prepare
+    viewport:
+  File "game/screens/preferences.rpy", line 214, in prepare
+    has vbox
+  File "game/screens/preferences.rpy", line 214, in prepare
+    has vbox
+  File "game/screens/preferences.rpy", line 216, in prepare
+    vbox:
+  File "game/screens/preferences.rpy", line 216, in prepare
+    vbox:
+  File "game/screens/preferences.rpy", line 243, in prepare
+    vbox:
+  File "game/screens/preferences.rpy", line 243, in prepare
+    vbox:
+  File "game/screens/preferences.rpy", line 244, in prepare
+    textbutton (_"すべてのセーブデータを削除する"):
+SyntaxError: invalid syntax (game/screens/preferences.rpy, line 244)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
-    python hide:
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\ast.py", line 834, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\python.py", line 1187, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
-    python hide:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
-    ui.interact()
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\core.py", line 2218, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\core.py", line 2748, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  [Previous line repeated 1 more time]
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\screen.py", line 480, in visit_all
-    callback(self)
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\core.py", line 2748, in <lambda>
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\screen.py", line 491, in per_interact
-    self.update()
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\screen.py", line 700, in update
-    self.screen.function(**self.scope)
-  File "game/screens/save_load.rpy", line 22, in execute
-    screen load():
-  File "game/screens/save_load.rpy", line 22, in execute
-    screen load():
-  File "game/screens/save_load.rpy", line 26, in execute
-    use file_slots(_("Load"))
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\parameter.py", line 313, in apply
-    _raise(TypeError, 'too many positional arguments')
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\parameter.py", line 253, in _raise
-    raise exct(msg.format(*argz, **kwargz)) # from None
-TypeError: too many positional arguments
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\main.py", line 652, in main
+    run(restart)
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\main.py", line 94, in run
+    renpy.display.screen.prepare_screens()
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\screen.py", line 1027, in prepare_screens
+    s.ast.prepare_screen()
+  File "game/screens/preferences.rpy", line 196, in prepare_screen
+    screen preferences():
+  File "game/screens/preferences.rpy", line 196, in prepare
+    screen preferences():
+  File "game/screens/preferences.rpy", line 206, in prepare
+    viewport:
+  File "game/screens/preferences.rpy", line 206, in prepare
+    viewport:
+  File "game/screens/preferences.rpy", line 214, in prepare
+    has vbox
+  File "game/screens/preferences.rpy", line 214, in prepare
+    has vbox
+  File "game/screens/preferences.rpy", line 216, in prepare
+    vbox:
+  File "game/screens/preferences.rpy", line 216, in prepare
+    vbox:
+  File "game/screens/preferences.rpy", line 243, in prepare
+    vbox:
+  File "game/screens/preferences.rpy", line 243, in prepare
+    vbox:
+  File "game/screens/preferences.rpy", line 244, in prepare
+    textbutton (_"すべてのセーブデータを削除する"):
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\py3analysis.py", line 803, in ast_eval
+    return self.ast_eval_literal(expr)[0]
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\py3analysis.py", line 785, in ast_eval_literal
+    expr = py_compile(expr, 'eval', ast_node=True)
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\python.py", line 1153, in py_compile
+    raise e
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\python.py", line 1090, in py_compile
+    raise orig_e
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\python.py", line 1082, in py_compile
+    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
+SyntaxError: invalid syntax (game/screens/preferences.rpy, line 244)
 
 Windows-10-10.0.26100 AMD64
 Ren'Py 8.3.7.25031702
-hetalianhorrorshow 0.0.1
-Fri Aug  1 22:29:53 2025
+The HETALIAN HORROR SHOW 0.0.3
+Tue Aug  5 22:39:47 2025

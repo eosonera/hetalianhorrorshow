@@ -475,71 +475,71 @@ translate None strings:
 
     # renpy/common/00gui.rpy:448
     old "Are you sure?"
-    new "Are you sure?"
+    new "続けますか？"
 
     # renpy/common/00gui.rpy:449
     old "Are you sure you want to delete this save?"
-    new "Are you sure you want to delete this save?"
+    new "このセーブデータを消去しますか？"
 
     # renpy/common/00gui.rpy:450
     old "Are you sure you want to overwrite your save?"
-    new "Are you sure you want to overwrite your save?"
+    new "このセーブデータに上書きしますか？"
 
     # renpy/common/00gui.rpy:451
     old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
-    new "Loading will lose unsaved progress.\nAre you sure you want to do this?"
+    new "ロードすると、セーブされていない進行状況は失われます。\nロードしますか？"
 
     # renpy/common/00gui.rpy:452
     old "Are you sure you want to quit?"
-    new "Are you sure you want to quit?"
+    new "終了しますか？"
 
     # renpy/common/00gui.rpy:453
     old "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
-    new "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
+    new "メインメニューに戻りますか？\nセーブされていない進行状況は失われます。"
 
     # renpy/common/00gui.rpy:454
     old "Are you sure you want to continue where you left off?"
-    new "Are you sure you want to continue where you left off?"
+    new "続きから開始しますか"
 
     # renpy/common/00gui.rpy:455
     old "Are you sure you want to end the replay?"
-    new "Are you sure you want to end the replay?"
+    new "リプレイを終了しますか？"
 
     # renpy/common/00gui.rpy:456
     old "Are you sure you want to begin skipping?"
-    new "Are you sure you want to begin skipping?"
+    new "スキップを開始しますか？"
 
     # renpy/common/00gui.rpy:457
     old "Are you sure you want to skip to the next choice?"
-    new "Are you sure you want to skip to the next choice?"
+    new "次の選択肢までスキップしますか？"
 
     # renpy/common/00gui.rpy:458
     old "Are you sure you want to skip unseen dialogue to the next choice?"
-    new "Are you sure you want to skip unseen dialogue to the next choice?"
+    new "次の選択肢まで、未読テキストをスキップしますか？"
 
     # renpy/common/00gui.rpy:459
     old "This save was created on a different device. Maliciously constructed save files can harm your computer. Do you trust this save's creator and everyone who could have changed the file?"
-    new "This save was created on a different device. Maliciously constructed save files can harm your computer. Do you trust this save's creator and everyone who could have changed the file?"
+    new "このセーブデータは、別のデバイスで作成されたものです。悪意を持って作成されたセーブデータは、あなたのコンピューターに害を及ぼす可能性があります。このセーブデータの作成者と、セーブデータを変更した可能性のあるすべての人を信用しますか？"
 
     # renpy/common/00gui.rpy:460
     old "Do you trust the device the save was created on? You should only choose yes if you are the device's sole user."
-    new "Do you trust the device the save was created on? You should only choose yes if you are the device's sole user."
+    new "セーブデータが作成されたデバイスを信頼しますか？あなたがそのデバイスの唯一のユーザーである場合のみ、「はい」を選択するべきです。"
 
     # renpy/common/00keymap.rpy:325
     old "Failed to save screenshot as %s."
-    new "Failed to save screenshot as %s."
+    new "ファイル名 %s のスクリーンショットの保存に失敗しました。"
 
     # renpy/common/00keymap.rpy:346
     old "Saved screenshot as %s."
-    new "Saved screenshot as %s."
+    new "スクリーンショットを %s に保存しました。"
 
     # renpy/common/00library.rpy:257
     old "Skip Mode"
-    new "Skip Mode"
+    new "スキップモード"
 
     # renpy/common/00library.rpy:344
     old "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}."
-    new "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}."
+    new "本プログラムは、MIT License や GNU Lesser General Public License など、様々なライセンスのフリーウェアを含んでいます。 フルソースコードへのリンクを含む、完全なソフトウェアのリストは、{a=https://www.renpy.org/l/license}ここ{/a}にあります。"
 
     # renpy/common/00preferences.rpy:290
     old "display"

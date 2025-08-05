@@ -7,44 +7,19 @@
 
 ## Basics ######################################################################
 
-## A human-readable name of the game. This is used to set the default window
-## title, and shows up in the interface and error reports.
-##
-## The _() surrounding the string marks it as eligible for translation.
-
-define config.name = _("hetalianhorrorshow")
-
-
-## Determines if the title given above is shown on the main menu screen. Set
-## this to False to hide the title.
+## Human-readable game name
+define config.name = "The HETALIAN HORROR SHOW"
 
 define gui.show_name = False
 
+## Game ver
+define config.version = "0.0.3"
 
-## The version of the game.
-
-define config.version = "0.0.1"
-
-
-## Text that is placed on the game's about screen. Place the text between the
-## triple-quotes, and leave a blank line between paragraphs.
-
-define gui.about = _p("""Full fan remake and translation of The Hetalian Horrow Show by the hetascanlations team.
-""")
-
-
-## A short name for the game used for executables and directories in the built
-## distribution. This must be ASCII-only, and must not contain spaces, colons,
-## or semicolons.
-
+## ASCII-only, no white space short name
 define build.name = "thehetalianhorrorshow"
 
 
 ## Sounds and music ############################################################
-
-## These three variables control, among other things, which mixers are shown
-## to the player by default. Setting one of these to False will hide the
-## appropriate mixer.
 
 define config.has_sound = True
 define config.has_music = True
@@ -57,10 +32,6 @@ define config.has_voice = True
 # define config.sample_sound = "sample-sound.ogg"
 # define config.sample_voice = "sample-voice.ogg"
 
-
-## Uncomment the following line to set an audio file that will be played while
-## the player is at the main menu. This file will continue playing into the
-## game, until it is stopped or another file is played.
 
 define config.main_menu_music = "18_exciting.ogg"
 
@@ -76,19 +47,15 @@ define config.main_menu_music = "18_exciting.ogg"
 define config.enter_transition = dissolve
 define config.exit_transition = dissolve
 
-
 ## Between screens of the game menu.
-
 define config.intra_transition = dissolve
 
 
 ## A transition that is used after a game has been loaded.
-
 define config.after_load_transition = None
 
 
 ## Used when entering the main menu after the game has ended.
-
 define config.end_game_transition = None
 
 
@@ -106,14 +73,12 @@ define config.end_game_transition = None
 ## After the game has started, this can be changed with the "window show",
 ## "window hide", and "window auto" statements.
 
-define config.window = "auto"
-
+define config.window = "hide"
 
 ## Transitions used to show and hide the dialogue window
 
 define config.window_show_transition = Dissolve(.2)
 define config.window_hide_transition = Dissolve(.2)
-
 
 ## Preference defaults #########################################################
 
@@ -144,11 +109,9 @@ default preferences.afm_time = 15
 ## literal string, not an expression.
 
 define config.save_directory = "thehetalianhorrorshow-1753457307"
-
+define config.has_autosave = False
 
 ## Icon ########################################################################
-##
-## The icon displayed on the taskbar or dock.
 
 define config.window_icon = "gui/window_icon.png"
 

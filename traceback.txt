@@ -1,76 +1,54 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-After initialization, but before game start.
-  File "game/screens/preferences.rpy", line 196, in prepare_screen
-    screen preferences():
-  File "game/screens/preferences.rpy", line 196, in prepare
-    screen preferences():
-  File "game/screens/preferences.rpy", line 206, in prepare
-    viewport:
-  File "game/screens/preferences.rpy", line 206, in prepare
-    viewport:
-  File "game/screens/preferences.rpy", line 214, in prepare
-    has vbox
-  File "game/screens/preferences.rpy", line 214, in prepare
-    has vbox
-  File "game/screens/preferences.rpy", line 216, in prepare
-    vbox:
-  File "game/screens/preferences.rpy", line 216, in prepare
-    vbox:
-  File "game/screens/preferences.rpy", line 243, in prepare
-    vbox:
-  File "game/screens/preferences.rpy", line 243, in prepare
-    vbox:
-  File "game/screens/preferences.rpy", line 244, in prepare
-    textbutton (_"すべてのセーブデータを削除する"):
-SyntaxError: invalid syntax (game/screens/preferences.rpy, line 244)
+Compiling ATL code at game/screens/vfx.rpy:54
+  File "game/script.rpy", line 17, in script
+    show sunlight at sunlight2_transform0
+  File "game/screens/vfx.rpy", line 54, in <module>
+    sunlight_transform(
+  File "game/screens/vfx.rpy", line 168, in sunlight_transform
+    return Transform(
+Exception: Unknown transform property: 'time'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\bootstrap.py", line 359, in bootstrap
-    renpy.main.main()
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\main.py", line 652, in main
-    run(restart)
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\main.py", line 94, in run
-    renpy.display.screen.prepare_screens()
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\screen.py", line 1027, in prepare_screens
-    s.ast.prepare_screen()
-  File "game/screens/preferences.rpy", line 196, in prepare_screen
-    screen preferences():
-  File "game/screens/preferences.rpy", line 196, in prepare
-    screen preferences():
-  File "game/screens/preferences.rpy", line 206, in prepare
-    viewport:
-  File "game/screens/preferences.rpy", line 206, in prepare
-    viewport:
-  File "game/screens/preferences.rpy", line 214, in prepare
-    has vbox
-  File "game/screens/preferences.rpy", line 214, in prepare
-    has vbox
-  File "game/screens/preferences.rpy", line 216, in prepare
-    vbox:
-  File "game/screens/preferences.rpy", line 216, in prepare
-    vbox:
-  File "game/screens/preferences.rpy", line 243, in prepare
-    vbox:
-  File "game/screens/preferences.rpy", line 243, in prepare
-    vbox:
-  File "game/screens/preferences.rpy", line 244, in prepare
-    textbutton (_"すべてのセーブデータを削除する"):
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\py3analysis.py", line 803, in ast_eval
-    return self.ast_eval_literal(expr)[0]
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\py3analysis.py", line 785, in ast_eval_literal
-    expr = py_compile(expr, 'eval', ast_node=True)
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\python.py", line 1153, in py_compile
-    raise e
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\python.py", line 1090, in py_compile
-    raise orig_e
-  File "C:\Program Files\renpy-8.3.7-sdk\renpy\python.py", line 1082, in py_compile
-    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
-SyntaxError: invalid syntax (game/screens/preferences.rpy, line 244)
+  File "game/script.rpy", line 17, in script
+    show sunlight at sunlight2_transform0
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\ast.py", line 1124, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\ast.py", line 1087, in show_imspec
+    renpy.config.show(name,
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\exports\displayexports.py", line 503, in show
+    sls.add(layer, img, key, zorder, behind, at_list=at_list, name=name, atl=atl, default_transform=default_transform, transient=transient)
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\scenelists.py", line 477, in add
+    thing.visit_all(lambda d : None)
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\displayable.py", line 424, in visit_all
+    for d in self.visit():
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\atl.py", line 816, in visit
+    block = self.compile()
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\atl.py", line 723, in compile
+    block = self.atl.compile(self.context)
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\atl.py", line 925, in compile
+    statements = [ i.compile(ctx) for i in self.statements ]
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\atl.py", line 925, in <listcomp>
+    statements = [ i.compile(ctx) for i in self.statements ]
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\atl.py", line 1232, in compile
+    child = ctx.eval(expr)
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\atl.py", line 387, in eval
+    return renpy.python.py_eval(expr, locals=self.context)
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\python.py", line 1218, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\python.py", line 1211, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/screens/vfx.rpy", line 54, in <module>
+    sunlight_transform(
+  File "game/screens/vfx.rpy", line 168, in sunlight_transform
+    return Transform(
+  File "C:\Program Files\renpy-8.3.7-sdk\renpy\display\transform.py", line 745, in __init__
+    raise Exception("Unknown transform property: %r" % k)
+Exception: Unknown transform property: 'time'
 
 Windows-10-10.0.26100 AMD64
 Ren'Py 8.3.7.25031702
-The HETALIAN HORROR SHOW 0.0.3
-Tue Aug  5 22:39:47 2025
+The HETALIAN HORROR SHOW 0.1.0
+Mon Aug 11 19:39:15 2025

@@ -15,25 +15,15 @@ translate english start_d72426f3:
 # game/script.rpy:72
 translate english start_4d123f7b:
 
-    # rom "ごめんね～。\nほんとはおいらが\nやりたかったんだけどさー。"
+    # rom "ごめんね~。\nほんとはおいらが\nやりたかったんだけどさー。"
     rom "Sorry～\nI really wanted to go and do it\nmyself, but, y’know..."
 
-# game/script.rpy:75
-translate english start_baa6ed02:
-
-    # rom "魔術部のイギ…\nほにゃららさんにごほごほっ\nいつやるんだって\nせっつかれてるしー…。"
-    rom "One of the Magic Club members, Eng... \nEr, Mr. Blahblah (cough cough),\nkeeps pestering me about\nwhen I'm going to go..."
-# game/script.rpy:78
-translate english start_5ec507d6:
-
-    # rom "でも…その、上司に、お前\nそんな事してる暇ないだろって\n言われちゃってー…。"
-    rom "But... well, my boss says I don't have the time for such things..."
 
 # game/script.rpy:82
 translate english start_6074a98b:
 
     # bul "いやそれ俺もだけどね。\n俺も遊ぶ暇あったら\n内職しろって\n言われてるんだわー。"
-    bul "Nah, I get it, same here. He tells me if I have time to play around, I should go get a side hustle.。"
+    bul "Nah, I get it, same here. He tells me if I have time to play around, I should go get a side hustle."
 
 # game/script.rpy:86
 translate english start_8f7e5e1b:
@@ -59,12 +49,6 @@ translate english start_c66e6f28:
     # bul "ロシアさんは？"
     bul "What about Mr. Russia?"
 
-# game/script.rpy:102
-translate english start_984fb472:
-
-    # rom "え！？ えーと…。\nロシアさんは存在自体がー…\n怖いっていうか…。"
-    rom "Wha!? Um...\nWell, Mr. Russia's mere existence...\nIs pretty scary..."
-
 # game/script.rpy:106
 translate english start_4a9432bb:
 
@@ -77,12 +61,6 @@ translate english start_c71f0dd7:
     # rom "お願いだよー！！\nお菓子あげるから！"
     rom "Pleeease!!?\nI'll give you candy!"
 
-# game/script.rpy:114
-translate english start_14b060b3:
-
-    # bul "お菓子でつられる\n年じゃねーんだわー."
-    bul "I'm too old to be bribed with candy."
-
 # game/script.rpy:118
 translate english start_b3b001cd:
 
@@ -93,19 +71,19 @@ translate english start_b3b001cd:
 translate english start_1fcc0816:
 
     # bul "んー ま、\nかれこれ…３？"
-    bul "Hmm... Well, somewhere around... 3...?"
+    bul "Hmm... Well, somewhere around...\n3...?"
 
 # game/script.rpy:126
 translate english start_3d397b61:
 
     # rom "３００じゃないよね?"
-    rom "You aren't 300 years old, are you?"
+    rom "You're not 300 years old,\nare you?"
 
 # game/script.rpy:130
 translate english start_59e783b8:
 
     # bul "んーん♪"
-    bul "Nn～ope♪"
+    bul "Nn~ope♪"
 
 # game/script.rpy:134
 translate english start_d37301ef:
@@ -153,13 +131,13 @@ translate english start_c62956d7:
 translate english start_091ebbd4:
 
     # bul "ぷぷぷぷ～\nぷんにょにょ～（鼻歌）"
-    bul "Hm-hm-hm-hm～\nHm-mm-mm～ (humming)"
+    bul "Hm-hm-hm-hm~\nHm-mm-mm~ (humming)"
 
 # game/script.rpy:178
 translate english start_5ef33473:
 
     # rom "やだー変な歌うたいながら\nおいらの周りまわらないでー。\nやめてよー"
-    rom "Nooo, don’t walk around me humming a weird song! Stooop!"
+    rom "Nooo, don't walk around me\nhumming a weird song! Stooop!"
 
 # game/script.rpy:181
 translate english start_76f6ac0e:
@@ -182,8 +160,8 @@ translate english start_7c634a5e:
 # game/script.rpy:191
 translate english start_aa940026:
 
-    # rom "…あっ！そうだ！\nこの仕事すると…目立てるよ！"
-    rom "...Ah! I've got it! If you do go... You'll stand out!"
+    # rom "\n…あっ！そうだ！\nこの仕事すると…目立てるよ！"
+    extend "\n...Ah! I've got it! If you do go...\nYou'll stand out!"
 
 # game/script.rpy:196
 translate english start_63665121:
@@ -249,7 +227,7 @@ translate english start_cc76127d:
 translate english start_1db23734:
 
     # bul "うう…、ちくしょうちくしょう…。\nユーロ圏の新聞めー…。\n人の気持ちもしらねーで\n普通にこういう事書くんだわ…。\n手厳しいんだわー…。うっうっ…。\n金がねェンだよ…！国内建て直す\n金が手に入るまで働くしかねぇんだわ…。"
-    bul "Ugh... dammit, dammit!\nDamn Eurozone newspapers...\nThey're just writin' this stuff without knowin' how the people really feel...\nIt's so harsh... *sob*...\nI dun have any money...!\nOf course I hafta work until I have enough money to rebuild my country..."
+    bul "Ugh... dammit, dammit!\nDamn Eurozone newspapers...\nThey're just writin' this stuff without\nknowin' how the people really feel...\nIt's so harsh... *sob*...\nI dun have any money...!\nOf course I hafta work until I have\nenough money to rebuild my country..."
 
 # game/script.rpy:243
 translate english start_1bce4555:
@@ -279,13 +257,13 @@ translate english start_fc180838:
 translate english start_0f5baf6e:
 
     # rom "そうだよブルガリア！\nその意気だよ\n頑張ろうねぇ～！！"
-    rom "That's right, Bulgaria!\n That's the spirit!\n Do your best～!!"
+    rom "That's right, Bulgaria!\nThat's the spirit!\nDo your best~!!"
 
 # game/script.rpy:267
 translate english start_c6e01564:
 
     # bul "そしてこのゲームの\n主役も頂くんだわ！"
-    bul "And I'll be this game's main character!"
+    bul "And I'll be this game's\nmain character!"
 
 # game/script.rpy:271
 translate english start_caf63c9d:
@@ -293,19 +271,45 @@ translate english start_caf63c9d:
     # rom "…え！？"
     rom "...Huh!?"
 
-# game/script.rpy:275
-translate english start_4fc90e7b:
 
-    # na "こうしてブルガリアさんは、\n集められた７カ国から怖い話を聞くべく\n今日の会場へと向かう事になったのだった。"
+
+# TODO: Translation updated at 2025-08-07 18:52
+
+# game/script.rpy:70
+translate english start_3735337e:
+
+    # rom "{size=-2}魔術部のイギ…\nほにゃららさんに{size=-5}ごほごほっ{/size}\nいつやるんだって\nせっつかれてるしー…。{/size}"
+    rom "{size=-2}One of the Magic Club members, Eng... \nEr, Mr. Blahblah {size=-5}(cough cough),{/size}\nkeeps pestering me about\nwhen I'm going to go...{/size}"
+
+# game/script.rpy:73
+translate english start_fe490979:
+
+    # rom "{size=-2}でも…その、上司に、お前\nそんな事してる暇ないだろって\n言われちゃってー…。{/size}"
+    rom "{size=-2}But... well, my boss says I don't have the time for such things...{/size}"
+
+# game/script.rpy:101
+translate english start_d7ed91dd:
+
+    # rom "え！？ えーと…。\nロシアさんは{size=-5}存在自体がー…\n怖いっていうか…。{/size}"
+    rom "Wha!? Um...\nWell, Mr. Russia's {size=-5}mere existence...\nIs pretty scary...{/size}"
+
+# game/script.rpy:296
+translate english start_8302b42c:
+
+    # na "こうしてブルガリアさんは、\n集められた７カ国から怖い話を聞く\nべく今日の会場へと向かう事になったのだった。"
     na "And that's how Mr. Bulgaria ends up heading for the meeting's venue to hear the scary stories of the seven countries gathered there today."
 
-translate english strings:
+# TODO: Translation updated at 2025-08-09 15:30
 
-    # game/script.rpy:29
-    old "ブルガリア"
-    new "Bulgaria"
+# game/script.rpy:14
+translate english start_051b4992:
 
-    # game/script.rpy:34
-    old "ルーマニア"
-    new "Romania"
+    # na "「７カ国が集まる国際怖い話会合があるから \n　そこで話を聞いてきてくれないかなー？」\n{vspace=12} {space=155}その一言でそれは始まった。"
+    na "{size=-2}\"Seven nations will gather at the International Meeting of Scary Stories, do you want to come and listen to their stories?\"\n{vspace=12} {space=155}It started with that one line.{/size}"
+
+# game/script.rpy:78
+translate english start_bc7df12d:
+
+    # bul "お菓子でつられる\n年じゃねーんだわー"
+    bul "I'm too old to be bribed with candy."
 

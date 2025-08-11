@@ -168,3 +168,27 @@ translate english strings:
     old "Help"
     new "Help"
 
+# TODO: Translation updated at 2025-08-06 20:41
+
+translate english strings:
+
+    # game/screens/other_screens.rpy:45
+    old "[config.name!t] remake"
+    new "[config.name!t] remake"
+
+    # game/screens/other_screens.rpy:46
+    old "バージョン [config.version!t]"
+    new "Version [config.version!t]"
+
+    # game/screens/other_screens.rpy:47
+    old "Full fan remake and translation of The Hetalian Horror Show by the hetascanlations team."
+    new "Full fan remake and translation of The Hetalian Horror Show by the hetascanlations team."
+
+    # game/screens/other_screens.rpy:52
+    old "クレジット"
+    new "Credit"
+
+    # game/screens/other_screens.rpy:55
+    old "制作"
+    new "Programming"
+

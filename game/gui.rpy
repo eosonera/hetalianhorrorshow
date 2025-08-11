@@ -55,14 +55,13 @@ define gui.interface_text_color = '#42352D'
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = gui.preference("font", default="msgothic.ttc")
+define gui.text_font = "msgothic.ttc"
 
 # translate japanese python:
 #     gui.text_font = "SourceHanSans-Light.otf"
 
-# translate japanese style default:
-#     language "japanese-strict"
- 
+
+
 
 ## The font used for character names.
 define gui.name_text_font = "msgothic.ttc"
@@ -71,7 +70,7 @@ define gui.name_text_font = "msgothic.ttc"
 define gui.interface_text_font = "msgothic.ttc"
 
 ## The size of normal dialogue text.
-define gui.text_size = 16
+define gui.text_size = 20
 
 ## The size of character names.
 define gui.name_text_size = 22
@@ -81,19 +80,6 @@ define gui.interface_text_size = 16
 
 ## The size of labels in the game's user interface.
 define gui.label_text_size = 17
-
-## The size of text on the notify screen.
-define gui.notify_text_size = 12
-
-## The size of the game's title.
-define gui.title_text_size = 36
-
-
-## Main and Game Menus #########################################################
-
-## The images used for the main and game menus.
-define gui.main_menu_background = "gui/main_menu.png"
-define gui.game_menu_background = "gui/game_menu.png"
 
 
 
@@ -157,71 +143,6 @@ define gui.quick_button_text_selected_color = gui.accent_color
 # define gui.navigation_button_width = 250
 
 
-## Choice Buttons ##############################################################
-##
-## Choice buttons are used in the in-game menus.
-
-define gui.choice_button_width = 556
-define gui.choice_button_height = None
-define gui.choice_button_tile = False
-define gui.choice_button_borders = Borders(71, 4, 71, 4)
-define gui.choice_button_text_font = gui.text_font
-define gui.choice_button_text_size = gui.text_size
-define gui.choice_button_text_xalign = 0.5
-define gui.choice_button_text_idle_color = '#888888'
-define gui.choice_button_text_hover_color = "#ffffff"
-define gui.choice_button_text_insensitive_color = '#8888887f'
-
-
-## File Slot Buttons ###########################################################
-##
-## A file slot button is a special kind of button. It contains a thumbnail
-## image, and text describing the contents of the save slot. A save slot uses
-## image files in gui/button, like the other kinds of buttons.
-
-## The save slot button.
-
-define gui.slot_button_borders = Borders(8, 8, 8, 8)
-define gui.slot_button_text_size = 10
-define gui.slot_button_text_xalign = 0.5
-define gui.slot_button_text_idle_color = gui.idle_small_color
-define gui.slot_button_text_selected_idle_color = gui.selected_color
-define gui.slot_button_text_selected_hover_color = gui.hover_color
-
-
-
-## Positioning and Spacing #####################################################
-##
-## These variables control the positioning and spacing of various user interface
-## elements.
-
-## The position of the left side of the navigation buttons, relative to the left
-## side of the screen.
-define gui.navigation_xpos = 29
-
-## The vertical position of the skip indicator.
-define gui.skip_ypos = 8
-
-## The vertical position of the notify screen.
-define gui.notify_ypos = 32
-
-## The spacing between menu choices.
-define gui.choice_spacing = 16
-
-## Buttons in the navigation section of the main and game menus.
-define gui.navigation_spacing = 3
-
-## Controls the amount of spacing between preferences.
-define gui.pref_spacing = 8
-
-## Controls the amount of spacing between preference buttons.
-define gui.pref_button_spacing = 0
-
-
-## The position of the main menu text.
-define gui.main_menu_text_xalign = 1.0
-
-
 ## Frames ######################################################################
 ##
 ## These variables control the look of frames that can contain user interface
@@ -271,9 +192,6 @@ define gui.vbar_borders = Borders(3, 3, 3, 3)
 define gui.vscrollbar_borders = Borders(3, 3, 3, 3)
 define gui.vslider_borders = Borders(3, 3, 3, 3)
 
-## What to do with unscrollable scrollbars in the game menu. "hide" hides them,
-## while None shows them.
-define gui.unscrollable = "hide"
 
 
 
@@ -283,7 +201,7 @@ define gui.unscrollable = "hide"
 ## for most languages. A list of available values can be found at 
 ## https://www.renpy.org/doc/html/style_properties.html#style-property-language
 
-define gui.language = "unicode"
+define gui.language = "japanese-strict"
 
 
 ################################################################################

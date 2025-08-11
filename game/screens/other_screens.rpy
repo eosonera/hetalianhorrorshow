@@ -15,7 +15,7 @@ screen about():
     
     use game_menu2(_("About"))
 
-    add "gui/bg backlog2.png":
+    add "gui/menu_game/backlog.png":
         xpos 138
         ypos 109
     
@@ -32,29 +32,45 @@ screen about():
 
     style_prefix "about"
     viewport:
-        xpos 230
+        xpos 227
         ypos 202
-        xsize 468
-        ysize 232
+        xsize 462
+        ysize 230
         mousewheel True draggable True pagekeys True
         scrollbars "vertical" yinitial 1.0
 
 
         vbox:
-            xsize 400
-            text "[config.name!t]"
-            text _("バージョン [config.version!t]\n")
+            spacing 10
+            label _("[config.name!t] remake")
+            text _("バージョン [config.version!t]")
+            text _("Full fan remake and translation of The Hetalian Horror Show by the hetascanlations team.")
+            null height 10
+            
+            vbox:
+                spacing 10
+                label _("クレジット")
+                hbox:
+                    style_prefix "about1"
+                    label _("制作")
+                    text ("{a=https://eosonera.tumblr.com/}eosonera{/a}")
 
-            text _("Full fan remake and translation of The Hetalian Horror Show by the hetascanlations team.\n")
-
-            text _("Made with {a=https://ja.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"):
-                size 10
+        
+            
 
 
 style hyperlink_text:
-    color "#875832"
+    color "#b1fff3"
+
+style about1_label:
+    xsize 150
+
+style about1_label_text is about1_text
+style about1_text is history_text
 
 
+style about_label_text is about_text:
+    size 20
 style about_text:
     color "#42352D"
     size 14
@@ -62,7 +78,7 @@ style about_text:
 
 style about_vscrollbar is history_vscrollbar
 style about_vscrollbar:
-    unscrollable gui.unscrollable
+    unscrollable "hide"
 
 
 
@@ -81,7 +97,7 @@ screen help():
 
     use game_menu2(_("Help"))
 
-    add "gui/bg backlog2.png":
+    add "gui/menu_game/backlog2.png":
         xpos 138
         ypos 109
 
@@ -238,4 +254,30 @@ style help_button_text:
 
 style help_vscrollbar is history_vscrollbar
 style help_vscrollbar:
-    unscrollable gui.unscrollable
+    unscrollable "hide"
+
+
+## Skip indicator screen #######################################################
+##
+## The skip_indicator screen is displayed to indicate that skipping is in
+## progress.
+##
+## https://www.renpy.org/doc/html/screen_special.html#skip-indicator
+
+screen skip_indicator():
+
+    zorder 100
+    style_prefix "skip"
+
+    frame:
+
+        hbox:
+            spacing 9
+
+            text ("")
+
+
+init python:
+    def delete_all_saves():
+        for savegame in renpy.list_saved_games(fast=True):
+            renpy.unlink_save(savegame)

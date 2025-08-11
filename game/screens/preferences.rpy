@@ -5,6 +5,16 @@
 
 ## Volume popup ################################################################
 
+init python:
+    def linear_volume_display(mixer):
+        raw = preferences.get_volume(mixer)
+        if raw <= 0.0:
+            return 0
+        import math
+        slider = math.log10(raw) / 2 + 1
+        return int(slider * 100)
+
+
 screen volume_popup():
 
     tag menu
@@ -12,7 +22,7 @@ screen volume_popup():
     use game_menu(_("Volume"))
     
     
-    add "gui/bg music.png":
+    add "gui/menu_game/music.png":
         xpos 270
         ypos 123
 
@@ -35,9 +45,9 @@ screen volume_popup():
             xalign 1.0
             style_prefix "volume_popup1"
             spacing 25
-            $ music_volume = int(preferences.get_volume("music") * 100)
-            $ sfx_volume = int(preferences.get_volume("sfx") * 100)
-            $ voice_volume = int(preferences.get_volume("voice") * 100)
+            $ music_volume = linear_volume_display("music")
+            $ sfx_volume = linear_volume_display("sfx")
+            $ voice_volume = linear_volume_display("voice")
             text ("Mute" if music_volume == 0 else "MAX" if music_volume == 100 else str(music_volume))
             text ("Mute" if sfx_volume == 0 else "MAX" if sfx_volume == 100 else str(sfx_volume))
             text ("Mute" if voice_volume == 0 else "MAX" if voice_volume == 100 else str(voice_volume))
@@ -129,7 +139,7 @@ screen font():
 
     style_prefix "font"
 
-    add "gui/bg font.png":
+    add "gui/menu_game/font.png":
         xpos 251
         ypos 86
 
@@ -193,6 +203,10 @@ style font_vscrollbar:
 
 ## Misc Options ################################################################
 ##
+if renpy.variant("mobile"):
+    default persistent.saveName = False
+else:
+    default persistent.saveName = True
 
 screen preferences():
 
@@ -200,7 +214,7 @@ screen preferences():
 
     use game_menu2(_("Preferences"))
 
-    add "gui/bg backlog2.png":
+    add "gui/menu_game/backlog2.png":
         xpos 138
         ypos 109
 
@@ -216,7 +230,7 @@ screen preferences():
 
         hbox:
             box_wrap True
-            spacing 20
+            spacing 10
 
             if renpy.variant("pc") or renpy.variant("web"):
                 # Only need fullscreen/windowed on desktop and web builds
@@ -243,8 +257,16 @@ screen preferences():
                     action Preference("after choices", "toggle")
                 textbutton _("トランジション"):
                     action InvertSelected(Preference("transitions", "toggle"))
-                    
+            
+            if renpy.variant("mobile"):
+                vbox:
+                    style_prefix "radio"
+                    label _("Save game names")
+                    textbutton _("Yes") action [SetVariable("persistent.saveName", True)]
+                    textbutton _("No") action [SetVariable("persistent.saveName", False)]
+
         style_prefix "remover"
+        null height 50
         textbutton ("DELETE ALL SAVE DATA"):
             activate_sound "sfx/bam10.ogg"
             action Confirm(_("全てのセーブデータを消去しますか？"), Function(delete_all_saves), no=None)
@@ -263,7 +285,7 @@ style remover_button_text:
 
 ### PREF
 style pref_label:
-    top_margin gui.pref_spacing
+    top_margin 8
     bottom_margin 2
 
 style pref_label_text:
@@ -279,7 +301,7 @@ style radio_label_text:
     is pref_label_text
 
 style radio_vbox:
-    spacing gui.pref_button_spacing
+    spacing 0
 
 style radio_button:
     properties gui.button_properties("radio_button")

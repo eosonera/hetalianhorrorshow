@@ -12,7 +12,7 @@ screen confirm(message, yes_action, no_action=None):
     zorder 200
     style_prefix "confirm"
 
-    add "gui/bg confirm.png":
+    add "gui/menu_game/confirm.png":
         xpos 206
         ypos 192
 
@@ -72,7 +72,7 @@ screen notify(message):
     zorder 100
     style_prefix "notify"
 
-    add "gui/bg confirm.png":
+    add "gui/menu_game/confirm.png":
         xpos 206
         ypos 192
 

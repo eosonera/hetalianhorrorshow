@@ -1,27 +1,24 @@
 ## Load and Save screens #######################################################
 ##
-## These screens are responsible for letting the player save the game and load
-## it again. Since they share nearly everything in common, both are implemented
-## in terms of a third screen, file_slots.
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#save
 ## https://www.renpy.org/doc/html/screen_special.html#load
 
-default persistent.saveName = True
+
 
 screen save():
     modal True
-    add "gui/bg save.png":
+    add "gui/menu_game/save.png":
         xpos 118
         ypos 150
-    use file_slots(_("Save"))
+    use file_slots("Save")
 
 screen load():
     modal True
-    add "gui/bg load.png":
+    add "gui/menu_game/load.png":
         xpos 118
         ypos 150
-    use file_slots(_("Load"))
+    use file_slots("Load")
 
 screen file_slots(title):
     modal True
@@ -29,6 +26,7 @@ screen file_slots(title):
     button:
         if main_menu:
             action Hide("load")
+            
         else:
             action Return()
         background None
@@ -115,12 +113,10 @@ screen savegameName(slot, accept=NullAction()):
     zorder 200
     style_prefix "confirm_input"
 
-    default save_name = ""
-
-    add "gui/bg confirm_input.png":
+    add "gui/menu_game/confirm_input.png":
         xpos 206
         ypos 192
-    add "gui/input.png":
+    add "gui/menu_game/input.png":
         xpos 334
         ypos 290
         
@@ -140,15 +136,24 @@ screen savegameName(slot, accept=NullAction()):
             spacing 5
             text _("メモ"):
                 color "#000"
-                
-            input:
-                default store.save_name
-                changed Namer
-                length 27
-                yalign 1.0
-                xalign 0
-                xysize (550, 40)
-                color "#000"
+            
+            viewport:
+                id "save_name_vp"
+                xsize 258
+                ysize 28
+                scrollbars "horizontal"
+                draggable True
+                mousewheel "horizontal"
+                input:
+                    default store.save_name or get_last_textline()
+                    changed Namer
+
+                    length 27
+                    yalign 1.0
+                    xalign 0.0
+                    xsize None
+                    
+                    color "#000"
 
     hbox:
         xpos 307
@@ -172,13 +177,33 @@ style confirm_input_button_text is confirm_button_text
 screen dynamic_preview(what):
     add what
 
+
 init python:
+    import string
+
+    def get_last_textline():
+        cleaned = renpy.filter_text_tags(store._last_raw_what, allow=[])
+        cleaned = cleaned.strip()
+        cleaned = "".join(ch for ch in cleaned if ch.isprintable())
+        cleaned = cleaned[:13]
+        return cleaned
+
+
     def get_save_preview(slot):
         if FileLoadable(slot):
             preview = FileScreenshot(slot)
             return TrackCursor(preview)
         else:
             return None
+
+    def SetSaveName(slot):
+        Namer(FileSaveName(slot))
+    def Namer(name):
+        if store.save_name:
+            store.save_name = name
+        else:
+            store.save_name = get_last_textline()
+
 
 
 
@@ -211,10 +236,29 @@ define config.thumbnail_width = 270
 define config.thumbnail_height = 180
 define file_slot_rows = 50
 
+
+
 init python:
-    import string
-    def SetSaveName(slot):
-        Namer(FileSaveName(slot))
-    def Namer(name):
-        store.save_name = name
+
+    class TrackCursor(renpy.Displayable):
+        def __init__(self, child):
+            super(TrackCursor, self).__init__()
+            self.child = renpy.displayable(child)
+            self.x = None
+            self.y = None
+
+        def render(self, width, height, st, at):
+            rv = renpy.Render(width, height)
+            if self.x is not None:
+                cr = renpy.render(self.child, width, height, st, at)
+                cw, ch = cr.get_size()
+                rv.blit(cr, (self.x, self.y + 20))
+            return rv
+
+        def event(self, ev, x, y, st):
+            if (x != self.x) or (y != self.y):
+                self.x = x
+                self.y = y
+                renpy.redraw(self, 0)
+
 

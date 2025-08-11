@@ -9,6 +9,9 @@
 
 screen choice(items):
     style_prefix "choice"
+    add "gui/menu_game/choice.png":
+        xpos 216
+        ypos 156
 
     vbox:
         for i in items:
@@ -16,21 +19,48 @@ screen choice(items):
 
 
 style choice_vbox:
-    xalign 0.5
-    ypos 405
-    yanchor 0.5
-    spacing 33
+    xpos 286
+    ypos 260
+    spacing 0
+    
 
 style choice_button:
-    is default # This means it doesn't use the usual button styling
-    xysize (926, None)
-    background Frame("gui/button/choice_[prefix_]background.png",
-        150, 25, 150, 25, tile=False)
-    padding (12, 12)
-    hover_color "#fff"
+    is default
+    xysize (326, 40)
+    hover_background Solid("#fff")
 
 style choice_button_text:
-    is default # This means it doesn't use the usual button text styling
-    xalign 0.5 yalign 0.5
+    is default
+    xalign 0.5
+    yalign 0.5
+    size 20
     color "#74BEC4"
-    hover_color "#fff"
+    hover_color "#1D8EA4"
+    
+## Input screen ################################################################
+##
+## This screen is used to display renpy.input. The prompt parameter is used to
+## pass a text prompt in.
+##
+## This screen must create an input displayable with id "input" to accept the
+## various input parameters.
+##
+## https://www.renpy.org/doc/html/screen_special.html#input
+
+screen input(prompt):
+    style_prefix "input"
+    window:
+        vbox:
+            xanchor 0.0 ypos 20 spacing 10
+            text prompt style "input_prompt"
+            input id "input"
+
+style input_prompt:
+    xalign 0.0
+
+
+
+style input:
+    xalign 0.0
+    xmaximum 1116
+    color "#000"

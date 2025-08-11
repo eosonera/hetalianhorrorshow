@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens/preferences.rpy", line 246: Line is indented, but the preceding activate_sound statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    action Function(delete_all_saves)
-    ^
+File "game/screens/transforms.rpy", line 102: ATL statement contains two expressions in a row; is one of them a misspelled property? If not, separate them with pass.
+    add "white screen":
+                      ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Tue Aug  5 22:41:32 2025
+Mon Aug 11 19:43:06 2025

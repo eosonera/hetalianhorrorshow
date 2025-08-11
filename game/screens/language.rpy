@@ -1,12 +1,20 @@
     
-    
+
+
+define config.enable_language_autodetect = True
     
 default list_languages = [
     ("日本語", None),
     ("English", "english"),
 ]
 
-define config.enable_language_autodetect = True
+define gui.text_size = 20
+define gui.kerning_dialogue = 4
+define gui.line_spacing = 10
+
+if preferences.language == "english":
+    define gui.text_size = 18
+
 
 ## Language screen #################################################################
 
@@ -17,7 +25,7 @@ screen language():
 
     style_prefix "language"
 
-    add "gui/bg font.png":
+    add "gui/menu_game/font.png":
         xpos 251
         ypos 86
 
@@ -47,4 +55,10 @@ style language_button_text:
     xalign 1.0
 style about_vscrollbar is font_popup_vscrollbar
 style language_vscrollbar:
-    unscrollable gui.unscrollable
+    unscrollable "hide"
+
+
+
+translate english python:
+    gui.kerning_dialogue = 0
+    gui.kerning_narrator = 0

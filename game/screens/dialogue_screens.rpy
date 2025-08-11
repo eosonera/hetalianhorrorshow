@@ -1,24 +1,207 @@
 
-## Say screen ##################################################################
-##
-## The say screen is used to display dialogue to the player. It takes two
-## parameters, who and what, which are the name of the speaking character and
-## the text to be displayed, respectively. (The who parameter can be None if no
-## name is given.)
-##
-## This screen must create a text displayable with id "what", as Ren'Py uses
-## this to manage text display. It can also create displayables with id "who"
-## and id "window" to apply style properties.
+## Custom say screens ##################################################################
+## takes who, name of the speaking character and what, the text to be displayed
+## must create a text displayable with id "what"
+## can also create displayables with id "who" and id "window" to apply style properties.
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
-screen say(who, what):
+transform appear_textbox:
+    yzoom .8 yoffset 68 alpha 0
+    linear 0.3:
+        alpha 1.0
+        yzoom 1
+        yoffset 0
 
+default _skip_appear_effect = False
+default window_transform = None
+
+############################
+# Base reusable textbox
+############################
+screen textbox(who, what, image_path, frame_pos=None, window_pos=None, window_size=None, text_size=None, text_kerning=None, text_line_spacing=None, style_prefix_name=None, appear_effect=None):
+
+    if appear_effect and not _skip_appear_effect:
+        add Image(image_path) at appear_effect
+    else:
+        add Image(image_path)
+
+    if who is not None and frame_pos:
+        frame:
+            xpos frame_pos[0]
+            ypos frame_pos[1]
+            add "gui/name_icons/[who].png"
+
+    window at window_transform:
+        if window_pos:
+            xpos window_pos[0]
+            ypos window_pos[1]
+        if window_size:
+            xsize window_size[0]
+            ysize window_size[1]
+
+        text what:
+            id "what"
+
+
+            if text_size is not None:
+                size text_size
+            if text_kerning is not None:
+                kerning text_kerning
+            if text_line_spacing is not None:
+                line_spacing text_line_spacing
+
+
+############################
+# Variants
+############################
+
+screen narrator(who, what):
+    use textbox(who, what, "images/textbox/center.png",
+        window_pos=(160, 210),
+        window_size=(570, 200),
+        text_size=gui.text_size + 2,
+        style_prefix_name="narrator",
+        text_line_spacing=gui.line_spacing,
+        appear_effect=None
+    )
+
+screen right_1(who, what):
+    use textbox(who, what, "images/textbox/right_1.png",
+        frame_pos=(608, 234),
+        window_pos=(609, 292),
+        window_size=(300, 131),
+        style_prefix_name="right_1",
+        appear_effect=appear_textbox
+    )
+
+screen right_3(who, what):
+    use textbox(who, what, "images/textbox/right_3.png",
+        frame_pos=(394, 247),
+        window_pos=(396, 302),
+        window_size=(360, 100),
+        style_prefix_name="right_3",
+        appear_effect=appear_textbox
+    )
+
+screen right_4(who, what):
+    use textbox(who, what, "images/textbox/right_4.png",
+        frame_pos=(501, 328),
+        window_pos=(502, 380),
+        window_size=(300, 100),
+        text_size=gui.text_size - 1,
+        style_prefix_name="right_4",
+        appear_effect=appear_textbox
+    )
+
+screen right_4long(who, what):
+    use textbox(who, what, "images/textbox/right_4long.png",
+        frame_pos=(419, 335),
+        window_pos=(422, 387),
+        window_size=(450, 100),
+        style_prefix_name="right_4long",
+        appear_effect=appear_textbox
+    )
+
+screen right_7big(who, what):
+    use textbox(who, what, "images/textbox/right_7big.png",
+        frame_pos=(404, 253),
+        window_pos=(407, 307),
+        window_size=(470, 100),
+        text_kerning=gui.kerning_dialogue,
+        style_prefix_name="right_7big",
+        appear_effect=appear_textbox
+    )
+
+screen left_1(who, what):
+    use textbox(who, what, "images/textbox/left_1.png",
+        frame_pos=(28, 279),
+        window_pos=(31, 333),
+        window_size=(280, 131),
+        text_size=gui.text_size - 1,
+        style_prefix_name="left_1",
+        appear_effect=appear_textbox
+    )
+
+screen left_3(who, what):
+    use textbox(who, what, "images/textbox/left_3.png",
+        frame_pos=(36, 246),
+        window_pos=(37, 300),
+        window_size=(390, 100),
+        text_size=gui.text_size,
+        style_prefix_name="left_3",
+        appear_effect=appear_textbox
+    )
+
+screen left_4(who, what):
+    use textbox(who, what, "images/textbox/left_4.png",
+        frame_pos=(37, 289),
+        window_pos=(40, 341),
+        window_size=(380, 100),
+        text_size=gui.text_size - 1,
+        style_prefix_name="left_4",
+        appear_effect=appear_textbox
+    )
+
+screen left_4long(who, what):
+    use textbox(who, what, "images/textbox/left_4long.png",
+        frame_pos=(45, 293),
+        window_pos=(50, 348),
+        window_size=(450, 100),
+        text_size=gui.text_size - 1,
+        style_prefix_name="left_4long",
+        appear_effect=appear_textbox
+    )
+
+screen center_1(who, what):
+    use textbox(who, what, "images/textbox/center_1.png",
+        frame_pos=(293, 305),
+        window_pos=(294, 348),
+        window_size=(420, 100),
+        text_kerning=gui.kerning_dialogue - 2,
+        style_prefix_name="center_1",
+        appear_effect=appear_textbox
+    )
+
+screen center_3(who, what):
+    use textbox(who, what, "images/textbox/center_3.png",
+        frame_pos=(278, 358),
+        window_pos=(280, 411),
+        window_size=(420, 100),
+        text_size=gui.text_size - 2,
+        style_prefix_name="center_3",
+        appear_effect=appear_textbox
+    )
+
+screen center_3long(who, what):
+    use textbox(who, what, "images/textbox/center_4long.png",
+        frame_pos=(197, 312),
+        window_pos=(198, 365),
+        window_size=(420, 100),
+        style_prefix_name="center_3long",
+        appear_effect=appear_textbox
+    )
+
+screen center_4long(who, what):
+    use textbox(who, what, "images/textbox/center_4long.png",
+        frame_pos=(197, 312),
+        window_pos=(198, 365),
+        window_size=(420, 100),
+        text_size=gui.text_size - 3,
+        text_kerning=gui.kerning_dialogue - 1,
+        style_prefix_name="center_4long",
+        appear_effect=appear_textbox
+    )
+
+
+############################
+# Default 'say' screen
+############################
+screen say(who, what):
     window:
         id "window"
 
         if who is not None:
-
             window:
                 id "namebox"
                 style "namebox"
@@ -26,54 +209,41 @@ screen say(who, what):
 
         text what id "what"
 
-    ## If there's a side image, display it in front of the text.
-    add SideImage() xalign 0.0 yalign 1.0
 
+############################
+# Styles
+############################
 
-## Make the namebox available for styling through the Character object.
-init python:
-    config.character_id_prefixes.append('namebox')
+style say_dialogue:
+    properties gui.text_properties("dialogue")
+    color "#5F4E45"
+    outlines [(1.2, "#ffffffb1", 0, 0)]
+    font gui.preference("font", default="msgothic.ttc")
+    size gui.text_size
+    kerning gui.kerning_dialogue
+    line_spacing gui.line_spacing
+    adjust_spacing False
+    line_overlap_split -5
 
 style window is default
 style say_label is default
 style say_dialogue is default
 style say_thought is say_dialogue
-
 style namebox is default
 style namebox_label is say_label
 
-
 style window:
-    xpos 300
-    ypos 300
-    xsize 300
-    ysize gui.textbox_height
-
-    background Image("gui/bubbles/center_0.png", xalign=0, yalign=0)
-
-style namebox:
-    xpos gui.name_xpos
-    xanchor gui.name_xalign
-    xsize gui.namebox_width
-    ypos gui.name_ypos
-    ysize gui.namebox_height
-
-    background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
-    padding gui.namebox_borders.padding
+    xalign 0
+    yalign 0
+    xsize 700
+    ysize 130
 
 style say_label:
     properties gui.text_properties("name", accent=True)
-    xalign gui.name_xalign
+    xalign 0.0
     yalign 0.5
 
-style say_dialogue:
-    properties gui.text_properties("dialogue")
 
-    xpos gui.dialogue_xpos
-    xsize gui.dialogue_width
-    ypos gui.dialogue_ypos
-
-    adjust_spacing False
 
 
 ## Dialogue Config ####################################################################
@@ -81,46 +251,18 @@ style say_dialogue:
 ## These variables control how dialogue is displayed on the screen one line at a
 ## time.
 
-## The height of the textbox containing dialogue.
-define gui.textbox_height = 131
 
-
-
-## The placement of the speaking character's name, relative to the textbox.
-## These can be a whole number of pixels from the left or top, or 0.5 to center.
-define gui.name_xpos = 20
-define gui.name_ypos = -10
-
-## The horizontal alignment of the character's name. This can be 0.0 for left-
-## aligned, 0.5 for centered, and 1.0 for right-aligned.
-define gui.name_xalign = 0.0
-
-## The width, height, and borders of the box containing the character's name, or
-## None to automatically size it.
-define gui.namebox_width = None
-define gui.namebox_height = None
-
-## The borders of the box containing the character's name, in left, top, right,
-## bottom order.
-define gui.namebox_borders = Borders(5, 5, 5, 5)
-
-## If True, the background of the namebox will be tiled, if False, the
-## background of the namebox will be scaled.
-define gui.namebox_tile = False
 
 
 ## The placement of dialogue relative to the textbox. These can be a whole
 ## number of pixels relative to the left or top side of the textbox, or 0.5 to
 ## center.
-define gui.dialogue_xpos = 20
-define gui.dialogue_ypos = 40
+define gui.dialogue1_xpos = 20
+define gui.dialogue1_ypos = 40
 
 ## The maximum width of dialogue text, in pixels.
-define gui.dialogue_width = 524
+define gui.dialogue1_xalign = 0.0
 
-## The horizontal alignment of the dialogue text. This can be 0.0 for left-
-## aligned, 0.5 for centered, and 1.0 for right-aligned.
-define gui.dialogue_text_xalign = 0.0
 
 
 ## NVL screen ##################################################################
@@ -136,7 +278,7 @@ screen nvl(dialogue, items=None):
         style "nvl_window"
 
         has vbox
-        spacing 15
+        spacing 31
 
         use nvl_dialogue(dialogue)
 
@@ -148,7 +290,6 @@ screen nvl(dialogue, items=None):
                 action i.action
                 style "nvl_button"
 
-    add SideImage() xalign 0.0 yalign 1.0
 
 
 screen nvl_dialogue(dialogue):
@@ -177,26 +318,20 @@ define config.nvl_list_length = 6
 # The style for the NVL "textbox"
 style nvl_window:
     is default
-    xfill True yfill True
-    background "gui/nvl.png"
-    padding (0, 15, 0, 30)
+    xfill True
+    padding (32, 61, 0, 30)
 
-# The style for the text of the speaker's name
-style nvl_label:
-    is say_label
-    xpos 645 xanchor 1.0
-    ypos 0 yanchor 0.0
-    xsize 225
-    min_width 225
-    textalign 1.0
 
 # The style for dialogue in NVL
 style nvl_dialogue:
     is say_dialogue
-    xpos 675
-    ypos 12
-    xsize 885
-    min_width 885
+    size gui.text_size + 2
+    kerning gui.kerning_dialogue + 6
+    color "#fff"
+    outlines [(2, "#2E3A54", 0, 0)]
+    font gui.preference("font", default="msgothic.ttc")
+    line_spacing gui.line_spacing +4
+    #min_width 885
 
 # The style for dialogue said by the narrator in NVL
 style nvl_thought:
@@ -211,131 +346,40 @@ style nvl_button:
 ## The NVL-mode screen displays the dialogue spoken by NVL-mode characters.
 
 ## The borders of the background of the NVL-mode background window.
-define gui.nvl_borders = Borders(0, 8, 0, 15)
+# define gui.nvl_borders = Borders(0, 8, 0, 15)
 
-## The maximum number of NVL-mode entries Ren'Py will display. When more entries
-## than this are to be show, the oldest entry will be removed.
-define gui.nvl_list_length = 6
+# ## The maximum number of NVL-mode entries Ren'Py will display. When more entries
+# ## than this are to be show, the oldest entry will be removed.
+# define gui.nvl_list_length = 6
 
-## The height of an NVL-mode entry. Set this to None to have the entries
-## dynamically adjust height.
-define gui.nvl_height = 81
+# ## The height of an NVL-mode entry. Set this to None to have the entries
+# ## dynamically adjust height.
+# define gui.nvl_height = 81
 
-## The spacing between NVL-mode entries when gui.nvl_height is None, and between
-## NVL-mode entries and an NVL-mode menu.
-define gui.nvl_spacing = 8
+# ## The spacing between NVL-mode entries when gui.nvl_height is None, and between
+# ## NVL-mode entries and an NVL-mode menu.
+# define gui.nvl_spacing = 8
 
-## The position, width, and alignment of the label giving the name of the
-## speaking character.
-define gui.nvl_name_xpos = 303
-define gui.nvl_name_ypos = 0
-define gui.nvl_name_width = 106
-define gui.nvl_name_xalign = 1.0
+# ## The position, width, and alignment of the label giving the name of the
+# ## speaking character.
+# define gui.nvl_name_xpos = 303
+# define gui.nvl_name_ypos = 0
+# define gui.nvl_name_width = 106
+# define gui.nvl_name_xalign = 1.0
 
-## The position, width, and alignment of the dialogue text.
-define gui.nvl_text_xpos = 317
-define gui.nvl_text_ypos = 6
-define gui.nvl_text_width = 415
-define gui.nvl_text_xalign = 0.0
+# ## The position, width, and alignment of the dialogue text.
+# define gui.nvl_text_xpos = 317
+# define gui.nvl_text_ypos = 6
+# define gui.nvl_text_width = 415
+# define gui.nvl_text_xalign = 0.0
 
-## The position, width, and alignment of nvl_thought text (the text said by the
-## nvl_narrator character.)
-define gui.nvl_thought_xpos = 169
-define gui.nvl_thought_ypos = 0
-define gui.nvl_thought_width = 549
-define gui.nvl_thought_xalign = 0.0
+# ## The position, width, and alignment of nvl_thought text (the text said by the
+# ## nvl_narrator character.)
+# define gui.nvl_thought_xpos = 169
+# define gui.nvl_thought_ypos = 0
+# define gui.nvl_thought_width = 549
+# define gui.nvl_thought_xalign = 0.0
 
-## The position of nvl menu_buttons.
-define gui.nvl_button_xpos = 317
-define gui.nvl_button_xalign = 0.0
-
-
-## Bubble screen ###############################################################
-##
-## The bubble screen is used to display dialogue to the player when using speech
-## bubbles. The bubble screen takes the same parameters as the say screen, must
-## create a displayable with the id of "what", and can create displayables with
-## the "namebox", "who", and "window" ids.
-##
-## https://www.renpy.org/doc/html/bubble.html#bubble-screen
-
-screen bubble(who, what):
-    style_prefix "bubble"
-
-    window:
-        id "window"
-
-        if who is not None:
-
-            window:
-                id "namebox"
-                style "bubble_namebox"
-
-                text who:
-                    id "who"
-
-        text what:
-            id "what"
-
-style bubble_window is empty
-style bubble_namebox is empty
-style bubble_who is default
-style bubble_what is default
-
-style bubble_window:
-    xpadding 30
-    top_padding 5
-    bottom_padding 5
-
-style bubble_namebox:
-    xalign 0.5
-
-style bubble_who:
-    xalign 0.5
-    textalign 0.5
-    color "#000"
-
-style bubble_what:
-    align (0.5, 0.5)
-    text_align 0.5
-    layout "subtitle"
-    color "#000"
-
-define bubble.frame = Frame("gui/bubble.png", 55, 55, 55, 95)
-define bubble.thoughtframe = Frame("gui/thoughtbubble.png", 55, 55, 55, 55)
-
-define bubble.properties = {
-    "bottom_left" : {
-        "window_background" : Transform(bubble.frame, xzoom=1, yzoom=1),
-        "window_bottom_padding" : 27,
-    },
-
-    "bottom_right" : {
-        "window_background" : Transform(bubble.frame, xzoom=-1, yzoom=1),
-        "window_bottom_padding" : 27,
-    },
-
-    "top_left" : {
-        "window_background" : Transform(bubble.frame, xzoom=1, yzoom=-1),
-        "window_top_padding" : 27,
-    },
-
-    "top_right" : {
-        "window_background" : Transform(bubble.frame, xzoom=-1, yzoom=-1),
-        "window_top_padding" : 27,
-    },
-
-    "thought" : {
-        "window_background" : bubble.thoughtframe,
-    }
-}
-
-define bubble.expand_area = {
-    "bottom_left" : (0, 0, 0, 22),
-    "bottom_right" : (0, 0, 0, 22),
-    "top_left" : (0, 22, 0, 0),
-    "top_right" : (0, 22, 0, 0),
-    "thought" : (0, 0, 0, 0),
-}
-
-
+# ## The position of nvl menu_buttons.
+# define gui.nvl_button_xpos = 317
+# define gui.nvl_button_xalign = 0.0

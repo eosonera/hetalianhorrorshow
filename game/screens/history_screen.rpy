@@ -9,6 +9,7 @@
 
 define config.history_current_dialogue = False
 
+
 screen history():
 
     tag menu
@@ -23,7 +24,7 @@ screen history():
         focus_mask None
 
     use game_menu(_("History"))
-    add "gui/bg backlog.png":
+    add "gui/menu_game/backlog.png":
         xpos 138
         ypos 109
     add "gui/scrollbar/log_1.png":
@@ -43,12 +44,11 @@ screen history():
             vbox:
                 spacing 30
                 for h in _history_list:
-
                     frame:
                         vbox:
                             spacing 10
                             if h.who:
-                                label "【　{}　】".format(h.who) style 'history_name':
+                                label "【　{}　】".format(name_map.get(h.who, h.who)) style 'history_name':
                                     substitute False
                                     xsize 200   
                             else:

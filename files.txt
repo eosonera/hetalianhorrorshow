@@ -1,24 +1,44 @@
-gallery.rpy
-gallery.rpyc
 gui.rpy
 gui.rpyc
 options.rpy
 options.rpyc
-prologue.txt
 script.rpy
 script.rpyc
 style.rpy
 style.rpyc
+audio\11_liarliar.ogg
 audio\18_exciting.ogg
+audio\19_playful.ogg
+audio\39_USbattlesong.ogg
 audio\9_townscape.ogg
+audio\Carol_of_the_Bells_ESPN_(Album_Version).ogg
+audio\FilmEdge_Casual_Z008-QuirkyBounce-Sorbo.ogg
 audio\FilmEdge_Casual_Z010-ISay-Dellay.ogg
+audio\International_Uplifting_Dance-full_length_track.ogg
+audio\KidsTrax653_KC07-MuppetsOnTheTitanic-Julin.ogg
+audio\collision_course_paolo_bolio_hq.ogg
 audio\sfx\BUBBLY.WAV
 audio\sfx\Disintergrate.wav
 audio\sfx\bam10.ogg
 audio\sfx\bang07.ogg
 audio\sfx\bell01.ogg
+audio\sfx\birdcalls.ogg
+audio\sfx\ding11.ogg
+audio\sfx\ding12.ogg
+audio\sfx\ding30.ogg
+audio\sfx\ding48.ogg
 audio\sfx\ding74.ogg
+audio\sfx\ding78.ogg
+audio\sfx\door_sfx.wav
+audio\sfx\footsteps.ogg
+audio\sfx\footsteps_arriving.ogg
 audio\sfx\gun14_c.ogg
+audio\sfx\hallwaywalk.ogg
+audio\sfx\hit22.ogg
+audio\sfx\hit32_d.ogg
+audio\sfx\hit34.ogg
+audio\sfx\hit_s04.ogg
+audio\sfx\scribbles.ogg
 cache\bytecode-39.rpyb
 cache\py3analysis.rpyb
 cache\screens.rpyb
@@ -26,133 +46,97 @@ cache\shaders.txt
 fonts\IBMPlexSans-Bold.ttf
 fonts\IBMPlexSans-Medium.ttf
 fonts\IBMPlexSans.ttf
-fonts\SourceHanSansLite.ttf
+fonts\SourceHanSans-Light.otf
 fonts\msgothic.ttc
-gui\P1030291.png
-gui\bubble.png
-gui\dust.png
-gui\frame.png
-gui\game_menu.png
-gui\lower_part.png
-gui\main_menu.png
-gui\menu_01.png
-gui\menu_02.png
-gui\menu_03.png
-gui\menu_04.png
-gui\menu_05.png
-gui\namebox.png
-gui\notify.png
-gui\nvl.png
-gui\prefs.png
-gui\prefs_1.png
-gui\skip.png
-gui\textbox.png
-gui\thoughtbubble.png
-gui\title.png
-gui\title2.png
-gui\title_e.png
+gui\hana1#0000.png
+gui\hana2#0000.png
+gui\menu_mobile.png
+gui\return.png
+gui\staffroll.png
 gui\window_icon.png
 gui\bar\bottom.png
 gui\bar\left.png
 gui\bar\right.png
 gui\bar\top.png
-gui\birds\birds_00.png
-gui\birds\birds_01.png
-gui\birds\birds_02.png
-gui\birds\birds_03.png
-gui\birds\birds_04.png
-gui\birds\birds_05.png
-gui\birds\birds_06.png
-gui\birds\birds_07.png
-gui\birds\birds_08.png
-gui\birds\birds_09.png
-gui\birds\birds_10.png
-gui\birds\birds_11.png
-gui\birds\birds_12.png
-gui\birds\birds_13.png
-gui\birds\birds_14.png
-gui\birds\birds_15.png
-gui\birds\birds_16.png
-gui\birds\birds_17.png
-gui\birds\birds_18.png
-gui\birds\birds_19.png
-gui\birds\birds_20.png
-gui\birds\birds_21.png
-gui\birds\birds_22.png
-gui\birds\birds_23.png
-gui\birds\birds_24.png
-gui\birds\birds_25.png
-gui\birds\birds_26.png
-gui\birds\birds_27.png
-gui\birds\birds_28.png
-gui\birds\birds_29.png
-gui\birds\birds_30.png
-gui\birds\birds_31.png
-gui\birds\birds_32.png
-gui\birds\birds_33.png
-gui\birds\birds_34.png
-gui\birds\birds_35.png
-gui\birds\birds_36.png
-gui\birds\birds_37.png
-gui\birds\birds_38.png
-gui\birds\birds_39.png
-gui\birds\birds_40.png
-gui\birds\birds_41.png
-gui\birds\birds_42.png
-gui\birds\birds_43.png
-gui\birds\birds_44.png
-gui\birds\birds_45.png
-gui\bubbles\center.png
-gui\bubbles\center_1line.png
-gui\bubbles\center_long.png
-gui\bubbles\left_1line.png
-gui\bubbles\left_4lines.png
-gui\bubbles\left_bottom.png
-gui\bubbles\left_center.png
-gui\bubbles\right_1line.png
-gui\bubbles\right_big.png
-gui\bubbles\right_bottom.png
-gui\bubbles\right_long.png
-gui\bubbles\right_midcenter.png
-gui\bubbles\vignette.png
-gui\button\0save.png
-gui\button\1load.png
-gui\button\2backlog.png
-gui\button\3auto.png
-gui\button\4dictionary.png
-gui\button\5mainmenu.png
+gui\button\check.png
+gui\button\check_0.png
+gui\button\check_1.png
 gui\button\check_foreground.png
 gui\button\check_selected_foreground.png
 gui\button\choice_hover_background.png
 gui\button\choice_idle_background.png
-gui\button\ctc_0.png
-gui\button\ctc_1.png
-gui\button\ctc_2.png
-gui\button\ctc_3.png
+gui\button\confirm_button_0.png
+gui\button\confirm_button_1.png
 gui\button\hover_background.png
 gui\button\idle_background.png
-gui\button\qm_button_01.png
-gui\button\qm_button_02.png
-gui\button\qm_button_03.png
-gui\button\qm_button_05.png
-gui\button\qm_button_1_01.png
-gui\button\qm_button_1_02.png
-gui\button\qm_button_1_03.png
-gui\button\qm_button_1_05.png
 gui\button\quick_hover_background.png
 gui\button\quick_idle_background.png
 gui\button\radio_foreground.png
 gui\button\radio_selected_foreground.png
-gui\button\slot_hover_background.png
-gui\button\slot_idle_background.png
-gui\button\title2_03.png
-gui\button\title2_04.png
-gui\button\title2_05.png
-gui\button\title2_06.png
-gui\button\title_03.png
-gui\button\title_04.png
-gui\button\title_05.png
-gui\button\title_06.png
+gui\ctc\ctc_0.png
+gui\ctc\ctc_1.png
+gui\ctc\ctc_2.png
+gui\ctc\ctc_3.png
+gui\menu_game\0save.png
+gui\menu_game\1load.png
+gui\menu_game\2backlog.png
+gui\menu_game\3auto.png
+gui\menu_game\4dictionary.png
+gui\menu_game\5mainmenu.png
+gui\menu_game\backlog.png
+gui\menu_game\backlog2.png
+gui\menu_game\bg_game_menu.png
+gui\menu_game\bg_game_menu2.png
+gui\menu_game\choice.png
+gui\menu_game\confirm.png
+gui\menu_game\confirm_input.png
+gui\menu_game\doily.png
+gui\menu_game\font.png
+gui\menu_game\input.png
+gui\menu_game\load.png
+gui\menu_game\menu_01.png
+gui\menu_game\menu_02.png
+gui\menu_game\menu_03.png
+gui\menu_game\menu_04.png
+gui\menu_game\menu_05.png
+gui\menu_game\menu_06.png
+gui\menu_game\menu_07.png
+gui\menu_game\menu_08.png
+gui\menu_game\menu_flower.png
+gui\menu_game\music.png
+gui\menu_game\save.png
+gui\menu_main\P1030291.png
+gui\menu_main\bg_main_menu.png
+gui\menu_main\lower_part.png
+gui\menu_main\title.png
+gui\menu_main\title2.png
+gui\menu_main\title2_03.png
+gui\menu_main\title2_04.png
+gui\menu_main\title2_05.png
+gui\menu_main\title2_06.png
+gui\menu_main\title2_07.png
+gui\menu_main\title_03.png
+gui\menu_main\title_04.png
+gui\menu_main\title_05.png
+gui\menu_main\title_06.png
+gui\menu_main\title_07.png
+gui\menu_main\title_e.png
+gui\menu_quick\1_save.png
+gui\menu_quick\1_save_1.png
+gui\menu_quick\1_save_2.png
+gui\menu_quick\2_load.png
+gui\menu_quick\2_load_1.png
+gui\menu_quick\2_load_2.png
+gui\menu_quick\3_skip.png
+gui\menu_quick\3_skip_1.png
+gui\menu_quick\3_skip_2.png
+gui\menu_quick\4_menu.png
+gui\menu_quick\4_menu_1.png
+gui\menu_quick\4_menu_2.png
+gui\menu_quick\5_hide.png
+gui\menu_quick\5_hide_1.png
+gui\menu_quick\5_hide_2.png
+gui\menu_quick\すかし#0000.png
 gui\name_icons\america.png
 gui\name_icons\bulgaria.png
 gui\name_icons\england.png
@@ -164,9 +148,6 @@ gui\name_icons\russia.png
 gui\name_icons\spain.png
 gui\name_icons\blank\bulgaria.png
 gui\name_icons\blank\romania.png
-gui\overlay\confirm.png
-gui\overlay\game_menu.png
-gui\overlay\main_menu.png
 gui\phone\nvl.png
 gui\phone\textbox.png
 gui\phone\bar\bottom.png
@@ -205,19 +186,94 @@ gui\scrollbar\horizontal_hover_bar.png
 gui\scrollbar\horizontal_hover_thumb.png
 gui\scrollbar\horizontal_idle_bar.png
 gui\scrollbar\horizontal_idle_thumb.png
+gui\scrollbar\log.png
+gui\scrollbar\log_0.png
+gui\scrollbar\log_1.png
+gui\scrollbar\menuscrollbar.png
+gui\scrollbar\scrollbar.png
+gui\scrollbar\scrollbar_base.png
+gui\scrollbar\scrollbar_thumb.png
 gui\scrollbar\vertical_hover_bar.png
 gui\scrollbar\vertical_hover_thumb.png
 gui\scrollbar\vertical_idle_bar.png
 gui\scrollbar\vertical_idle_thumb.png
+gui\slider\bar.png
+gui\slider\bar1.png
+gui\slider\bar_0.png
+gui\slider\bar_1.png
 gui\slider\horizontal_hover_bar.png
 gui\slider\horizontal_hover_thumb.png
 gui\slider\horizontal_idle_bar.png
 gui\slider\horizontal_idle_thumb.png
+gui\slider\slider.png
+gui\slider\slider_0.png
+gui\slider\slider_1.png
+gui\slider\slider_2.png
+gui\slider\speed.png
+gui\slider\thumb.png
+gui\slider\thumb_0.png
+gui\slider\thumb_1.png
+gui\slider\thumb_2.png
 gui\slider\vertical_hover_bar.png
 gui\slider\vertical_hover_thumb.png
 gui\slider\vertical_idle_bar.png
 gui\slider\vertical_idle_thumb.png
-images\2.py
+gui\slider\volume_bar_empty.png
+gui\slider\volume_bar_full.png
+gui\splash\cloud1.png
+gui\splash\cloud2.png
+gui\splash\cloud3.png
+gui\splash\cloud4.png
+gui\splash\cloud7.png
+gui\splash\cloud8.png
+gui\splash\kitayume.png
+gui\splash\kitayume0.png
+gui\splash\birds\birds_00.png
+gui\splash\birds\birds_01.png
+gui\splash\birds\birds_02.png
+gui\splash\birds\birds_03.png
+gui\splash\birds\birds_04.png
+gui\splash\birds\birds_05.png
+gui\splash\birds\birds_06.png
+gui\splash\birds\birds_07.png
+gui\splash\birds\birds_08.png
+gui\splash\birds\birds_09.png
+gui\splash\birds\birds_10.png
+gui\splash\birds\birds_11.png
+gui\splash\birds\birds_12.png
+gui\splash\birds\birds_13.png
+gui\splash\birds\birds_14.png
+gui\splash\birds\birds_15.png
+gui\splash\birds\birds_16.png
+gui\splash\birds\birds_17.png
+gui\splash\birds\birds_18.png
+gui\splash\birds\birds_19.png
+gui\splash\birds\birds_20.png
+gui\splash\birds\birds_21.png
+gui\splash\birds\birds_22.png
+gui\splash\birds\birds_23.png
+gui\splash\birds\birds_24.png
+gui\splash\birds\birds_25.png
+gui\splash\birds\birds_26.png
+gui\splash\birds\birds_27.png
+gui\splash\birds\birds_28.png
+gui\splash\birds\birds_29.png
+gui\splash\birds\birds_30.png
+gui\splash\birds\birds_31.png
+gui\splash\birds\birds_32.png
+gui\splash\birds\birds_33.png
+gui\splash\birds\birds_34.png
+gui\splash\birds\birds_35.png
+gui\splash\birds\birds_36.png
+gui\splash\birds\birds_37.png
+gui\splash\birds\birds_38.png
+gui\splash\birds\birds_39.png
+gui\splash\birds\birds_40.png
+gui\splash\birds\birds_41.png
+gui\splash\birds\birds_42.png
+gui\splash\birds\birds_43.png
+gui\splash\birds\birds_44.png
+gui\splash\birds\birds_45.png
 images\aphrodite 0.png
 images\aphrodite 1.png
 images\aphrodite 2.png
@@ -225,46 +281,82 @@ images\bear_grylls 0.png
 images\bear_grylls 1.png
 images\bear_grylls 2.png
 images\bg base_sky.png
+images\bg bulletin_board.png
+images\bg classroom1.png
+images\bg classroom2.png
+images\bg classroom3.png
+images\bg classroom4.png
+images\bg classroom5.png
+images\bg classroom_door.png
+images\bg classroom_window.png
+images\bg engdoodles.png
+images\bg exterior.png
+images\bg exterior1.png
+images\bg exterior2.png
+images\bg exterior3.png
+images\bg exterior4.png
+images\bg exterior5.png
 images\bg exterior6.png
+images\bg exterior7.png
+images\bg exterior8.png
+images\bg exterior9.png
+images\bg forest.png
+images\bg forest2.png
+images\bg hallway.png
+images\bg hallway2.png
+images\bg home.png
+images\bg rainjapan.png
 images\bg romania_room.png
 images\bg romania_room2.png
 images\bg romania_room3.png
-images\cloud1.png
-images\cloud2.png
-images\cloud3.png
-images\cloud4.png
-images\cloud7.png
-images\cloud8.png
+images\bg stars.png
+images\bg walking.png
+images\bg water.png
+images\japansan rain.png
 images\jeremy 0.png
 images\jeremy 1.png
 images\jeremy 2.png
-images\kitayume.png
-images\kitayume0.png
-images\na2.png
+images\ripples1.png
 images\sweat_drop.png
 images\sweden.png
-images\textbox_center.png
-images\textbox_gush.png
+images\tony.png
 images\america\america DDDDDD.png
 images\america\america DDDDDD2.png
-images\america\america angry_worried.png
+images\america\america angry worried.png
 images\america\america eek.png
-images\america\america freedom_smile.png
+images\america\america freedom smile.png
 images\america\america hahahaha.png
 images\america\america hmmm.png
+images\america\america large DDDDDD.png
+images\america\america large angry yell.png
+images\america\america large freedom smile.png
+images\america\america large hahahaha.png
+images\america\america large huh.png
+images\america\america large normal.png
+images\america\america large sigh.png
+images\america\america large sup eyesclosed.png
+images\america\america large yell sweat.png
+images\america\america large youreallyare.png
+images\america\america med angry yell.png
+images\america\america med cry.png
+images\america\america med normal.png
+images\america\america med sigh.png
+images\america\america med smiling.png
+images\america\america med sup eyesclosed.png
+images\america\america med whatyousay.png
 images\america\america smiling.png
 images\america\america sneer.png
-images\america\america sup_eyesclosed.png
+images\america\america sup eyesclosed.png
 images\america\america whatyousay.png
 images\america\america worried.png
-images\america\america yell_sweat.png
+images\america\america yell sweat.png
 images\america\america youreallyare.png
+images\bulgaria\bulgaria conniving eyesclosed.png
 images\bulgaria\bulgaria conniving.png
-images\bulgaria\bulgaria conniving_eyesclosed.png
-images\bulgaria\bulgaria cry_shout.png
-images\bulgaria\bulgaria cry_thatsright.png
-images\bulgaria\bulgaria cry_waa.png
-images\bulgaria\bulgaria cry_waah.png
+images\bulgaria\bulgaria cry shout.png
+images\bulgaria\bulgaria cry thatsright.png
+images\bulgaria\bulgaria cry waa.png
+images\bulgaria\bulgaria cry waah.png
 images\bulgaria\bulgaria eek.png
 images\bulgaria\bulgaria forreal.png
 images\bulgaria\bulgaria fufufu-n.png
@@ -273,33 +365,76 @@ images\bulgaria\bulgaria hey.png
 images\bulgaria\bulgaria hey2.png
 images\bulgaria\bulgaria hmmm.png
 images\bulgaria\bulgaria howdy.png
+images\bulgaria\bulgaria large ah.png
+images\bulgaria\bulgaria large conniving.png
+images\bulgaria\bulgaria large cry well.png
+images\bulgaria\bulgaria large fufufu-n.png
+images\bulgaria\bulgaria large hmmm.png
+images\bulgaria\bulgaria large ooh.png
+images\bulgaria\bulgaria med conniving eyesclosed.png
+images\bulgaria\bulgaria med conniving.png
+images\bulgaria\bulgaria med eek.png
+images\bulgaria\bulgaria med hmmm.png
+images\bulgaria\bulgaria med howdy.png
+images\bulgaria\bulgaria med sideglance noway.png
+images\bulgaria\bulgaria med sideglance sweat crap.png
+images\bulgaria\bulgaria med sideglance sweat.png
+images\bulgaria\bulgaria med stumped.png
+images\bulgaria\bulgaria med waah.png
+images\bulgaria\bulgaria might sweat.png
 images\bulgaria\bulgaria mm.png
+images\bulgaria\bulgaria normal.png
 images\bulgaria\bulgaria ooh.png
 images\bulgaria\bulgaria smile.png
 images\bulgaria\bulgaria stumped.png
+images\bulgaria\bulgaria sweat worried.png
 images\bulgaria\bulgaria sweat.png
-images\bulgaria\bulgaria sweat_worried.png
 images\bulgaria\bulgaria waah.png
 images\bulgaria\bulgaria whatisthat.png
 images\bulgaria\bulgaria worried.png
 images\bulgaria\bulgaria yeahyeah.png
-images\bulgaria\bulgaria.png
-images\england\england angry_shout.png
-images\england\england blush_shout.png
-images\england\england blush_shout2.png
-images\england\england blush_shout3.png
+images\england\england angry shout.png
+images\england\england blush shout.png
+images\england\england blush shout2.png
+images\england\england blush shout3.png
 images\england\england cocky.png
 images\england\england fu-n.png
 images\england\england fufufu-n2.png
-images\england\england nostalgic_laugh.png
+images\england\england large blush shout.png
+images\england\england large blush shout2.png
+images\england\england large blush shout3.png
+images\england\england large cocky.png
+images\england\england large eh2.png
+images\england\england large frown.png
+images\england\england large fufufu-n.png
+images\england\england large fufufu-n2.png
+images\england\england large howdy.png
+images\england\england large mmm.png
+images\england\england large nostalgic laugh.png
+images\england\england large sneersneer2.png
+images\england\england large wanker.png
+images\england\england med fu-n.png
+images\england\england med mmm.png
+images\england\england med smirksmirk.png
+images\england\england med sneersneer.png
+images\england\england med sneersneer2.png
+images\england\england mmm.png
+images\england\england nostalgic laugh.png
 images\england\england smirksmirk.png
-images\england\england sweat_blush_whatthehell.png
-images\england\england sweat_oh.png
+images\england\england sweat blush whatthehell.png
+images\england\england sweat oh.png
 images\england\england waahahaha.png
-images\england\england white-eyed_shout.png
+images\england\england white-eyed shout.png
 images\finland\finland curious.png
 images\finland\finland heynow.png
-images\finland\finland mmm.png
+images\finland\finland large giggle.png
+images\finland\finland large heheh2.png
+images\finland\finland large nnh.png
+images\finland\finland large normal.png
+images\finland\finland large smiling.png
+images\finland\finland large sup.png
+images\finland\finland lmmm.png
+images\finland\finland mmmm.png
 images\finland\finland nnh.png
 images\finland\finland nyaaaa.png
 images\finland\finland oh.png
@@ -311,84 +446,190 @@ images\finland\finland sup.png
 images\finland\finland suup.png
 images\finland\finland ummm.png
 images\finland\finland waah.png
-images\finland\finland worried_smiling.png
-images\germany\germany .png
-images\germany\germany blush_yell.png
+images\finland\finland worried smiling.png
+images\germany\germany blush yell.png
 images\germany\germany chuckle.png
 images\germany\germany exasperated.png
+images\germany\germany eyes-half-lidded exasperated.png
 images\germany\germany eyes-half-lidded.png
-images\germany\germany eyes-half-lidded_exasperated.png
+images\germany\germany large angry eyesclosed.png
+images\germany\germany large exasperated.png
+images\germany\germany large eyes-half-lidded.png
+images\germany\germany large hmph.png
+images\germany\germany large phew.png
+images\germany\germany normal.png
 images\germany\germany ohno.png
+images\germany\germany shocked whatsthat.png
 images\germany\germany shocked.png
-images\germany\germany shocked_whatsthat.png
-images\germany\germany yell_eyesclosed.png
+images\germany\germany yell eyesclosed.png
 images\japan\japan apologies.png
-images\japan\japan blush_sweat_annoyed.png
-images\japan\japan blush_sweat_embarassed.png
+images\japan\japan blush sweat annoyed.png
+images\japan\japan blush sweat embarassed.png
 images\japan\japan chuckle.png
 images\japan\japan contemplation.png
-images\japan\japan distant-look_sweat.png
+images\japan\japan distant-look sweat.png
 images\japan\japan goodness.png
+images\japan\japan large ah2.png
+images\japan\japan large angry.png
+images\japan\japan large blush sweat embarassed sideglance.png
+images\japan\japan large blush sweat embarassed.png
+images\japan\japan large blush sweat pleasestop.png
+images\japan\japan large blush sweat ughh.png
+images\japan\japan large blush yell.png
+images\japan\japan large closedmouth sweat.png
+images\japan\japan large cocky eyesclosed.png
+images\japan\japan large contemplation.png
+images\japan\japan large deepthinking.png
+images\japan\japan large distant-look sweat.png
+images\japan\japan large hmm.png
+images\japan\japan large normal.png
+images\japan\japan large worried.png
+images\japan\japan laugh.png
+images\japan\japan shocked shy.png
 images\japan\japan shocked.png
-images\japan\japan shocked_.png
-images\japan\japan sweat_hm.png
+images\japan\japan sweat hm.png
 images\japan\japan ummm.png
-images\japan\japan worried_grimace.png
-images\romania\romania angry_yell.png
-images\romania\romania cry_eh.png
-images\romania\romania cry_nyaa.png
-images\romania\romania cry_uuu.png
+images\japan\japan worried grimace.png
+images\romania\romania angry yell.png
+images\romania\romania cry eh.png
+images\romania\romania cry nyaa.png
+images\romania\romania cry uuu.png
 images\romania\romania eh.png
-images\romania\romania eyes-half-lidded_sweat_hehe.png
+images\romania\romania eyes-half-lidded sweat hehe.png
 images\romania\romania fufufu.png
 images\romania\romania heynoow.png
 images\romania\romania holdon.png
 images\romania\romania inspired.png
+images\romania\romania large cry ehh.png
+images\romania\romania large cry nyaa.png
+images\romania\romania large cry whimper.png
+images\romania\romania large eyes-half-lidded sweataugh.png
+images\romania\romania large nyaaa.png
+images\romania\romania large sweataugh.png
+images\romania\romania med eh.png
+images\romania\romania med eyes-half-lidded sweat hehe.png
+images\romania\romania med eyes-half-lidded sweat shout.png
+images\romania\romania med eyes-half-lidded sweat.png
+images\romania\romania med normal.png
+images\romania\romania med shocked eh.png
+images\romania\romania med shocked nya.png
+images\romania\romania med sigh eyesclosed.png
+images\romania\romania med smiling.png
 images\romania\romania ooh.png
 images\romania\romania pained.png
 images\romania\romania scared.png
-images\romania\romania shocked_eh.png
-images\romania\romania shocked_nya.png
-images\romania\romania sigh_eyesclosed.png
+images\romania\romania shocked eh.png
+images\romania\romania shocked nya.png
+images\romania\romania sigh eyesclosed.png
 images\romania\romania sorry.png
 images\romania\romania sup.png
-images\romania\romania sweat_laugh.png
 images\romania\romania waaahh.png
 images\romania\romania what.png
 images\romania\romania whatsthaat.png
 images\romania\romania whattheheck.png
 images\romania\romania worried.png
 images\romania\romania.png
-images\russia\russia 2.png
-images\russia\russia 2sigh.png
+images\russia\russia 2 large ahahahaha.png
+images\russia\russia 2 large cry yaaah.png
+images\russia\russia 2 large hmmm Isee.png
+images\russia\russia 2 large sigh.png
+images\russia\russia 2 large worried.png
+images\russia\russia 2 normal.png
+images\russia\russia 2 sigh.png
 images\russia\russia glum.png
+images\russia\russia large chuckle.png
+images\russia\russia large glum.png
+images\russia\russia large hmmm.png
+images\russia\russia large shocked.png
+images\russia\russia large smiling ufufu.png
+images\russia\russia large smiling.png
+images\russia\russia large squint.png
+images\russia\russia lmph.png
 images\russia\russia mmph.png
-images\russia\russia smiling_ufufu.png
+images\russia\russia smiling ufufu.png
 images\russia\russia squint.png
 images\spain\spain Isee.png
 images\spain\spain ahaha.png
 images\spain\spain fufufu.png
+images\spain\spain large ahaha.png
+images\spain\spain large angry.png
+images\spain\spain large blush areyoukidding.png
+images\spain\spain large concern.png
+images\spain\spain large cryouthopen blush.png
+images\spain\spain large fufufu bashful.png
+images\spain\spain large fufufu.png
+images\spain\spain large normal.png
+images\spain\spain large oh.png
+images\spain\spain large oops.png
+images\spain\spain large smiling.png
+images\spain\spain large sup.png
+images\spain\spain large sweat.png
+images\spain\spain large wahaha.png
+images\spain\spain large whatintarnation.png
+images\spain\spain large worried.png
+images\spain\spain med shocked.png
+images\spain\spain med wahaha.png
 images\spain\spain oh.png
 images\spain\spain smiling.png
 images\spain\spain sup.png
 images\spain\spain wahaha.png
 images\spain\spain worried.png
-saves\1-1-LT1.save
-saves\1-2-LT1.save
+images\textbox\center.png
+images\textbox\center_1.png
+images\textbox\center_3.png
+images\textbox\center_4long.png
+images\textbox\left_1.png
+images\textbox\left_3.png
+images\textbox\left_4.png
+images\textbox\left_4long.png
+images\textbox\normal.png
+images\textbox\nvl.png
+images\textbox\right_1.png
+images\textbox\right_3.png
+images\textbox\right_4.png
+images\textbox\right_4long.png
+images\textbox\right_7big.png
+images\vfx\UFO2.png
+images\vfx\UFO3.png
+images\vfx\UFO4.png
+images\vfx\aura1.png
+images\vfx\aura2.png
+images\vfx\aura3.png
+images\vfx\aura4.png
+images\vfx\dust.png
+images\vfx\lightblue.png
+images\vfx\rain.png
+images\vfx\rain2.png
+images\vfx\rainjapan1.png
+images\vfx\rainjapan2.png
+images\vfx\snow.png
+images\vfx\snow2.png
+images\vfx\sunlight2.png
+images\vfx\upperhalf.png
+images\vfx\upperleft_yellow.png
 saves\_reload-2-LT1.save
-saves\auto-1-LT1.save
-saves\auto-10-LT1.save
-saves\auto-2-LT1.save
-saves\auto-3-LT1.save
-saves\auto-4-LT1.save
-saves\auto-5-LT1.save
-saves\auto-6-LT1.save
-saves\auto-7-LT1.save
-saves\auto-8-LT1.save
-saves\auto-9-LT1.save
 saves\navigation.json
 saves\persistent
-screens\bubbles.rpy.bkp
+scenario\0meeting.rpy
+scenario\0meeting.rpyc
+scenario\1story.rpy
+scenario\1story.rpyc
+scenario\2story.rpy
+scenario\2story.rpyc
+scenario\3story.rpy
+scenario\3story.rpyc
+scenario\4story.rpy
+scenario\4story.rpyc
+scenario\5story.rpy
+scenario\5story.rpyc
+scenario\6story.rpy
+scenario\6story.rpyc
+scenario\7story.rpy
+scenario\7story.rpyc
+scenario\character.rpy
+scenario\character.rpyc
+scenario\gallery.rpy
+scenario\gallery.rpyc
 screens\choice_screen.rpy
 screens\choice_screen.rpyc
 screens\dialogue_screens.rpy
@@ -397,8 +638,9 @@ screens\game_menu.rpy
 screens\game_menu.rpyc
 screens\history_screen.rpy
 screens\history_screen.rpyc
-screens\input.rpy
 screens\input.rpyc
+screens\language.rpy
+screens\language.rpyc
 screens\main_menu.rpy
 screens\main_menu.rpyc
 screens\other_screens.rpy
@@ -409,42 +651,62 @@ screens\preferences.rpy
 screens\preferences.rpyc
 screens\save_load.rpy
 screens\save_load.rpyc
-screens\screens.rpy.bkp
 screens\splashscreen.rpy
 screens\splashscreen.rpyc
 screens\transforms.rpy
 screens\transforms.rpyc
-tl\english\0save.png
-tl\english\1load.png
-tl\english\2backlog.png
-tl\english\3auto.png
-tl\english\4dictionary.png
-tl\english\5mainmenu.png
-tl\english\5title.psd
 tl\english\common.rpy
 tl\english\common.rpyc
-tl\english\menu_03.psd
-tl\english\options.rpy
-tl\english\options.rpyc
-tl\english\screens.rpy
-tl\english\screens.rpyc
+tl\english\gallery.rpyc
 tl\english\script.rpy
 tl\english\script.rpyc
-tl\english\title2_03.png
-tl\english\title2_04.png
-tl\english\title2_05.png
-tl\english\title2_06.png
-tl\english\title_03.png
-tl\english\title_04.png
-tl\english\title_05.png
-tl\english\title_06.png
+tl\english\gui\game_menu\0save.png
+tl\english\gui\game_menu\1load.png
+tl\english\gui\game_menu\2backlog.png
+tl\english\gui\game_menu\3auto.png
+tl\english\gui\game_menu\4dictionary.png
+tl\english\gui\game_menu\5mainmenu.png
+tl\english\gui\main_menu\title2_03.png
+tl\english\gui\main_menu\title2_04.png
+tl\english\gui\main_menu\title2_05.png
+tl\english\gui\main_menu\title2_06.png
+tl\english\gui\main_menu\title_03.png
+tl\english\gui\main_menu\title_04.png
+tl\english\gui\main_menu\title_05.png
+tl\english\gui\main_menu\title_06.png
+tl\english\scenario\0meeting.rpy
+tl\english\scenario\0meeting.rpyc
+tl\english\scenario\1story.rpy
+tl\english\scenario\1story.rpyc
+tl\english\scenario\2story.rpy
+tl\english\scenario\2story.rpyc
+tl\english\scenario\3story.rpy
+tl\english\scenario\3story.rpyc
+tl\english\scenario\4story.rpy
+tl\english\scenario\4story.rpyc
+tl\english\scenario\5story.rpy
+tl\english\scenario\5story.rpyc
+tl\english\scenario\6story.rpy
+tl\english\scenario\6story.rpyc
+tl\english\scenario\7story.rpy
+tl\english\scenario\7story.rpyc
+tl\english\scenario\character.rpy
+tl\english\scenario\character.rpyc
+tl\english\scenario\gallery.rpy
+tl\english\scenario\gallery.rpyc
 tl\english\screens\game_menu.rpy
 tl\english\screens\game_menu.rpyc
+tl\english\screens\history_screen.rpy
+tl\english\screens\history_screen.rpyc
 tl\english\screens\other_screens.rpy
 tl\english\screens\other_screens.rpyc
 tl\english\screens\popup_screens.rpy
 tl\english\screens\popup_screens.rpyc
+tl\english\screens\preferences.rpy
+tl\english\screens\preferences.rpyc
 tl\english\screens\save_load.rpy
 tl\english\screens\save_load.rpyc
+tl\None\common - Copy.rpym
+tl\None\common - Copy.rpymc
 tl\None\common.rpym
 tl\None\common.rpymc

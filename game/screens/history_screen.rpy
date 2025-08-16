@@ -1,10 +1,7 @@
 
+#################################################################################
 ## History screen ##############################################################
-##
-## This is a screen that displays the dialogue history to the player. While
-## there isn't anything special about this screen, it does have to access the
-## dialogue history stored in _history_list.
-##
+#################################################################################
 ## https://www.renpy.org/doc/html/history.html
 
 define config.history_current_dialogue = False
@@ -90,8 +87,6 @@ style history_vscrollbar:
 
 
 ## History Config #####################################################################
-##
-## The history screen displays dialogue that the player has already dismissed.
 
 ## The number of blocks of dialogue history Ren'Py will keep.
 define config.history_length = 250

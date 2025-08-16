@@ -34,3 +34,17 @@ translate english strings:
     old "俺が止める！！"
     new "俺が止める！！"
 
+# TODO: Translation updated at 2025-08-13 12:42
+
+# game/scenario/7story.rpy:26
+translate english stophim_a4c8c443:
+
+    # bul "ロ…ロシアさんっ！\nちょっとそれは\nやめるんだわー！"
+    bul "ロ…ロシアさんっ！\nちょっとそれは\nやめるんだわー！"
+
+# game/scenario/7story.rpy:46
+translate english donothing_9e5b1917:
+
+    # ame "やめるんだロシア！\n君がやめないのなら\n俺が君を止めるまでだ！"
+    ame "やめるんだロシア！\n君がやめないのなら\n俺が君を止めるまでだ！"
+

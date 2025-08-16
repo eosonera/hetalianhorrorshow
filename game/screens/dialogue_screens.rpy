@@ -6,12 +6,7 @@
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
-transform appear_textbox:
-    yzoom .8 yoffset 68 alpha 0
-    linear 0.3:
-        alpha 1.0
-        yzoom 1
-        yoffset 0
+
 
 default _skip_appear_effect = False
 default window_transform = None
@@ -107,7 +102,7 @@ screen right_7big(who, what):
     use textbox(who, what, "images/textbox/right_7big.png",
         frame_pos=(404, 253),
         window_pos=(407, 307),
-        window_size=(470, 100),
+        window_size=(480, 100),
         text_kerning=gui.kerning_dialogue,
         style_prefix_name="right_7big",
         appear_effect=appear_textbox
@@ -147,7 +142,7 @@ screen left_4long(who, what):
     use textbox(who, what, "images/textbox/left_4long.png",
         frame_pos=(45, 293),
         window_pos=(50, 348),
-        window_size=(450, 100),
+        window_size=(470, 100),
         text_size=gui.text_size - 1,
         style_prefix_name="left_4long",
         appear_effect=appear_textbox
@@ -192,6 +187,8 @@ screen center_4long(who, what):
         style_prefix_name="center_4long",
         appear_effect=appear_textbox
     )
+
+
 
 
 ############################
@@ -263,6 +260,18 @@ define gui.dialogue1_ypos = 40
 ## The maximum width of dialogue text, in pixels.
 define gui.dialogue1_xalign = 0.0
 
+## Transforms
+
+transform appear_textbox:
+    yzoom .8 yoffset 68 alpha 0
+    linear 0.3:
+        alpha 1.0
+        yzoom 1
+        yoffset 0
+
+
+
+
 
 
 ## NVL screen ##################################################################
@@ -274,7 +283,7 @@ define gui.dialogue1_xalign = 0.0
 
 screen nvl(dialogue, items=None):
 
-    window:
+    window at window_transform:
         style "nvl_window"
 
         has vbox
@@ -318,24 +327,36 @@ define config.nvl_list_length = 6
 # The style for the NVL "textbox"
 style nvl_window:
     is default
-    xfill True
-    padding (32, 61, 0, 30)
+    xsize 700
+    padding (32, 61, 0, 70)
+
+
+style ruby_style is default:
+    size gui.text_size - 6
+    kerning gui.kerning_dialogue -2
+    yoffset -24
+    color None
+
+
 
 
 # The style for dialogue in NVL
 style nvl_dialogue:
     is say_dialogue
-    size gui.text_size + 2
+    size gui.nvl_text_size
     kerning gui.kerning_dialogue + 6
     color "#fff"
     outlines [(2, "#2E3A54", 0, 0)]
     font gui.preference("font", default="msgothic.ttc")
     line_spacing gui.line_spacing +4
     #min_width 885
+    ruby_style style.ruby_style
 
 # The style for dialogue said by the narrator in NVL
 style nvl_thought:
     is nvl_dialogue
+
+
 
 style nvl_button:
     xpos 675

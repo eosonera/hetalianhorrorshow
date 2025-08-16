@@ -1,8 +1,25 @@
-﻿## This file contains options that can be changed to customize your game.
-##
-## Lines beginning with two '#' marks are comments, and you shouldn't uncomment
-## them. Lines beginning with a single '#' mark are commented-out code, and you
-## may want to uncomment them when appropriate.
+﻿## Language config ######################################################################
+
+define config.enable_language_autodetect = True
+    
+default list_languages = [
+    ("日本語", None),
+    ("English", "english"),
+]
+
+define gui.kerning_dialogue = 4
+define gui.line_spacing = 10
+
+if preferences.language == None:
+    define gui.text_size = 20
+else:
+    define gui.text_size = 18
+
+
+if preferences.language == None:
+    define gui.nvl_text_size = gui.text_size + 2
+else:
+    define gui.nvl_text_size = gui.text_size
 
 
 ## Basics ######################################################################
@@ -13,11 +30,10 @@ define config.name = "The HETALIAN HORROR SHOW"
 define gui.show_name = False
 
 ## Game ver
-define config.version = "0.1.0"
+define config.version = "0.1.1"
 
 ## ASCII-only, no white space short name
 define build.name = "thehetalianhorrorshow"
-
 
 ## Sounds and music ############################################################
 
@@ -33,7 +49,7 @@ define config.has_voice = True
 # define config.sample_voice = "sample-voice.ogg"
 
 
-define config.main_menu_music = "18_exciting.ogg"
+define config.main_menu_music = "music/18_exciting.ogg"
 
 
 ## Transitions #################################################################
@@ -50,6 +66,7 @@ define config.exit_transition = dissolve
 ## Between screens of the game menu.
 define config.intra_transition = dissolve
 
+define _scene_show_hide_transition = Dissolve(0.25)
 
 ## A transition that is used after a game has been loaded.
 define config.after_load_transition = None
@@ -80,12 +97,15 @@ define config.window = "hide"
 define config.window_show_transition = Dissolve(.2)
 define config.window_hide_transition = Dissolve(.2)
 
+
+define config.skip_indicator = False
+
 ## Preference defaults #########################################################
 
 ## Controls the default text speed. The default, 0, is infinite, while any other
 ## number is the number of characters per second to type out.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 80
 
 
 ## The default auto-forward delay. Larger numbers lead to longer waits, with 0

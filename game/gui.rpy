@@ -32,16 +32,11 @@ define gui.accent_color = '#5B4A40'
 ## The color used for a text button when it is neither selected nor hovered.
 define gui.idle_color = '#42352D'
 
-## The small color is used for small text, which needs to be brighter/darker to
-## achieve the same effect.
-define gui.idle_small_color = '#aaaaaa'
-
-## The color that is used for buttons and bars that are hovered.
-define gui.hover_color = '#5e422b'
-
 ## The color used for a text button when it is selected but not focused. A
 ## button is selected if it is the current screen or preference value.
 define gui.selected_color = '#5B4A40'
+
+define gui.hover_color = '#5B4A40'
 
 ## The color used for a text button when it cannot be selected.
 define gui.insensitive_color = '#8888887f'
@@ -62,9 +57,6 @@ define gui.text_font = "msgothic.ttc"
 
 
 
-
-## The font used for character names.
-define gui.name_text_font = "msgothic.ttc"
 
 ## The font used for out-of-game text.
 define gui.interface_text_font = "msgothic.ttc"
@@ -133,8 +125,6 @@ define gui.page_button_borders = Borders(8, 3, 8, 3)
 
 define gui.quick_button_borders = Borders(8, 3, 8, 0)
 define gui.quick_button_text_size = 10
-define gui.quick_button_text_idle_color = gui.idle_small_color
-define gui.quick_button_text_selected_color = gui.accent_color
 
 ## You can also add your own customizations, by adding properly-named variables.
 ## For example, you can uncomment the following line to set the width of a
@@ -208,61 +198,61 @@ define gui.language = "japanese-strict"
 ## Mobile devices
 ################################################################################
 
-init python:
+# init python:
 
-    ## This increases the size of the quick buttons to make them easier to touch
-    ## on tablets and phones.
-    @gui.variant
-    def touch():
+#     ## This increases the size of the quick buttons to make them easier to touch
+#     ## on tablets and phones.
+#     @gui.variant
+#     def touch():
 
-        gui.quick_button_borders = Borders(30, 10, 30, 0)
+#         gui.quick_button_borders = Borders(30, 10, 30, 0)
 
-    ## This changes the size and spacing of various GUI elements to ensure they
-    ## are easily visible on phones.
-    @gui.variant
-    def small():
+#     ## This changes the size and spacing of various GUI elements to ensure they
+#     ## are easily visible on phones.
+#     @gui.variant
+#     def small():
 
-        ## Font sizes.
-        gui.text_size = 20
-        gui.name_text_size = 26
-        gui.notify_text_size = 18
-        gui.interface_text_size = 22
-        gui.button_text_size = 22
-        gui.label_text_size = 24
+#         ## Font sizes.
+#         gui.text_size = 20
+#         gui.name_text_size = 26
+#         gui.notify_text_size = 18
+#         gui.interface_text_size = 22
+#         gui.button_text_size = 22
+#         gui.label_text_size = 24
 
-        ## Adjust the location of the textbox.
-        gui.textbox_height = 169
-        gui.name_xpos = 57
-        gui.dialogue_xpos = 64
-        gui.dialogue_width = 774
+#         ## Adjust the location of the textbox.
+#         gui.textbox_height = 169
+#         gui.name_xpos = 57
+#         gui.dialogue_xpos = 64
+#         gui.dialogue_width = 774
 
-        ## Change the size and spacing of various things.
-        gui.slider_size = 26
+#         ## Change the size and spacing of various things.
+#         gui.slider_size = 26
 
-        gui.choice_button_width = 872
-        gui.choice_button_text_size = 22
+#         gui.choice_button_width = 872
+#         gui.choice_button_text_size = 22
 
-        gui.navigation_spacing = 15
-        gui.pref_button_spacing = 8
+#         gui.navigation_spacing = 15
+#         gui.pref_button_spacing = 8
 
-        gui.history_height = 134
-        gui.history_text_width = 486
+#         gui.history_height = 134
+#         gui.history_text_width = 486
 
-        gui.quick_button_text_size = 15
+#         gui.quick_button_text_size = 15
 
 
-        ## NVL-mode.
-        gui.nvl_height = 120
+#         ## NVL-mode.
+#         gui.nvl_height = 120
 
-        gui.nvl_name_width = 215
-        gui.nvl_name_xpos = 229
+#         gui.nvl_name_width = 215
+#         gui.nvl_name_xpos = 229
 
-        gui.nvl_text_width = 644
-        gui.nvl_text_xpos = 243
-        gui.nvl_text_ypos = 4
+#         gui.nvl_text_width = 644
+#         gui.nvl_text_xpos = 243
+#         gui.nvl_text_ypos = 4
 
-        gui.nvl_thought_width = 872
-        gui.nvl_thought_xpos = 15
+#         gui.nvl_thought_width = 872
+#         gui.nvl_thought_xpos = 15
 
-        gui.nvl_button_width = 872
-        gui.nvl_button_xpos = 15
+#         gui.nvl_button_width = 872
+#         gui.nvl_button_xpos = 15

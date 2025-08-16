@@ -134,7 +134,7 @@ transform splash_fadeout:
     time 3.12
     linear 1 alpha 1.0
 
-label splashscreen:
+label splashscreen1:
 
     scene bg base_sky at splash_sky
     show cloud4 at cloud_4t
@@ -186,3 +186,14 @@ init python:
 
 image birds = Animation(*sum(bird_frames, ()))
 image birds1 = Animation(*sum(bird_frames1, ()))
+
+
+screen staffroll():
+    zorder 99
+    add "gui/staffroll.png" at credit_scroll
+
+
+transform credit_scroll:
+    ypos 600
+    linear 20.25 yoffset -3000
+    easein 5 yoffset -3600

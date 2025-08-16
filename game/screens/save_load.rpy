@@ -26,7 +26,6 @@ screen file_slots(title):
     button:
         if main_menu:
             action Hide("load")
-            
         else:
             action Return()
         background None
@@ -99,13 +98,19 @@ screen file_slots(title):
 
                             null width 25
                             
-                            text FileSaveName(slot, empty=27*'-'):
+                            text FileJson(slot, key="_save_name", empty=27*'-'):
                                 if renpy.get_screen("load"):
                                     style "slot_load_text"
                                 else:
                                     style "slot_save_text"
                             
 
+
+
+define memo_text_size = 16
+
+translate english python:
+    memo_text_size = 12
 
 
 screen savegameName(slot, accept=NullAction()):
@@ -128,32 +133,35 @@ screen savegameName(slot, accept=NullAction()):
             style "confirm_input_prompt"
             xalign 0.5
             
+
     frame:
-        xpos 296
+        xpos 292
         ypos 289
-
-        hbox:
-            spacing 5
-            text _("メモ"):
-                color "#000"
-            
-            viewport:
-                id "save_name_vp"
-                xsize 258
-                ysize 28
-                scrollbars "horizontal"
-                draggable True
-                mousewheel "horizontal"
-                input:
-                    default store.save_name or get_last_textline()
-                    changed Namer
-
-                    length 27
-                    yalign 1.0
-                    xalign 0.0
-                    xsize None
-                    
-                    color "#000"
+        ysize 28
+        xsize 40
+        text _("メモ"):
+            color "#000"
+            size memo_text_size
+            yalign 0.5
+            xalign 1.0
+    
+    viewport:
+        id "save_name_vp"
+        xpos 338
+        ypos 291
+        xsize 258
+        ysize 28
+        scrollbars "horizontal"
+        draggable True
+        mousewheel "horizontal"
+        input:
+            default store.save_name or get_last_textline()
+            changed Namer
+            length 27
+            yalign 1.0
+            xalign 0.0
+            xsize None
+            color "#000"
 
     hbox:
         xpos 307
@@ -165,10 +173,16 @@ screen savegameName(slot, accept=NullAction()):
         textbutton _("キャンセル"):
             action Hide("savegameName")
 
+
+
+
 style confirm_input_prompt_text is confirm_prompt_text
 style confirm_input_prompt_text:
     color "#000"
     size 16
+
+
+    
 
 style confirm_input_button is confirm_button
 style confirm_input_button_text is confirm_button_text

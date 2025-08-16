@@ -5,13 +5,9 @@ screen menu_open():
     use game_menu(_("Menu")):
         style_prefix "open"
 
-screen menu_open2():
-    tag menu
-    use game_menu2(_("Menu")):
-        style_prefix "open"
-
-
-## Quick Menu screen ###########################################################
+#################################################################################
+## Quick Menu screen ############################################################
+#################################################################################
 
 screen quick_menu():
 
@@ -67,15 +63,9 @@ init python:
 
 default quick_menu = True
 
-## Game Menu screen ############################################################
-##
-## This lays out the basic common structure of a game menu screen. It's called
-## with the screen title, and displays the background, title, and navigation.
-##
-## The scroll parameter can be None, or one of "viewport" or "vpgrid".
-## This screen is intended to be used with one or more children, which are
-## transcluded (placed) inside it.
-
+#################################################################################
+## Game Menu screen #############################################################
+#################################################################################
 
 screen game_menu(title):
     style_prefix "game_menu"
@@ -122,6 +112,15 @@ screen game_menu(title):
             action MainMenu(confirm=False, save=False)
 
         imagebutton:
+            xalign 0.0
+            yalign 1.0
+            idle "gui/menu_game/6help.png"
+            at menu_hover_float
+            action ShowMenu("menu_open2")
+            
+
+
+        imagebutton:
             xpos 50
             ypos 160
             idle "gui/menu_game/menu_01.png"
@@ -163,68 +162,6 @@ style game_menu_vscrollbar:
 
 
 
-## Menu 2 ###################
-
-
-screen game_menu2(title):
-    style_prefix "game_menu2"
-
-    add "gui/menu_game/bg_game_menu2.png"
-    add "gui/menu_game/menu_flower.png"
-
-    frame:
-
-        imagebutton:
-            xpos 50
-            ypos 160
-            idle "gui/menu_game/menu_05.png"
-            at menu_jump
-            action ShowMenu("about")
-
-        imagebutton:
-            xpos 50
-            ypos 216
-            idle "gui/menu_game/menu_06.png"
-            at menu_jump
-            action ShowMenu("language")
-
-        imagebutton:
-            xpos 50
-            ypos 272
-            idle "gui/menu_game/menu_07.png"
-            at menu_jump
-            action Show("preferences")
-
-
-        if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
-            imagebutton:
-                xpos 50
-                ypos 328
-                idle "gui/menu_game/menu_08.png"
-                at menu_jump
-                action ShowMenu("help")
-
-        imagebutton:
-            xpos 700
-            ypos 432
-            idle "gui/menu_game/5mainmenu.png"
-            at menu_hover_float
-            action Return()
-        
-        text _("Made with {a=https://ja.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"):
-            xalign 0.0
-            yalign 1.0
-            xsize 350
-            
-
-style game_menu2_text:
-    size 12
-    color "#fff"
-    outlines [(1.2, "#597a87", 0, 0)]
-
-
-style game_menu2_vscrollbar:
-    unscrollable "hide"
 
 
 

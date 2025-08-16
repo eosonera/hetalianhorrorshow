@@ -26,7 +26,7 @@ screen main_menu():
     add "images/vfx/blue.png" at mm_blue
     add "images/vfx/orange.png" at mm_orange
     
-    add "gui/menu_main/title_e.png" at mm_title
+    add "gui/menu_main/title.png" at mm_title
 
     vbox:
         yalign 1.0
@@ -95,15 +95,15 @@ screen main_menu():
             action ShowMenu("menu_open2")
             at mm_fade_in
 
-
+#################################################################################
 ## Main menu animations ###########################################################
+#################################################################################
 
 transform mm_title:
-    zoom 2.0
-    rotate -190
+    zoom 2.0 rotate -190 xycenter(454,294)
 
-    linear .6 zoom 1.0 rotate 0
-    linear .2 rotate 10
+    linear .6 zoom 1.0 rotate 0 xycenter(450,300)
+    linear .2 rotate 10 
 
     block:
         parallel:
@@ -119,7 +119,8 @@ transform mm_title:
 
     linear .2 rotate -7
     linear .2 rotate 0
-        
+    
+    time 1.75
     block:
         linear .9 yoffset -5
         linear .9 yoffset 0

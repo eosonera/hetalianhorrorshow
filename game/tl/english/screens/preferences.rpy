@@ -1,85 +1,40 @@
-﻿# TODO: Translation updated at 2025-08-05 20:52
+﻿# TODO: Translation updated at 2025-08-13 12:44
 
 translate english strings:
 
-    # game/screens/preferences.rpy:12
+    # game/screens/preferences.rpy:23
     old "Volume"
     new "Volume"
 
-    # game/screens/preferences.rpy:30
+    # game/screens/preferences.rpy:41
     old "BGM"
     new "BGM"
 
-    # game/screens/preferences.rpy:31
+    # game/screens/preferences.rpy:42
     old "効果音"
     new "SFX"
 
-    # game/screens/preferences.rpy:32
+    # game/screens/preferences.rpy:43
     old "セリフ"
-    new "Voice"
+    new "Speech"
 
-    # game/screens/preferences.rpy:108
-    old "Autotext Speed"
-    new "Autotext Speed"
-
-    # game/screens/preferences.rpy:127
-    old "Font"
-    new "Font"
-
-    # game/screens/preferences.rpy:139
-    old "Source Han Sans Lite"
-    new "Source Han Sans Lite"
-
-
-# TODO: Translation updated at 2025-08-05 22:10
-
-translate english strings:
-
-    # game/screens/preferences.rpy:224
-    old "ディスプレイ"
-    new "Display"
-
-    # game/screens/preferences.rpy:225
-    old "ウィンドウ"
-    new "Window"
-
-    # game/screens/preferences.rpy:230
-    old "フルスクリーン"
-    new "Fullscreen"
-
-    # game/screens/preferences.rpy:235
-    old "スキップ"
-    new "Skip"
-
-    # game/screens/preferences.rpy:236
-    old "未読テキスト"
-    new "Unread text"
-
-    # game/screens/preferences.rpy:238
-    old "選択肢後"
-    new "After Choices"
-
-    # game/screens/preferences.rpy:240
-    old "トランジション"
-    new "Transitions"
-
-# TODO: Translation updated at 2025-08-05 22:46
-
-translate english strings:
-
-    # game/screens/preferences.rpy:78
+    # game/screens/preferences.rpy:91
     old "Text Speed"
     new "Text Speed"
 
-    # game/screens/preferences.rpy:200
-    old "Preferences"
-    new "Preferences"
-
-    # game/screens/preferences.rpy:249
-    old "全てのセーブデータを消去しますか？"
-    new "Are you sure you want to delete all saves?"
+    # game/screens/preferences.rpy:121
+    old "Autotext Speed"
+    new "Autotext Speed"
 
     # game/screens/preferences.rpy:141
+    old "Font"
+    new "Font"
+
+    # game/screens/preferences.rpy:153
     old "MS ゴシック"
     new "MS Gothic"
+
+    # game/screens/preferences.rpy:153
+    old "Source Han Sans Lite"
+    new "Source Han Sans Lite"
 

@@ -4,19 +4,19 @@
 translate english meeting_6f284491:
 
     # story "俺が怖い話を聞く司会進行役…。"
-    story "俺が怖い話を聞く司会進行役…。"
+    story "I'm the moderator of the Scary Story Meeting..."
 
 # game/scenario/0meeting.rpy:15
 translate english meeting_f770514f:
 
     # story "…イタリアを木の枝でつつくくらいしか\n出番なかったころにしてみたら\n大躍進じゃね？。"
-    story "…イタリアを木の枝でつつくくらいしか\n出番なかったころにしてみたら\n大躍進じゃね？。"
+    story "...Given that I've barely shown up other than to poke Italy with a stick, this is quite a breakthrough, isn't it?"
 
 # game/scenario/0meeting.rpy:22
 translate english meeting_d12d006f:
 
     # story "ＷＷ２で木の枝でつつく以外にも\nわりかし何やってんだお前って\n行動してたのは国内がバラバラだったから、\nしょーがねーんだわ…。"
-    story "ＷＷ２で木の枝でつつく以外にも\nわりかし何やってんだお前って\n行動してたのは国内がバラバラだったから、\nしょーがねーんだわ…。"
+    story "During WWII, besides poking people with sticks, there were also a bunch of 'what are you even doing?!' moments, but the whole country was in disarray, so that's just how it was."
 
 # game/scenario/0meeting.rpy:24
 translate english meeting_76b2fe88:
@@ -28,7 +28,7 @@ translate english meeting_76b2fe88:
 translate english meeting_067e54c7:
 
     # story "うん。だから大目にみてにゃん。\nにゃんってつけとけば、\nだいたい許してもらえるらしいって\n誰かが言ってたにゃん。\nにゃんにゃんなんだわー。\nにゃんにゃん。"
-    story "うん。だから大目にみてにゃん。\nにゃんってつけとけば、\nだいたい許してもらえるらしいって\n誰かが言ってたにゃん。\nにゃんにゃんなんだわー。\nにゃんにゃん。"
+    story "Yeah. So, go easy on me, meow. Someone told me that people will forgive pretty much anything if you tack a “meow” at the end of it, meow. Meow meow, I say. Meow meow."
 
 # game/scenario/0meeting.rpy:30
 translate english meeting_76b2fe88_1:
@@ -40,7 +40,7 @@ translate english meeting_76b2fe88_1:
 translate english meeting_ae66ab79:
 
     # story "にゃんにゃんしているうちに、\n俺が怖い話を聞く事になる部屋についた。"
-    story "にゃんにゃんしているうちに、\n俺が怖い話を聞く事になる部屋についた。"
+    story "\nWhile meowing around,\nI arrive at the Scary Story Meeting room."
 
 # game/scenario/0meeting.rpy:41
 translate english meeting_76b2fe88_2:
@@ -391,4 +391,174 @@ translate english meeting_9630bdc7:
 
     # ame "彼なら今カフェで\n日光浴してるんじゃないかな？\nもうすぐにでも始めないかい？"
     ame "彼なら今カフェで\n日光浴してるんじゃないかな？\nもうすぐにでも始めないかい？"
+
+# TODO: Translation updated at 2025-08-13 12:42
+
+# game/scenario/0meeting.rpy:31
+translate english meeting_98a0294d:
+
+    # story "うん。だから大目にみてにゃん。\nにゃんってつけとけば、\nだいたい許してもらえるらしいって\n誰かが言ってたにゃん。\nにゃんにゃんなんだわー。\nにゃんにゃん。 "
+    story "うん。だから大目にみてにゃん。\nにゃんってつけとけば、\nだいたい許してもらえるらしいって\n誰かが言ってたにゃん。\nにゃんにゃんなんだわー。\nにゃんにゃん。 "
+
+# game/scenario/0meeting.rpy:50
+translate english meeting_d194fa59:
+
+    # story "\nにゃんにゃんしているうちに、\n俺が怖い話を聞く事になる部屋についた。"
+    story "\nにゃんにゃんしているうちに、\n俺が怖い話を聞く事になる部屋についた。"
+
+# game/scenario/0meeting.rpy:58
+translate english meeting_105c1e3d:
+
+    # story "つまり怖い話の最中、\nイギ太郎が何かを召還しても、\nアメ助が怪力を振るおうと、\n俺の命は保証されている。…はず。"
+    story "つまり怖い話の最中、\nイギ太郎が何かを召還しても、\nアメ助が怪力を振るおうと、\n俺の命は保証されている。…はず。"
+
+# game/scenario/0meeting.rpy:67
+translate english meeting_53fca0aa:
+
+    # story "そんなんされたら\n俺よゆうで吹き飛んじゃうんだわ…！！"
+    story "そんなんされたら\n俺よゆうで吹き飛んじゃうんだわ…！！"
+
+# game/scenario/0meeting.rpy:76
+translate english meeting_76b2fe88_4:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/0meeting.rpy:386
+translate english meeting_edb082a2:
+
+    # ame "今日はありがとう。"
+    ame "今日はありがとう。"
+
+# game/scenario/0meeting.rpy:390
+translate english meeting_c494b965:
+
+    # extend "\nアフロ○イテ…。"
+    extend "\nアフロ○イテ…。"
+
+# game/scenario/0meeting.rpy:393
+translate english meeting_d9ad4b8f:
+
+    # extend "ジェレ○ー…。"
+    extend "ジェレ○ー…。"
+
+# game/scenario/0meeting.rpy:396
+translate english meeting_948f9926:
+
+    # extend "\nベア・グリ○ス…。"
+    extend "\nベア・グリ○ス…。"
+
+# game/scenario/0meeting.rpy:398
+translate english meeting_c1259a18:
+
+    # extend "\nみんな、死なないでくれ。"
+    extend "\nみんな、死なないでくれ。"
+
+# game/scenario/0meeting.rpy:421
+translate english meeting_83310ae5:
+
+    # fin "すごいです！実物初めて見ました！\nすぐ行っちゃいましたけど…！\n僕けっこうアメリカさんの家の\nテレビ見る方なので嬉しかったです！"
+    fin "すごいです！実物初めて見ました！\nすぐ行っちゃいましたけど…！\n僕けっこうアメリカさんの家の\nテレビ見る方なので嬉しかったです！"
+
+# game/scenario/0meeting.rpy:427
+translate english meeting_038dc829:
+
+    # eng "それでそんなに興奮してたのか…。\nそういえばフィンランドが作る\nテレビ番組ってなんかゆるいよな…。"
+    eng "それでそんなに興奮してたのか…。\nそういえばフィンランドが作る\nテレビ番組ってなんかゆるいよな…。"
+
+# game/scenario/0meeting.rpy:432
+translate english meeting_6dc2756c:
+
+    # fin "はい。ずっと見てると\n脳がとろけそうになると\n皆さんから好評頂いてます。"
+    fin "はい。ずっと見てると\n脳がとろけそうになると\n皆さんから好評頂いてます。"
+
+# game/scenario/0meeting.rpy:437
+translate english meeting_91e8c642:
+
+    # eng "好評…？"
+    eng "好評…？"
+
+# game/scenario/0meeting.rpy:445
+translate english meeting_18b5414e:
+
+    # jpn "すいません、みなさん。\n私のタイミングが悪く…\n挨拶をしそびれてしまいましたので\n改めて挨拶させてください。"
+    jpn "すいません、みなさん。\n私のタイミングが悪く…\n挨拶をしそびれてしまいましたので\n改めて挨拶させてください。"
+
+# game/scenario/0meeting.rpy:450
+translate english meeting_1cc65628:
+
+    # fin "あっ僕こそすいません！\nモイっ！日本さん"
+    fin "あっ僕こそすいません！\nモイっ！日本さん"
+
+# game/scenario/0meeting.rpy:455
+translate english meeting_444b0c42:
+
+    # ame "Ｈｅｌｌｏ！日本！"
+    ame "Ｈｅｌｌｏ！日本！"
+
+# game/scenario/0meeting.rpy:460
+translate english meeting_353efc4b:
+
+    # eng "よう、日本。{size=-8}セカンド。{/size}"
+    eng "よう、日本。{size=-8}セカンド。{/size}"
+
+# game/scenario/0meeting.rpy:465
+translate english meeting_dbc0159a:
+
+    # ger "日本、今日は\nよろしく頼む。"
+    ger "日本、今日は\nよろしく頼む。"
+
+# game/scenario/0meeting.rpy:470
+translate english meeting_e4ee19e9:
+
+    # jpn "いっ…一斉！？\n…ありがとうございます。\n宜しくお願い致します。"
+    jpn "いっ…一斉！？\n…ありがとうございます。\n宜しくお願い致します。"
+
+# game/scenario/0meeting.rpy:478
+translate english meeting_ddcfcc6f:
+
+    # bul "どうもどうもなんだわー。\nって俺は二回目っすね。"
+    bul "どうもどうもなんだわー。\nって俺は二回目っすね。"
+
+# game/scenario/0meeting.rpy:483
+translate english meeting_14004e94:
+
+    # jpn "ええ、二回目ですが、\n改めまして宜しく\nお願い致します。"
+    jpn "ええ、二回目ですが、\n改めまして宜しく\nお願い致します。"
+
+# game/scenario/0meeting.rpy:488
+translate english meeting_e99f73e0:
+
+    # bul "どもどもです…。"
+    bul "どもどもです…。"
+
+# game/scenario/0meeting.rpy:497
+translate english meeting_72ae2573:
+
+    # bul "で…時間を２０分も\nオーバーしてるのに\n２人も来ないんだわ…。"
+    bul "で…時間を２０分も\nオーバーしてるのに\n２人も来ないんだわ…。"
+
+# game/scenario/0meeting.rpy:500
+translate english meeting_0bb90662:
+
+    # eng "一人スペインだろ？\nあいつが重要なビジネスの事と\n親分面できること以外で\n時間通りに来ると思うなよ。"
+    eng "一人スペインだろ？\nあいつが重要なビジネスの事と\n親分面できること以外で\n時間通りに来ると思うなよ。"
+
+# game/scenario/0meeting.rpy:506
+translate english meeting_c9537931:
+
+    # bul "うーい。\nじゃ、はじめまーす。"
+    bul "うーい。\nじゃ、はじめまーす。"
+
+# game/scenario/0meeting.rpy:511
+translate english meeting_8b295b55:
+
+    # eng "怖い話の始まりが\nそんなけだるげで\n良いのかよ！？"
+    eng "怖い話の始まりが\nそんなけだるげで\n良いのかよ！？"
+
+# game/scenario/0meeting.rpy:518
+translate english meeting_831123b5:
+
+    # na "こうして国際怖い話の会は\nふわふわした感じで始まったのだった…。"
+    na "こうして国際怖い話の会は\nふわふわした感じで始まったのだった…。"
 

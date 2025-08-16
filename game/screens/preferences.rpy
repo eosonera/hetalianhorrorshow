@@ -2,10 +2,14 @@
 ## Preferences  ##########################################################
 
 
-
-## Volume popup ################################################################
+#################################################################################
+## Volume ################################################################
+#################################################################################
 
 init python:
+    renpy.music.register_channel("sound1", mixer= "sfx", loop=False)
+    renpy.music.register_channel("sound2", mixer= "sfx", loop=False)
+
     def linear_volume_display(mixer):
         raw = preferences.get_volume(mixer)
         if raw <= 0.0:
@@ -43,8 +47,8 @@ screen volume_popup():
             
         vbox:
             xalign 1.0
-            style_prefix "volume_popup1"
             spacing 25
+            xsize 32
             $ music_volume = linear_volume_display("music")
             $ sfx_volume = linear_volume_display("sfx")
             $ voice_volume = linear_volume_display("voice")
@@ -66,9 +70,6 @@ style volume_popup_text:
     size 16
     xalign 1.0
 
-style volume_popup1_text:
-    size 16
-    xalign 0
 
 style volume_popup_slider:
     ysize 36
@@ -80,8 +81,9 @@ style volume_popup_slider:
     hover_thumb "gui/slider/thumb_1.png"
 
         
-
+#################################################################################
 ## Text speed popup ################################################################
+#################################################################################
 
 screen text_speed_popup():
     tag menu
@@ -108,9 +110,9 @@ style text_speed_slider:
     hover_thumb "gui/slider/slider_1.png"
     bar_invert True
 
-
+#################################################################################
 ## Auto text speed popup ################################################################
-##
+#################################################################################
 
 
 screen autotext_speed_popup():
@@ -128,8 +130,9 @@ screen autotext_speed_popup():
         ypos 217
         bar value Preference("auto-forward time")
 
+#################################################################################
 ## Font popup ################################################################
-##
+#################################################################################
 
 
 screen font():
@@ -201,86 +204,14 @@ style font_vscrollbar:
     thumb_offset 15
     thumb "gui/scrollbar/scrollbar_thumb.png"
 
-## Misc Options ################################################################
-##
-if renpy.variant("mobile"):
-    default persistent.saveName = False
-else:
-    default persistent.saveName = True
 
-screen preferences():
-
-    tag menu
-
-    use game_menu2(_("Preferences"))
-
-    add "gui/menu_game/backlog2.png":
-        xpos 138
-        ypos 109
-
-    viewport:
-        xpos 230
-        ypos 202
-        xsize 468
-        ysize 232
-
-        mousewheel True draggable True pagekeys True
-        scrollbars "vertical"
-        has vbox
-
-        hbox:
-            box_wrap True
-            spacing 10
-
-            if renpy.variant("pc") or renpy.variant("web"):
-                # Only need fullscreen/windowed on desktop and web builds
-
-                vbox:
-                    spacing 10
-                    style_prefix "radio"
-                    label _("ディスプレイ")
-                    textbutton _("ウィンドウ"):
-                        # Ensures this button is selected when
-                        # not in fullscreen.
-                        selected not preferences.fullscreen
-                        action Preference("display", "window")
-                    textbutton _("フルスクリーン"):
-                        action Preference("display", "fullscreen")
-
-            vbox:
-                spacing 0
-                style_prefix "check"
-                label _("スキップ")
-                textbutton _("未読テキスト"):
-                    action Preference("skip", "toggle")
-                textbutton _("選択肢後"):
-                    action Preference("after choices", "toggle")
-                textbutton _("トランジション"):
-                    action InvertSelected(Preference("transitions", "toggle"))
-            
-            if renpy.variant("mobile"):
-                vbox:
-                    style_prefix "radio"
-                    label _("Save game names")
-                    textbutton _("Yes") action [SetVariable("persistent.saveName", True)]
-                    textbutton _("No") action [SetVariable("persistent.saveName", False)]
-
-        style_prefix "remover"
-        null height 50
-        textbutton ("DELETE ALL SAVE DATA"):
-            activate_sound "sfx/bam10.ogg"
-            action Confirm(_("全てのセーブデータを消去しますか？"), Function(delete_all_saves), no=None)
 
         
 
 
 ## Styles ###################
 
-style remover_button_text:
-    color "#ff0000"
-    size 20
-    hover_color "#000"
-    outlines [(1.2, "#fff", 0, 0)]
+
 
 
 ### PREF

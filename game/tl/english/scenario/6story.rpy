@@ -720,3 +720,29 @@ translate english story6_01fff8b4:
     # fin "つ…次こそ\nふわふわしてない話を\nさせてもらいますよ！"
     fin "つ…次こそ\nふわふわしてない話を\nさせてもらいますよ！"
 
+# TODO: Translation updated at 2025-08-29 10:14
+
+# game/scenario/6story.rpy:217
+translate english story6_c4c738ae:
+
+    # story "\n\n「アジア人の君はしらんかもしれんけど、\n　ヨーロッパの国によっては\n　誕生日ネームゆうのがあってなー。\n　３６５日分の名前があんねんで。\n\n　君、誕生日いつやの？\n　ヨーロッパ風に名前つけたるよぉ」"
+    story "\n\n「アジア人の君はしらんかもしれんけど、\n　ヨーロッパの国によっては\n　誕生日ネームゆうのがあってなー。\n　３６５日分の名前があんねんで。\n\n　君、誕生日いつやの？\n　ヨーロッパ風に名前つけたるよぉ」"
+
+# game/scenario/6story.rpy:220
+translate english story6_77595613:
+
+    # story "\n\n\n「家族は何人おるのー？\n　嫁おるん？何歳何歳？」"
+    story "\n\n\n「家族は何人おるのー？\n　嫁おるん？何歳何歳？」"
+
+# game/scenario/6story.rpy:294
+translate english story6_76b2fe88_30:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:301
+translate english story6_76b2fe88_31:
+
+    # nvl clear
+    nvl clear
+

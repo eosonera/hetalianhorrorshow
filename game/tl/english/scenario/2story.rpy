@@ -482,3 +482,43 @@ translate english story2_c892c3cc:
     # fin "あはは…\nきょ、今日は\n空が綺麗ですね！"
     fin "あはは…\nきょ、今日は\n空が綺麗ですね！"
 
+# TODO: Translation updated at 2025-08-29 10:14
+
+# game/scenario/2story.rpy:182
+translate english story2_144b3000:
+
+    # ger "{size=+3}は…早まるな\nアメリカーッ！！！{/size}"
+    ger "{size=+3}は…早まるな\nアメリカーッ！！！{/size}"
+
+# game/scenario/2story.rpy:310
+translate english story2_b042fccd:
+
+    # story "　\n　\n　\n　\n　\n俺のルームメイトの\nトニーのそっくりさんだったんだ…！！"
+    story "　\n　\n　\n　\n　\n俺のルームメイトの\nトニーのそっくりさんだったんだ…！！"
+
+# game/scenario/2story.rpy:344
+translate english story2_ddc443ca:
+
+    # nvl clear
+    # story "{k=3}「なんだいその設定！面白くていいよ。\n　星の名前はもう少し覚えやすくて\n　かっこいい方が良いぞ！\n　映画にした時に覚えられないと困るだろう？」{/k}"
+    nvl clear
+    story "{k=3}「なんだいその設定！面白くていいよ。\n　星の名前はもう少し覚えやすくて\n　かっこいい方が良いぞ！\n　映画にした時に覚えられないと困るだろう？」{/k}"
+
+# game/scenario/2story.rpy:395
+translate english story2_ef7600bc:
+
+    # extend "\n\n「あ、リバーで思い出したんですけど\n　私の船乗ってみます？\n　リバーのあの船よりは便利ですよ」\n\nなんていうからさ。"
+    extend "\n\n「あ、リバーで思い出したんですけど\n　私の船乗ってみます？\n　リバーのあの船よりは便利ですよ」\n\nなんていうからさ。"
+
+# game/scenario/2story.rpy:414
+translate english story2_b5a2284d:
+
+    # story "　\n　\n　\n…それで彼が宙に円を描くと、{nw=1.0}"
+    story "　\n　\n　\n…それで彼が宙に円を描くと、{nw=1.0}"
+
+# game/scenario/2story.rpy:417
+translate english story2_80fb1745:
+
+    # extend "\n大きな音と振動の後、奥から{nw=4.0}"
+    extend "\n大きな音と振動の後、奥から{nw=4.0}"
+

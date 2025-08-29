@@ -188,7 +188,7 @@ translate english strings:
 
     # game/screens/misc_menu.rpy:340
     old "Ｌトリガー\nＬボタン"
-    new "Left Trigger\nLeft Shoulderン"
+    new "Left Trigger\nLeft Shoulder"
 
     # game/screens/misc_menu.rpy:344
     old "Ｒボタン"

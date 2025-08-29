@@ -69,7 +69,7 @@ label gallery:
     else:
         stop music fadeout 1
         scene bg exterior6
-        show dust2 at dust2_transform
+
         $ gal.screen = 'gallery_textbox'
         gal "クリアーすると解放されます。"
         

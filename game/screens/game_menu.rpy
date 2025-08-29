@@ -125,14 +125,14 @@ screen game_menu(title):
             ypos 160
             idle "gui/menu_game/menu_01.png"
             at menu_jump
-            action ShowMenu("text_speed_popup")
+            action ShowMenu("text_speed")
 
         imagebutton:
             xpos 50
             ypos 216
             idle "gui/menu_game/menu_02.png"
             at menu_jump
-            action ShowMenu("autotext_speed_popup")
+            action ShowMenu("autotext_speed")
 
         imagebutton:
             xpos 50
@@ -146,7 +146,7 @@ screen game_menu(title):
             ypos 328
             idle "gui/menu_game/menu_04.png"
             at menu_jump
-            action Show("volume_popup")
+            action Show("volume")
 
         if renpy.variant("mobile"):
             imagebutton:
@@ -161,7 +161,38 @@ style game_menu_vscrollbar:
 
 
 
+## Menu animations ###########################################################
 
+
+transform anim_game_menu:
+    yoffset 27
+    linear .83:
+        yoffset 0
+
+
+transform anim_doily:
+    xycenter(151,408)
+    rotate -40
+    linear .83:
+        xycenter(151,408)
+        rotate 0
+    
+
+transform menu_jump:
+    on hover:
+        linear .61 yoffset -6
+        yoffset 0
+        repeat
+    on idle:
+        yoffset 0
+
+transform menu_hover_float:
+    on hover:
+        linear 0.7 yoffset -15
+        linear 0.7 yoffset 0
+        repeat
+    on idle:
+        yoffset 0
 
 
 

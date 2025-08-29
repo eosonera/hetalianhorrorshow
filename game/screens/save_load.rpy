@@ -4,7 +4,7 @@
 ## https://www.renpy.org/doc/html/screen_special.html#save
 ## https://www.renpy.org/doc/html/screen_special.html#load
 
-
+## Save game names based on BadMustard's code: https://www.badmustard.itch.io/renpy-save-game-names
 
 screen save():
     modal True
@@ -65,6 +65,9 @@ screen file_slots(title):
 
                         if renpy.get_screen("save") and persistent.saveName:
                             action [Function(SetSaveName, slot), Show("savegameName", slot=slot, accept=FileSave(slot))]
+                        elif renpy.get_screen("load") and FileLoadable(slot):
+                            action Show("confirm", message=_("[slot:02d]番をロードします").replace("[slot:02d]", f"{slot:02d}"), yes_action=FileLoad(slot, confirm=False), no_action=Hide("confirm"))
+
                         else:
                             action [Function(SetSaveName, slot), FileAction(slot)]
 
@@ -118,6 +121,7 @@ screen savegameName(slot, accept=NullAction()):
     zorder 200
     style_prefix "confirm_input"
 
+
     add "gui/menu_game/confirm_input.png":
         xpos 206
         ypos 192
@@ -155,13 +159,16 @@ screen savegameName(slot, accept=NullAction()):
         draggable True
         mousewheel "horizontal"
         input:
+            id "save_name_input"
             default store.save_name or get_last_textline()
-            changed Namer
+            changed scroll_input_with_caret
             length 27
             yalign 1.0
             xalign 0.0
             xsize None
             color "#000"
+
+    timer 0.05 repeat True action Function(scroll_input_with_caret)
 
     hbox:
         xpos 307
@@ -174,55 +181,18 @@ screen savegameName(slot, accept=NullAction()):
             action Hide("savegameName")
 
 
+## Styles
 
-
+style confirm_input_button is confirm_button
+style confirm_input_button_text is confirm_button_text
 style confirm_input_prompt_text is confirm_prompt_text
 style confirm_input_prompt_text:
     color "#000"
     size 16
 
 
-    
-
-style confirm_input_button is confirm_button
-style confirm_input_button_text is confirm_button_text
-
-
 screen dynamic_preview(what):
     add what
-
-
-init python:
-    import string
-
-    def get_last_textline():
-        cleaned = renpy.filter_text_tags(store._last_raw_what, allow=[])
-        cleaned = cleaned.strip()
-        cleaned = "".join(ch for ch in cleaned if ch.isprintable())
-        cleaned = cleaned[:13]
-        return cleaned
-
-
-    def get_save_preview(slot):
-        if FileLoadable(slot):
-            preview = FileScreenshot(slot)
-            return TrackCursor(preview)
-        else:
-            return None
-
-    def SetSaveName(slot):
-        Namer(FileSaveName(slot))
-    def Namer(name):
-        if store.save_name:
-            store.save_name = name
-        else:
-            store.save_name = get_last_textline()
-
-
-
-
-
-## Styles
 
 style slot_save_text:
     size 16
@@ -245,11 +215,62 @@ style slot_vscrollbar:
     thumb_offset 15
     thumb "gui/scrollbar/scrollbar_thumb.png"
 
-## The width and height of thumbnails used by the save slots.
+
 define config.thumbnail_width = 270
 define config.thumbnail_height = 180
 define file_slot_rows = 50
 
+## Python
+
+init python:
+    import string
+
+    def get_last_textline():
+        cleaned = renpy.filter_text_tags(store._last_raw_what, allow=[])
+        cleaned = cleaned.strip()
+        cleaned = "".join(ch for ch in cleaned if ch.isprintable())
+        cleaned = cleaned[:13]
+        return cleaned
+
+
+    def get_save_preview(slot):
+        if FileLoadable(slot):
+            preview = FileScreenshot(slot)
+            return TrackCursor(preview)
+        else:
+            return None
+
+    def SetSaveName(slot):
+        Namer(FileSaveName(slot))
+    def Namer(name):
+        if name:
+            store.save_name = name
+        else:
+            store.save_name = get_last_textline()
+
+init python:
+    def scroll_input_with_caret(new_text=None):
+        if new_text is not None:
+            Namer(new_text)
+        scroll_to_caret()
+
+    def scroll_to_caret():
+        input_disp = renpy.get_widget("savegameName", "save_name_input")
+        viewport_disp = renpy.get_widget("savegameName", "save_name_vp")
+
+        if not input_disp or not viewport_disp:
+            return
+
+        caret_pos = getattr(input_disp, 'caret_pos', 0)
+        avg_char_width = 12
+        caret_px = caret_pos * avg_char_width
+        vp_width = viewport_disp.width
+        current_scroll = viewport_disp.xadjustment.value
+
+        if caret_px < current_scroll:
+            viewport_disp.xadjustment.value = max(0, caret_px - 10)
+        elif caret_px > current_scroll + vp_width - avg_char_width:
+            viewport_disp.xadjustment.value = caret_px - vp_width + avg_char_width + 10
 
 
 init python:

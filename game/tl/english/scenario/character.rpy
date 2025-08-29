@@ -1,39 +1,40 @@
-﻿# TODO: Translation updated at 2025-08-09 15:30
+﻿# TODO: Translation updated at 2025-08-24 14:22
 
 translate english strings:
 
     # game/scenario/character.rpy:6
     old "ブルガリア"
-    new "Bulgaria"
+    new "ブルガリア"
 
     # game/scenario/character.rpy:6
     old "ルーマニア"
-    new "Romania"
+    new "ルーマニア"
 
     # game/scenario/character.rpy:6
     old "イギリス"
-    new "England"
+    new "イギリス"
 
     # game/scenario/character.rpy:6
     old "日本"
-    new "Japan"
+    new "日本"
 
     # game/scenario/character.rpy:6
     old "ドイツ"
-    new "Germany"
+    new "ドイツ"
 
     # game/scenario/character.rpy:6
     old "フィンランド"
-    new "Finland"
+    new "フィンランド"
 
     # game/scenario/character.rpy:6
     old "アメリカ"
-    new "America"
+    new "アメリカ"
 
     # game/scenario/character.rpy:6
     old "スペイン"
-    new "Spain"
+    new "スペイン"
 
     # game/scenario/character.rpy:6
     old "ロシア"
-    new "Russia"
+    new "ロシア"
+

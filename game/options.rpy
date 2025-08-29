@@ -9,17 +9,35 @@ default list_languages = [
 
 define gui.kerning_dialogue = 4
 define gui.line_spacing = 10
+define gui.nvl_width = 900
 
-if preferences.language == None:
-    define gui.text_size = 20
-else:
-    define gui.text_size = 18
+translate english python:
+    gui.nvl_width = 650
 
 
-if preferences.language == None:
-    define gui.nvl_text_size = gui.text_size + 2
-else:
-    define gui.nvl_text_size = gui.text_size
+define gui.text_size = 20
+translate english python:
+    gui.text_size = 18
+
+define narr_window_size = (610, 200)
+translate english python:
+    narr_window_size = (570, 200)
+
+define gui.nvl_text_size = gui.text_size + 2
+translate english python:
+    gui.nvl_text_size = gui.text_size
+
+
+define story1 = Character(None,
+    kind = nvl,
+    window_style="nvl_window1",
+    ctc="ctc_button",
+    ctc_position="nestled",)
+
+style nvl_window1:
+    is default
+    xsize gui.nvl_width
+    padding (15, -31, 0, -31) #left, top, right, bottom
 
 
 ## Basics ######################################################################
@@ -30,7 +48,7 @@ define config.name = "The HETALIAN HORROR SHOW"
 define gui.show_name = False
 
 ## Game ver
-define config.version = "0.1.1"
+define config.version = "0.1.2"
 
 ## ASCII-only, no white space short name
 define build.name = "thehetalianhorrorshow"
@@ -100,12 +118,13 @@ define config.window_hide_transition = Dissolve(.2)
 
 define config.skip_indicator = False
 
+
 ## Preference defaults #########################################################
 
 ## Controls the default text speed. The default, 0, is infinite, while any other
 ## number is the number of characters per second to type out.
 
-default preferences.text_cps = 80
+default preferences.text_cps = 60
 
 
 ## The default auto-forward delay. Larger numbers lead to longer waits, with 0

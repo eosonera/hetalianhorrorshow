@@ -1,15 +1,17 @@
 
 
 label story2:
-    scene bg exterior7 at pan_to_top
-    with dissolve
+    stop music
+    scene bg exterior7
+    with Dissolve(0.2)
+    pause 0.2
     na "{size=+2}第二話　アメリカの怖い話。{/size}"
 
-    scene bg classroom1 at pan_to_bottom
+    scene bg classroom1
 
     play music "music/International_Uplifting_Dance-full_length_track.ogg"
     pause 0.2
-    show america large normal at pos_transform(x=350, y=-40)
+    show america large normal at pos_transform(xpos=350, ypos=-40)
     show nvl_textbox
     with Dissolve(0.25)
 
@@ -21,68 +23,95 @@ label story2:
     story "俺だっていつもいつも\nナンバーワンにこだわってる\nわけじゃないからな。"
     nvl clear
 
-    scene bg classroom4 at pan_to_top
-    show england sweat oh at pos_transform(x=140, yalign=0.0)
+    scene bg classroom4
+    show england sweat oh at pos_transform(xpos=140, yalign=0.0)
     $ eng.screen = 'left_3'
     eng "嘘だ！お前いつも\n一番にこだわるだろ"
 
-    show america sup eyesclosed at pos_transform(x=400, yalign=0.0)
+    show america sup eyesclosed at pos_transform(xpos=400, yalign=0.0)
     $ ame.screen = 'right_3'
     ame "ＮＯ！\nプライドに関わる\nところだけだよ！"
 
-    show bulgaria conniving at pos_transform(x=-50, yalign=0.0)
+
+    show bulgaria conniving:
+        xpos -50, yalign 0.0
+        time 0.2
+        block:
+            easeout 0.3 yoffset 40
+            easein 0.2 yalign 0.0 yoffset -5
+            ease 0.2 yoffset 0
+
+    pause 0.6
     $ bul.screen = 'left_4'
     bul "その漫才、\n始まると長そうなんで\nちょっちょと怖い話\nしちゃってくれますか？"
 
     show england blush shout2
     $ eng.screen = 'left_1'
     play sound ["<silence .3>","sfx/ding27.ogg"]
+    $ window_transform = shake_2s1
     eng "漫才じゃないぞ！"
+    $ window_transform = None
 
-    show america freedom smile
+    show america howdy
     $ ame.screen = 'right_3'
     ame "ＯＫ！それじゃあ\n俺の体験した怖い話を\n披露させてもらうんだぞ！"
 
     stop music fadeout 1.0
-    scene bg classroom_window at pan_to_top
+    scene bg classroom_window
     show nvl_textbox
     play music "music/hate.ogg" 
-    show america large normal at pos_transform(x=350, y=-40)
+    show america large normal at pos_transform(xpos=350, ypos=-40)
 
     story "\nあれは俺が民家に迫りくる\nバッファローの大群を\n一頭一頭キャッチして\n手作業で向きを変えていた時の話…。"
     nvl clear
 
     stop music fadeout 1.0
 
-    scene bg classroom1 at pan_to_top
+    scene bg classroom1
     play music "music/FilmEdge_Casual_Z008-QuirkyBounce-Sorbo.ogg"
-    show bulgaria conniving at pos_transform(x=100, yalign=0.0)
+    show bulgaria conniving at pos_transform(xpos=100, yalign=0.0)
     $ bul.screen = 'left_3'
     bul "あ。\nそれじゃない話で\nお願いします"
 
-    show america whatyousay at pos_transform(x=200, yalign=0.0)
+    show america whatyousay:
+        xpos 200 yalign 0.0
+        time .8
+        linear 0.1 xoffset -22 yoffset -21
+        linear 0.05 xoffset 0 yoffset 0
+        linear 0.1 xoffset -18 yoffset +19
+        linear 0.1 xoffset +12 yoffset -12
+        linear 0.1 xoffset -11 yoffset +8
+        linear 0.1 xoffset 0 yoffset 0
+
     $ ame.screen = 'center_4long'
-    play sound ["<silence .2>", "sfx/hit22.ogg"]
-    #$ window_transform = 
+    play sound ["<silence .2>", "sfx/hit35.ogg"]
+    $ window_transform = shake_0m1
     $ _skip_appear_effect = True
     ame "Ｗｈａｔ！？"
-    #$ window_transform = None
+    $ window_transform = None
     extend "\n君はバッファローの群れが\n家に向かってきても怖くないのかい？"
     $ _skip_appear_effect = False
+    stop sound
 
-    show germany eyes-half-lidded exasperated at pos_transform(x=470, yalign=0.0)
+    show germany squint exasperated at pos_transform(xpos=470, yalign=0.0)
     $ ger.screen = 'right_4long'
     ger "確かに怖いと言えば怖いが\n怖いの方向性があまりにも\n斜め上すぎるだろう！"
 
     show america eek
     $ ame.screen = 'center_4long'
     play sound ["<silence 1.5>","sfx/ding27.ogg"]
+    $ window_transform = shake_2s2
     ame "バッファローのボスが俺めがけて\n突進してくるシーンは全俺が震えるほど\nスリルに満ち溢れてるんだぞ！\n吹き飛ばされたけど民家は守ったんだ！"
+    $ window_transform = None
+    stop sound
 
     show bulgaria forreal
     $ bul.screen = 'left_4'
-    play sound ["<silence .2>", "sfx/hit34.ogg"]
+    play sound ["<silence .5>", "sfx/hit34.ogg"]
+    $ window_transform = shake_2s3
     bul "もうバッファローより\nアメリカさん自体が\n怖ぇーっす！"
+    $ window_transform = None
+    stop sound
 
     show america worried
     $ ame.screen = 'center_3long'
@@ -92,7 +121,7 @@ label story2:
     $ bul.screen = 'left_4'
     bul "もーちょい\n身近に感じる怖い話\nプリーズなんだわー！"    
 
-    show america d
+    show america eksdee
     $ ame.screen = 'center_4long'
     ame "ＯＫ！安心してくれたまえ！\nこれ以外にもスキュアリーな話は\n用意しているんだぞ！"
 
@@ -101,73 +130,119 @@ label story2:
     scene bg classroom5 at pan_to_top
     show nvl_textbox
     play music "music/hate.ogg" 
-    show america large normal at pos_transform(x=350, y=-40)
+    show america large normal at pos_transform(xpos=350, ypos=-40)
     with Dissolve(0.25)
 
-    story "これは俺がエリア５１で\n宇宙人に会った時の話だ…。"
+    story "{size=+5}\nこれは俺がエリア５１で\n宇宙人に会った時の話だ…。{/size}"
     nvl clear
 
     ## Glass Cutscene #########################################
     scene bg classroom_window at pan_to_top
     stop music fadeout 1.0
-    play sound "sfx/crash16_b.ogg"
+    play sound ["<silence .5>", "sfx/crash16_b.ogg"]
     queue sound "sfx/crash16_b.ogg"
     queue sound "sfx/crash16_b.ogg"
     queue sound "sfx/crash16_b.ogg"
     queue sound "sfx/crash16_b.ogg"
-    show bulgaria waah at pos_transform(x=0, yalign=0.0)
+    queue sound "sfx/crash16_b.ogg"
+    show bulgaria waah at bul_glass
     show japan shocked at jpn_glass behind bulgaria
     show finland waah at fin_glass behind japan
-    show england white-eyed shout at eng_glass
+    show england scream at eng_glass
     show germany shocked whatsthat at ger_glass behind england
 
-    pause 5.0
+    pause 5.5
     show black:
         alpha 0.4
-    queue sound "sfx/wa-bam.ogg" fadein 0.1
+    queue sound ["<silence .5>", "sfx/wa-bam.ogg"]
     show glass_smash
     $ na2.screen = 'center_3long'
+    $ window_transform = shake_2s1
     na2 "{size=+6}――ッ！！？{/size}"
+    $ window_transform = None
 
     scene bg classroom1
     stop sound
     play music "music/Visit_to_the_Zoo.ogg"
-    show america large sup eyesclosed at pos_transform(x=-40, y=-150)
+    show america large sup eyesclosed at pos_transform(xpos=-40, ypos=-150)
     $ ame.screen = 'center_3long'
     ame "あれは俺がエリア５１で\nインベーダゲームをしていた時\n急に上司に呼ばれて…"
 
-    show germany shocked whatsthat at pos_transform(x=550, yalign=0.0) behind america
+    show germany shocked whatsthat behind america:
+        xpos 550 yalign 0.0
+        time 0.7
+        linear 0.1 xoffset -21 yoffset -17
+        linear 0.1 xoffset +10 yoffset +10
+        linear 0.1 xoffset 0 yoffset 0
+        linear 0.1 xoffset -5 yoffset -5
+        linear 0.1 xoffset 0 yoffset 0
     $ ger.screen = 'right_4'
-    play sound ["<silence 0.2>","sfx/bam05.ogg"]
-    ger "は…早まるな\nアメリカーッ！！！"
+    play sound ["<silence 0.2>","sfx/bam05.ogg"] volume 0.75
+    $ window_transform = shake_2s4
+    ger "{size=+3}は…早まるな\nアメリカーッ！！！{/size}"
+    $ window_transform = None
+    stop sound
 
-    show england blush shout2 at pos_transform(x=430, yalign=0.0) behind germany
+    show england blush shout2 at pos_transform(xpos=430, yalign=0.0) behind germany:
+        xpos 430 yalign 0
+        time 0.5
+        block:
+            easeout 0.2 yoffset -30
+            easein 0.3 yoffset 20
+            repeat
     $ eng.screen = 'center_3long'
-    play sound ["<silence .3>","sfx/ding51.ogg"]
+    play sound ["<silence .1>","sfx/ding51.ogg"]
+    play sound1 ["<silence 1.1>","sfx/ding51.ogg"]
     eng "そそそそそうだぞ！\nそれ国家機密レベルだろ！？\n聞かされる俺らも危ないだろ！"
 
-    show bulgaria cry shout at pos_transform(x=40, yalign=0.0) behind america
+    show england at stop_offset with move
+    show bulgaria cry shout behind america:
+        xpos 40 yalign 0
+        time 0.5
+        block:
+            linear 0.15 xoffset +5
+            linear 0.15 xoffset -5
+            repeat
+    
     $ bul.screen = 'left_3'
     bul "ちょ…俺ら消される\nタイプの怖さは\n求めてねーんだわー！"
 
-    show america large d
+    show america large eksdee
     $ ame.screen = 'left_4'
     ame "ＨＡＨＡＨＡ！\nいきなり怖がってくれて\n嬉しいんだぞ！"
     window show
-    show america large hahahaha
-    with {'master':Dissolve(0.25)}
-    #$ window_transform = 
+    show bulgaria at stop_offset with {'master':move}
+    show america large hahahaha with {'master':Dissolve(0.2)}:
+        time 0.2
+        parallel:
+            easein 0.5 yoffset +160
+        parallel:
+            linear 0.4 xoffset 0
+            linear 0.1 xoffset -2
+            linear 0.1 xoffset +2
+            linear 0.1 xoffset 0
+
     $ _skip_appear_effect = True
+    $ ame.screen = 'left_4'
     ame "なんだいイギリス\n君のその顔！！\nＤＤＤＤＤＤＤＤ！"
-    #$ window_transform = None
     $ _skip_appear_effect = False
     window auto
 
-    show america large freedom smile
+    show america large howdy:
+        time 0.2
+        block:
+            easein 0.5 yoffset +10
+
+    pause 0.5
     $ ame.screen = 'left_4'
     ame "さっきのスリルと感動の\nバッファローの話に比べたら\nキッズ用のファンタジーさ！\n安心して聞いてくれ！"
 
-    show bulgaria cry waah
+    show bulgaria cry waah:
+        time 0.5
+        block:
+            linear 0.15 xoffset +5
+            linear 0.15 xoffset -5
+            repeat
     $ bul.screen = 'left_3'
     bul "その言葉\n信じるわー！\nマジ頼むんだわー！"
 
@@ -178,16 +253,18 @@ label story2:
     stop music fadeout 1.0
     scene bg classroom1 at pan_to_bottom
     pause 0.2
-    show america large normal at pos_transform(x=350, y=-40)
+    show america large normal at pos_transform(xpos=350, ypos=-40)
     show nvl_textbox
     with Dissolve(0.25)
     play music "sfx/16_Talking_Computer_1.ogg" loop volume 0.4
 
     story "それで上司に呼び出された俺は\nエリア５１の地下２１階を\n上司と二人で進んでいったんだ…。"
     
-    show bg tech2 at pan_to_top behind nvl_textbox
+    show bg tech2 behind nvl_textbox
+    with {'master': Dissolve(0.2)}
+    pause 0.5
     show america large huh
-    with {'master': Dissolve(0.3)}  
+    with {'master': Dissolve(0.2)}  
     story "２１階…？\nエリア５１の地下って１７階までって\n聞いていたけどどういうことだい？\n俺は上司にストレートに質問してみた。"
     nvl clear
 
@@ -213,27 +290,39 @@ label story2:
     story "\n「紹介しよう。\n　合衆国が技術提携を結んでいる\n　ＧＨ５３４７３星雲の\n　ＹＵ７８３４２星から\n　合衆国の視察に来た\n　ＭＡＴＡ・メッテシーア君だ」"
 
     ## Alien Cutscene    
-    #play sound ["<silence .75>", "sfx/brisk_walk.ogg"]
+    play sound ["<silence .75>", "sfx/brisk_walk.ogg"]
     story "\n\nそこに現れたのは…{nw=1.0}" 
-    show bg tech3 #at tech3_pos behind nvl_textbox
+    show alien_anim
     show alien at mata_pos
-    with flash
+    with flashbulb
     pause 3.0
     nvl clear
     stop music fadeout 0.5
 
     scene bg tech at pan_to_top
     show nvl_textbox
-    show alien at pos_transform(x=500, y=40)
+    show alien at pos_transform(xpos=500, ypos=40)
     pause 0.5
-    play sound ["<silence 0.75>", "sfx/ka-bam.ogg"] volume 0.7
-    show tony at tony_pos with Dissolve(0.25)
-    story "　\n　\n　\n　\n　\n俺のルームメイトの\nトニーのそっくりさんだったんだ…！！" with sshake
+    play sound ["<silence 0.75>", "sfx/ka-bam.ogg"] volume 0.6
+
+    camera at shake_2s5
+    camera screens at shake_0m10
+    story "　\n　\n　\n　\n　\n俺のルームメイトの\nトニーのそっくりさんだったんだ…！！" 
     nvl clear
 
-    play music "music/22_ohmy.ogg"
-    
+    camera
+    camera screens
 
+    play music "music/22_ohmy.ogg"
+
+    play sound ["<silence 0.2>", "sfx/ding12.ogg"]
+    show tony with {'master': Dissolve(0.2)}:
+        xpos 400 ypos 280
+        easein 0.3 yoffset -20
+        easein 0.2 yoffset +20
+        easein 0.3 yoffset 0
+
+    
     story "　\n「どうぞ、よろしく。\n　国の方と会うのは公式では初めてです。\n　私の星には貴方のような方はいないので\n　よろしかったらお話を聞かせてください」\n\nなんてトニーのそっくりさんは\n宇宙人設定で話しかけてくるんだよ！"
     nvl clear
     hide tony
@@ -254,10 +343,19 @@ label story2:
     story "{k=8}　\n「え。あ。いや普通に宇宙人ですよ…？\n　トニーさんって…？」\n\nなんて言い出すんだよ！\n分かった今日一日君は宇宙人キャラでいくんだな！\nＯＫ！　俺も付き合ってやるんだぞ！{/k}"
     nvl clear
     
-    story "{k=8}「なんだいその設定！面白くていいよ。\n　星の名前はもう少し覚えやすくて\n　かっこいい方が良いぞ！\n　映画にした時に覚えられないと困るだろう？」{/k}"
-    show alien sweat
-    with {'master': Dissolve(0.4)} 
+    story "{k=3}「なんだいその設定！面白くていいよ。\n　星の名前はもう少し覚えやすくて\n　かっこいい方が良いぞ！\n　映画にした時に覚えられないと困るだろう？」{/k}"
+    pause 0.3
+    show alien sweat:
+        time 0.6
+        linear 0.1 xoffset +21 yoffset +17
+        linear 0.1 xoffset 0 yoffset 0
+        linear 0.1 xoffset +10 yoffset -9
+        linear 0.1 xoffset 0 yoffset 0
+        linear 0.1 xoffset -5 yoffset +5
+        linear 0.1 xoffset 0 yoffset 0
 
+    #with {'master': Dissolve(0.4)} 
+    pause 0.8
     story "{k=8}「えー…、嘘ーん…。\n　この見た目の時点で\n　あっ宇宙人だ。って思いません？\n　それに多分そのトニーさんも宇宙人っすよ」{/k}"
     nvl clear
 
@@ -280,22 +378,29 @@ label story2:
     story "ひとしきり笑った後は\n彼ともすぐ仲良くなれたよ。\n　\n彼、連続ドラマが好きらしくってさ。\n色んなドラマがあるっていうのに\nザ・リバーが一番好きなんて\nセンスが宇宙っぽいかもしれないね。"
     nvl clear
     hide alien
-    play music "sfx/16_Talking_Computer_1.ogg" loop volume 0.4
+    play music "sfx/16_Talking_Computer_1.ogg" loop volume 0.4 fadeout 2
 
-    show bg tech3 behind nvl_textbox
+   
     story "ドラマの話で盛り上がってたら\n彼が思い出したように"
-    show alien at pos_transform(x=570,y=40)
-    story "「あ、リバーで思い出したんですけど\n　私の船乗ってみます？\n　リバーのあの船よりは便利ですよ」\n\nなんていうからさ。"
+    show bg tech3 behind nvl_textbox
+    show alien:
+        xpos 570 ypos 40
+        block:
+            easeout 0.2 yoffset -30
+            ease 0.15 yoffset 10
+            easeout 0.15 yoffset -20
+            ease 0.15 yoffset 0
+
+    pause 0.3
+    extend "\n\n「あ、リバーで思い出したんですけど\n　私の船乗ってみます？\n　リバーのあの船よりは便利ですよ」\n\nなんていうからさ。"
     nvl clear
 
     
     story "「へぇ！君の船か！\n　是非とも乗ってみたいんだぞ！」\n\nクルージングも好きだからね。\n真っ先にＹｅｓ！って答えたよ。\nエリア５１に勤めていると\nクルージング船が買えるんだな。"
     nvl clear
-    play sound ["<silence 0.75>", "sfx/Crystals.wav"]
-    hide alien
+    play sound ["<silence 0.02>", "sfx/Crystals.wav"]
+    hide alien with {'master': Dissolve(1)}
 
-    queue sound "sfx/UFO 2.wav"
-    queue sound "sfx/Alien sex.ogg"
     story "「ちょっと待ってください。今呼びます」\n　\nなんて彼はいうんだよ。"
     story "ここは地下の研究所だぞ？\n流石に川は流れてないよ！\nそれに呼べば来る船ってユニークだね！\nもしかして君の愛犬の名前が「船」なのかい？\nジョークまで面白いなんて君って最高だね！"
     nvl clear
@@ -303,19 +408,20 @@ label story2:
     show white screen behind nvl_textbox
     with fade_white
 
+    play sound "sfx/UFO 2.wav"
+    play sound1 "sfx/Alien sex.wav"
     ## UFO cutscene
-    story "　\n　\n　\n…それで彼が宙に円を描くと、\n大きな音と振動の後、奥から{nw=5.0}"
-    show ufo1 at ufo1_pos behind nvl_textbox
-    show ufo2 at ufo2_pos behind nvl_textbox
-    show ufo3 at ufo3_pos behind nvl_textbox
-    show ufo4 at ufo4_pos behind nvl_textbox
-    pause 5.0
+    story "　\n　\n　\n…それで彼が宙に円を描くと、{nw=1.0}"
+    show circle_anim1
+    show ufo_anim behind nvl_textbox with circle_dissolve3
+    extend "\n大きな音と振動の後、奥から{nw=4.0}"
 
     
     nvl clear
     scene blue screen
     stop sound
-    #play sound "sfx/Hard beep.wav" loop
+    stop sound1
+    play sound "sfx/Hard beep.wav" loop
     
     story "　\n《　ユナイデットステイツ検閲　》\n\n《　ユナイデットステイツ検閲　》\n\n《　ユナイデットステイツ検閲　》\n\n《　ユナイデットステイツ検閲　》\n\n《　ユナイデットステイツ検閲　》{nw=1.0}"
     nvl clear
@@ -324,21 +430,29 @@ label story2:
     scene bg classroom1 at pan_to_top
     play music "music/19_playful.ogg"
     pause 0.2
-    show america large d at pos_transform(x=-40, y=-150)
+    show america large eksdee at pos_transform(xpos=-40, ypos=-150)
     $ ame.screen = 'center_3long'
     ame "そんなわけで俺とトニーは\n新しい友達のマタと\n暮らし始めたってわけだ！"
 
-    show japan worried grimace at pos_transform(x=500, yalign=0.0) behind america
+    show japan worried grimace at pos_transform(xpos=500, yalign=0.0) behind america
     $ jpn.screen = 'right_3'
     jpn "今のお話は私達が\n聞いてよかったので\nしょうか…？"
 
 
 
-    show bulgaria conniving at pos_transform(x=650, yalign=0.0)
+    show bulgaria conniving at pos_transform(xpos=650, yalign=0.0)
     $ bul.screen = 'right_4'
     bul "…お話しあざーっす！\n俺は何も聞いていない\n機密情報なんて\n聞いてないんだわー…"
 
-    show finland ohdear at pos_transform(x=-50, yalign=0.0) behind america
+    show finland ohdear behind america:
+        xpos -50 yalign 0.0
+        time 0.4
+        block:
+            easeout 0.2 yoffset -40
+            ease 0.15 yoffset 10
+            easeout 0.15 yoffset -30
+            ease 0.15 yoffset 0
+
     $ fin.screen = 'left_3'
     fin "あはは…\nきょ、今日は\n空が綺麗ですね！"
 
@@ -347,5 +461,7 @@ label story2:
     hide bulgaria
     hide japan
     pause 0.2
+
+    stop music fadeout 4.0
 
     jump story3

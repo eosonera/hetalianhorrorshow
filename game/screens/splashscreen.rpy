@@ -134,7 +134,7 @@ transform splash_fadeout:
     time 3.12
     linear 1 alpha 1.0
 
-label splashscreen1:
+label splashscreen:
 
     scene bg base_sky at splash_sky
     show cloud4 at cloud_4t
@@ -194,6 +194,11 @@ screen staffroll():
 
 
 transform credit_scroll:
-    ypos 600
+    ypos 600 alpha 1.0
     linear 20.25 yoffset -3000
     easein 5 yoffset -3600
+    pause 10
+    easein 5 alpha 0
+
+
+    

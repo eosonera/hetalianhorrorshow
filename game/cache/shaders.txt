@@ -1,26 +1,29 @@
-renpy.imagedissolve renpy.imagedissolve
-renpy.geometry renpy.texture
+renpy.texture -renpy.texture renpy.blur renpy.texture -renpy.texture renpy.blur
+renpy.geometry renpy.texture ripple
+renpy.geometry renpy.solid
+renpy.blur renpy.geometry
+renpy.ftl
+renpy.alpha renpy.alpha renpy.texture
+old_film renpy.texture renpy.texture
+renpy.geometry renpy.imagedissolve
+renpy.dissolve renpy.geometry
+eos.ripple renpy.texture renpy.texture
 renpy.alpha renpy.geometry renpy.solid
+renpy.solid
+renpy.texture renpy.texture
+renpy.imagedissolve renpy.imagedissolve
+old_film renpy.geometry renpy.texture
+renpy.alpha renpy.blur renpy.geometry
 renpy.alpha renpy.solid
 renpy.geometry renpy.matrixcolor renpy.texture
-eos.ripple renpy.geometry renpy.texture
-renpy.alpha renpy.texture
-renpy.geometry renpy.texture ripple
-renpy.geometry renpy.texture watt.wave
-renpy.geometry renpy.solid
-renpy.ftl
-ripple renpy.texture renpy.texture
-renpy.alpha renpy.blur renpy.geometry
-renpy.dissolve renpy.geometry
-renpy.alpha renpy.alpha renpy.texture
-renpy.alpha renpy.texture -renpy.texture renpy.blur renpy.texture -renpy.texture renpy.blur
-renpy.texture -renpy.texture renpy.blur renpy.texture -renpy.texture renpy.blur
-renpy.texture
-eos.ripple renpy.texture renpy.texture
-renpy.dissolve renpy.dissolve
 watt.wave renpy.texture renpy.texture
-renpy.alpha renpy.geometry renpy.texture
-renpy.blur renpy.geometry
+ripple renpy.texture renpy.texture
+renpy.geometry renpy.texture
+renpy.dissolve renpy.dissolve
 renpy.matrixcolor renpy.texture
-renpy.solid
-renpy.geometry renpy.imagedissolve
+renpy.geometry renpy.texture watt.wave
+eos.ripple renpy.geometry renpy.texture
+renpy.texture
+renpy.alpha renpy.texture -renpy.texture renpy.blur renpy.texture -renpy.texture renpy.blur
+renpy.alpha renpy.texture
+renpy.alpha renpy.geometry renpy.texture

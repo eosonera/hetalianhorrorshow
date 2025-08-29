@@ -36,6 +36,7 @@ screen confirm(message, yes_action, no_action=None):
         key "game_menu" action yes_action
 
 
+
 style confirm_prompt_text:
     color "#000"
     size 13

@@ -37,7 +37,7 @@ style language_button_text:
     hover_color '#5e422b'
     size 20
     xalign 1.0
-style about_vscrollbar is font_popup_vscrollbar
+style about_vscrollbar is font_vscrollbar
 style language_vscrollbar:
     unscrollable "hide"
 
@@ -176,11 +176,6 @@ screen about():
                     style_prefix "about1"
                     label _("制作")
                     text ("{a=https://eosonera.tumblr.com/}eosonera{/a}")
-
-        vbox:
-            spacing 10
-            label ("Renpy ")
-            text("Code for Wraparound effect based on Marquee for Ren'Py by {a=feniksdev.com}Feniks{/a}")
 
         
             

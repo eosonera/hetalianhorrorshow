@@ -1,32 +1,661 @@
-2025-08-16 13:08:20 UTC
+2025-08-29 07:09:40 UTC
 Windows-10-10.0.26100
 Ren'Py 8.3.7.25031702
 
-Early init took 0.06s
-Loading error handling took 0.09s
-Loading script took 1.41s
-Loading save slot metadata took 0.01s
+Early init took 0.10s
+Loading error handling took 0.03s
+Loading script took 0.59s
+Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
-Running init code took 0.12s
-Loading analysis data took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.02s
-Reloading save slot metadata took 0.01s
+Reloading save slot metadata took 0.02s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\acris\\AppData\\Roaming/RenPy/backups\\hetalianhorrorshow':
-Dump and make backups took 0.03s
+Dump and make backups took 0.04s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.03s
+Initial gc took 0.05s
 DPI scale factor: 1.750000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.16s
+Creating interface object took 0.25s
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.01s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Interface start took 0.29s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.40'
+Display Info: None
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 70.22s
+Loading error handling took 0.03s
+Loading script took 0.23s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.02s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\acris\\AppData\\Roaming/RenPy/backups\\hetalianhorrorshow':
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.22s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.40'
+Display Info: None
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 195.63s
+Loading error handling took 0.03s
+Loading script took 0.27s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.10s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.02s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\acris\\AppData\\Roaming/RenPy/backups\\hetalianhorrorshow':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.23s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.04s
 Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.24s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.40'
+Display Info: None
+Screen sizes: virtual=(900, 600) physical=(2213, 1475) drawable=(2213, 1475)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 200.47s
+Loading error handling took 0.02s
+Loading script took 0.28s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.02s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\acris\\AppData\\Roaming/RenPy/backups\\hetalianhorrorshow':
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.26s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.40'
+Display Info: None
+Screen sizes: virtual=(900, 600) physical=(2210, 1474) drawable=(2210, 1474)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 230.97s
+Loading error handling took 0.02s
+Loading script took 0.23s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.02s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\acris\\AppData\\Roaming/RenPy/backups\\hetalianhorrorshow':
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.20s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.40'
+Display Info: None
+Screen sizes: virtual=(900, 600) physical=(2208, 1472) drawable=(2208, 1472)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 246.36s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.02s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\acris\\AppData\\Roaming/RenPy/backups\\hetalianhorrorshow':
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.750000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.23s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.24s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.40'
+Display Info: None
+Screen sizes: virtual=(900, 600) physical=(2207, 1471) drawable=(2207, 1471)
+Maximum texture size: 4096x4096
+�あながち嘘では
+ないかもしれん！
+昔からロシアはやれば
+何故か出来てしまうんだ！
+
+germany
+思い出せ！今まで
+「よくわからないけど
+　すごいものが出来たよー！」
+という事が何度あった！？
+
+germany
+どうやったら
+お前にそれが作れる！？
+ということを平気でやるのが
+ロシアではないのか！
+
+england
+…………思い当たる
+節しかない…！
+
+japan
+例えもし本当に
+効果があったとしても
+永続的に脳をコントロールし
+続けることはできないはず…！
+
+spain
+せやけど一時的でも
+コントロールされとる間に
+次の飲まされたら
+終わりなんちゃう？
+
+england
+あああああああ！！
+いやだ！いやすぎる！
+
+spain
+あっせやけどお願い聞こえんくらい
+離れたら大丈夫や思うで！
+ほな！帰ろかー！
+
+spain
+あっせやけどお願い聞こえんくらい
+離れたら大丈夫や思うで！
+ほな！帰ろかー！{fast}
+…ドアノブつめたっ！
+
+russia
+効いてくるまで
+少し時間がかかるから
+もうちょっとだけ
+この部屋にいようね。
+
+russia
+ごめんね。みんな。
+でもこれから僕たち
+とっても仲良くなれるから
+みんな幸せだよね？
+
+romania
+うわーん！
+皆ごめんよごめんよー！
+こんなのってないよー
+
+america
+くそっ！
+これじゃあ寒すぎて…
+力が出ないじゃないか！
+
+england
+なんだよこの雪！
+いつもの力が出せれば
+こんな奴なんかに…！！
+
+bulgaria
+それある意味
+死亡フラグなんだわー
+
+russia
+う～ん。なんでこういう
+反応になっちゃうのかな？
+僕なりに頑張って君たちに
+歩み寄ってみたんだけれど…。
+
+russia
+大丈夫。
+僕は怖くないよ？
+
+Choice: 成り行きに任せる
+Choice: 俺が止める！！
+
+Player chose: 成り行きに任せる
+
+america
+やめるんだロシア！
+君がやめないのなら
+俺が君を止めるまでだ！
+
+russia
+ふふっ
+そのお願いは聞けないかなぁ。
+それに今の君に
+そんな力はないでしょう？
+
+russia
+ふふっ
+そのお願いは聞けないかなぁ。
+それに今の君に
+そんな力はないでしょう？
+
+--- Fri Aug 29 09:10:51 2025
+
+russia
+ふふっ
+そのお願いは聞けないかなぁ。
+それに今の君に
+そんな力はないでしょう？
+
+--- Fri Aug 29 09:12:57 2025
+
+--- Fri Aug 29 09:13:01 2025
+
+Choice: 成り行きに任せる
+Choice: 俺が止める！！
+
+england
+なんだよこの雪！
+いつもの力が出せれば
+こんな奴なんかに…！！
+
+bulgaria
+それある意味
+死亡フラグなんだわー
+
+russia
+う～ん。なんでこういう
+反応になっちゃうのかな？
+僕なりに頑張って君たちに
+歩み寄ってみたんだけれど…。
+
+russia
+大丈夫。
+僕は怖くないよ？
+
+Choice: 成り行きに任せる
+Choice: 俺が止める！！
+
+Player chose: 俺が止める！！
+
+bulgaria
+ロ…ロシアさんっ！
+ちょっとそれは
+やめるんだわー！
+
+romania
+ちょっ！
+何言ってるんだよー
+それならおいらが…
+
+bulgaria
+（まあ俺とロシアさんって
+　なかよし！とは言えないまでも
+　他のヨーロッパの国よりは
+　仲が良好な方だと思うから
+　こんな事をしても多分
+　それほどひどい事には
+　ならないはずなんだわー！）
+
+romania
+（あ…、あー…）
+
+bulgaria
+（この裏事情がなかったら
+　普通に帰ってたんだわ…
+　他の皆さんにも良い所
+　お見せできるしな。うん）
+
+romania
+（そうなんだねー！
+　この場も救って
+　対外アピールも出来ちゃう
+　ブルガリア流石なんだよー）
+
+bulgaria
+俺は菓子を食っていない！
+盾になってでも！みなさんを！
+お守りするんだわー！
+
+russia
+え…。君がみんなの
+盾になるっていうの
+ブルガリア君？
+
+russia
+んー…。
+
+russia
+わかった。
+君がそう言うなら
+今日は止めておくね
+
+bulgaria
+えっ、まじっすか！
+あざーっす！
+あざーっす！
+
+romania
+すごい！本当に！？
+
+england
+はははは！ロシア、お前が
+この程度で引っ込むとは
+やはり薬ははったりだったか！
+多分はったりだ！はったりだよな…？
+
+こうしてブルガリアさんの機転により、
+この場を丸く収める事が出来たのだった。
+
+ロシアさんの薬を噂っぽくぼかして７話目にして、
+後日イギリスが一人で１００話も語ったため
+１０７つの怖い話として校内新聞に載せられた。
+
+全てそこそこほどほどに
+綺麗にまとまる！　　　　…はずだった。
+
+bulgaria
+………ん！？
+
+bulgaria
+…あれ？
+俺、何してたっけ？
+
+bulgaria
+えっなんだこれ！？
+
+bulgaria
+えええ！？
+ちょ…なにが
+どうなってんだわー！？
+
+russia
+おはようブルガリア君！
+君の英雄的行為
+かっこよかったよ
+
+bulgaria
+ロシアさん…！？
+え、あざっす…
+
+bulgaria
+ロシアさん…！？
+え、あざっす…
+
+bulgaria
+ロシアさん…！？
+え、あざっす…
+
+bulgaria
+ロシアさん…！？
+え、あざっす…
+
+--- Fri Aug 29 09:13:32 2025
+
+bulgaria
+ロシアさん…！？
+え、あざっす…
+
+bulgaria
+ロシアさん…！？
+え、あざっす…
+
+bulgaria
+ロシアさん…！？
+え、あざっす…
+
+--- Fri Aug 29 09:13:47 2025
+
+bulgaria
+ロシアさん…！？
+え、あざっす…
+
+bulgaria
+ロシアさん…！？
+え、あざっす…
+
+bulgaria
+でも何でこんな展開
+になるんだわー！？
+あっ、いや。ですかー！
+
+russia
+君が代わりに
+なるんだーって
+言ったじゃない
+
+bulgaria
+こういうのじゃなくて
+もっとカッコイイ
+感じの身代わりでぇ…！！
+
+bulgaria
+割と俺とロシアさんとの
+関係だって良好な方
+じゃないっすかー！！
+
+russia
+しょうがないよ
+こういう役回りの子が
+出るのが伝統だもの
+
+russia
+君が代わりに
+なるんだーって
+言ったじゃない
+
+bulgaria
+こういうのじゃなくて
+もっとカッコイイ
+感じの身代わりでぇ…！！
+
+bulgaria
+割と俺とロシアさんとの
+関係だって良好な方
+じゃないっすかー！！
+
+russia
+しょうがないよ
+こういう役回りの子が
+出るのが伝統だもの
+
+russia
+おはようブルガリア君！
+君の英雄的行為
+かっこよかったよ
+
+bulgaria
+ロシアさん…！？
+え、あざっす…
+
+bulgaria
+でも何でこんな展開
+になるんだわー！？
+あっ、いや。ですかー！
+
+russia
+君が代わりに
+なるんだーって
+言ったじゃない
+
+bulgaria
+こういうのじゃなくて
+もっとカッコイイ
+感じの身代わりでぇ…！！
+
+bulgaria
+割と俺とロシアさんとの
+関係だって良好な方
+じゃないっすかー！！
+
+russia
+しょうがないよ
+こういう役回りの子が
+出るのが伝統だもの
+
+russia
+しょうがないよ
+こういう役回りの子が
+出るのが伝統だもの
+
+bulgaria
+でも何でこんな展開
+になるんだわー！？
+あっ、いや。ですかー！
+
+bulgaria
+…あれ？
+俺、何してたっけ？
+
+bulgaria
+えっなんだこれ！？
+
+bulgaria
+えええ！？
+ちょ…なにが
+どうなってんだわー！？
+
+russia
+おはようブルガリア君！
+君の英雄的行為
+かっこよかったよ
+

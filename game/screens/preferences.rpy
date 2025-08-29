@@ -19,7 +19,7 @@ init python:
         return int(slider * 100)
 
 
-screen volume_popup():
+screen volume():
 
     tag menu
     modal True
@@ -30,7 +30,7 @@ screen volume_popup():
         xpos 270
         ypos 123
 
-    style_prefix "volume_popup"
+    style_prefix "volume"
     frame:
         xpos 338
         ypos 198
@@ -39,7 +39,7 @@ screen volume_popup():
 
         vbox:
             xalign 0.0
-            style "volume_popup_text"
+            style "volume_text"
             spacing 25
             text _("BGM")
             text _("効果音")
@@ -66,12 +66,12 @@ screen volume_popup():
                     
                     
 
-style volume_popup_text:
+style volume_text:
     size 16
     xalign 1.0
 
 
-style volume_popup_slider:
+style volume_slider:
     ysize 36
     xsize 154
     right_bar Frame("gui/slider/volume_bar_empty.png", tile=None)
@@ -85,7 +85,7 @@ style volume_popup_slider:
 ## Text speed popup ################################################################
 #################################################################################
 
-screen text_speed_popup():
+screen text_speed():
     tag menu
     modal True
     use game_menu(_("Text Speed"))
@@ -115,7 +115,7 @@ style text_speed_slider:
 #################################################################################
 
 
-screen autotext_speed_popup():
+screen autotext_speed():
     tag menu
     modal True
     use game_menu(_("Autotext Speed"))
@@ -152,22 +152,43 @@ screen font():
 
     default list_fonts = [
         ("IBMPlexSans", "IBMPlexSans.ttf"),
+        (_("Source Han Sans Lite"), "SourceHanSans-Light.otf"),
+        #(_("MS P明朝"), "msgothic.ttc"),
+        #(_("MS Pゴシック"), "msgothic.ttc"),
+        #(_("MS 明朝"), "msgothic.ttc"),
         (_("MS ゴシック"), "msgothic.ttc"),
-        (_("Source Han Sans Lite"), "SourceHanSans-Light.otf")
-        # (_("BIZ UD明朝 Medium"), "msgothic.ttc"),
-        # (_("BIZ UDゴシック"), "msgothic.ttc"),
-        # (_("BIZ UDP明朝 Medium"), "msgothic.ttc"),
-        # (_("メイリオ"), "msgothic.ttc"),
-        # (_("Malgun Gothic Semilight"), "msgothic.ttc"),
-        # (_("Meiryo UI"), "msgothic.ttc"),
-        # (_("MS UI Gothic"), "msgothic.ttc"),
-        # (_("Noto Sans JP"), "msgothic.ttc"),
-        # (_("Noto Sans JP Black"), "msgothic.ttc"),
-        # (_("Noto Sans JP Demilight"), "msgothic.ttc"),
-        # (_("Noto Sans JP Light"), "msgothic.ttc"),
-        # (_("Noto Sans JP Medium"), "msgothic.ttc"),
-        # (_("Noto Sans JP Thin"), "msgothic.ttc"),
+        
+        # (_("BIZ UD明朝 Medium"), "BIZ-UDMinchoM.ttc"),
+        # (_("BIZ UDゴシック"), "BIZ-UDGothicR.ttc"),
+        # (_("BIZ UDP明朝 Medium"), "BIZ-UDPMinchoM.ttc"),
+        # (_("BIZ UDPゴシック"), "BIZ-UDPGothicR.ttc"),
+        # (_("メイリオ"), "meiryo.ttc"),
+        #(_("Malgun Gothic Semilight"), "malgunsl.ttf"),
+        (("Meiryo UI"), "meiryoui.ttc"),
+        (("MS UI Gothic"), "msuigothic.ttc"),
+        (("Noto Sans JP"), "NotoSansJP-VF.ttf"),
+        # (("Noto Sans JP Black"), "NotoSansJP-black.ttf"),
+        # (("Noto Sans JP Demilight"), "NotoSansJP-demilight.ttf"),
+        # (("Noto Sans JP Light"), "NotoSansJP-light.ttf"),
+        # (("Noto Sans JP Medium"), "NotoSansJP-medium.ttf"),
+        # (("Noto Sans JP Thin"), "NotoSansJP-thin.ttf"),
         # (_("UD デジタル 教科書体 N-B"), "msgothic.ttc")
+        # (_("UD デジタル 教科書体 NK-B"), "msgothic.ttc")
+        # (_("UD デジタル 教科書体 NK-R"), "msgothic.ttc")
+        # (_("UD デジタル 教科書体 NP-B"), "msgothic.ttc")
+        # (_("UD デジタル 教科書体 NP-R"), "msgothic.ttc")
+        # (_("UD デジタル 教科書体 N-R"), "msgothic.ttc")
+        # (_("UD デジタル 教科書体 N-R"), "msgothic.ttc")
+        # (_("游明朝"), "msgothic.ttc"),
+        # (_("游明朝 Demibold"), "msgothic.ttc"),
+        # (_("游明朝 Light"), "msgothic.ttc"),
+        # (_("游ゴシック"), "msgothic.ttc"),
+        # (_("游ゴシック Light"), "msgothic.ttc"),
+        # (_("游ゴシック Medium"), "msgothic.ttc"),
+        # (("Yu Gothic UI"), "msgothic.ttc"),
+        # (("Yu Gothic UI Light"), "msgothic.ttc"),
+        # (("Yu Gothic UI Semibold"), "msgothic.ttc"),
+        # (("Yu Gothic UI Semilight"), "msgothic.ttc"),
     ]
 
     viewport:

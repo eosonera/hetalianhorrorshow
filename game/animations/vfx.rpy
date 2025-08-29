@@ -9,32 +9,34 @@ init:
 transform dark_tint:
     matrixcolor TintMatrix("#adadad")
 
-image dust = "images/vfx/dust.png"
-image dust_1 = "images/vfx/dust.png"
-        
-transform dust1_transform:
+
+transform tr_dust1:
     pos(0, 200) alpha 0.3 additive_blend
     linear 2.5 xoffset 200 alpha 0.0
 
-transform dust1_transform1:
+transform tr_dust0:
     pos(0, 200) alpha 0.3 additive_blend
     linear 2.5 xoffset 300 yoffset -100 alpha 0.0
 
-transform dust2_transform:
-    xycenter(0.5,0.5)
-    block:
-        linear 68 rotate 360
-        rotate 0
-        repeat
 
-image dust2_2 = At(dust2, dust2_transform)
+image dust0_0 = At("dust", tr_dust0)
+image dust1_0 = At("dust", tr_dust1)
 
-transform dust2_transform_2:    
-    xycenter(0.5,0.5) xzoom 0.5 yzoom 0.4 alpha 0.1 additive_blend
+
+transform tr_dust2:
+    alpha 0.1 xzoom .5 yzoom .4 rotate 360 additive_blend
     parallel:
-        linear 13.5 xzoom 0.65 yzoom 0.67 alpha 0.6 
-        linear 13.5 xzoom 0.5 yzoom 0.4 alpha 0.1
+        linear 13.5 alpha 0.6 xzoom .65 yzoom .67 additive_blend
+        linear 13.5 alpha 0.1 xzoom .5 yzoom .4
         repeat
+    parallel:
+        linear 60 rotate 0
+        linear 60 rotate 360
+        repeat
+
+image dust2 = At("dust", tr_dust2)
+image dust2_0 = Dust("dust2", count=10, xradius=200, yradius=50, center=(200,0), speed=(3, 2), start=10, fast=True)
+image dust2_1 = Dust("dust2", count=5, xradius=200, yradius=50, center=(200,0), speed=(3, 2), start=10, fast=True)
 
 
 transform rotation:
@@ -43,118 +45,119 @@ transform rotation:
     linear 5 rotate 360 #5 seconds, 360 degrees
     repeat
 
-#############
+### Sun
 
 
-image sunlight2_0 = At("images/vfx/sunlight2.png", sunlight2_transform0)
-image sunlight2_1 = At("images/vfx/sunlight2.png", sunlight2_transform1)
-image sunlight2_0_1 = At("images/vfx/sunlight2.png", sunlight2_transform0_1)
-image sunlight2_1_1 = At("images/vfx/sunlight2.png", sunlight2_transform0_1)
-
-transform sunlight2_transform0:
-    alpha 0.0 rotate 1
-    time 0.88
+transform tr_sunlight1(cen1, cen2, cen3, alpha1, xzoom1, yzoom1, xzoom2, yzoom2, xzoom3, yzoom3):
+    alpha 0 additive_blend xzoom xzoom1 yzoom xzoom1 xycenter cen1
+    time 1.9
     block:
-        linear 7.72 alpha 0.15 rotate -35 additive_blend
-        linear 6.7 alpha 0.0 rotate -58
-        linear 0.88 alpha 0.0 rotate 1
-        repeat
-        
-transform sunlight2_transform1:
-    alpha 0.0 rotate -20
-    time 8.3
-    block:
-        linear 6.83 alpha 0.2 rotate -50 additive_blend
-        linear 6 alpha 0.0 rotate -70
-        linear 8.3 alpha 0.0 rotate -20
+        linear 6.7 alpha alpha1 additive_blend xzoom xzoom2 yzoom yzoom2 xycenter cen2 #until 8.6
+        linear 5.85 alpha 0 additive_blend xzoom xzoom3 yzoom yzoom3 xycenter cen3 #until 14.45
+        pause 10.8 alpha 0 additive_blend xzoom xzoom1 yzoom xzoom1 xycenter cen1  #23.35+1.9
         repeat
 
-transform sunlight2_transform0_1:
-    alpha 0.0 rotate 1
-    time 0.26
+transform tr_sunlight2(cen1, cen2, cen3, alpha1, xzoom1, yzoom1, xzoom2, yzoom2, xzoom3, yzoom3):
+    alpha 0 additive_blend xzoom xzoom1 yzoom xzoom1 xycenter cen1 
+    time 8.9
     block:
-        linear 4 alpha 0.15 rotate -35 additive_blend
-        linear 3.4 alpha 0.0 rotate -58
-        linear 5 alpha 0.0 rotate 1
+        linear 6.7 alpha alpha1 additive_blend xzoom xzoom2 yzoom yzoom2 xycenter cen2 #until 15.6
+        linear 5.85 alpha 0 additive_blend xzoom xzoom3 yzoom yzoom3 xycenter cen3 #until 21.45
+        pause 10.8 alpha 0 additive_blend xzoom xzoom1 yzoom xzoom1 xycenter cen1  #23.35
+        repeat
+
+transform spin_sun1:
+    rotate 1
+    time 1.9
+    block:
+        linear 6.7 rotate -35 #8.6
+        linear 5.85 rotate -58 #14.45
+        pause 10.8 rotate 1  #23.35
+        repeat
+
+transform spin_sun2:
+    rotate 1
+    time 8.9
+    block:
+        linear 6.7 rotate -35 #8.6
+        linear 5.85 rotate -58 #14.45
+        pause 10.8 rotate 1  #23.35
+        repeat
+
+transform spin_sun2_1:
+    rotate -20
+    time 8.9
+    block:
+        linear 6.7 rotate -50 #8.6
+        linear 5.85 rotate -70 #14.45
+        pause 10.8 rotate -20  #23.35
         repeat
 
 
-transform sun_rroom1_0:
-    xycenter(-200,0)
 
-transform sun_rroom1_1:
-    xycenter(-200,32)
 
-transform sun_rroom3_0:
-    xycenter(430,85) xzoom 0.71 yzoom 0.92
-    time 0.88
-    block:
-        linear 7.72 xzoom 0.76 yzoom 0.76
-        linear 6.7 xzoom 1.0 yzoom 1.0
-        linear 0.88 xycenter(430,85) xzoom 0.71 yzoom 0.92
-        repeat
 
-transform sun_rroom3_1:
-    xycenter(370,30) xzoom 0.32 yzoom 0.44
-    time 8.3
-    block:
-        linear 6.83 xzoom 0.80 yzoom 0.60
-        linear 6 xzoom 1.0 yzoom 1.0
-        linear 8.3 xzoom 0.32 yzoom 0.44
-        repeat
 
-transform sun_rroom2_0:
-    xycenter(509,65) xzoom 0.47 yzoom 0.58
-    time 0.88
-    block:
-        linear 7.72 xzoom 1.0 yzoom 1.0
-        linear 6.7 xzoom 1.0 yzoom 1.0
-        linear 0.88 xycenter(509,65) xzoom 0.47 yzoom 0.58
-        repeat
 
-transform sun_ext_0:
-    xycenter(509,-100) xzoom 0.47 yzoom 0.58
-    time 0.26
-    linear 4 xzoom 1.0 yzoom 1.0
-    linear 3.42 xzoom 1.0 yzoom 1.0
-    linear 4.95 xycenter(509,65) xzoom 0.47 yzoom 0.58
-    block:
-        linear 4 xzoom 1.0 yzoom 1.0
-        linear 3.42 xzoom 1.0 yzoom 1.0
-        linear 4.95 xycenter(509,65) xzoom 0.47 yzoom 0.58
-        repeat
 
-transform sun_ext_1:
-    xycenter(509,-100) xzoom 0.47 yzoom 0.58
-    time 9.6
-    block:
-        linear 4 xzoom 1.0 yzoom 1.0
-        linear 3.4 xzoom 1.0 yzoom 1.0
-        linear 5 xycenter(509,-100) xzoom 0.47 yzoom 0.58
-        repeat
+
+
+
+
+
+# transform spin_sun:
+#     rotate 0
+#     linear 60 rotate 360
+#     repeat
+
+transform spin_sun_ccw:
+    rotate 360
+    linear 60 rotate 0
+    repeat
+
+transform spin_sun_cw:
+    rotate 0
+    linear 120 rotate 360
+    repeat
+
+
+# transform tr_sunlight(time_val, l1_dur, l2_dur, l3_dur, xcen, ycen, l1_alpha, l1_xzoom, l1_yzoom, l2_xzoom, l2_yzoom, l3_xzoom, l3_yzoom):
+#     alpha 0.0 xcenter xcen ycenter ycen xzoom l3_xzoom yzoom l3_yzoom additive_blend
+#     time time_val
+#     block:
+#         linear l1_dur xzoom l1_xzoom yzoom l1_yzoom alpha l1_alpha additive_blend
+#         linear l2_dur xzoom l2_xzoom yzoom l2_yzoom alpha 0.0 additive_blend
+#         linear l3_dur xzoom l3_xzoom yzoom l3_yzoom xcenter xcen ycenter ycen alpha 0.0 additive_blend
+#         repeat
+
+# transform tr_sunlight_norepeat(time_val, l1_dur, l2_dur, l3_dur, xcen, ycen, l1_alpha, l1_xzoom, l1_yzoom, l2_xzoom, l2_yzoom, l3_xzoom, l3_yzoom):
+#     alpha 0.0 xcenter xcen ycenter ycen xzoom l3_xzoom yzoom l3_yzoom additive_blend
+#     time time_val
+#     block:
+#         linear l1_dur xzoom l1_xzoom yzoom l1_yzoom alpha l1_alpha additive_blend
+#         linear l2_dur xzoom l2_xzoom yzoom l2_yzoom alpha 0.0 additive_blend
+#         linear l3_dur xzoom l3_xzoom yzoom l3_yzoom xcenter xcen ycenter ycen alpha 0.0 additive_blend
 
 ########
 
-image orange = At("images/vfx/orange.png", orange_transform0)
-transform orange_transform0:
-    align(0.5,0.5)
+
+
+
+
+
+transform tr_orange3:
     alpha 0.0
-    time 3.38
+    time 11.3
     block:
-        linear 1.7 alpha 0.19 additive_blend
-        linear 1.7 alpha 0.0
-        time 20
+        linear 4.25 alpha 0.25 additive_blend
+        linear 4.25 alpha 0.0 additive_blend
+        time 32
         repeat
 
-image yellow = At("images/vfx/upperleft_yellow.png", yellow_transform0)
-transform yellow_transform0:
-    align(0.5,0.5)
+transform tr_orange2:
     alpha 0.0
-    time 14.26
     block:
-        linear 1.7 alpha 0.15 additive_blend
-        linear 1.7 alpha 0.0
-        time 20
+        linear 4.25 alpha 0.25 additive_blend
+        linear 4.25 alpha 0.0 additive_blend
+        time 32
         repeat
-
-

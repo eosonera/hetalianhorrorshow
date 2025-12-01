@@ -33,7 +33,7 @@ style language_button_text is gui_text
 
 style language_button is radio_button
 style language_button_text:
-    color "#42352D"
+    color "#583F34"
     hover_color '#5e422b'
     size 20
     xalign 1.0
@@ -137,7 +137,7 @@ screen about():
     
     use game_menu2(_("About"))
 
-    add "gui/menu_game/backlog.png":
+    add "gui/menu_game/backlog2.png":
         xpos 138
         ypos 109
     
@@ -194,7 +194,7 @@ style about1_text is history_text
 style about_label_text is about_text:
     size 20
 style about_text:
-    color "#42352D"
+    color "#583F34"
     size 14
 
 
@@ -407,14 +407,16 @@ screen game_menu2(title):
             ypos 216
             idle "gui/menu_game/menu_06.png"
             at menu_jump
-            action ShowMenu("language")
+            action Show("preferences")
 
+        
         imagebutton:
             xpos 50
             ypos 272
             idle "gui/menu_game/menu_07.png"
             at menu_jump
-            action Show("preferences")
+            if main_menu:
+                action ShowMenu("language")
 
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):

@@ -22,13 +22,13 @@ translate english story1_76b2fe88:
 translate english story1_3dea0bd1:
 
     # story "あっブっさん一つ聞いても？\n怖い話ってやはり幽霊的なものですか？\nそれとも人間が怖い話ですか？"
-    story "Oh, Mr. Bul, can I ask one question? By scary story, do you mean like a ghost story? Or should it be a story where people are what's scary?"
+    story "Oh, Mr. Bul, just one question? By scary story, do you mean like, a ghost story? Or should it be a story where the people in it are what's scary?"
 
 # game/scenario/1story.rpy:26
 translate english story1_e584c917:
 
-    # story "{color=#ADB1B9}「怖かったら何でもいいっすよ」{/color}"
-    story1 "\n{color=#ADB1B9}“Whatever, as long as it's scary...”{/color}"
+    # story "{color=#C0C0C0}「怖かったら何でもいいっすよ」{/color}"
+    story_indent "\n{color=#C0C0C0}“Whatever, as long as it's scary...”{/color}"
 
 # game/scenario/1story.rpy:28
 translate english story1_76b2fe88_1:
@@ -64,13 +64,13 @@ translate english story1_76b2fe88_3:
 translate english story1_39460519:
 
     # story "お日様が見えないと、\nなんだか気分も落ち込みます。"
-    story "Without the sun,\nit gets kind of gloomy."
+    story "Without the sun, it gets kind of gloomy."
 
 # game/scenario/1story.rpy:51
 translate english story1_98bdc12e:
 
     # story "だからそんな日は人や機械や人工物が\n全く見えない場所に行きたくなるんですよね。\nだからちょっとの食料とコーヒーをもって\n僕は森に入ったんです…。"
-    story "So I had the urge to go somewhere where I couldn't see any people or machines or man-made objects. So, I got a bit of food and coffee and went into the woods..."
+    story "So I got the urge to go somewhere where I couldn't see any people or machines or anything man-made. So, I packed some food and coffee and went into the woods..."
 
 # game/scenario/1story.rpy:52
 translate english story1_76b2fe88_4:
@@ -88,19 +88,19 @@ translate english story1_f2c37f86:
 translate english story1_3cb4343e:
 
     # fin "えええっ！？\nぼ、僕まだ怖い話\n言ってないですよ…？"
-    fin "Whaaat!?\nI-I haven't gotten to the scary part yet...?"
+    fin "Whaaat!?\nI-I haven't even gotten to the scary part yet...?"
 
 # game/scenario/1story.rpy:71
 translate english story1_25772a1d:
 
     # story "ごっほん、それでですねー。\n僕は数日分の食料を詰め込み、\n森の中を進みました。"
-    story "Ahem, moving on...\nI got enough food together for a few days and headed deeper into the forest."
+    story "Ahem, anyway...\nI got enough food together for a few days and headed deep into the forest."
 
 # game/scenario/1story.rpy:72
 translate english story1_9f6fb536:
 
     # story "日が出てるのは数時間ですから、\n野宿する場所を早く\n見つけなければなりません。"
-    story "The sun only comes out for a few hours, so you have to be quick to find a campsite."
+    story "The sun's only out for a few hours, so you have to be quick to find a campsite."
 
 # game/scenario/1story.rpy:74
 translate english story1_4bb829d1:
@@ -108,13 +108,13 @@ translate english story1_4bb829d1:
     # nvl clear
     # story "\n自然の中って、いいですよ。"
     nvl clear
-    story "\nIt's nice, being in nature."
+    story "\nIt's nice, being out in nature."
 
 # game/scenario/1story.rpy:77
 translate english story1_4ec0b15b:
 
     # story "森に入っていくときの苔を踏む音。\n苔って種類によって\n踏んだ時の音が違うんです。"
-    story "The moss in the forest makes sounds when you step on it. The sound is different depending on the type of moss."
+    story "The moss in the forest makes sounds when you step on it. And it's a different sound depending on the type of moss."
 
 # game/scenario/1story.rpy:78
 translate english story1_515c0840:
@@ -138,13 +138,13 @@ translate english story1_76b2fe88_5:
 translate english story1_3db3c991:
 
     # story "紅葉の季節も終わり、\n森は灰色っぽくなりましたが、\n苔やベリーの木にはまだ色があって、\n音と色を楽しみながら\n森を進むのも良い物です。"
-    story "The time for fall colors had ended, and the forest had turned grayish, but the moss and the berries on the trees still had color, and it was nice to enjoy the sounds and the colors while going through the forest."
+    story "The season for fall colors had ended, and the forest had turned all grayish, but the moss and the berries on the trees still offered little pops of color. It was nice, just enjoying the sounds and the colors while walking through the forest."
 
 # game/scenario/1story.rpy:88
 translate english story1_71bb5559:
 
     # story "聞こえるのは自分の息と服の音、足音。\nそれから時々鳥の声。\n沢山の音であふれた生活が\n遠い昔のようです。"
-    story "I could hear myself breathing, my clothes rustling, and my own footsteps. Also, sometimes the calling of birds. Day-to-day life and its abundance of noise were like a distant memory."
+    story "I could hear myself breathing, my clothes rustling, and my own footsteps. And sometimes, the calling of birds. Day-to-day life and all its noise felt like a distant memory."
 
 # game/scenario/1story.rpy:90
 translate english story1_76b2fe88_6:
@@ -156,7 +156,7 @@ translate english story1_76b2fe88_6:
 translate english story1_5fc0b86d:
 
     # story "途中、森と同じ色をした\nカモシカ君に出会い手を振ると\n目線で挨拶を返してくれます。\n良い子たちなんですよ。"
-    story "On the way, I met a reindeer who was the same color as the forest, and when I waved, it returned my greeting with a look.\nThey're such darlings."
+    story "On the way, I met a reindeer who was the same color as the forest. When I waved, it returned my greeting with a look. They're such darlings."
 
 # game/scenario/1story.rpy:99
 translate english story1_76b2fe88_7:
@@ -194,7 +194,7 @@ translate english story1_3d7cb46b:
     # nvl clear
     # story "\nフクロウの声があちこちから聞こえて、\n時々はもってなんだか合唱してるみたいです。\n空にはたくさんの星が目に見えない速度で\nぐるーっと回ります。"
     nvl clear
-    story "\nI would hear owls here and there, and sometimes they would call together, as though in a chorus. In the sky, the many stars would be spinning at an unseen speed."
+    story "\nI would hear owls here and there, and sometimes they would call together, like in a chorus. In the sky, all those stars would be spinning at an unseen speed."
 
 # game/scenario/1story.rpy:122
 translate english story1_b8b4a374:
@@ -212,13 +212,13 @@ translate english story1_76b2fe88_9:
 translate english story1_9bbc6b9f:
 
     # story "コーヒーを飲みながら、\n考え事をしたり、しなかったり、\nただそこにある物を眺めたり…\nそんなふうに過ごします。"
-    story "While I was drinking my coffee, I would go deep into thought, and come out of it, and just gaze at the things that were there...\nI spent the time like that."
+    story "While I was drinking my coffee, I would get lost in my thoughts, then come out of it, and just gaze at whatever was around me...\nThat's how I spent my time."
 
 # game/scenario/1story.rpy:130
 translate english story1_ea461b45:
 
     # story "それから眠くなったら寝ます！\nいつも時間に縛られてますから\n森にいる日は夜更かししても\nとっても早く寝てもいいのです。"
-    story "After that, I got tired, so I went to sleep! I'm usually pressed for time, but when I'm in the forest, I have the freedom to stay up or go to bed whenever I want."
+    story "After a while, I got tired, so I went to sleep! I'm usually pressed for time, but when I'm in the forest, I have the freedom to stay up or go to bed whenever I want."
 
 # game/scenario/1story.rpy:131
 translate english story1_76b2fe88_10:
@@ -242,7 +242,7 @@ translate english story1_713cb033:
 translate english story1_24e2072e:
 
     # extend "\n起きると真っ白でした。"
-    extend "\nI woke up, and everything was pure white."
+    extend "\nI woke up, and everything was\npure white."
 
 # game/scenario/1story.rpy:145
 translate english story1_a24db63d:
@@ -268,7 +268,7 @@ translate english story1_fdc500c9:
 translate english story1_e700ed26:
 
     # story "僕は嬉しくなって\n足跡を付け始めました。"
-    story "I was so happy, I began making footprints."
+    story "I was so happy, I started making footprints."
 
 # game/scenario/1story.rpy:156
 translate english story1_76b2fe88_11:
@@ -280,13 +280,13 @@ translate english story1_76b2fe88_11:
 translate english story1_ca0497ec:
 
     # story "僕はいつもなら気を付けて歩くところを\n雪の美しさにかまけて\n油断してしまったんです…！"
-    story "Normally, I'd be careful where I step, but I was so captivated by the beauty of the snow, that I had gotten careless...!"
+    story "Normally, I'd be careful where I step, but I was so captivated by the beauty of the snow, that I'd gotten careless...!"
 
 # game/scenario/1story.rpy:179
 translate english story1_247b3f31:
 
-    # story "ずぶっ！！"
-    story "Slosh!!"
+    # story "ずぶっ！！{nw}"
+    story "Slosh!!{nw}"
 
 # game/scenario/1story.rpy:182
 translate english story1_b7efe14d:
@@ -298,21 +298,21 @@ translate english story1_b7efe14d:
 translate english story1_a34218b1:
 
     # nvl clear
-    # story "そして…、"
+    # story "そして…、{nw}"
     nvl clear
-    story "Then..."
+    story "Then...{nw}"
 
 # game/scenario/1story.rpy:188
 translate english story1_ae81ea49:
 
-    # story "ずぶずぶずぶずぶっ！！"
-    story "Slosh slosh slosh slosh!!"
+    # extend "\n\nずぶずぶずぶずぶっ！！{nw}"
+    extend "\n\nSlosh slosh slosh slosh!!{nw}"
 
 # game/scenario/1story.rpy:192
 translate english story1_58f5d7c0:
 
-    # story "僕の足がどんどん雪の中に\n吸い込まれていく！？"
-    story "My feet were rapidly getting sucked into the snow!?"
+    # extend "\n\n僕の足がどんどん雪の中に\n吸い込まれていく！？"
+    extend "\n\nMy feet were rapidly getting sucked into the snow!?"
 
 # game/scenario/1story.rpy:193
 translate english story1_7e157b70:
@@ -326,7 +326,7 @@ translate english story1_7e157b70:
 translate english story1_27af72b2:
 
     # story "そんな場所に踏み入れてしまった僕の体は\n足先からずぶずぶと薄い氷の\nその先へと向かっていきます。"
-    story "I'd carelessly stepped onto it, and now my weight was causing me to sink through the snow towards the thin layer of ice, feet first."
+    story "I'd carelessly stepped onto it, and now my weight was pulling me down, feet first, through the snow towards the thin ice."
 
 # game/scenario/1story.rpy:197
 translate english story1_76b2fe88_12:
@@ -338,7 +338,7 @@ translate english story1_76b2fe88_12:
 translate english story1_5158e7b2:
 
     # story "助けを呼ぼうにも僕自身人がいない場所を\n選んできているので絶望的です。\n携帯電話の類も全部\nおいてきてしまっています。"
-    story "Calling for help would be hopeless, since I had specifically gone somewhere secluded. To make matters worse, I had completely left my mobile phone behind."
+    story "Calling for help would be hopeless, since I'd specifically gone somewhere secluded. To make matters worse, I'd completely left my cellphone behind."
 
 # game/scenario/1story.rpy:204
 translate english story1_38e85ade:
@@ -356,7 +356,7 @@ translate english story1_76b2fe88_13:
 translate english story1_799336c0:
 
     # story "なんとか地上に残った片足で踏ん張りましたが、\nふわふわした雪が、僕の足のバランスを奪います。"
-    story "I firmly planted the foot that somehow remained on the ground, but my foot lost its balance on the fluffy snow."
+    story "I tried to plant my other foot firmly, but it lost balance on the fluffy snow."
 
 # game/scenario/1story.rpy:216
 translate english story1_57af3057:
@@ -391,8 +391,8 @@ translate english story1_b12e0b34:
 # game/scenario/1story.rpy:241
 translate english story1_35923771:
 
-    # story "それに！苦しさは人間も僕らも一緒！\n生きながら苦しい時間が続くって\n最悪じゃないですか…。"
-    story "Also! We suffer like humans! Isn't it awful to have to continue to suffer while you're still alive...?"
+    # story "それに！苦しさは人間も僕らも一緒！\n生きながら苦しい時間が続くって\n最悪じゃないですか…。{nw}"
+    story "Also! We suffer just like humans do! Isn't it awful to have to keep suffering while you're still alive...? {nw}"
 
 # game/scenario/1story.rpy:242
 translate english story1_76b2fe88_15:
@@ -403,8 +403,8 @@ translate english story1_76b2fe88_15:
 # game/scenario/1story.rpy:259
 translate english story1_9e7a8af0:
 
-    # story "\nそして僕の体は冷たい湖の中に…。\n苦しい！息ができない…！"
-    story "\nThen, in the freezing lake, my body...\nIt hurts! I can't breathe...!"
+    # story "\nそして僕の体は冷たい湖の中に…。\n苦しい！息ができない…！{nw}"
+    story "\nSo there I was, in the freezing lake, and my body...\nIt hurt! I couldn't breathe...! {nw}"
 
 # game/scenario/1story.rpy:263
 translate english story1_d3d01bda:
@@ -422,13 +422,13 @@ translate english story1_76b2fe88_16:
 translate english story1_ef982f81:
 
     # story "\nフードに何かが引っかかったような感触がして\n何が起こったのか確認する間もなく、\n僕の体は一気に引っ張られました！{nw=2}"
-    story "\nIt felt as though something had caught onto my hood. I can't confirm what had happened, but my body was pulled out in one fell swoop!{nw=2}"
+    story "\nIt felt as though something snagged onto my hood. I can't confirm what had happened, but my body was pulled out in one fell swoop!{nw=2}"
 
 # game/scenario/1story.rpy:291
 translate english story1_a3f5e0af:
 
-    # story "ばしゃあ！と音がして少しの衝撃。\nと同時に濡れた肌に風を感じます。{nw=0.5}"
-    story "The sound of a splash! And a small impact. At the same time, I felt the wind on my wet skin.{nw=0.5}"
+    # story "ばしゃあ！と音がして少しの衝撃。\nと同時に濡れた肌に風を感じます。{nw}"
+    story "A splash! Then, a small impact. At the same time, I felt the wind on my wet skin.{nw}"
 
 # game/scenario/1story.rpy:295
 translate english story1_76b2fe88_17:
@@ -466,7 +466,7 @@ translate english story1_6a053c06:
 translate english story1_15a4b966:
 
     # story "{cps=5}……………。{/cps}"
-    story "{cps=5}......{/cps}"
+    story "{cps=5}......{/cps}{nw}"
 
 # game/scenario/1story.rpy:322
 translate english story1_76b2fe88_18:
@@ -478,7 +478,7 @@ translate english story1_76b2fe88_18:
 translate english story1_2baf04c4:
 
     # story "\n気が付くと僕は自分の家で寝ていたんです。\n今までの事は夢だと思いましたが、\n溺れた時の服が乾燥機に入ってたんですよ…。"
-    story "\nI came to, and I was sleeping in my own house. I thought that the things up to now were a dream, but the clothes I had drowned in were in the dryer..."
+    story "\nI came to, and I was sleeping in my own house. I thought maybe it had all been a dream, but the clothes I'd been drowning in were in the dryer..."
 
 # game/scenario/1story.rpy:331
 translate english story1_76b2fe88_19:
@@ -496,9 +496,9 @@ translate english story1_abd4b566:
 translate english story1_c33d8f72:
 
     # story "でもこんな事を僕が言うと\n「酒飲んでたんだべ！」とか\n「仲間…（ニヨニヨ）」とか\n言われて信じていただけないので\n今日の今日まで心の中に留めておりました！"
-    story "But whenever I would say something like that, I got things like,{nw}"
-    story1 "“You musta been drinking!” and,\n“My colleagues... (snicker)”{nw}"
-    story "and no one would believe me so I've kept it to myself until today."
+    story "But whenever I told people that, I'd get,{nw}"
+    story_indent "“You musta been drinking!” and,\n“My colleagues... (snicker)”{nw}"
+    story "and no one ever believes me so I've kept it to myself until today!"
 
 # game/scenario/1story.rpy:348
 translate english story1_76b2fe88_20:
@@ -510,7 +510,7 @@ translate english story1_76b2fe88_20:
 translate english story1_13ee2293:
 
     # story "こんな現代に人を助けてくれる妖精が\n生きてるってすごくないですか？\nある意味怖くはないですか？"
-    story "Isn't it amazing that there are fairies who will help people, even in this day and age? In a way, it's not that scary, right?"
+    story "Isn't it amazing that there are fairies who help people, even in this day and age? In a way, it's not that scary, right?"
 
 # game/scenario/1story.rpy:353
 translate english story1_07f26bdc:
@@ -533,8 +533,8 @@ translate english story1_4b7f24c5:
 # game/scenario/1story.rpy:369
 translate english story1_9ab7897d:
 
-    # fin "ふわふわした話！！？"
-    fin "Fluffy story!!?"
+    # fin "ふわふわした話！！？{nw}"
+    fin "Fluffy story!!?{nw}"
 
 # game/scenario/1story.rpy:371
 translate english story1_674410e3:
@@ -564,7 +564,7 @@ translate english story1_46462028:
 translate english story1_921c0f53:
 
     # fin "ふわふわってどういう\n意味でのふわふわ\nなんですかー！"
-    fin "Fluffy, fluffy in what way, exactly!?"
+    fin "Fluffy, fluffy in what way, exactly!?{nw}"
 
 # game/scenario/1story.rpy:399
 translate english story1_5ca81584:
@@ -583,4 +583,18 @@ translate english story1_b5e4c11e:
 
     # fin "わーごめんなさい！\nしなくて大丈夫です！"
     fin "Whoa, I'm sorry! You don't have to tell one!"
+
+# TODO: Translation updated at 2025-08-30 16:56
+
+# game/scenario/1story.rpy:196
+translate english story1_5d4f6464:
+
+    # extend "{nw=1}"
+    extend "{nw=1}"
+
+# game/scenario/1story.rpy:363
+translate english story1_76b2fe88_21:
+
+    # nvl clear
+    nvl clear
 

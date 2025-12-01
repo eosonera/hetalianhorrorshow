@@ -19,6 +19,8 @@ screen history():
         background None
         xysize (900, 600)
         focus_mask None
+        keyboard_focus False
+        mouse False
 
     use game_menu(_("History"))
     add "gui/menu_game/backlog.png":
@@ -30,13 +32,17 @@ screen history():
     
     frame:
         style_prefix "history"
-        viewport:
+        controller_viewport:
             xpos 227
             ypos 202
             xsize 462
             ysize 230
+            id "hist_vp"
             mousewheel True draggable True pagekeys True
-            scrollbars "vertical" yinitial 1.0
+            scrollbars "vertical"
+            yinitial 1.0
+            which_stick "both"
+            focus_scroll True
 
             vbox:
                 spacing 30
@@ -57,6 +63,10 @@ screen history():
 
             if not _history_list:
                 label _(" ")
+
+        vbar value YScrollValue("hist_vp") style "history_vscrollbar":
+            xpos 674
+            ypos 202
 
 
 ## This determines what tags are allowed to be displayed on the history screen.

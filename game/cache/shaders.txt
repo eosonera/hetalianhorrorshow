@@ -1,29 +1,30 @@
-renpy.texture -renpy.texture renpy.blur renpy.texture -renpy.texture renpy.blur
-renpy.geometry renpy.texture ripple
-renpy.geometry renpy.solid
-renpy.blur renpy.geometry
-renpy.ftl
-renpy.alpha renpy.alpha renpy.texture
-old_film renpy.texture renpy.texture
-renpy.geometry renpy.imagedissolve
-renpy.dissolve renpy.geometry
-eos.ripple renpy.texture renpy.texture
-renpy.alpha renpy.geometry renpy.solid
-renpy.solid
-renpy.texture renpy.texture
-renpy.imagedissolve renpy.imagedissolve
 old_film renpy.geometry renpy.texture
-renpy.alpha renpy.blur renpy.geometry
-renpy.alpha renpy.solid
-renpy.geometry renpy.matrixcolor renpy.texture
-watt.wave renpy.texture renpy.texture
-ripple renpy.texture renpy.texture
-renpy.geometry renpy.texture
-renpy.dissolve renpy.dissolve
+renpy.imagedissolve renpy.imagedissolve
 renpy.matrixcolor renpy.texture
-renpy.geometry renpy.texture watt.wave
+renpy.geometry renpy.texture
+renpy.blur renpy.geometry
+renpy.geometry renpy.solid
+renpy.dissolve renpy.geometry
 eos.ripple renpy.geometry renpy.texture
-renpy.texture
-renpy.alpha renpy.texture -renpy.texture renpy.blur renpy.texture -renpy.texture renpy.blur
 renpy.alpha renpy.texture
+renpy.texture -renpy.texture renpy.blur renpy.texture -renpy.texture renpy.blur
+watt.wave renpy.texture renpy.texture
+renpy.geometry renpy.matrixcolor renpy.texture
+renpy.alpha renpy.alpha renpy.texture
+renpy.alpha renpy.solid
+renpy.dissolve renpy.dissolve
 renpy.alpha renpy.geometry renpy.texture
+renpy.geometry renpy.texture watt.wave
+renpy.alpha renpy.texture -renpy.texture renpy.blur renpy.texture -renpy.texture renpy.blur
+renpy.texture renpy.texture
+renpy.alpha renpy.geometry renpy.solid
+renpy.blur renpy.blur
+renpy.ftl
+eos.ripple renpy.texture renpy.texture
+renpy.geometry renpy.texture ripple
+renpy.texture
+ripple renpy.texture renpy.texture
+renpy.solid
+old_film renpy.texture renpy.texture
+renpy.alpha renpy.blur renpy.geometry
+renpy.geometry renpy.imagedissolve

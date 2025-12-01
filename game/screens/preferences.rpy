@@ -214,7 +214,7 @@ style font_button:
     
 
 style font_button_text:
-    color "#42352D"
+    color "#583F34"
     size 14
     xalign 1.0
 

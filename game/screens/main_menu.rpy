@@ -29,8 +29,9 @@ screen main_menu():
     add "gui/menu_main/title.png" at mm_title
 
     vbox:
+        style_prefix "mm"
         yalign 1.0
-        text "eos hetascans\n[config.name!t] remake\nversion [config.version]"
+        text "hetascanlations\n[config.name!t] remake\nversion [config.version]"
 
     vbox:
         xalign 1.0
@@ -94,6 +95,10 @@ screen main_menu():
             hover "gui/menu_main/title2_07.png"
             action ShowMenu("menu_open2")
             at mm_fade_in
+
+style mm_text is gui_text
+style mm_text:
+    size 9
 
 #################################################################################
 ## Main menu animations ###########################################################
@@ -206,5 +211,7 @@ transform sunlight2_1_mm:
             linear 5.87 xycenter(83,-5) xzoom 1.0 yzoom 1.0
             linear 1.8 xycenter(62,-7) xzoom 0.15 yzoom 0.24
             repeat
+
+
 
 #################################################################################

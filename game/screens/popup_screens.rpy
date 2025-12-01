@@ -151,7 +151,7 @@ style choice_button_text:
     is default
     xalign 0.5
     yalign 0.5
-    size 20
+    size gui.choice_button_text
     color "#74BEC4"
     hover_color "#1D8EA4"
 

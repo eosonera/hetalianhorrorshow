@@ -1,45 +1,10 @@
 ## Exterior ################################################################
 
 
-transform tr_sun_ext(time1, cen1, cen2, cen3):
-    alpha 0.0 xzoom 1 yzoom 1 xycenter cen1 additive_blend
-    time time1
-    block:
-        linear 6.7 alpha 0.25 xzoom 0.47 yzoom 0.58 xycenter cen2 additive_blend
-        linear 5.85 alpha 0.0 xzoom 1 yzoom 1 xycenter cen3 additive_blend
-        pause 10.8 alpha 0.0 xzoom 1 yzoom 1 xycenter cen1 additive_blend
-        repeat 
-
 image sun1_exterior = At("sunlight2", tr_sun_ext(0.25, (509, -100), (509, -100), (509, -100)))
 image sun2_exterior = At("sunlight2", tr_sun_ext(9.6, (509, -100), (509, -100), (509, -100)))
 image sun3_exterior = At("sunlight2", tr_sun_ext(12.7, (509, 65), (509, 67), (509, 66)))
 
-transform sun1_exteriorspin:
-    rotate 1
-    time 0.25
-    block:
-        linear 6.7 rotate -35 #8.6
-        linear 5.85 rotate -58 #14.45
-        pause 10.8 rotate 1
-        repeat
-
-transform sun2_exteriorspin:
-    rotate 1
-    time 9.6
-    block:
-        linear 6.7 rotate -35 #8.6
-        linear 5.85 rotate -58 #14.45
-        pause 10.8 rotate 1
-        repeat
-
-transform sun3_exteriorspin:
-    rotate 1
-    time 12.7
-    block:
-        linear 6.7 rotate -35 #8.6
-        linear 5.85 rotate -58 #14.45
-        pause 10.8 rotate 1
-        repeat
 
 transform pan_exterior:
     yalign 1.0

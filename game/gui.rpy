@@ -16,6 +16,53 @@ define config.check_conflicting_properties = True
 define config.log = "log.txt"
 
 
+
+
+define gui.text_size = 20
+define gui.kerning_dialogue = 4
+define gui.line_spacing = 10
+define narr_text_size = (610, 200)
+
+
+define gui.choice_button_text = 20
+
+define gui.nvl_text_size = gui.text_size + 2
+define gui.nvl_width = 900
+define gui.nvl_window_1_width = gui.nvl_width
+define gui.nvl_width2 = gui.nvl_width
+
+define text_size_narr = gui.text_size + 2
+define text_size_right1 = gui.text_size
+define text_size_right3 = gui.text_size
+define text_size_right4 = gui.text_size
+define text_size_right4long = gui.text_size
+define text_size_right7big = gui.text_size
+define text_size_left1 = gui.text_size
+define text_size_left3 = gui.text_size
+define text_size_left4 = gui.text_size - 1
+define text_size_left4long = gui.text_size - 1
+define text_size_center1 = gui.text_size
+define text_size_center3 = gui.text_size - 1
+define text_size_center3long = gui.text_size
+define text_size_center4long = gui.text_size - 3
+
+
+define narr_window_size = (700, 200)
+define window_size_right1 = (300, 130)
+define window_size_right3 = (375, 130)
+define window_size_right4 = (350, 130)
+define window_size_right4long = (480, 130)
+define window_size_right7big =(490, 130)
+define window_size_left1 = (280, 130)
+define window_size_left3 = (350, 130)
+define window_size_left4 = (380, 130)
+define window_size_left4long = (480, 130)
+define window_size_center1 = (420, 130)
+define window_size_center3 = (340, 130)
+define window_size_center3long = (480, 130)
+define window_size_center4long = (480, 150)
+
+
 ################################################################################
 ## GUI Configuration Variables
 ################################################################################
@@ -27,24 +74,24 @@ default _game_menu_screen = "menu_open"
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = '#5B4A40'
+define gui.accent_color = '#583F34'
 
 ## The color used for a text button when it is neither selected nor hovered.
-define gui.idle_color = '#42352D'
+define gui.idle_color = '#583F34'
 
 ## The color used for a text button when it is selected but not focused. A
 ## button is selected if it is the current screen or preference value.
-define gui.selected_color = '#5B4A40'
+define gui.selected_color = '#583F34'
 
-define gui.hover_color = '#5B4A40'
+define gui.hover_color = '#583F34'
 
 ## The color used for a text button when it cannot be selected.
 define gui.insensitive_color = '#8888887f'
 
 
 ## The colors used for dialogue and menu choice text.
-define gui.text_color = '#42352D'
-define gui.interface_text_color = '#42352D'
+define gui.text_color = '#583F34'
+define gui.interface_text_color = '#583F34'
 
 
 ## Fonts and Font Sizes ########################################################
@@ -61,8 +108,6 @@ define gui.text_font = "msgothic.ttc"
 ## The font used for out-of-game text.
 define gui.interface_text_font = "msgothic.ttc"
 
-## The size of normal dialogue text.
-define gui.text_size = 20
 
 ## The size of character names.
 define gui.name_text_size = 22

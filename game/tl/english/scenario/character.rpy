@@ -4,37 +4,37 @@ translate english strings:
 
     # game/scenario/character.rpy:6
     old "ブルガリア"
-    new "ブルガリア"
+    new "Bulgaria"
 
     # game/scenario/character.rpy:6
     old "ルーマニア"
-    new "ルーマニア"
+    new "Romania"
 
     # game/scenario/character.rpy:6
     old "イギリス"
-    new "イギリス"
+    new "England"
 
     # game/scenario/character.rpy:6
     old "日本"
-    new "日本"
+    new "Japan"
 
     # game/scenario/character.rpy:6
     old "ドイツ"
-    new "ドイツ"
+    new "Germany"
 
     # game/scenario/character.rpy:6
     old "フィンランド"
-    new "フィンランド"
+    new "Finland"
 
     # game/scenario/character.rpy:6
     old "アメリカ"
-    new "アメリカ"
+    new "America"
 
     # game/scenario/character.rpy:6
     old "スペイン"
-    new "スペイン"
+    new "Spain"
 
     # game/scenario/character.rpy:6
     old "ロシア"
-    new "ロシア"
+    new "Russia"
 

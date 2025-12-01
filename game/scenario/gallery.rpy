@@ -25,7 +25,7 @@ transform appear_gallery:
 define gal = Character(None,
     window_background="textbox/normal.png",
     what_color = "#fff",
-    what_outlines = [(1.2, "#67787C", 0, 0)],
+    what_outlines = [(1.2, "#2E3E59", 0, 0)],
     ctc="ctc_button",
     ctc_position="nestled")
 

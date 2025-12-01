@@ -10,6 +10,11 @@ style input:
     properties gui.text_properties("input", accent=True)
     adjust_spacing False
 
+init python:
+    renpy.add_layer("vfx_front", above="transient", menu_clear=False)
+    renpy.add_layer("chara", above="transient")#, menu_clear=False)
+    renpy.add_layer("vfx_back", below="transient", menu_clear=False)
+
 
 style gui_text:
     properties gui.text_properties("interface")

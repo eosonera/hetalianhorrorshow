@@ -4,7 +4,7 @@
 translate english start_8479585a:
 
     # na "「７カ国が集まる国際怖い話会合があるから\n　そこで話を聞いてきてくれないかなー？」\n{vspace=12}{space=155}その一言でそれは始まった。"
-    na "{size=-4}\"Seven nations will gather at the International Meeting of Scary Stories, do you want to come and listen to their stories?\"\n{vspace=12} {space=155}It started with that one sentence.{/size}"
+    na "\"Seven nations are going to gather for\nthe International Conference of Scary Stories.\nDo you want to come and listen to what they have to say?\"\n{vspace=8} {space=155}It started with those words."
 
 # game/script.rpy:24
 translate english start_d72426f3:
@@ -16,31 +16,31 @@ translate english start_d72426f3:
 translate english start_4d123f7b:
 
     # rom "ごめんね～。\nほんとはおいらが\nやりたかったんだけどさー。"
-    rom "Sorry～\nI really wanted to go and do it myself, but, y’know..."
+    rom "Sorry～\nI actually wanted to go myself, ya know..."
 
 # game/script.rpy:33
 translate english start_f8af57b9:
 
     # rom "{size=-2}魔術部のイギ…\nほにゃららさんに{size=-5}ごほごほっ{/size}\nいつやるんだって\nせっつかれてるしー…。{/size}"
-    rom "{size=-2}One of the Magic Club members, Eng... \nEr, Mr. Blahblah {size=-5}(cough cough),{/size}\nkeeps pestering me about\nwhen I'm going to do it...{/size}"
+    rom "{size=-1}One of the Magic Club members, Eng... \nEr, Mr. Blahblah {size=-2}(cough cough),{/size} keeps pestering me about when I'm going to do it...{/size}"
 
 # game/script.rpy:35
 translate english start_fe490979:
 
     # rom "{size=-2}でも…その、上司に、お前\nそんな事してる暇ないだろって\n言われちゃってー…。{/size}"
-    rom "{size=-2}But... well, my boss says I don't\nhave the time for such things...{/size}"
+    rom "But... well, my boss says I don't have the time for such things..."
 
 # game/script.rpy:39
 translate english start_6074a98b:
 
     # bul "いやそれ俺もだけどね。\n俺も遊ぶ暇あったら\n内職しろって\n言われてるんだわー。"
-    bul "Nah, I get it, same here.\nHe tells me if I have time to\nplay around, I should go get a\nside hustle."
+    bul "Nah, I get it, same here.\nMine tells me if I have time to play around, I should go get a side hustle."
 
 # game/script.rpy:42
 translate english start_8f7e5e1b:
 
     # rom "そうだったの！？\nでもお前いっつも\nフラフラしてるじゃんかー！"
-    rom "He says that!?\nBut you're allllways just\nmessin' around, aren't you?!"
+    rom "He says that!?\nBut you're allllways just messin' around, aren't you?!"
 
 # game/script.rpy:46
 translate english start_fe5ba20e:
@@ -52,7 +52,7 @@ translate english start_fe5ba20e:
 translate english start_d6cfb26b:
 
     # rom "なんて友だち甲斐が\nないんだよー！頼むよー！\n頼める人がいないんだよー"
-    rom "That's not something a friend would sayyy! I'm counting on youuu-!\nThere's no one else I can count ooon."
+    rom "That's not something a friend would sayyy!\nI'm counting on youuu-!\nThere's no one else I can count ooon."
 
 # game/script.rpy:54
 translate english start_c66e6f28:
@@ -64,7 +64,7 @@ translate english start_c66e6f28:
 translate english start_028db6fd:
 
     # rom "え！？ えーと…。\nロシアさんは{size=-5}存在自体がー…\n怖いっていうか…。{/size}"
-    rom "Wha!? Um...\nWell, Mr. Russia's {size=-5}mere existence...\nIs pretty scary...{/size}"
+    rom "Wha!? Um...\nWell, Mr. Russia's {size=-3}mere existence...\nIs pretty scary...{/size}"
 
 # game/script.rpy:62
 translate english start_4a9432bb:
@@ -75,8 +75,8 @@ translate english start_4a9432bb:
 # game/script.rpy:68
 translate english start_c71f0dd7:
 
-    # rom "お願いだよー！！\nお菓子あげるから！"
-    rom "Pleeease!!?\nI'll give you some baked goods!"
+    # rom "お願いだよー！！\nお菓子あげるから！{nw}"
+    rom "Pleeease!!?\nI'll give you some baked goods!{nw}"
 
 # game/script.rpy:72
 translate english start_bc7df12d:
@@ -94,20 +94,20 @@ translate english start_b3b001cd:
 translate english start_1fcc0816:
 
     # bul "んー ま、\nかれこれ…３？"
-    bul "Hmm... Well,\nsomewhere around... 3...?"
+    bul "Hmm... Well, somewhere around... 3...?"
 
 # game/script.rpy:85
 translate english start_3d397b61:
 
     # rom "３００じゃないよね?"
     $ rom.screen = 'left_3'
-    rom "You're not 300 years old,\nare you?"
+    rom "You're not 300 years old, are you?"
 
 # game/script.rpy:89
 translate english start_59e783b8:
 
     # bul "んーん♪"
-    bul "Nn～ope♪"
+    bul "No～ope♪"
 
 # game/script.rpy:93
 translate english start_d37301ef:
@@ -118,8 +118,8 @@ translate english start_d37301ef:
 # game/script.rpy:98
 translate english start_239fc5ac:
 
-    # bul "もう一声ぇっ！"
-    bul "Try again!"
+    # bul "もう一声ぇっ！{nw}"
+    bul "One more time!{nw}"
 
 # game/script.rpy:102
 translate english start_6b148d73:
@@ -130,14 +130,14 @@ translate english start_6b148d73:
 # game/script.rpy:109
 translate english start_97b31921:
 
-    # bul "俺三万歳！！\nつまり俺の国力は\n３万あるんだわー！"
-    bul "I am 30,000! Which means my national power is 30,000 too!"
+    # bul "俺三万歳！！\nつまり俺の国力は\n３万あるんだわー！{nw}"
+    bul "I am 30,000!\nWhich means my national power is 30,000 too!{nw}"
 
 # game/script.rpy:118
 translate english start_e5a62779:
 
-    # rom "こいつ盛ったぁー！！"
-    rom "You're really reaching!!"
+    # rom "こいつ盛ったぁー！！{nw}"
+    rom "You're really reaching!!{nw}"
 
 # game/script.rpy:125
 translate english start_300040ae:
@@ -154,8 +154,8 @@ translate english start_c62956d7:
 # game/script.rpy:135
 translate english start_091ebbd4:
 
-    # bul "ぷぷぷぷ～\nぷんにょにょ～（鼻歌）"
-    bul "Hm-hm-hm-hm～\nHm-mm-mm～ (humming)"
+    # bul "ぷぷぷぷ～\nぷんにょにょ～（鼻歌）{nw}"
+    bul "Hm-hm-hm-hm～\nHm-mm-mm～ (humming){nw}"
 
 # game/script.rpy:140
 translate english start_5ef33473:
@@ -166,8 +166,8 @@ translate english start_5ef33473:
 # game/script.rpy:144
 translate english start_76f6ac0e:
 
-    # bul "ふんごっ\nふんごっ（鼻歌）"
-    bul "Hmm-mmh\nhmm-mmh (humming)"
+    # bul "ふんごっ\nふんごっ（鼻歌）{nw}"
+    bul "Hmm-mmh\nhmm-mmh (humming){nw}"
 
 # game/script.rpy:148
 translate english start_fcb03828:
@@ -178,14 +178,14 @@ translate english start_fcb03828:
 # game/script.rpy:151
 translate english start_7c634a5e:
 
-    # rom "どうすればいいんだよぅこれー。"
-    rom "What should I do nooow?"
+    # rom "どうすればいいんだよぅこれー。{nw}"
+    rom "What should I do nooow?{cps=1}             {/cps}{nw}"
 
 # game/script.rpy:156
 translate english start_6f8a9988:
 
-    # extend "\n…あっ！そうだ！\nこの仕事すると…目立てるよ！"
-    extend "\n...Ah! I've got it!\nIf you do go...You'll stand out!"
+    # extend "\n…あっ！そうだ！\nこの仕事すると…目立てるよ！{nw}"
+    extend "\n...Ah! I've got it!\nIf you do go... You'll stand out!{nw}"
 
 # game/script.rpy:165
 translate english start_63665121:
@@ -251,7 +251,7 @@ translate english start_cc76127d:
 translate english start_1db23734:
 
     # bul "うう…、ちくしょうちくしょう…。\nユーロ圏の新聞めー…。\n人の気持ちもしらねーで\n普通にこういう事書くんだわ…。\n手厳しいんだわー…。うっうっ…。\n金がねェンだよ…！国内建て直す\n金が手に入るまで働くしかねぇんだわ…。"
-    bul "{size=-2}Ugh... dammit, dammit!\nDamn Eurozone newspapers...\nThey're just writin' this stuff without\nknowin' how the people really feel...\nIt's so harsh... *sob*...\nI dun have any money...!\nOf course I hafta work until I have\nenough money to rebuild my country...{/size}"
+    bul "{size=-1}Ugh... dammit, dammit!\nDamn Eurozone newspapers...\nThey're just writin' this stuff without knowin' how the people really feel...\nIt's so harsh... *sob*...\nI dun have any money...!\nOf course I hafta work until I have enough money to rebuild my country...{/size}"
 
 # game/script.rpy:218
 translate english start_1bce4555:
@@ -274,8 +274,8 @@ translate english start_d4d62c12:
 # game/script.rpy:232
 translate english start_fc180838:
 
-    # bul "ちょっくら司会進行として\n国としての存在感\nアピッてくるんだわ！！"
-    bul "They'll see, as the moderator,\nI'll definitely show off\nmy presence as a country!!"
+    # bul "ちょっくら司会進行として\n国としての存在感\nアピッてくるんだわ！！{nw}"
+    bul "They'll see, as the moderator,\nI'll definitely show off\nmy presence as a country!!{nw}"
 
 # game/script.rpy:237
 translate english start_0f5baf6e:
@@ -286,8 +286,8 @@ translate english start_0f5baf6e:
 # game/script.rpy:244
 translate english start_c6e01564:
 
-    # bul "そしてこのゲームの\n主役も頂くんだわ！"
-    bul "And I'll be this game's\nmain character!"
+    # bul "そしてこのゲームの\n主役も頂くんだわ！{nw}"
+    bul "And I'll be this game's\nmain character!{nw}"
 
 # game/script.rpy:249
 translate english start_caf63c9d:
@@ -299,5 +299,5 @@ translate english start_caf63c9d:
 translate english start_8302b42c:
 
     # na "こうしてブルガリアさんは、\n集められた７カ国から怖い話を聞く\nべく今日の会場へと向かう事になったのだった。"
-    na "And that's how Mr. Bulgaria ended up heading for the meeting's venue to hear the scary stories of the seven countries gathered there today."
+    na "And that's how Mr. Bulgaria ended up heading for the conference's meeting room to hear the scary stories of the seven countries gathered there today."
 

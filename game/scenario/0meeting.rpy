@@ -36,15 +36,15 @@ label meeting:
     show nvl_textbox
     
 
-    story"\nにゃんにゃんしているうちに、\n俺が怖い話を聞く事になる部屋についた。" id meeting_d194fa59
+    story "\nにゃんにゃんしているうちに、\n俺が怖い話を聞く事になる部屋についた。" id meeting_d194fa59
     nvl clear
 
     show bulgaria large ooh
-    story"ちなみに、この建物は電気の供給が止まろうが、\n何者かが乗り込んでこようが、\n何重にも非常時への対策が張られていて\n大人数でも避難しやすいように作られている。" id meeting_26cd72cd
+    story "ちなみに、この建物は電気の供給が止まろうが、\n何者かが乗り込んでこようが、\n何重にも非常時への対策が張られていて\n大人数でも避難しやすいように作られている。" id meeting_26cd72cd
 
     show bulgaria large ah
     with {'master': Dissolve(0.25)}
-    story"つまり怖い話の最中、\nイギ太郎が何かを召還しても、\nアメ助が怪力を振るおうと、\n俺の命は保証されている。…はず。" id meeting_105c1e3d
+    story "つまり怖い話の最中、\nイギ太郎が何かを召還しても、\nアメ助が怪力を振るおうと、\n俺の命は保証されている。…はず。" id meeting_105c1e3d
 
     nvl clear
     
@@ -68,7 +68,7 @@ label meeting:
 
     ## Eng Cutscene #########################################
 
-
+    $ quick_menu = False
     scene bg engdoodles
     with fade_white_slow
     play music "music/KidsTrax653_KC07-MuppetsOnTheTitanic-Julin.ogg"
@@ -88,13 +88,18 @@ label meeting:
     ## Meeting ##############################################
 
     scene bg classroom1
+    $ quick_menu = True
     pause 0.2
     show england blush shout2 at pos_transform(xpos=140, yalign=0.0)
     
-    play sound ["<silence .3>", "sfx/hit32_d.ogg"]
+    
     $ eng.screen = 'left_3'
+    eng "あっ、\nブルガリア…！{nw}" id meeting_6fdf6096
+    play sound "sfx/hit32_d.ogg"
+    $ _skip_appear_effect = True
     $ window_transform = shake_0m1
-    eng "あっ、\nブルガリア…！" id meeting_6fdf6096
+    extend "" 
+    $ _skip_appear_effect = False
     $ window_transform = None
     stop sound
 
@@ -104,11 +109,14 @@ label meeting:
     bul "…………。" id meeting_28ca9edf
 
     show england blush shout
-    play sound ["<silence 1.0>", "sfx/bang07.ogg"]
     $ eng.screen = 'left_4'
+    eng "いっ忙しい中、来てやったんだ。\nれれれ礼の一つでもっ\n言ってほしいものだな！{nw}" id meeting_c63ce14a
+    play sound "sfx/bang07.ogg"
     $ window_transform = shake_0m2
-    eng "いっ忙しい中、来てやったんだ。\nれれれ礼の一つでもっ\n言ってほしいものだな！" id meeting_c63ce14a
+    $ _skip_appear_effect = True
+    extend ""
     $ window_transform = None
+    $ _skip_appear_effect = False
     stop sound
 
     show bulgaria hey
@@ -195,19 +203,18 @@ label meeting:
     play sound ["<silence .5>", "sfx/bam10.ogg"]
      
     $ bul.screen = 'right_3'
-    show bulgaria eek:
-        0.8
-        linear 0.1 xoffset -18 yoffset +18
-        linear 0.2 xoffset +9 yoffset -9
-        linear 0.05 xoffset 0 yoffset 0
-        linear 0.05 xoffset +8 yoffset +8
-        linear 0.1 xoffset 0 yoffset 0
+    show bulgaria eek
+    bul "ギャー！！\nドイツー！！{nw}" id meeting_aa6f5c9e
+    $ _skip_appear_effect = True
+    show bulgaria at shake_0m9 with {'master': None}
     $ window_transform = shake_0m9
-    bul "ギャー！！\nドイツー！！" id meeting_aa6f5c9e
+    extend ""
     $ window_transform = None
+    $ _skip_appear_effect = False
     stop sound
 
     show germany exasperated
+    $ ger.screen = 'center_3'
     ger "…なぜ、いちいち\n俺を見るたび\nお前は叫ぶんだ…。" id meeting_017512fd
 
     show bulgaria eek at stop_offset
@@ -216,17 +223,21 @@ label meeting:
     bul "そ、そりゃ叫びますよ！\nいづもいづも…、俺のごと\n目のかだきにする\nじゃないですかぁ…。" id meeting_8bc364fe
     
     show bulgaria cry shout
+    $ bul.screen = 'right_4'
     bul "ううう…俺だって\n頑張ってんすよぉ…。" id meeting_1b4aaa87
 
     show germany ohno
     $ ger.screen = 'center_4long'
     ger "あっあれは目の敵に\nしてるのではなく！" id meeting_c7cb7a8f
+    $ ger.screen = 'center_4long'
     ger "少々貴様の成績が悪いから、\nもう少し本気を出して\n頑張ってもらいたいと思ってだな…。" id meeting_6a78162d
 
     show germany squint exasperated
+    $ ger.screen = 'center_4long'
     ger "あー…、なんだその…、\n結果を急ぐあまり言い方が\nきつくなっていたかもしれん。\n今度からは気を付ける…。" id meeting_7888aea4
 
     show bulgaria cry thatsright
+    $ bul.screen = 'right_4'
     bul "ほんどうですかっ！？\nあざーっすあざーっす！" id meeting_ed02d8a3
 
     show finland heynow behind germany:
@@ -245,12 +256,16 @@ label meeting:
     fin "ブッさんもドイツさんの\n愛の鞭だと思って\n受け止めてくださいよう。" id meeting_8399c926
 
     show bulgaria guh
-    play sound ["<silence .7>", "sfx/hit22.ogg"]
-    $ window_transform = shake_0m3
     $ bul.screen = 'right_4long'
-    bul "ぐあっ！\n正論直で打ち込むの\n止めてください！！\nその通りでございます！" id meeting_a79f8310
+    bul "ぐあっ！\n正論直で打ち込むの\n止めてください！！\nその通りでございます！{nw}" id meeting_a79f8310
+    
+    play sound "sfx/hit22.ogg"
+    $ _skip_appear_effect = True
+    $ window_transform = shake_0m3
+    extend ""
     hide bulgaria
     $ window_transform = None
+    $ _skip_appear_effect = False
     with {'master': Dissolve(0.3)}
     stop sound
 
@@ -266,10 +281,15 @@ label meeting:
     fin "あっ！たしかに僕も、\nちょっとダメな所があった方が\n可愛いなぁって思いますよ！ええ！" id meeting_8c935a5a
 
     show germany shocked whatsthat
-    play sound ["<silence .3>", "sfx/hit34.ogg"]
+    
     $ ger.screen = 'center_4long'
+    ger "ちょっと待て！\nその言い方だと俺がダメなヤツに弱い\nダメな奴みたいではないか！{nw}" id meeting_0c6d0b4d
+    
+    play sound "sfx/hit34.ogg"
     $ window_transform = shake_0m4
-    ger "ちょっと待て！\nその言い方だと俺がダメなヤツに弱い\nダメな奴みたいではないか！" id meeting_0c6d0b4d
+    $ _skip_appear_effect = True
+    extend ""
+    $ _skip_appear_effect = False
     $ window_transform = None
     stop sound
 
@@ -304,19 +324,16 @@ label meeting:
     $ jpn.screen = 'right_3'
     jpn "はっ、アメリカさん！\nどうもこんにち……" id meeting_ba69b9b0
 
-    show finland ohdear:
-        time .6
-        linear 0.1 xoffset -21 yoffset +17
-        linear 0.1 xoffset 0 yoffset 0
-        linear 0.1 xoffset -10 yoffset -9
-        linear 0.1 xoffset 0 yoffset 0
-        linear 0.1 xoffset -5 yoffset -5
-        linear 0.1 xoffset 0 yoffset 0
-    
-    play sound ["<silence .3>","sfx/ding48.ogg"]
+    show finland ohdear
     $ fin.screen = 'left_1'
+    fin "えっ、もしかして…！{nw}" id meeting_cfbaf66c
+
+    show finland at shake_0m5 with {'master': None}
+    play sound "sfx/ding48.ogg"
     $ window_transform = shake_0m5
-    fin "えっ、もしかして…！" id meeting_cfbaf66c
+    $ _skip_appear_effect = True
+    extend ""
+    $ _skip_appear_effect = False
     $ window_transform = None
     stop sound
 
@@ -328,10 +345,14 @@ label meeting:
     show bear_grylls 1 behind america at bear_intro
     show jeremy 1 behind bear_grylls at jeremy_intro
     
-    play sound ["<silence 2>","sfx/gun14_c.ogg"]
+    
     $ fin.screen = 'left_4long'
+    fin "えっその後ろの方…\nアフ○ダイテ・ジョーンズ！？\nジェレ○ー・ウェイド…\nとベア・グリ○ス…じゃないですか！？{nw}" id meeting_78fe9b40
+    play sound "sfx/gun14_c.ogg"
     $ window_transform = shake_0m6
-    fin "えっその後ろの方…\nアフ○ダイテ・ジョーンズ！？\nジェレ○ー・ウェイド…\nとベア・グリ○ス…じゃないですか！？" id meeting_78fe9b40
+    $ _skip_appear_effect = True
+    extend ""
+    $ _skip_appear_effect = False
     $ window_transform = None
     stop sound
 
@@ -349,9 +370,12 @@ label meeting:
     show england scream at pos_transform(xpos=100, yalign=0.0) behind america
     
     $ eng.screen = 'left_4'
-    play sound ["<silence 1.5>","sfx/hit34.ogg"]
+    eng "ホラーっぽいのは\n最初の一人だけだろ！！\nそれに他二人は\nイギリス人じゃねーか！{nw}" id meeting_38b36246
+    play sound "sfx/hit34.ogg"
     $ window_transform = shake_0m10
-    eng "ホラーっぽいのは\n最初の一人だけだろ！！\nそれに他二人は\nイギリス人じゃねーか！" id meeting_38b36246
+    $ _skip_appear_effect = True
+    extend ""
+    $ _skip_appear_effect = False
     $ window_transform = None
     stop sound
 
@@ -360,15 +384,19 @@ label meeting:
     $ ame.screen = 'center_4long'
     ame "ノープロブレムだぞ！\n彼らの話す怖い話に\n期待しててくれよみんな！\n俺も楽しみだぞ！" id meeting_4c2bc1e7
     
-    show finland ohdear behind america:
-        xalign 1.0 yalign 0.0 yoffset 30
-        0.3
-        block:
-            easeout 0.3 yoffset -20
-            ease 0.2 yoffset 30
+    show finland ohdear behind america at pos_transform(xalign=1.0, ypos=30)
     $ fin.screen = 'right_1'
-    play sound ["<silence .3>","sfx/ding78.ogg"]
-    fin "わーっ！わーっ！" id meeting_419fd707
+    fin "わーっ！わーっ！{nw}" id meeting_419fd707
+    show finland with {'master': None}:
+        easeout 0.2 yoffset -30
+        easein 0.15 yoffset 10
+        easeout 0.15 yoffset 0
+
+    play sound "sfx/ding78.ogg"
+    $ _skip_appear_effect = True
+    extend ""
+    $ _skip_appear_effect = False
+
     
     play music "music/19_playful.ogg" fadeout 1.0
     stop sound
@@ -383,24 +411,29 @@ label meeting:
     show america med whatyousay at pos_transform(xpos=200, ypos=-70)
     
     $ ame.screen = 'center_3long'
-    play sound ["<silence 1.5>", "sfx/hit34.ogg"]
+    ame "なんだってっ！？\n君は彼らの怖い話を\n聞きたくないのかい…！？{nw}" id meeting_3ca06ef2
+    play sound "sfx/hit34.ogg"
     $ window_transform = shake_0m11
-    ame "なんだってっ！？\n君は彼らの怖い話を\n聞きたくないのかい…！？" id meeting_3ca06ef2
+    $ _skip_appear_effect = True
+    extend ""
+    $ _skip_appear_effect = False
     $ window_transform = None
     stop sound
 
-    show finland curious at pos_transform(xpos=700, ypos=30) behind bulgaria:
-        xpos 700 ypos 30
-        time 0.4
-        block:
-            easeout 0.3 yoffset -40
-            ease 0.2 yoffset 10
-            easeout 0.2 yoffset -30
-            ease 0.15 yoffset 0
+    show finland curious at pos_transform(xpos=700, ypos=30) behind bulgaria
     
-    play sound ["<silence .3>", "sfx/ding11.ogg"]
     $ fin.screen = 'right_3'
-    fin "うわあああ、\n僕は聞きたいです！" id meeting_9ae7959c
+    fin "うわあああ、\n僕は聞きたいです！{nw}" id meeting_9ae7959c
+    play sound "sfx/ding11.ogg"
+    show finland with {'master': None}:
+        easeout 0.3 yoffset -40
+        ease 0.2 yoffset 10
+        easeout 0.2 yoffset -30
+        ease 0.15 yoffset 0
+    $ _skip_appear_effect = True
+    extend ""
+    $ _skip_appear_effect = False
+
     stop sound
 
     show bulgaria smile
@@ -417,48 +450,52 @@ label meeting:
 
     show america sigh
     $ ame.screen = 'left_4'
-    ame "今日はありがとう。" id meeting_edb082a2
     $ _skip_appear_effect = True
+    ame "今日はありがとう。{nw=1}" id meeting_edb082a2
     show aphrodite 1 behind america at pos_transform(xoffset=-20, yalign=0)
     with {'master': Dissolve(1.0)}
-    extend "\nアフロ○イテ…。" id meeting_c494b965
+    extend "\nアフロ○イテ…。{nw=1}" id meeting_c494b965
     show jeremy 1 behind aphrodite at pos_transform(xoffset=100, yalign=0)
     with {'master': Dissolve(1.0)}   
-    extend "ジェレ○ー…。" id meeting_d9ad4b8f
+    extend "ジェレ○ー…。{nw=1}" id meeting_d9ad4b8f
     show bear_grylls 1 behind america at pos_transform(xoffset=600, yalign=0)
     with {'master': Dissolve(1.0)}
-    extend "\nベア・グリ○ス…。" id meeting_948f9926
+    extend "\nベア・グリ○ス…。{nw=1}" id meeting_948f9926
     $ ame.screen = 'left_4'
     extend "\nみんな、死なないでくれ。" id meeting_c1259a18
     $ _skip_appear_effect = False
     
 
     show america med cry
-    with {'1': Dissolve(0.2)}
-    hide aphrodite 1
-    hide bear_grylls 1
-    hide jeremy 1
-    with {'master': Dissolve(1.0)}
     $ ame.screen = 'center_3'
-    ame "Ｓｅｅ　ｙｏｕ…みんな…。" id meeting_84f52b83
+    ame "Ｓｅｅ　ｙｏｕ…みんな…。{nw}" id meeting_84f52b83
+    hide aphrodite 1 with {'master': Dissolve(1)}
+    hide bear_grylls 1 with {'master': Dissolve(1)}
+    hide jeremy 1 with {'master': Dissolve(1)}
+    $ _skip_appear_effect = True
+    extend ""
+    $ _skip_appear_effect = False
+
 
     hide aphrodite 1
     hide bear_grylls 1
     hide jeremy 1
 
     show america med sigh
-    show finland nyaaaa behind america:
-        xpos 30 ypos 30
-        time 1.2
-        block:
-            easeout 0.3 yoffset -30
-            ease 0.2 yoffset 10
-            easeout 0.2 yoffset -20
-            ease 0.15 yoffset 0
-    
-    play sound ["<silence 1.2>", "sfx/ding12.ogg"]
+    show finland nyaaaa at pos_transform(xpos=30,ypos=30) behind america
     $ fin.screen = 'left_4long'
-    fin "すごいです！実物初めて見ました！\nすぐ行っちゃいましたけど…！\n僕けっこうアメリカさんの家の\nテレビ見る方なので嬉しかったです！" id meeting_83310ae5
+    fin "すごいです！実物初めて見ました！\nすぐ行っちゃいましたけど…！\n僕けっこうアメリカさんの家の\nテレビ見る方なので嬉しかったです！{nw}" id meeting_83310ae5
+    
+    $ _skip_appear_effect = True
+    play sound "sfx/ding12.ogg"
+    show finland with {'master': None}:
+        yoffset 0
+        easeout 0.3 yoffset -30
+        ease 0.2 yoffset 10
+        easeout 0.2 yoffset -20
+        ease 0.15 yoffset 0
+    extend ""
+    $ _skip_appear_effect = False
     stop sound
 
     show england med hm at pos_transform(xpos=580, ypos=-70)
@@ -519,14 +556,23 @@ label meeting:
     bul "どうもどうもなんだわー。\nって俺は二回目っすね。" id meeting_ddcfcc6f
 
     show japan contemplation at pos_transform(xpos=550, yalign=0.0)
-    show japan at bow
     $ jpn.screen = 'right_3'
-    jpn "ええ、二回目ですが、\n改めまして宜しく\nお願い致します。" id meeting_14004e94
+    jpn "ええ、二回目ですが、\n改めまして宜しく\nお願い致します。{nw}" id meeting_14004e94
+
+    show japan at bow with {'master': None}
+    $ _skip_appear_effect = True
+    extend ""
+    $ _skip_appear_effect = False
 
 
-    show bulgaria heheh at bow
+    show bulgaria heheh
     $ bul.screen = 'left_3'
-    bul "どもどもです…。" id meeting_e99f73e0
+    bul "どもどもです…。{nw}" id meeting_e99f73e0
+
+    show bulgaria at bow with {'master': None}
+    $ _skip_appear_effect = True
+    extend ""
+    $ _skip_appear_effect = False
 
 
     stop music fadeout 4
@@ -548,9 +594,13 @@ label meeting:
     bul "うーい。\nじゃ、はじめまーす。" id meeting_c9537931
 
     $ eng.screen = 'right_3'
-    play sound ["<silence .3>", "sfx/hit32_d.ogg"] fadeout 1.0
+    stop sound fadeout 1.0
+    eng "怖い話の始まりが\nそんなけだるげで\n良いのかよ！？{nw}" id meeting_8b295b55
+    play sound "sfx/hit32_d.ogg"
     $ window_transform = shake_0m8
-    eng "怖い話の始まりが\nそんなけだるげで\n良いのかよ！？" id meeting_8b295b55
+    $ _skip_appear_effect = True
+    extend ""
+    $ _skip_appear_effect = False
     $ window_transform = None
     pause 0.5
     stop sound

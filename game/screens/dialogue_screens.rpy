@@ -64,9 +64,11 @@ screen textbox(who, what, image_path, frame_pos=None, window_pos=None, window_si
 
 screen narrator(who, what):
     use textbox(who, what, "images/textbox/center.png",
+        
         window_pos=(160, 210),
         window_size=narr_window_size,
-        text_size=gui.text_size + 2,
+        text_size=text_size_narr,
+        text_kerning=gui.kerning_dialogue,
         style_prefix_name="narrator",
         text_line_spacing=gui.line_spacing,
         appear_effect=appear_textbox
@@ -76,7 +78,9 @@ screen right_1(who, what):
     use textbox(who, what, "images/textbox/right_1.png",
         frame_pos=(608, 234),
         window_pos=(609, 292),
-        window_size=(300, 131),
+        window_size=window_size_right1,
+        text_size=text_size_right1,
+        text_kerning=gui.kerning_dialogue,
         style_prefix_name="right_1",
         appear_effect=appear_textbox
     )
@@ -85,7 +89,9 @@ screen right_3(who, what):
     use textbox(who, what, "images/textbox/right_3.png",
         frame_pos=(394, 247),
         window_pos=(396, 292),
-        window_size=(375, 100),
+        window_size=window_size_right3,
+        text_size=text_size_right3,
+        text_kerning=gui.kerning_dialogue,
         style_prefix_name="right_3",
         appear_effect=appear_textbox
     )
@@ -94,8 +100,9 @@ screen right_4(who, what):
     use textbox(who, what, "images/textbox/right_4.png",
         frame_pos=(501, 328),
         window_pos=(502, 380),
-        window_size=(350, 100),
-        text_size=gui.text_size,
+        window_size=window_size_right4,
+        text_size=text_size_right4,
+        text_kerning=gui.kerning_dialogue,
         style_prefix_name="right_4",
         appear_effect=appear_textbox
     )
@@ -104,8 +111,9 @@ screen right_4long(who, what):
     use textbox(who, what, "images/textbox/right_4long.png",
         frame_pos=(419, 335),
         window_pos=(420, 388),
-        window_size=(480, 100),
-        text_size=gui.text_size,
+        window_size=window_size_right4long,
+        text_size=text_size_right4long,
+        text_kerning=gui.kerning_dialogue,
         style_prefix_name="right_4long",
         appear_effect=appear_textbox
     )
@@ -114,7 +122,8 @@ screen right_7big(who, what):
     use textbox(who, what, "images/textbox/right_7big.png",
         frame_pos=(404, 253),
         window_pos=(407, 307),
-        window_size=(490, 100),
+        window_size=window_size_right7big,
+        text_size=text_size_right7big,
         text_kerning=gui.kerning_dialogue,
         style_prefix_name="right_7big",
         appear_effect=appear_textbox
@@ -124,8 +133,9 @@ screen left_1(who, what):
     use textbox(who, what, "images/textbox/left_1.png",
         frame_pos=(28, 279),
         window_pos=(31, 333),
-        window_size=(280, 131),
-        text_size=gui.text_size - 1,
+        window_size=window_size_left1,
+        text_size=text_size_left1,
+        text_kerning=gui.kerning_dialogue,
         style_prefix_name="left_1",
         appear_effect=appear_textbox
     )
@@ -134,8 +144,9 @@ screen left_3(who, what):
     use textbox(who, what, "images/textbox/left_3.png",
         frame_pos=(36, 246),
         window_pos=(37, 300),
-        window_size=(350, 100),
-        text_size=gui.text_size,
+        window_size=window_size_left3,
+        text_size=text_size_left3,
+        text_kerning=gui.kerning_dialogue,
         style_prefix_name="left_3",
         appear_effect=appear_textbox
     )
@@ -144,8 +155,9 @@ screen left_4(who, what):
     use textbox(who, what, "images/textbox/left_4.png",
         frame_pos=(37, 289),
         window_pos=(40, 341),
-        window_size=(380, 100),
-        text_size=gui.text_size - 1,
+        window_size=window_size_left4,
+        text_size=text_size_left4,
+        text_kerning=gui.kerning_dialogue,
         style_prefix_name="left_4",
         appear_effect=appear_textbox
     )
@@ -154,8 +166,9 @@ screen left_4long(who, what):
     use textbox(who, what, "images/textbox/left_4long.png",
         frame_pos=(45, 293),
         window_pos=(50, 348),
-        window_size=(480, 100),
-        text_size=gui.text_size - 1,
+        window_size=window_size_left4long,
+        text_size=text_size_left4long,
+        text_kerning=gui.kerning_dialogue,
         style_prefix_name="left_4long",
         appear_effect=appear_textbox
     )
@@ -164,7 +177,8 @@ screen center_1(who, what):
     use textbox(who, what, "images/textbox/center_1.png",
         frame_pos=(293, 298),
         window_pos=(294, 352),
-        window_size=(420, 100),
+        window_size=window_size_center1,
+        text_size=text_size_center1,
         text_kerning=gui.kerning_dialogue - 2,
         style_prefix_name="center_1",
         appear_effect=appear_textbox
@@ -174,8 +188,9 @@ screen center_3(who, what):
     use textbox(who, what, "images/textbox/center_3.png",
         frame_pos=(278, 358),
         window_pos=(280, 411),
-        window_size=(340, 100),
-        text_size=gui.text_size - 1,
+        window_size=window_size_center3,
+        text_size=text_size_center3,
+        text_kerning=gui.kerning_dialogue,
         style_prefix_name="center_3",
         appear_effect=appear_textbox
     )
@@ -184,7 +199,9 @@ screen center_3long(who, what):
     use textbox(who, what, "images/textbox/center_4long.png",
         frame_pos=(197, 312),
         window_pos=(198, 365),
-        window_size=(480, 100),
+        window_size=window_size_center3long,
+        text_size=text_size_center3long,
+        text_kerning=gui.kerning_dialogue,
         style_prefix_name="center_3long",
         appear_effect=appear_textbox
     )
@@ -193,8 +210,8 @@ screen center_4long(who, what):
     use textbox(who, what, "images/textbox/center_4long.png",
         frame_pos=(197, 312),
         window_pos=(198, 365),
-        window_size=(430, 100),
-        text_size=gui.text_size - 3,
+        window_size=window_size_center4long,
+        text_size=text_size_center4long,
         text_kerning=gui.kerning_dialogue - 1,
         style_prefix_name="center_4long",
         appear_effect=appear_textbox
@@ -223,10 +240,11 @@ screen say(who, what):
 # Styles
 ############################
 
+
 style say_dialogue:
     properties gui.text_properties("dialogue")
-    color "#5F4E45"
-    outlines [(1.2, "#ffffffb1", 0, 0)]
+    color "#583F34"
+    outlines [(1.2, "#fff", 0, 0)]
     font gui.preference("font", default="msgothic.ttc")
     size gui.text_size
     kerning gui.kerning_dialogue
@@ -328,6 +346,7 @@ screen nvl_dialogue(dialogue):
 ## This controls the maximum number of NVL-mode entries that can be displayed at
 ## once.
 define config.nvl_list_length = 6
+define config.nvl_page_ctc = "ctc_button"
 
 # The style for the NVL "textbox"
 style nvl_window:
@@ -343,7 +362,7 @@ style ruby_style is default:
     color None
 
 
-
+define transp = Color((0, 0, 0, 0))
 
 # The style for dialogue in NVL
 style nvl_dialogue:

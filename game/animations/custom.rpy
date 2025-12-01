@@ -234,7 +234,7 @@ init python:
 ####################################################################################
 
 transform ripple:
-    function RippleShader(amp=1, period=30.0, speed=8.0, duration=1)
+    function RippleShader(amp=0.2, period=30.0, speed=15.0, duration=1)
 
 transform ripple2:
     function RippleShader(amp=1, period=10.0, speed=15.0, duration=1)

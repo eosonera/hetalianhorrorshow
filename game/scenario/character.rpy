@@ -4,15 +4,15 @@
 #define fadeWithText = { "master" : Dissolve(1.0) }
 
 define name_map = {
-    "bulgaria": _("ブルガリア"),
-    "romania": _("ルーマニア"),
-    "england": _("イギリス"),
-    "japan": _("日本"),
-    "germany": _("ドイツ"),
-    "finland": _("フィンランド"),
-    "america": _("アメリカ"),
-    "spain": _("スペイン"),
-    "russia": _("ロシア"),
+    "bulgaria": ("ブルガリア"),
+    "romania": ("ルーマニア"),
+    "england": ("イギリス"),
+    "japan": ("日本"),
+    "germany": ("ドイツ"),
+    "finland": ("フィンランド"),
+    "america": ("アメリカ"),
+    "spain": ("スペイン"),
+    "russia": ("ロシア"),
 }
 
 
@@ -30,7 +30,7 @@ define na2 = Character(None,
 
 define story = Character(None,
     kind = nvl,
-    ctc="ctc_button",
+    ctc="ctc_arrow",
     ctc_position="nestled",)
 
 define bul = Character("bulgaria",

@@ -9,6 +9,16 @@ init python:
 
 image ctc_button = Animation(*sum(ctc_frames, ()))
 
+transform roll_arrow:
+    yalign 0.5
+    block:
+        linear 0.3 yzoom 0.0 yoffset 32
+        linear 0.3 yzoom 1.0 yoffset 0
+        repeat
+
+image ctc_arrow = At("gui/arrow0.png", roll_arrow)
+
+
 image thumb_hover_anim:
     "gui/slider/thumb_0.png"
     pause 1
@@ -78,13 +88,6 @@ transform tr_eng_lightblue:
     time 10.3
     linear 2.55 alpha 0.35 xzoom 1.3 yzoom 1.2
     linear 2.21 alpha 0.0 xzoom 1.0 yzoom 1.0
-
-
-
-
-
-
-
 
 
 
@@ -527,6 +530,7 @@ transform tr_sweat2:
         repeat
 
 
+
 init python:
     circle_frames = []
     for i in range(24):
@@ -572,7 +576,9 @@ image snowfront = At("snow", tr_snowfront1)
 image snowfront_0 = SnowBlossom("snowfront", count=10, border=50, xspeed=(0,20), yspeed=300, start=0, fast=True)
 
 image snow2_0 = SnowBlossom("snow2_1", count=25, border=50, xspeed=(0,20), yspeed=(100, 200), start=5, fast=True)
-image snowfront2_0 = SnowBlossom("snowfront", count=5, border=50, xspeed=(0,20), yspeed=300, start=0, fast=True)
+image snowfront2_0 = SnowBlossom("snowfront", count=5, border=50, xspeed=(0,50), yspeed=300, start=2, fast=True)
+
+
 
 
 
@@ -629,7 +635,7 @@ transform tr_sparklebig2:
         repeat
 
 image sparklebig2_1 = At("sparkle1", tr_sparklebig2)
-image sparklebig2_0 = SnowBlossom("sparklebig2_1", count=20, border=50, xspeed=(0,20), yspeed=-300, start=0, fast=True)
+image sparklebig2_0 = SnowBlossom("sparklebig2_1", count=20, border=100, xspeed=(0,20), yspeed=-290, start=0.5, fast=True, distribution='linear', animation=True)
 
 
 
@@ -644,7 +650,7 @@ transform tr_sparklebig3:
         repeat
 
 image sparklebig3_1 = At("sparkle1", tr_sparklebig3)
-image sparklebig3_0 = SnowBlossom("sparklebig3_1", count=20, border=50, xspeed=(0,20), yspeed=-300, start=0, fast=True)
+image sparklebig3_0 = SnowBlossom("sparklebig3_1", count=20, border=50, xspeed=(-10,15), yspeed=-310, start=0.1, fast=True)
 
 
 
@@ -661,7 +667,7 @@ transform tr_sparklebig4:
         repeat
 
 image sparklebig4_1 = At("sparkle1", tr_sparklebig4)
-image sparklebig4_0 = SnowBlossom("sparklebig4_1", count=20, border=50, xspeed=(0,20), yspeed=-300, start=0, fast=True)
+image sparklebig4_0 = SnowBlossom("sparklebig4_1", count=20, border=60, xspeed=(5,25), yspeed=-300, start=0.3, fast=True, animation=False)
 
 
 

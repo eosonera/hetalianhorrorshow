@@ -1,43 +1,5 @@
-﻿## Language config ######################################################################
+﻿
 
-define config.enable_language_autodetect = True
-    
-default list_languages = [
-    ("日本語", None),
-    ("English", "english"),
-]
-
-define gui.kerning_dialogue = 4
-define gui.line_spacing = 10
-define gui.nvl_width = 900
-
-translate english python:
-    gui.nvl_width = 650
-
-
-define gui.text_size = 20
-translate english python:
-    gui.text_size = 18
-
-define narr_window_size = (610, 200)
-translate english python:
-    narr_window_size = (570, 200)
-
-define gui.nvl_text_size = gui.text_size + 2
-translate english python:
-    gui.nvl_text_size = gui.text_size
-
-
-define story1 = Character(None,
-    kind = nvl,
-    window_style="nvl_window1",
-    ctc="ctc_button",
-    ctc_position="nestled",)
-
-style nvl_window1:
-    is default
-    xsize gui.nvl_width
-    padding (15, -31, 0, -31) #left, top, right, bottom
 
 
 ## Basics ######################################################################
@@ -48,7 +10,7 @@ define config.name = "The HETALIAN HORROR SHOW"
 define gui.show_name = False
 
 ## Game ver
-define config.version = "0.1.2"
+define config.version = "0.1.3"
 
 ## ASCII-only, no white space short name
 define build.name = "thehetalianhorrorshow"
@@ -108,15 +70,17 @@ define config.end_game_transition = None
 ## After the game has started, this can be changed with the "window show",
 ## "window hide", and "window auto" statements.
 
-define config.window = "hide"
+define config.window = "show"
 
 ## Transitions used to show and hide the dialogue window
 
 define config.window_show_transition = Dissolve(.2)
 define config.window_hide_transition = Dissolve(.2)
-
+default preferences.show_empty_window = True
 
 define config.skip_indicator = False
+
+
 
 
 ## Preference defaults #########################################################
@@ -125,6 +89,7 @@ define config.skip_indicator = False
 ## number is the number of characters per second to type out.
 
 default preferences.text_cps = 60
+
 
 
 ## The default auto-forward delay. Larger numbers lead to longer waits, with 0

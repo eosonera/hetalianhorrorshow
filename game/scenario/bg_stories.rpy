@@ -217,11 +217,14 @@ transform pan_water:
     yalign 0 xalign 0
     linear 30 yoffset -404
 
+image bg water1 = WrapTiled("water1", speed_x=0, speed_y=-10, init_x=0.0, init_y=0)
+
 image bg water= Fixed(
-    pan_water("water"),
+    #pan_water("water"),
+    "bg water1"
 )
 
-image bg ripples1 = WrapTiled("images/bg/ripples1.png", speed_x=0, speed_y=-20, init_x=0.0, init_y=0)
+image bg ripples1 = WrapTiled("ripples1", speed_x=0, speed_y=-20, init_x=0.0, init_y=0)
 image ripples vfx= Fixed(
     "dust2_0",
     "dust0_0",
@@ -318,7 +321,7 @@ transform tr_orange_a:
 image ufo_anim= Fixed(
     ufo1_pos("ufo1"),
     ufo2_pos("ufo2"),
-    "snow_alien",
+    #"snow_alien",
     ufo4_pos("ufo4"),
     "dust2_1",
     "dust0_0",

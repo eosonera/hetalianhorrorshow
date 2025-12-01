@@ -25,7 +25,7 @@ label story1:
 
     story "あっブっさん一つ聞いても？\n怖い話ってやはり幽霊的なものですか？\nそれとも人間が怖い話ですか？" id story1_3dea0bd1
 
-    story "{color=#ADB1B9}「怖かったら何でもいいっすよ」{/color}" id story1_e584c917
+    story "{color=#C0C0C0}「怖かったら何でもいいっすよ」{/color}" id story1_e584c917
 
     nvl clear
 
@@ -171,28 +171,33 @@ label story1:
     ## Ripple
     camera at ripple
     camera screens at ripple
-    pause
+    pause 1.5
 
     ## Shake
+
+    play sound1 "sfx/attack00.ogg"
+    window auto
+    story "ずぶっ！！{nw}" id story1_247b3f31
     camera at sshake
     camera screens at sshake
-    play sound1 ("sfx/attack00.ogg")
-    window auto
-    story "ずぶっ！！" id story1_247b3f31
+    extend ""
 
 
     story "…？　踏み出した足が急に軽くなりました。" id story1_b7efe14d
     nvl clear
 
     
-    story "そして…、" id story1_a34218b1
+    story "そして…、{nw}" id story1_a34218b1
     play music "music/echo.ogg"
-    story "ずぶずぶずぶずぶっ！！" id story1_ae81ea49
+    extend "\n\nずぶずぶずぶずぶっ！！{nw}" id story1_ae81ea49
+    play sound1 ("sfx/attack00.ogg")
     camera at sshake
     camera screens at sshake
-    play sound1 ("sfx/attack00.ogg")
-    story "僕の足がどんどん雪の中に\n吸い込まれていく！？" id story1_58f5d7c0
+    extend "{nw=1}"
+    extend "\n\n僕の足がどんどん雪の中に\n吸い込まれていく！？" id story1_58f5d7c0
     nvl clear
+    camera
+    camera screens
 
     story "そこは湖にうっすら張った氷に\n雪が乗ってるだけの\n危険な場所だったんです…！" id story1_7e157b70
     story "そんな場所に踏み入れてしまった僕の体は\n足先からずぶずぶと薄い氷の\nその先へと向かっていきます。" id story1_27af72b2
@@ -217,35 +222,38 @@ label story1:
     camera screens at sshake
     story "バキバキバキっ！{nw=0.5}" id story1_57af3057
     extend "\n氷が派手に割れたー！" id story1_b8725207
+    camera
+    camera screens
 
     window hide
+    $ quick_menu = False
     hide nvl_textbox
     play sound "sfx/LIGHTNNG.wav"
-    play sound1 ("sfx/SPLASH3.wav")
+    play sound1 "sfx/SPLASH3.wav"
     show bg ripples1
     show ripples vfx
     with SquareScatter(time=0.5, grid=12)
-    
-
     pause
+
+    $ quick_menu = True
     window auto
     show nvl_textbox
     story "おひゃあ！もう駄目だ…！\n落ちる…！" id story1_4c08f6d0
     nvl clear
 
 
-    play sound "sfx/WATER03.wav" loop fadein 1
+    play music1 "sfx/WATER03.wav" fadein 1
     story "ええと…僕たち国ですから\nこういう事で死ぬことはないですし、\n皆さんもそれをよくご存じですから、\n聞いてる分には怖くないかもしれませんがっ、\n本当に怖かったんですよ…。" id story1_b12e0b34
     
     hide ripples vfx
     show bg water behind nvl_textbox
     with {'master': Dissolve(0.3)}
-    story "それに！苦しさは人間も僕らも一緒！\n生きながら苦しい時間が続くって\n最悪じゃないですか…。" id story1_35923771
-    nvl clear
+    story "それに！苦しさは人間も僕らも一緒！\n生きながら苦しい時間が続くって\n最悪じゃないですか…。{nw}" id story1_35923771
     stop music fadeout 3
+    extend ""
+    nvl clear
+
     $ quick_menu = False
-
-
     scene bg ripples1
     with SquareScatter(time=0.5, grid=12)
     show ripples vfx
@@ -253,14 +261,13 @@ label story1:
     $ quick_menu = True
     
 
-    show black behind nvl_textbox:
-        alpha 0.0
-        pause 1.5
-        linear 0.5 alpha 1.0
-
-    story "\nそして僕の体は冷たい湖の中に…。\n苦しい！息ができない…！" id story1_9e7a8af0
-    stop sound fadeout 1
-    hide ripples vfx
+    story "\nそして僕の体は冷たい湖の中に…。\n苦しい！息ができない…！{nw}" id story1_9e7a8af0
+    show black behind nvl_textbox with {'master': Dissolve(0.5)}
+    stop music1 fadeout 1
+    extend ""
+    
+    hide ripples vfx with {'master': Dissolve(0.3)}
+    hide bg water
 
     story "\n\n\n\n\n\n…と思ったのも一瞬でした。" id story1_d3d01bda
     nvl clear
@@ -271,18 +278,23 @@ label story1:
         linear 0.5 alpha 0.0
     show white screen behind nvl_textbox
     story "\nフードに何かが引っかかったような感触がして\n何が起こったのか確認する間もなく、\n僕の体は一気に引っ張られました！{nw=2}" id story1_ef982f81
-    camera screens at old_film_distort_x
-    $ quick_menu = False
     
-    pause
-    camera screens
+    $ quick_menu = False
+    camera screens at old_film_distort_x
+    pause 1
     $ quick_menu = True
+    extend ""
+    camera screens
+
     $ quick_menu = False
     camera at old_film_distort_x1
     camera screens at old_film_distort_x1
 
+    hide nvl_textbox
+    #hide white screen
+
     play sound "sfx/SPLASH4.wav" fadeout 1
-    scene bg forest2
+    show bg forest2 with {'master': Dissolve(0.3)}
     show nvl_textbox
     pause 1
     $ quick_menu = True
@@ -290,10 +302,10 @@ label story1:
     camera screens
 
 
-    story "ばしゃあ！と音がして少しの衝撃。\nと同時に濡れた肌に風を感じます。{nw=0.5}" id story1_a3f5e0af
+    story "ばしゃあ！と音がして少しの衝撃。\nと同時に濡れた肌に風を感じます。{nw}" id story1_a3f5e0af
     camera at sshake
     camera screens at sshake
-    pause
+    extend ""
     nvl clear
     camera
     
@@ -307,20 +319,21 @@ label story1:
 
     ## Sweden animation #############
     show swe_anim behind nvl_textbox
-
+    hide bg forest2
+    show white screen behind swe_anim
     show wrapmist behind nvl_textbox:
         alpha 0.3 additive_blend
     show wrapmist1 behind nvl_textbox:
         alpha 0.3 additive_blend
 
-    show white screen behind nvl_textbox:
-        alpha 0.0
-        time 1.5
-        linear 1 alpha 1
+    
+
 
     pause 1
 
-    story "{cps=5}……………。{/cps}" id story1_15a4b966
+    story "{cps=5}……………。{/cps}{nw}" id story1_15a4b966
+    hide swe_anim with {'master': Dissolve(0.2)}
+    extend ""
     nvl clear
 
 
@@ -368,11 +381,12 @@ label story1:
     
 
     $ fin.screen = 'center_4long'
-    play sound ["<silence .3>","sfx/hit34.ogg"]
+    fin "ふわふわした話！！？{nw}" id story1_9ab7897d
+    play sound "sfx/hit34.ogg"
     $ window_transform = shake_0p3
-    fin "ふわふわした話！！？" id story1_9ab7897d
-    $ window_transform = None
     $ _skip_appear_effect = True
+    extend ""
+    $ window_transform = None
     extend "\nえっ、すいません！\n僕結構真面目に怖い話を\nしたんですけれど…。" id story1_674410e3
     $ _skip_appear_effect = False
 
@@ -390,10 +404,13 @@ label story1:
     eng "俺は嫌いじゃない。\nいいんじゃないか。\nフィンランドらしく\nふわふわしていて。" id story1_46462028
 
     show finland nyaaaa
-    play sound ["<silence 0.6>", "sfx/crumple04.ogg"]
-    $ window_transform = shake_1s1
     $ fin.screen = 'center_3'
-    fin "ふわふわってどういう\n意味でのふわふわ\nなんですかー！" id story1_921c0f53
+    fin "ふわふわってどういう\n意味でのふわふわ\nなんですかー！{nw}" id story1_921c0f53
+    play sound "sfx/crumple04.ogg"
+    $ window_transform = shake_1s1
+    $ _skip_appear_effect = True
+    extend ""
+    $ _skip_appear_effect = False
     $ window_transform = None
 
     scene bg classroom2

@@ -1,32 +1,28 @@
-2025-08-29 08:14:05 UTC
-Windows-10-10.0.26100
-Ren'Py 8.3.7.25031702
+2025-12-01 16:36:27 UTC
+Windows-11-10.0.26100-SP0
+Ren'Py 8.4.1.25072401
 
-Early init took 0.07s
-Loading error handling took 0.03s
-Loading script took 0.21s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.02s
-Reloading save slot metadata took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\acris\\AppData\\Roaming/RenPy/backups\\hetalianhorrorshow':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
+Early init took 32 ms
+Loading error handling took 17 ms
+Loading script took 140 ms
+Loading save slot metadata took 10 ms
+Loading persistent took 0 ms
+Running init code took 68 ms
+Loading analysis data took 10 ms
+Analyze and compile ATL took 12 ms
+Reloading save slot metadata took 2 ms
+Dump and make backups took 26 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 29 ms
 DPI scale factor: 1.750000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.16s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.04s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
+Creating interface object took 157 ms
+Init translation took 2 ms
+Cleaning stores took 0 ms
+Load screen analysis took 14 ms
+Analyze screens took 2 ms
+Save screen analysis took 0 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms

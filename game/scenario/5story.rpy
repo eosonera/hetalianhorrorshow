@@ -67,10 +67,15 @@ label story5:
 
     show england blush shout at pos_transform(xpos=200, yalign=0.0)
     $ eng.screen = 'center_3long'
-    play sound ["<silence .5>", "sfx/gun09.ogg"]
+    
+    
+    eng "知らないゴーストが\nいたんだ…！{nw}" id story5_d971867a
+    play sound "sfx/gun09.ogg"
     camera at shake_5s1
     camera screens at shake_5s1
-    eng "知らないゴーストが\nいたんだ…！" id story5_d971867a
+    $ _skip_appear_effect = True
+    extend ""
+    $ _skip_appear_effect = False
     stop sound
     camera
     camera screens
@@ -78,17 +83,25 @@ label story5:
 
     show america yell sweat at pos_transform(xpos=400, yalign=0.0) behind england
     $ ame.screen = 'right_3'
+    ame "ゴ…ゴーストが…っ\n君の目の前に…っ！？\nなんて恐ろしいんだっ！{nw}" id story5_492388cf
+    
+    play sound "sfx/gun09_r.ogg"
     $ window_transform = shake_5s2
-    play sound ["<silence .5>", "sfx/gun09_r.ogg"]
-    ame "ゴ…ゴーストが…っ\n君の目の前に…っ！？\nなんて恐ろしいんだっ！" id story5_492388cf
+    $ _skip_appear_effect = True
+    extend ""
+    $ _skip_appear_effect = False
     $ window_transform = None
     stop sound
 
     show bulgaria conniving at pos_transform(xpos=0, yoffset=1.0) behind england
     $ bul.screen='left_1'
-    play sound ["<silence .2>", "sfx/hit34.ogg"]
+    bul "幽霊唐突すぎる！{nw}" id story5_274d4766
+
+    play sound "sfx/hit34.ogg"
     $ window_transform = shake_2s6
-    bul "幽霊唐突すぎる！" id story5_274d4766
+    $ _skip_appear_effect = True
+    extend ""
+    $ _skip_appear_effect = False
     $ window_transform = None
     stop sound
 
@@ -105,9 +118,10 @@ label story5:
     $ eng.screen = 'center_3'
     eng "だが知らない\n幽霊が家にいた。\nこれはつまり…！" id story5_ca05b6a5
     stop music fadeout 3.0
+    play sound "sfx/run_wait.ogg"
+    pause 0.5
 
     scene bg classroom_door
-    play sound "sfx/run_wait.ogg"
     play sound2 ["<silence .5>", "sfx/doorheavy.ogg"]
     play music "music/KidsTrax653_KC07-MuppetsOnTheTitanic-Julin.ogg"
     pause 0.5
@@ -129,9 +143,13 @@ label story5:
 
     show england scream at pos_transform(xpos=300, yalign=0.0)
     $ eng.screen = 'center_1'
-    play sound ["<silence .2>", "sfx/hit40_b.ogg"]
+    eng "…かっ……！{nw}" id story5_cc5962b4
+
+    play sound "sfx/hit40_b.ogg"
     $ window_transform = shake_5s3
-    eng "…かっ……！" id story5_cc5962b4
+    $ _skip_appear_effect = True
+    extend ""
+    $ _skip_appear_effect = False
     $ window_transform = None
     stop sound
 
@@ -164,34 +182,38 @@ label story5:
         pause 0.5
         easein 0.5 xpos 700
     pause 1
-    $ window_transform = shake_5s4
-    show bulgaria whatisthat:
-        xpos 700
-        time 1
-        linear 0.1 xoffset -12 yoffset -11
-        linear 0.1 xoffset 0 yoffset 0
-        linear 0.1 xoffset -8 yoffset -8
-        linear 0.1 xoffset 0 yoffset 0
-        linear 0.1 xoffset -3 yoffset -3
-        linear 0.1 xoffset 0 yoffset 0
     $ bul.screen='right_4'
-    bul "あっこういう時は\n語尾ににゃんってつけると\n何でも許してもらえる\nらしいっすよ。" id story5_ffdbc5f6
+    bul "あっこういう時は\n語尾ににゃんってつけると\n何でも許してもらえる\nらしいっすよ。{nw}" id story5_ffdbc5f6
+    
+    $ window_transform = shake_5s4
+    show bulgaria whatisthat at shake_5s4 with {'master': None}:
+        xpos 700
+    $ _skip_appear_effect = True
+    extend ""
+    $ _skip_appear_effect = False
     $ window_transform = None
 
-    show spain oh:
-        pause 1.0
-        "spain smiling" with Dissolve(0.2)
+    show spain oh
     $ spa.screen = 'right_3'
-    spa "そうなん？\nごめんにゃんやでー。" id story5_67d9ca09
+    spa "そうなん？\nごめんにゃんやでー。{nw}" id story5_67d9ca09
+
+    show spain smiling with {'master': Dissolve(0.2)}
+    $ _skip_appear_effect = True
+    extend ""
+    $ _skip_appear_effect = False
 
     show england blush shout:
         pause 0.5
         easein 0.5 xpos 100
     pause 1
-    play sound ["<silence .4>", "sfx/ding61.ogg"]
     $ eng.screen = 'center_3'
+    eng "ムカつくから\nやめろ！！{nw}" id story5_7c8ffea7
+
+    play sound "sfx/ding61.ogg"
     $ window_transform = shake_5s5
-    eng "ムカつくから\nやめろ！！" id story5_7c8ffea7
+    $ _skip_appear_effect = True
+    extend ""
+    $ _skip_appear_effect = False
     $ window_transform = None
     stop sound
 
@@ -200,24 +222,21 @@ label story5:
     show america large eksdee at pos_transform(xpos=350, ypos=400)
     show america:
         pause 0.5
-        easein 0.25 ypos 0
-        easeout 0.25 ypos 100
+        easein 0.3 ypos 0
+        easein 0.25 ypos 100
     pause 1
-
-    play sound ["<silence 1.2>", "sfx/ding27.ogg"]
-    show america:
-        ypos 100
-        pause 1.2
-        linear 0.1 xoffset -20 yoffset +20
-        linear 0.1 xoffset 0 yoffset 0
-        linear 0.1 xoffset -10 yoffset +10
-        linear 0.1 xoffset 0 yoffset 0
-        linear 0.1 xoffset -4 yoffset +4
-        linear 0.1 xoffset 0 yoffset 0
     $ ame.screen = 'left_4'
+    ame "Ｇｒｅａｔ！\nチュロス！\nチュロスじゃないか！\n俺は君に会いたかった！{nw}" id story5_e134b004
+    
+    play sound "sfx/ding27.ogg"
+    show america at shake_5s5 with {'master': None}:
+        ypos 100
     $ window_transform = shake_5s5
-    ame "Ｇｒｅａｔ！\nチュロス！\nチュロスじゃないか！\n俺は君に会いたかった！" id story5_e134b004
+    $ _skip_appear_effect = True
+    extend ""
+    $ _skip_appear_effect = False
     $ window_transform = None
+
     stop sound
     stop music fadeout 3
 

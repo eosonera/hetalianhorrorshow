@@ -10,7 +10,7 @@ translate english story1_18244fb9:
 translate english story1_eb82e6d4:
 
     # story "わっ、僕が一番でいいのでしょうか？\nヨーロッパや北欧の国の名前並べる時\nいつも僕は中頃か後ろだったりするので、\n一番目ってちょっと嬉しいですね。"
-    story "Wow, is it really okay for me to go first? Whenever European or Nordic countries are listed, I'm always in the middle or at the end, so I'm kind of happy I get to go first."
+    story "Wow, is it really okay for me to go first? Whenever European or Nordic countries are listed, I'm always in the middle or at the end, so I'm kind of happy to be the first one."
 
 # game/scenario/1story.rpy:19
 translate english story1_76b2fe88:
@@ -200,7 +200,7 @@ translate english story1_3d7cb46b:
 translate english story1_b8b4a374:
 
     # story "僕たちからすれば空に描いた光る点々でも、\n一つ一つが大きな星なんですよね…。\n宇宙は大きいなぁ…。"
-    story "Even though, from our point of view, they're shimmering dots drawn onto the sky, every single one of them is a giant astronomical object.\nSpace is so huge..."
+    story "Even though, from our point of view, they look like shimmering dots drawn onto the sky, every single one of them is a giant astronomical object.\nSpace is so huge..."
 
 # game/scenario/1story.rpy:123
 translate english story1_76b2fe88_9:
@@ -344,7 +344,7 @@ translate english story1_5158e7b2:
 translate english story1_38e85ade:
 
     # story "ポケットにあるのはサルミアッキのみ！\nサルミアッキはおいしいけれど\n僕のピンチを救ってはくれない！"
-    story "All I had in my pocket was salmiakki! Salmiakki is delicious, but it wasn't going to save me from the crisis I was in!"
+    story "All I had in my pocket was salmiakki! Salmiakki is pretty good, but it wasn't going to save me from the crisis I was in!"
 
 # game/scenario/1story.rpy:205
 translate english story1_76b2fe88_13:

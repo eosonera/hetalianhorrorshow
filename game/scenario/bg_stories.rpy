@@ -321,7 +321,7 @@ transform tr_orange_a:
 image ufo_anim= Fixed(
     ufo1_pos("ufo1"),
     ufo2_pos("ufo2"),
-    #"snow_alien",
+    "snow_alien",
     ufo4_pos("ufo4"),
     "dust2_1",
     "dust0_0",

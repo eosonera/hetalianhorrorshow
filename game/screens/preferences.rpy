@@ -21,9 +21,9 @@ init python:
 
 screen volume():
 
-    tag menu
-    modal True
-    use game_menu(_("Volume"))
+    #tag menu
+    #modal True
+    #use game_menu(_("Volume"))
     
     
     add "gui/menu_game/music.png":
@@ -52,9 +52,9 @@ screen volume():
             $ music_volume = linear_volume_display("music")
             $ sfx_volume = linear_volume_display("sfx")
             $ voice_volume = linear_volume_display("voice")
-            text ("Mute" if music_volume == 0 else "MAX" if music_volume == 100 else str(music_volume))
-            text ("Mute" if sfx_volume == 0 else "MAX" if sfx_volume == 100 else str(sfx_volume))
-            text ("Mute" if voice_volume == 0 else "MAX" if voice_volume == 100 else str(voice_volume))
+            text (_("Mute") if music_volume == 0 else _("MAX") if music_volume == 100 else str(music_volume))
+            text (_("Mute") if sfx_volume == 0 else _("MAX") if sfx_volume == 100 else str(sfx_volume))
+            text (_("Mute") if voice_volume == 0 else _("MAX") if voice_volume == 100 else str(voice_volume))
 
         vbox:
             xoffset 65
@@ -86,9 +86,9 @@ style volume_slider:
 #################################################################################
 
 screen text_speed():
-    tag menu
-    modal True
-    use game_menu(_("Text Speed"))
+    #tag menu
+    #modal True
+    #use game_menu(_("Text Speed"))
 
     style_prefix "text_speed"
     add "gui/slider/speed.png":
@@ -116,9 +116,9 @@ style text_speed_slider:
 
 
 screen autotext_speed():
-    tag menu
-    modal True
-    use game_menu(_("Autotext Speed"))
+    #tag menu
+    #modal True
+    #use game_menu(_("Autotext Speed"))
 
     style_prefix "text_speed"
     add "gui/slider/speed.png":
@@ -136,9 +136,9 @@ screen autotext_speed():
 
 
 screen font():
-    tag menu
-    modal True
-    use game_menu(_("Font"))
+    #tag menu
+    #modal True
+    #use game_menu(_("Font"))
 
     style_prefix "font"
 
@@ -153,10 +153,10 @@ screen font():
     default list_fonts = [
         ("IBMPlexSans", "IBMPlexSans.ttf"),
         (_("Source Han Sans Lite"), "SourceHanSans-Light.otf"),
-        #(_("MS P明朝"), "msgothic.ttc"),
-        #(_("MS Pゴシック"), "msgothic.ttc"),
-        #(_("MS 明朝"), "msgothic.ttc"),
-        (_("MS ゴシック"), "msgothic.ttc"),
+        #(_("MS P明朝"), "msgothic.ttf"),
+        #(_("MS Pゴシック"), "msgothic.ttf"),
+        #(_("MS 明朝"), "msgothic.ttf"),
+        (_("MS ゴシック"), "msgothic.ttf"),
         
         # (_("BIZ UD明朝 Medium"), "BIZ-UDMinchoM.ttc"),
         # (_("BIZ UDゴシック"), "BIZ-UDGothicR.ttc"),
@@ -166,29 +166,29 @@ screen font():
         #(_("Malgun Gothic Semilight"), "malgunsl.ttf"),
         (("Meiryo UI"), "meiryoui.ttc"),
         (("MS UI Gothic"), "msuigothic.ttc"),
-        (("Noto Sans JP"), "NotoSansJP-VF.ttf"),
+        #(("Noto Sans JP"), "NotoSansJP-VF.ttf"),
         # (("Noto Sans JP Black"), "NotoSansJP-black.ttf"),
         # (("Noto Sans JP Demilight"), "NotoSansJP-demilight.ttf"),
         # (("Noto Sans JP Light"), "NotoSansJP-light.ttf"),
         # (("Noto Sans JP Medium"), "NotoSansJP-medium.ttf"),
-        # (("Noto Sans JP Thin"), "NotoSansJP-thin.ttf"),
-        # (_("UD デジタル 教科書体 N-B"), "msgothic.ttc")
-        # (_("UD デジタル 教科書体 NK-B"), "msgothic.ttc")
-        # (_("UD デジタル 教科書体 NK-R"), "msgothic.ttc")
-        # (_("UD デジタル 教科書体 NP-B"), "msgothic.ttc")
-        # (_("UD デジタル 教科書体 NP-R"), "msgothic.ttc")
-        # (_("UD デジタル 教科書体 N-R"), "msgothic.ttc")
-        # (_("UD デジタル 教科書体 N-R"), "msgothic.ttc")
-        # (_("游明朝"), "msgothic.ttc"),
-        # (_("游明朝 Demibold"), "msgothic.ttc"),
-        # (_("游明朝 Light"), "msgothic.ttc"),
-        # (_("游ゴシック"), "msgothic.ttc"),
-        # (_("游ゴシック Light"), "msgothic.ttc"),
-        # (_("游ゴシック Medium"), "msgothic.ttc"),
-        # (("Yu Gothic UI"), "msgothic.ttc"),
-        # (("Yu Gothic UI Light"), "msgothic.ttc"),
-        # (("Yu Gothic UI Semibold"), "msgothic.ttc"),
-        # (("Yu Gothic UI Semilight"), "msgothic.ttc"),
+        (("Noto Sans JP Thin"), "NotoSansJP-thin.ttf"),
+        # (_("UD デジタル 教科書体 N-B"), "msgothic.ttf")
+        # (_("UD デジタル 教科書体 NK-B"), "msgothic.ttf")
+        # (_("UD デジタル 教科書体 NK-R"), "msgothic.ttf")
+        # (_("UD デジタル 教科書体 NP-B"), "msgothic.ttf")
+        # (_("UD デジタル 教科書体 NP-R"), "msgothic.ttf")
+        # (_("UD デジタル 教科書体 N-R"), "msgothic.ttf")
+        # (_("UD デジタル 教科書体 N-R"), "msgothic.ttf")
+        # (_("游明朝"), "msgothic.ttf"),
+        # (_("游明朝 Demibold"), "msgothic.ttf"),
+        # (_("游明朝 Light"), "msgothic.ttf"),
+        # (_("游ゴシック"), "msgothic.ttf"),
+        # (_("游ゴシック Light"), "msgothic.ttf"),
+        # (_("游ゴシック Medium"), "msgothic.ttf"),
+        # (("Yu Gothic UI"), "msgothic.ttf"),
+        # (("Yu Gothic UI Light"), "msgothic.ttf"),
+        # (("Yu Gothic UI Semibold"), "msgothic.ttf"),
+        # (("Yu Gothic UI Semilight"), "msgothic.ttf"),
     ]
 
     viewport:

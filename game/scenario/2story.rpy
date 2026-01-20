@@ -137,7 +137,7 @@ label story2:
 
     show america eksdee
     $ ame.screen = 'center_4long'
-    ame "ＯＫ！安心してくれたまえ！\nこれ以外にもスキュアリーな話は\n用意しているんだぞ！" id story2_ec3fa10c
+    ame "ＯＫ！安心してくれたまえ！\nこれ以外にもスケアリーな話は\n用意しているんだぞ！" id story2_ec3fa10c
 
     stop sound
     stop music fadeout 1.0
@@ -436,9 +436,9 @@ label story2:
     play sound1 "sfx/Alien sex.wav"
     ## UFO cutscene
     story "　\n　\n　\n…それで彼が宙に円を描くと、{nw=1.0}" id story2_b5a2284d
-    show circle_anim1
+    show circle_anim1 
     show ufo_anim behind nvl_textbox with circle_dissolve3
-    extend "\n大きな音と振動の後、奥から{nw=4.0}" id story2_80fb1745
+    extend "\n大きな音と振動の後、奥から" id story2_80fb1745
 
     
     nvl clear
@@ -447,7 +447,7 @@ label story2:
     stop sound1
     play sound "sfx/Hard beep.wav" loop
     
-    story "　\n《　ユナイデットステイツ検閲　》\n\n《　ユナイデットステイツ検閲　》\n\n《　ユナイデットステイツ検閲　》\n\n《　ユナイデットステイツ検閲　》\n\n《　ユナイデットステイツ検閲　》{nw=1.0}" id story2_9546b191
+    story "　\n《　ユナイテッドステイツ検閲　》\n\n《　ユナイテッドステイツ検閲　》\n\n《　ユナイテッドステイツ検閲　》\n\n《　ユナイテッドステイツ検閲　》\n\n《　ユナイテッドステイツ検閲　》{nw=1.0}" id story2_9546b191
     nvl clear
     stop sound
 

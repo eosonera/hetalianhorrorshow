@@ -164,7 +164,7 @@ translate english story3_f1fe5855_1:
 translate english story3_74d02afc:
 
     # story "何故だか、その音を聞いていると\n背筋にぞくぞくと冷たいものが走ります。\nこんな夜だからでしょうか。"
-    story "For some reason, hearing that sound sent cold shivers down my spine. Perhaps it was because it was just one of those nights."
+    story "For some reason, hearing that sound sent shivers down my spine. Perhaps it was because it was just one of those nights."
 
 # game/scenario/3story.rpy:119
 translate english story3_dedacf49:
@@ -172,7 +172,7 @@ translate english story3_dedacf49:
     # nvl clear
     # story "何とも言えない息苦しさを感じ\nあまりじろじろ見ては失礼なので\n傘の影からちらりと後ろを見ました。{nw=1}"
     nvl clear
-    story "I felt an indescribable sense of suffocation, and not wanting to be rude by staring, I glanced behind me from under the cover of my umbrella.{nw=1}"
+    story "I felt indescribably tense, and not wanting to be rude by staring, I glanced behind me from under the cover of my umbrella.{nw=1}"
 
 # game/scenario/3story.rpy:125
 translate english story3_76b2fe88_7:
@@ -256,7 +256,7 @@ translate english story3_08f2ebbe:
 translate english story3_82cf7bd3:
 
     # story "そこで初めて音の発信元である\n「後ろの男性」の全体を見たのです。\nその彼は…"
-    story "It was then that I first saw the full figure of the “man behind me,” the one who had been making those noises.\nHe was..."
+    story "It was then that I finally saw the full figure of the “man behind me,” the one who had been making those noises.\nHe was..."
 
 # game/scenario/3story.rpy:179
 translate english story3_76b2fe88_10:
@@ -319,7 +319,7 @@ translate english story3_7a854c94:
 translate english story3_7bc3a131:
 
     # story "\nと彼に渡すやいなや\n脇目も振らずに駆けだしたのです。"
-    story "\nAs soon as I handed it to him, he ran off without looking aside."
+    story "\nAs soon as I handed it to him, he ran off without a second thought."
 
 # game/scenario/3story.rpy:211
 translate english story3_76b2fe88_13:
@@ -534,13 +534,13 @@ translate english story3_f996fea8:
 
     # story "後で直接お話を伺ってみたのですが、\n　\n{color=#F4F4D2}「私ではないが、もし私だとしても\n　気にしないでください」{/color}"
     story "Later, I tried asking him directly, and{nw}"
-    story_indent "\n\n \n{color=#F4F4D2}“It wasn't me, but even if it had been, please don't trouble yourself over it,”{/color}"
+    story_indent "\n\n{color=#F4F4D2}“It wasn't me, but even if it had been, please don't trouble yourself over it,”{/color}"
 
 # game/scenario/3story.rpy:306
 translate english story3_18825748:
 
     # story "というお答えを頂きました。\nどちらなのでしょうか…。"
-    story "was the answer I received. Had it or had it not been him...?"
+    story "\nwas the answer I received. Had it or had it not been him...?"
 
 # game/scenario/3story.rpy:307
 translate english story3_4e53adf5:
@@ -594,7 +594,7 @@ translate english story3_76b2fe88_23:
 translate english story3_458c3e33:
 
     # eng "{size=+5}ぐああぁっ！！{/size}{nw}"
-    eng "{size=+5}Gwaaaa!!{/size}{nw}"
+    eng "{size=+5}Gaaaah!!{/size}{nw}"
 
 # game/scenario/3story.rpy:356
 translate english story3_a7aff70d:

@@ -1062,60 +1062,65 @@ label story7:
         $ rus.screen = 'left_3'
         rus "えーまた僕を悪役にするの？\nアメリカ君、君って\n逆に僕のこと好きでしょ？" id donothing_7c44211d
 
-        show screen staffroll() nopredict
+
+        call start_credits from _call_start_credits
+        
 
         show america youreallyare
         $ ame.screen = 'center_3'
-        ame "おいおい！\nどうして\nそうなるんだい！？{nw=5.0}" id donothing_8317ac46
+        ame "おいおい！\nどうして\nそうなるんだい！？{nw=2.78}" id donothing_8317ac46
+
 
         show russia happy
         $ rus.screen = 'left_4'
-        rus "だって多少時代背景や\n舞台設定に無理があっても\n何が何でも僕を黒幕\nしたがるじゃない…。{nw=5.0}" id donothing_427f0b6c
+        rus "だって多少時代背景や\n舞台設定に無理があっても\n何が何でも僕を黒幕\nしたがるじゃない…。{nw=2.78}" id donothing_427f0b6c
 
         show russia smiling ufufu
         $ rus.screen = 'left_4long'
-        rus "そこまでして僕黒幕オチを\n多用する背景には\n僕への好意があるんじゃないかと\n疑わざるを得ないよ。{nw=5.0}" id donothing_049c45b4
+        rus "そこまでして僕黒幕オチを\n多用する背景には\n僕への好意があるんじゃないかと\n疑わざるを得ないよ。{nw=2.78}" id donothing_049c45b4
         
         show america whatyousay
         $ ame.screen = 'center_3long'
-        ame "ＮＯＯＯ！\n黒幕と陰謀っていったら\n君ってイメージなだけだよ！！{nw=5.0}" id donothing_cea25ed6
+        ame "ＮＯＯＯ！\n黒幕と陰謀っていったら\n君ってイメージなだけだよ！！{nw=2.78}" id donothing_cea25ed6
 
         show russia glum
         $ rus.screen = 'left_4long'
-        rus "そうかなぁ。\n君よりはクリーンなつもりだよ？\nだって何が起こっても\n背後は僕！って言われるじゃない。{nw=5.0}" id donothing_b92b412d
+        rus "そうかなぁ。\n君よりはクリーンなつもりだよ？\nだって何が起こっても\n背後は僕！って言われるじゃない。{nw=2.78}" id donothing_b92b412d
 
         show russia smiling ufufu
         $ rus.screen = 'left_4long'
-        rus "…まあその通りなんだけど。\nそれってとってもわかりやすくて\nみんなから見えてるわけだから\n陰謀や黒幕とは言えないよ。{nw=5.0}" id donothing_9f34fc55
+        rus "…まあその通りなんだけど。\nそれってとってもわかりやすくて\nみんなから見えてるわけだから\n陰謀や黒幕とは言えないよ。{nw=2.78}" id donothing_9f34fc55
 
         show america sneer
         $ ame.screen = 'right_4'
-        ame "た、確かに…！\n映画的にも黒幕予想が\nイージーすぎて\nナンセンスだね！{nw=5.0}" id donothing_d19cefa0
+        ame "た、確かに…！\n映画的にも黒幕予想が\nイージーすぎて\nナンセンスだね！{nw=2.78}" id donothing_d19cefa0
 
 
         scene bg exterior4
 
         $ rus.screen = 'left_3'
-        rus "じゃあ今度は\n誰黒幕にする？{nw=5.0}" id donothing_f443eb14
+        rus "じゃあ今度は\n誰黒幕にする？{nw=2.78}" id donothing_f443eb14
 
         $ ame.screen = 'center_3'
-        ame "君以外で…？！\nどうやれっていうんだい！{nw=5.0}" id donothing_75f5c236
-        
+        ame "君以外で…？！\nどうやれっていうんだい！{nw=2.78}" id donothing_75f5c236
+
         $ rus.screen = 'left_3'
-        rus "こうしていつも通りの\nアメリカ君の映画が\nできるわけだね。{nw=5.0}" id donothing_780e2b04
+        rus "こうしていつも通りの\nアメリカ君の映画が\nできるわけだね。{nw=2.78}" id donothing_780e2b04
 
         $ rus.screen = 'left_4long'
-        rus "フランス君ほどとは\n言わないけどひねろうよ。\nスペイン君みたいに\n最後の５分で暴走するのも良いね。{nw=5.0}" id donothing_158654f4
-
+        rus "フランス君ほどとは\n言わないけどひねろうよ。\nスペイン君みたいに\n最後の５分で暴走するのも良いね。{nw=2.78}" id donothing_158654f4
+        
         $ ame.screen = 'center_3'
-        ame "それなら最近\n新しいタイプの\nエンディングを考えて…！{nw=5.0}" id donothing_820f8046
-
+        ame "それなら最近\n新しいタイプの\nエンディングを考えて…！{nw=2.78}" id donothing_820f8046
+        
         $ rus.screen = 'left_4'
-        rus "家の中の怪奇現象は全部\n宇宙人がやってましたオチと\n友だちが悪魔化して全滅オチ\nじゃないよね？{nw=5.0}" id donothing_00bfdef7
-
+        rus "家の中の怪奇現象は全部\n宇宙人がやってましたオチと\n友だちが悪魔化して全滅オチ\nじゃないよね？{nw=2.78}" id donothing_00bfdef7
+        
         stop music fadeout 3
         $ ame.screen = 'center_3'
         ame "くっ！\n君厳しいよ！{nw=5.0}" id donothing_fa690420
+
+
 
 
         pause 5.0

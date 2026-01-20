@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2025-09-25 22:29
+﻿# TODO: Translation updated at 2025-12-18 14:20
 
 translate russian strings:
 
@@ -8,5 +8,5 @@ translate russian strings:
 
     # game/screens/popup_screens.rpy:31
     old "キャンセル"
-    new "キャンセル"
+    new "Отмена"
 

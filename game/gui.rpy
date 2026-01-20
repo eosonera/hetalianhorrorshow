@@ -22,7 +22,7 @@ define gui.text_size = 20
 define gui.kerning_dialogue = 4
 define gui.line_spacing = 10
 define narr_text_size = (610, 200)
-
+define gal_text_size = 16
 
 define gui.choice_button_text = 20
 
@@ -97,7 +97,7 @@ define gui.interface_text_color = '#583F34'
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "msgothic.ttc"
+define gui.text_font = "msgothic.ttf"
 
 # translate japanese python:
 #     gui.text_font = "SourceHanSans-Light.otf"
@@ -106,7 +106,7 @@ define gui.text_font = "msgothic.ttc"
 
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "msgothic.ttc"
+define gui.interface_text_font = "msgothic.ttf"
 
 
 ## The size of character names.

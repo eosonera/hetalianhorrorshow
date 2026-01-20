@@ -3,30 +3,46 @@
 #################################################################################
 
 screen language():
-    tag menu
+
     modal True
-    use game_menu2(_("Language"))
 
     style_prefix "language"
+
+    if renpy.variant("mobile"):
+        imagebutton:
+            xalign 1.0
+            yalign 0
+            idle "gui/button/return.png"
+            action ShowMenu("menu_open2")
 
     add "gui/menu_game/font.png":
         xpos 251
         ypos 86
 
-    viewport:
-        xpos 323
-        ypos 167
-        xsize 330
-        ysize 200
-        mousewheel True draggable True pagekeys True
-        scrollbars "vertical" yinitial 1.0
+    button:
+        if main_menu:
+            action Hide("language")
+        else:
+            action Return()
+        background None
+        xysize (900, 600)
+        focus_mask None
 
-        frame:
-            vbox:
-                spacing 0
-                for name, code in list_languages:
-                    textbutton ("[name]"):
-                        action Language(code)
+    frame:
+        viewport:
+            xpos 323
+            ypos 167
+            xsize 330
+            ysize 200
+            mousewheel True draggable True pagekeys True
+            scrollbars "vertical" yinitial 1.0
+
+            frame:
+                vbox:
+                    spacing 0
+                    for name, code in list_languages:
+                        textbutton ("[name]"):
+                            action Language(code)
                         
 
 style language_button_text is gui_text
@@ -53,7 +69,10 @@ translate english python:
 ## Misc Options ################################################################
 #################################################################################
 
-default persistent.saveName = True
+if renpy.variant("mobile"):
+    default persistent.saveName = False
+else:
+    default persistent.saveName = True
 
 screen preferences():
 
@@ -61,7 +80,14 @@ screen preferences():
 
     use game_menu2(_("Preferences"))
 
-    add "gui/menu_game/backlog2.png":
+    if renpy.variant("mobile"):
+        imagebutton:
+            xalign 1.0
+            yalign 0
+            idle "gui/button/return.png"
+            action ShowMenu("menu_open2")
+
+    add "gui/menu_game/about.png":
         xpos 138
         ypos 109
 
@@ -105,7 +131,7 @@ screen preferences():
                 textbutton _("トランジション"):
                     action InvertSelected(Preference("transitions", "toggle"))
             
-            if renpy.variant("mobile"):
+            if renpy.variant("pc") or renpy.variant("web"):
                 vbox:
                     style_prefix "radio"
                     label _("Save game names")
@@ -137,7 +163,7 @@ screen about():
     
     use game_menu2(_("About"))
 
-    add "gui/menu_game/backlog2.png":
+    add "gui/menu_game/about.png":
         xpos 138
         ypos 109
     
@@ -216,7 +242,7 @@ screen help():
 
     use game_menu2(_("Help"))
 
-    add "gui/menu_game/backlog2.png":
+    add "gui/menu_game/about.png":
         xpos 138
         ypos 109
 
@@ -399,31 +425,25 @@ screen game_menu2(title):
             xpos 50
             ypos 160
             idle "gui/menu_game/menu_05.png"
-            at menu_jump
+            if not renpy.variant("mobile"):
+                at menu_jump
             action ShowMenu("about")
 
         imagebutton:
             xpos 50
             ypos 216
             idle "gui/menu_game/menu_06.png"
-            at menu_jump
+            if not renpy.variant("mobile"):
+                at menu_jump
             action Show("preferences")
 
-        
-        imagebutton:
-            xpos 50
-            ypos 272
-            idle "gui/menu_game/menu_07.png"
-            at menu_jump
-            if main_menu:
-                action ShowMenu("language")
-
+    
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
             imagebutton:
                 xpos 50
-                ypos 328
-                idle "gui/menu_game/menu_08.png"
+                ypos 272
+                idle "gui/menu_game/menu_07.png"
                 at menu_jump
                 action ShowMenu("help")
 
@@ -431,11 +451,19 @@ screen game_menu2(title):
             xpos 700
             ypos 432
             idle "gui/menu_game/5mainmenu.png"
-            at menu_hover_float
+            if not renpy.variant("mobile"):
+                at menu_hover_float
             if main_menu:
                 action Return()
             else:
                 action MainMenu(confirm=True, save=False)
+
+        if renpy.variant("mobile") and not main_menu:
+            imagebutton:
+                xalign 1.0
+                yalign 0
+                idle "gui/button/return.png"
+                action Return()
         
         text _("Made with {a=https://ja.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"):
             xalign 0.0

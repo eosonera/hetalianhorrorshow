@@ -58,7 +58,7 @@ translate english story7_002d0375:
 translate english story7_9790a031:
 
     # extend "\nすぐに…うん…"
-    extend "\nAlmost here... yeah..."
+    extend "\nAny minute now... yeah..."
 
 # game/scenario/7story.rpy:97
 translate english story7_0d830a7f:
@@ -94,13 +94,13 @@ translate english story7_0cf73366:
 translate english story7_5688e25d:
 
     # spa "手作りのクッキーとケーキて\nなんやのそれーかわええなぁ\n年頃の女の子みたいな\nラインナップやんなぁ"
-    spa "Handmade cookies and cake... What's that all about? That's so cute. Looks like somethin' a teenage girl would make."
+    spa "Handmade cookies and cake... What's that all about? So cute! Looks like the assortmen' a teenage girl would make."
 
 # game/scenario/7story.rpy:137
 translate english story7_0caf85f6:
 
     # rom "えへへ…そうかなー…\nあっイギリスもお菓子\nどうぞなんだよー{nw}"
-    rom "Hehe... Reallyyy... Oh, you should try some too, England!{nw}"
+    rom "Ehehe... Reallyyy... Oh, you should try some too, England!{nw}"
 
 # game/scenario/7story.rpy:154
 translate english story7_9feff1de:
@@ -161,7 +161,7 @@ translate english story7_ed821300:
 translate english story7_7e1aef07:
 
     # bul "なんでなんだわ！？\nまさかお前おいしいところ\n持って行こうって腹じゃ…！"
-    bul "What do you mean!?\nDon't tell me you were planning on taking all the credit for yourself…!"
+    bul "What do you mean!?\nDon't tell me you were planning on taking all the credit for yourself...!"
 
 # game/scenario/7story.rpy:273
 translate english story7_78b4c722:
@@ -437,7 +437,7 @@ translate english story7_09841c42:
 
     # fin "えっそれどういう…"
     $ fin.screen = 'left_3'
-    fin "Um, what do you mean by that...?"
+    fin "Huh? What do you mean...?"
 
 # game/scenario/7story.rpy:511
 translate english story7_b8b3afeb:
@@ -455,7 +455,7 @@ translate english story7_b7c0ba93:
 translate english story7_79b6d094:
 
     # rus "もう！ルーマニア君\n先にネタバレしちゃ\nだめだよー。{nw}"
-    rus "Come on! Romania, don't spoil it ahead of time~{nw}"
+    rus "Come on! Romania, don't spoil it ahead of time～{nw}"
 
 # game/scenario/7story.rpy:545
 translate english story7_6aebc3e7:
@@ -587,7 +587,7 @@ translate english story7_51fcdbe8:
 translate english story7_98c5cd80:
 
     # rus "う～ん。なんでこういう\n反応になっちゃうのかな？\n僕なりに頑張って君たちに\n歩み寄ってみたんだけれど…。"
-    rus "Hmm~m. Why did you react like that? I tried my best to reach out to you guys..."
+    rus "Hmm～m. Why did you react like that? I tried my best to reach out to you guys..."
 
 # game/scenario/7story.rpy:727
 translate english story7_e50d5526:
@@ -861,7 +861,7 @@ translate english donothing_c2f9334d_1:
 translate english donothing_7b331410:
 
     # rus "そんな…！\n君のどこにそんな力が！？\n嘘だよこんなの…！{nw=1}"
-    rus "No way...!\nWhere did you get that kind of power? This can't be real...!{nw=1}"
+    rus "No way...!\nWhere did you get that kind of power? This can't be happening...!{nw=1}"
 
 # game/scenario/7story.rpy:1046
 translate english donothing_a2cc0ec7:
@@ -891,7 +891,7 @@ translate english donothing_427f0b6c:
 translate english donothing_049c45b4:
 
     # rus "そこまでして僕黒幕オチを\n多用する背景には\n僕への好意があるんじゃないかと\n疑わざるを得ないよ。{nw=5.0}"
-    rus "I can't help but suspect that the reason you use the reveal that I'm the mastermind so much is affection towards me.{nw=5.0}"
+    rus "I can't help but suspect that the reason you use the reveal that I'm the mastermind so much is out of affection for me.{nw=5.0}"
 
 # game/scenario/7story.rpy:1068
 translate english donothing_cea25ed6:
@@ -921,25 +921,25 @@ translate english donothing_d19cefa0:
 translate english donothing_f443eb14:
 
     # rus "じゃあ今度は\n誰黒幕にする？{nw=5.0}"
-    rus "So, who's going to be be the mastermind this time?{nw=5.0}"
+    rus "So, who's going to be the mastermind this time?{nw=5.0}"
 
 # game/scenario/7story.rpy:1089
 translate english donothing_75f5c236:
 
     # ame "君以外で…？！\nどうやれっていうんだい！{nw=5.0}"
-    ame "Other than you...?!\nHow am I supposed to come up with that?!{nw=5.0}"
+    ame "Other than you...?!\nHow do you want me to come up with something like that?!{nw=5.0}"
 
 # game/scenario/7story.rpy:1092
 translate english donothing_780e2b04:
 
     # rus "こうしていつも通りの\nアメリカ君の映画が\nできるわけだね。{nw=5.0}"
-    rus "And that's how your usual American movies end up being made.{nw=5.0}"
+    rus "And that’s how a typical movie from you ends up being made, America.{nw=5.0}"
 
 # game/scenario/7story.rpy:1095
 translate english donothing_158654f4:
 
     # rus "フランス君ほどとは\n言わないけどひねろうよ。\nスペイン君みたいに\n最後の５分で暴走するのも良いね。{nw=5.0}"
-    rus "I'm not saying to go as far as France, but let's add a twist.  It would be nice to at least go wild in the last five minutes like Spain does.{nw=5.0}"
+    rus "I'm not asking you to go as far as France's movies, but try to put a twist on it. Going off the rails in the last five minutes like Spain does would be good too.{nw=5.0}"
 
 # game/scenario/7story.rpy:1098
 translate english donothing_820f8046:
@@ -951,7 +951,7 @@ translate english donothing_820f8046:
 translate english donothing_00bfdef7:
 
     # rus "家の中の怪奇現象は全部\n宇宙人がやってましたオチと\n友だちが悪魔化して全滅オチ\nじゃないよね？{nw=5.0}"
-    rus "The twist isn't that all the strange phenomena in the house were caused by aliens, or that the friends turned into demons and were all obliterated, right?{nw=5.0}"
+    rus "The twist isn't going to be 'all the strange phenomena in the house were caused by aliens' or 'one of them gets turned into a demon and everyone dies,' right?{nw=5.0}"
 
 # game/scenario/7story.rpy:1105
 translate english donothing_fa690420:

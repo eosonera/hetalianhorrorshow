@@ -18,6 +18,15 @@ translate english strings:
     old "セリフ"
     new "Speech"
 
+    # game/screens/preferences.rpy:55
+    old "Mute"
+    new "Mute"
+
+    # game/screens/preferences.rpy:55
+    old "MAX"
+    new "MAX"
+
+
     # game/screens/preferences.rpy:91
     old "Text Speed"
     new "Text Speed"
@@ -37,4 +46,6 @@ translate english strings:
     # game/screens/preferences.rpy:153
     old "Source Han Sans Lite"
     new "Source Han Sans Lite"
+
+
 

@@ -7,21 +7,31 @@
 ## Save game names based on BadMustard's code: https://www.badmustard.itch.io/renpy-save-game-names
 
 screen save():
-    modal True
+    if gamemenu_open:
+        modal False
+    else:
+        modal True
     add "gui/menu_game/save.png":
         xpos 118
         ypos 150
     use file_slots("Save")
 
 screen load():
-    modal True
+    if gamemenu_open:
+        modal False
+    else:
+        modal True
+
     add "gui/menu_game/load.png":
         xpos 118
         ypos 150
     use file_slots("Load")
 
 screen file_slots(title):
-    modal True
+    if gamemenu_open:
+        modal False
+    else:
+        modal True
     
     button:
         if main_menu:
@@ -54,7 +64,7 @@ screen file_slots(title):
 
                     button:
                         ysize 25
-                        xsize 490
+                        xsize 460
                         hovered ShowTransient("dynamic_preview", what=get_save_preview(slot))
                         unhovered Hide("dynamic_preview")
                         if renpy.get_screen("load"):
@@ -66,7 +76,7 @@ screen file_slots(title):
                         if renpy.get_screen("save") and persistent.saveName:
                             action [Function(SetSaveName, slot), Show("savegameName", slot=slot, accept=FileSave(slot))]
                         elif renpy.get_screen("load") and FileLoadable(slot):
-                            action Show("confirm", message=_("[slot:02d]番をロードします").replace("[slot:02d]", f"{slot:02d}"), yes_action=FileLoad(slot, confirm=False), no_action=Hide("confirm"))
+                            action Show("confirm", message=_("[slot]番をロードします").replace("[slot]", f"{slot:02d}"), yes_action=FileLoad(slot, confirm=False), no_action=Hide("confirm"))
 
                         else:
                             action [Function(SetSaveName, slot), FileAction(slot)]

@@ -5,7 +5,7 @@ define config.enable_language_autodetect = True
 default list_languages = [
     ("日本語", None),
     ("English", "english"),
-    ("Russian", "russian"),
+    ("Русский", "russian"),
 ]
 
 
@@ -19,6 +19,7 @@ translate english python:
     gui.nvl_text_size = 18
     gui.nvl_width = 680
     gui.nvl_width2 = gui.nvl_width - 200
+    gal_text_size = 14
 
     
 
@@ -93,7 +94,7 @@ translate english python:
     window_size_center1 = (420, 130)
     window_size_center3 = (310, 130)
     window_size_center3long = (470, 130)
-    window_size_center4long = (470, 150)
+    window_size_center4long = (450, 150)
 
 
 
@@ -132,26 +133,45 @@ translate russian python:
 
 ## Textbox sizes
 translate russian python:
-    narr_window_size = (480, 200)
+    narr_window_size = (750, 200)
     window_size_right1 = (300, 130)
-    window_size_right3 = (310, 130)
-    window_size_right4 = (310, 100)
-    window_size_right4long = (480, 150)
-    window_size_right7big =(470, 100)
+    window_size_right3 = (375, 130)
+    window_size_right4 = (350, 130)
+    window_size_right4long = (480, 130)
+    window_size_right7big =(490, 130)
     window_size_left1 = (280, 130)
-    window_size_left3 = (300, 130)
-    window_size_left4 = (380, 130)
-    window_size_left4long = (480, 150)
+    window_size_left3 = (350, 130)
+    window_size_left4 = (470, 130)
+    window_size_left4long = (480, 130)
     window_size_center1 = (420, 130)
-    window_size_center3 = (320, 130)
+    window_size_center3 = (340, 130)
     window_size_center3long = (480, 130)
     window_size_center4long = (480, 150)
 
 translate russian python:
-    gui.text_size = 14
+    gui.text_size = 12
     
     gui.choice_button_text = 16
 
     gui.nvl_text_size = 18
     gui.nvl_width = 680
     gui.nvl_width2 = gui.nvl_width - 200
+    gal_text_size = 14
+
+
+    """
+narr_window_size = (700, 200)
+window_size_right1 = (300, 130)
+window_size_right3 = (375, 130)
+window_size_right4 = (350, 130)
+window_size_right4long = (480, 130)
+window_size_right7big =(490, 130)
+window_size_left1 = (280, 130)
+window_size_left3 = (350, 130)
+window_size_left4 = (380, 130)
+window_size_left4long = (480, 130)
+window_size_center1 = (420, 130)
+window_size_center3 = (340, 130)
+window_size_center3long = (480, 130)
+window_size_center4long = (480, 150)
+"""

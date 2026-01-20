@@ -4,6 +4,8 @@
 ##
 ##
 
+
+
 default persistent.seen_splash = False
 image kitayume0 = "gui/splash/kitayume0.png"
 image kitayume = "gui/splash/kitayume.png"
@@ -187,18 +189,3 @@ init python:
 image birds = Animation(*sum(bird_frames, ()))
 image birds1 = Animation(*sum(bird_frames1, ()))
 
-
-screen staffroll():
-    zorder 99
-    add "gui/staffroll.png" at credit_scroll
-
-
-transform credit_scroll:
-    ypos 600 alpha 1.0
-    linear 20.25 yoffset -3000
-    easein 5 yoffset -3600
-    pause 10
-    easein 5 alpha 0
-
-
-    

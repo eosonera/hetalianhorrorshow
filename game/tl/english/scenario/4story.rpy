@@ -70,7 +70,7 @@ translate english story4_ae0630bf:
 translate english story4_bda42bac:
 
     # story "その怪奇現象というのが\n家の廊下に飾ってある鎧が\n夜な夜な動くというものだ。" id story4_bda42bac
-    story "Specifically, this strange phenomenon involved a suit of armor on display in the hallway of my house, which seemed to be moving of its own volition at night." id story4_bda42bac
+    story "Specifically, this strange phenomenon involved a suit of armor, on display in the hallway of my house, which seemed to be moving of its own volition at night." id story4_bda42bac
 
 # game/scenario/4story.rpy:48
 translate english story4_76b2fe88_3:
@@ -100,7 +100,7 @@ translate english story4_bb381755:
 translate english story4_87ff0c57:
 
     # story "だがその日から\n深夜になると家の中から\n鎧のきしむ音や、剣がぶつかる音が\n聞こえてくるようになったのだ…。" id story4_87ff0c57
-    story "But from that day on, late at night, the sounds of clashing swords and creaking armour could begin to be heard inside my house..." id story4_87ff0c57
+    story "But from that day on, late at night, the sounds of clashing swords and creaking armour could be heard inside my house..." id story4_87ff0c57
 
 # game/scenario/4story.rpy:64
 translate english story4_c0cc4035:
@@ -128,7 +128,7 @@ translate english story4_2f1085a7:
     # nvl clear
     # story "それに、俺の家の厳重な\nセキュリティー下にありながら\n警報すらならさず現れる鎧…。\n　\n一体…何者なんだ！\n何故俺の家に現れる！\n訴えたいことがあるなら\n口頭か筆記してくれ！" id story4_2f1085a7
     nvl clear
-    story "Also, despite my house's tight security, the armor appeared without triggering a single alarm...\n \nWho... the hell was behind it?! Why was this happening at my house?! If anyone has a complaint to make against me, let it be done orally or in person!" id story4_2f1085a7
+    story "Also, despite my house's tight security, the armor appeared without triggering a single alarm...\n \nWho... the hell was behind it?! Why was this happening at my house?! If anyone has a complaint to make against me, let it be done in person or in writing!" id story4_2f1085a7
 
 # game/scenario/4story.rpy:72
 translate english story4_7bc20324:
@@ -258,7 +258,7 @@ translate english story4_76b2fe88_8:
 translate english story4_27a4b855:
 
     # ger "…という話だ。" id story4_27a4b855
-    ger "...is what he said." id story4_27a4b855
+    ger "...and that's my story." id story4_27a4b855
 
 # game/scenario/4story.rpy:153
 translate english story4_1e926c4b:

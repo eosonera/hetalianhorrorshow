@@ -25,6 +25,8 @@ screen quick_menu():
                     hover "gui/menu_quick/1_save.png"
                     #insensitive "gui/menu_quick/1_save_2.png"
                     action ShowMenu('save')
+
+
             imagebutton:
                     xpos 580
                     yalign 1.0
@@ -41,7 +43,7 @@ screen quick_menu():
                     action Skip() alternate Skip(fast=True, confirm=False)
             imagebutton:
                     if renpy.variant("mobile"):
-                        xpos 160
+                        xpos 84
                     else:
                         xpos 738
                     yalign 1.0
@@ -67,6 +69,8 @@ default quick_menu = True
 ## Game Menu screen #############################################################
 #################################################################################
 
+default gamemenu_open = False
+
 screen game_menu(title):
     style_prefix "game_menu"
 
@@ -80,42 +84,48 @@ screen game_menu(title):
             xpos 100
             ypos 432
             idle "gui/menu_game/0save.png"
-            at menu_hover_float
-            action ShowMenu("save")
+            if not renpy.variant("mobile"):
+                at menu_hover_float
+            action switch_tab("save"), SetVariable("gamemenu_open", True)
 
         imagebutton:
             xpos 220
             ypos 432
             idle "gui/menu_game/1load.png"
-            at menu_hover_float
-            action ShowMenu("load")
+            if not renpy.variant("mobile"):
+                at menu_hover_float
+            action switch_tab("load"), SetVariable("gamemenu_open", True)
 
         imagebutton:
             xpos 340
             ypos 432
             idle "gui/menu_game/2backlog.png"
-            at menu_hover_float
-            action ShowMenu("history")
+            if not renpy.variant("mobile"):
+                at menu_hover_float
+            action switch_tab("history")
 
         imagebutton:
             xpos 460
             ypos 432
             idle "gui/menu_game/3auto.png"
-            at menu_hover_float
+            if not renpy.variant("mobile"):
+                at menu_hover_float
             action [Preference("auto-forward", "enable"), Return()]
             
         imagebutton:
             xpos 700
             ypos 432
             idle "gui/menu_game/5mainmenu.png"
-            at menu_hover_float
+            if not renpy.variant("mobile"):
+                at menu_hover_float
             action MainMenu(confirm=False, save=False)
 
         imagebutton:
             xalign 0.0
             yalign 1.0
             idle "gui/menu_game/6help.png"
-            at menu_hover_float
+            if not renpy.variant("mobile"):
+                at menu_hover_float
             action ShowMenu("menu_open2")
             
 
@@ -124,35 +134,39 @@ screen game_menu(title):
             xpos 50
             ypos 160
             idle "gui/menu_game/menu_01.png"
-            at menu_jump
-            action ShowMenu("text_speed")
+            if not renpy.variant("mobile"):
+                at menu_jump
+            action switch_tab("text_speed")
 
         imagebutton:
             xpos 50
             ypos 216
             idle "gui/menu_game/menu_02.png"
-            at menu_jump
-            action ShowMenu("autotext_speed")
+            if not renpy.variant("mobile"):
+                at menu_jump
+            action switch_tab("autotext_speed")
 
         imagebutton:
             xpos 50
             ypos 272
             idle "gui/menu_game/menu_03.png"
-            at menu_jump
-            action ShowMenu("font") 
+            if not renpy.variant("mobile"):
+                at menu_jump
+            action switch_tab("font") 
 
         imagebutton:
             xpos 50
             ypos 328
             idle "gui/menu_game/menu_04.png"
-            at menu_jump
-            action Show("volume")
+            if not renpy.variant("mobile"):
+                at menu_jump
+            action switch_tab("volume")
 
         if renpy.variant("mobile"):
             imagebutton:
                 xalign 1.0
                 yalign 0
-                idle "gui/menu_game/return.png"
+                idle "gui/button/return.png"
                 action Return()
 
 
@@ -194,6 +208,23 @@ transform menu_hover_float:
     on idle:
         yoffset 0
 
+
+default current_tab_screen = None
+init python:
+    def switch_tab(screen_name):
+        actions = []
+
+        if current_tab_screen is not None:
+            if renpy.get_screen(current_tab_screen):
+                actions.append(Hide(current_tab_screen))
+
+        if screen_name is not None:
+            actions.append(Show(screen_name))
+            actions.append(SetVariable("current_tab_screen", screen_name))
+        else:
+            actions.append(SetVariable("current_tab_screen", None))
+
+        return actions
 
 
 

@@ -10,7 +10,7 @@ screen gallery_textbox(who, what):
     use textbox(who, what, "images/textbox/normal.png",
         window_pos=(162, 468),
         window_size=(570, 300),
-        text_size=gui.text_size - 4,
+        text_size=gal_text_size,
         style_prefix_name="gallery",
         appear_effect=appear_gallery
     )
@@ -41,7 +41,7 @@ label gallery:
         window show
         
         $ gal.screen = 'gallery_textbox'
-        gal "ダウンロードとプレイありがとうございます！\n楽しんでいただければ幸せです。"
+        gal "ダウンロードとプレイありがとうございます！\n楽しんでいただければ幸せです。" id gallery_840ee7e0
         show aphrodite 0 at aphro1
         with {'master': Dissolve(1.0)}
         show jeremy 0 at jeremy1
@@ -49,19 +49,19 @@ label gallery:
         show bear_grylls 0 at bear1
         with {'master': Dissolve(1.0)}
         pause 1.5
-        gal "おまけ\n目隠しなしのア○ロダイテ・ジョーンズ\nベ○グリルスとジェレ○ーウェイド。"
+        gal "おまけ\n目隠しなしのア○ロダイテ・ジョーンズ\nベ○グリルスとジェレ○ーウェイド。" id gallery_e2430e66
         
         $ _skip_appear_effect = True
         scene japansan rain
         with {'master': Dissolve(0.5)}
         
-        gal "おまけ画像。あめにほんさん。\n元の画像は結構明るい。"
+        gal "おまけ画像。あめにほんさん。\n元の画像は結構明るい。" id gallery_7f7c0376
         
         scene sweden
         with {'master': Dissolve(0.5)}
 
         $ gal.screen = 'gallery_textbox'
-        gal "スウェーデン。"
+        gal "スウェーデン。" id gallery_4ead79be
         $ _skip_appear_effect = False
         window auto
         
@@ -71,6 +71,6 @@ label gallery:
         scene bg exterior6
 
         $ gal.screen = 'gallery_textbox'
-        gal "クリアーすると解放されます。"
+        gal "クリアーすると解放されます。" id gallery_b94bc3f3
         
     return

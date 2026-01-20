@@ -9,9 +9,6 @@ define config.history_current_dialogue = False
 
 screen history():
 
-    tag menu
-
-    ## Avoid predicting this screen, as it can be very large.
     predict False
 
     button:
@@ -22,7 +19,7 @@ screen history():
         keyboard_focus False
         mouse False
 
-    use game_menu(_("History"))
+    #use game_menu(_("History"))
     add "gui/menu_game/backlog.png":
         xpos 138
         ypos 109

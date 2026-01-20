@@ -27,6 +27,7 @@ screen main_menu():
     add "images/vfx/orange.png" at mm_orange
     
     add "gui/menu_main/title.png" at mm_title
+    add "gui/menu_main/title2.png" at mm_title2
 
     vbox:
         style_prefix "mm"
@@ -80,11 +81,20 @@ screen main_menu():
             idle "gui/menu_main/title_06.png"
             hover "gui/menu_main/title2_06.png"
             
-            if renpy.variant("pc"):
+            if renpy.variant("pc") or renpy.variant("web"):
                 activate_sound "sfx/bell01.ogg"
                 action Quit(confirm=not main_menu)
             else:
                 activate_sound "sfx/bell01.ogg"
+            at mm_fade_in
+        
+        imagebutton:
+            xalign 0.95
+            yalign 1.0
+            activate_sound "sfx/bell01.ogg"
+            idle "gui/menu_main/title_08.png"
+            hover "gui/menu_main/title2_08.png"
+            action ShowMenu("language")
             at mm_fade_in
 
         imagebutton:
@@ -107,28 +117,30 @@ style mm_text:
 transform mm_title:
     zoom 2.0 rotate -190 xycenter(454,294)
 
-    linear .6 zoom 1.0 rotate 0 xycenter(450,300)
-    linear .2 rotate 10 
+    linear .7 zoom 1.0 rotate 0 xycenter(450,300) #0-0:43
+    linear .3 rotate 10 #0:43-1:0
 
-    block:
-        parallel:
-            linear .2 rotate -10
-        parallel:
-            linear .2 zoom 1.1
+    linear .2 rotate -10 zoom 1.1
         
-    block:
-        parallel:
-            linear .2 rotate 7
-        parallel:
-            linear .2 zoom 1.0
+    linear .2 rotate 7 zoom 1.0
 
     linear .2 rotate -7
     linear .2 rotate 0
     
-    time 1.75
+    time 2.5
     block:
-        linear .9 yoffset -5
-        linear .9 yoffset 0
+        linear 1.35 yoffset -5
+        linear 1.35 yoffset 0
+        repeat
+
+transform mm_title2:
+    alpha 0.0
+    1.55
+    linear 0.45 alpha 1
+    time 2.5
+    block:
+        linear 1.35 yoffset -3
+        linear 1.35 yoffset 0
         repeat
 
 # transform title_float:

@@ -119,7 +119,7 @@ translate english story2_aa907b78:
 translate english story2_ec3fa10c:
 
     # ame "ＯＫ！安心してくれたまえ！\nこれ以外にもスキュアリーな話は\n用意しているんだぞ！"
-    ame "OK! Don't worry!\nI have another {i}scuary{/i} story in store!"
+    ame "OK! Don't worry!\nI have another {i}scary{/i} story in store!"
 
 # game/scenario/2story.rpy:136
 translate english story2_09fd4bfd:
@@ -333,7 +333,7 @@ translate english story2_ddc443ca:
     # nvl clear
     # story "{k=3}「なんだいその設定！面白くていいよ。\n　星の名前はもう少し覚えやすくて\n　かっこいい方が良いぞ！\n　映画にした時に覚えられないと困るだろう？」{/k}"
     nvl clear
-    story_indent "\n“What a backstory! It's pretty interesting. But the planet's name should be more memorable and cooler! You don't want people forgetting it when it's turned into a movie, do you?”"
+    story_indent "\n“What a backstory! It's pretty interesting. But the planet's name should be cooler and more memorable! You don't want people forgetting it when it's turned into a movie, do you?”"
 
 # game/scenario/2story.rpy:359
 translate english story2_4be20c23:
@@ -391,7 +391,7 @@ translate english story2_76b2fe88_8:
 translate english story2_0826bd8a:
 
     # story "ひとしきり笑った後は\n彼ともすぐ仲良くなれたよ。\n　\n彼、連続ドラマが好きらしくってさ。\n色んなドラマがあるっていうのに\nザ・リバーが一番好きなんて\nセンスが宇宙っぽいかもしれないね。"
-    story "Anyway, we all had a good laugh about it, and I got to know him very well.\n \nHe seems to be really into serial dramas. His favorite is {i}The River,{/i} even though there are so many other dramas out there, so maybe he has a spacey sense of humor. "
+    story "Anyway, we all had a good laugh about it, and I got to know him very well.\n \nHe seems to be really into serial dramas. Even though there are so many different dramas out there, his favorite is {i}The River,{/i} so his taste might as well be from another planet, right? "
 
 # game/scenario/2story.rpy:379
 translate english story2_76b2fe88_9:
@@ -409,8 +409,8 @@ translate english story2_a83e8ea7:
 translate english story2_ef7600bc:
 
     # extend "\n\n「あ、リバーで思い出したんですけど\n　私の船乗ってみます？\n　リバーのあの船よりは便利ですよ」\n\nなんていうからさ。"
-    story_indent "\n\n“Oh, speaking of {i}River,{/i} wanna take a ride on my ship? It's more convenient than the one on {i}River,{/i}”{nw}"
-    story "\n\n\nis what he said."
+    story_indent "\n“Oh, speaking of {i}River,{/i} wanna take a ride on my ship? It's more convenient than the one on {i}River,{/i}”{nw}"
+    story "\n\nis what he said."
 
 # game/scenario/2story.rpy:396
 translate english story2_0aa5539a:
@@ -418,7 +418,7 @@ translate english story2_0aa5539a:
     # nvl clear
     # story "「へぇ！君の船か！\n　是非とも乗ってみたいんだぞ！」\n\nクルージングも好きだからね。\n真っ先にＹｅｓ！って答えたよ。\nエリア５１に勤めていると\nクルージング船が買えるんだな。"
     nvl clear
-    story "“Whoa! You have a ship!? I definitely wanna try that!”{nw}"
+    story "“Whoa! You have a ship!? I definitely wanna go on a ride!”{nw}"
     story_indent "\n\n\nI do like cruises, after all, so I answered “Yes!” right away. Working at Area 51 must pay well if he can afford to buy a sailboat."
 
 # game/scenario/2story.rpy:400
@@ -438,7 +438,7 @@ translate english story2_7d7893fe:
 translate english story2_74211b8e:
 
     # story "ここは地下の研究所だぞ？\n流石に川は流れてないよ！\nそれに呼べば来る船ってユニークだね！\nもしかして君の愛犬の名前が「船」なのかい？\nジョークまで面白いなんて君って最高だね！"
-    story "We were in an underground lab, right? Of course, there wouldn't be a river flowing through there! Besides, a ship that comes when called is pretty unique! I figured maybe his dog's name was “Ship”? He's amazing, this guy's jokes were next-level!"
+    story "We were in an underground research facility, right? No way there would be a river running through there! Besides, the idea of a ship that comes when called is pretty unique! I figured maybe his dog's name was “Ship”? He's amazing, this guy's jokes were next-level!"
 
 # game/scenario/2story.rpy:406
 translate english story2_76b2fe88_11:
@@ -468,7 +468,7 @@ translate english story2_76b2fe88_12:
 translate english story2_9546b191:
 
     # story "　\n《　ユナイデットステイツ検閲　》\n\n《　ユナイデットステイツ検閲　》\n\n《　ユナイデットステイツ検閲　》\n\n《　ユナイデットステイツ検閲　》\n\n《　ユナイデットステイツ検閲　》{nw=1.0}"
-    story "{b} \nRedacted by the Unided States\n\nRedacted by the Unided States\n\nRedacted by the Unided States\n\nRedacted by the Unided States\n\nRedacted by the Unided States{/b}{nw=1.0}"
+    story "{b} \nRedacted by the United States\n\nRedacted by the United States\n\nRedacted by the United States\n\nRedacted by the United States\n\nRedacted by the United States{/b}{nw=1.0}"
 
 # game/scenario/2story.rpy:427
 translate english story2_76b2fe88_13:
@@ -492,7 +492,7 @@ translate english story2_9e1fbadb:
 translate english story2_6d14a5f3:
 
     # bul "…お話しあざーっす！\n俺は何も聞いていない\n機密情報なんて\n聞いてないんだわー…"
-    bul "...Cheers to that story!\nI heard nothing. I didn't hear any classified information...."
+    bul "...Cheers to that story!\nI didn't hear anything! I didn't hear any classified information or anything like that…!"
 
 # game/scenario/2story.rpy:457
 translate english story2_c892c3cc:

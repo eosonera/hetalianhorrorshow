@@ -16,13 +16,13 @@ translate english start_d72426f3:
 translate english start_4d123f7b:
 
     # rom "ごめんね～。\nほんとはおいらが\nやりたかったんだけどさー。"
-    rom "Sorry～\nI actually wanted to go myself, ya know..."
+    rom "Sorry～\nI actually wanted to go myself..."
 
 # game/script.rpy:33
 translate english start_f8af57b9:
 
     # rom "{size=-2}魔術部のイギ…\nほにゃららさんに{size=-5}ごほごほっ{/size}\nいつやるんだって\nせっつかれてるしー…。{/size}"
-    rom "{size=-1}One of the Magic Club members, Eng... \nEr, Mr. Blahblah {size=-2}(cough cough),{/size} keeps pestering me about when I'm going to do it...{/size}"
+    rom "{size=-1}One of the Magic Club members, Eng... \nEr, Mr. Blahblah {size=-2}(cough cough),{/size} keeps pestering me about when I'm going to attend...{/size}"
 
 # game/script.rpy:35
 translate english start_fe490979:
@@ -34,19 +34,19 @@ translate english start_fe490979:
 translate english start_6074a98b:
 
     # bul "いやそれ俺もだけどね。\n俺も遊ぶ暇あったら\n内職しろって\n言われてるんだわー。"
-    bul "Nah, I get it, same here.\nMine tells me if I have time to play around, I should go get a side hustle."
+    bul "Nah, I get it, same here.\nMine tells me I should go get a side hustle if I've got time to play around."
 
 # game/script.rpy:42
 translate english start_8f7e5e1b:
 
     # rom "そうだったの！？\nでもお前いっつも\nフラフラしてるじゃんかー！"
-    rom "He says that!?\nBut you're allllways just messin' around, aren't you?!"
+    rom "He says that!?\nBut you {i}are{/i} just messin' around, aren't you?!"
 
 # game/script.rpy:46
 translate english start_fe5ba20e:
 
     # bul "ふざけんなー！\n自分で行けオラァ！"
-    bul "Screw you!\nYou're going yourself!"
+    bul "Screw you!\nYou're going to the meeting by yourself!"
 
 # game/script.rpy:50
 translate english start_d6cfb26b:
@@ -64,19 +64,19 @@ translate english start_c66e6f28:
 translate english start_028db6fd:
 
     # rom "え！？ えーと…。\nロシアさんは{size=-5}存在自体がー…\n怖いっていうか…。{/size}"
-    rom "Wha!? Um...\nWell, Mr. Russia's {size=-3}mere existence...\nIs pretty scary...{/size}"
+    rom "Wha!? Um...\nWell, his {size=-3}mere existence...\nis frightening in and of itself...{/size}"
 
 # game/script.rpy:62
 translate english start_4a9432bb:
 
     # bul "そこら辺は\n…否定はしないわー"
-    bul "I can't...\nreally deny that."
+    bul "I...\nwill not deny that."
 
 # game/script.rpy:68
 translate english start_c71f0dd7:
 
     # rom "お願いだよー！！\nお菓子あげるから！{nw}"
-    rom "Pleeease!!?\nI'll give you some baked goods!{nw}"
+    rom "Pleeease!!?\nI'll give you some sweets!{nw}"
 
 # game/script.rpy:72
 translate english start_bc7df12d:
@@ -94,7 +94,7 @@ translate english start_b3b001cd:
 translate english start_1fcc0816:
 
     # bul "んー ま、\nかれこれ…３？"
-    bul "Hmm... Well, somewhere around... 3...?"
+    bul "Hmm... Well, about... 3... something?"
 
 # game/script.rpy:85
 translate english start_3d397b61:
@@ -125,25 +125,25 @@ translate english start_239fc5ac:
 translate english start_6b148d73:
 
     # rom "３万！？ ないよー！"
-    rom "30,000!? There's no way!"
+    rom "300,000!? There's no way!"
 
 # game/script.rpy:109
 translate english start_97b31921:
 
     # bul "俺三万歳！！\nつまり俺の国力は\n３万あるんだわー！{nw}"
-    bul "I am 30,000!\nWhich means my national power is 30,000 too!{nw}"
+    bul "I am 3 million score!\nWhich means my national power score is 3 million too!{nw}"
 
 # game/script.rpy:118
 translate english start_e5a62779:
 
     # rom "こいつ盛ったぁー！！{nw}"
-    rom "You're really reaching!!{nw}"
+    rom "You're stretching that!!{nw}"
 
 # game/script.rpy:125
 translate english start_300040ae:
 
     # bul "盛ってねーから！\nそういうわけで俺の方が\n年上だから俺はいかない！"
-    bul "Am not!\nSo yeah, since I'm your senior,\nI'm not going!"
+    bul "Am not!\nAnyway, I'm your senior, so I'm not going!"
 
 # game/script.rpy:129
 translate english start_c62956d7:
@@ -185,7 +185,7 @@ translate english start_7c634a5e:
 translate english start_6f8a9988:
 
     # extend "\n…あっ！そうだ！\nこの仕事すると…目立てるよ！{nw}"
-    extend "\n...Ah! I've got it!\nIf you do go... You'll stand out!{nw}"
+    extend "\n...Ah! I've got it!\nIf you do this for me... You'll get noticed!{nw}"
 
 # game/script.rpy:165
 translate english start_63665121:
@@ -209,7 +209,7 @@ translate english start_c0e5473b:
 translate english start_ebbafdad:
 
     # rom "だから！司会進行として！\nいつもは上からにゃーにゃー\n言ってくるみんなをブルガリアが\n先導できるってこと！！"
-    rom "You see! As the moderator!\nYou'll be able to lead all the people who\nused to just meow at us from above!!"
+    rom "Well! As the moderator!\nYou'll be able to lead all the people\nwho've always talked down at us!!"
 
 # game/script.rpy:181
 translate english start_15292df2:
@@ -251,13 +251,13 @@ translate english start_cc76127d:
 translate english start_1db23734:
 
     # bul "うう…、ちくしょうちくしょう…。\nユーロ圏の新聞めー…。\n人の気持ちもしらねーで\n普通にこういう事書くんだわ…。\n手厳しいんだわー…。うっうっ…。\n金がねェンだよ…！国内建て直す\n金が手に入るまで働くしかねぇんだわ…。"
-    bul "{size=-1}Ugh... dammit, dammit!\nDamn Eurozone newspapers...\nThey're just writin' this stuff without knowin' how the people really feel...\nIt's so harsh... *sob*...\nI dun have any money...!\nOf course I hafta work until I have enough money to rebuild my country...{/size}"
+    bul "{size=-1}Ugh... dammit, dammit!\nDamn Eurozone newspapers...\nThey're just writin' this stuff without knowin' how the people really feel...\nThey're so harsh... *sob*...\nWe dun have any money...!\nWe have no choice but to work until we have the funds to rebuild the country...{/size}"
 
 # game/script.rpy:218
 translate english start_1bce4555:
 
     # rom "泣かないでよぉブルガリア…！\nおいらブルガリアを悲しませたくて\n思い出させたわけじゃないよぉ…"
-    rom "Don't cry, Bulgariaa!\nI didn't remind you because\nI wanted to make you saaad..."
+    rom "Don't cry, Bulgariaa!\nI didn't bring this up because\nI wanted to make you saaad..."
 
 # game/script.rpy:222
 translate english start_1530bf19:
@@ -275,7 +275,7 @@ translate english start_d4d62c12:
 translate english start_fc180838:
 
     # bul "ちょっくら司会進行として\n国としての存在感\nアピッてくるんだわ！！{nw}"
-    bul "They'll see, as the moderator,\nI'll definitely show off\nmy presence as a country!!{nw}"
+    bul "I'll step up as the moderator and show off my presence as a country!!{nw}"
 
 # game/script.rpy:237
 translate english start_0f5baf6e:
@@ -287,7 +287,7 @@ translate english start_0f5baf6e:
 translate english start_c6e01564:
 
     # bul "そしてこのゲームの\n主役も頂くんだわ！{nw}"
-    bul "And I'll be this game's\nmain character!{nw}"
+    bul "And I'll be the main\ncharacter in this game!{nw}"
 
 # game/script.rpy:249
 translate english start_caf63c9d:

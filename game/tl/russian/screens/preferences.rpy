@@ -1,10 +1,6 @@
-﻿# TODO: Translation updated at 2025-09-25 22:29
+﻿# TODO: Translation updated at 2025-12-18 14:20
 
 translate russian strings:
-
-    # game/screens/preferences.rpy:26
-    old "Volume"
-    new "Volume"
 
     # game/screens/preferences.rpy:44
     old "BGM"
@@ -12,29 +8,25 @@ translate russian strings:
 
     # game/screens/preferences.rpy:45
     old "効果音"
-    new "効果音"
+    new "Звуки"
 
     # game/screens/preferences.rpy:46
     old "セリフ"
-    new "セリフ"
+    new "Речь"
 
-    # game/screens/preferences.rpy:91
-    old "Text Speed"
-    new "Text Speed"
+    # game/screens/preferences.rpy:55
+    old "Mute"
+    new "Выкл"
 
-    # game/screens/preferences.rpy:121
-    old "Autotext Speed"
-    new "Autotext Speed"
-
-    # game/screens/preferences.rpy:141
-    old "Font"
-    new "Font"
+    # game/screens/preferences.rpy:55
+    old "MAX"
+    new "Макс"
 
     # game/screens/preferences.rpy:153
     old "Source Han Sans Lite"
-    new "Source Han Sans Lite"
+    new ""
 
     # game/screens/preferences.rpy:153
     old "MS ゴシック"
-    new "MS ゴシック"
+    new ""
 

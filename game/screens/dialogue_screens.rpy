@@ -245,7 +245,7 @@ style say_dialogue:
     properties gui.text_properties("dialogue")
     color "#583F34"
     outlines [(1.2, "#fff", 0, 0)]
-    font gui.preference("font", default="msgothic.ttc")
+    font gui.preference("font", default="msgothic.ttf")
     size gui.text_size
     kerning gui.kerning_dialogue
     line_spacing gui.line_spacing
@@ -371,7 +371,7 @@ style nvl_dialogue:
     kerning gui.kerning_dialogue + 6
     color "#fff"
     outlines [(2, "#2E3A54", 0, 0)]
-    font gui.preference("font", default="msgothic.ttc")
+    font gui.preference("font", default="msgothic.ttf")
     line_spacing gui.line_spacing +4
     #min_width 885
     ruby_style style.ruby_style

@@ -84,7 +84,7 @@ translate english story6_76b2fe88_3:
 translate english story6_6766d617:
 
     # story "\nほんでワンさんが有名観光地を\n散策していた時の話や…。"
-    story "\nThis here story's takes place when Mr. Wang was explorin' all them famous tourist spots..."
+    story "\nThis here story takes place when Mr. Wang was explorin' all them famous tourist spots..."
 
 # game/scenario/6story.rpy:55
 translate english story6_fb88e71b:
@@ -104,7 +104,7 @@ translate english story6_445852eb:
     # nvl clear
     # story "まあ可愛らしい！そう思ったワンさんは\n絵葉書を買ったろう思たんやって。"
     nvl clear
-    story "'Well now, ain't that adorable!' Thought Mr. Wang, so figured he'd go ahead and buy a postcard."
+    story "'Well now, ain't that adorable!' Thought Mr. Wang, so he figured he'd go ahead and buy a postcard."
 
 # game/scenario/6story.rpy:60
 translate english story6_5eadaa5d:
@@ -122,7 +122,7 @@ translate english story6_e15138bc:
 translate english story6_917d478a:
 
     # story "{size=+12}【高｜たっか】っ！{/size}"
-    story "\n{size=+12}【¡Está por las nubes!|That's mighty steep!】{/size}"
+    story "\n{size=+12} That's mighty steep!{/size}"
 
 # game/scenario/6story.rpy:68
 translate english story6_76b2fe88_4:
@@ -232,7 +232,7 @@ translate english story6_4ffdcd16:
 translate english story6_b90c161c:
 
     # story "ワンさんがいかんかったんは、\nあの物売りを追いかけて\n人通りない路地に入ってもうた事…。"
-    story "Where Mr. Wang went wrong was followin' that kid who'd been selling stuff into an empty backstreet..."
+    story "Where Mr. Wang went wrong was followin' that peddler kid into an empty backstreet..."
 
 # game/scenario/6story.rpy:128
 translate english story6_f10b6330:

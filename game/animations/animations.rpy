@@ -262,7 +262,7 @@ transform ufo2_pos:
 
 transform ufo3_pos:
     pos(-81,-58) alpha 0.35 additive_blend
-    linear 4.85 pos(-100,-31) alpha 0.25 additive_blend
+    linear 4.85 pos(-100,-31) alpha 0.3 additive_blend
 
 transform ufo4_pos:
     xpos 0 ypos -100
@@ -281,7 +281,7 @@ transform tr_snow_a:
         repeat
 
 image snow_a = At("snow", tr_snow_a)
-image snow_alien = Dust("snow_a", count=8, xradius=300, yradius=70, center=(300,20), speed=(5, 5), start=10, fast=True)
+image snow_alien = Dust("snow_a", count=1, xradius=300, yradius=70, center=(0,20), speed=(5, 5), start=10, fast=True)
 
 
 

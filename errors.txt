@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/language.rpy", line 22: invalid syntax
+    define gal_text_size = 14
+               ^^^^^^^^^^^^^
+
+Ren'Py Version: Ren'Py 8.5.0.25111603
+Mon Jan 19 12:17:40 2026

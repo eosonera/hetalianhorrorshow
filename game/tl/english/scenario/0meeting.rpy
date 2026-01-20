@@ -40,7 +40,7 @@ translate english meeting_76b2fe88_1:
 translate english meeting_d194fa59:
 
     # story "\nにゃんにゃんしているうちに、\n俺が怖い話を聞く事になる部屋についた。"
-    story "\nWhile meowing around, I arrived at the Conference of Scary Stories' meeting room."
+    story "\nWhile I was meowing around, I arrived at the meeting room for the Scary Story Conference."
 
 # game/scenario/0meeting.rpy:40
 translate english meeting_76b2fe88_2:
@@ -108,7 +108,7 @@ translate english meeting_28ca9edf:
 translate english meeting_c63ce14a:
 
     # eng "いっ忙しい中、来てやったんだ。\nれれれ礼の一つでもっ\n言ってほしいものだな！{nw}"
-    eng "I-I'm busy, but I showed up anyway.\nI-I-I-I would like a word of thanks from you!{nw}"
+    eng "I-I was busy, but I showed up anyway.\nI-I-I-I would like a word of thanks from you!{nw}"
 
 # game/scenario/0meeting.rpy:112
 translate english meeting_11c14e61:
@@ -218,7 +218,7 @@ translate english meeting_8bc364fe:
 translate english meeting_1b4aaa87:
 
     # bul "ううう…俺だって\n頑張ってんすよぉ…。"
-    bul "*sob*...\nI'm doing my best..."
+    bul "*sob*...\nI'm doing my best too..."
 
 # game/scenario/0meeting.rpy:206
 translate english meeting_c7cb7a8f:
@@ -254,7 +254,7 @@ translate english meeting_7d12a595:
 translate english meeting_8399c926:
 
     # fin "ブッさんもドイツさんの\n愛の鞭だと思って\n受け止めてくださいよう。"
-    fin "Mr. Bul, please just accept it.\nThink of it as Mr. Germany's tough love."
+    fin "Mr. Bul, please just accept this as Mr Germany's tough love."
 
 # game/scenario/0meeting.rpy:232
 translate english meeting_a79f8310:
@@ -267,20 +267,20 @@ translate english meeting_70190d88:
 
     # eng "フィンランド。\nこいつダメなやつほど\n過保護になる癖があるんだ\nわかってやれ。"
     $ eng.screen = 'right_4long'
-    eng "Finland,\nhe has a habit of getting overprotective\nover even the most pathetic sorts.\nYou have to understand that."
+    eng "Finland,\nhe has a tendency to get overprotective\nover even the most pathetic sorts.\nYou have to understand that."
 
 
 # game/scenario/0meeting.rpy:242
 translate english meeting_ffe5f0ec:
 
     # fin "…あっ。そうでしたか…！\nごめんなさい！\nドイツさんの好きなものに\n口挟むなんて無粋な真似を…！"
-    fin "...Oh. Is that so...!?\nI'm sorry!\nInterfering with what Germany likes\nwould be tactless of me...!"
+    fin "...Oh. Is that so...!?\nI'm sorry! How tactless of me\nto interfere with what Germany likes...!"
 
 # game/scenario/0meeting.rpy:246
 translate english meeting_8c935a5a:
 
     # fin "あっ！たしかに僕も、\nちょっとダメな所があった方が\n可愛いなぁって思いますよ！ええ！"
-    fin "Oh! But I definitely think\nit's more cute to be a bit flawed! Yeah!"
+    fin "Oh! But I definitely think\nit's more endearing to be a bit flawed! Yeah!"
 
 # game/scenario/0meeting.rpy:252
 translate english meeting_0c6d0b4d:

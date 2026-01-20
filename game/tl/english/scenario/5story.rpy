@@ -113,13 +113,13 @@ translate english story5_76b2fe88_5:
 translate english story5_835ced99:
 
     # story "俺がパイが焼きあがるまでの時間を利用して\n前日の残りのウナギゼリーに\nオーストラリアが俺の家のポストに\n２７日に１回のペースで\n突っ込んでくるペジマイトを\n塗りつけていた時だった…。"
-    story "I was using the time while the pie baked to spread Pegemite, which Australia chucks into my postbox once every 27 days, onto some day-old eel jelly."
+    story "I was taking advantage of the time while the pie baked to spread some Pegemite, which Australia chucks into my postbox once every 27 days, onto some jellied eels from the previous day..."
 
 # game/scenario/5story.rpy:52
 translate english story5_d50a0986:
 
     # story "（メニューのせいで\n　話に集中できねぇ…）"
-    story "(I can't concentrate on his story because of the menu...)"
+    story "(I can't concentrate on the story because of what's on his menu...)"
 
 # game/scenario/5story.rpy:53
 translate english story5_76b2fe88_6:
@@ -149,7 +149,7 @@ translate english story5_d971867a:
 translate english story5_492388cf:
 
     # ame "ゴ…ゴーストが…っ\n君の目の前に…っ！？\nなんて恐ろしいんだっ！"
-    ame "A g... ghost...\nRight in front of you...! ?\nThat's so scary!{nw}"
+    ame "A g... ghost...\nRight in front of you...! ?\nHow terrifying!{nw}"
 
 # game/scenario/5story.rpy:73
 translate english story5_274d4766:
@@ -250,5 +250,5 @@ translate english story5_e134b004:
 
     # ame "Ｇｒｅａｔ！\nチュロス！\nチュロスじゃないか！\n俺は君に会いたかった！{nw}"
     $ ame.screen = 'left_4long'
-    ame "Great!\nChurros!\nThe churros are here, right!\nI've been longing to see you, churros!{nw}"
+    ame "Great!\nChurros!\nThe churros are here\nI missed you, churros!{nw}"
 

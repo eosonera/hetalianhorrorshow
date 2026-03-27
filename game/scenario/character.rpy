@@ -15,7 +15,7 @@ define name_map = {
     "russia": ("ロシア"),
 }
 
-
+# narrator with blue text outlines
 define na = Character(None,
     screen='narrator',
     what_color="#763931",
@@ -23,6 +23,7 @@ define na = Character(None,
     ctc="ctc_button",
     ctc_position="nestled",)
 
+# narrator with normal text outlines
 define na2 = Character(None,
     image="na2",
     ctc="ctc_button",
@@ -30,7 +31,7 @@ define na2 = Character(None,
 
 define story = Character(None,
     kind = nvl,
-    ctc="ctc_arrow",
+    ctc="ctc_button", #ctc_arrow
     ctc_position="nestled",)
 
 define bul = Character("bulgaria",

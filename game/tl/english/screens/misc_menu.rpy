@@ -35,12 +35,12 @@ translate english strings:
     new "Enable skipping for:"
 
     # game/screens/misc_menu.rpy:104
-    old "未読テキスト"
-    new "Unread text"
+    old "未読テキストもスキップ"
+    new "Skip unread text"
 
     # game/screens/misc_menu.rpy:106
-    old "選択肢後"
-    new "After Choices"
+    old "選択肢の後もスキップ継続"
+    new "Keep skipping after choices"
 
     # game/screens/misc_menu.rpy:108
     old "トランジション"

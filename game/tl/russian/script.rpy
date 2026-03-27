@@ -34,7 +34,7 @@ translate russian start_fe490979:
 translate russian start_6074a98b:
 
     # bul "いやそれ俺もだけどね。\n俺も遊ぶ暇あったら\n内職しろって\n言われてるんだわー。" id start_6074a98b
-    bul "{size=-2}Не, понимаю, у меня всё так же. Он такой, «Если у тебя есть время валять дурака, иди устройся на подработку.»{/size}" id start_6074a98b
+    bul "{size=-2}Не, понимаю, у меня всё так же. Он такой, „Если у тебя есть время валять дурака, иди устройся на подработку.“{/size}" id start_6074a98b
 
 # game/script.rpy:47
 translate russian start_8f7e5e1b:
@@ -156,7 +156,7 @@ translate russian start_c62956d7:
 translate russian start_091ebbd4:
 
     # bul "ぷぷぷぷ～\nぷんにょにょ～（鼻歌）{nw}" id start_091ebbd4
-    bul "Хм-хм-хм-хм～ Хм-мм-мм～ (напевает){nw}" id start_091ebbd4
+    bul "Хм-хм-хм-хм～\nХм-мм-мм～ (напевает){nw}" id start_091ebbd4
 
 # game/script.rpy:174
 translate russian start_5ef33473:
@@ -168,7 +168,7 @@ translate russian start_5ef33473:
 translate russian start_76f6ac0e:
 
     # bul "ふんごっ\nふんごっ（鼻歌）{nw}" id start_76f6ac0e
-    bul "Хмм-ммх хмм-ммх (напевает){nw}" id start_76f6ac0e
+    bul "Хмм-ммх\nхмм-ммх (напевает){nw}" id start_76f6ac0e
 
 # game/script.rpy:187
 translate russian start_fcb03828:
@@ -186,7 +186,7 @@ translate russian start_7c634a5e:
 translate russian start_6f8a9988:
 
     # extend "\n…あっ！そうだ！\nこの仕事すると…目立てるよ！{nw}" id start_6f8a9988
-    extend "\n...А! Точно!\nЕсли ты сделаешь это для меня... Ты будешь замечен!{nw}" id start_6f8a9988
+    extend "\n...А! Точно!\nЕсли ты сделаешь это для меня...\nТы будешь замечен!{nw}" id start_6f8a9988
 
 # game/script.rpy:206
 translate russian start_63665121:

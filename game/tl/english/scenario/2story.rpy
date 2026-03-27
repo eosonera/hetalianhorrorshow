@@ -83,7 +83,7 @@ translate english story2_f1213b36:
 translate english story2_c752e978:
 
     # extend "\n君はバッファローの群れが\n家に向かってきても怖くないのかい？"
-    extend "\nAren't you afraid of a herd of bison stampeding towards your house?"
+    extend "\nAren't you afraid of a herd of bison\nstampeding towards your house?"
 
 # game/scenario/2story.rpy:98
 translate english story2_3611319e:
@@ -95,7 +95,7 @@ translate english story2_3611319e:
 translate english story2_ecb25a40:
 
     # ame "バッファローのボスが俺めがけて\n突進してくるシーンは全俺が震えるほど\nスリルに満ち溢れてるんだぞ！\n吹き飛ばされたけど民家は守ったんだ！{nw}"
-    ame "The scene where the bison boss rushes at me is so thrilling that it makes me shake! But I sent it packing in the end and saved that house!{nw}"
+    ame "The scene where the bison boss rushes at me is so thrilling that it makes me shake!\nBut I sent it packing in the end and saved that house!{nw}"
 
 # game/scenario/2story.rpy:112
 translate english story2_f9650383:
@@ -213,13 +213,13 @@ translate english story2_38514aff:
     # nvl clear
     # story "「先ほど、紹介したい人がいるといったね。\n　その人のためにこの階はあるんだ…」"
     nvl clear
-    story_indent "“Look, like I said earlier, there's someone I'd like to introduce you to. He's on this floor...”"
+    story_indent "\n“Look, like I said earlier, there's someone I'd like to introduce you to. He's on this floor...”"
 
 # game/scenario/2story.rpy:275
 translate english story2_d4e0c4dd:
 
     # extend "\n\nだって。君、それアンサーになってないよ…。"
-    story "\n\nBut... He didn't answer my question..."
+    story "\n\nHe says this... But that didn't answer my question..."
 
 # game/scenario/2story.rpy:276
 translate english story2_3770d437:
@@ -227,7 +227,7 @@ translate english story2_3770d437:
     # nvl clear
     # story "「…君にまで隠し事をしてしまって\n　本当に申し訳ないと思っている。\n　今から紹介する彼は…{color=#B5C1FC}宇宙人{/color}なんだ。\n　そしてこのエリア５１で働いている」"
     nvl clear
-    story_indent "“...I do owe you a sincere apology for keeping this a secret from you. The gentleman I'm about to introduce to you... is an {color=#B5C1FC}extraterrestrial{/color}.\nAnd he works here in Area 51.”"
+    story_indent "\n“...I do owe you a sincere apology for keeping this a secret from you. The gentleman I'm about to introduce to you... Is an {color=#B5C1FC}extraterrestrial{/color}.\nAnd he works here in Area 51.”"
 
 # game/scenario/2story.rpy:281
 translate english story2_30c814b8:
@@ -251,7 +251,7 @@ translate english story2_18250913:
 translate english story2_8552af69:
 
     # story "\n\nそこに現れたのは…{nw=1.0}"
-    story "\n\n\nAnd then I saw before me...{nw=1.0}"
+    story "\nAnd then I saw before me...{nw=1.0}"
 
 # game/scenario/2story.rpy:299
 translate english story2_76b2fe88_4:
@@ -276,7 +276,7 @@ translate english story2_c4fd8fea:
 
     # story "　\n「どうぞ、よろしく。\n　国の方と会うのは公式では初めてです。\n　私の星には貴方のような方はいないので\n　よろしかったらお話を聞かせてください」\n\nなんてトニーのそっくりさんは\n宇宙人設定で話しかけてくるんだよ！"
     story_indent " \n\n“Pleased to meet you.\nThis is my first time officially meeting a country. There's no one like you on my planet, so if you don't mind, please tell me about yourself,”{nw}"
-    story "\n\nWhy on earth was Tony's look-alike talking to me in-character as an alien!?"
+    story "\nTony's look-alike was talking to me in-character as an alien!"
 
 # game/scenario/2story.rpy:327
 translate english story2_76b2fe88_6:
@@ -294,7 +294,7 @@ translate english story2_b9d1a22f:
 translate english story2_409dfccd:
 
     # story "\n「もー驚かさないでくれよ！\n　上司が真面目な顔で宇宙人なんて言うから\n　一瞬、信じそうになったじゃないか！」"
-    story_indent "\n“Maan, don't scare me like that! When the boss said he had an alien, I almost believed him for a second!”"
+    story_indent "\n“Maan, don't scare me like that! When the boss told me in a serious tone that he had an alien, I almost believed him for a second!”"
 
 # game/scenario/2story.rpy:333
 translate english story2_76b2fe88_7:
@@ -306,7 +306,7 @@ translate english story2_76b2fe88_7:
 translate english story2_5ab8cca2:
 
     # story "　\nそしたら上司も「宇宙人」君も\nポカーンとした顔をしてるんだよ。\n　\nもー君達。\n俺がこの宇宙人ドッキリに引っかかったら\nHetatubeに動画アップする\nつもりだったんだろ！？"
-    story " \nBut then, my boss and the “alien” both just stared at me with these totally blank faces.\nCome on, you guys.\nIf I'd totally fallen for it, they'd have uploaded the video to HetaTube, right!?”"
+    story " \nBut my boss and the “alien” both just stared at me with these totally blank faces.\n\nC'mon, you guys.\nThey were gonna upload the video to HetaTube if I’d fallen for the alien prank, right!?!?”"
 
 # game/scenario/2story.rpy:338
 translate english story2_f48c6d62:
@@ -316,7 +316,7 @@ translate english story2_f48c6d62:
     nvl clear
     story "But I had to admit, this Tony look-alike was quite a unique and interesting guy!{nw}"
     story_indent "\n \n“Hello, Mr. Tony look-alike!\nWow, the resemblance is uncanny!\nYou related to Tony or something?”{nw}"
-    story "\n\n\nI said, and he replied,"
+    story "\n\nI said, and he replied,"
 
 # game/scenario/2story.rpy:341
 translate english story2_f7f24f4c:
@@ -356,7 +356,7 @@ translate english story2_585c8f64:
     # story "だから俺は言った。\n\n「ははあ。\n　君が本当に宇宙人だっていうなら\n　ミステリーサークルが作れるはずだよ！」"
     nvl clear
     story "So I said,{nw}"
-    story_indent"\n\n“Haha, okay.\nIf you really are an alien, go make some crop circles. Should be a piece of cake for you!"
+    story_indent"\n“Haha, okay.\nIf you really are an alien, go make some crop circles. Should be a piece of cake for you!"
 
 # game/scenario/2story.rpy:366
 translate english story2_615a20e3:
@@ -371,7 +371,7 @@ translate english story2_0654576b:
 
     # extend "\n　フォトショップ 【Ｃ Ｃ ｜クロップサークル】は\n　専門外なんでちょっと使えない、ですね…。\n　なんかごめんなさい…」\n　\nなんだい！やっぱり君、\nただのトニーのそっくりさんじゃないか！"
     extend "\nPhotoshop CC (Crop Circles) is outside my area of expertise, so I can't... Sorry about that...”{nw}"
-    story "\n \n \nOh, yeah? I knew it, he was just a guy who looks like Tony!"
+    story "\nOh, yeah? I knew it, he was just a guy who looks like Tony!"
 
 # game/scenario/2story.rpy:372
 translate english story2_3f1d93c3:
@@ -391,7 +391,7 @@ translate english story2_76b2fe88_8:
 translate english story2_0826bd8a:
 
     # story "ひとしきり笑った後は\n彼ともすぐ仲良くなれたよ。\n　\n彼、連続ドラマが好きらしくってさ。\n色んなドラマがあるっていうのに\nザ・リバーが一番好きなんて\nセンスが宇宙っぽいかもしれないね。"
-    story "Anyway, we all had a good laugh about it, and I got to know him very well.\n \nHe seems to be really into serial dramas. Even though there are so many different dramas out there, his favorite is {i}The River,{/i} so his taste might as well be from another planet, right? "
+    story "Anyway, we all had a good laugh about it, and soon enough I got to know him very well.\n \nHe seems to be really into serial dramas. Even though there are so many different dramas out there, his favorite is {i}The River.{/i} His tastes are out of this world, amirite?"
 
 # game/scenario/2story.rpy:379
 translate english story2_76b2fe88_9:
@@ -409,8 +409,8 @@ translate english story2_a83e8ea7:
 translate english story2_ef7600bc:
 
     # extend "\n\n「あ、リバーで思い出したんですけど\n　私の船乗ってみます？\n　リバーのあの船よりは便利ですよ」\n\nなんていうからさ。"
-    story_indent "\n“Oh, speaking of {i}River,{/i} wanna take a ride on my ship? It's more convenient than the one on {i}River,{/i}”{nw}"
-    story "\n\nis what he said."
+    story_indent "\n“Oh, speaking of {i}The River,{/i} would you like to take a ride on my ship? It's more convenient than the one on {i}The River,{/i}”{nw}"
+    story "\nis what he said."
 
 # game/scenario/2story.rpy:396
 translate english story2_0aa5539a:
@@ -419,7 +419,7 @@ translate english story2_0aa5539a:
     # story "「へぇ！君の船か！\n　是非とも乗ってみたいんだぞ！」\n\nクルージングも好きだからね。\n真っ先にＹｅｓ！って答えたよ。\nエリア５１に勤めていると\nクルージング船が買えるんだな。"
     nvl clear
     story "“Whoa! You have a ship!? I definitely wanna go on a ride!”{nw}"
-    story_indent "\n\n\nI do like cruises, after all, so I answered “Yes!” right away. Working at Area 51 must pay well if he can afford to buy a sailboat."
+    story_indent "\nI mean, I do like cruises, so I immediately replied with an enthusiastic “Yes!” Working at Area 51 must pay well if he can afford to buy a cruise ship."
 
 # game/scenario/2story.rpy:400
 translate english story2_76b2fe88_10:
@@ -432,7 +432,7 @@ translate english story2_7d7893fe:
 
     # story "「ちょっと待ってください。今呼びます」\n　\nなんて彼はいうんだよ。"
     story_indent "\n“Please wait a moment. I'll call my ship now,”{nw}"
-    story "\n\nis what he said."
+    story "\nis what he said."
 
 # game/scenario/2story.rpy:405
 translate english story2_74211b8e:
@@ -456,7 +456,7 @@ translate english story2_b5a2284d:
 translate english story2_80fb1745:
 
     # extend "\n大きな音と振動の後、奥から{nw=4.0}"
-    extend " and after a deafening noise, the room vibrated, and inside this glowing ring there was{nw=4.0}"
+    extend " and after a deafening noise, the room vibrated, and from the depths there was{nw=4.0}"
 
 # game/scenario/2story.rpy:420
 translate english story2_76b2fe88_12:

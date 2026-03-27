@@ -118,7 +118,7 @@ screen game_menu(title):
             idle "gui/menu_game/5mainmenu.png"
             if not renpy.variant("mobile"):
                 at menu_hover_float
-            action MainMenu(confirm=False, save=False)
+            action MainMenu(confirm=True, save=False)
 
         imagebutton:
             xalign 0.0

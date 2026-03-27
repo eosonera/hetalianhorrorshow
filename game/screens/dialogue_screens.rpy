@@ -1,12 +1,5 @@
 
-## Custom say screens ##################################################################
-## takes who, name of the speaking character and what, the text to be displayed
-## must create a text displayable with id "what"
-## can also create displayables with id "who" and id "window" to apply style properties.
-##
-## https://www.renpy.org/doc/html/screen_special.html#say
-
-
+## Say screens ##################################################################
 
 default _skip_appear_effect = False
 default window_transform = None
@@ -48,8 +41,6 @@ screen textbox(who, what, image_path, frame_pos=None, window_pos=None, window_si
 
         text what:
             id "what"
-
-
             if text_size is not None:
                 size text_size
             if text_kerning is not None:
@@ -298,10 +289,6 @@ define gui.dialogue1_xalign = 0.0
 
 
 ## NVL screen ##################################################################
-##
-## This screen is used for NVL-mode dialogue and menus.
-##
-## https://www.renpy.org/doc/html/screen_special.html#nvl
 
 
 screen nvl(dialogue, items=None):
@@ -314,8 +301,7 @@ screen nvl(dialogue, items=None):
 
             use nvl_dialogue(dialogue)
 
-            ## Displays the menu, if given. The menu may be displayed incorrectly if
-            ## config.narrator_menu is set to True.
+            ## Displays the menu, if given
             for i in items:
 
                 textbutton i.caption:
@@ -343,8 +329,6 @@ screen nvl_dialogue(dialogue):
                     id d.what_id
 
 
-## This controls the maximum number of NVL-mode entries that can be displayed at
-## once.
 define config.nvl_list_length = 6
 define config.nvl_page_ctc = "ctc_button"
 
@@ -376,9 +360,6 @@ style nvl_dialogue:
     #min_width 885
     ruby_style style.ruby_style
 
-# The style for dialogue said by the narrator in NVL
-style nvl_thought:
-    is nvl_dialogue
 
 
 

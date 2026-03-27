@@ -86,31 +86,13 @@ transform notify_appear:
 style notify_frame:
     xpos 305
     ypos 260
-    xsize 366
+    xsize 340
     ysize 90
 
 
 style notify_text:
     size 14
 
-
-#################################################################################
-## Skip indicator screen #######################################################
-#################################################################################
-##
-## https://www.renpy.org/doc/html/screen_special.html#skip-indicator
-
-screen skip_indicator():
-
-    zorder 100
-    style_prefix "skip"
-
-    frame:
-
-        hbox:
-            spacing 9
-
-            text ("")
 
 
 init python:

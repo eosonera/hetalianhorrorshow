@@ -52,7 +52,7 @@ translate english story1_76b2fe88_2:
 translate english story1_9722ed60:
 
     # story "あれは初冬の事でした…。\n\n僕の家は冬になるとお日様が\nほとんど見えなくなります。"
-    story "It happened in the early winter...\n\nAt my house, the sun barely comes out in the winter."
+    story "It happened in the early winter...\n\nThe sun is barely visible at my house during the winter."
 
 # game/scenario/1story.rpy:40
 translate english story1_76b2fe88_3:
@@ -64,13 +64,13 @@ translate english story1_76b2fe88_3:
 translate english story1_39460519:
 
     # story "お日様が見えないと、\nなんだか気分も落ち込みます。"
-    story "Without the sun, it gets kind of gloomy."
+    story "It can get kind of gloomy without the sun around."
 
 # game/scenario/1story.rpy:51
 translate english story1_98bdc12e:
 
     # story "だからそんな日は人や機械や人工物が\n全く見えない場所に行きたくなるんですよね。\nだからちょっとの食料とコーヒーをもって\n僕は森に入ったんです…。"
-    story "So I got the urge to go somewhere where I couldn't see any people or machines or anything man-made. So, I packed some food and coffee and went into the woods..."
+    story "So I got the urge to go somewhere where I wouldn't be able to see any people or machines or anything man-made. So, I packed some food and coffee and went into the woods..."
 
 # game/scenario/1story.rpy:52
 translate english story1_76b2fe88_4:
@@ -82,7 +82,7 @@ translate english story1_76b2fe88_4:
 translate english story1_f2c37f86:
 
     # bul "なにそれ怖い"
-    bul "That's scary."
+    bul "What the...? How spooky."
 
 # game/scenario/1story.rpy:65
 translate english story1_3cb4343e:
@@ -114,7 +114,7 @@ translate english story1_4bb829d1:
 translate english story1_4ec0b15b:
 
     # story "森に入っていくときの苔を踏む音。\n苔って種類によって\n踏んだ時の音が違うんです。"
-    story "The moss in the forest makes sounds when you step on it. And it's a different sound depending on the type of moss."
+    story "The moss in the forest makes sounds when you step on it. And the sound is different depending on what kind of moss you step on."
 
 # game/scenario/1story.rpy:78
 translate english story1_515c0840:
@@ -292,7 +292,7 @@ translate english story1_247b3f31:
 translate english story1_b7efe14d:
 
     # story "…？　踏み出した足が急に軽くなりました。"
-    story "...? The foot I was stepping forward with got lighter."
+    story "...? The last step I took felt light all of a sudden."
 
 # game/scenario/1story.rpy:183
 translate english story1_a34218b1:
@@ -320,7 +320,7 @@ translate english story1_7e157b70:
     # nvl clear
     # story "そこは湖にうっすら張った氷に\n雪が乗ってるだけの\n危険な場所だったんです…！"
     nvl clear
-    story "This place was dangerous, just snow on a fragile sheet of ice covering the lake...!"
+    story "This area was dangerous. It was nothing more than some snow covering a thin sheet of ice over the lake...!"
 
 # game/scenario/1story.rpy:196
 translate english story1_27af72b2:
@@ -386,7 +386,7 @@ translate english story1_76b2fe88_14:
 translate english story1_b12e0b34:
 
     # story "ええと…僕たち国ですから\nこういう事で死ぬことはないですし、\n皆さんもそれをよくご存じですから、\n聞いてる分には怖くないかもしれませんがっ、\n本当に怖かったんですよ…。"
-    story "Erm... Since we're countries, I couldn't have died from this, as all of you know, so what you're hearing might not sound scary, but it was really scary..."
+    story "Erm... Since we're countries, I couldn't have died from this, as all of you know, so what you're hearing might not sound scary, but I was terrified..."
 
 # game/scenario/1story.rpy:241
 translate english story1_35923771:
@@ -478,7 +478,7 @@ translate english story1_76b2fe88_18:
 translate english story1_2baf04c4:
 
     # story "\n気が付くと僕は自分の家で寝ていたんです。\n今までの事は夢だと思いましたが、\n溺れた時の服が乾燥機に入ってたんですよ…。"
-    story "\nI came to, and I was sleeping in my own house. I thought maybe it had all been a dream, but the clothes I'd been drowning in were in the dryer..."
+    story "\nI came to, and I was sleeping in my own house. I thought maybe it had all been a dream, but the clothes I'd almost drowned in were in the dryer..."
 
 # game/scenario/1story.rpy:331
 translate english story1_76b2fe88_19:

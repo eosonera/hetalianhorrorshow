@@ -10,7 +10,7 @@ translate english story5_54b9aadf:
 translate english story5_8d00cedc:
 
     # story "お前たち喜べ！\nやっとお待ちかねの俺の話が聞けるぞ。\nちゃんと幽霊も出てくるしな。"
-    story "Rejoice, you lot!\nAt last, you'll get to hear my long-awaited story.\nIt's even got a real ghost, no less."
+    story "Rejoice, you lot!\nAt last, you get to listen to my story, the one you've all been waiting for.\nAnd it even has a ghost in it."
 
 # game/scenario/5story.rpy:14
 translate english story5_76b2fe88:
@@ -22,7 +22,7 @@ translate english story5_76b2fe88:
 translate english story5_9bbdc960:
 
     # story "そう、突然にだ…。"
-    story "In fact, it appears quite from nowhere..."
+    story "That's right, it just appeared right out of nowhere..."
 
 # game/scenario/5story.rpy:17
 translate english story5_76b2fe88_1:
@@ -34,20 +34,20 @@ translate english story5_76b2fe88_1:
 translate english story5_c078f8b7:
 
     # story "あの日はフランスが押し付けてきた\n謎のきのこの調理法に頭を抱えていた。"
-    story "That day, there I was, racking my brains over a mysterious mushroom recipe France had foisted onto me."
+    story "So there I was, on that day, racking my brains over a mysterious mushroom recipe France had foisted onto me."
 
 # game/scenario/5story.rpy:25
 translate english story5_7c1520e6:
 
     # story "冷蔵庫に放置しようものなら\n\n「あっ、ごめんごめーん。\n　今度はもっと料理初心者にも\n　優しい高級食材持ってくるからー\n　調理器具もー。子供用のほしいー？」"
-    story "Had I ignored it and left it tacked to the fridge,{nw}"
-    story_indent "“Oh, sorry, my mistake. Next time, I shall bring you the finest ingredients, perfect for a novice. Perhaps kitchen utensils as well. Would you like ones for children?”"
+    story "Had I ignored it and left it tacked to the fridge, he'd of course go out of his way to tell me,{nw}"
+    story_indent "“Next time, I'll bring you the finest ingredients, perfect for a novice. As well as kitchen utensils. Would you like me to bring you the kind that children use?”"
 
 # game/scenario/5story.rpy:26
 translate english story5_6a3cf795:
 
     # story "なんて満面のしたり顔で\n行ってくるに違いない…！"
-    story "is what he'd probably have said when he came back, smirking like a right prat...!"
+    story "And he'd smirk at me like a right prat while he did so...!"
 
 # game/scenario/5story.rpy:27
 translate english story5_76b2fe88_2:
@@ -59,13 +59,13 @@ translate english story5_76b2fe88_2:
 translate english story5_f45868f5:
 
     # story "しかし俺だって言われてばかりじゃない。\n　\nどんな食材もミンチにして\nクリームと混ぜて、パイに包めば\nだいたい美味しくなるということを\n俺は知っているからだ…！"
-    story "But it's not as if I always just follow instructions.\n\nYou see, I know for a fact that almost anything can taste good if you mince it up, mix it with cream, and stuff it into a pie...!"
+    story "But even I don't need to be told what to do all the time.\n\nYou see, I know for a fact that almost anything can taste good if you mince it up, mix it with cream, and stuff it into a pie...!"
 
 # game/scenario/5story.rpy:33
 translate english story5_35e88f2c:
 
     # story "はっ、昔のままだと\n高を括ってるフランスのやつに\n俺の料理さばきを\n見せてやりたかったな！"
-    story "Tch, that France bloke completely underestimated me. Thinks I haven't changed a bit.\nI wish he'd been there to see my culinary prowess!"
+    story "Ha! That git completely underestimated me. Thinks I haven’t changed a bit.\nI wish he'd been there to see my culinary prowess!"
 
 # game/scenario/5story.rpy:34
 translate english story5_76b2fe88_3:
@@ -77,7 +77,7 @@ translate english story5_76b2fe88_3:
 translate english story5_14c20671:
 
     # story "フランスの食材さえ\n自在にアレンジできる程度には\n上達してるってわけだ。\n　\nさらには余ったパイ生地で\n星を見るパイまで作るくらい\n時間と食材にも優しいんだぞ。"
-    story "I've become so proficient, I can freely adapt even French ingredients, you know.\n\nWhat's more, I was so efficient with time and ingredients that I even took the liberty of making a stargazy pie out of the leftover pastry."
+    story "I've improved to the point where I can freely adapt even French ingredients.\n\nWhat's more, I was so efficient with time and ingredients that I even took the liberty of making a stargazy pie out of the leftover pastry."
 
 # game/scenario/5story.rpy:38
 translate english story5_19b7bd1f:
@@ -131,7 +131,7 @@ translate english story5_76b2fe88_6:
 translate english story5_d6bb6989:
 
     # story "そこに…{nw=1}"
-    story "And then...{nw=1}"
+    story "And right there...{nw=1}"
 
 # game/scenario/5story.rpy:58
 translate english story5_76b2fe88_7:
@@ -143,7 +143,7 @@ translate english story5_76b2fe88_7:
 translate english story5_d971867a:
 
     # eng "知らないゴーストが\nいたんだ…！"
-    eng "A ghost I didn't recognize appeared...!{nw}"
+    eng "Was a ghost that I didn't recognize...!{nw}"
 
 # game/scenario/5story.rpy:69
 translate english story5_492388cf:
@@ -169,20 +169,20 @@ translate english story5_343eeea9:
 translate english story5_e84aa9f3:
 
     # eng "俺の家では幽霊も住民票で\n管理されていて誰がどこにいるのか\nほとんど把握できる。"
-    eng "At my house, even ghosts need to have a license to occupy, so we can keep track of who's where most of the time."
+    eng "Ghosts at my house are required to have a Certificate of Residence, so that we can have a better idea of where everyone is."
 
 # game/scenario/5story.rpy:85
 translate english story5_ca05b6a5:
 
     # eng "だが知らない\n幽霊が家にいた。\nこれはつまり…！"
-    eng "But there was an unfamiliar ghost in my very own house.\nThat could only mean...!"
+    eng "But an unfamiliar ghost had appeared in my house.\nThat could only mean...!"
 
 # game/scenario/5story.rpy:92
 translate english story5_098fcbd0:
 
     # spa "遅れてごめんなー。\nみんなの分\nチュロス作ってきたさかい\n許したってなぁ。"
     $ spa.screen = 'right_4long'
-    spa "Sorry for showin' up late. Ah went ahead and made churros for everybody, so y'all better forgive me, ya hear?"
+    spa "Sorry for showin' up late. I went ahead and made churros for everybody, so y'all better forgive me, ya hear?"
 
 # game/scenario/5story.rpy:96
 translate english story5_cc5962b4:
@@ -194,13 +194,13 @@ translate english story5_cc5962b4:
 translate english story5_775802c5:
 
     # spa "あ！かんにん。\n邪魔してもうた？"
-    spa "Oh! My bad.\nAm ah interruptin' something?"
+    spa "Oh! My bad.\nAm I interruptin' somethin'?"
 
 # game/scenario/5story.rpy:104
 translate english story5_66145a49:
 
     # eng "邪魔も邪魔だっ！！\n俺の話の一番盛り上がる所で\n入ってくるなバカっ！！"
-    eng "Bloody hell, what a nuisance!!\nDon't interrupt me at the best part of my story, wanker!!"
+    eng "Bloody hell, what a nuisance!! Don't interrupt me at the best part of my story, wanker!!"
 
 # game/scenario/5story.rpy:108
 translate english story5_7e2ea414:
@@ -212,32 +212,32 @@ translate english story5_7e2ea414:
 translate english story5_a9d08782:
 
     # eng "ぐぎぎぎぎぎぎ…！！\nスペイン貴様…！"
-    eng "Urrrrrrrgh...! !\nSpain, you gobshite...!"
+    eng "Urrrrrrrgh...! !\nSpain, you utter twat...!"
 
 # game/scenario/5story.rpy:116
 translate english story5_94cee313:
 
     # bul "あっ別にあとで\n文章にするから\n全然大丈夫っすよ。"
-    bul "Oh, it's no problem,\nI was gonna write the stories\ndown later anyway."
+    bul "Oh, it's no problem,\nI was gonna write the stories down later anyway."
 
 # game/scenario/5story.rpy:120
 translate english story5_dc9f3461:
 
     # eng "俺のプライドの問題だ！\n後日、お前のところに行って\nもう一度最初から最後まで\n聞かせてやる！"
-    eng "It's a matter of my pride!\nI'll come to your place later and make you listen to the whole story again from start to finish!"
+    eng "It's a matter of pride for me!\nI'll be over at your place later and make you listen to the whole story again from start to finish!"
 
 # game/scenario/5story.rpy:127
 translate english story5_ffdbc5f6:
 
     # bul "あっこういう時は\n語尾ににゃんってつけると\n何でも許してもらえる\nらしいっすよ。{nw}"
     $ bul.screen = 'right_4long'
-    bul "Oh, I've heard that if you add 'meow' to the end of your sentences in situations like this, you can get away with anything.{nw}"
+    bul "Oh, I've heard that people will forgive you if you add 'meow' to your sentences in situations like this.{nw}"
 
 # game/scenario/5story.rpy:133
 translate english story5_67d9ca09:
 
     # spa "そうなん？\nごめんにゃんやでー。"
-    spa "That so?\nAh'm meow-y sorry.{nw}"
+    spa "That so?\nI'm meow-y sorry.{nw}"
 
 # game/scenario/5story.rpy:140
 translate english story5_7c8ffea7:
@@ -250,5 +250,5 @@ translate english story5_e134b004:
 
     # ame "Ｇｒｅａｔ！\nチュロス！\nチュロスじゃないか！\n俺は君に会いたかった！{nw}"
     $ ame.screen = 'left_4long'
-    ame "Great!\nChurros!\nThe churros are here\nI missed you, churros!{nw}"
+    ame "Great!\nChurros!\nThe churros are here, right!\nI missed you, churros!{nw}"
 

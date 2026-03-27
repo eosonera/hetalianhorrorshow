@@ -1,4 +1,77 @@
 ####################################################################################
+## Dark text tag ######################################################################
+####################################################################################
+
+init python:
+
+    renpy.register_textshader(
+        "shadow",
+        variables="""
+        uniform vec4 u__shadow_color;
+        uniform vec2 u__offset;
+        uniform float u__radius;
+        uniform float u__spread;
+        uniform vec2 u_model_size;
+
+        varying vec2 v__uv;
+        attribute vec2 a_tex_coord;
+        """,
+
+        vertex_300="""
+        v__uv = a_tex_coord;
+        """,
+
+        fragment_300="""
+        vec2 texel = 1.0 / u_model_size;
+        vec2 base_uv = v__uv + (u__offset / u_model_size);
+
+        float shadow_alpha = 0.0;
+        float total = 0.0;
+
+        // Gaussian blur kernel (square, radial falloff)
+        for (float x = -u__radius; x <= u__radius; x += 1.0) {
+            for (float y = -u__radius; y <= u__radius; y += 1.0) {
+                float dist = length(vec2(x, y));
+                float weight = exp(-(dist * dist) / (2.0 * u__spread * u__spread));
+
+                vec2 uv = base_uv + vec2(x, y) * texel;
+                shadow_alpha += texture2D(tex0, uv).a * weight;
+                total += weight;
+            }
+        }
+
+        shadow_alpha /= total;
+
+        vec4 shadow = vec4(u__shadow_color.rgb,
+                        shadow_alpha * u__shadow_color.a);
+
+        vec4 text = texture2D(tex0, v__uv);
+
+        // outline included in shader
+        gl_FragColor = shadow * (1.0 - text.a) + text;
+        """,
+
+        u__shadow_color="#000000",
+        u__offset=(-5.0, -5.0),
+        u__radius=9.0,
+        u__spread=4.0,
+    )
+
+
+
+
+    def dark_text_tag(tag, argument, contents):
+        return (
+            [(renpy.TEXT_TAG, u"shader=shadow"), (renpy.TEXT_TAG, "color=#767c8a"), (renpy.TEXT_TAG, "outlinecolor=#434959")]
+            + contents +
+            [(renpy.TEXT_TAG, "/outlinecolor"), (renpy.TEXT_TAG, "/color"), (renpy.TEXT_TAG, u"/shader")]
+        )
+    config.custom_text_tags["dark"] = dark_text_tag
+
+
+
+
+####################################################################################
 ## Wrap tiled ######################################################################
 ####################################################################################
 
@@ -126,9 +199,6 @@ init python:
         return ShakeFactory(time, dist, interval, properties)
 
 
-
-
-# Define your shake transform
 define sshake = Shake(time=1, dist=20, interval=0.01)
 define sshake1 = Shake(time=1, dist=15, interval=0.01)
 define sshake_long = Shake(time=5, dist=9.0, interval=0.005)

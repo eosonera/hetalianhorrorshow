@@ -10,13 +10,13 @@ translate english story4_0323968c:
 translate english story4_0de11457:
 
     # story "もう俺の番か。\nふむ、参ったな。" id story4_0de11457
-    story "It's my turn now.\nHmm, that's tricky." id story4_0de11457
+    story "Is it my turn now?\nHmm, I'm at a loss." id story4_0de11457
 
 # game/scenario/4story.rpy:22
 translate english story4_441a4c9e:
 
     # story "…俺はここ数日、あー…\n俗にいう怪奇現象に\n悩まされていてだな…。" id story4_441a4c9e
-    story "...I've been plagued the past few days by, ah...\nWhat's commonly referred to as a bizarre phenomenon..." id story4_441a4c9e
+    story "...For the past few days,\nI've been plagued by, ah... \nWhat's commonly referred to\nas a bizarre phenomenon..." id story4_441a4c9e
 
 # game/scenario/4story.rpy:26
 translate english story4_3f0b9594:
@@ -34,7 +34,7 @@ translate english story4_76b2fe88:
 translate english story4_c4a631ad:
 
     # story "ちょうど昨日、\n解決してしまったのだ。" id story4_c4a631ad
-    story "...But just yesterday, the matter was resolved." id story4_c4a631ad
+    story "...But the matter was just resolved yesterday." id story4_c4a631ad
 
 # game/scenario/4story.rpy:31
 translate english story4_071eaeaa:
@@ -52,7 +52,7 @@ translate english story4_76b2fe88_1:
 translate english story4_472a74c9:
 
     # story "分かった。\nでは俺の家で起こった\n怪奇現象の話をしよう。" id story4_472a74c9
-    story "Understood.\nLet me tell you about the bizarre phenomenon that happened in my house." id story4_472a74c9
+    story "Alright.\nThen let me tell you about what had happened." id story4_472a74c9
 
 # game/scenario/4story.rpy:37
 translate english story4_76b2fe88_2:
@@ -70,7 +70,7 @@ translate english story4_ae0630bf:
 translate english story4_bda42bac:
 
     # story "その怪奇現象というのが\n家の廊下に飾ってある鎧が\n夜な夜な動くというものだ。" id story4_bda42bac
-    story "Specifically, this strange phenomenon involved a suit of armor, on display in the hallway of my house, which seemed to be moving of its own volition at night." id story4_bda42bac
+    story "Specifically, it involved a suit of armor, on display in the hallway of my house, which seemed to be moving of its own volition at night." id story4_bda42bac
 
 # game/scenario/4story.rpy:48
 translate english story4_76b2fe88_3:
@@ -108,7 +108,7 @@ translate english story4_c0cc4035:
     # nvl clear
     # story "最初は音だけであったが、\n３日目あたりから鎧は\n俺の前に姿を現すようになった。" id story4_c0cc4035
     nvl clear
-    story "At first, it was only the noises, but by third night, the armor began to appear in front of me." id story4_c0cc4035
+    story "At first, it was just the noises, but by third night, the armour began to appear in front of me." id story4_c0cc4035
 
 # game/scenario/4story.rpy:67
 translate english story4_6b52a727:
@@ -120,7 +120,7 @@ translate english story4_6b52a727:
 translate english story4_a76262fd:
 
     # story "重い金属を全身に\n纏っているというのに、\n鎧は俺の全速力の追跡を\nやすやすと振り切った。" id story4_a76262fd
-    story "However, despite being completely clad in heavy metal, when I ran after it at full speed, the armor would evade me with ease." id story4_a76262fd
+    story "However, despite being fully clad in heavy metal, the armor would evade me with ease, even when I ran after it at full speed." id story4_a76262fd
 
 # game/scenario/4story.rpy:69
 translate english story4_2f1085a7:
@@ -136,7 +136,7 @@ translate english story4_7bc20324:
     # nvl clear
     # story "…ごほん。仕方がないので\n俺は鎧を観察することにした。\n　\n観察して分かったのが\n鎧との遭遇場所は仕事部屋付近が多い。\nそして何故かパソコンを勝手に起動させる。" id story4_7bc20324
     nvl clear
-    story "...Ahem. With no other options left, I decided to observe the armor.\n \nMy observations revealed that I saw the armour most frequently near the office. And for some reason, it would boot up the computer on its own." id story4_7bc20324
+    story "...Ahem. With no other options left, I decided to observe the armour.\n \nWhat I learned was that I saw the armour most frequently near the office. And for some reason, it would boot up the computer on its own." id story4_7bc20324
 
 # game/scenario/4story.rpy:75
 translate english story4_bfce9e9b:
@@ -144,7 +144,7 @@ translate english story4_bfce9e9b:
     # nvl clear
     # story "今まで超常現象の類は、\n全て科学で説明できると思っていたのだが\n家中のセキュリティのかいくぐり、\n俺が全力で追いかけても\n追いつけない鎧…。\n\nこれは科学で証明できるのか？\n鎧の持ち主が幽霊になって\n往年の甲冑姿で現れたのでは？\nと考えるようになっていた。" id story4_bfce9e9b
     nvl clear
-    story "I had always believed that every supernatural phenomenon could be scientifically explained, but here was a suit of armor that could somehow slip past all the security in my house and outrun my fastest sprint...\n\nWas there a scientific explanation for this? Had the armor's owner become a ghost, now haunting the suit of armor from his glory days? I had begun to entertain such thoughts." id story4_bfce9e9b
+    story "I had always believed that every supernatural phenomenon could be explained scientifically, but here was a suit of armor that could somehow slip past all the security in my house and outrun my fastest sprint...\n\Was there a way to prove this with science? Had the armor's owner become a ghost, now haunting the suit of armor from his glory days? I had begun to entertain such thoughts." id story4_bfce9e9b
 
 # game/scenario/4story.rpy:77
 translate english story4_d09a6f13:
@@ -152,13 +152,13 @@ translate english story4_d09a6f13:
     # nvl clear
     # story "俺が調べたところ\nこの鎧を作らせた最初の持ち主は\n一度もこの鎧を着用して\n戦場には立っていない…。" id story4_d09a6f13
     nvl clear
-    story "According to my research, the person who commissioned this armor, its original owner, never actually wore it or took it to war..." id story4_d09a6f13
+    story "According to my research, the person who commissioned this armor, its original owner, never actually wore it in battle..." id story4_d09a6f13
 
 # game/scenario/4story.rpy:79
 translate english story4_21f00a1b:
 
     # story "この鎧自体最初から\n実用性よりもデザインを重視した\n装飾用の鎧だったのだ。\nなぜ現代になって\n甲冑姿で現れるようになったのか\n謎は深まるばかりだった。" id story4_21f00a1b
-    story "This armor itself was, from its creation, ornamental armor that prioritized design over practicality. The mystery only deepened: why had it chosen to animate itself in the modern era?" id story4_21f00a1b
+    story "This armor itself was, from its creation, ornamental armor that prioritized design over practicality. The mystery only deepened: why did it decide to animate itself in the modern era?" id story4_21f00a1b
 
 # game/scenario/4story.rpy:80
 translate english story4_440ccdcf:
@@ -166,7 +166,7 @@ translate english story4_440ccdcf:
     # nvl clear
     # story "おかしな点はもう一つある。\n　\n夜になると俺の家に現れる動く鎧は\n年代も製造された場所も違う二つの鎧の\nパーツを繋ぎあわせて一つの鎧にしていた。\n　\n鎧の持ち主が鎧に取り憑いたのならば\n果たしてそんなことをするだろうか？" id story4_440ccdcf
     nvl clear
-    story "There was one more inconsistency.\n \nThe suit of armor that came to life in my house at night was actually an amalgamation of pieces from two different suits, from different eras, and places of manufacture.\n \nIf the spirit of the original owner had indeed possessed the armor, would he really have refashioned it like that?" id story4_440ccdcf
+    story "There was one more inconsistency.\n \nThe suit of armor that came to life in my house at night was actually an amalgamation of pieces from two different suits, made from different manufacturers from different times.n \nIf the spirit of the original owner had indeed possessed the armor, would he really have refashioned it like that?" id story4_440ccdcf
 
 # game/scenario/4story.rpy:82
 translate english story4_76b2fe88_5:
@@ -178,7 +178,7 @@ translate english story4_76b2fe88_5:
 translate english story4_717cf02b:
 
     # ger "すまないが日本\nまだだ。まだ耐えてくれ" id story4_717cf02b
-    ger "Sorry, Japan, not yet. You just have to tough it out." id story4_717cf02b
+    ger "Sorry, Japan, there's still more.\nHang in there." id story4_717cf02b
 
 # game/scenario/4story.rpy:99
 translate english story4_5801e524:
@@ -210,7 +210,7 @@ translate english story4_2b2a9f2e:
 translate english story4_65a1f530:
 
     # story "最近、眠りが浅く\n小さな物音でも起きてしまう俺に\n気づかれずに侵入するとは…！" id story4_65a1f530
-    story "Lately, I had been getting so little sleep that even the smallest noise would wake me up, so I couldn't believe that it had broken in without me noticing...!" id story4_65a1f530
+    story "Lately, I had been getting so little sleep that even the smallest noise would wake me up, so I didn't think that it could break in without me noticing...!" id story4_65a1f530
 
 # game/scenario/4story.rpy:113
 translate english story4_76b2fe88_6:
@@ -234,7 +234,7 @@ translate english story4_5d4f6464:
 translate english story4_db9e14d2:
 
     # extend "\n俺が問い詰めると…！" id story4_db9e14d2
-    extend "\nI demanded...!" id story4_db9e14d2
+    extend "\nWhen I cornered him...!" id story4_db9e14d2
 
 # game/scenario/4story.rpy:128
 translate english story4_76b2fe88_7:
@@ -258,19 +258,19 @@ translate english story4_76b2fe88_8:
 translate english story4_27a4b855:
 
     # ger "…という話だ。" id story4_27a4b855
-    ger "...and that's my story." id story4_27a4b855
+    ger "...was what he said." id story4_27a4b855
 
 # game/scenario/4story.rpy:153
 translate english story4_1e926c4b:
 
     # eng "最初から犯人\nお前の兄貴しかいねーだろ！" id story4_1e926c4b
-    eng "From the very beginning, the culprit was just your big brother!{nw}" id story4_1e926c4b
+    eng "So the culprit was just your older\nbrother from the very beginning!{nw}" id story4_1e926c4b
 
 # game/scenario/4story.rpy:164
 translate english story4_c85d1002:
 
     # ger "いやしかし\n怪奇現象の初日に\n本人に証言を求めた所\n自分ではないと…！" id story4_c85d1002
-    ger "No, on the very first day of the strange phenomenon, I asked him for an explanation, and he said it wasn't him...!" id story4_c85d1002
+    ger "Actually, when I asked him for an explanation on the very first day of the strange phenomenon, he said it wasn’t him...!" id story4_c85d1002
 
 # game/scenario/4story.rpy:168
 translate english story4_79172393:
@@ -282,5 +282,5 @@ translate english story4_79172393:
 translate english story4_4991f3de:
 
     # jpn "御兄弟仲が良くて\n楽しそうですね。" id story4_4991f3de
-    jpn "It seems like you brothers had good fun." id story4_4991f3de
+    jpn "It seems like you brothers get along well\nand have a lot of fun together." id story4_4991f3de
 

@@ -108,7 +108,7 @@ translate english story3_41b4e617:
 translate english story3_8388265d:
 
     # story "雨音の合間に自分のものではない\n足音が混じっていました。"
-    story "Amidst the sound of the rain, I heard footsteps that weren't mine."
+    story "Amidst the rain, I heard footsteps that weren't mine."
 
 # game/scenario/3story.rpy:82
 translate english story3_76b2fe88_4:
@@ -288,7 +288,7 @@ translate english story3_579c308d:
 translate english story3_da67871a:
 
     # story "鏡と見まがうほど\n私と瓜二つの方でした。"
-    story "Yet, to the point of being able to mistake him for a mirror, he looked exactly like me."
+    story "Yet, to the point of being able to mistake him for a mirror image, he looked exactly like me."
 
 # game/scenario/3story.rpy:194
 translate english story3_76b2fe88_11:
@@ -313,7 +313,7 @@ translate english story3_7a854c94:
 
     # story "私ときたら情けないことに\nこの摩訶不思議な存在に\nすっかり気が動転してしまい\n鞄の中の折り畳み傘を取り出すと\n\n{color=#E5E5E5}「よろしかったら使って下さい」{/color}{nw=4.0}"
     story "I was so shaken by this mysterious being that I took out a folding umbrella from my bag and said to him,{nw}"
-    story_indent"\n\n\n{color=#E5E5E5}“Please use it if you wish.”{/color}{nw=4.0}"
+    story_indent"\n{color=#E5E5E5}“Please use it if you wish.”{/color}{nw=4.0}"
 
 # game/scenario/3story.rpy:209
 translate english story3_7bc3a131:
@@ -391,7 +391,7 @@ translate english story3_e8d51713:
 translate english story3_1bc6e8d6:
 
     # extend "\n\n\nまず一つ目。\n私に非常によく似た普通の方。"
-    extend "\n\n\nThe first:\nA normal guy who looks very similar to me."
+    extend "\n\n\nThe first:\nA normal person who\nlooks very similar to me."
 
 # game/scenario/3story.rpy:246
 translate english story3_9b2160b1:
@@ -427,7 +427,7 @@ translate english story3_76b2fe88_16:
 translate english story3_965b4871:
 
     # story "そして二つ目の可能性。\n西洋でいうドッペルゲンガーです。"
-    story "And the second possibility:\nIt was what's called a doppelgänger in the West."
+    story "And the second possibility:\nIt's what Westerners call a doppelgänger."
 
 # game/scenario/3story.rpy:258
 translate english story3_9262e330:
@@ -493,7 +493,7 @@ translate english story3_76b2fe88_20:
 translate english story3_3f4606cb:
 
     # story "四つ目。\n　\n　\nブータンさんがプライベートで\n私の家に観光で遊びにいらしていた。"
-    story "Fourth:\n \n \nBhutan-san privately came to visit my house for some sightseeing."
+    story "Fourth:\n \n \nBhutan-san was visiting my house to do some personal sightseeing."
 
 # game/scenario/3story.rpy:290
 translate english story3_ff0e55f4:
@@ -501,7 +501,7 @@ translate english story3_ff0e55f4:
     # nvl clear
     # story "ブータンさんが最近流行りの\n貸し着物で観光を楽しんでいた所、\n急に雨が降ってきたが、\nどこに傘が売っているのか分からず、\n聞くに聞けず、私についてきた…説です。"
     nvl clear
-    story "Bhutan-san, wearing a trendy rented kimono, was out sightseeing and got caught in the rain. Not knowing where to purchase an umbrella, unable to bring himself to ask, he followed me ...is the theory."
+    story "While he was out wearing a trendy kimono he had rented, he got caught in the rain. He didn't know where to purchase an umbrella, so he followed me without asking anything ...is the theory."
 
 # game/scenario/3story.rpy:292
 translate english story3_b65cef91:
@@ -515,7 +515,7 @@ translate english story3_b65cef91:
 translate english story3_476a26e5:
 
     # extend "\n\n暗い夜道で雨も降っていたら、\n私自身が私と認識してしまう事も\nあるかもしれません。"
-    extend "\n\nOn a dark, rainy road at night, it's possible I could even mistake him for myself."
+    extend "\n\nOn a dark, rainy road at night, it's likely for me to even mistake him for myself."
 
 # game/scenario/3story.rpy:298
 translate english story3_098cd4fb:
@@ -533,8 +533,8 @@ translate english story3_76b2fe88_21:
 translate english story3_f996fea8:
 
     # story "後で直接お話を伺ってみたのですが、\n　\n{color=#F4F4D2}「私ではないが、もし私だとしても\n　気にしないでください」{/color}"
-    story "Later, I tried asking him directly, and{nw}"
-    story_indent "\n\n{color=#F4F4D2}“It wasn't me, but even if it had been, please don't trouble yourself over it,”{/color}"
+    story "Later, I tried asking him directly, but{nw}"
+    story_indent "\n{color=#F4F4D2}“It wasn't me, but even if it had been, please don't trouble yourself over it,”{/color}"
 
 # game/scenario/3story.rpy:306
 translate english story3_18825748:
@@ -672,7 +672,7 @@ translate english story3_dee9a6a1:
 translate english story3_7b5844cd:
 
     # fin "まるで自分に\n言い聞かせるよう\nじゃないですかぁ！"
-    fin "It's as if you're trying to convince yourself!"
+    fin "It's as if you're trying to\nconvince yourself!"
 
 # game/scenario/3story.rpy:417
 translate english story3_277eafee:

@@ -31,6 +31,7 @@ screen main_menu():
 
     vbox:
         style_prefix "mm"
+        xalign 1.0
         yalign 1.0
         text "hetascanlations\n[config.name!t] remake\nversion [config.version]"
 
@@ -89,7 +90,7 @@ screen main_menu():
             at mm_fade_in
         
         imagebutton:
-            xalign 0.95
+            xalign 0.06
             yalign 1.0
             activate_sound "sfx/bell01.ogg"
             idle "gui/menu_main/title_08.png"
@@ -98,7 +99,6 @@ screen main_menu():
             at mm_fade_in
 
         imagebutton:
-            xalign 1.0
             yalign 1.0
             activate_sound "sfx/bell01.ogg"
             idle "gui/menu_main/title_07.png"
@@ -109,6 +109,7 @@ screen main_menu():
 style mm_text is gui_text
 style mm_text:
     size 9
+    text_align 1.0
 
 #################################################################################
 ## Main menu animations ###########################################################

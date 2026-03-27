@@ -70,8 +70,6 @@ define window_size_center4long = (480, 150)
 default _game_menu_screen = "menu_open"
 
 ## Colors ######################################################################
-##
-## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
 define gui.accent_color = '#583F34'
@@ -103,14 +101,12 @@ define gui.text_font = "msgothic.ttf"
 #     gui.text_font = "SourceHanSans-Light.otf"
 
 
-
-
 ## The font used for out-of-game text.
 define gui.interface_text_font = "msgothic.ttf"
 
 
 ## The size of character names.
-define gui.name_text_size = 22
+define gui.name_text_size = 9
 
 ## The size of text in the game's user interface.
 define gui.interface_text_size = 16

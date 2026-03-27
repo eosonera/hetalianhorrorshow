@@ -1,51 +1,28 @@
-2026-01-20 12:48:04 UTC
+2026-03-27 05:18:38 UTC
 Windows-11-10.0.26200-SP0
-Ren'Py 8.5.0.25111603
+Ren'Py 8.5.2.26010301
 
-Early init took 30 ms
-Loading error handling took 18 ms
-Loading script took 130 ms
-Loading save slot metadata took 12 ms
+Early init took 31 ms
+Loading error handling took 17 ms
+Loading script took 137 ms
+Loading save slot metadata took 9 ms
 Loading persistent took 0 ms
-Running init code took 47 ms
-Loading analysis data took 7 ms
-Analyze and compile ATL took 11 ms
-Reloading save slot metadata took 5 ms
-Dump and make backups took 23 ms
+Running init code took 55 ms
+Loading analysis data took 8 ms
+Analyze and compile ATL took 12 ms
+Reloading save slot metadata took 3 ms
+Dump and make backups took 27 ms
 Cleaning cache took 0 ms
 Making clean stores took 0 ms
-Initial gc took 22 ms
+Initial gc took 29 ms
 DPI scale factor: 1.750000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 141 ms
+Creating interface object took 156 ms
 Init translation took 1 ms
 Cleaning stores took 0 ms
-Load screen analysis took 11 ms
-Analyze screens took 1 ms
+Load screen analysis took 13 ms
+Analyze screens took 0 ms
 Save screen analysis took 0 ms
 Save pyanalysis took 0 ms
 Save bytecode took 0 ms
-Running _start took 0 ms
-Interface start took 125 ms
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 581.15'
-Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 2560, 'current_h': 1600, 'refresh_rate': 165, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
-Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
-Maximum texture size: 4096x4096
-Cleaning stores took 0 ms
-Load screen analysis took 9 ms
-Analyze screens took 0 ms
-Running _start took 0 ms
-Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(900, 600) physical=(2560, 1476) drawable=(2560, 1476)
-Maximum texture size: 4096x4096

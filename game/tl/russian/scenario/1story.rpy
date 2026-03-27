@@ -28,7 +28,7 @@ translate russian story1_3dea0bd1:
 translate russian story1_e584c917:
 
     # story "{color=#C0C0C0}「怖かったら何でもいいっすよ」{/color}" id story1_e584c917
-    story_indent "{color=#C0C0C0}「Да пофиг ваще, главное, что история страшная」{/color}" id story1_e584c917
+    story_indent "\n{color=#C0C0C0}«Да пофиг ваще, главное, что история страшная»{/color}" id story1_e584c917
 
 # game/scenario/1story.rpy:30
 translate russian story1_76b2fe88_1:
@@ -83,7 +83,7 @@ translate russian story1_f2c37f86:
 
     # bul "なにそれ怖い" id story1_f2c37f86
     $ bul.screen = 'right_3'
-    bul "Че за...? Звучит стремно." id story1_f2c37f86
+    bul "Че за...?\nЗвучит стремно." id story1_f2c37f86
 
 # game/scenario/1story.rpy:67
 translate russian story1_3cb4343e:
@@ -195,7 +195,7 @@ translate russian story1_3d7cb46b:
     # nvl clear
     # story "\nフクロウの声があちこちから聞こえて、\n時々はもってなんだか合唱してるみたいです。\n空にはたくさんの星が目に見えない速度で\nぐるーっと回ります。" id story1_3d7cb46b
     nvl clear
-    story "\nЯ мог услышать сов тут и там\nи порой они ухали все разом будто хор.\nВ небе множество звезд кружило на невиданной скорости." id story1_3d7cb46b
+    story "\nЯ мог услышать сов тут и там\nи порой они ухали все разом будто хор. В небе множество звезд кружило на невиданной скорости." id story1_3d7cb46b
 
 # game/scenario/1story.rpy:124
 translate russian story1_b8b4a374:
@@ -213,13 +213,13 @@ translate russian story1_76b2fe88_9:
 translate russian story1_9bbc6b9f:
 
     # story "コーヒーを飲みながら、\n考え事をしたり、しなかったり、\nただそこにある物を眺めたり…\nそんなふうに過ごします。" id story1_9bbc6b9f
-    story "Пока я пил свой кофе,\nЯ то погружался глубоко в свои мысли, то возвраался\nи просто любовался всем, что меня окружало...\nВот так я провел время." id story1_9bbc6b9f
+    story "Пока я пил свой кофе,\nЯ то погружался глубоко в свои мысли, то возвраался и просто любовался всем, что меня окружало...\nВот так я провел время." id story1_9bbc6b9f
 
 # game/scenario/1story.rpy:132
 translate russian story1_ea461b45:
 
     # story "それから眠くなったら寝ます！\nいつも時間に縛られてますから\n森にいる日は夜更かししても\nとっても早く寝てもいいのです。" id story1_ea461b45
-    story "Потом я устал, поэтому отправился спать!\nОбычно я испытываю нехватку времени, но когда я нахожусь в лесу, у меня есть свобода оставаться на ногах или ложиться спать, когда захочу." id story1_ea461b45
+    story "Потом я устал, поэтому отправился спать! Обычно я испытываю нехватку времени, но когда я нахожусь в лесу, у меня есть свобода оставаться на ногах или ложиться спать, когда захочу." id story1_ea461b45
 
 # game/scenario/1story.rpy:133
 translate russian story1_76b2fe88_10:

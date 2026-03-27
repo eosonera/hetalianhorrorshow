@@ -10,7 +10,7 @@ define config.name = "The HETALIAN HORROR SHOW"
 define gui.show_name = False
 
 ## Game ver
-define config.version = "0.1.4"
+define config.version = "0.1.5"
 
 ## ASCII-only, no white space short name
 define build.name = "thehetalianhorrorshow"
@@ -20,6 +20,10 @@ define build.name = "thehetalianhorrorshow"
 define config.has_sound = True
 define config.has_music = True
 define config.has_voice = True
+
+define config.default_music_volume = 0.5
+define config.default_sfx_volume = 0.5
+define config.default_voice_volume = 0.5
 
 
 ## To allow the user to play a test sound on the sound or voice channel,
@@ -80,7 +84,7 @@ default preferences.show_empty_window = True
 
 define config.skip_indicator = False
 
-
+define config.default_textshader = 'typewriter'
 
 
 ## Preference defaults #########################################################
@@ -88,7 +92,7 @@ define config.skip_indicator = False
 ## Controls the default text speed. The default, 0, is infinite, while any other
 ## number is the number of characters per second to type out.
 
-default preferences.text_cps = 60
+
 
 
 

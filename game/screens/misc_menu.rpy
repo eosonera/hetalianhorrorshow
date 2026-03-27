@@ -123,13 +123,13 @@ screen preferences():
             vbox:
                 spacing 0
                 style_prefix "check"
-                label _("スキップ")
-                textbutton _("未読テキスト"):
+                #label _("スキップ")
+                textbutton _("未読テキストもスキップ"):
                     action Preference("skip", "toggle")
-                textbutton _("選択肢後"):
+                textbutton _("選択肢の後もスキップ継続"):
                     action Preference("after choices", "toggle")
-                textbutton _("トランジション"):
-                    action InvertSelected(Preference("transitions", "toggle"))
+                #textbutton _("トランジションもスキップ"):
+                    #action InvertSelected(Preference("transitions", "toggle"))
             
             if renpy.variant("pc") or renpy.variant("web"):
                 vbox:
@@ -202,6 +202,10 @@ screen about():
                     style_prefix "about1"
                     label _("制作")
                     text ("{a=https://eosonera.tumblr.com/}eosonera{/a}")
+                hbox:
+                    style_prefix "about1"
+                    label _("English translation")
+                    text ("{a=https://eosonera.tumblr.com/}spaghetti{/a}")
 
         
             

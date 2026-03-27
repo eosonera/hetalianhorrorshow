@@ -354,7 +354,7 @@ translate russian story2_585c8f64:
     # story "だから俺は言った。\n\n「ははあ。\n　君が本当に宇宙人だっていうなら\n　ミステリーサークルが作れるはずだよ！」" id story2_585c8f64
     nvl clear
     story "Вот что я сказал:{nw}"
-    story_indent "\n\n«Хахаа.\nЕсли ты и правда пришелец, нарисуй мне несколько загадочных кругов!»" id story2_585c8f64
+    story_indent "\n«Хахаа.\nЕсли ты и правда пришелец, нарисуй мне несколько загадочных кругов!»" id story2_585c8f64
 
 # game/scenario/2story.rpy:390
 translate russian story2_615a20e3:
@@ -369,7 +369,7 @@ translate russian story2_0654576b:
 
     # extend "\n　フォトショップ 【Ｃ Ｃ ｜クロップサークル】は\n　専門外なんでちょっと使えない、ですね…。\n　なんかごめんなさい…」\n　\nなんだい！やっぱり君、\nただのトニーのそっくりさんじゃないか！" id story2_0654576b
     extend "\n{k=8}работа сфотошопом CC {/k}{k=4}【(crop circles)｜круги на полях】 {/k}вне моей компетенции, так что я не очень хорош в этом, хах... извините...».{nw}"
-    story "\n\nЧто! Я думал ты просто\nнапросто двойник Тони!" id story2_0654576b
+    story "\nЧто! Я думал ты просто\nнапросто двойник Тони!" id story2_0654576b
 
 # game/scenario/2story.rpy:396
 translate russian story2_3f1d93c3:

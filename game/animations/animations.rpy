@@ -10,7 +10,7 @@ init python:
 image ctc_button = Animation(*sum(ctc_frames, ()))
 
 transform roll_arrow:
-    yalign 0.5
+    zoom 0.5 yalign 0.5
     block:
         linear 0.3 yzoom 0.0 yoffset 32
         linear 0.3 yzoom 1.0 yoffset 0

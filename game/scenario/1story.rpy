@@ -230,7 +230,7 @@ label story1:
     hide nvl_textbox
     play sound "sfx/LIGHTNNG.wav"
     play sound1 "sfx/SPLASH3.wav"
-    show bg ripples1
+    show bg ripples1 
     show ripples vfx
     with SquareScatter(time=0.5, grid=12)
     pause

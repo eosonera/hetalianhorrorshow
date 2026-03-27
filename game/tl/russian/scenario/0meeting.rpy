@@ -4,7 +4,7 @@
 translate russian meeting_6f284491:
 
     # story "俺が怖い話を聞く司会進行役…。" id meeting_6f284491
-    story "Повышение до слушателя страшилок..." id meeting_6f284491
+    story "Повышение до слушателя\nстрашилок..." id meeting_6f284491
 
 # game/scenario/0meeting.rpy:15
 translate russian meeting_f770514f:
@@ -16,7 +16,7 @@ translate russian meeting_f770514f:
 translate russian meeting_d12d006f:
 
     # story "ＷＷ２で木の枝でつつく以外にも\nわりかし何やってんだお前って\n行動してたのは国内がバラバラだったから、\nしょーがねーんだわ…。" id meeting_d12d006f
-    story "Пока все такие, «Что ты вообще делал всё это время пока шла Вторая Мировая, кроме того, что тыкал людей палкой», моя страна была в беспорядке. Ах да, вот оно что..." id meeting_d12d006f
+    story "Во время Второй мировой войны, помимо того, что людей тыкали палками, было много моментов, когда хотелось спросить: „Что вы вообще делаете?!“, но вся страна была в хаосе, так что это было нормально..." id meeting_d12d006f
 
 # game/scenario/0meeting.rpy:21
 translate russian meeting_76b2fe88:
@@ -28,7 +28,7 @@ translate russian meeting_76b2fe88:
 translate russian meeting_067e54c7:
 
     # story "うん。だから大目にみてにゃん。\nにゃんってつけとけば、\nだいたい許してもらえるらしいって\n誰かが言ってたにゃん。\nにゃんにゃんなんだわー。\nにゃんにゃん。" id meeting_067e54c7
-    story "Ага. Так что не давите на меня, мяу. Кто-то сказал, что люди простят почти всё что угодно, если вставлять «мяу» посреди своих слов, мяу.\nМяу мяу, я говорю.\nМяу мяу." id meeting_067e54c7
+    story "Ага. Так что не давите на меня, мяу. Кто-то сказал, что люди простят почти всё что угодно, если вставлять „мяу“ посреди\nсвоих слов, мяу.\nМяу мяу, я говорю.\nМяу мяу." id meeting_067e54c7
 
 # game/scenario/0meeting.rpy:26
 translate russian meeting_76b2fe88_1:
@@ -40,7 +40,7 @@ translate russian meeting_76b2fe88_1:
 translate russian meeting_d194fa59:
 
     # story "\nにゃんにゃんしているうちに、\n俺が怖い話を聞く事になる部屋についた。" id meeting_d194fa59
-    story "\nПока я тут мяукал, я прибыл к «классу страшных историй»." id meeting_d194fa59
+    story "\nПока я тут мяукал, я прибыл к „классу страшных историй“." id meeting_d194fa59
 
 # game/scenario/0meeting.rpy:40
 translate russian meeting_76b2fe88_2:
@@ -181,7 +181,7 @@ translate russian meeting_d497e58c:
 translate russian meeting_1049dc72:
 
     # eng "よう日本。\nふふん！俺の絵じゃないが\nそういう感想もあるな。\n俺の絵じゃないが！" id meeting_1049dc72
-    eng "Йо, Япония.\nХмпф! Они не мои, но можно и так сказать.\nНо всё же они не мои!" id meeting_1049dc72
+    eng "Йо, Япония.\nХмпф! Они не мои, но можно и так сказать. Но всё же они не мои!" id meeting_1049dc72
 
 # game/scenario/0meeting.rpy:194
 translate russian meeting_f507db78:
@@ -218,7 +218,7 @@ translate russian meeting_8bc364fe:
 translate russian meeting_1b4aaa87:
 
     # bul "ううう…俺だって\n頑張ってんすよぉ…。" id meeting_1b4aaa87
-    bul "*всхлип*...Я\nстараюсь как могу..." id meeting_1b4aaa87
+    bul "*всхлип*...\nЯ стараюсь как могу..." id meeting_1b4aaa87
 
 # game/scenario/0meeting.rpy:230
 translate russian meeting_c7cb7a8f:
@@ -418,7 +418,7 @@ translate russian meeting_84f52b83:
 translate russian meeting_83310ae5:
 
     # fin "すごいです！実物初めて見ました！\nすぐ行っちゃいましたけど…！\n僕けっこうアメリカさんの家の\nテレビ見る方なので嬉しかったです！{nw}" id meeting_83310ae5
-    fin "Это невероятно! Я впервые вижу их вживую! Хоть они и ушли почти сразу...! Я часто смотрю американские передачи, я так обрадовался!{nw}" id meeting_83310ae5
+    fin "{size=-2}Это невероятно!\nЯ впервые вижу их вживую! Хоть они и ушли почти сразу...! Я часто смотрю американские передачи, я так обрадовался!{/size}{nw}" id meeting_83310ae5
 
 # game/scenario/0meeting.rpy:502
 translate russian meeting_038dc829:
@@ -473,7 +473,7 @@ translate russian meeting_dbc0159a:
 translate russian meeting_e4ee19e9:
 
     # jpn "いっ…一斉！？\n…ありがとうございます。\n宜しくお願い致します。" id meeting_e4ee19e9
-    jpn "Все...Все сразу?!\n...Спасибо. Я с нетерпением жду начала собрания." id meeting_e4ee19e9
+    jpn "{size=-2}Все...Все сразу?!\n...Спасибо. Я с нетерпением жду начала собрания.{/size}" id meeting_e4ee19e9
 
 # game/scenario/0meeting.rpy:555
 translate russian meeting_ddcfcc6f:
@@ -504,7 +504,7 @@ translate russian meeting_0bb90662:
 
     # eng "一人スペインだろ？\nあいつが重要なビジネスの事と\n親分面できること以外で\n時間通りに来ると思うなよ。" id meeting_0bb90662
     $ eng.screen = 'right_4long'
-    eng "{size=-2}Один из них - Испания, да?\nНе ожидай, что он явиться вовремя куда-либо, если это не связано с важным бизнесом или чего-то, где он может продемонстрировать свою «боссовскую» сторону.{/size}" id meeting_0bb90662
+    eng "{size=-5}Один из них - Испания, да?\nНе ожидай, что он явиться вовремя куда-либо, если это не связано с важным бизнесом или чего-то, где он может продемонстрировать свою „боссовскую“ сторону.{/size}" id meeting_0bb90662
 
 # game/scenario/0meeting.rpy:590
 translate russian meeting_9630bdc7:

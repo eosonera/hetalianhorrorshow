@@ -71,12 +71,12 @@ translate english python:
     text_size_right7big = gui.text_size
     text_size_left1 = gui.text_size
     text_size_left3 = gui.text_size
-    text_size_left4 = gui.text_size - 1
-    text_size_left4long = gui.text_size - 1
+    text_size_left4 = gui.text_size
+    text_size_left4long = gui.text_size
     text_size_center1 = gui.text_size
     text_size_center3 = gui.text_size
     text_size_center3long = gui.text_size
-    text_size_center4long = gui.text_size - 1
+    text_size_center4long = gui.text_size
 
 
 ## Textbox sizes (width,height)
@@ -94,7 +94,7 @@ translate english python:
     window_size_center1 = (420, 130)
     window_size_center3 = (310, 130)
     window_size_center3long = (470, 130)
-    window_size_center4long = (450, 150)
+    window_size_center4long = (480, 150)
 
 
 

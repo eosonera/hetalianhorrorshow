@@ -85,6 +85,8 @@ style volume_slider:
 ## Text speed popup ################################################################
 #################################################################################
 
+default preferences.text_cps = 40
+
 screen text_speed():
     #tag menu
     #modal True
@@ -120,15 +122,25 @@ screen autotext_speed():
     #modal True
     #use game_menu(_("Autotext Speed"))
 
-    style_prefix "text_speed"
+    style_prefix "autotext_speed"
     add "gui/slider/speed.png":
         xpos 270
         ypos 212
     frame:
-        style "text_speed_slider"
+        style "autotext_speed_slider"
         xpos 315
         ypos 217
         bar value Preference("auto-forward time")
+
+style autotext_speed_slider:
+    xsize 115
+    ysize 50
+    left_bar Frame("gui/slider/bar_1.png", tile=None)
+    right_bar Frame("gui/slider/bar_0.png", tile=None)
+    thumb_offset 0
+    thumb "gui/slider/slider_0.png"
+    hover_thumb "gui/slider/slider_1.png"
+    bar_invert False
 
 #################################################################################
 ## Font popup ################################################################
@@ -151,71 +163,79 @@ screen font():
         ypos 172
 
     default list_fonts = [
-        ("IBMPlexSans", "IBMPlexSans.ttf"),
+        (_("IBMPlexSans"), "IBMPlexSans.ttf"),
         (_("Source Han Sans Lite"), "SourceHanSans-Light.otf"),
-        #(_("MS P明朝"), "msgothic.ttf"),
-        #(_("MS Pゴシック"), "msgothic.ttf"),
-        #(_("MS 明朝"), "msgothic.ttf"),
+        (_("MS P明朝"), "mspmincho.ttf"),
+        (_("MS Pゴシック"), "mspgothic.ttf"),
+        (_("MS 明朝"), "msmincho.ttf"),
         (_("MS ゴシック"), "msgothic.ttf"),
         
-        # (_("BIZ UD明朝 Medium"), "BIZ-UDMinchoM.ttc"),
-        # (_("BIZ UDゴシック"), "BIZ-UDGothicR.ttc"),
-        # (_("BIZ UDP明朝 Medium"), "BIZ-UDPMinchoM.ttc"),
-        # (_("BIZ UDPゴシック"), "BIZ-UDPGothicR.ttc"),
-        # (_("メイリオ"), "meiryo.ttc"),
-        #(_("Malgun Gothic Semilight"), "malgunsl.ttf"),
-        (("Meiryo UI"), "meiryoui.ttc"),
-        (("MS UI Gothic"), "msuigothic.ttc"),
-        #(("Noto Sans JP"), "NotoSansJP-VF.ttf"),
-        # (("Noto Sans JP Black"), "NotoSansJP-black.ttf"),
-        # (("Noto Sans JP Demilight"), "NotoSansJP-demilight.ttf"),
-        # (("Noto Sans JP Light"), "NotoSansJP-light.ttf"),
-        # (("Noto Sans JP Medium"), "NotoSansJP-medium.ttf"),
-        (("Noto Sans JP Thin"), "NotoSansJP-thin.ttf"),
-        # (_("UD デジタル 教科書体 N-B"), "msgothic.ttf")
-        # (_("UD デジタル 教科書体 NK-B"), "msgothic.ttf")
-        # (_("UD デジタル 教科書体 NK-R"), "msgothic.ttf")
-        # (_("UD デジタル 教科書体 NP-B"), "msgothic.ttf")
-        # (_("UD デジタル 教科書体 NP-R"), "msgothic.ttf")
-        # (_("UD デジタル 教科書体 N-R"), "msgothic.ttf")
-        # (_("UD デジタル 教科書体 N-R"), "msgothic.ttf")
-        # (_("游明朝"), "msgothic.ttf"),
-        # (_("游明朝 Demibold"), "msgothic.ttf"),
-        # (_("游明朝 Light"), "msgothic.ttf"),
-        # (_("游ゴシック"), "msgothic.ttf"),
-        # (_("游ゴシック Light"), "msgothic.ttf"),
-        # (_("游ゴシック Medium"), "msgothic.ttf"),
-        # (("Yu Gothic UI"), "msgothic.ttf"),
-        # (("Yu Gothic UI Light"), "msgothic.ttf"),
-        # (("Yu Gothic UI Semibold"), "msgothic.ttf"),
-        # (("Yu Gothic UI Semilight"), "msgothic.ttf"),
+        (_("BIZ UD明朝 Medium"), "BIZ-UDMinchoM.ttf"),
+        (_("BIZ UDゴシック"), "BIZ-UDGothicR.ttf"),
+        (_("BIZ UDP明朝 Medium"), "BIZ-UDPMinchoM.ttf"),
+        (_("BIZ UDPゴシック"), "BIZ-UDPGothicR.ttf"),
+        (_("メイリオ"), "meiryo.ttf"),
+        (_("Meiryo UI"), "meiryoui.ttf"),
+        (_("MS UI Gothic"), "msuigothic.ttf"),
+
+        (_("Noto Sans JP"), "NotoSansCJKJPRegular.ttf"),
+        (_("Noto Sans JP Black"), "NotoSansCJKJPBlack.ttf"),
+        (_("Noto Sans JP Demilight"), "NotoSansCJKJPDemilight.ttf"),
+        (_("Noto Sans JP Light"), "NotoSansCJKJPLight.ttf"),
+        (_("Noto Sans JP Medium"), "NotoSansCJKJPMedium.ttf"),
+        (_("Noto Sans JP Thin"), "NotoSansCJKJPthin.ttf"),
+
+        (_("UD デジタル 教科書体 N-B"), "UDDigiKyokashoN-B.ttf"), # monospace bold
+        (_("UD デジタル 教科書体 NK-B"), "UDDigiKyokashoNK-B.ttf"), #alphanumeric characters and kana are proportionally spaced, bold
+        (_("UD デジタル 教科書体 NK-R"), "UDDigiKyokashoNK-R.ttf"), #alphanumeric characters and kana are proportionally spaced, regular
+        (_("UD デジタル 教科書体 NP-B"), "UDDigiKyokashoNP-B.ttf"), #alphanumeric characters are proportionally spaced, bold
+        (_("UD デジタル 教科書体 NP-R"), "UDDigiKyokashoNP-R.ttf"), #alphanumeric characters are proportionally spaced, regular
+        (_("UD デジタル 教科書体 N-R"), "UDDigiKyokashoN-R.ttf"), #monospace regular
+
+        (_("游明朝"), "YuMin.ttf"),
+        (_("游明朝 Demibold"), "YuMinDB.ttf"),
+        (_("游明朝 Light"), "YuMinl.ttf"),
+
+        #(_("游ゴシック"), "YuGoth.ttf"),
+        #(_("游ゴシック Light"), "YuGothL.ttf"),
+        (_("游ゴシック Medium"), "YuGothM.ttf"),
+        #(_("Yu Gothic UI"), "YuGothUI.ttf"),
+        #(_("Yu Gothic UI Light"), "YuGothUIL.ttf"),
+        (_("Yu Gothic UI Semibold"), "YuGothUISemibold.ttf"),
+        #(_("Yu Gothic UI Semilight"), "YuGothUISemilight.ttf"),
     ]
 
     viewport:
-        xpos 324
+        xpos 316
         ypos 168
-        xsize 276
+        xsize 284
         ysize 202
         mousewheel True draggable True pagekeys True
         scrollbars "vertical" yinitial 1.0
 
         frame:
             vbox:
-                spacing 0
-                ysize 28
+                spacing 3
+                ysize 16
                 for name, file in list_fonts:
                     textbutton ("[name]"):
                         action gui.SetPreference("font", file)
 
-style font_button is radio_button
-
 style font_button:
+    properties gui.button_properties("radio_button")
+    selected_foreground "gui/button/check_0.png"
     padding (35, 0, 0, 0)
+    yalign 0.5
+
+style font_button_selected_foreground:
+    yalign 0.5
+    yoffset 30
+
     
 
 style font_button_text:
     color "#583F34"
-    size 14
+    size 16
     xalign 1.0
 
 style font_vscrollbar:

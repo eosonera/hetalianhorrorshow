@@ -4,7 +4,7 @@
 translate english start_8479585a:
 
     # na "「７カ国が集まる国際怖い話会合があるから\n　そこで話を聞いてきてくれないかなー？」\n{vspace=12}{space=155}その一言でそれは始まった。"
-    na "\"Seven nations are going to gather for\nthe International Conference of Scary Stories.\nDo you want to come and listen to what they have to say?\"\n{vspace=8} {space=155}It started with those words."
+    na "“Seven nations are going to gather for\nthe International Conference of Scary Stories.\nDo you want to come and listen to what they have to say?”\n{vspace=8} {space=155}It started with those words."
 
 # game/script.rpy:24
 translate english start_d72426f3:
@@ -40,7 +40,7 @@ translate english start_6074a98b:
 translate english start_8f7e5e1b:
 
     # rom "そうだったの！？\nでもお前いっつも\nフラフラしてるじゃんかー！"
-    rom "He says that!?\nBut you {i}are{/i} just messin' around, aren't you?!"
+    rom "He says that!?\nBut you {i}are{/i} just messin' around all the time, aren't you?!"
 
 # game/script.rpy:46
 translate english start_fe5ba20e:
@@ -52,7 +52,7 @@ translate english start_fe5ba20e:
 translate english start_d6cfb26b:
 
     # rom "なんて友だち甲斐が\nないんだよー！頼むよー！\n頼める人がいないんだよー"
-    rom "That's not something a friend would sayyy!\nI'm counting on youuu-!\nThere's no one else I can count ooon."
+    rom "What kind of useless friend are yoou?!\nI'm begging youuu!\nThere's no one else I can aaask."
 
 # game/script.rpy:54
 translate english start_c66e6f28:
@@ -64,7 +64,7 @@ translate english start_c66e6f28:
 translate english start_028db6fd:
 
     # rom "え！？ えーと…。\nロシアさんは{size=-5}存在自体がー…\n怖いっていうか…。{/size}"
-    rom "Wha!? Um...\nWell, his {size=-3}mere existence...\nis frightening in and of itself...{/size}"
+    rom "Wha!? Um...\nWell, his {size=-3}mere presence...\nis frightening in and of itself...{/size}"
 
 # game/script.rpy:62
 translate english start_4a9432bb:
@@ -107,7 +107,7 @@ translate english start_3d397b61:
 translate english start_59e783b8:
 
     # bul "んーん♪"
-    bul "No～ope♪"
+    bul "No~ope♪"
 
 # game/script.rpy:93
 translate english start_d37301ef:
@@ -125,13 +125,13 @@ translate english start_239fc5ac:
 translate english start_6b148d73:
 
     # rom "３万！？ ないよー！"
-    rom "300,000!? There's no way!"
+    rom "30,000!? There's no way!"
 
 # game/script.rpy:109
 translate english start_97b31921:
 
     # bul "俺三万歳！！\nつまり俺の国力は\n３万あるんだわー！{nw}"
-    bul "I am 3 million score!\nWhich means my national power score is 3 million too!{nw}"
+    bul "I am 30,000!\nWhich means the strength of my nation is also 30,000!{nw}"
 
 # game/script.rpy:118
 translate english start_e5a62779:
@@ -149,13 +149,13 @@ translate english start_300040ae:
 translate english start_c62956d7:
 
     # rom "やーだー！その理屈わかんないよー\n頼むよー！行ってよー！\nいらとお前の付き合いだろー！！"
-    rom "Nooo! You don't understand!\nPleeease! Just go!\nThis is why we have each other!!"
+    rom "Nooo! You don't understand!\nPleeease! Just go!\nYou and I are friennnds!!"
 
 # game/script.rpy:135
 translate english start_091ebbd4:
 
     # bul "ぷぷぷぷ～\nぷんにょにょ～（鼻歌）{nw}"
-    bul "Hm-hm-hm-hm～\nHm-mm-mm～ (humming){nw}"
+    bul "Hm-hm-hm-hm~\nHm-mm-mm~ (humming){nw}"
 
 # game/script.rpy:140
 translate english start_5ef33473:
@@ -233,19 +233,19 @@ translate english start_70786b2a:
 translate english start_ab6fbfcb:
 
     # na2 "この二国って加入してから\n足引っ張ってるだけですよね。\nだから反対してたんですよ。"
-    na2 "Those two countries have just been\ndragging their feet since they joined.\nThat's why I opposed it."
+    na2 "Those two countries have just been\ndragging their feet since they joined.\nThat's why I was against it."
 
 # game/script.rpy:200
 translate english start_b1038b62:
 
     # na2 "せんせー！\nブルガリア君とルーマニア君が\n出稼ぎに来て邪魔臭いです。"
-    na2 "Mister!\nBulgaria and Romania came over\nfor work, and it's a big pain."
+    na2 "Teacher!\nBulgaria and Romania have moved over here for work, but they're getting in the way of everything."
 
 # game/script.rpy:203
 translate english start_cc76127d:
 
     # na2 "ブルガリア君とルーマニア君って\nＥＵに必要ですか？\nこいつら追い出してトルコ入れた方が\n有意義だと思いますー"
-    na2 "Does the EU really need\nBulgaria and Romania?\nI think it would be better to kick\nthem out and accept Turkey."
+    na2 "Does the EU really need\nBulgaria and Romania?\nI think it would be better to kick\nthem out and accept Turkey instead."
 
 # game/script.rpy:213
 translate english start_1db23734:
@@ -281,7 +281,7 @@ translate english start_fc180838:
 translate english start_0f5baf6e:
 
     # rom "そうだよブルガリア！\nその意気だよ\n頑張ろうねぇ～！！"
-    rom "That's right, Bulgaria!\nThat's the spirit!\nDo your best～!!"
+    rom "That's right, Bulgaria!\nThat's the spirit!\nGo for it~!!"
 
 # game/script.rpy:244
 translate english start_c6e01564:

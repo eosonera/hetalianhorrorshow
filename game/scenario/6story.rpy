@@ -33,7 +33,7 @@ label story6:
     
     show spain large fufufu with {'master': Dissolve(0.2)}
     play sound "sfx/HAUNTED HOUSE MOAN 4.ogg"
-    story "{color=#808080}{cps=8}…気ぃ抜かんかったらな…。{/cps}{/color}" id story6_e8db0297
+    story "{dark}{cps=8}…気ぃ抜かんかったらな…。{/cps}{/dark}" id story6_e8db0297
     nvl clear
     stop sound
 

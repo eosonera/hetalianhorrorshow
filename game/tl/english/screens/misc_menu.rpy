@@ -3,12 +3,8 @@
 translate english strings:
 
     # game/screens/misc_menu.rpy:114
-    old "Save game names"
+    old "セーブメモ"
     new "Save game names"
-
-# TODO: Translation updated at 2025-08-13 12:44
-
-translate english strings:
 
     # game/screens/misc_menu.rpy:8
     old "Language"
@@ -213,4 +209,12 @@ translate english strings:
     # game/screens/misc_menu.rpy:445
     old "Made with {a=https://ja.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
     new "Made with {a=https://renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
+
+# TODO: Translation updated at 2026-04-01 13:23
+
+translate english strings:
+
+    # game/screens/misc_menu.rpy:207
+    old "English translation"
+    new "English translation"
 

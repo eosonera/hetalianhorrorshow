@@ -100,7 +100,7 @@ screen text_speed():
         style "text_speed_slider"
         xpos 315
         ypos 166
-        bar value Preference("text speed")
+        bar value Preference("text speed") range (0, 80)
 
 style text_speed_slider:
     xsize 115
@@ -163,7 +163,7 @@ screen font():
         ypos 172
 
     default list_fonts = [
-        (_("IBMPlexSans"), "IBMPlexSans.ttf"),
+        (("IBMPlexSans"), "IBMPlexSans.ttf"),
         (_("Source Han Sans Lite"), "SourceHanSans-Light.otf"),
         (_("MS P明朝"), "mspmincho.ttf"),
         (_("MS Pゴシック"), "mspgothic.ttf"),
@@ -175,15 +175,15 @@ screen font():
         (_("BIZ UDP明朝 Medium"), "BIZ-UDPMinchoM.ttf"),
         (_("BIZ UDPゴシック"), "BIZ-UDPGothicR.ttf"),
         (_("メイリオ"), "meiryo.ttf"),
-        (_("Meiryo UI"), "meiryoui.ttf"),
-        (_("MS UI Gothic"), "msuigothic.ttf"),
+        (("Meiryo UI"), "meiryoui.ttf"),
+        (("MS UI Gothic"), "msuigothic.ttf"),
 
-        (_("Noto Sans JP"), "NotoSansCJKJPRegular.ttf"),
-        (_("Noto Sans JP Black"), "NotoSansCJKJPBlack.ttf"),
-        (_("Noto Sans JP Demilight"), "NotoSansCJKJPDemilight.ttf"),
-        (_("Noto Sans JP Light"), "NotoSansCJKJPLight.ttf"),
-        (_("Noto Sans JP Medium"), "NotoSansCJKJPMedium.ttf"),
-        (_("Noto Sans JP Thin"), "NotoSansCJKJPthin.ttf"),
+        (("Noto Sans JP"), "NotoSansCJKJPRegular.ttf"),
+        (("Noto Sans JP Black"), "NotoSansCJKJPBlack.ttf"),
+        (("Noto Sans JP Demilight"), "NotoSansCJKJPDemilight.ttf"),
+        (("Noto Sans JP Light"), "NotoSansCJKJPLight.ttf"),
+        (("Noto Sans JP Medium"), "NotoSansCJKJPMedium.ttf"),
+        (("Noto Sans JP Thin"), "NotoSansCJKJPthin.ttf"),
 
         (_("UD デジタル 教科書体 N-B"), "UDDigiKyokashoN-B.ttf"), # monospace bold
         (_("UD デジタル 教科書体 NK-B"), "UDDigiKyokashoNK-B.ttf"), #alphanumeric characters and kana are proportionally spaced, bold
@@ -201,7 +201,7 @@ screen font():
         (_("游ゴシック Medium"), "YuGothM.ttf"),
         #(_("Yu Gothic UI"), "YuGothUI.ttf"),
         #(_("Yu Gothic UI Light"), "YuGothUIL.ttf"),
-        (_("Yu Gothic UI Semibold"), "YuGothUISemibold.ttf"),
+        (("Yu Gothic UI Semibold"), "YuGothUISemibold.ttf"),
         #(_("Yu Gothic UI Semilight"), "YuGothUISemilight.ttf"),
     ]
 
@@ -218,7 +218,7 @@ screen font():
                 spacing 3
                 ysize 16
                 for name, file in list_fonts:
-                    textbutton ("[name]"):
+                    textbutton ("[name!t]"):
                         action gui.SetPreference("font", file)
 
 style font_button:

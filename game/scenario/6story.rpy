@@ -83,6 +83,7 @@ label story6:
 
     scene bg postcard2
     show nvl_textbox
+    with {'master': Dissolve(0.5)}  
     story "あ、ほんで、ワンさんも８ユーロは\n高い思うたらしいんやけど、\n可愛い子供が一生懸命はがき売っとる姿に\n応援したなったらしくてな。" id story6_70baa050
     story "高い思うても言い値で\n買うたることにしたらしいで。\nワンさん金持ちやんな。" id story6_6b658eb9
     nvl clear
@@ -132,7 +133,7 @@ label story6:
     show ripples vfx
     show nvl_textbox
     play sound "sfx/bang08.ogg"
-    story "\nほんならいきなり\nワンさん呼吸ができんくなった！" id story6_d3af068b
+    story "\nほんならいきなり\nワンさん呼吸ができんくなった！{nw}" id story6_d3af068b
     story "なんや！何が起こっとるん！！？" id story6_01c97113
     hide ripples vfx
     show bg strangle behind nvl_textbox

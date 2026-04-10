@@ -461,7 +461,7 @@ translate russian meeting_444b0c42:
 translate russian meeting_353efc4b:
 
     # eng "よう、日本。{size=-8}セカンド。{/size}" id meeting_353efc4b
-    eng "Йо, Япония.{size=-8}Ещё раз.{/size}" id meeting_353efc4b
+    eng "Йо, Япония.{size=-4}Ещё раз.{/size}" id meeting_353efc4b
 
 # game/scenario/0meeting.rpy:541
 translate russian meeting_dbc0159a:
@@ -497,14 +497,14 @@ translate russian meeting_e99f73e0:
 translate russian meeting_72ae2573:
 
     # bul "で…時間を２０分も\nオーバーしてるのに\n２人も来ないんだわ…。" id meeting_72ae2573
-    bul "Так...уже прошло 20 минут\nс назначенного времени,\nно не хватает ещё двоих..." id meeting_72ae2573
+    bul "Так...уже прошло 20 минут с назначенного времени, но не хватает ещё двоих..." id meeting_72ae2573
 
 # game/scenario/0meeting.rpy:587
 translate russian meeting_0bb90662:
 
     # eng "一人スペインだろ？\nあいつが重要なビジネスの事と\n親分面できること以外で\n時間通りに来ると思うなよ。" id meeting_0bb90662
     $ eng.screen = 'right_4long'
-    eng "{size=-5}Один из них - Испания, да?\nНе ожидай, что он явиться вовремя куда-либо, если это не связано с важным бизнесом или чего-то, где он может продемонстрировать свою „боссовскую“ сторону.{/size}" id meeting_0bb90662
+    eng "Один из них - Испания, да?\nНе ожидай, что он явиться вовремя куда-либо, если это не связано с важным бизнесом или чего-то, где он может продемонстрировать свою „боссовскую“ сторону." id meeting_0bb90662
 
 # game/scenario/0meeting.rpy:590
 translate russian meeting_9630bdc7:
@@ -522,11 +522,43 @@ translate russian meeting_c9537931:
 translate russian meeting_8b295b55:
 
     # eng "怖い話の始まりが\nそんなけだるげで\n良いのかよ！？{nw}" id meeting_8b295b55
-    eng "Ну разве можно начинать\nрассказ страшных историй\nтак вяло?!{nw}" id meeting_8b295b55
+    eng "Ну разве можно начинать рассказ страшных историй так вяло?!{nw}" id meeting_8b295b55
 
 # game/scenario/0meeting.rpy:611
 translate russian meeting_831123b5:
 
     # na "こうして国際怖い話の会は\nふわふわした感じで始まったのだった…。" id meeting_831123b5
     na "Вот так вот международный рассказ страшных историй\nначался в беззаботной атмосфере..." id meeting_831123b5
+
+# TODO: Translation updated at 2026-04-01 14:33
+
+# game/scenario/0meeting.rpy:21
+translate russian meeting_d41d8cd9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/0meeting.rpy:26
+translate russian meeting_d41d8cd9_1:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/0meeting.rpy:40
+translate russian meeting_d41d8cd9_2:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/0meeting.rpy:57
+translate russian meeting_d41d8cd9_3:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/0meeting.rpy:65
+translate russian meeting_d41d8cd9_4:
+
+    # nvl clear
+    nvl clear
 

@@ -26,8 +26,9 @@ label story3:
     story "\n怖い話というよりは\n不思議な話になるのですが…。" id story3_6fdc4dba
     nvl clear
 
-    show japan large deepthinking
     show bg tokyo5 behind nvl_textbox
+    pause 0.2
+    show japan large cocky eyesclosed
     $ audio_crossFade(0.5, "music/01_steadynightbreeze.ogg")
     story "あれはしとしとと雨の降る\n夜の事でした…。" id story3_1beae1ae
     hide japan

@@ -2,7 +2,7 @@
 
 screen menu_open():
     tag menu
-    use game_menu(_("Menu")):
+    use game_menu(("Menu")):
         style_prefix "open"
 
 #################################################################################

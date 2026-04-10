@@ -7,6 +7,7 @@ define fade_red = Fade(0.5, 0.0, 0.5, color="#ff0000")
 define fade_white_slow = Fade(0.5, 1.0, 0.5, color="#fff")
 image white screen = "#fff" 
 image bg white = "#fff" 
+image red screen = "#ff0000" 
 image blue screen = "#0000FF"
 
 define circle_dissolve = ImageDissolve("images/vfx/circle_dissolve2.png", 0.3, reverse=True)

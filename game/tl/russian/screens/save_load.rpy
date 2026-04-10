@@ -1,10 +1,9 @@
-﻿# TODO: Translation updated at 2025-12-18 14:20
-
+﻿
 translate russian strings:
 
-    # game/screens/save_load.rpy:79
-    old "[slot]番をロードします"
-    new "Сохранить загрузку #[slot]?\nПри загрузке будут потеряны несохраненные результаты."
+
+    old "{slot:02d}番をロードします"
+    new "Сохранить загрузку #{slot:02d}?"
 
     # game/screens/save_load.rpy:105
     old "%m/%d  %H:%M"

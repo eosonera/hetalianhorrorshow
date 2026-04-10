@@ -143,7 +143,7 @@ translate english story7_aa94871d:
 translate english story7_ad8be397:
 
     # rom "え？　あっ！ちょうど\n時間が出来たというか！\n{size=-5}{color=#C0C0C0}…ちょっと待っててねー{/color}{/size}"
-    rom "Huh? Oh! I just happened to have a bit of free time!\n{size=-5}{color=#C0C0C0}...Wait a minute, okay?{/color}{/size}"
+    rom "Huh? Oh! I just happened to have a bit of free time!\n{size=-3}{color=#C0C0C0}...Wait a minute, okay?{/color}{/size}"
 
 # game/scenario/7story.rpy:228
 translate english story7_3b83e8e1:
@@ -203,7 +203,7 @@ translate english story7_c0ae8bd3:
 translate english story7_51ca0ab3:
 
     # rus "やぁ、みんなお待たせ\nごめんね。準備に少し\n手間取っちゃって…"
-    rus "Hey, sorry to keep you waiting, everyone. It took me a little longer than expected to get ready..."
+    rus "Hey, sorry to keep you waiting, everyone.\nIt took me a little longer than expected to get ready..."
 
 # game/scenario/7story.rpy:335
 translate english story7_65241561:
@@ -215,7 +215,7 @@ translate english story7_65241561:
 translate english story7_e52d93f4:
 
     # ame "ロシア！最後に話すのは\n君だったのかい。\nまさに見計らってたかのような\nナイスタイミングじゃないか！"
-    ame "Russia! So you'll be the last one to tell a story. It's as if you planned it that way!\nNice timing, right?!"
+    ame "Russia! So you'll be the last one to tell a story.\nIt's as if you planned it that way!\nNice timing, right?!"
 
 # game/scenario/7story.rpy:359
 translate english story7_2a6e2e94:
@@ -443,7 +443,7 @@ translate english story7_09841c42:
 translate english story7_b8b3afeb:
 
     # rom "ロシアさんちに\nおいらの弟がひと人ぢ…\nじゃない友好的ホームステイ\nしてるんだよー…！"
-    rom "My little brother, he's at Russia's house being held hostage...\nI mean, he's doing a friendly exchange program there...!"
+    rom "My little brother, he's at Russia's\nhouse being held hostage...\nI mean, he's doing a friendly exchange program there...!"
 
 # game/scenario/7story.rpy:515
 translate english story7_b7c0ba93:
@@ -485,7 +485,7 @@ translate english story7_85172fa2:
 translate english story7_3f048254:
 
     # fin "謀りましたね！\n僕お菓子僕いっぱい\n食べちゃったん\nですけど…！"
-    fin "You were the one behind all of this!\nI ended up eating a ton of sweets...!"
+    fin "You were the one behind all of this! I ended up eating a ton of sweets...!"
 
 # game/scenario/7story.rpy:579
 translate english story7_6924f121:
@@ -691,7 +691,7 @@ translate english stophim_0b8ee69b:
 translate english stophim_2ab3c212:
 
     # na "全てそこそこほどほどに\n綺麗にまとまる！　　　　…はずだった。"
-    na "It was all reasonably and neatly wrapped up!　　　　…or so it should have been."
+    na "It was all reasonably and neatly wrapped up!\n　　　　...or so it should have been."
 
 # game/scenario/7story.rpy:844
 translate english stophim_e7131160:
@@ -969,4 +969,72 @@ translate english strings:
     # game/scenario/7story.rpy:732
     old "俺が止める！！"
     new "I'll stop him!!"
+
+# TODO: Translation updated at 2026-04-01 13:23
+
+# game/scenario/7story.rpy:400
+translate english story7_d41d8cd9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/7story.rpy:418
+translate english story7_d41d8cd9_1:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/7story.rpy:428
+translate english story7_d41d8cd9_2:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/7story.rpy:436
+translate english story7_d41d8cd9_3:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/7story.rpy:443
+translate english story7_d41d8cd9_4:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/7story.rpy:447
+translate english story7_d41d8cd9_5:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/7story.rpy:451
+translate english story7_d41d8cd9_6:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/7story.rpy:455
+translate english story7_d41d8cd9_7:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/7story.rpy:459
+translate english story7_d41d8cd9_8:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/7story.rpy:466
+translate english story7_d41d8cd9_9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/7story.rpy:470
+translate english story7_d41d8cd9_10:
+
+    # nvl clear
+    nvl clear
 

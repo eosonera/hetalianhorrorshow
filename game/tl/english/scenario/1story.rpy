@@ -367,8 +367,8 @@ translate english story1_57af3057:
 # game/scenario/1story.rpy:217
 translate english story1_b8725207:
 
-    # extend "\n氷が派手に割れたー！"
-    extend "\nThe ice broke dramatically!"
+    # extend "\n氷が派手に割れたー！{nw}"
+    extend "\nThe ice broke dramatically!{nw=0.5}"
 
 # game/scenario/1story.rpy:231
 translate english story1_4c08f6d0:
@@ -421,8 +421,8 @@ translate english story1_76b2fe88_16:
 # game/scenario/1story.rpy:271
 translate english story1_ef982f81:
 
-    # story "\nフードに何かが引っかかったような感触がして\n何が起こったのか確認する間もなく、\n僕の体は一気に引っ張られました！{nw=2}"
-    story "\nIt felt as though something snagged onto my hood. I can't confirm what had happened, but my body was pulled out in one fell swoop!{nw=2}"
+    # story "\nフードに何かが引っかかったような感触がして\n何が起こったのか確認する間もなく、\n僕の体は一気に引っ張られました！{nw}"
+    story "\nIt felt as though something snagged onto my hood. I can't confirm what had happened, but my body was pulled out in one fell swoop!{nw}"
 
 # game/scenario/1story.rpy:291
 translate english story1_a3f5e0af:
@@ -466,7 +466,7 @@ translate english story1_6a053c06:
 translate english story1_15a4b966:
 
     # story "{cps=5}……………。{/cps}"
-    story "{cps=5}......{/cps}{nw}"
+    story "{cps=3}......{/cps}{nw}"
 
 # game/scenario/1story.rpy:322
 translate english story1_76b2fe88_18:
@@ -597,4 +597,144 @@ translate english story1_76b2fe88_21:
 
     # nvl clear
     nvl clear
+
+# TODO: Translation updated at 2026-04-01 13:23
+
+# game/scenario/1story.rpy:21
+translate english story1_d41d8cd9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:30
+translate english story1_d41d8cd9_1:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:35
+translate english story1_d41d8cd9_2:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:42
+translate english story1_d41d8cd9_3:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:54
+translate english story1_d41d8cd9_4:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:83
+translate english story1_d41d8cd9_5:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:92
+translate english story1_d41d8cd9_6:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:101
+translate english story1_d41d8cd9_7:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:107
+translate english story1_d41d8cd9_8:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:125
+translate english story1_d41d8cd9_9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:133
+translate english story1_d41d8cd9_10:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:158
+translate english story1_d41d8cd9_11:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:198
+translate english story1_d41d8cd9_12:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:204
+translate english story1_d41d8cd9_13:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:212
+translate english story1_d41d8cd9_14:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:242
+translate english story1_d41d8cd9_15:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:254
+translate english story1_d41d8cd9_16:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:273
+translate english story1_d41d8cd9_17:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:309
+translate english story1_d41d8cd9_18:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:337
+translate english story1_d41d8cd9_19:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:346
+translate english story1_d41d8cd9_20:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:363
+translate english story1_d41d8cd9_21:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:368
+translate english story1_d41d8cd9_22:
+
+    # nvl clear    
+    nvl clear    
 

@@ -704,3 +704,173 @@ translate english story3_76b2fe88_27:
     # nvl clear
     nvl clear
 
+# TODO: Translation updated at 2026-04-01 13:23
+
+# game/scenario/3story.rpy:27
+translate english story3_d41d8cd9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:38
+translate english story3_d41d8cd9_1:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:47
+translate english story3_d41d8cd9_2:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:62
+translate english story3_d41d8cd9_3:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:82
+translate english story3_d41d8cd9_4:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:98
+translate english story3_d41d8cd9_5:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:104
+translate english story3_d41d8cd9_6:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:125
+translate english story3_d41d8cd9_7:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:134
+translate english story3_d41d8cd9_8:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:139
+translate english story3_d41d8cd9_9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:179
+translate english story3_d41d8cd9_10:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:194
+translate english story3_d41d8cd9_11:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:199
+translate english story3_d41d8cd9_12:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:211
+translate english story3_d41d8cd9_13:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:234
+translate english story3_d41d8cd9_14:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:247
+translate english story3_d41d8cd9_15:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:253
+translate english story3_d41d8cd9_16:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:259
+translate english story3_d41d8cd9_17:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:264
+translate english story3_d41d8cd9_18:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:277
+translate english story3_d41d8cd9_19:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:286
+translate english story3_d41d8cd9_20:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:299
+translate english story3_d41d8cd9_21:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:308
+translate english story3_d41d8cd9_22:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:327
+translate english story3_d41d8cd9_23:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:378
+translate english story3_d41d8cd9_24:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:384
+translate english story3_d41d8cd9_25:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:395
+translate english story3_d41d8cd9_26:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:436
+translate english story3_d41d8cd9_27:
+
+    # nvl clear
+    nvl clear
+

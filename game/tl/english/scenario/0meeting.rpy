@@ -530,3 +530,35 @@ translate english meeting_831123b5:
     # na "こうして国際怖い話の会は\nふわふわした感じで始まったのだった…。"
     na "And so, the International Conference for Scary Stories started off on a light and fluffy note."
 
+# TODO: Translation updated at 2026-04-01 13:23
+
+# game/scenario/0meeting.rpy:21
+translate english meeting_d41d8cd9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/0meeting.rpy:26
+translate english meeting_d41d8cd9_1:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/0meeting.rpy:40
+translate english meeting_d41d8cd9_2:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/0meeting.rpy:57
+translate english meeting_d41d8cd9_3:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/0meeting.rpy:65
+translate english meeting_d41d8cd9_4:
+
+    # nvl clear
+    nvl clear
+

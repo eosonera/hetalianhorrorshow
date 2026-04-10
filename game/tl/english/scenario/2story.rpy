@@ -306,7 +306,7 @@ translate english story2_76b2fe88_7:
 translate english story2_5ab8cca2:
 
     # story "　\nそしたら上司も「宇宙人」君も\nポカーンとした顔をしてるんだよ。\n　\nもー君達。\n俺がこの宇宙人ドッキリに引っかかったら\nHetatubeに動画アップする\nつもりだったんだろ！？"
-    story " \nBut my boss and the “alien” both just stared at me with these totally blank faces.\n\nC'mon, you guys.\nThey were gonna upload the video to HetaTube if I’d fallen for the alien prank, right!?!?”"
+    story " \nBut my boss and the “alien” both just stared at me with these totally blank faces.\n\nC'mon, you guys.\nThey were gonna upload the video to HetaTube if I’d fallen for the alien prank, right!?!?"
 
 # game/scenario/2story.rpy:338
 translate english story2_f48c6d62:
@@ -418,8 +418,8 @@ translate english story2_0aa5539a:
     # nvl clear
     # story "「へぇ！君の船か！\n　是非とも乗ってみたいんだぞ！」\n\nクルージングも好きだからね。\n真っ先にＹｅｓ！って答えたよ。\nエリア５１に勤めていると\nクルージング船が買えるんだな。"
     nvl clear
-    story "“Whoa! You have a ship!? I definitely wanna go on a ride!”{nw}"
-    story_indent "\nI mean, I do like cruises, so I immediately replied with an enthusiastic “Yes!” Working at Area 51 must pay well if he can afford to buy a cruise ship."
+    story_indent "\n“Whoa! You have a ship!? I definitely wanna go on a ride!”{nw}"
+    story "\nI mean, I do like cruises, so I immediately replied with an enthusiastic “Yes!” Working at Area 51 must pay well if he can afford to buy a cruise ship."
 
 # game/scenario/2story.rpy:400
 translate english story2_76b2fe88_10:
@@ -468,7 +468,7 @@ translate english story2_76b2fe88_12:
 translate english story2_9546b191:
 
     # story "　\n《　ユナイデットステイツ検閲　》\n\n《　ユナイデットステイツ検閲　》\n\n《　ユナイデットステイツ検閲　》\n\n《　ユナイデットステイツ検閲　》\n\n《　ユナイデットステイツ検閲　》{nw=1.0}"
-    story "{b} \nRedacted by the United States\n\nRedacted by the United States\n\nRedacted by the United States\n\nRedacted by the United States\n\nRedacted by the United States{/b}{nw=1.0}"
+    story "{b} \nREDACTED BY THE UNITED STATES\n\nREDACTED BY THE UNITED STATES\n\nREDACTED BY THE UNITED STATES\n\nREDACTED BY THE UNITED STATES\n\nREDACTED BY THE UNITED STATES{/b}{nw=1.0}"
 
 # game/scenario/2story.rpy:427
 translate english story2_76b2fe88_13:
@@ -492,11 +492,97 @@ translate english story2_9e1fbadb:
 translate english story2_6d14a5f3:
 
     # bul "…お話しあざーっす！\n俺は何も聞いていない\n機密情報なんて\n聞いてないんだわー…"
-    bul "...Cheers to that story!\nI didn't hear anything! I didn't hear any classified information or anything like that…!"
+    bul "...Cheers to that story!\nI didn't hear anything! I didn't hear any classified information or anything like that...!"
 
 # game/scenario/2story.rpy:457
 translate english story2_c892c3cc:
 
     # fin "あはは…\nきょ、今日は\n空が綺麗ですね！"
     fin "Ahaha...\nTh-The sky sure is beautiful today!"
+
+# TODO: Translation updated at 2026-04-01 13:23
+
+# game/scenario/2story.rpy:24
+translate english story2_d41d8cd9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:70
+translate english story2_d41d8cd9_1:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:151
+translate english story2_d41d8cd9_2:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:305
+translate english story2_d41d8cd9_3:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:322
+translate english story2_d41d8cd9_4:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:335
+translate english story2_d41d8cd9_5:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:351
+translate english story2_d41d8cd9_6:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:357
+translate english story2_d41d8cd9_7:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:399
+translate english story2_d41d8cd9_8:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:403
+translate english story2_d41d8cd9_9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:424
+translate english story2_d41d8cd9_10:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:430
+translate english story2_d41d8cd9_11:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:444
+translate english story2_d41d8cd9_12:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:451
+translate english story2_d41d8cd9_13:
+
+    # nvl clear
+    nvl clear
 

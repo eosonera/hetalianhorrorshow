@@ -5,7 +5,7 @@ init python:
     ctc_frames = []
     for i in range(4):
         frame = f"gui/ctc/ctc_{i}.png"
-        ctc_frames.append((frame, 0.2))
+        ctc_frames.append((frame, 0.1))
 
 image ctc_button = Animation(*sum(ctc_frames, ()))
 

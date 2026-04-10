@@ -28,7 +28,7 @@ translate english strings:
 
     # game/screens/preferences.rpy:155
     old "IBMPlexSans"
-    new ""
+    new "IBMPlexSans"
 
     # game/screens/preferences.rpy:153
     old "Source Han Sans Lite"
@@ -71,44 +71,40 @@ translate english strings:
     new "Meiryo"
 
     # game/screens/preferences.rpy:155
-    old "Malgun Gothic Semilight"
-    new ""
-
-    # game/screens/preferences.rpy:155
     old "Meiryo UI"
-    new ""
+    new "Meiryo UI"
 
     # game/screens/preferences.rpy:155
     old "MS UI Gothic"
-    new ""
+    new "MS UI Gothic"
 
     # game/screens/preferences.rpy:155
     old "Noto Sans JP"
-    new ""
+    new "Noto Sans JP"
 
     # game/screens/preferences.rpy:155
     old "Noto Sans JP Black"
-    new ""
+    new "Noto Sans JP Black"
 
     # game/screens/preferences.rpy:155
     old "Noto Sans JP Demilight"
-    new ""
+    new "Noto Sans JP Demilight"
 
     # game/screens/preferences.rpy:155
     old "Noto Sans JP Light"
-    new ""
+    new "Noto Sans JP Light"
 
     # game/screens/preferences.rpy:155
     old "Noto Sans JP Medium"
-    new ""
+    new "Noto Sans JP Medium"
 
     # game/screens/preferences.rpy:155
     old "Noto Sans JP Thin"
-    new ""
+    new "Noto Sans JP Thin"
 
     # game/screens/preferences.rpy:155
     old "UD デジタル 教科書体 N-B"
-    new "UD Digital Kyokasho N-B (Monospace)"
+    new "UD Digital Kyokasho N-B"
 
     # game/screens/preferences.rpy:155
     old "UD デジタル 教科書体 NK-B"
@@ -128,7 +124,7 @@ translate english strings:
 
     # game/screens/preferences.rpy:155
     old "UD デジタル 教科書体 N-R"
-    new "UD Digital Kyokasho N-R (Monospace)"
+    new "UD Digital Kyokasho N-R"
 
     # game/screens/preferences.rpy:155
     old "游明朝"
@@ -156,17 +152,17 @@ translate english strings:
 
     # game/screens/preferences.rpy:155
     old "Yu Gothic UI"
-    new ""
+    new "Yu Gothic UI"
 
     # game/screens/preferences.rpy:155
     old "Yu Gothic UI Light"
-    new ""
+    new "Yu Gothic UI Light"
 
     # game/screens/preferences.rpy:155
     old "Yu Gothic UI Semibold"
-    new ""
+    new "Yu Gothic UI Semibold"
 
     # game/screens/preferences.rpy:155
     old "Yu Gothic UI Semilight"
-    new ""
+    new "Yu Gothic UI Semilight"
 

@@ -271,7 +271,7 @@ translate russian story4_c85d1002:
 
     # ger "いやしかし\n怪奇現象の初日に\n本人に証言を求めた所\n自分ではないと…！" id story4_c85d1002
     $ ger.screen = 'right_4long'
-    ger "{size=-2}В день, когда странный феномен впервые проявил себя, я попросил его дать свои показания, но он сказал, что никак не связан с этим происшествием...!{/size}" id story4_c85d1002
+    ger "В день, когда странный феномен впервые проявил себя, я попросил его дать свои показания, но он сказал, что никак не связан с этим происшествием...!" id story4_c85d1002
 
 # game/scenario/4story.rpy:168
 translate russian story4_79172393:
@@ -284,4 +284,60 @@ translate russian story4_4991f3de:
 
     # jpn "御兄弟仲が良くて\n楽しそうですね。" id story4_4991f3de
     jpn "Отношения братьев, похоже, хорошие и веселые." id story4_4991f3de
+
+# TODO: Translation updated at 2026-04-01 14:33
+
+# game/scenario/4story.rpy:27
+translate russian story4_d41d8cd9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/4story.rpy:32
+translate russian story4_d41d8cd9_1:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/4story.rpy:37
+translate russian story4_d41d8cd9_2:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/4story.rpy:48
+translate russian story4_d41d8cd9_3:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/4story.rpy:56
+translate russian story4_d41d8cd9_4:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/4story.rpy:82
+translate russian story4_d41d8cd9_5:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/4story.rpy:113
+translate russian story4_d41d8cd9_6:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/4story.rpy:128
+translate russian story4_d41d8cd9_7:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/4story.rpy:139
+translate russian story4_d41d8cd9_8:
+
+    # nvl clear
+    nvl clear
 

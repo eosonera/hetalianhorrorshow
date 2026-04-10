@@ -47,7 +47,7 @@ translate english story5_7c1520e6:
 translate english story5_6a3cf795:
 
     # story "なんて満面のしたり顔で\n行ってくるに違いない…！"
-    story "And he'd smirk at me like a right prat while he did so...!"
+    story "And he'd smirk at me like a right prat while doing so...!"
 
 # game/scenario/5story.rpy:27
 translate english story5_76b2fe88_2:
@@ -163,7 +163,7 @@ translate english story5_343eeea9:
 
     # eng "怖いのはここからだ。"
     $ eng.screen = 'center_3'
-    eng "This is where the story takes a truly scary turn.."
+    eng "This is where the story takes a truly terrifying turn."
 
 # game/scenario/5story.rpy:81
 translate english story5_e84aa9f3:
@@ -175,14 +175,14 @@ translate english story5_e84aa9f3:
 translate english story5_ca05b6a5:
 
     # eng "だが知らない\n幽霊が家にいた。\nこれはつまり…！"
-    eng "But an unfamiliar ghost had appeared in my house.\nThat could only mean...!"
+    eng "But an unfamiliar ghost had appeared in my house. That could only mean...!"
 
 # game/scenario/5story.rpy:92
 translate english story5_098fcbd0:
 
     # spa "遅れてごめんなー。\nみんなの分\nチュロス作ってきたさかい\n許したってなぁ。"
     $ spa.screen = 'right_4long'
-    spa "Sorry for showin' up late. I went ahead and made churros for everybody, so y'all better forgive me, ya hear?"
+    spa "Sorry for showin' up late.\nI went ahead and made churros for everybody, so y'all better forgive me, ya hear?"
 
 # game/scenario/5story.rpy:96
 translate english story5_cc5962b4:
@@ -224,7 +224,7 @@ translate english story5_94cee313:
 translate english story5_dc9f3461:
 
     # eng "俺のプライドの問題だ！\n後日、お前のところに行って\nもう一度最初から最後まで\n聞かせてやる！"
-    eng "It's a matter of pride for me!\nI'll be over at your place later and make you listen to the whole story again from start to finish!"
+    eng "It's a matter of pride for me!\nI'll be over at your place later and make you listen\nto the whole story again from start to finish!"
 
 # game/scenario/5story.rpy:127
 translate english story5_ffdbc5f6:
@@ -251,4 +251,54 @@ translate english story5_e134b004:
     # ame "Ｇｒｅａｔ！\nチュロス！\nチュロスじゃないか！\n俺は君に会いたかった！{nw}"
     $ ame.screen = 'left_4long'
     ame "Great!\nChurros!\nThe churros are here, right!\nI missed you, churros!{nw}"
+
+# TODO: Translation updated at 2026-04-01 13:23
+
+# game/scenario/5story.rpy:19
+translate english story5_d41d8cd9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/5story.rpy:22
+translate english story5_d41d8cd9_1:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/5story.rpy:32
+translate english story5_d41d8cd9_2:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/5story.rpy:39
+translate english story5_d41d8cd9_3:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/5story.rpy:44
+translate english story5_d41d8cd9_4:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/5story.rpy:49
+translate english story5_d41d8cd9_5:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/5story.rpy:58
+translate english story5_d41d8cd9_6:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/5story.rpy:63
+translate english story5_d41d8cd9_7:
+
+    # nvl clear
+    nvl clear
 

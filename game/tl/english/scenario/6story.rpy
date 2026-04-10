@@ -249,8 +249,8 @@ translate english story6_76b2fe88_9:
 # game/scenario/6story.rpy:135
 translate english story6_d3af068b:
 
-    # story "\nほんならいきなり\nワンさん呼吸ができんくなった！"
-    story "\nThen all of a sudden, he couldn't breathe!"
+    # story "\nほんならいきなり\nワンさん呼吸ができんくなった！{nw}"
+    story "\nThen all of a sudden, he couldn't breathe!{nw}"
 
 # game/scenario/6story.rpy:136
 translate english story6_01c97113:
@@ -434,7 +434,7 @@ translate english story6_e2a5a836:
     # nvl clear
     # story "\nスペインてそんなもんなんやな～\n国が違うから警察もちゃうんやな～なんて\n別に変に思わんかったらしい…。"
     nvl clear
-    story "\nThat's just how it is in Spain, I guess~ It's a different country, so the police must be different too~ It didn't seem to particularly surprise him..."
+    story "\nThat's just how it is in Spain, I guess~\nIt's a different country, so the police must be different too~\nIt didn't seem to particularly surprise him..."
 
 # game/scenario/6story.rpy:208
 translate english story6_76b2fe88_17:
@@ -689,7 +689,7 @@ translate english story6_a5138f04:
 translate english story6_f9d9ea8c:
 
     # spa "ほんまに！？\n美人な子やったら\nええやんなぁ！{nw}"
-    spa "Really?!\nWell, if she's a beaut', it ain't a problem!{nw}"
+    spa "Really?!\nWell, if she's a beaut',\nit ain't a problem!{nw}"
 
 # game/scenario/6story.rpy:329
 translate english story6_ecd792a2:
@@ -732,4 +732,198 @@ translate english story6_01fff8b4:
 
     # fin "つ…次こそ\nふわふわしてない話を\nさせてもらいますよ！"
     fin "N... Next time, I'll tell a story that isn't so lighthearted!"
+
+# TODO: Translation updated at 2026-04-01 13:23
+
+# game/scenario/6story.rpy:18
+translate english story6_d41d8cd9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:22
+translate english story6_d41d8cd9_1:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:37
+translate english story6_d41d8cd9_2:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:46
+translate english story6_d41d8cd9_3:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:68
+translate english story6_d41d8cd9_4:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:81
+translate english story6_d41d8cd9_5:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:99
+translate english story6_d41d8cd9_6:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:112
+translate english story6_d41d8cd9_7:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:118
+translate english story6_d41d8cd9_8:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:129
+translate english story6_d41d8cd9_9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:147
+translate english story6_d41d8cd9_10:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:159
+translate english story6_d41d8cd9_11:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:164
+translate english story6_d41d8cd9_12:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:170
+translate english story6_d41d8cd9_13:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:181
+translate english story6_d41d8cd9_14:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:186
+translate english story6_d41d8cd9_15:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:192
+translate english story6_d41d8cd9_16:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:208
+translate english story6_d41d8cd9_17:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:215
+translate english story6_d41d8cd9_18:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:218
+translate english story6_d41d8cd9_19:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:224
+translate english story6_d41d8cd9_20:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:230
+translate english story6_d41d8cd9_21:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:240
+translate english story6_d41d8cd9_22:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:247
+translate english story6_d41d8cd9_23:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:257
+translate english story6_d41d8cd9_24:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:261
+translate english story6_d41d8cd9_25:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:269
+translate english story6_d41d8cd9_26:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:273
+translate english story6_d41d8cd9_27:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:281
+translate english story6_d41d8cd9_28:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:288
+translate english story6_d41d8cd9_29:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:295
+translate english story6_d41d8cd9_30:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:302
+translate english story6_d41d8cd9_31:
+
+    # nvl clear
+    nvl clear
 

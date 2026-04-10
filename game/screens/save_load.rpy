@@ -76,7 +76,9 @@ screen file_slots(title):
                         if renpy.get_screen("save") and persistent.saveName:
                             action [Function(SetSaveName, slot), Show("savegameName", slot=slot, accept=FileSave(slot))]
                         elif renpy.get_screen("load") and FileLoadable(slot):
-                            action Show("confirm", message=_("[slot]番をロードします").replace("[slot]", f"{slot:02d}"), yes_action=FileLoad(slot, confirm=False), no_action=Hide("confirm"))
+                            action Show("confirm",
+                            message=renpy.translate_string("{slot:02d}番をロードします").format(slot=slot),
+                            yes_action=FileLoad(slot, confirm=False), no_action=Hide("confirm"))
 
                         else:
                             action [Function(SetSaveName, slot), FileAction(slot)]

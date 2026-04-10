@@ -224,7 +224,7 @@ image bg water= Fixed(
     "bg water1"
 )
 
-image bg ripples1 = WrapTiled("ripples1", speed_x=0, speed_y=-20, init_x=0.0, init_y=0)
+image bg ripples1 = WrapTiled("ripples1", speed_x=0, speed_y=-50, init_x=0.0, init_y=0)
 image ripples vfx= Fixed(
     "dust2_0",
     "dust0_0",

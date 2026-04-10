@@ -46,7 +46,8 @@ translate russian story2_2ad11d81:
 translate russian story2_89e31498:
 
     # eng "漫才じゃないぞ！{nw}" id story2_89e31498
-    eng "{size=-4}Это не комедийный номер!{/size}{nw}" id story2_89e31498
+    $ eng.screen = 'left_3'
+    eng "Это не комедийный номер!{nw}" id story2_89e31498
 
 # game/scenario/2story.rpy:61
 translate russian story2_8cef616d:
@@ -286,7 +287,7 @@ translate russian story2_76b2fe88_6:
 translate russian story2_b9d1a22f:
 
     # story "　\nその辺のおじさんが「私は宇宙人です」\nなんて話しかけてきたら笑っちゃうだろ？\n俺もおかしくなっちゃってさ。" id story2_b9d1a22f
-    story "　\nЛюбой бы посмеялся, если бы старик\nс окрестностей сказал «я пришелец», да? Вот и я подумал, что это было смешно." id story2_b9d1a22f
+    story "　\nЛюбой бы посмеялся, если бы старик с окрестностей сказал «я пришелец», да? Вот и я подумал, что это было смешно." id story2_b9d1a22f
 
 # game/scenario/2story.rpy:356
 translate russian story2_409dfccd:
@@ -498,4 +499,90 @@ translate russian story2_c892c3cc:
 
     # fin "あはは…\nきょ、今日は\n空が綺麗ですね！" id story2_c892c3cc
     fin "Ахаха...\nНебо сегодня такое красивое!" id story2_c892c3cc
+
+# TODO: Translation updated at 2026-04-01 14:33
+
+# game/scenario/2story.rpy:24
+translate russian story2_d41d8cd9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:70
+translate russian story2_d41d8cd9_1:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:151
+translate russian story2_d41d8cd9_2:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:305
+translate russian story2_d41d8cd9_3:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:322
+translate russian story2_d41d8cd9_4:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:335
+translate russian story2_d41d8cd9_5:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:351
+translate russian story2_d41d8cd9_6:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:357
+translate russian story2_d41d8cd9_7:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:399
+translate russian story2_d41d8cd9_8:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:403
+translate russian story2_d41d8cd9_9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:424
+translate russian story2_d41d8cd9_10:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:430
+translate russian story2_d41d8cd9_11:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:444
+translate russian story2_d41d8cd9_12:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/2story.rpy:451
+translate russian story2_d41d8cd9_13:
+
+    # nvl clear
+    nvl clear
 

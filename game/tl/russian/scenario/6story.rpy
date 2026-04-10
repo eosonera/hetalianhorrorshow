@@ -249,8 +249,8 @@ translate russian story6_76b2fe88_9:
 # game/scenario/6story.rpy:135
 translate russian story6_d3af068b:
 
-    # story "\nほんならいきなり\nワンさん呼吸ができんくなった！" id story6_d3af068b
-    story "\nЗатем, совершенно внезапно, Сеньор Ван больше не мог дышать!" id story6_d3af068b
+    # story "\nほんならいきなり\nワンさん呼吸ができんくなった！{nw}" id story6_d3af068b
+    story "\nЗатем, совершенно внезапно, Сеньор Ван больше не мог дышать!{nw}" id story6_d3af068b
 
 # game/scenario/6story.rpy:136
 translate russian story6_01c97113:
@@ -684,7 +684,7 @@ translate russian story6_a5138f04:
 
     # bul "女の人が胸べローンって出して\nあっけに取られてる観光客から\nスリを働くって手口が\nあるらしいんだわー。" id story6_a5138f04
     $ bul.screen = 'right_4long'
-    bul "{size=-3}Судя по всему, есть такая афера, когда женщины внезапно обнажают грудь, чтобы отвлечь туристов, а затем, пока те находятся в ошеломлении, обчищают им карманы...{/size}" id story6_a5138f04
+    bul "Судя по всему, есть такая афера, когда женщины внезапно обнажают грудь, чтобы отвлечь туристов, а затем, пока те находятся в ошеломлении, обчищают им карманы..." id story6_a5138f04
 
 # game/scenario/6story.rpy:317
 translate russian story6_f9d9ea8c:
@@ -696,7 +696,7 @@ translate russian story6_f9d9ea8c:
 translate russian story6_ecd792a2:
 
     # eng "ええやんなじゃ\nねーだろ！！{nw}" id story6_ecd792a2
-    eng "„Это не проблема“,\nкак же это не проблема!!»{nw}" id story6_ecd792a2
+    eng "„Это не проблема“,\nкак же это не проблема!!{nw}" id story6_ecd792a2
 
 # game/scenario/6story.rpy:342
 translate russian story6_e4df78e9:
@@ -733,4 +733,198 @@ translate russian story6_01fff8b4:
 
     # fin "つ…次こそ\nふわふわしてない話を\nさせてもらいますよ！" id story6_01fff8b4
     fin "В-...в следующий раз я точно-точно расскажу совсем не милую историю!" id story6_01fff8b4
+
+# TODO: Translation updated at 2026-04-01 14:33
+
+# game/scenario/6story.rpy:18
+translate russian story6_d41d8cd9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:22
+translate russian story6_d41d8cd9_1:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:37
+translate russian story6_d41d8cd9_2:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:46
+translate russian story6_d41d8cd9_3:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:68
+translate russian story6_d41d8cd9_4:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:81
+translate russian story6_d41d8cd9_5:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:99
+translate russian story6_d41d8cd9_6:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:112
+translate russian story6_d41d8cd9_7:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:118
+translate russian story6_d41d8cd9_8:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:129
+translate russian story6_d41d8cd9_9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:147
+translate russian story6_d41d8cd9_10:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:159
+translate russian story6_d41d8cd9_11:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:164
+translate russian story6_d41d8cd9_12:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:170
+translate russian story6_d41d8cd9_13:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:181
+translate russian story6_d41d8cd9_14:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:186
+translate russian story6_d41d8cd9_15:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:192
+translate russian story6_d41d8cd9_16:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:208
+translate russian story6_d41d8cd9_17:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:215
+translate russian story6_d41d8cd9_18:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:218
+translate russian story6_d41d8cd9_19:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:224
+translate russian story6_d41d8cd9_20:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:230
+translate russian story6_d41d8cd9_21:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:240
+translate russian story6_d41d8cd9_22:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:247
+translate russian story6_d41d8cd9_23:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:257
+translate russian story6_d41d8cd9_24:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:261
+translate russian story6_d41d8cd9_25:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:269
+translate russian story6_d41d8cd9_26:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:273
+translate russian story6_d41d8cd9_27:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:281
+translate russian story6_d41d8cd9_28:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:288
+translate russian story6_d41d8cd9_29:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:295
+translate russian story6_d41d8cd9_30:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/6story.rpy:302
+translate russian story6_d41d8cd9_31:
+
+    # nvl clear
+    nvl clear
 

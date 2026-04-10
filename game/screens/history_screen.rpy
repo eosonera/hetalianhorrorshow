@@ -59,7 +59,7 @@ screen history():
                                 substitute False
 
             if not _history_list:
-                label _(" ")
+                label (" ")
 
         vbar value YScrollValue("hist_vp") style "history_vscrollbar":
             xpos 674

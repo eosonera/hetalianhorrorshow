@@ -251,3 +251,53 @@ translate russian story5_e134b004:
     # ame "Ｇｒｅａｔ！\nチュロス！\nチュロスじゃないか！\n俺は君に会いたかった！{nw}" id story5_e134b004
     ame "Great! \nЧуррос!\nЧуррос уже здесь!\nЯ скучал по тебе, чуррос!{nw}" id story5_e134b004
 
+# TODO: Translation updated at 2026-04-01 14:33
+
+# game/scenario/5story.rpy:19
+translate russian story5_d41d8cd9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/5story.rpy:22
+translate russian story5_d41d8cd9_1:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/5story.rpy:32
+translate russian story5_d41d8cd9_2:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/5story.rpy:39
+translate russian story5_d41d8cd9_3:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/5story.rpy:44
+translate russian story5_d41d8cd9_4:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/5story.rpy:49
+translate russian story5_d41d8cd9_5:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/5story.rpy:58
+translate russian story5_d41d8cd9_6:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/5story.rpy:63
+translate russian story5_d41d8cd9_7:
+
+    # nvl clear
+    nvl clear
+

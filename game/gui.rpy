@@ -226,14 +226,6 @@ define gui.vslider_borders = Borders(3, 3, 3, 3)
 
 
 
-## Localization ################################################################
-
-## This controls where a line break is permitted. The default is suitable
-## for most languages. A list of available values can be found at 
-## https://www.renpy.org/doc/html/style_properties.html#style-property-language
-
-define gui.language = "japanese-strict"
-
 
 ################################################################################
 ## Mobile devices

@@ -142,7 +142,7 @@ translate russian story7_aa94871d:
 translate russian story7_ad8be397:
 
     # rom "え？　あっ！ちょうど\n時間が出来たというか！\n{size=-5}{color=#C0C0C0}…ちょっと待っててねー{/color}{/size}" id story7_ad8be397
-    rom "Э? А! Думаю, можно сказать, что это заняло немного времени!\n{size=-5}{color=#C0C0C0}...погоди немного{/color}{/size}" id story7_ad8be397
+    rom "Э? А! Думаю, можно сказать, что это заняло немного времени!\n{size=-2}{color=#C0C0C0}...погоди немного{/color}{/size}" id story7_ad8be397
 
 # game/scenario/7story.rpy:228
 translate russian story7_3b83e8e1:
@@ -459,7 +459,7 @@ translate russian story7_79b6d094:
 translate russian story7_6aebc3e7:
 
     # fin "え…？　もしかして\nお菓子とジュースに\n今の話の薬が…？" id story7_6aebc3e7
-    fin "Э...? Ты что,\nдобавил то лекарство“\nв сладости и сок...?" id story7_6aebc3e7
+    fin "Э...? Ты что, добавил то лекарство“ в сладости и сок...?" id story7_6aebc3e7
 
 # game/scenario/7story.rpy:549
 translate russian story7_ae8f0180:
@@ -471,7 +471,7 @@ translate russian story7_ae8f0180:
 translate russian story7_f01bac54:
 
     # eng "そ、そうだ…！\nそんな薬あるわけないだろ！\n{size=-5}ってお前俺に対してどんな認識なんだよ！{/size}" id story7_f01bac54
-    eng "В-верно...!\nТакого просто не может быть!\n{size=-5}Хей, ты че там вякнул про меня?!{/size}" id story7_f01bac54
+    eng "В-верно...!\nТакого просто не может быть!\n{size=-3}Хей, ты че там вякнул про меня?!{/size}" id story7_f01bac54
 
 # game/scenario/7story.rpy:560
 translate russian story7_85172fa2:
@@ -507,7 +507,7 @@ translate russian story7_c516660c:
 translate russian story7_6208f4e2:
 
     # ger "どうやったら\nお前にそれが作れる！？\nということを平気でやるのが\nロシアではないのか！" id story7_6208f4e2
-    ger "„Как кто-то вообще\nможет такое сделать!?“\nРоссия как раз и славится тем, что делает такие вещи с легкостью!" id story7_6208f4e2
+    ger "„Как кто-то вообще может такое сделать!?“\nРоссия как раз и славится тем, что делает такие вещи с легкостью!" id story7_6208f4e2
 
 # game/scenario/7story.rpy:596
 translate russian story7_3dd0a280:
@@ -519,13 +519,13 @@ translate russian story7_3dd0a280:
 translate russian story7_749dc914:
 
     # jpn "例えもし本当に\n効果があったとしても\n永続的に脳をコントロールし\n続けることはできないはず…！" id story7_749dc914
-    jpn "Даже если это „лекарство“\nправда существует и работает,\nоно не может контролировать\nнаш разум бесконечно...!" id story7_749dc914
+    jpn "Даже если это „лекарство“ правда существует и работает, оно не может контролировать наш разум бесконечно...!" id story7_749dc914
 
 # game/scenario/7story.rpy:610
 translate russian story7_48aa3636:
 
     # spa "せやけど一時的でも\nコントロールされとる間に\n次の飲まされたら\n終わりなんちゃう？" id story7_48aa3636
-    spa "Но, даже если эффект длится\nвсего час, мы попали, он же\nможет заставить нас выпить ещё,\nпока мы под его контролем, да?" id story7_48aa3636
+    spa "Но, даже если эффект длится всего час, мы попали, он же может заставить нас выпить ещё, пока мы под его контролем, да?" id story7_48aa3636
 
 # game/scenario/7story.rpy:614
 translate russian story7_c962e036:
@@ -537,7 +537,7 @@ translate russian story7_c962e036:
 translate russian story7_3bf446ee:
 
     # spa "あっせやけどお願い聞こえんくらい\n離れたら大丈夫や思うで！\nほな！帰ろかー！" id story7_3bf446ee
-    spa "Ах, но думаю, что пока мы не слышим\nего приказ, мы можем уйти и всё будет\nв порядке! Сейчас! Идёмте домой!" id story7_3bf446ee
+    spa "Ах, но думаю, что пока мы не слышим его приказ, мы можем уйти и всё будет в порядке!\nСейчас! Идёмте домой!" id story7_3bf446ee
 
 # game/scenario/7story.rpy:637
 translate russian story7_7a388682:
@@ -670,7 +670,7 @@ translate russian stophim_06388748:
 translate russian stophim_d2a17599:
 
     # eng "はははは！ロシア、お前が\nこの程度で引っ込むとは\nやはり薬ははったりだったか！\n多分はったりだ！はったりだよな…？" id stophim_d2a17599
-    eng "{size=-3}Хахахаха! Россия, если такая мелочь заставила тебя отступить, значит  „лекарство“ правда было брехней, как я и думал! Наверняка это всё чушь! Брехня, да ведь...?{/size}" id stophim_d2a17599
+    eng "Хахахаха! Россия, если такая мелочь заставила тебя отступить, значит  „лекарство“ правда было брехней, как я и думал! Наверняка это всё чушь! Брехня, да ведь...?" id stophim_d2a17599
 
 # game/scenario/7story.rpy:830
 translate russian stophim_249636d1:
@@ -778,7 +778,7 @@ translate russian stophim_37131345:
 translate russian stophim_dbc52dbc:
 
     # rus "これ？　何でも許して\nもらえる魔法の言葉だよ\nあっ、そうだ！" id stophim_dbc52dbc
-    rus "{size=-3}Это? Это волшебное слово, которое заставляет всех простить что угодно. Ах, точно!{/size}" id stophim_dbc52dbc
+    rus "Это? Это волшебное слово, которое заставляет всех простить что угодно. Ах, точно!" id stophim_dbc52dbc
 
 # game/scenario/7story.rpy:916
 translate russian stophim_d118f906:
@@ -832,7 +832,7 @@ translate russian donothing_d70e96ff:
 translate russian donothing_b8455794:
 
     # ame "確かに今の俺には\n君に対抗できる力が出せない。\nだがそれで俺は諦めない！{nw}" id donothing_b8455794
-    ame "Я определенно не могу использовать сейчас свои силы, чтобы противостоять тебе. Но я не сдамся!{nw}" id donothing_b8455794
+    ame "Я определенно не могу использовать сейчас свои силы, чтобы противостоять тебе.\nНо я не сдамся!{nw}" id donothing_b8455794
 
 # game/scenario/7story.rpy:1006
 translate russian donothing_4db270a6:
@@ -862,7 +862,7 @@ translate russian donothing_7b331410:
 translate russian donothing_a2cc0ec7:
 
     # ame "っていう映画を\n作ろうと思ってるんだよ！\nどうだい面白そうだろう！" id donothing_a2cc0ec7
-    ame "...Я подумываю снять\nфильм по типу такого!\nЧе думаешь? Интересно, да?!" id donothing_a2cc0ec7
+    ame "...Я подумываю снять фильм по типу такого! Че думаешь? Интересно, да?!" id donothing_a2cc0ec7
 
 # game/scenario/7story.rpy:1050
 translate russian donothing_7c44211d:
@@ -882,7 +882,7 @@ translate russian donothing_427f0b6c:
 
     # rus "だって多少時代背景や\n舞台設定に無理があっても\n何が何でも僕を黒幕\nしたがるじゃない…。{nw=5.0}" id donothing_427f0b6c
     $ rus.screen = 'left_4long'
-    rus "{size=-3}Потому что даже когда это не вписывается в исторический контекст или обстановку рассказа, ты всегда настаиваешь на том, чтобы сделать меня злодейским вдохновителем...{/size}{nw=5.0}" id donothing_427f0b6c
+    rus "Потому что даже когда это не вписывается в исторический контекст или обстановку рассказа, ты всегда настаиваешь на том, чтобы сделать меня злодейским вдохновителем...{nw=5.0}" id donothing_427f0b6c
 
 # game/scenario/7story.rpy:1064
 translate russian donothing_049c45b4:
@@ -900,20 +900,20 @@ translate russian donothing_cea25ed6:
 translate russian donothing_b92b412d:
 
     # rus "そうかなぁ。\n君よりはクリーンなつもりだよ？\nだって何が起こっても\n背後は僕！って言われるじゃない。{nw=5.0}" id donothing_b92b412d
-    rus "{size=-3}Вот как?\nЯ думаю, что я более честный, чем ты, ты же знаешь? В конце концов, что бы ни случилось, все говорят, что это я за этим стою.{/size}{nw=5.0}" id donothing_b92b412d
+    rus "Вот как?\nЯ думаю, что я более честный, чем ты, ты же знаешь? В конце концов, что бы ни случилось, все говорят, что это я за этим стою.{nw=5.0}" id donothing_b92b412d
 
 # game/scenario/7story.rpy:1076
 translate russian donothing_9f34fc55:
 
     # rus "…まあその通りなんだけど。\nそれってとってもわかりやすくて\nみんなから見えてるわけだから\n陰謀や黒幕とは言えないよ。{nw=5.0}" id donothing_9f34fc55
-    rus "{size=-2}...ну, вот так вот.\nНо поскольку это так очевидно и каждый может это предсказать, их нельзя назвать интригами или гениальными планами.{/size}{nw=5.0}" id donothing_9f34fc55
+    rus "...ну, вот так вот.\nНо поскольку это так очевидно и каждый может это предсказать, их нельзя назвать интригами или гениальными планами.{nw=5.0}" id donothing_9f34fc55
 
 # game/scenario/7story.rpy:1080
 translate russian donothing_d19cefa0:
 
     # ame "た、確かに…！\n映画的にも黒幕予想が\nイージーすぎて\nナンセンスだね！{nw=5.0}" id donothing_d19cefa0
     $ rus.screen = 'right_4long'
-    ame "{size=-2}И-, и правда...!\nЕсли в фильме легко угадать, кто является главным злодеем, это просто nonsense!{/size}{nw=5.0}" id donothing_d19cefa0
+    ame "И-, и правда...!\nЕсли в фильме легко угадать, кто является главным злодеем, это просто nonsense!{nw=5.0}" id donothing_d19cefa0
 
 # game/scenario/7story.rpy:1086
 translate russian donothing_f443eb14:
@@ -937,7 +937,7 @@ translate russian donothing_780e2b04:
 translate russian donothing_158654f4:
 
     # rus "フランス君ほどとは\n言わないけどひねろうよ。\nスペイン君みたいに\n最後の５分で暴走するのも良いね。{nw=5.0}" id donothing_158654f4
-    rus "{size=-2}Не увлекайтесь, как Франция, а постарайтесь внести в сюжет неожиданный поворот. Было бы славно разгуляться в последние пять минут, как это делает Испания.{/size}{nw=5.0}" id donothing_158654f4
+    rus "Не увлекайтесь, как Франция, а постарайтесь внести в сюжет неожиданный поворот. Было бы славно разгуляться в последние пять минут, как это делает Испания.{nw=5.0}" id donothing_158654f4
 
 # game/scenario/7story.rpy:1098
 translate russian donothing_820f8046:
@@ -949,7 +949,7 @@ translate russian donothing_820f8046:
 translate russian donothing_00bfdef7:
 
     # rus "家の中の怪奇現象は全部\n宇宙人がやってましたオチと\n友だちが悪魔化して全滅オチ\nじゃないよね？{nw=5.0}" id donothing_00bfdef7
-    rus "{size=-4}Это же не та концовка, где оказывается, что все странности были созданы пришельцами или концовка, где друзья вдруг становятся демонами и уничтожают всё вокруг, да?{/size}{nw=5.0}" id donothing_00bfdef7
+    rus "Это же не та концовка, где оказывается, что все странности были созданы пришельцами или концовка, где друзья вдруг становятся демонами и уничтожают всё вокруг, да?{nw=5.0}" id donothing_00bfdef7
 
 # game/scenario/7story.rpy:1105
 translate russian donothing_fa690420:
@@ -966,4 +966,72 @@ translate russian strings:
     # game/scenario/7story.rpy:732
     old "俺が止める！！"
     new "С меня хватит!!"
+
+# TODO: Translation updated at 2026-04-01 14:33
+
+# game/scenario/7story.rpy:400
+translate russian story7_d41d8cd9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/7story.rpy:418
+translate russian story7_d41d8cd9_1:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/7story.rpy:428
+translate russian story7_d41d8cd9_2:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/7story.rpy:436
+translate russian story7_d41d8cd9_3:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/7story.rpy:443
+translate russian story7_d41d8cd9_4:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/7story.rpy:447
+translate russian story7_d41d8cd9_5:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/7story.rpy:451
+translate russian story7_d41d8cd9_6:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/7story.rpy:455
+translate russian story7_d41d8cd9_7:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/7story.rpy:459
+translate russian story7_d41d8cd9_8:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/7story.rpy:466
+translate russian story7_d41d8cd9_9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/7story.rpy:470
+translate russian story7_d41d8cd9_10:
+
+    # nvl clear
+    nvl clear
 

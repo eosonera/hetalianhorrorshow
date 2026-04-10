@@ -206,7 +206,7 @@ label story1:
     ## Flash to forest
     scene bg forest2
     show nvl_textbox
-    with fade_white
+    with {'master': Dissolve(0.2)}
     story "助けを呼ぼうにも僕自身人がいない場所を\n選んできているので絶望的です。\n携帯電話の類も全部\nおいてきてしまっています。" id story1_5158e7b2
     story "ポケットにあるのはサルミアッキのみ！\nサルミアッキはおいしいけれど\n僕のピンチを救ってはくれない！" id story1_38e85ade
     nvl clear
@@ -214,14 +214,14 @@ label story1:
     ## Back to water
     scene bg water
     show nvl_textbox
-    with fade_white
+    with {'master': Dissolve(0.2)}
     
     story "なんとか地上に残った片足で踏ん張りましたが、\nふわふわした雪が、僕の足のバランスを奪います。" id story1_799336c0
     play sound "sfx/crash18_f.ogg"
     camera at sshake
     camera screens at sshake
     story "バキバキバキっ！{nw=0.5}" id story1_57af3057
-    extend "\n氷が派手に割れたー！" id story1_b8725207
+    extend "\n氷が派手に割れたー！{nw=0.5}" id story1_b8725207
     camera
     camera screens
 
@@ -232,12 +232,12 @@ label story1:
     play sound1 "sfx/SPLASH3.wav"
     show bg ripples1 
     show ripples vfx
-    with SquareScatter(time=0.5, grid=12)
-    pause
+    with SquareScatter(time=0.5, grid=16)
+    pause 30
 
     $ quick_menu = True
     window auto
-    show nvl_textbox
+    show nvl_textbox with {'master': Dissolve(0.2)}
     story "おひゃあ！もう駄目だ…！\n落ちる…！" id story1_4c08f6d0
     nvl clear
 
@@ -255,7 +255,7 @@ label story1:
 
     $ quick_menu = False
     scene bg ripples1
-    with SquareScatter(time=0.5, grid=12)
+    with SquareScatter(time=0.5, grid=16)
     show ripples vfx
     show nvl_textbox
     $ quick_menu = True
@@ -277,7 +277,7 @@ label story1:
         pause 2.5
         linear 0.5 alpha 0.0
     show white screen behind nvl_textbox
-    story "\nフードに何かが引っかかったような感触がして\n何が起こったのか確認する間もなく、\n僕の体は一気に引っ張られました！{nw=2}" id story1_ef982f81
+    story "\nフードに何かが引っかかったような感触がして\n何が起こったのか確認する間もなく、\n僕の体は一気に引っ張られました！{nw}" id story1_ef982f81
     
     $ quick_menu = False
     camera screens at old_film_distort_x
@@ -331,7 +331,7 @@ label story1:
 
     pause 1
 
-    story "{cps=5}……………。{/cps}{nw}" id story1_15a4b966
+    story "{cps=3}……………。{/cps}{nw}" id story1_15a4b966
     hide swe_anim with {'master': Dissolve(0.2)}
     extend ""
     nvl clear

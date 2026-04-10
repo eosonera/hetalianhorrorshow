@@ -58,13 +58,13 @@ translate russian start_d6cfb26b:
 translate russian start_c66e6f28:
 
     # bul "ロシアさんは？" id start_c66e6f28
-    bul "{size=-5}Что на счет России?{/size}" id start_c66e6f28
+    bul "Что на счет России?" id start_c66e6f28
 
 # game/script.rpy:63
 translate russian start_028db6fd:
 
     # rom "え！？ えーと…。\nロシアさんは{size=-5}存在自体がー…\n怖いっていうか…。{/size}" id start_028db6fd
-    rom "Э?! Ну...\nодно только {size=-5}его присутствие...\nвызывает страх...{/size}" id start_028db6fd
+    rom "Э?! Ну...\nодно только {size=-2}его присутствие...\nвызывает страх...{/size}" id start_028db6fd
 
 # game/script.rpy:67
 translate russian start_4a9432bb:
@@ -180,7 +180,7 @@ translate russian start_fcb03828:
 translate russian start_7c634a5e:
 
     # rom "どうすればいいんだよぅこれー。{nw=1}" id start_7c634a5e
-    rom "Что же мне теперь делааать?{nw=1}" id start_7c634a5e
+    rom "Что же мне теперь делааать?{cps=1}             {/cps}{nw}" id start_7c634a5e
 
 # game/script.rpy:194
 translate russian start_6f8a9988:

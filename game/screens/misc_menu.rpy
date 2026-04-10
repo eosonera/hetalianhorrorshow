@@ -69,10 +69,10 @@ translate english python:
 ## Misc Options ################################################################
 #################################################################################
 
-if renpy.variant("mobile"):
-    default persistent.saveName = False
-else:
+if renpy.variant("pc") or renpy.variant("web"):
     default persistent.saveName = True
+else:
+    default persistent.saveName = False
 
 screen preferences():
 
@@ -91,56 +91,71 @@ screen preferences():
         xpos 138
         ypos 109
 
+
+    style_prefix "pref2"
     viewport:
         xpos 230
         ypos 202
         xsize 468
         ysize 232
 
-        mousewheel True draggable True pagekeys True
-        scrollbars "vertical"
+        mousewheel False draggable False pagekeys False
+        #scrollbars "vertical"
         has vbox
 
         hbox:
             box_wrap True
             spacing 10
 
-            if renpy.variant("pc") or renpy.variant("web"):
-                # Only need fullscreen/windowed on desktop and web builds
+            vbox:
+                if renpy.variant("pc") or renpy.variant("web"):
+                    # Only need fullscreen/windowed on desktop and web builds
+                    vbox:
+                        spacing 20
+                        style_prefix "radio"
+                        label _("ディスプレイ")
+                        textbutton _("ウィンドウ"):
+                            # Ensures this button is selected when
+                            # not in fullscreen.
+                            selected not preferences.fullscreen
+                            action Preference("display", "window")
+                        textbutton _("フルスクリーン"):
+                            action Preference("display", "fullscreen")
+
+                if renpy.variant("pc") or renpy.variant("web"):
+                    vbox:
+                        spacing 10
+                        style_prefix "radio"
+                        label _("セーブメモ")
+                        textbutton _("On") action [SetVariable("persistent.saveName", True)]
+                        textbutton _("Off") action [SetVariable("persistent.saveName", False)]
+
+            vbox:
+                spacing 10
+                vbox:
+                    spacing 10
+                    style_prefix "radio"
+                    label _("未読テキストもスキップ")
+                    textbutton _("On"):
+                        action Preference("skip", "all")
+                    textbutton _("Off"):
+                        action Preference("skip", "seen")
 
                 vbox:
                     spacing 10
                     style_prefix "radio"
-                    label _("ディスプレイ")
-                    textbutton _("ウィンドウ"):
-                        # Ensures this button is selected when
-                        # not in fullscreen.
-                        selected not preferences.fullscreen
-                        action Preference("display", "window")
-                    textbutton _("フルスクリーン"):
-                        action Preference("display", "fullscreen")
+                    label _("選択肢の後もスキップ継続")
+                    textbutton _("On"):
+                        action Preference("after choices", "skip")
+                    textbutton _("Off"):
+                        action Preference("after choices", "stop")
 
-            vbox:
-                spacing 0
-                style_prefix "check"
-                #label _("スキップ")
-                textbutton _("未読テキストもスキップ"):
-                    action Preference("skip", "toggle")
-                textbutton _("選択肢の後もスキップ継続"):
-                    action Preference("after choices", "toggle")
-                #textbutton _("トランジションもスキップ"):
-                    #action InvertSelected(Preference("transitions", "toggle"))
             
-            if renpy.variant("pc") or renpy.variant("web"):
-                vbox:
-                    style_prefix "radio"
-                    label _("Save game names")
-                    textbutton _("Yes") action [SetVariable("persistent.saveName", True)]
-                    textbutton _("No") action [SetVariable("persistent.saveName", False)]
+
 
         style_prefix "remover"
-        null height 50
-        textbutton ("DELETE ALL SAVE DATA"):
+        null height 20
+        textbutton _("DELETE ALL SAVE DATA"):
             action Confirm(_("全てのセーブデータを消去しますか？"), Function(delete_all_saves), no=None)
 
 style remover_button_text:
@@ -148,6 +163,8 @@ style remover_button_text:
     size 20
     hover_color "#000"
     outlines [(1.2, "#fff", 0, 0)]
+
+#style pref2_vscrollbar is history_vscrollbar
 
 
 #################################################################################
@@ -168,7 +185,7 @@ screen about():
         ypos 109
     
     add "gui/scrollbar/log_1.png":
-        xpos 684
+        xpos 680
         ypos 201
 
     if renpy.variant("mobile"):
@@ -200,12 +217,33 @@ screen about():
                 label _("クレジット")
                 hbox:
                     style_prefix "about1"
-                    label _("制作")
-                    text ("{a=https://eosonera.tumblr.com/}eosonera{/a}")
+                    label ("{a=https://eosonera.tumblr.com/}eosonera{/a}")
+                    text _("制作")
                 hbox:
                     style_prefix "about1"
-                    label _("English translation")
-                    text ("{a=https://eosonera.tumblr.com/}spaghetti{/a}")
+                    label ("{a=http://spaghettifelice.tumblr.com/}spaghetti{/a}")
+                    text _("English translation")
+                null height 5
+                hbox:
+                    style_prefix "about1"
+                    label ("{a=https://www.tumblr.com/sunflowerpieivan}sunflowerpieivan{/a}")
+                    text _("Russian translation")
+                hbox:
+                    style_prefix "about1"
+                    label ("{a=http://y4nderenka.livejournal.com/profile}renka{/a}")
+                    text _("Previous English translation")  
+            
+                null height 10
+
+                label _("Special thanks to")
+                hbox:
+                    style_prefix "about1"
+                    label ("Badmustard")
+                    text ("Renpy save game names")
+                hbox:
+                    style_prefix "about1"
+                    label ("Feniksdev")
+                    text ("Marquee for Ren'Py, Controller Support")
 
         
             

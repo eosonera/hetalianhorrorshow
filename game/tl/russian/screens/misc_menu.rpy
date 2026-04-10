@@ -60,7 +60,7 @@ translate russian strings:
 
     # game/screens/misc_menu.rpy:186
     old "Full fan remake and translation of The Hetalian Horror Show by the hetascanlations team."
-    new "Full fan remake and translation of The Hetalian Horror Show by the hetascanlations team."
+    new "Полная фанатская переработка и перевод игры «The Hetalian Horror Show» от команды hetascanlations."
 
     # game/screens/misc_menu.rpy:191
     old "クレジット"
@@ -68,7 +68,7 @@ translate russian strings:
 
     # game/screens/misc_menu.rpy:194
     old "制作"
-    new ""
+    new "Программист"
 
     # game/screens/misc_menu.rpy:234
     old "Help"
@@ -205,4 +205,40 @@ translate russian strings:
     # game/screens/misc_menu.rpy:366
     old "キャリブレート"
     new "Калибровка"
+
+# TODO: Translation updated at 2026-04-01 14:33
+
+translate russian strings:
+
+    # game/screens/misc_menu.rpy:130
+    old "On"
+    new "Вкл"
+
+    # game/screens/misc_menu.rpy:138
+    old "未読テキストもスキップ"
+    new "Пропустить непрочитанный текст"
+
+    # game/screens/misc_menu.rpy:147
+    old "選択肢の後もスキップ継続"
+    new "Продолжайте пропускать варианты после выбора"
+
+    # game/screens/misc_menu.rpy:158
+    old "DELETE ALL SAVE DATA"
+    new ""
+
+    # game/screens/misc_menu.rpy:225
+    old "English translation"
+    new ""
+
+    # game/screens/misc_menu.rpy:229
+    old "Special thanks to"
+    new ""
+
+    # game/screens/misc_menu.rpy:442
+    old "Menu"
+    new ""
+
+    # game/screens/misc_menu.rpy:501
+    old "Made with {a=https://ja.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
+    new ""
 

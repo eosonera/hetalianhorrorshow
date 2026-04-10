@@ -710,6 +710,7 @@ label story7:
     hide england
     hide america
     hide bulgaria
+    with {'chara':Dissolve(0.2)}
 
     ## New scene
     scene bg aura1
@@ -966,11 +967,11 @@ label story7:
         rus "君って意外と\n神経図太いよね{nw=2.0}" id stophim_e1c6c2ea
 
         scene bg exterior4
-        pause
+        pause 2
         scene bg exterior5
-        pause 7
+        pause 2
         scene bg exterior6
-        pause 7
+        pause 2
         scene bg exterior8
         pause
         stop music

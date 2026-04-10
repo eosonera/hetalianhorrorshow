@@ -282,7 +282,7 @@ translate russian story3_a43bbb4e:
 translate russian story3_579c308d:
 
     # story "当日私は傘を差しておりましたし、\nなにより洋装でしたから…。{nw}" id story3_579c308d
-    story "Но сам я держал зонт и, кроме того,\nбыл одет на западный манер...{nw}" id story3_579c308d
+    story "Но сам я держал зонт и, кроме того, был одет на западный манер...{nw}" id story3_579c308d
 
 # game/scenario/3story.rpy:193
 translate russian story3_da67871a:
@@ -686,7 +686,7 @@ translate russian story3_ffe4e766:
 
     # ger "どうも気になる話だな\n俺の方で調査してみよう\n後で詳しい場所と証言を頼む" id story3_ffe4e766
     $ ger.screen = 'right_4long'
-    ger "Довольно увлекательная история.\nЯ попробую расследовать этот случай. Позже я спрошу больше деталей." id story3_ffe4e766
+    ger "Довольно увлекательная история.\nЯ попробую расследовать этот случай.\nПозже я спрошу больше деталей." id story3_ffe4e766
 
 # game/scenario/3story.rpy:428
 translate russian story3_2fa621a2:
@@ -702,6 +702,176 @@ translate russian story3_e7f27d58:
 
 # game/scenario/3story.rpy:436
 translate russian story3_76b2fe88_27:
+
+    # nvl clear
+    nvl clear
+
+# TODO: Translation updated at 2026-04-01 14:33
+
+# game/scenario/3story.rpy:27
+translate russian story3_d41d8cd9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:38
+translate russian story3_d41d8cd9_1:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:47
+translate russian story3_d41d8cd9_2:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:62
+translate russian story3_d41d8cd9_3:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:82
+translate russian story3_d41d8cd9_4:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:98
+translate russian story3_d41d8cd9_5:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:104
+translate russian story3_d41d8cd9_6:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:125
+translate russian story3_d41d8cd9_7:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:134
+translate russian story3_d41d8cd9_8:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:139
+translate russian story3_d41d8cd9_9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:179
+translate russian story3_d41d8cd9_10:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:194
+translate russian story3_d41d8cd9_11:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:199
+translate russian story3_d41d8cd9_12:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:211
+translate russian story3_d41d8cd9_13:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:234
+translate russian story3_d41d8cd9_14:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:247
+translate russian story3_d41d8cd9_15:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:253
+translate russian story3_d41d8cd9_16:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:259
+translate russian story3_d41d8cd9_17:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:264
+translate russian story3_d41d8cd9_18:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:277
+translate russian story3_d41d8cd9_19:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:286
+translate russian story3_d41d8cd9_20:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:299
+translate russian story3_d41d8cd9_21:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:308
+translate russian story3_d41d8cd9_22:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:327
+translate russian story3_d41d8cd9_23:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:378
+translate russian story3_d41d8cd9_24:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:384
+translate russian story3_d41d8cd9_25:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:395
+translate russian story3_d41d8cd9_26:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:436
+translate russian story3_d41d8cd9_27:
 
     # nvl clear
     nvl clear

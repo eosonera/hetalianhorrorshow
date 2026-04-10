@@ -115,7 +115,7 @@ translate russian story1_4bb829d1:
 translate russian story1_4ec0b15b:
 
     # story "森に入っていくときの苔を踏む音。\n苔って種類によって\n踏んだ時の音が違うんです。" id story1_4ec0b15b
-    story "Лесной мох издает звуки пока ты шагаешь по нему.\nЗвук различается в зависимости от\nвида мха." id story1_4ec0b15b
+    story "Лесной мох издает звуки пока ты шагаешь по нему. Звук различается в зависимости от вида мха." id story1_4ec0b15b
 
 # game/scenario/1story.rpy:80
 translate russian story1_515c0840:
@@ -169,7 +169,7 @@ translate russian story1_76b2fe88_7:
 translate russian story1_57025bb1:
 
     # story "あっでもヘラジカ君には\n気を付けて下さいね。\nヘラジカ君酔った勢いで\n人跳ねますから…。\n\n毎年僕も跳ねられるんですよね…。\n強すぎます…。" id story1_57025bb1
-    story "Ах, только остерегайтесь лосей, пожалуйста.\nОни могут ужасно опьянеть\nи выскочить на вас...\n\nЭто случается со мной каждый год, ну знаете...?\nОни слишком сильные..." id story1_57025bb1
+    story "Ах, только остерегайтесь лосей, пожалуйста. Они могут ужасно опьянеть и выскочить на вас...\n\nЭто случается со мной каждый год, ну знаете...?\nОни слишком сильные..." id story1_57025bb1
 
 # game/scenario/1story.rpy:107
 translate russian story1_76b2fe88_8:
@@ -181,7 +181,7 @@ translate russian story1_76b2fe88_8:
 translate russian story1_40ae678a:
 
     # story "トコトコ歩いていくと\nちょうど良いくぼみがありまして\n僕はそこで数日間過ごすことにしました。" id story1_40ae678a
-    story "Я бежал рысью\nи наткнулся на подходящую лощину,\nпоэтому решил остановиться там на пару дней." id story1_40ae678a
+    story "Я бежал рысью и наткнулся на подходящую лощину, поэтому решил остановиться там на пару дней." id story1_40ae678a
 
 # game/scenario/1story.rpy:119
 translate russian story1_67044706:
@@ -263,13 +263,13 @@ translate russian story1_30985ce0:
 translate russian story1_fdc500c9:
 
     # story "そして僕はまだ誰も踏んでいない\n真っ白に囲まれている！！" id story1_fdc500c9
-    story "Я был окружен безупречной белизной,\nна которую ещё никто не ступал!!" id story1_fdc500c9
+    story "Я был окружен безупречной белизной, на которую ещё никто не ступал!!" id story1_fdc500c9
 
 # game/scenario/1story.rpy:157
 translate russian story1_e700ed26:
 
     # story "僕は嬉しくなって\n足跡を付け始めました。" id story1_e700ed26
-    story "Я был счастлив\nи стал прокладывать тропу." id story1_e700ed26
+    story "Я был счастлив и стал прокладывать тропу." id story1_e700ed26
 
 # game/scenario/1story.rpy:158
 translate russian story1_76b2fe88_11:
@@ -337,7 +337,7 @@ translate russian story1_7e157b70:
 translate russian story1_27af72b2:
 
     # story "そんな場所に踏み入れてしまった僕の体は\n足先からずぶずぶと薄い氷の\nその先へと向かっていきます。" id story1_27af72b2
-    story "Я бездумно ступил туда\nи теперь под моим собственным весом\nменя затягивало в снег навстречу тонкому слою льда." id story1_27af72b2
+    story "Я бездумно ступил туда\nи теперь под моим собственным весом меня затягивало в снег навстречу тонкому слою льда." id story1_27af72b2
 
 # game/scenario/1story.rpy:204
 translate russian story1_76b2fe88_13:
@@ -367,7 +367,7 @@ translate russian story1_76b2fe88_14:
 translate russian story1_799336c0:
 
     # story "なんとか地上に残った片足で踏ん張りましたが、\nふわふわした雪が、僕の足のバランスを奪います。" id story1_799336c0
-    story "Я твёрдо поставил ногу, которая каким-то образом осталась на поверхности,\nно из-за мягкого снега я потерял баланс." id story1_799336c0
+    story "Я твёрдо поставил ногу, которая каким-то образом осталась на поверхности, но из-за мягкого снега я потерял баланс." id story1_799336c0
 
 # game/scenario/1story.rpy:223
 translate russian story1_57af3057:
@@ -378,8 +378,8 @@ translate russian story1_57af3057:
 # game/scenario/1story.rpy:224
 translate russian story1_b8725207:
 
-    # extend "\n氷が派手に割れたー！" id story1_b8725207
-    extend "\nЛед разломился в мгновение ока!" id story1_b8725207
+    # extend "\n氷が派手に割れたー！{nw}" id story1_b8725207
+    extend "\nЛед разломился в мгновение ока!{nw=0.5}" id story1_b8725207
 
 # game/scenario/1story.rpy:241
 translate russian story1_4c08f6d0:
@@ -403,7 +403,7 @@ translate russian story1_b12e0b34:
 translate russian story1_35923771:
 
     # story "それに！苦しさは人間も僕らも一緒！\n生きながら苦しい時間が続くって\n最悪じゃないですか…。{nw}" id story1_35923771
-    story "И ещё! Мы страдаем так же как люди!\nЭто ведь ещё хуже, разве нет, ты продолжаешь страдать, но при этом не можешь умереть...?{nw}" id story1_35923771
+    story "И ещё! Мы страдаем так же как люди! Это ведь ещё хуже, разве нет, ты продолжаешь страдать, но при этом не можешь умереть...?{nw}" id story1_35923771
 
 # game/scenario/1story.rpy:254
 translate russian story1_76b2fe88_16:
@@ -432,8 +432,8 @@ translate russian story1_76b2fe88_17:
 # game/scenario/1story.rpy:280
 translate russian story1_ef982f81:
 
-    # story "\nフードに何かが引っかかったような感触がして\n何が起こったのか確認する間もなく、\n僕の体は一気に引っ張られました！{nw=2}" id story1_ef982f81
-    story "\nПоказалось что что-то твердое зацепилось за капюшон.\nЯ не уверен что произошло,\nмое тело вытянуло одним рывком!{nw=2}" id story1_ef982f81
+    # story "\nフードに何かが引っかかったような感触がして\n何が起こったのか確認する間もなく、\n僕の体は一気に引っ張られました！{nw}" id story1_ef982f81
+    story "\nПоказалось что что-то твердое зацепилось за капюшон.\nЯ не уверен что произошло,\nмое тело вытянуло одним рывком!{nw}" id story1_ef982f81
 
 # game/scenario/1story.rpy:305
 translate russian story1_a3f5e0af:
@@ -476,8 +476,8 @@ translate russian story1_6a053c06:
 # game/scenario/1story.rpy:334
 translate russian story1_15a4b966:
 
-    # story "{cps=5}……………。{/cps}{nw}" id story1_15a4b966
-    story "{cps=5} ...............{/cps}{nw}" id story1_15a4b966
+    # story "{cps=3}……………。{/cps}{nw}" id story1_15a4b966
+    story "{cps=3} ...............{/cps}{nw}" id story1_15a4b966
 
 # game/scenario/1story.rpy:337
 translate russian story1_76b2fe88_19:
@@ -508,7 +508,7 @@ translate russian story1_c33d8f72:
 
     # story "でもこんな事を僕が言うと\n「酒飲んでたんだべ！」とか\n「仲間…（ニヨニヨ）」とか\n言われて信じていただけないので\n今日の今日まで心の中に留めておりました！" id story1_c33d8f72
     story "Но когда я рассказываю это,\nвсе каждый раз говорят что-то типо:{nw}"
-    story_indent "«ты был пьян?» и «друзья...(хи-хи)»{nw}"
+    story_indent "«ты был пьян?» и\n«друзья...(хи-хи)»{nw}"
     story "и они просто не верят мне, но я сохранил это в памяти до сегодняшнего дня!" id story1_c33d8f72
 
 # game/scenario/1story.rpy:363
@@ -521,7 +521,7 @@ translate russian story1_76b2fe88_21:
 translate russian story1_13ee2293:
 
     # story "こんな現代に人を助けてくれる妖精が\n生きてるってすごくないですか？\nある意味怖くはないですか？" id story1_13ee2293
-    story "Разве не замечательно, что существуют феи, которые готовы помочь людям даже в нынешние времена?\nВ каком-то плане это не очень страшно, да?" id story1_13ee2293
+    story "Разве не замечательно, что существуют феи, которые готовы помочь людям даже в нынешние времена? В каком-то плане это не очень страшно, да?" id story1_13ee2293
 
 # game/scenario/1story.rpy:368
 translate russian story1_07f26bdc:
@@ -594,4 +594,144 @@ translate russian story1_b5e4c11e:
 
     # fin "わーごめんなさい！\nしなくて大丈夫です！" id story1_b5e4c11e
     fin "Ваа, извини!\nТебе не нужно рассказывать что-то подобное!" id story1_b5e4c11e
+
+# TODO: Translation updated at 2026-04-01 14:33
+
+# game/scenario/1story.rpy:21
+translate russian story1_d41d8cd9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:30
+translate russian story1_d41d8cd9_1:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:35
+translate russian story1_d41d8cd9_2:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:42
+translate russian story1_d41d8cd9_3:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:54
+translate russian story1_d41d8cd9_4:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:83
+translate russian story1_d41d8cd9_5:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:92
+translate russian story1_d41d8cd9_6:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:101
+translate russian story1_d41d8cd9_7:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:107
+translate russian story1_d41d8cd9_8:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:125
+translate russian story1_d41d8cd9_9:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:133
+translate russian story1_d41d8cd9_10:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:158
+translate russian story1_d41d8cd9_11:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:198
+translate russian story1_d41d8cd9_12:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:204
+translate russian story1_d41d8cd9_13:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:212
+translate russian story1_d41d8cd9_14:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:242
+translate russian story1_d41d8cd9_15:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:254
+translate russian story1_d41d8cd9_16:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:273
+translate russian story1_d41d8cd9_17:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:309
+translate russian story1_d41d8cd9_18:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:337
+translate russian story1_d41d8cd9_19:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:346
+translate russian story1_d41d8cd9_20:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:363
+translate russian story1_d41d8cd9_21:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/1story.rpy:368
+translate russian story1_d41d8cd9_22:
+
+    # nvl clear    
+    nvl clear    
 

@@ -221,14 +221,8 @@ translate russian story4_76b2fe88_6:
 # game/scenario/4story.rpy:120
 translate russian story4_97013b54:
 
-    # story "\n「誰だっ！！」{nw}" id story4_97013b54
-    story "\n«Кто ты?!!»{nw}" id story4_97013b54
-
-# game/scenario/4story.rpy:125
-translate russian story4_5d4f6464:
-
-    # extend "{nw=1}"
-    extend "{nw=1}"
+    # story "\n「誰だっ！！」{nw=1}" id story4_97013b54
+    story "\n«Кто ты?!!»{nw=1}" id story4_97013b54
 
 # game/scenario/4story.rpy:127
 translate russian story4_db9e14d2:
@@ -245,8 +239,8 @@ translate russian story4_76b2fe88_7:
 # game/scenario/4story.rpy:134
 translate russian story4_f7379636:
 
-    # story "{size=+15}　\n　\n「俺様だっ！！」{/size}{nw}" id story4_f7379636
-    story "{size=+15}　\n　\n«Это невероятный Я!!»{/size}{nw}" id story4_f7379636
+    # story "{size=+15}　\n　\n「俺様だっ！！」{/size}" id story4_f7379636
+    story "{size=+15}　\n　\n«Это невероятный Я!!»{/size}" id story4_f7379636
 
 # game/scenario/4story.rpy:139
 translate russian story4_76b2fe88_8:
@@ -263,8 +257,8 @@ translate russian story4_27a4b855:
 # game/scenario/4story.rpy:153
 translate russian story4_1e926c4b:
 
-    # eng "最初から犯人\nお前の兄貴しかいねーだろ！{nw}" id story4_1e926c4b
-    eng "С самого начала истории этим «духом»\nне мог быть никто иной, как твой старший брат!{nw}" id story4_1e926c4b
+    # eng "最初から犯人\nお前の兄貴しかいねーだろ！" id story4_1e926c4b
+    eng "С самого начала истории этим «духом»\nне мог быть никто иной, как твой старший брат!" id story4_1e926c4b
 
 # game/scenario/4story.rpy:164
 translate russian story4_c85d1002:

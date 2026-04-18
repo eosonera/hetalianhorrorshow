@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/scenario/6story.rpy", line 5: expected statement.
+    _pending_camera_transform = None
+                              ^
+
+Ren'Py Version: Ren'Py 8.5.2.26010301
+Sat Apr 18 20:32:31 2026

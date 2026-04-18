@@ -6,6 +6,7 @@
 default persistent.game_finished = False
 
 label start:
+    $ quick_menu = False
     scene white screen
     with blur_fade
     play music "music/9_townscape.ogg" 
@@ -15,6 +16,8 @@ label start:
     # $ gui.kerning_dialogue += 2
     # $ gui.nvl_text_size += 10
     # $ gui.text_size += 10
+
+    $ quick_menu = True
 
     $ na.screen = 'narrator'
     na "「７カ国が集まる国際怖い話会合があるから\n　そこで話を聞いてきてくれないかなー？」\n{vspace=12}{space=155}その一言でそれは始まった。" id start_8479585a
@@ -27,8 +30,6 @@ label start:
     
     $ bul.screen = 'right_1'
     bul "えっ俺が？" id start_d72426f3
-    #$ gui.text_size -= 10
-
 
     show romania normal at pos_transform(xpos=70, yalign=0.0) behind bulgaria
     
@@ -71,13 +72,8 @@ label start:
 
     show romania cry nyaa
     $ rom.screen = 'left_3'
-    
-    rom "お願いだよー！！\nお菓子あげるから！{nw}" id start_c71f0dd7
-    $ window_transform = shake_0p1
-    $ _skip_appear_effect = True
-    extend ""
-    $ window_transform = None
-    $ _skip_appear_effect = False
+    $ _pending_window_transform = shake_0p1
+    rom "お願いだよー！！\nお菓子あげるから！" id start_c71f0dd7
 
     show bulgaria conniving
     $ bul.screen = 'right_3'
@@ -104,40 +100,27 @@ label start:
 
     show bulgaria ello
     $ bul.screen = 'right_1'
-    bul "もう一声ぇっ！{nw}" id start_239fc5ac
-    $ _skip_appear_effect = True
-    $ window_transform = shake_0p1
-    extend ""
-    $ window_transform = None
-    $ _skip_appear_effect = False
-
+    $ _pending_window_transform = shake_0p1
+    bul "もう一声ぇっ！" id start_239fc5ac
+    
     show romania whatsthaat
     rom "３万！？ ないよー！" id start_6b148d73
 
     show bulgaria heheh
     $ bul.screen = 'right_3'
-    bul "俺三万歳！！\nつまり俺の国力は\n３万あるんだわー！{nw}" id start_97b31921
-    play sound "sfx/gun14_c.ogg"
-    show bulgaria at shake_0p2 with {'master': None}
-    $ _skip_appear_effect = True
-    $ window_transform = shake_0p2
-    extend ""
-    $ window_transform = None
-    $ _skip_appear_effect = False
+    $ _pending_sprite_transform = [("bulgaria", shake_0p2)]
+    $ _pending_window_transform = shake_0p2
+    $ _pending_sound = ("sfx/gun14_c.ogg", "sound")
+    bul "俺三万歳！！\nつまり俺の国力は\n３万あるんだわー！" id start_97b31921
     stop sound
     
     show bulgaria heheh at pos_transform(xpos=440, yalign=0.0)
     show romania angry yell
     $ rom.screen = 'left_1'
-    rom "こいつ盛ったぁー！！{nw}" id start_e5a62779
-
-    $ _skip_appear_effect = True
-    show romania angry yell at shake_0p3 with {'master': None}
-    $ window_transform = shake_0p3
-    play sound "sfx/bang07.ogg"
-    extend ""
-    $ window_transform = None
-    $ _skip_appear_effect = False
+    $ _pending_sprite_transform = [("romania", shake_0p3)]
+    $ _pending_window_transform = shake_0p3
+    $ _pending_sound = ("sfx/bang07.ogg", "sound")
+    rom "こいつ盛ったぁー！！" id start_e5a62779
     stop sound
 
     show romania at pos_transform(xpos=70, yalign=0.0)
@@ -151,38 +134,22 @@ label start:
     rom "やーだー！その理屈わかんないよー\n頼むよー！行ってよー！\nいらとお前の付き合いだろー！！" id start_c62956d7
 
     show bulgaria conniving eyesclosed
-    
     $ bul.screen = 'right_3'
-    bul "ぷぷぷぷ～\nぷんにょにょ～（鼻歌）{nw}" id start_091ebbd4
-    $ _skip_appear_effect = True
-    play sound "sfx/BUBBLY.WAV"
-    show bulgaria with {'master': None}:
-        block:
-            parallel:
-                ease 0.6 xoffset -150
-                ease 0.6 xoffset +150
-            parallel:
-                ease 0.3 yoffset 0
-                ease 0.3 yoffset -15
-                ease 0.3 yoffset 0
-                ease 0.3 yoffset -15
-            repeat
-    extend ""
+    $ _pending_sound = ("sfx/BUBBLY.WAV", "sound")
+    $ _pending_sprite_transform = [("bulgaria", humming_tf)]
+    bul "ぷぷぷぷ～\nぷんにょにょ～（鼻歌）" id start_091ebbd4
     stop sound
-    $ _skip_appear_effect = False
+
     
     show romania holdon
-    play sound "sfx/ding74.ogg"
+    $ _pending_sound = ("sfx/ding74.ogg", "sound")
     $ rom.screen = 'left_4long'
     rom "やだー変な歌うたいながら\nおいらの周りまわらないでー。\nやめてよー" id start_5ef33473
     stop sound
 
     $ bul.screen = 'right_3'
-    bul "ふんごっ\nふんごっ（鼻歌）{nw}" id start_76f6ac0e
-    play sound "sfx/Disintergrate.wav"
-    $ _skip_appear_effect = True
-    extend "" 
-    $ _skip_appear_effect = False
+    $ _pending_sound = ("sfx/Disintergrate.wav", "sound")
+    bul "ふんごっ\nふんごっ（鼻歌）" id start_76f6ac0e
     stop sound
 
     show romania waaahh
@@ -194,11 +161,10 @@ label start:
     rom "どうすればいいんだよぅこれー。{cps=1}             {/cps}{nw}" id start_7c634a5e
     $ _skip_appear_effect = True
     show romania whattheheck with {'master': Dissolve(0.2)}
-    extend "\n…あっ！そうだ！\nこの仕事すると…目立てるよ！{nw}" id start_6f8a9988
-    $ window_transform = shake_0p4
-    extend ""
-    $ window_transform = None
+    $ _pending_window_transform = shake_0p4
+    extend "\n…あっ！そうだ！\nこの仕事すると…目立てるよ！" id start_6f8a9988
     $ _skip_appear_effect = False
+
 
     show bulgaria whatisthat at stop_offset
     with move
@@ -271,28 +237,19 @@ label start:
     
     show bulgaria hey2
     $ bul.screen = 'right_3'
-    bul "ちょっくら司会進行として\n国としての存在感\nアピッてくるんだわ！！{nw}" id start_fc180838
-    $ _skip_appear_effect = True
-    $ window_transform = shake_0p5
-    play sound "sfx/gun14_c.ogg"
-    extend ""
-    $ window_transform = None
-    $ _skip_appear_effect = False
+    $ _pending_window_transform = (shake_0p5)
+    $ _pending_sound = ("sfx/gun14_c.ogg", "sound")
+    bul "ちょっくら司会進行として\n国としての存在感\nアピッてくるんだわ！！" id start_fc180838
 
     show romania inspired
     $ rom.screen = 'left_3'
     rom "そうだよブルガリア！\nその意気だよ\n頑張ろうねぇ～！！" id start_0f5baf6e
 
     show bulgaria hey
-    bul "そしてこのゲームの\n主役も頂くんだわ！{nw}"id start_c6e01564
-
-    play sound "sfx/bam10.ogg"
-    show bulgaria hey at shake_0p2 with {'master': None}
-    $ _skip_appear_effect = True
-    $ window_transform = shake_0p2
-    extend "" 
-    $ window_transform = None
-    $ _skip_appear_effect = False
+    $ _pending_window_transform = (shake_0p2)
+    $ _pending_sprite_transform = [("bulgaria", shake_0p2)]
+    $ _pending_sound = ("sfx/bam10.ogg", "sound")
+    bul "そしてこのゲームの\n主役も頂くんだわ！"id start_c6e01564
 
     show romania cry eh
     $ rom.screen = 'left_1'

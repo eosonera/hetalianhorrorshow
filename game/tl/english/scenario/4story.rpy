@@ -221,14 +221,8 @@ translate english story4_76b2fe88_6:
 # game/scenario/4story.rpy:120
 translate english story4_97013b54:
 
-    # story "\n「誰だっ！！」{nw}" id story4_97013b54
-    story_indent "\n\n“Who are you?!!”{nw}" id story4_97013b54
-
-# game/scenario/4story.rpy:125
-translate english story4_5d4f6464:
-
-    # extend "{nw=1}"
-    extend "{nw=1}"
+    # story "\n「誰だっ！！」{nw=1}" id story4_97013b54
+    story_indent "\n\n“Who are you?!!”{nw=1}" id story4_97013b54
 
 # game/scenario/4story.rpy:127
 translate english story4_db9e14d2:
@@ -245,8 +239,8 @@ translate english story4_76b2fe88_7:
 # game/scenario/4story.rpy:134
 translate english story4_f7379636:
 
-    # story "{size=+15}　\n　\n「俺様だっ！！」{/size}{nw}" id story4_f7379636
-    story_indent "{size=+15} \n\n \n“It's the awesome me!”{/size}{nw}" id story4_f7379636
+    # story "{size=+15}　\n　\n「俺様だっ！！」{/size}" id story4_f7379636
+    story_indent "{size=+15} \n\n \n“It's the awesome me!”{/size}" id story4_f7379636
 
 # game/scenario/4story.rpy:139
 translate english story4_76b2fe88_8:
@@ -264,7 +258,7 @@ translate english story4_27a4b855:
 translate english story4_1e926c4b:
 
     # eng "最初から犯人\nお前の兄貴しかいねーだろ！" id story4_1e926c4b
-    eng "So the culprit was just your older\nbrother from the very beginning!{nw}" id story4_1e926c4b
+    eng "So the culprit was just your older\nbrother from the very beginning!" id story4_1e926c4b
 
 # game/scenario/4story.rpy:164
 translate english story4_c85d1002:
@@ -282,7 +276,7 @@ translate english story4_79172393:
 translate english story4_4991f3de:
 
     # jpn "御兄弟仲が良くて\n楽しそうですね。" id story4_4991f3de
-    jpn "It seems like you brothers get along well\nand have a lot of fun together." id story4_4991f3de
+    jpn "It seems like you brothers get along well and have a lot of fun together." id story4_4991f3de
 
 # TODO: Translation updated at 2026-04-01 13:23
 

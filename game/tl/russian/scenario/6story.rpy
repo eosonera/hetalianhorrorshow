@@ -71,8 +71,8 @@ translate russian story6_76b2fe88_2:
 # game/scenario/6story.rpy:42
 translate russian story6_88afc890:
 
-    # story "\n\nワンさんは俺の家初めて\nやったから知らんかったんや…。\n　\nワンさんを狙とる黒ーい影が\nぎょうさんおるっちゅー事を…。{nw}" id story6_88afc890
-    story "\n\nТак как Сеньор Ван впервые приехал, он не догадывался...\n \nПо его пятам следовало множество мрачных теней...{nw}" id story6_88afc890
+    # story "\n\nワンさんは俺の家初めて\nやったから知らんかったんや…。\n　\nワンさんを狙とる黒ーい影が\nぎょうさんおるっちゅー事を…。" id story6_88afc890
+    story "\n\nТак как Сеньор Ван впервые приехал, он не догадывался...\n \nПо его пятам следовало множество мрачных теней..." id story6_88afc890
 
 # game/scenario/6story.rpy:46
 translate russian story6_76b2fe88_3:
@@ -177,8 +177,8 @@ translate russian story6_94b3a7cf:
 # game/scenario/6story.rpy:95
 translate russian story6_9cde0fcb:
 
-    # story "ガキがジャンプしたか思うと\nワンさんの財布に入っとった\n１００ユーロ札ばっかわっしと掴むと\n猛ダッシュしよった！{nw}" id story6_9cde0fcb
-    story "Мальчуган подпрыгнул и тут же выхвалил 100 евро из кошелька и побежал со всех ног!{nw}" id story6_9cde0fcb
+    # story "ガキがジャンプしたか思うと\nワンさんの財布に入っとった\n１００ユーロ札ばっかわっしと掴むと\n猛ダッシュしよった！" id story6_9cde0fcb
+    story "Мальчуган подпрыгнул и тут же выхвалил 100 евро из кошелька и побежал со всех ног!" id story6_9cde0fcb
 
 # game/scenario/6story.rpy:99
 translate russian story6_76b2fe88_6:
@@ -267,8 +267,8 @@ translate russian story6_88fecc5f:
 # game/scenario/6story.rpy:142
 translate russian story6_996b431a:
 
-    # extend "\n最近はやりの首絞め強盗や！{nw}" id story6_996b431a
-    extend "\nновое явление в грабежах, когда они душат жертву!{nw}" id story6_996b431a
+    # extend "\n最近はやりの首絞め強盗や！" id story6_996b431a
+    extend "\nновое явление в грабежах, когда они душат жертву!" id story6_996b431a
 
 # game/scenario/6story.rpy:147
 translate russian story6_76b2fe88_10:
@@ -279,8 +279,8 @@ translate russian story6_76b2fe88_10:
 # game/scenario/6story.rpy:151
 translate russian story6_0fa348b6:
 
-    # story "その名の通り\n首を絞めとる間にバッグを奪うっちゅー\n獲物がおるから、首絞めるくらいの\n野生返りも甚だしい手口やで！{nw}" id story6_0fa348b6
-    story "Как можно понять из прозвища, у жертвы крадут вещи, пока вор сжимает шею, не давая вдохнуть!Поскольку есть добыча, они прибегают к серьезным методам, таким как удушение!{nw}" id story6_0fa348b6
+    # story "その名の通り\n首を絞めとる間にバッグを奪うっちゅー\n獲物がおるから、首絞めるくらいの\n野生返りも甚だしい手口やで！" id story6_0fa348b6
+    story "Как можно понять из прозвища, у жертвы крадут вещи, пока вор сжимает шею, не давая вдохнуть!Поскольку есть добыча, они прибегают к серьезным методам, таким как удушение!" id story6_0fa348b6
 
 # game/scenario/6story.rpy:153
 translate russian story6_89f62fd0:
@@ -520,8 +520,8 @@ translate russian story6_50c30390:
 # game/scenario/6story.rpy:236
 translate russian story6_1a357a72:
 
-    # story "せやけど早よ助け求めたいワンさんは\n言われるまま渡してもうたん。{nw}" id story6_1a357a72
-    story "\nИ вот так Сеньор Ван, желающий поскорее получить помощь, сделал то, что ему было сказано и отдал всё полицейскому.{nw}" id story6_1a357a72
+    # story "せやけど早よ助け求めたいワンさんは\n言われるまま渡してもうたん。" id story6_1a357a72
+    story "\nИ вот так Сеньор Ван, желающий поскорее получить помощь, сделал то, что ему было сказано и отдал всё полицейскому." id story6_1a357a72
 
 # game/scenario/6story.rpy:240
 translate russian story6_76b2fe88_22:
@@ -689,14 +689,14 @@ translate russian story6_a5138f04:
 # game/scenario/6story.rpy:317
 translate russian story6_f9d9ea8c:
 
-    # spa "ほんまに！？\n美人な子やったら\nええやんなぁ！{nw}" id story6_f9d9ea8c
-    spa "Серьёзно?!\nЕсли она красивая,\nто это не проблема!{nw}" id story6_f9d9ea8c
+    # spa "ほんまに！？\n美人な子やったら\nええやんなぁ！" id story6_f9d9ea8c
+    spa "Серьёзно?!\nЕсли она красивая,\nто это не проблема!" id story6_f9d9ea8c
 
 # game/scenario/6story.rpy:329
 translate russian story6_ecd792a2:
 
-    # eng "ええやんなじゃ\nねーだろ！！{nw}" id story6_ecd792a2
-    eng "„Это не проблема“,\nкак же это не проблема!!{nw}" id story6_ecd792a2
+    # eng "ええやんなじゃ\nねーだろ！！" id story6_ecd792a2
+    eng "„Это не проблема“,\nкак же это не проблема!!" id story6_ecd792a2
 
 # game/scenario/6story.rpy:342
 translate russian story6_e4df78e9:

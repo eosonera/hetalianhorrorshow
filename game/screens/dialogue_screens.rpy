@@ -227,6 +227,7 @@ screen say(who, what):
         text what id "what"
 
 
+
 ############################
 # Styles
 ############################
@@ -352,7 +353,7 @@ define transp = Color((0, 0, 0, 0))
 style nvl_dialogue:
     is say_dialogue
     size gui.nvl_text_size
-    kerning gui.kerning_dialogue + 6
+    kerning gui.kerning_dialogue + 4
     color "#fff"
     outlines [(2, "#2E3A54", 0, 0)]
     font gui.preference("font", default="msgothic.ttf")

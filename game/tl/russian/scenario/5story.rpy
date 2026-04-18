@@ -142,21 +142,21 @@ translate russian story5_76b2fe88_7:
 # game/scenario/5story.rpy:72
 translate russian story5_d971867a:
 
-    # eng "知らないゴーストが\nいたんだ…！{nw}" id story5_d971867a
-    eng "Неизвестный призрак...!{nw}" id story5_d971867a
+    # eng "知らないゴーストが\nいたんだ…！" id story5_d971867a
+    eng "Неизвестный призрак...!" id story5_d971867a
 
 # game/scenario/5story.rpy:86
 translate russian story5_492388cf:
 
-    # ame "ゴ…ゴーストが…っ\n君の目の前に…っ！？\nなんて恐ろしいんだっ！{nw}" id story5_492388cf
-    ame "A g-gh...ghost...\nпрям перед тобой...?!\nТак жутко!{nw}" id story5_492388cf
+    # ame "ゴ…ゴーストが…っ\n君の目の前に…っ！？\nなんて恐ろしいんだっ！" id story5_492388cf
+    ame "A g-gh...ghost...\nпрям перед тобой...?!\nТак жутко!" id story5_492388cf
 
 # game/scenario/5story.rpy:98
 translate russian story5_274d4766:
 
-    # bul "幽霊唐突すぎる！{nw}" id story5_274d4766
+    # bul "幽霊唐突すぎる！" id story5_274d4766
     $ bul.screen = 'left_3'
-    bul "Призрак появился слишком внезапно!{nw}" id story5_274d4766
+    bul "Призрак появился слишком внезапно!" id story5_274d4766
 
 # game/scenario/5story.rpy:110
 translate russian story5_343eeea9:
@@ -186,8 +186,8 @@ translate russian story5_098fcbd0:
 # game/scenario/5story.rpy:146
 translate russian story5_cc5962b4:
 
-    # eng "…かっ……！{nw}" id story5_cc5962b4
-    eng "...хах......!{nw}" id story5_cc5962b4
+    # eng "…かっ……！" id story5_cc5962b4
+    eng "...хах......!" id story5_cc5962b4
 
 # game/scenario/5story.rpy:158
 translate russian story5_775802c5:
@@ -230,26 +230,26 @@ translate russian story5_dc9f3461:
 # game/scenario/5story.rpy:186
 translate russian story5_ffdbc5f6:
 
-    # bul "あっこういう時は\n語尾ににゃんってつけると\n何でも許してもらえる\nらしいっすよ。{nw}" id story5_ffdbc5f6
-    bul "Ах, в такие моменты, если ты добавишь «мяу» в конце фразы, то тебе простят что угодно.{nw}" id story5_ffdbc5f6
+    # bul "あっこういう時は\n語尾ににゃんってつけると\n何でも許してもらえる\nらしいっすよ。" id story5_ffdbc5f6
+    bul "Ах, в такие моменты, если ты добавишь «мяу» в конце фразы, то тебе простят что угодно." id story5_ffdbc5f6
 
 # game/scenario/5story.rpy:198
 translate russian story5_67d9ca09:
 
-    # spa "そうなん？\nごめんにゃんやでー。{nw}" id story5_67d9ca09
-    spa "Правда?\nПрости, мяу.{nw}" id story5_67d9ca09
+    # spa "そうなん？\nごめんにゃんやでー。" id story5_67d9ca09
+    spa "Правда?\nПрости, мяу." id story5_67d9ca09
 
 # game/scenario/5story.rpy:210
 translate russian story5_7c8ffea7:
 
-    # eng "ムカつくから\nやめろ！！{nw}" id story5_7c8ffea7
-    eng "Это раздражает,\nпрекрати!!{nw}" id story5_7c8ffea7
+    # eng "ムカつくから\nやめろ！！" id story5_7c8ffea7
+    eng "Это раздражает,\nпрекрати!!" id story5_7c8ffea7
 
 # game/scenario/5story.rpy:229
 translate russian story5_e134b004:
 
-    # ame "Ｇｒｅａｔ！\nチュロス！\nチュロスじゃないか！\n俺は君に会いたかった！{nw}" id story5_e134b004
-    ame "Great! \nЧуррос!\nЧуррос уже здесь!\nЯ скучал по тебе, чуррос!{nw}" id story5_e134b004
+    # ame "Ｇｒｅａｔ！\nチュロス！\nチュロスじゃないか！\n俺は君に会いたかった！" id story5_e134b004
+    ame "Great! \nЧуррос!\nЧуррос уже здесь!\nЯ скучал по тебе, чуррос!" id story5_e134b004
 
 # TODO: Translation updated at 2026-04-01 14:33
 

@@ -45,9 +45,9 @@ translate english story2_2ad11d81:
 # game/scenario/2story.rpy:52
 translate english story2_89e31498:
 
-    # eng "漫才じゃないぞ！{nw}"
+    # eng "漫才じゃないぞ！"
     $ eng.screen = 'left_3'
-    eng "This isn't a comedy routine!{nw}"
+    eng "This isn't a comedy routine!"
 
 # game/scenario/2story.rpy:57
 translate english story2_8cef616d:
@@ -76,14 +76,14 @@ translate english story2_3f21d0b0:
 # game/scenario/2story.rpy:90
 translate english story2_f1213b36:
 
-    # ame "Ｗｈａｔ！？{nw}"
-    ame "What?!{nw}"
+    # ame "Ｗｈａｔ！？"
+    ame "What?!"
 
 # game/scenario/2story.rpy:92
 translate english story2_c752e978:
 
     # extend "\n君はバッファローの群れが\n家に向かってきても怖くないのかい？"
-    extend "\nAren't you afraid of a herd of bison\nstampeding towards your house?"
+    extend "\nAren't you afraid of a herd of bison stampeding towards your house?"
 
 # game/scenario/2story.rpy:98
 translate english story2_3611319e:
@@ -94,14 +94,14 @@ translate english story2_3611319e:
 # game/scenario/2story.rpy:104
 translate english story2_ecb25a40:
 
-    # ame "バッファローのボスが俺めがけて\n突進してくるシーンは全俺が震えるほど\nスリルに満ち溢れてるんだぞ！\n吹き飛ばされたけど民家は守ったんだ！{nw}"
-    ame "The scene where the bison boss rushes at me is so thrilling that it makes me shake!\nBut I sent it packing in the end and saved that house!{nw}"
+    # ame "バッファローのボスが俺めがけて\n突進してくるシーンは全俺が震えるほど\nスリルに満ち溢れてるんだぞ！\n吹き飛ばされたけど民家は守ったんだ！"
+    ame "The scene where the bison boss rushes at me is so thrilling that it makes me shake! But I sent it packing in the end and saved that house!"
 
 # game/scenario/2story.rpy:112
 translate english story2_f9650383:
 
     # bul "もうバッファローより\nアメリカさん自体が\n怖ぇーっす！"
-    bul "I'm more scared of Mr. America himself than the bison!{nw}"
+    bul "I'm more scared of Mr. America himself than the bison!"
 
 # game/scenario/2story.rpy:118
 translate english story2_51f85803:
@@ -136,8 +136,8 @@ translate english story2_76b2fe88_2:
 # game/scenario/2story.rpy:161
 translate english story2_7eab1ce8:
 
-    # na2 "{size=+6}――ッ！！？{/size}{nw}"
-    na2 "{size=+6}――!!?{/size}{nw}"
+    # na2 "{size=+6}――ッ！！？{/size}"
+    na2 "{size=+6}――!!?{/size}"
 
 # game/scenario/2story.rpy:169
 translate english story2_65cd50a5:
@@ -148,20 +148,20 @@ translate english story2_65cd50a5:
 # game/scenario/2story.rpy:182
 translate english story2_144b3000:
 
-    # ger "{size=+3}は…早まるな\nアメリカーッ！！{/size}{nw}"
-    ger "{size=+3}D... Don't be too hasty, America!!{/size}{nw}"
+    # ger "{size=+3}は…早まるな\nアメリカーッ！！{/size}"
+    ger "{size=+3}D... Don't be too hasty, America!!{/size}"
 
 # game/scenario/2story.rpy:196
 translate english story2_909b71e5:
 
-    # eng "そそそそそうだぞ！\nそれ国家機密レベルだろ！？\n聞かされる俺らも危ないだろ！{nw}"
-    eng "T-t-t-t-t-that's right!\nSurely that's classified information!?\nWe could be in danger if we were to hear it!{nw}"
+    # eng "そそそそそうだぞ！\nそれ国家機密レベルだろ！？\n聞かされる俺らも危ないだろ！"
+    eng "T-t-t-t-t-that's right!\nSurely that's classified information!?\nWe could be in danger if we were to hear it!"
 
 # game/scenario/2story.rpy:208
 translate english story2_3551935b:
 
     # bul "ちょ…俺ら消される\nタイプの怖さは\n求めてねーんだわー！"
-    bul "We...We're not looking for the 'forcibly disappeared' type of scary...!"
+    bul "We...We're not looking for the ‘forcibly disappeared’ type of scary...!"
 
 # game/scenario/2story.rpy:212
 translate english story2_23caa78b:
@@ -262,8 +262,8 @@ translate english story2_76b2fe88_4:
 # game/scenario/2story.rpy:310
 translate english story2_b042fccd:
 
-    # story "　\n　\n　\n　\n　\n俺のルームメイトの\nトニーのそっくりさんだったんだ…！！{nw}"
-    story " \n \n \n \n \nA perfect look-alike of\nmy roommate, Tony...!!{nw}"
+    # story "　\n　\n　\n　\n　\n俺のルームメイトの\nトニーのそっくりさんだったんだ…！！"
+    story " \n \n \n \n \nA perfect look-alike of\nmy roommate, Tony...!!"
 
 # game/scenario/2story.rpy:311
 translate english story2_76b2fe88_5:
@@ -306,7 +306,7 @@ translate english story2_76b2fe88_7:
 translate english story2_5ab8cca2:
 
     # story "　\nそしたら上司も「宇宙人」君も\nポカーンとした顔をしてるんだよ。\n　\nもー君達。\n俺がこの宇宙人ドッキリに引っかかったら\nHetatubeに動画アップする\nつもりだったんだろ！？"
-    story " \nBut my boss and the “alien” both just stared at me with these totally blank faces.\n\nC'mon, you guys.\nThey were gonna upload the video to HetaTube if I’d fallen for the alien prank, right!?!?"
+    story " \nBut my boss and the “alien” both just stared at me, all flabbergasted.\n\nC'mon, you guys.\nThey were gonna upload the video to HetaTube if I’d fallen for the alien prank, right!?!?"
 
 # game/scenario/2story.rpy:338
 translate english story2_f48c6d62:

@@ -52,7 +52,7 @@ translate english story1_76b2fe88_2:
 translate english story1_9722ed60:
 
     # story "あれは初冬の事でした…。\n\n僕の家は冬になるとお日様が\nほとんど見えなくなります。"
-    story "It happened in the early winter...\n\nThe sun is barely visible at my house during the winter."
+    story "It happened in the early winter...\n\nThe sun is barely visible at my house during this time of year."
 
 # game/scenario/1story.rpy:40
 translate english story1_76b2fe88_3:
@@ -186,7 +186,7 @@ translate english story1_40ae678a:
 translate english story1_67044706:
 
     # story "森の中の夜もいいんですよ。\n夜はとっても長いんですけど、\n音も空も昼間より賑やかになります。"
-    story "The forest is nice at night, too. The nights are really, really long, but the sounds and the sky are livelier than they are in the afternoons."
+    story "The forest is nice at night, too. Although the nights are incredibly long, the sounds and the sky are livelier than they are during the day."
 
 # game/scenario/1story.rpy:119
 translate english story1_3d7cb46b:
@@ -256,7 +256,7 @@ translate english story1_30985ce0:
     # nvl clear
     # story "森の木も土も、少しだけ色を残していた\nコケやベリーの木もみんな真っ白！"
     nvl clear
-    story "The trees in the forest, and the ground, and the moss, and those berries that had left just a bit of color, they were all completely white!"
+    story "The trees in the forest, the ground, as well as the moss and berry trees which had left just a bit of color — everything was completely white!"
 
 # game/scenario/1story.rpy:150
 translate english story1_fdc500c9:
@@ -285,8 +285,8 @@ translate english story1_ca0497ec:
 # game/scenario/1story.rpy:179
 translate english story1_247b3f31:
 
-    # story "ずぶっ！！{nw}"
-    story "Slosh!!{nw}"
+    # story "ずぶっ！！"
+    story "Slosh!!"
 
 # game/scenario/1story.rpy:182
 translate english story1_b7efe14d:
@@ -344,7 +344,7 @@ translate english story1_5158e7b2:
 translate english story1_38e85ade:
 
     # story "ポケットにあるのはサルミアッキのみ！\nサルミアッキはおいしいけれど\n僕のピンチを救ってはくれない！"
-    story "All I had in my pocket was salmiakki! Salmiakki is pretty good, but it wasn't going to save me from the crisis I was in!"
+    story "All I had in my pocket was salmiakki! Salmiakki is pretty tasty, but it wasn't going to save me from the crisis I was in!"
 
 # game/scenario/1story.rpy:205
 translate english story1_76b2fe88_13:
@@ -356,7 +356,7 @@ translate english story1_76b2fe88_13:
 translate english story1_799336c0:
 
     # story "なんとか地上に残った片足で踏ん張りましたが、\nふわふわした雪が、僕の足のバランスを奪います。"
-    story "I tried to plant my other foot firmly, but it lost balance on the fluffy snow."
+    story "I tried to plant my other foot firmly on the ground, but it lost balance on the fluffy snow."
 
 # game/scenario/1story.rpy:216
 translate english story1_57af3057:
@@ -367,7 +367,7 @@ translate english story1_57af3057:
 # game/scenario/1story.rpy:217
 translate english story1_b8725207:
 
-    # extend "\n氷が派手に割れたー！{nw}"
+    # extend "\n氷が派手に割れたー！{nw=0.5}"
     extend "\nThe ice broke dramatically!{nw=0.5}"
 
 # game/scenario/1story.rpy:231
@@ -391,8 +391,8 @@ translate english story1_b12e0b34:
 # game/scenario/1story.rpy:241
 translate english story1_35923771:
 
-    # story "それに！苦しさは人間も僕らも一緒！\n生きながら苦しい時間が続くって\n最悪じゃないですか…。{nw}"
-    story "Also! We suffer just like humans do! Isn't it awful to have to keep suffering while you're still alive...? {nw}"
+    # story "それに！苦しさは人間も僕らも一緒！\n生きながら苦しい時間が続くって\n最悪じゃないですか…。"
+    story "Also! We suffer just like humans do! Isn't it awful to have to keep suffering while you're still alive...? "
 
 # game/scenario/1story.rpy:242
 translate english story1_76b2fe88_15:
@@ -403,8 +403,8 @@ translate english story1_76b2fe88_15:
 # game/scenario/1story.rpy:259
 translate english story1_9e7a8af0:
 
-    # story "\nそして僕の体は冷たい湖の中に…。\n苦しい！息ができない…！{nw}"
-    story "\nSo there I was, in the freezing lake, and my body...\nIt hurt! I couldn't breathe...! {nw}"
+    # story "\nそして僕の体は冷たい湖の中に…。\n苦しい！息ができない…！"
+    story "\nAnd here I was, my body submerged in a freezing cold lake...\nI was in agony! I couldn't breathe...! "
 
 # game/scenario/1story.rpy:263
 translate english story1_d3d01bda:
@@ -421,14 +421,14 @@ translate english story1_76b2fe88_16:
 # game/scenario/1story.rpy:271
 translate english story1_ef982f81:
 
-    # story "\nフードに何かが引っかかったような感触がして\n何が起こったのか確認する間もなく、\n僕の体は一気に引っ張られました！{nw}"
-    story "\nIt felt as though something snagged onto my hood. I can't confirm what had happened, but my body was pulled out in one fell swoop!{nw}"
+    # story "\nフードに何かが引っかかったような感触がして\n何が起こったのか確認する間もなく、\n僕の体は一気に引っ張られました！"
+    story "\nIt felt as though something snagged onto my hood. I can't confirm what had happened, but my body was pulled out in one fell swoop!"
 
 # game/scenario/1story.rpy:291
 translate english story1_a3f5e0af:
 
-    # story "ばしゃあ！と音がして少しの衝撃。\nと同時に濡れた肌に風を感じます。{nw}"
-    story "A splash! Then, a small impact. At the same time, I felt the wind on my wet skin.{nw}"
+    # story "ばしゃあ！と音がして少しの衝撃。\nと同時に濡れた肌に風を感じます。"
+    story "A splash! Then, a small impact. At the same time, I felt the wind on my wet skin."
 
 # game/scenario/1story.rpy:295
 translate english story1_76b2fe88_17:
@@ -440,13 +440,13 @@ translate english story1_76b2fe88_17:
 translate english story1_8d10c5dc:
 
     # story "\nここは…雪の上？\n湖の底から体が勝手に地上に…？"
-    story "\nWas I... on the snow?\nHad my body moved from the bottom of the lake onto the ground on its own...?"
+    story "\nWas I... on the snow?\nHad my body moved from the bottom of the lake to the surface on its own...?"
 
 # game/scenario/1story.rpy:299
 translate english story1_8140aebe:
 
     # story "…何が起こったんだろう？"
-    story "...I wondered what had happened."
+    story "...What could have happened?"
 
 # game/scenario/1story.rpy:300
 translate english story1_ec3a4cfa:
@@ -460,12 +460,12 @@ translate english story1_6a053c06:
     # nvl clear
     # story "\n僕の意識はどんどん遠くなっていって…\nすとんと落ちるように気絶してしまいました。"
     nvl clear
-    story "\nI was steadily losing consciousness...\nAnd I suddenly fainted with a thud."
+    story "\nI was steadily losing consciousness...\nAnd I suddenly passed out."
 
 # game/scenario/1story.rpy:321
 translate english story1_15a4b966:
 
-    # story "{cps=5}……………。{/cps}"
+    # story "{cps=5}……………。{/cps}{nw}"
     story "{cps=3}......{/cps}{nw}"
 
 # game/scenario/1story.rpy:322
@@ -478,7 +478,7 @@ translate english story1_76b2fe88_18:
 translate english story1_2baf04c4:
 
     # story "\n気が付くと僕は自分の家で寝ていたんです。\n今までの事は夢だと思いましたが、\n溺れた時の服が乾燥機に入ってたんですよ…。"
-    story "\nI came to, and I was sleeping in my own house. I thought maybe it had all been a dream, but the clothes I'd almost drowned in were in the dryer..."
+    story "\nWhen I came to, I was sleeping in my own house. I thought maybe it had all been a dream, but the clothes I'd almost drowned in were in the dryer..."
 
 # game/scenario/1story.rpy:331
 translate english story1_76b2fe88_19:
@@ -528,13 +528,13 @@ translate english story1_28ca9edf:
 translate english story1_4b7f24c5:
 
     # bul "ひどくふわふわした話\nあざーっした！"
-    bul "Cheers for that atrociously\nfluffy story!"
+    bul "Thanks for that atrociously light and fluffy story, dude!"
 
 # game/scenario/1story.rpy:369
 translate english story1_9ab7897d:
 
-    # fin "ふわふわした話！！？{nw}"
-    fin "Fluffy story!!?{nw}"
+    # fin "ふわふわした話！！？"
+    fin "Light and fluffy!!?"
 
 # game/scenario/1story.rpy:371
 translate english story1_674410e3:
@@ -552,19 +552,19 @@ translate english story1_9db0829d:
 translate english story1_ce2dd2ba:
 
     # ame "なかなかふわふわしていて\n面白かったぞ！"
-    ame "That was pretty fluffy\nand interesting!"
+    ame "That was pretty fluffy and interesting!"
 
 # game/scenario/1story.rpy:385
 translate english story1_46462028:
 
     # eng "俺は嫌いじゃない。\nいいんじゃないか。\nフィンランドらしく\nふわふわしていて。"
-    eng "I don't hate it. It's kind of nice, right? It's fluffy, just like you, Finland."
+    eng "I don't hate it. It's kind of nice, right?\nIt's fluffy, just like you, Finland."
 
 # game/scenario/1story.rpy:390
 translate english story1_921c0f53:
 
     # fin "ふわふわってどういう\n意味でのふわふわ\nなんですかー！"
-    fin "Fluffy, fluffy in what way, exactly!?{nw}"
+    fin "Fluffy, fluffy in what way, exactly!?"
 
 # game/scenario/1story.rpy:399
 translate english story1_5ca81584:

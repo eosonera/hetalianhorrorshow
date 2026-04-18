@@ -68,41 +68,27 @@ label story5:
     show england blush shout at pos_transform(xpos=200, yalign=0.0)
     $ eng.screen = 'center_3long'
     
-    
-    eng "知らないゴーストが\nいたんだ…！{nw}" id story5_d971867a
-    play sound "sfx/gun09.ogg"
-    camera at shake_5s1
-    camera screens at shake_5s1
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
-    stop sound
-    camera
-    camera screens
+    $ _pending_camera_transform = [([shake_5s1], "master"), ([shake_5s1], "screens")]
+    $ _pending_sound = ("sfx/gun09.ogg", "sound")
+    eng "知らないゴーストが\nいたんだ…！" id story5_d971867a
 
+    $ _pending_camera_transform = None
+    stop sound
 
     show america yell sweat at pos_transform(xpos=400, yalign=0.0) behind england
     $ ame.screen = 'right_3'
-    ame "ゴ…ゴーストが…っ\n君の目の前に…っ！？\nなんて恐ろしいんだっ！{nw}" id story5_492388cf
+    $ _pending_window_transform = (shake_5s2)
+    $ _pending_sound = ("sfx/gun09_r.ogg", "sound")
+    ame "ゴ…ゴーストが…っ\n君の目の前に…っ！？\nなんて恐ろしいんだっ！" id story5_492388cf
     
-    play sound "sfx/gun09_r.ogg"
-    $ window_transform = shake_5s2
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
-    $ window_transform = None
     stop sound
 
     show bulgaria conniving at pos_transform(xpos=0, yoffset=1.0) behind england
     $ bul.screen='left_1'
-    bul "幽霊唐突すぎる！{nw}" id story5_274d4766
+    $ _pending_window_transform = (shake_2s6)
+    $ _pending_sound = ("sfx/hit34.ogg", "sound")
+    bul "幽霊唐突すぎる！" id story5_274d4766
 
-    play sound "sfx/hit34.ogg"
-    $ window_transform = shake_2s6
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
-    $ window_transform = None
     stop sound
 
     show england heheheh2
@@ -143,14 +129,9 @@ label story5:
 
     show england scream at pos_transform(xpos=300, yalign=0.0)
     $ eng.screen = 'center_1'
-    eng "…かっ……！{nw}" id story5_cc5962b4
-
-    play sound "sfx/hit40_b.ogg"
-    $ window_transform = shake_5s3
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
-    $ window_transform = None
+    $ _pending_window_transform = (shake_5s3)
+    $ _pending_sound = ("sfx/hit40_b.ogg", "sound")
+    eng "…かっ……！" id story5_cc5962b4
     stop sound
 
     show spain worried at pos_transform(xpos=420, yalign=0.0)
@@ -183,38 +164,24 @@ label story5:
         easein 0.5 xpos 700
     pause 1
     $ bul.screen='right_4'
-    bul "あっこういう時は\n語尾ににゃんってつけると\n何でも許してもらえる\nらしいっすよ。{nw}" id story5_ffdbc5f6
+    $ _pending_window_transform = (shake_5s4)
+    $ _pending_sprite_transform = [("bulgaria", [shake_5s4, bul_5s])]
+    bul "あっこういう時は\n語尾ににゃんってつけると\n何でも許してもらえる\nらしいっすよ。" id story5_ffdbc5f6
     
-    $ window_transform = shake_5s4
-    show bulgaria whatisthat at shake_5s4 with {'master': None}:
-        xpos 700
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
-    $ window_transform = None
-
+    $ _pending_sprite_transform = [("spain smiling", pos_transform(xpos=420, yalign=0.0), Dissolve(0.2))]
     show spain oh
     $ spa.screen = 'right_3'
-    spa "そうなん？\nごめんにゃんやでー。{nw}" id story5_67d9ca09
-
-    show spain smiling with {'master': Dissolve(0.2)}
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
+    spa "そうなん？\nごめんにゃんやでー。" id story5_67d9ca09
 
     show england blush shout:
         pause 0.5
         easein 0.5 xpos 100
     pause 1
     $ eng.screen = 'center_3'
-    eng "ムカつくから\nやめろ！！{nw}" id story5_7c8ffea7
 
-    play sound "sfx/ding61.ogg"
-    $ window_transform = shake_5s5
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
-    $ window_transform = None
+    $ _pending_window_transform = (shake_5s5)
+    $ _pending_sound = ("sfx/ding61.ogg", "sound")
+    eng "ムカつくから\nやめろ！！" id story5_7c8ffea7
     stop sound
 
     show spain isee
@@ -226,16 +193,11 @@ label story5:
         easein 0.25 ypos 100
     pause 1
     $ ame.screen = 'left_4'
-    ame "Ｇｒｅａｔ！\nチュロス！\nチュロスじゃないか！\n俺は君に会いたかった！{nw}" id story5_e134b004
-    
-    play sound "sfx/ding27.ogg"
-    show america at shake_5s5 with {'master': None}:
-        ypos 100
-    $ window_transform = shake_5s5
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
-    $ window_transform = None
+    $ _pending_sprite_transform = [("america", [shake_5s5, ame_5s])]
+    $ _pending_window_transform = (shake_5s5)
+    $ _pending_sound = ("sfx/ding27.ogg", "sound")
+    ame "Ｇｒｅａｔ！\nチュロス！\nチュロスじゃないか！\n俺は君に会いたかった！" id story5_e134b004
+    $ _pending_window_transform = None
 
     stop sound
     stop music fadeout 3

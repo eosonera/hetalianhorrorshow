@@ -75,8 +75,8 @@ translate english start_4a9432bb:
 # game/script.rpy:68
 translate english start_c71f0dd7:
 
-    # rom "お願いだよー！！\nお菓子あげるから！{nw}"
-    rom "Pleeease!!?\nI'll give you some sweets!{nw}"
+    # rom "お願いだよー！！\nお菓子あげるから！"
+    rom "Pleeease!!?\nI'll give you some sweets!"
 
 # game/script.rpy:72
 translate english start_bc7df12d:
@@ -118,8 +118,8 @@ translate english start_d37301ef:
 # game/script.rpy:98
 translate english start_239fc5ac:
 
-    # bul "もう一声ぇっ！{nw}"
-    bul "One more time!{nw}"
+    # bul "もう一声ぇっ！"
+    bul "One more time!"
 
 # game/script.rpy:102
 translate english start_6b148d73:
@@ -130,14 +130,14 @@ translate english start_6b148d73:
 # game/script.rpy:109
 translate english start_97b31921:
 
-    # bul "俺三万歳！！\nつまり俺の国力は\n３万あるんだわー！{nw}"
-    bul "I am 30,000!\nWhich means the strength of my nation is also 30,000!{nw}"
+    # bul "俺三万歳！！\nつまり俺の国力は\n３万あるんだわー！"
+    bul "I am 30,000!\nWhich means the strength of my nation is also 30,000!"
 
 # game/script.rpy:118
 translate english start_e5a62779:
 
-    # rom "こいつ盛ったぁー！！{nw}"
-    rom "You're stretching that!!{nw}"
+    # rom "こいつ盛ったぁー！！"
+    rom "You're stretching that!!"
 
 # game/script.rpy:125
 translate english start_300040ae:
@@ -154,8 +154,8 @@ translate english start_c62956d7:
 # game/script.rpy:135
 translate english start_091ebbd4:
 
-    # bul "ぷぷぷぷ～\nぷんにょにょ～（鼻歌）{nw}"
-    bul "Hm-hm-hm-hm~\nHm-mm-mm~ (humming){nw}"
+    # bul "ぷぷぷぷ～\nぷんにょにょ～（鼻歌）"
+    bul "Hm-hm-hm-hm~\nHm-mm-mm~ (humming)"
 
 # game/script.rpy:140
 translate english start_5ef33473:
@@ -166,8 +166,8 @@ translate english start_5ef33473:
 # game/script.rpy:144
 translate english start_76f6ac0e:
 
-    # bul "ふんごっ\nふんごっ（鼻歌）{nw}"
-    bul "Hmm-mmh\nhmm-mmh (humming){nw}"
+    # bul "ふんごっ\nふんごっ（鼻歌）"
+    bul "Hmm-mmh\nhmm-mmh (humming)"
 
 # game/script.rpy:148
 translate english start_fcb03828:
@@ -184,8 +184,8 @@ translate english start_7c634a5e:
 # game/script.rpy:156
 translate english start_6f8a9988:
 
-    # extend "\n…あっ！そうだ！\nこの仕事すると…目立てるよ！{nw}"
-    extend "\n...Ah! I've got it!\nIf you do this for me... You'll get noticed!{nw}"
+    # extend "\n…あっ！そうだ！\nこの仕事すると…目立てるよ！"
+    extend "\n...Ah! I've got it!\nIf you do this for me... You'll get noticed!"
 
 # game/script.rpy:165
 translate english start_63665121:
@@ -274,8 +274,8 @@ translate english start_d4d62c12:
 # game/script.rpy:232
 translate english start_fc180838:
 
-    # bul "ちょっくら司会進行として\n国としての存在感\nアピッてくるんだわ！！{nw}"
-    bul "I'll step up as the moderator and show off my presence as a country!!{nw}"
+    # bul "ちょっくら司会進行として\n国としての存在感\nアピッてくるんだわ！！"
+    bul "I'll step up as the moderator and show off my presence as a country!!"
 
 # game/script.rpy:237
 translate english start_0f5baf6e:
@@ -286,8 +286,8 @@ translate english start_0f5baf6e:
 # game/script.rpy:244
 translate english start_c6e01564:
 
-    # bul "そしてこのゲームの\n主役も頂くんだわ！{nw}"
-    bul "And I'll be the main\ncharacter in this game!{nw}"
+    # bul "そしてこのゲームの\n主役も頂くんだわ！"
+    bul "And I'll be the main\ncharacter in this game!"
 
 # game/script.rpy:249
 translate english start_caf63c9d:

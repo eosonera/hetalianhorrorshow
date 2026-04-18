@@ -143,20 +143,20 @@ translate english story5_76b2fe88_7:
 translate english story5_d971867a:
 
     # eng "知らないゴーストが\nいたんだ…！"
-    eng "Was a ghost that I didn't recognize...!{nw}"
+    eng "Was a ghost that I didn't recognize...!"
 
 # game/scenario/5story.rpy:69
 translate english story5_492388cf:
 
     # ame "ゴ…ゴーストが…っ\n君の目の前に…っ！？\nなんて恐ろしいんだっ！"
-    ame "A g... ghost...\nRight in front of you...! ?\nHow terrifying!{nw}"
+    ame "A g... ghost...\nRight in front of you...! ?\nHow terrifying!"
 
 # game/scenario/5story.rpy:73
 translate english story5_274d4766:
 
-    # bul "幽霊唐突すぎる！{nw}"
+    # bul "幽霊唐突すぎる！"
     $ bul.screen = 'left_3'
-    bul "The ghost appeared\ntoo suddenly!{nw}"
+    bul "The ghost appeared\ntoo suddenly!"
 
 # game/scenario/5story.rpy:77
 translate english story5_343eeea9:
@@ -187,8 +187,8 @@ translate english story5_098fcbd0:
 # game/scenario/5story.rpy:96
 translate english story5_cc5962b4:
 
-    # eng "…かっ……！{nw}"
-    eng "...Agh...!{nw}"
+    # eng "…かっ……！"
+    eng "...Agh...!"
 
 # game/scenario/5story.rpy:100
 translate english story5_775802c5:
@@ -229,28 +229,28 @@ translate english story5_dc9f3461:
 # game/scenario/5story.rpy:127
 translate english story5_ffdbc5f6:
 
-    # bul "あっこういう時は\n語尾ににゃんってつけると\n何でも許してもらえる\nらしいっすよ。{nw}"
+    # bul "あっこういう時は\n語尾ににゃんってつけると\n何でも許してもらえる\nらしいっすよ。"
     $ bul.screen = 'right_4long'
-    bul "Oh, I've heard that people will forgive you if you add 'meow' to your sentences in situations like this.{nw}"
+    bul "Oh, I've heard that people will forgive you if you add 'meow' to your sentences in situations like this."
 
 # game/scenario/5story.rpy:133
 translate english story5_67d9ca09:
 
     # spa "そうなん？\nごめんにゃんやでー。"
-    spa "That so?\nI'm meow-y sorry.{nw}"
+    spa "That so?\nI'm meow-y sorry."
 
 # game/scenario/5story.rpy:140
 translate english story5_7c8ffea7:
 
-    # eng "ムカつくから\nやめろ！！{nw}"
-    eng "Stop it,\nyou're doing my head in!!{nw}"
+    # eng "ムカつくから\nやめろ！！"
+    eng "Stop it,\nyou're doing my head in!!"
 
 # game/scenario/5story.rpy:151
 translate english story5_e134b004:
 
-    # ame "Ｇｒｅａｔ！\nチュロス！\nチュロスじゃないか！\n俺は君に会いたかった！{nw}"
+    # ame "Ｇｒｅａｔ！\nチュロス！\nチュロスじゃないか！\n俺は君に会いたかった！"
     $ ame.screen = 'left_4long'
-    ame "Great!\nChurros!\nThe churros are here, right!\nI missed you, churros!{nw}"
+    ame "Great!\nChurros!\nThe churros are here, right!\nI missed you, churros!"
 
 # TODO: Translation updated at 2026-04-01 13:23
 

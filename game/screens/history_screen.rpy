@@ -50,7 +50,7 @@ screen history():
                             if h.who:
                                 label "【　{}　】".format(name_map.get(h.who, h.who)) style 'history_name':
                                     substitute False
-                                    xsize 200   
+                                    xsize 200
                             else:
                                 null height 0
 
@@ -96,7 +96,7 @@ style history_vscrollbar:
 ## History Config #####################################################################
 
 ## The number of blocks of dialogue history Ren'Py will keep.
-define config.history_length = 250
+define config.history_length = 75
 
 ## The height of a history screen entry, or None to make the height variable at
 ## the cost of performance.

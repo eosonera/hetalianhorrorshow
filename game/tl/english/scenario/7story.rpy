@@ -9,8 +9,8 @@ translate english story7_860b727e:
 # game/scenario/7story.rpy:17
 translate english story7_9dd7a492:
 
-    # na2 "失礼しまーす！{nw}"
-    na2 "Coming iiin!{nw}"
+    # na2 "失礼しまーす！"
+    na2 "Coming iiin!"
 
 # game/scenario/7story.rpy:38
 translate english story7_378a8f1f:
@@ -46,7 +46,7 @@ translate english story7_ad38888c:
 translate english story7_4b8bd771:
 
     # spa "もしかして\n７人目誘うの\n忘れ取ったんちゃうか？\nどじっこさんやなぁ！"
-    spa "D'ya forget to invite the seventh person? That's mighty clumsy!"
+    spa "Didya forget to invite the seventh person? That's mighty clumsy!"
 
 # game/scenario/7story.rpy:88
 translate english story7_002d0375:
@@ -99,8 +99,8 @@ translate english story7_5688e25d:
 # game/scenario/7story.rpy:137
 translate english story7_0caf85f6:
 
-    # rom "えへへ…そうかなー…\nあっイギリスもお菓子\nどうぞなんだよー{nw}"
-    rom "Ehehe... Reallyyy...\nOh, you should try some too, England!{nw}"
+    # rom "えへへ…そうかなー…\nあっイギリスもお菓子\nどうぞなんだよー"
+    rom "Ehehe... Reallyyy...\nOh, you should try some too, England!"
 
 # game/scenario/7story.rpy:154
 translate english story7_9feff1de:
@@ -124,20 +124,20 @@ translate english story7_3b1b5942:
 translate english story7_56a4d789:
 
     # rom "…あ、あははは…\nありがとうなんだよー"
-    rom "...Ah, ahahaha...\nThanks a whole buuunch!"
+    rom "...Ah, ahahaha...\nGee, thaaanks."
 
 # game/scenario/7story.rpy:188
 translate english story7_85994eed:
 
-    # bul "ちょー…\nお前忙しいとか\n言ってただろー{nw}"
-    bul "Wait...\nYou said you would be busy, didn't you?{nw}"
+    # bul "ちょー…\nお前忙しいとか\n言ってただろー"
+    bul "Wait...\nYou said you would be busy, didn't you?"
 
 # game/scenario/7story.rpy:213
 translate english story7_aa94871d:
 
-    # bul "ん。あれ？\nあとこの集会って\n魔術部のイギ太郎が…{nw}"
+    # bul "ん。あれ？\nあとこの集会って\n魔術部のイギ太郎が…"
     $ bul.screen = 'left_4'
-    bul "Hmm. Huh?\nAnd that this meeting was because Eng-whatever from the Magic Club...{nw}"
+    bul "Hmm. Huh?\nAnd that this meeting was because Eng-whatever from the Magic Club..."
 
 # game/scenario/7story.rpy:224
 translate english story7_ad8be397:
@@ -154,8 +154,8 @@ translate english story7_3b83e8e1:
 # game/scenario/7story.rpy:243
 translate english story7_ed821300:
 
-    # rom "あのねブルガリア…\nえとその…\n今のうちに帰った方が\n良いんだよー…{nw}"
-    rom "You know, Bulgaria...\nWell, um...\nYou 'd better go home now...{nw}"
+    # rom "あのねブルガリア…\nえとその…\n今のうちに帰った方が\n良いんだよー…"
+    rom "You know, Bulgaria...\nWell, um...\nYou 'd better go home now..."
 
 # game/scenario/7story.rpy:269
 translate english story7_7e1aef07:
@@ -166,8 +166,8 @@ translate english story7_7e1aef07:
 # game/scenario/7story.rpy:273
 translate english story7_78b4c722:
 
-    # rom "ちがうよう…！\nいいからできるだけ\n早く帰るんだよー！{nw}"
-    rom "That's not it...!\nYou just gotta go home as soon as possible!{nw}"
+    # rom "ちがうよう…！\nいいからできるだけ\n早く帰るんだよー！"
+    rom "That's not it...!\nYou just gotta go home as soon as possible!"
 
 # game/scenario/7story.rpy:283
 translate english story7_9a4a8e97:
@@ -208,8 +208,8 @@ translate english story7_51ca0ab3:
 # game/scenario/7story.rpy:335
 translate english story7_65241561:
 
-    # rom "にゃー！！？{nw}"
-    rom "Nyah!!?{nw}"
+    # rom "にゃー！！？"
+    rom "Nyah!!?"
 
 # game/scenario/7story.rpy:354
 translate english story7_e52d93f4:
@@ -226,8 +226,8 @@ translate english story7_2a6e2e94:
 # game/scenario/7story.rpy:364
 translate english story7_95375b13:
 
-    # eng "お…お前かっ！\nまあなんとなく\nそんな気はしていたがな！{nw}"
-    eng "It... it's you!\nWell, somehow I had a feeling it would be you!{nw}"
+    # eng "お…お前かっ！\nまあなんとなく\nそんな気はしていたがな！"
+    eng "It... it's you!\nWell, somehow I had a feeling it would be you!"
 
 # game/scenario/7story.rpy:396
 translate english story7_effdb45f:
@@ -429,8 +429,8 @@ translate english story7_76b2fe88_10:
 # game/scenario/7story.rpy:487
 translate english story7_afcde6d2:
 
-    # rom "ご…ごめんなさいっ！\nごめんよごめんよー\nみんなーっ！{nw}"
-    rom "I- I'm sorry!\nSorry, I'm sorry!\nEveryone!{nw}"
+    # rom "ご…ごめんなさいっ！\nごめんよごめんよー\nみんなーっ！"
+    rom "I- I'm sorry!\nSorry, I'm sorry!\nEveryone!"
 
 # game/scenario/7story.rpy:505
 translate english story7_09841c42:
@@ -454,8 +454,8 @@ translate english story7_b7c0ba93:
 # game/scenario/7story.rpy:525
 translate english story7_79b6d094:
 
-    # rus "もう！ルーマニア君\n先にネタバレしちゃ\nだめだよー。{nw}"
-    rus "Come on! Romania, don't spoil it ahead of time～{nw}"
+    # rus "もう！ルーマニア君\n先にネタバレしちゃ\nだめだよー。"
+    rus "Come on! Romania, don't spoil it ahead of time～"
 
 # game/scenario/7story.rpy:545
 translate english story7_6aebc3e7:
@@ -473,7 +473,7 @@ translate english story7_ae8f0180:
 translate english story7_f01bac54:
 
     # eng "そ、そうだ…！\nそんな薬あるわけないだろ！\n{size=-5}ってお前俺に対してどんな認識なんだよ！{/size}"
-    eng "That's right...!\nThere's no way a drug like that is real!\n{size=-4}And what exactly is your perception of me?!{/size}"
+    eng "That's right...!\nThere's no way a drug like that is real!\n{size=-3}And what exactly is your perception of me?!{/size}"
 
 # game/scenario/7story.rpy:560
 translate english story7_85172fa2:
@@ -539,13 +539,13 @@ translate english story7_c962e036:
 translate english story7_3bf446ee:
 
     # spa "あっせやけどお願い聞こえんくらい\n離れたら大丈夫や思うで！\nほな！帰ろかー！"
-    spa "Oh, but I reckon if we get far enough away\nthat we can't hear his commands, it'll be alright!\nWell then! Let's head on back home!"
+    spa "Oh, but I reckon if we get far enough away that we can't hear his commands, it'll be alright!\nWell then! Let's head on back home!"
 
 # game/scenario/7story.rpy:637
 translate english story7_7a388682:
 
-    # extend "\n…ドアノブつめたっ！{nw}"
-    extend "\n...The doorknob's stuck!{nw}"
+    # extend "\n…ドアノブつめたっ！"
+    extend "\n...The doorknob's stuck!"
 
 # game/scenario/7story.rpy:656
 translate english story7_e767e6e2:
@@ -568,8 +568,8 @@ translate english story7_c61548e2:
 # game/scenario/7story.rpy:687
 translate english story7_3f5fd2bf:
 
-    # ame "くそっ！\nこれじゃあ寒すぎて…\n力が出ないじゃないか！{nw}"
-    ame "Damn it!\nIt's too cold...\nI can't muster up the strength!{nw}"
+    # ame "くそっ！\nこれじゃあ寒すぎて…\n力が出ないじゃないか！"
+    ame "Damn it!\nIt's too cold...\nI can't muster up the strength!"
 
 # game/scenario/7story.rpy:705
 translate english story7_8bac0689:
@@ -619,7 +619,7 @@ translate english stophim_5102abb4:
 translate english stophim_8a71a952:
 
     # rom "（あ…、あー…）"
-    rom "(Ah... Aah...)"
+    rom "(Oh ... Okay...)"
 
 # game/scenario/7story.rpy:780
 translate english stophim_0fc4d76e:
@@ -643,7 +643,7 @@ translate english stophim_6775b8a1:
 translate english stophim_1321376f:
 
     # rus "え…。君がみんなの\n盾になるっていうの\nブルガリア君？"
-    rus "Eh... You mean you're going to be everyone's shield, Bulgari-ushka?"
+    rus "Huh... You mean you're going to be everyone's shield, Bulgari-ushka?"
 
 # game/scenario/7story.rpy:804
 translate english stophim_fd42778c:
@@ -703,7 +703,7 @@ translate english stophim_e7131160:
 translate english stophim_2e6b0042:
 
     # bul "…あれ？\n俺、何してたっけ？"
-    bul "...Huh?\nWhat am I doing here?"
+    bul "...Huh?\nWhat was I doing again?"
 
 # game/scenario/7story.rpy:853
 translate english stophim_77f4beb2:
@@ -714,14 +714,14 @@ translate english stophim_77f4beb2:
 # game/scenario/7story.rpy:856
 translate english stophim_b286e950:
 
-    # bul "えええ！？\nちょ…なにが\nどうなってんだわー！？{nw}"
-    bul "Huhhhh!?\nWait... What the hell is going on here?{nw}"
+    # bul "えええ！？\nちょ…なにが\nどうなってんだわー！？"
+    bul "Huhhhh!?\nWait... What the hell is going on here?"
 
 # game/scenario/7story.rpy:870
 translate english stophim_886905b6:
 
     # rus "おはようブルガリア君！\n君の英雄的行為\nかっこよかったよ"
-    rus "Good morning, Bulgaria! Your acts of heroism were impressive."
+    rus "Good morning, Bulgari-ushka! Your acts of heroism were impressive."
 
 # game/scenario/7story.rpy:875
 translate english stophim_c6628b52:
@@ -732,8 +732,8 @@ translate english stophim_c6628b52:
 # game/scenario/7story.rpy:878
 translate english stophim_1b277827:
 
-    # bul "でも何でこんな展開\nになるんだわー！？\nあっ、いや。ですかー！{nw}"
-    bul "But why the hell did I have to end up like this!?\nAh, no... I mean, how could this have happened!{nw}"
+    # bul "でも何でこんな展開\nになるんだわー！？\nあっ、いや。ですかー！"
+    bul "But why the hell did I have to end up like this!?\nAh, no... I mean, how could this have happened!"
 
 # game/scenario/7story.rpy:888
 translate english stophim_259d5e1c:
@@ -786,14 +786,14 @@ translate english stophim_dbc52dbc:
 # game/scenario/7story.rpy:916
 translate english stophim_d118f906:
 
-    # rus "目立てて\n良かったね♪{nw}"
-    rus "I'm glad you manged to stand out♪{nw}"
+    # rus "目立てて\n良かったね♪"
+    rus "I'm glad you manged to stand out♪"
 
 # game/scenario/7story.rpy:929
 translate english stophim_6cb88e8b:
 
-    # bul "最初っから…！\n最初っからー！！{nw}"
-    bul "From the very start...!\nFrom the very staaart...!!{nw}"
+    # bul "最初っから…！\n最初っからー！！"
+    bul "From the very start...!\nFrom the very staaart...!!"
 
 # game/scenario/7story.rpy:940
 translate english stophim_0ba32b4e:
@@ -804,20 +804,15 @@ translate english stophim_0ba32b4e:
 # game/scenario/7story.rpy:947
 translate english stophim_3556432d:
 
-    # bul "あ！でもよく考えたら\n確かにおいしい\nポジションですわ！\nあざーっす！あざーっす！{nw}"
-    bul "Ah! But now that I've thought about it, this is actually enjoyable!\nCheers! Cheers!{nw}"
+    # bul "あ！でもよく考えたら\n確かにおいしい\nポジションですわ！\nあざーっす！あざーっす！{nw=2}"
+    bul "Ah! But now that I've thought about it, this is actually enjoyable!\nCheers! Cheers!{nw=2}"
 
-# game/scenario/7story.rpy:952
-translate english stophim_cf2a10b5:
-
-    # extend "{nw=5.0}"
-    extend "{nw=5.0}"
 
 # game/scenario/7story.rpy:957
 translate english stophim_e1c6c2ea:
 
     # rus "君って意外と\n神経図太いよね{nw=2.0}"
-    rus "You're surprisingly tough, aren't you?{nw=2.0}"
+    rus "You're surprisingly tough, aren't you?{nw=3}"
 
 ###########################
 
@@ -836,8 +831,8 @@ translate english donothing_d70e96ff:
 # game/scenario/7story.rpy:990
 translate english donothing_b8455794:
 
-    # ame "確かに今の俺には\n君に対抗できる力が出せない。\nだがそれで俺は諦めない！{nw}"
-    ame "It's true that I don't have the strength to fight you.\nBut that doesn't mean I'm giving up!{nw}"
+    # ame "確かに今の俺には\n君に対抗できる力が出せない。\nだがそれで俺は諦めない！"
+    ame "It's true that I don't have the strength to fight you.\nBut that doesn't mean I'm giving up!"
 
 # game/scenario/7story.rpy:1006
 translate english donothing_4db270a6:
@@ -878,87 +873,87 @@ translate english donothing_7c44211d:
 # game/scenario/7story.rpy:1056
 translate english donothing_8317ac46:
 
-    # ame "おいおい！\nどうして\nそうなるんだい！？{nw=5.0}"
-    ame "Hold on!\nWhy did you jump to that conclusion?!"
+    # ame "おいおい！\nどうして\nそうなるんだい！？"
+    ame "Hold on!\nWhy did you jump to that conclusion?!{nw=2.5}"
 
 # game/scenario/7story.rpy:1060
 translate english donothing_427f0b6c:
 
-    # rus "だって多少時代背景や\n舞台設定に無理があっても\n何が何でも僕を黒幕\nしたがるじゃない…。{nw=5.0}"
-    rus "Because even when it doesn't fit with the story's historical context or setting, you always insist on making me the mastermind..."
+    # rus "だって多少時代背景や\n舞台設定に無理があっても\n何が何でも僕を黒幕\nしたがるじゃない…。"
+    rus "Because even when it doesn't fit with the story's historical context or setting, you always insist on making me the mastermind...{nw=1.5}"
 
 # game/scenario/7story.rpy:1064
 translate english donothing_049c45b4:
 
-    # rus "そこまでして僕黒幕オチを\n多用する背景には\n僕への好意があるんじゃないかと\n疑わざるを得ないよ。{nw=5.0}"
-    rus "I can't help but suspect that the reason you use the reveal that I'm the mastermind so much is out of affection for me."
+    # rus "そこまでして僕黒幕オチを\n多用する背景には\n僕への好意があるんじゃないかと\n疑わざるを得ないよ。"
+    rus "I can't help but suspect that the reason you use the reveal that I'm the mastermind so much is out of affection for me.{nw=2}"
 
 # game/scenario/7story.rpy:1068
 translate english donothing_cea25ed6:
 
-    # ame "ＮＯＯＯ！\n黒幕と陰謀っていったら\n君ってイメージなだけだよ！！{nw=5.0}"
-    ame "NOOO!\nIt's just that you're the first thing that comes to mind when masterminds and schemes are brought up!!"
+    # ame "ＮＯＯＯ！\n黒幕と陰謀っていったら\n君ってイメージなだけだよ！！"
+    ame "NOOO!\nIt's just that you're the first thing that comes to mind when masterminds and schemes are brought up!!{nw=2.0}"
 
 # game/scenario/7story.rpy:1072
 translate english donothing_b92b412d:
 
-    # rus "そうかなぁ。\n君よりはクリーンなつもりだよ？\nだって何が起こっても\n背後は僕！って言われるじゃない。{nw=5.0}"
-    rus "Is that so?\nI think I'm more upstanding than you, you know?\nAfter all, no matter what happens, they say that I'm the one behind it."
+    # rus "そうかなぁ。\n君よりはクリーンなつもりだよ？\nだって何が起こっても\n背後は僕！って言われるじゃない。"
+    rus "Is that so?\nI think I'm more upstanding than you, you know? After all, no matter what happens, they say that I'm the one behind it.{nw=2.1}"
 
 # game/scenario/7story.rpy:1076
 translate english donothing_9f34fc55:
 
-    # rus "…まあその通りなんだけど。\nそれってとってもわかりやすくて\nみんなから見えてるわけだから\n陰謀や黒幕とは言えないよ。{nw=5.0}"
-    rus "...Well, they're not wrong. But since it's so obvious and everyone can predict it, you can't really call them schemes or masterminds."
+    # rus "…まあその通りなんだけど。\nそれってとってもわかりやすくて\nみんなから見えてるわけだから\n陰謀や黒幕とは言えないよ。"
+    rus "...Well, they're not wrong. But since it's so obvious and everyone can predict it, you can't really call them schemes or masterminds.{nw=2.5}"
 
 # game/scenario/7story.rpy:1080
 translate english donothing_d19cefa0:
 
-    # ame "た、確かに…！\n映画的にも黒幕予想が\nイージーすぎて\nナンセンスだね！{nw=5.0}"
+    # ame "た、確かに…！\n映画的にも黒幕予想が\nイージーすぎて\nナンセンスだね！"
     $ ame.screen = 'right_3'
-    ame "Y-you have a point...!\nFrom a cinematic standpoint, it's way too easy to guess who the mastermind is — it's just nonsense!"
+    ame "Y-you have a point...!\nFrom a cinematic standpoint, it's way too easy to guess who the mastermind is — it's just nonsense!{nw=1.3}"
 
 # game/scenario/7story.rpy:1086
 translate english donothing_f443eb14:
 
-    # rus "じゃあ今度は\n誰黒幕にする？{nw=5.0}"
-    rus "So, who's going to be the mastermind this time?"
+    # rus "じゃあ今度は\n誰黒幕にする？"
+    rus "So, who's going to be the mastermind this time?{nw=1}"
 
 # game/scenario/7story.rpy:1089
 translate english donothing_75f5c236:
 
-    # ame "君以外で…？！\nどうやれっていうんだい！{nw=5.0}"
-    ame "Other than you...?!\nHow am I supposed to figure that out?!"
+    # ame "君以外で…？！\nどうやれっていうんだい！"
+    ame "Other than you...?!\nHow am I supposed to figure that out?!{nw=1.3}"
 
 # game/scenario/7story.rpy:1092
 translate english donothing_780e2b04:
 
-    # rus "こうしていつも通りの\nアメリカ君の映画が\nできるわけだね。{nw=5.0}"
-    rus "And that’s how we end up with another typical movie from you, America."
+    # rus "こうしていつも通りの\nアメリカ君の映画が\nできるわけだね。"
+    rus "And that’s how we end up with another typical movie from you, America.{nw=2.2}"
 
 # game/scenario/7story.rpy:1095
 translate english donothing_158654f4:
 
-    # rus "フランス君ほどとは\n言わないけどひねろうよ。\nスペイン君みたいに\n最後の５分で暴走するのも良いね。{nw=5.0}"
-    rus "I'm not saying you should go as far as France's movies, but try to put a twist on it. You could also go off the rails in the last five minutes like Spain does."
+    # rus "フランス君ほどとは\n言わないけどひねろうよ。\nスペイン君みたいに\n最後の５分で暴走するのも良いね。"
+    rus "I'm not saying you should go as far as France's movies, but try to put a twist on it. You could also go off the rails in the last five minutes like Spain does.{nw=3}"
 
 # game/scenario/7story.rpy:1098
 translate english donothing_820f8046:
 
-    # ame "それなら最近\n新しいタイプの\nエンディングを考えて…！{nw=5.0}"
-    ame "In that case, I've been thinking about a new type of ending recently...!"
+    # ame "それなら最近\n新しいタイプの\nエンディングを考えて…！"
+    ame "In that case, I've been thinking about a new type of ending recently...!{nw=2}"
 
 # game/scenario/7story.rpy:1101
 translate english donothing_00bfdef7:
 
-    # rus "家の中の怪奇現象は全部\n宇宙人がやってましたオチと\n友だちが悪魔化して全滅オチ\nじゃないよね？{nw=5.0}"
-    rus "The twist isn't going to be 'all the strange phenomena in the house were caused by aliens' or 'an ally gets turned into a demon and everyone dies,' right?"
+    # rus "家の中の怪奇現象は全部\n宇宙人がやってましたオチと\n友だちが悪魔化して全滅オチ\nじゃないよね？"
+    rus "The twist isn't going to be ‘all the strange phenomena in the house were caused by aliens’ or ‘an ally gets turned into a demon and everyone dies,’ right?{nw=4}"
 
 # game/scenario/7story.rpy:1105
 translate english donothing_fa690420:
 
-    # ame "くっ！\n君厳しいよ！{nw=5.0}"
-    ame "Damn!\nYou're tough to please!"
+    # ame "くっ！\n君厳しいよ！"
+    ame "Damn!\nYou're tough to please!{nw=2}"
 
 translate english strings:
 

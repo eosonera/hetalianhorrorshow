@@ -42,7 +42,7 @@ screen language():
                     spacing 0
                     for name, code in list_languages:
                         textbutton ("[name]"):
-                            action Language(code)
+                            action [Language(code)]#, Function(renpy.restart_interaction)]
                         
 
 style language_button_text is gui_text
@@ -53,15 +53,12 @@ style language_button_text:
     hover_color '#5e422b'
     size 20
     xalign 1.0
-style about_vscrollbar is font_vscrollbar
+style language_vscrollbar is font_vscrollbar
 style language_vscrollbar:
     unscrollable "hide"
 
 
 
-translate english python:
-    gui.kerning_dialogue = 0
-    gui.kerning_narrator = 0
 
 
 
@@ -91,27 +88,32 @@ screen preferences():
         xpos 138
         ypos 109
 
-
     style_prefix "pref2"
     viewport:
         xpos 230
-        ypos 202
-        xsize 468
-        ysize 232
+        ypos 200
+        xsize 520
+        ysize 250
 
         mousewheel False draggable False pagekeys False
         #scrollbars "vertical"
         has vbox
+        spacing 12
 
         hbox:
             box_wrap True
-            spacing 10
+            spacing 5
+            
 
             vbox:
+                spacing 10
+                xsize 220
                 if renpy.variant("pc") or renpy.variant("web"):
                     # Only need fullscreen/windowed on desktop and web builds
-                    vbox:
-                        spacing 20
+                    frame:
+                        style "pref_frame"
+                        has vbox
+                        spacing 8
                         style_prefix "radio"
                         label _("ディスプレイ")
                         textbutton _("ウィンドウ"):
@@ -123,8 +125,10 @@ screen preferences():
                             action Preference("display", "fullscreen")
 
                 if renpy.variant("pc") or renpy.variant("web"):
-                    vbox:
-                        spacing 10
+                    frame:
+                        style "pref_frame"
+                        has vbox
+                        spacing 8
                         style_prefix "radio"
                         label _("セーブメモ")
                         textbutton _("On") action [SetVariable("persistent.saveName", True)]
@@ -132,8 +136,11 @@ screen preferences():
 
             vbox:
                 spacing 10
-                vbox:
-                    spacing 10
+                xsize 220
+                frame:
+                    style "pref_frame"
+                    has vbox
+                    spacing 8
                     style_prefix "radio"
                     label _("未読テキストもスキップ")
                     textbutton _("On"):
@@ -141,8 +148,10 @@ screen preferences():
                     textbutton _("Off"):
                         action Preference("skip", "seen")
 
-                vbox:
-                    spacing 10
+                frame:
+                    style "pref_frame"
+                    has vbox
+                    spacing 8
                     style_prefix "radio"
                     label _("選択肢の後もスキップ継続")
                     textbutton _("On"):
@@ -150,19 +159,24 @@ screen preferences():
                     textbutton _("Off"):
                         action Preference("after choices", "stop")
 
-            
-
-
-        style_prefix "remover"
-        null height 20
-        textbutton _("DELETE ALL SAVE DATA"):
-            action Confirm(_("全てのセーブデータを消去しますか？"), Function(delete_all_saves), no=None)
+        null height 10     
+        frame:
+            style "pref_frame"
+            xfill True
+            textbutton _("DELETE ALL SAVE DATA"):
+                action Confirm(_("全てのセーブデータを消去しますか？"), Function(delete_all_saves), no=None)
+                style "remover_button"
 
 style remover_button_text:
     color "#ff0000"
     size 20
     hover_color "#000"
     outlines [(1.2, "#fff", 0, 0)]
+
+style pref_frame:
+    padding (0, 0)
+    xfill True
+
 
 #style pref2_vscrollbar is history_vscrollbar
 
@@ -461,6 +475,12 @@ screen game_menu2(title):
     add "gui/menu_game/bg_game_menu2.png"
     add "gui/menu_game/menu_flower.png"
 
+    vbox:
+        style_prefix "gm"
+        xalign 1.0
+        yalign 0.0
+        text "hetascanlations\n[config.name!t] remake\nversion [config.version]"
+
     frame:
 
         imagebutton:
@@ -521,3 +541,9 @@ style game_menu2_text:
 
 style game_menu2_vscrollbar:
     unscrollable "hide"
+
+style gm_text is gui_text
+style gm_text:
+    size 9
+    color "#fff"
+    text_align 1.0

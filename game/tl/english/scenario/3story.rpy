@@ -9,8 +9,8 @@ translate english story3_1d710f02:
 # game/scenario/3story.rpy:16
 translate english story3_1e299711:
 
-    # story "三番目にお話しさせて頂きます。\n宜しくお願い致します。{nw}"
-    story "I shall be the third to speak.\nThank you all very much for attending.{nw}"
+    # story "三番目にお話しさせて頂きます。\n宜しくお願い致します。"
+    story "I shall be the third to speak.\nThank you all very much for attending."
 
 # game/scenario/3story.rpy:26
 translate english story3_6fdc4dba:
@@ -219,8 +219,8 @@ translate english story3_584f5ae1:
 # game/scenario/3story.rpy:157
 translate english story3_15a168c3:
 
-    # story "ぺた、ぺた…。{nw}"
-    story "Pit-pat, pit-pat...{nw}"
+    # story "ぺた、ぺた…。"
+    story "Pit-pat, pit-pat..."
 
 # game/scenario/3story.rpy:160
 translate english story3_72360f0c:
@@ -281,8 +281,8 @@ translate english story3_a43bbb4e:
 # game/scenario/3story.rpy:190
 translate english story3_579c308d:
 
-    # story "当日私は傘を差しておりましたし、\nなにより洋装でしたから…。{nw}"
-    story "Whereas, on that day, I had been carrying an umbrella, and more importantly, I had been dressed in Western-style clothing....{nw}"
+    # story "当日私は傘を差しておりましたし、\nなにより洋装でしたから…。"
+    story "Whereas, on that day, I had been carrying an umbrella, and more importantly, I had been dressed in Western-style clothing...."
 
 # game/scenario/3story.rpy:193
 translate english story3_da67871a:
@@ -351,9 +351,9 @@ translate english story3_6f8d30d8:
 translate english story3_531f856d:
 
     # nvl clear
-    # story "その晩、布団に潜り込んだものの\n先ほどの私によく似た方が\n気になってしまい\nなかなか寝付けません。{nw}"
+    # story "その晩、布団に潜り込んだものの\n先ほどの私によく似た方が\n気になってしまい\nなかなか寝付けません。"
     nvl clear
-    story "That night, although I slipped into my futon, I found sleep elusive, so preoccupied was I with the man who had been my mirror image earlier.{nw}"
+    story "That night, although I slipped into my futon, I found sleep elusive, so preoccupied was I with the man who had been my mirror image earlier."
 
 # game/scenario/3story.rpy:230
 translate english story3_8d9a0842:
@@ -373,7 +373,7 @@ translate english story3_eff9618d:
 translate english story3_d094b60f:
 
     # story "\n結果。朝の五時まで眠れず\n酷い目にあいました…。\n考えすぎるのもよくありません…。"
-    story "The outcome was that I lay awake until five in the morning, which left me in a rather sorry state... It really is no good to overthink things..."
+    story "In the end, I lay awake until five in the morning, which was quite the ordeal... It really is no good to overthink things..."
 
 # game/scenario/3story.rpy:234
 translate english story3_76b2fe88_14:
@@ -385,7 +385,7 @@ translate english story3_76b2fe88_14:
 translate english story3_e8d51713:
 
     # story "それで彼について考えうる可能性を\n私なりに五つにまとめてみたのですが…。{nw}"
-    story "As a consequence, I will offer a summary of five possible explanations for him from my own perspective....{nw}"
+    story "So I have come up with what I think are the five most likely possibilities for him...{nw}"
 
 # game/scenario/3story.rpy:243
 translate english story3_1bc6e8d6:
@@ -457,13 +457,13 @@ translate english story3_76b2fe88_18:
 translate english story3_058ce3ee:
 
     # story "それから三つ目。\n…少々ＳＦ的な要素が\n入るのですが…。"
-    story "And then the third possibility:\n...There's a bit of a sci-fi element involved..."
+    story "And then the third possibility:\n...It incorporates some sci-fi elements..."
 
 # game/scenario/3story.rpy:271
 translate english story3_ac56c9bd:
 
-    # story "私は、何人もいる…！{nw}"
-    story "There are several of me...!{nw}"
+    # story "私は、何人もいる…！"
+    story "There are several of me...!"
 
 # game/scenario/3story.rpy:277
 translate english story3_76b2fe88_19:
@@ -581,8 +581,8 @@ translate english story3_9587ddf5:
 # game/scenario/3story.rpy:322
 translate english story3_e8275d2f:
 
-    # story "{size=+12}{cps=5}……【老｜お】い。{/cps}{/size}{nw}"
-    story "{size=+12}{cps=5}...I'm getting old.{/cps}{/size}{nw}"
+    # story "{size=+12}{cps=5}……【老｜お】い。{/cps}{/size}"
+    story "{size=+12}{cps=5}...I'm getting old.{/cps}{/size}"
 
 # game/scenario/3story.rpy:327
 translate english story3_76b2fe88_23:
@@ -593,14 +593,14 @@ translate english story3_76b2fe88_23:
 # game/scenario/3story.rpy:336
 translate english story3_458c3e33:
 
-    # eng "{size=+5}ぐああぁっ！！{/size}{nw}"
-    eng "{size=+5}Gaaaah!!{/size}{nw}"
+    # eng "{size=+5}ぐああぁっ！！{/size}"
+    eng "{size=+5}Gaaaah!!{/size}"
 
 # game/scenario/3story.rpy:356
 translate english story3_a7aff70d:
 
-    # ame "{size=+2}えっ！！\n君もしかして何か\n自覚症状があるのかい！？{/size}{nw}"
-    ame "{size=+2}What!!\nDo you happen to know if you have any symptoms!?{/size}{nw}"
+    # ame "{size=+2}えっ！！\n君もしかして何か\n自覚症状があるのかい！？{/size}"
+    ame "{size=+2}What!!\nDo you happen to know if you have any symptoms!?{/size}"
 
 # game/scenario/3story.rpy:367
 translate english story3_74b6c537:
@@ -647,8 +647,8 @@ translate english story3_76b2fe88_25:
 # game/scenario/3story.rpy:388
 translate english story3_aa63bc1b:
 
-    # story "それとガリ○リ君が発売当初は\n齧って食べられていたはずなのに、\n今ではなめてしか食べられない\n私がいるのに気づいた時の絶望感たるや…！{nw}"
-    story "And the despair of realizing that, even though I used to be able to bite into a Garig*ri-kun when they first came out, now I can only lick them...!{nw}"
+    # story "それとガリ○リ君が発売当初は\n齧って食べられていたはずなのに、\n今ではなめてしか食べられない\n私がいるのに気づいた時の絶望感たるや…！"
+    story "And the despair of realizing that, even though I used to be able to bite into a Garig*ri-kun when they first came out, now I can only lick them...!"
 
 # game/scenario/3story.rpy:394
 translate english story3_0409e854:

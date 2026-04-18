@@ -976,3 +976,5 @@ image bgbul 2 = "bul2"
 image bgbul 3 = "bul3"
 image bgbul 4 = "bul4"
 image bgbul 5 = "bul5"
+
+image staffroll = "gui/staffroll.png"

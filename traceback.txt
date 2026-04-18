@@ -1,0 +1,55 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/scenario/6story.rpy", line 57, in script
+    story "\n「絵葉書！絵葉書こうて！！」" id story6_fb88e71b
+  File "game/scenario/character.rpy", line 56, in dialogue_callback
+    if store._pending_music:
+       ^^^^^^^^^^^^^^^^^^^^ 
+AttributeError: 'StoreModule' object has no attribute '_pending_music'. Did you mean: '_pending_sound'?
+
+-- Full Traceback ------------------------------------------------------------
+
+Traceback (most recent call last):
+  File "game/scenario/6story.rpy", line 57, in script
+    story "\n「絵葉書！絵葉書こうて！！」" id story6_fb88e71b
+  File "renpy/ast.py", line 2925, in execute
+    Say.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "renpy/ast.py", line 991, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/exports/sayexports.py", line 129, in say
+    who(what, *args, **kwargs)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/character.py", line 1565, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/common/00nvl_mode.rpy", line 395, in do_display
+    renpy.display_say(
+    ~~~~~~~~~~~~~~~~~^
+        who,
+        ^^^^
+    ...<3 lines>...
+        multiple=multiple,
+        ^^^^^^^^^^^^^^^^^^
+        **display_args)
+        ^^^^^^^^^^^^^^^
+  File "renpy/character.py", line 896, in display_say
+    slow_done()
+    ~~~~~~~~~^^
+  File "renpy/character.py", line 543, in __call__
+    self.callback("slow_done")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "renpy/character.py", line 90, in __call__
+    c(*args, **kwargs)
+    ~^^^^^^^^^^^^^^^^^
+  File "game/scenario/character.rpy", line 56, in dialogue_callback
+    if store._pending_music:
+       ^^^^^^^^^^^^^^^^^^^^ 
+AttributeError: 'StoreModule' object has no attribute '_pending_music'. Did you mean: '_pending_sound'?
+
+Windows-11-10.0.26200-SP0 AMD64
+Ren'Py 8.5.2.26010301
+The HETALIAN HORROR SHOW 0.1.6
+Sat Apr 18 20:44:30 2026

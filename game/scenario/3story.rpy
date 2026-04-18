@@ -13,13 +13,9 @@ label story3:
     show japan large normal at pos_transform(xpos=450, ypos=-80)
     show nvl_textbox
     with Dissolve(0.25)
-    story "三番目にお話しさせて頂きます。\n宜しくお願い致します。{nw}" id story3_1e299711
 
-    show japan large contemplation with {'master': None}:
-        xpos 450 ypos -80
-        easein 0.45 yoffset +40
-        easeout 0.3 yoffset 0
-    extend ""
+    $ _pending_sprite_transform = [("japan large contemplation", jpn_2s1, Dissolve(0.2))]
+    story "三番目にお話しさせて頂きます。\n宜しくお願い致します。" id story3_1e299711
 
 
     show japan large deepthinking with {'master': Dissolve(0.2)}
@@ -119,19 +115,21 @@ label story3:
     story "何故だか、その音を聞いていると\n背筋にぞくぞくと冷たいものが走ります。\nこんな夜だからでしょうか。" id story3_74d02afc
     nvl clear
 
+    show black behind nvl_textbox:
+        alpha 0
+    $ _pending_sprite_transform = [("black", unhide_s3)]
+    story "何とも言えない息苦しさを感じ\nあまりじろじろ見ては失礼なので\n傘の影からちらりと後ろを見ました。" id story3_dedacf49
 
-    story "何とも言えない息苦しさを感じ\nあまりじろじろ見ては失礼なので\n傘の影からちらりと後ろを見ました。{nw=1}" id story3_dedacf49
-    show black with {'master': Dissolve(0.5)}
-    extend ""
     nvl clear
     pause 0.2
     
     scene bg legs
     show nvl_textbox
     with flash
-    story "　\n　\n　\n　\n傘の隙間から見えたのは、\nぐっしょりと濡れた着物の裾と\n泥で変色した足袋と草履…。{nw=1}" id story3_b573c2af
-    show black with {'master': Dissolve(0.5)}
-    extend ""
+    show black behind nvl_textbox:
+        alpha 0
+    $ _pending_sprite_transform = [("black", unhide_s3)]
+    story "　\n　\n　\n　\n傘の隙間から見えたのは、\nぐっしょりと濡れた着物の裾と\n泥で変色した足袋と草履…。" id story3_b573c2af
     nvl clear
 
     show black behind nvl_textbox
@@ -144,6 +142,8 @@ label story3:
     scene bg tokyo2
     show nvl_textbox
     with flash
+    show black behind nvl_textbox:
+        alpha 0
     story "私は、心の中に芽生えた\n小さな恐怖感から逃れるため\n頭の中を考え事でいっぱいにしている間も\nその音は私と同じ速度で、\n五メートルほどの間隔を保ちながら\nついてきます。" id story3_e546a53b
     
     show bg legs2 behind nvl_textbox
@@ -155,9 +155,8 @@ label story3:
     queue sound1 "sfx/OOZE2.WAV"
     queue sound1 "sfx/OOZE2.WAV"
     story "\nぺた、ぺた、ぺた…。{nw=1}" id story3_584f5ae1
-    story "ぺた、ぺた…。{nw}" id story3_15a168c3
-    show black behind nvl_textbox with {'master': Dissolve(0.5)}
-    extend ""
+    $ _pending_sprite_transform = [("black", unhide_s3)]
+    story "ぺた、ぺた…。" id story3_15a168c3
     nvl clear
     
     
@@ -184,13 +183,13 @@ label story3:
     scene bg rainjapan
     show nvl_textbox
     with flash
+    show black behind nvl_textbox:
+        alpha 0
     story "{cps=10}{color=#E6E8E5}\n\n\n\n\n\n私だったのです。{/color}{/cps}" id story3_25ee3875
     nvl clear
     story "最初、鏡でもあるのかと思いましたが、\n彼は傘もささず、全身ずぶ濡れの和装で、\n大量の水分を吸った布地が、\n背後の街燈の光を鈍く反射させています。" id story3_a43bbb4e
-    
-    story "当日私は傘を差しておりましたし、\nなにより洋装でしたから…。{nw}" id story3_579c308d
-    show black behind nvl_textbox with {'master': Dissolve(0.25)}
-    extend ""
+    $ _pending_sprite_transform = [("black", unhide_s3)]
+    story "当日私は傘を差しておりましたし、\nなにより洋装でしたから…。" id story3_579c308d
     story "鏡と見まがうほど\n私と瓜二つの方でした。" id story3_da67871a
     nvl clear
     
@@ -214,6 +213,8 @@ label story3:
 
 
     scene bg japanhouse with None
+    show black:
+        alpha 0
     story "家に帰ってみると\nよほど動転していたのか\n傘をさしていたというのに\n私もずぶ濡れになっておりました。" id story3_4189d091
     story "はぁ…。\n私にそっくりで、和服を着ていて\n傘を差さずにずぶ濡れで\n背後を等間隔で歩いているだけの方に\n何を恐れる必要があったのか…。" id story3_f0dc5ef0
     nvl clear
@@ -222,9 +223,8 @@ label story3:
     story "それにすでに彼は\n服のまま海に入ったが如く\n全身濡れておりましたので\n私が手渡した傘が\nお役に立てないばかりか\nお荷物になってしまっていたら\n申し訳なく思います。" id story3_6f8d30d8
     nvl clear
     
-    story "その晩、布団に潜り込んだものの\n先ほどの私によく似た方が\n気になってしまい\nなかなか寝付けません。{nw}" id story3_531f856d
-    show black with {'master': Dissolve(0.5)}
-    extend ""
+    $ _pending_sprite_transform = [("black", unhide_s1)]
+    story "その晩、布団に潜り込んだものの\n先ほどの私によく似た方が\n気になってしまい\nなかなか寝付けません。" id story3_531f856d
 
     show window_rain with {'master': Dissolve(0.2)}
     
@@ -269,17 +269,17 @@ label story3:
     story "それから三つ目。\n…少々ＳＦ的な要素が\n入るのですが…。" id story3_058ce3ee
 
     show japan large angry with {'master': Dissolve(0.2)} 
-    story "私は、何人もいる…！{nw}" id story3_ac56c9bd
-    
-    play sound "sfx/hit71.ogg"
-    show nvl_textbox at shake_2s7 with {'master':None} 
-    camera screens at shake_2s6
-    extend ""
+    $ _pending_sprite_transform = [("nvl_textbox", shake_2s7)]
+    $ _pending_sound = ("sfx/hit71.ogg", "sound")
+    $ _pending_camera_transform = [([shake_2s6], "screens")]
+    story "私は、何人もいる…！" id story3_ac56c9bd
+    $ _pending_camera_transform = None
+
     nvl clear
-    camera screens
 
     show japan large normal
     with {'master': Dissolve(0.2)} 
+    
     story "考えられる理由としては、\n私という存在に何かあった時や、\n大幅に変わるやもしれない\n事態になった時の換えの品。\nいわゆるストックです…。" id story3_13397d71
     show japan large contemplation
     with {'master': Dissolve(0.2)} 
@@ -320,11 +320,12 @@ label story3:
     extend "\n五つ目の可能性…。" id story3_9587ddf5
     
     show japan large blush yell with {'master': Dissolve(0.2)}
-    story "{size=+12}{cps=5}……【老｜お】い。{/cps}{/size}{nw}" id story3_e8275d2f
 
-    camera screens at shake_2s8
-    show japan large closedmouth sweat with {'master': Dissolve(0.2)}
-    extend ""
+    $ _pending_camera_transform = [([shake_2s8], "screens")]
+    $ _pending_sprite_transform = [("japan large closedmouth sweat", pos_transform(xpos=450, ypos=-80), Dissolve(0.2))]
+    story "{size=+12}{cps=5}……【老｜お】い。{/cps}{/size}" id story3_e8275d2f
+    $ _pending_camera_transform = None
+
     nvl clear
     camera screens
 
@@ -334,34 +335,17 @@ label story3:
 
     show england blush shout3 at pos_transform(xpos=60, yoffset=1.0)
     $ eng.screen='left_3'
-    eng "{size=+5}ぐああぁっ！！{/size}{nw}" id story3_458c3e33
-
-    play sound "sfx/hit74_c.ogg"   
-    $ window_transform = sshake
-    $ _skip_appear_effect = True
-    show england blush shout3 at sshake with {'master': Dissolve(0.2)}:
-        xpos 60 yoffset 1.0
-        block:
-            linear 0.07 xoffset -12
-            linear 0.07 xoffset 0
-            repeat 5
-    extend ""
-    $ _skip_appear_effect = False
-    $ window_transform = None
-
-
+    $ _pending_window_transform = (sshake)
+    $ _pending_sprite_transform = [("england", [sshake, eng_3s1])]
+    $ _pending_sound = ("sfx/hit74_c.ogg", "sound")
+    eng "{size=+5}ぐああぁっ！！{/size}" id story3_458c3e33
 
 
     show america whatyousay at pos_transform(xpos=200, yoffset=1.0) behind england
     $ ame.screen='center_3'
-    ame "{size=+2}えっ！！\n君もしかして何か\n自覚症状があるのかい！？{/size}{nw}" id story3_a7aff70d
-
-    play sound "sfx/ding48.ogg"
-    $ window_transform = shake_3s2
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
-    $ window_transform = None
+    $ _pending_window_transform = (shake_3s2)
+    $ _pending_sound = ("sfx/ding48.ogg", "sound")
+    ame "{size=+2}えっ！！\n君もしかして何か\n自覚症状があるのかい！？{/size}" id story3_a7aff70d
 
     show japan distant-look sweat at pos_transform(xpos=600, yoffset=1.0)
     $ jpn.screen='right_4long'
@@ -386,9 +370,8 @@ label story3:
 
     show japan large blush sweat ughh with {'master': Dissolve(0.25)}
     pause 0.3
-    story "それとガリ○リ君が発売当初は\n齧って食べられていたはずなのに、\n今ではなめてしか食べられない\n私がいるのに気づいた時の絶望感たるや…！{nw}" id story3_aa63bc1b
-    show japan at shake_3s3 with {'master': None}
-    extend ""
+    $ _pending_sprite_transform = [("japan", shake_3s3)]
+    story "それとガリ○リ君が発売当初は\n齧って食べられていたはずなのに、\n今ではなめてしか食べられない\n私がいるのに気づいた時の絶望感たるや…！" id story3_aa63bc1b
     
     show japan large ah2 at pos_transform(xpos=450, ypos=-80)
     with {'master': Dissolve(0.25)} 

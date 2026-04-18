@@ -9,8 +9,8 @@ translate russian story3_1d710f02:
 # game/scenario/3story.rpy:16
 translate russian story3_1e299711:
 
-    # story "三番目にお話しさせて頂きます。\n宜しくお願い致します。{nw}" id story3_1e299711
-    story "Я буду третьим рассказчиком.\nПожалуйста, будьте добры ко мне.{nw}" id story3_1e299711
+    # story "三番目にお話しさせて頂きます。\n宜しくお願い致します。" id story3_1e299711
+    story "Я буду третьим рассказчиком.\nПожалуйста, будьте добры ко мне." id story3_1e299711
 
 # game/scenario/3story.rpy:26
 translate russian story3_6fdc4dba:
@@ -219,8 +219,8 @@ translate russian story3_584f5ae1:
 # game/scenario/3story.rpy:157
 translate russian story3_15a168c3:
 
-    # story "ぺた、ぺた…。{nw}" id story3_15a168c3
-    story "хлюп хлюп...{nw}" id story3_15a168c3
+    # story "ぺた、ぺた…。" id story3_15a168c3
+    story "хлюп хлюп..." id story3_15a168c3
 
 # game/scenario/3story.rpy:160
 translate russian story3_72360f0c:
@@ -281,8 +281,8 @@ translate russian story3_a43bbb4e:
 # game/scenario/3story.rpy:190
 translate russian story3_579c308d:
 
-    # story "当日私は傘を差しておりましたし、\nなにより洋装でしたから…。{nw}" id story3_579c308d
-    story "Но сам я держал зонт и, кроме того, был одет на западный манер...{nw}" id story3_579c308d
+    # story "当日私は傘を差しておりましたし、\nなにより洋装でしたから…。" id story3_579c308d
+    story "Но сам я держал зонт и, кроме того, был одет на западный манер..." id story3_579c308d
 
 # game/scenario/3story.rpy:193
 translate russian story3_da67871a:
@@ -351,9 +351,9 @@ translate russian story3_6f8d30d8:
 translate russian story3_531f856d:
 
     # nvl clear
-    # story "その晩、布団に潜り込んだものの\n先ほどの私によく似た方が\n気になってしまい\nなかなか寝付けません。{nw}" id story3_531f856d
+    # story "その晩、布団に潜り込んだものの\n先ほどの私によく似た方が\n気になってしまい\nなかなか寝付けません。" id story3_531f856d
     nvl clear
-    story "Той ночью, забравшись в футон, я не мог перестать думать о том человеке и том на сколько он был похож на меня, было трудно уснуть.{nw}" id story3_531f856d
+    story "Той ночью, забравшись в футон, я не мог перестать думать о том человеке и том на сколько он был похож на меня, было трудно уснуть." id story3_531f856d
 
 # game/scenario/3story.rpy:230
 translate russian story3_8d9a0842:
@@ -462,8 +462,8 @@ translate russian story3_058ce3ee:
 # game/scenario/3story.rpy:271
 translate russian story3_ac56c9bd:
 
-    # story "私は、何人もいる…！{nw}" id story3_ac56c9bd
-    story "Существует несколько версий меня...!{nw}" id story3_ac56c9bd
+    # story "私は、何人もいる…！" id story3_ac56c9bd
+    story "Существует несколько версий меня...!" id story3_ac56c9bd
 
 # game/scenario/3story.rpy:277
 translate russian story3_76b2fe88_19:
@@ -581,8 +581,8 @@ translate russian story3_9587ddf5:
 # game/scenario/3story.rpy:322
 translate russian story3_e8275d2f:
 
-    # story "{size=+12}{cps=5}……【老｜お】い。{/cps}{/size}{nw}" id story3_e8275d2f
-    story "{size=+12}{cps=5}......Я старею.{/cps}{/size}{nw}" id story3_e8275d2f
+    # story "{size=+12}{cps=5}……【老｜お】い。{/cps}{/size}" id story3_e8275d2f
+    story "{size=+12}{cps=5}......Я старею.{/cps}{/size}" id story3_e8275d2f
 
 # game/scenario/3story.rpy:327
 translate russian story3_76b2fe88_23:
@@ -593,14 +593,14 @@ translate russian story3_76b2fe88_23:
 # game/scenario/3story.rpy:336
 translate russian story3_458c3e33:
 
-    # eng "{size=+5}ぐああぁっ！！{/size}{nw}" id story3_458c3e33
-    eng "{size=+5}Гьяяааааа!!{/size}{nw}" id story3_458c3e33
+    # eng "{size=+5}ぐああぁっ！！{/size}" id story3_458c3e33
+    eng "{size=+5}Гьяяааааа!!{/size}" id story3_458c3e33
 
 # game/scenario/3story.rpy:356
 translate russian story3_a7aff70d:
 
-    # ame "{size=+2}えっ！！\n君もしかして何か\n自覚症状があるのかい！？{/size}{nw}" id story3_a7aff70d
-    ame "{size=+2}Эээээ!!\nУ тебя есть какие-то симптомы?{/size}{nw}" id story3_a7aff70d
+    # ame "{size=+2}えっ！！\n君もしかして何か\n自覚症状があるのかい！？{/size}" id story3_a7aff70d
+    ame "{size=+2}Эээээ!!\nУ тебя есть какие-то симптомы?{/size}" id story3_a7aff70d
 
 # game/scenario/3story.rpy:367
 translate russian story3_74b6c537:
@@ -647,8 +647,8 @@ translate russian story3_76b2fe88_25:
 # game/scenario/3story.rpy:388
 translate russian story3_aa63bc1b:
 
-    # story "それとガリ○リ君が発売当初は\n齧って食べられていたはずなのに、\n今ではなめてしか食べられない\n私がいるのに気づいた時の絶望感たるや…！{nw}" id story3_aa63bc1b
-    story "Более того, если поначалу я ел мороженное Гариг*ри-кун, откусывая, то сейчас это не возможно и я почувствовал себя так безнадежно, когда обнаружил это...!{nw}" id story3_aa63bc1b
+    # story "それとガリ○リ君が発売当初は\n齧って食べられていたはずなのに、\n今ではなめてしか食べられない\n私がいるのに気づいた時の絶望感たるや…！" id story3_aa63bc1b
+    story "Более того, если поначалу я ел мороженное Гариг*ри-кун, откусывая, то сейчас это не возможно и я почувствовал себя так безнадежно, когда обнаружил это...!" id story3_aa63bc1b
 
 # game/scenario/3story.rpy:394
 translate russian story3_0409e854:

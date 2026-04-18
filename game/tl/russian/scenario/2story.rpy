@@ -45,9 +45,9 @@ translate russian story2_2ad11d81:
 # game/scenario/2story.rpy:50
 translate russian story2_89e31498:
 
-    # eng "漫才じゃないぞ！{nw}" id story2_89e31498
+    # eng "漫才じゃないぞ！" id story2_89e31498
     $ eng.screen = 'left_3'
-    eng "Это не комедийный номер!{nw}" id story2_89e31498
+    eng "Это не комедийный номер!" id story2_89e31498
 
 # game/scenario/2story.rpy:61
 translate russian story2_8cef616d:
@@ -76,8 +76,8 @@ translate russian story2_3f21d0b0:
 # game/scenario/2story.rpy:82
 translate russian story2_f1213b36:
 
-    # ame "Ｗｈａｔ！？{nw}" id story2_f1213b36
-    ame "What!?{nw}" id story2_f1213b36
+    # ame "Ｗｈａｔ！？" id story2_f1213b36
+    ame "What!?" id story2_f1213b36
 
 # game/scenario/2story.rpy:98
 translate russian story2_c752e978:
@@ -94,14 +94,14 @@ translate russian story2_3611319e:
 # game/scenario/2story.rpy:108
 translate russian story2_ecb25a40:
 
-    # ame "バッファローのボスが俺めがけて\n突進してくるシーンは全俺が震えるほど\nスリルに満ち溢れてるんだぞ！\n吹き飛ばされたけど民家は守ったんだ！{nw}" id story2_ecb25a40
-    ame "Момент когда босс буйволов взглянул\nи понесся прямо на меня был таким\nзахватывающим что меня всего трясло!\nЯ был сбит с ног, но защитил дом!{nw}" id story2_ecb25a40
+    # ame "バッファローのボスが俺めがけて\n突進してくるシーンは全俺が震えるほど\nスリルに満ち溢れてるんだぞ！\n吹き飛ばされたけど民家は守ったんだ！" id story2_ecb25a40
+    ame "Момент когда босс буйволов взглянул\nи понесся прямо на меня был таким\nзахватывающим что меня всего трясло!\nЯ был сбит с ног, но защитил дом!" id story2_ecb25a40
 
 # game/scenario/2story.rpy:120
 translate russian story2_f9650383:
 
-    # bul "もうバッファローより\nアメリカさん自体が\n怖ぇーっす！{nw}" id story2_f9650383
-    bul "Ух, Америка\nсам по себе\nстрашнее стада бизонов!{nw}" id story2_f9650383
+    # bul "もうバッファローより\nアメリカさん自体が\n怖ぇーっす！" id story2_f9650383
+    bul "Ух, Америка\nсам по себе\nстрашнее стада бизонов!" id story2_f9650383
 
 # game/scenario/2story.rpy:132
 translate russian story2_51f85803:
@@ -136,8 +136,8 @@ translate russian story2_76b2fe88_2:
 # game/scenario/2story.rpy:174
 translate russian story2_7eab1ce8:
 
-    # na2 "{size=+6}――ッ！！？{/size}{nw}" id story2_7eab1ce8
-    na2 "{size=+6}――！！？{/size}{nw}" id story2_7eab1ce8
+    # na2 "{size=+6}――ッ！！？{/size}" id story2_7eab1ce8
+    na2 "{size=+6}――！！？{/size}" id story2_7eab1ce8
 
 # game/scenario/2story.rpy:188
 translate russian story2_65cd50a5:
@@ -148,14 +148,14 @@ translate russian story2_65cd50a5:
 # game/scenario/2story.rpy:192
 translate russian story2_144b3000:
 
-    # ger "{size=+3}は…早まるな\nアメリカーッ！！{/size}{nw}" id story2_144b3000
-    ger "{size=+3}Н-...Не торопись так\nАмерикааа!!{/size}{nw}" id story2_144b3000
+    # ger "{size=+3}は…早まるな\nアメリカーッ！！{/size}" id story2_144b3000
+    ger "{size=+3}Н-...Не торопись так\nАмерикааа!!{/size}" id story2_144b3000
 
 # game/scenario/2story.rpy:212
 translate russian story2_909b71e5:
 
-    # eng "そそそそそうだぞ！\nそれ国家機密レベルだろ！？\n聞かされる俺らも危ないだろ！{nw}" id story2_909b71e5
-    eng "Д-д-д-д-да!\nЭто же национальная тайна, да?!\nМы будем в опасности, если продолжим слушать!{nw}" id story2_909b71e5
+    # eng "そそそそそうだぞ！\nそれ国家機密レベルだろ！？\n聞かされる俺らも危ないだろ！" id story2_909b71e5
+    eng "Д-д-д-д-да!\nЭто же национальная тайна, да?!\nМы будем в опасности, если продолжим слушать!" id story2_909b71e5
 
 # game/scenario/2story.rpy:231
 translate russian story2_3551935b:
@@ -261,8 +261,8 @@ translate russian story2_76b2fe88_4:
 # game/scenario/2story.rpy:329
 translate russian story2_b042fccd:
 
-    # story "　\n　\n　\n　\n　\n俺のルームメイトの\nトニーのそっくりさんだったんだ…！！{nw}" id story2_b042fccd
-    story "　\n　\n　\n　\n　\nкто-то кто выглядел точно так же,\nкак мой сосед по комнате Тони...!!{nw}" id story2_b042fccd
+    # story "　\n　\n　\n　\n　\n俺のルームメイトの\nトニーのそっくりさんだったんだ…！！" id story2_b042fccd
+    story "　\n　\n　\n　\n　\nкто-то кто выглядел точно так же,\nкак мой сосед по комнате Тони...!!" id story2_b042fccd
 
 # game/scenario/2story.rpy:335
 translate russian story2_76b2fe88_5:

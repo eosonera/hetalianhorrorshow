@@ -47,14 +47,9 @@ label story2:
 
     show england blush shout2
     $ eng.screen = 'left_1'
-    eng "漫才じゃないぞ！{nw}" id story2_89e31498
-
-    play sound "sfx/ding27.ogg"
-    $ window_transform = shake_2s1
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
-    $ window_transform = None
+    $ _pending_window_transform = (shake_2s1)
+    $ _pending_sound = ("sfx/ding27.ogg", "sound")
+    eng "漫才じゃないぞ！" id story2_89e31498
 
     show america howdy
     $ ame.screen = 'right_3'
@@ -79,22 +74,11 @@ label story2:
 
     show america whatyousay at pos_transform(xpos=200, yalign=0.0)
     $ ame.screen = 'center_4long'
-    ame "Ｗｈａｔ！？{nw}" id story2_f1213b36
-
+    $ _pending_window_transform = (shake_0m1)
+    $ _pending_sprite_transform = [("america", ame_2s1)]
+    $ _pending_sound = ("sfx/hit35.ogg", "sound")
+    ame "Ｗｈａｔ！？" id story2_f1213b36
     $ _skip_appear_effect = True
-    play sound "sfx/hit35.ogg"
-    $ window_transform = shake_0m1
-    show america with {'master': None}:
-        linear 0.1 xoffset -22 yoffset -21
-        linear 0.05 xoffset 0 yoffset 0
-        linear 0.1 xoffset -18 yoffset +19
-        linear 0.1 xoffset +12 yoffset -12
-        linear 0.1 xoffset -11 yoffset +8
-        linear 0.1 xoffset 0 yoffset 0
-    extend ""
-    $ window_transform = None
-
-    
     extend "\n君はバッファローの群れが\n家に向かってきても怖くないのかい？" id story2_c752e978
     $ _skip_appear_effect = False
     stop sound
@@ -105,26 +89,16 @@ label story2:
 
     show america eek
     $ ame.screen = 'center_4long'
-    ame "バッファローのボスが俺めがけて\n突進してくるシーンは全俺が震えるほど\nスリルに満ち溢れてるんだぞ！\n吹き飛ばされたけど民家は守ったんだ！{nw}" id story2_ecb25a40
-    
-    play sound "sfx/ding27.ogg"
-    $ _skip_appear_effect = True
-    $ window_transform = shake_2s2
-    extend ""
-    $ window_transform = None
-    $ _skip_appear_effect = False
+    $ _pending_window_transform = (shake_2s2)
+    $ _pending_sound = ("sfx/ding27.ogg", "sound")
+    ame "バッファローのボスが俺めがけて\n突進してくるシーンは全俺が震えるほど\nスリルに満ち溢れてるんだぞ！\n吹き飛ばされたけど民家は守ったんだ！" id story2_ecb25a40
     stop sound
 
     show bulgaria forreal
     $ bul.screen = 'left_4'
-    bul "もうバッファローより\nアメリカさん自体が\n怖ぇーっす！{nw}" id story2_f9650383
-
-    play sound "sfx/hit34.ogg"
-    $ _skip_appear_effect = True
-    $ window_transform = shake_2s3
-    extend ""
-    $ window_transform = None
-    $ _skip_appear_effect = False
+    $ _pending_window_transform = (shake_2s3)
+    $ _pending_sound = ("sfx/hit34.ogg", "sound")
+    bul "もうバッファローより\nアメリカさん自体が\n怖ぇーっす！" id story2_f9650383
     stop sound
 
     show america worried
@@ -171,14 +145,9 @@ label story2:
     
     show glass_smash
     $ na2.screen = 'center_3long'
-    na2 "{size=+6}――ッ！！？{/size}{nw}" id story2_7eab1ce8
-
+    $ _pending_window_transform = (shake_2s1)
     queue sound "sfx/wa-bam.ogg"
-    $ window_transform = shake_2s1
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
-    $ window_transform = None
+    na2 "{size=+6}――ッ！！？{/size}" id story2_7eab1ce8
 
     scene bg classroom1
     stop sound
@@ -189,15 +158,10 @@ label story2:
 
     show germany shocked whatsthat at pos_transform(xpos=550,yalign=0.0) behind america
     $ ger.screen = 'right_4'
-    ger "{size=+3}は…早まるな\nアメリカーッ！！{/size}{nw}" id story2_144b3000
-
-    play sound "sfx/bam05.ogg" volume 0.75
-    show germany at shake_2s4 with {'master': None}
-    $ window_transform = shake_2s4
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
-    $ window_transform = None
+    $ _pending_window_transform = (shake_2s4)
+    $ _pending_sprite_transform = [("germany", shake_2s4)]
+    $ _pending_sound = ("sfx/bam05.ogg", "sound")
+    ger "{size=+3}は…早まるな\nアメリカーッ！！{/size}" id story2_144b3000
     stop sound
 
     show england blush shout2 at pos_transform(xpos=430, yalign=0.0) behind germany:
@@ -208,13 +172,9 @@ label story2:
             easein 0.3 yoffset 20
             repeat
     $ eng.screen = 'center_3long'
-    play sound "sfx/ding51.ogg"
-    eng "そそそそそうだぞ！\nそれ国家機密レベルだろ！？\n聞かされる俺らも危ないだろ！{nw}" id story2_909b71e5
-    
     play sound1 "sfx/ding51.ogg"
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
+    $ _pending_sound = ("sfx/ding51.ogg", "sound")
+    eng "そそそそそうだぞ！\nそれ国家機密レベルだろ！？\n聞かされる俺らも危ないだろ！" id story2_909b71e5
     stop sound
     stop sound1
 
@@ -326,13 +286,12 @@ label story2:
     show nvl_textbox
     show alien at pos_transform(xpos=500, ypos=40)
     pause 0.5
-    story "　\n　\n　\n　\n　\n俺のルームメイトの\nトニーのそっくりさんだったんだ…！！{nw}" id story2_b042fccd
-    
-    play sound "sfx/ka-bam.ogg" volume 0.6
-    camera at shake_2s5
-    camera screens at shake_0m10
-    extend ""
+
+    $ _pending_sound = ("sfx/ka-bam.ogg", "sound")
+    $ _pending_camera_transform = [([shake_2s5], "master"), ([shake_0m10], "screens")]
+    story "　\n　\n　\n　\n　\n俺のルームメイトの\nトニーのそっくりさんだったんだ…！！" id story2_b042fccd
     nvl clear
+    $ _pending_camera_transform = None
 
     camera
     camera screens
@@ -438,7 +397,7 @@ label story2:
     story "　\n　\n　\n…それで彼が宙に円を描くと、{nw=1.0}" id story2_b5a2284d
     show circle_anim1 
     show ufo_anim behind nvl_textbox with circle_dissolve3
-    extend "\n大きな音と振動の後、奥から" id story2_80fb1745
+    extend "\n大きな音と振動の後、奥から{nw=2.0}" id story2_80fb1745
 
     
     nvl clear

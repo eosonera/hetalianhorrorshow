@@ -26,10 +26,6 @@ translate english strings:
     old "フルスクリーン"
     new "Fullscreen"
 
-    # game/screens/misc_menu.rpy:103
-    old "スキップ"
-    new "Enable skipping for:"
-
     # game/screens/misc_menu.rpy:104
     old "未読テキストもスキップ"
     new "Skip unread text"
@@ -37,10 +33,6 @@ translate english strings:
     # game/screens/misc_menu.rpy:106
     old "選択肢の後もスキップ継続"
     new "Keep skipping after choices"
-
-    # game/screens/misc_menu.rpy:108
-    old "トランジション"
-    new "Transitions"
 
     # game/screens/misc_menu.rpy:122
     old "全てのセーブデータを消去しますか？"
@@ -217,4 +209,32 @@ translate english strings:
     # game/screens/misc_menu.rpy:207
     old "English translation"
     new "English translation"
+
+# TODO: Translation updated at 2026-04-11 21:33
+
+translate english strings:
+
+    # game/screens/misc_menu.rpy:130
+    old "On"
+    new "On"
+
+    # game/screens/misc_menu.rpy:158
+    old "DELETE ALL SAVE DATA"
+    new "DELETE ALL SAVE DATA"
+
+    # game/screens/misc_menu.rpy:230
+    old "Russian translation"
+    new "Russian translation"
+
+    # game/screens/misc_menu.rpy:234
+    old "Previous English translation"
+    new "Previous English translation"
+
+    # game/screens/misc_menu.rpy:238
+    old "Special thanks to"
+    new "Special thanks to"
+
+    # game/screens/misc_menu.rpy:451
+    old "Menu"
+    new "Menu"
 

@@ -116,14 +116,9 @@ label story4:
     show nvl_textbox
     with flashbulb
     show nvl_textbox with {'master': Dissolve(0.25)} 
-    
-    story "\n「誰だっ！！」{nw}" id story4_97013b54
-
-    play sound "sfx/hit34.ogg"
-    show nvl_textbox at shake_4s1 with {'master': None} 
-    $ window_transform = shake_4s1
-    extend "{nw=1}" 
-    $ window_transform = None
+    $ _pending_sprite_transform = [("nvl_textbox", shake_4s1)]
+    $ _pending_sound = ("sfx/hit34.ogg", "sound")
+    story "\n「誰だっ！！」{nw=1}" id story4_97013b54
     extend "\n俺が問い詰めると…！" id story4_db9e14d2
     nvl clear
     stop sound
@@ -131,13 +126,12 @@ label story4:
     scene bg oresama
     show nvl_textbox
     with flash    
-    story "{size=+15}　\n　\n「俺様だっ！！」{/size}{nw}" id story4_f7379636
-    play sound "sfx/wa-bam.ogg"
-    camera at sshake
-    camera screens at sshake
-    extend "" 
+    $ _pending_sound = ("sfx/wa-bam.ogg", "sound")
+    $ _pending_camera_transform = [([sshake], "master"), ([sshake], "screens")]
+    story "{size=+15}　\n　\n「俺様だっ！！」{/size}" id story4_f7379636
     nvl clear
     stop sound
+    $ _pending_camera_transform = None
 
     camera
     camera screens
@@ -150,14 +144,9 @@ label story4:
     
     show england blush shout at pos_transform(xpos=200, yalign=0.0)
     $ eng.screen = 'center_3long'
-    eng "最初から犯人\nお前の兄貴しかいねーだろ！{nw}" id story4_1e926c4b
-
-    play sound "sfx/hit34.ogg"
-    $ window_transform = shake_4s3
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
-    $ window_transform = None
+    $ _pending_window_transform = (shake_4s3)
+    $ _pending_sound = ("sfx/hit34.ogg", "sound")
+    eng "最初から犯人\nお前の兄貴しかいねーだろ！" id story4_1e926c4b
 
     show germany exasperated
     $ ger.screen = 'right_4'

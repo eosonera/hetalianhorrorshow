@@ -60,7 +60,7 @@ translate english strings:
 
     # game/screens/preferences.rpy:155
     old "BIZ UDP明朝 Medium"
-    new "BIZ UDP明朝 Medium"
+    new "BIZ UDPMincho Medium"
 
     # game/screens/preferences.rpy:155
     old "BIZ UDPゴシック"

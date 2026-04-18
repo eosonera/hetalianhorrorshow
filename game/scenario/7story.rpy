@@ -12,23 +12,17 @@ label story7:
     
     ## New scene
     scene bg classroom_door
-    play sound "sfx/door_sfx.wav"
+    play sound1 "sfx/door_sfx.wav"
+    show romania med normal:
+        xpos 200 ypos -40 alpha 0
+
     $ na2.screen = 'left_1'
-    na2 "失礼しまーす！{nw}" id story7_9dd7a492
-    show romania med normal with {'master': Dissolve(0.2)}:
-        xpos 200 ypos -40
-        easeout 0.15 yoffset -45
-        ease 0.15 yoffset 10
-        easeout 0.15 yoffset -35
-        ease 0.15 yoffset 5
-        easeout 0.15 yoffset -5
-        ease 0.15 yoffset 0
-        
-    play music "music/carnaval_de_paris_elliot_simons.ogg"
-    play sound1 "sfx/ding30.ogg"
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
+
+    $ _pending_music = ("music/carnaval_de_paris_elliot_simons.ogg", 0.0, 0.0)
+    $ _pending_sound = ("sfx/ding30.ogg", "sound")
+    $ _pending_sprite_transform = [("romania", rom_7s1)]
+    na2 "失礼しまーす！" id story7_9dd7a492
+
 
     ## New scene
     scene bg classroom1
@@ -134,19 +128,8 @@ label story7:
 
     show romania sweat laugh
     $ rom.screen = 'center_3'
-    rom "えへへ…そうかなー…\nあっイギリスもお菓子\nどうぞなんだよー{nw}" id story7_0caf85f6
-
-    $ _skip_appear_effect = True
-    show romania with {'master': None}:
-        easeout 0.15 yoffset -30
-        easein 0.15 yoffset 5
-        easeout 0.15 yoffset -20
-        easein 0.15 yoffset 2
-        easeout 0.15 yoffset 0
-    extend ""
-    $ _skip_appear_effect = False
-
-
+    $ _pending_sprite_transform = [("romania", rom_7s2)]
+    rom "えへへ…そうかなー…\nあっイギリスもお菓子\nどうぞなんだよー" id story7_0caf85f6
 
 
     show england heheheh2
@@ -185,38 +168,15 @@ label story7:
         easeout 0.3 xpos -50 ypos -40
     $ bul.screen='left_3'
     pause 0.5
-    bul "ちょー…\nお前忙しいとか\n言ってただろー{nw}" id story7_85994eed
 
-    $ _skip_appear_effect = True
-    show bulgaria:
-        xpos -50 ypos -40
-        linear 0.1 xoffset 15 yoffset -10
-        linear 0.1 xoffset 0 yoffset 0
-    
-    show romania with {'master': None}:
-        pause 0.2
-        "romania med eh" with Dissolve(0.2)
-        pause 0.4
-        linear 0.1 xoffset -30 yoffset -30
-        linear 0.1 xoffset 0 yoffset 0
-        linear 0.1 xoffset -20 yoffset -20
-        linear 0.1 xoffset 0 yoffset 0
-        linear 0.1 xoffset -10 yoffset -10
-        linear 0.1 xoffset 0 yoffset 0
-
-    extend ""
-    $ _skip_appear_effect = False
-
+    $ _pending_sprite_transform = [("bulgaria", bul_7s3), ("romania", rom_7s3)]
+    bul "ちょー…\nお前忙しいとか\n言ってただろー" id story7_85994eed
 
     show bulgaria med stumped at stop_offset
     $ bul.screen = 'left_3'
-    bul "ん。あれ？\nあとこの集会って\n魔術部のイギ太郎が…{nw}" id story7_aa94871d
-
-    $ _skip_appear_effect = True
-    play sound "sfx/ding76.ogg"
-    show romania med shocked nya with {'master': Dissolve(0.2)}
-    extend ""
-    $ _skip_appear_effect = False
+    $ _pending_sound = ("sfx/ding76.ogg", "sound")
+    $ _pending_sprite_transform = [("romania med shocked nya", pos_transform(xpos=100, ypos=-40), Dissolve(0.2))]
+    bul "ん。あれ？\nあとこの集会って\n魔術部のイギ太郎が…" id story7_aa94871d
 
 
     show romania tired sweat laugh
@@ -240,21 +200,9 @@ label story7:
 
     show bulgaria med sideglance noway at pos_transform(xpos=160, ypos=-40)
     $ rom.screen = 'right_4'
-    rom "あのねブルガリア…\nえとその…\n今のうちに帰った方が\n良いんだよー…{nw}" id story7_ed821300
+    $ _pending_sprite_transform = [("romania", rom_7s4)]
+    rom "あのねブルガリア…\nえとその…\n今のうちに帰った方が\n良いんだよー…" id story7_ed821300
 
-    show romania with {'master': None}:
-        xpos 310
-        linear 0.08 xoffset 0
-        linear 0.08 xoffset 7
-        linear 0.08 xoffset -7
-        linear 0.08 xoffset 7
-        linear 0.08 xoffset -7
-        linear 0.08 xoffset 7
-        linear 0.08 xoffset -7
-        linear 0.1 xoffset 0
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
 
     show bulgaria med sideglance sweat:
         xpos 160 ypos -40
@@ -264,18 +212,16 @@ label story7:
         linear 0.08 xoffset 4
         linear 0.08 xoffset -4
         linear 0.1 xoffset 0
+    with {'master': None}
     pause 0.5
     $ bul.screen='center_3long'
     bul "なんでなんだわ！？\nまさかお前おいしいところ\n持って行こうって腹じゃ…！" id story7_7e1aef07
 
     show romania med tired shout
     $ rom.screen = 'right_3'
-    rom "ちがうよう…！\nいいからできるだけ\n早く帰るんだよー！{nw}" id story7_78b4c722
+    $ _pending_sprite_transform = [("bulgaria med sideglance sweat crap", pos_transform(xpos=160, ypos=-40), Dissolve(0.2))]
+    rom "ちがうよう…！\nいいからできるだけ\n早く帰るんだよー！" id story7_78b4c722
 
-    $ _skip_appear_effect = True
-    show bulgaria med sideglance sweat crap with {'master': Dissolve(0.2)}
-    extend ""
-    $ _skip_appear_effect = False
 
 
     show bulgaria med conniving
@@ -332,19 +278,10 @@ label story7:
     show america hmmm at pos_transform(xpos=100, yalign=0.0)
 
     $ rom.screen = 'left_1'
-    rom "にゃー！！？{nw}" id story7_65241561
+    $ _pending_sprite_transform = [("romania", rom_7s5)]
+    $ _pending_sound = ("sfx/hit76_a.ogg", "sound")
+    rom "にゃー！！？" id story7_65241561
 
-    show romania with {'master': None}:
-        xpos -40, yalign 0.0
-        block:
-            linear 0.08 xoffset -5
-            linear 0.08 xoffset 0
-            repeat
-    play sound "sfx/hit76_a.ogg"
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
-    stop sound
 
     show romania quiver
     show sweat
@@ -361,28 +298,25 @@ label story7:
     
     show england blush shout2
     $ eng.screen = 'right_3'
-    eng "お…お前かっ！\nまあなんとなく\nそんな気はしていたがな！{nw}" id story7_95375b13
+    $ _pending_window_transform = (shake_7s1)
+    $ _pending_sound = ("sfx/hit27.ogg", "sound")
+    eng "お…お前かっ！\nまあなんとなく\nそんな気はしていたがな！" id story7_95375b13
 
-    play sound "sfx/hit27.ogg"
-    $ window_transform = shake_7s1
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
-    $ window_transform = None
 
     pause 0.1
     show russia happy
     pause 0.1
     hide sweat
-    show romania sorry:
+    show romania:
         xpos -40 yalign 0
+        "romania sorry" with Dissolve(0.2)
         0.4
         easeout 0.2 yoffset -20
         easein 0.15 yoffset 10
         easeout 0.15 yoffset -10
         easein 0.15 yoffset 5
         ease 0.15 yoffset 0
-    with Dissolve(0.3)
+    with {'master': None}
 
     pause 2.0
 
@@ -484,14 +418,10 @@ label story7:
     
     pause 0.2
     $ rom.screen = 'right_3'
-    rom "ご…ごめんなさいっ！\nごめんよごめんよー\nみんなーっ！{nw}" id story7_afcde6d2
-
-    play sound "sfx/bam.ogg" volume 0.75
-    camera screens at sshake1
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
-
+    $ _pending_sound = ("sfx/bam.ogg", "sound")
+    $ _pending_camera_transform = [([sshake1], "screens")]
+    rom "ご…ごめんなさいっ！\nごめんよごめんよー\nみんなーっ！" id story7_afcde6d2
+    $ _pending_camera_transform = None
 
     camera screens
 
@@ -522,15 +452,10 @@ label story7:
         easein 1.0 xpos 0
     show romania large cry nyaa
     $ rus.screen = 'left_3'
-    rus "もう！ルーマニア君\n先にネタバレしちゃ\nだめだよー。{nw}" id story7_79b6d094
-
-    play sound "sfx/hit34.ogg"
-    show romania large cry ehh at shake_7s2 with {'master': Dissolve(0.2)}
-    $ window_transform = shake_7s2
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
-    $ window_transform = None
+    $ _pending_window_transform = (shake_7s2)
+    $ _pending_sound = ("sfx/hit34.ogg", "sound")
+    $ _pending_sprite_transform = [("romania large cry", shake_7s2, Dissolve(0.2))]
+    rus "もう！ルーマニア君\n先にネタバレしちゃ\nだめだよー。" id story7_79b6d094
 
     pause 0.5
 
@@ -634,12 +559,10 @@ label story7:
     $ _skip_appear_effect = True
     show spain med shocked with {'master': Dissolve(0.25)} 
     $ spa.screen = 'center_4long'
-    extend "\n…ドアノブつめたっ！{nw}" id story7_7a388682
-
-    $ window_transform = shake_7s3
-    extend ""
+    $ _pending_window_transform = (shake_7s3)
+    extend "\n…ドアノブつめたっ！" id story7_7a388682
     $ _skip_appear_effect = False
-    $ window_transform = None
+
 
     ## New scene
     scene bg aura1
@@ -658,9 +581,8 @@ label story7:
 
     show russia 2 sigh onlayer chara:
         xpos 220 ypos -30
-        pause 1.5
-        "russia 2 normal" with Dissolve(0.2)
     $ rus.screen = 'right_4'
+    $ _pending_sprite_transform = [("russia 2 normal", pos_transform(xpos=220, ypos=-30), Dissolve(0.2))]
     rus "ごめんね。みんな。\nでもこれから僕たち\nとっても仲良くなれるから\nみんな幸せだよね？" id story7_83848811
 
     play sound "sfx/ding30.ogg"
@@ -683,14 +605,9 @@ label story7:
 
     show america angry worried onlayer chara at pos_transform(xpos=500, yalign=0.0)
     $ ame.screen = 'right_3'
-    ame "くそっ！\nこれじゃあ寒すぎて…\n力が出ないじゃないか！{nw}" id story7_3f5fd2bf
-
-    play sound "sfx/hit34.ogg"
-    $ window_transform = shake_7s4
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
-    $ window_transform = None
+    $ _pending_window_transform = (shake_7s4)
+    $ _pending_sound = ("sfx/hit34.ogg", "sound")
+    ame "くそっ！\nこれじゃあ寒すぎて…\n力が出ないじゃないか！" id story7_3f5fd2bf
     stop sound
 
     show england blush shout2 onlayer chara:
@@ -720,9 +637,8 @@ label story7:
     
     show russia 2 large worried onlayer chara with {'chara': Dissolve(0.3)} :
         xpos -70 ypos -90
-        pause 1.5
-        "russia 2 large sigh" with Dissolve(0.2)
     $ rus.screen = 'right_4long'
+    $ _pending_sprite_transform = [("russia 2 large sigh", pos_transform(xpos=-70, ypos=-90), Dissolve(0.2))]
     rus "う～ん。なんでこういう\n反応になっちゃうのかな？\n僕なりに頑張って君たちに\n歩み寄ってみたんだけれど…。" id story7_98c5cd80
 
     show russia 2 large ahahahaha
@@ -747,390 +663,436 @@ label story7:
 
 
 
-    label stophim:
-        play music "music/Dancing_Fool.ogg"
-
-        show snow2_0 onlayer vfx_back
-        show snowfront2_0 onlayer vfx_front
-
-        show bulgaria med eek onlayer chara at pos_transform(xpos=440,ypos=-40)
-        $ bul.screen = 'right_4'
-        bul "ロ…ロシアさんっ！\nちょっとそれは\nやめるんだわー！" id stophim_a4c8c443
-
-        show romania med shocked eh onlayer chara behind bulgaria:
-            xpos 0 ypos -40
-            parallel:
-                linear 1 xoffset 140
-            parallel:
-                linear 0.1 yoffset 0
-                easein 0.2 yoffset -40
-                easein 0.2 yoffset 30
-                easein 0.2 yoffset -20
-                easein 0.2 yoffset 10
-                easein 0.1 yoffset -5
-                easein 0.1 yoffset 0
-
-        pause 1
-        $ rom.screen = 'left_3'
-        rom "ちょっ！\n何言ってるんだよー\nそれならおいらが…" id stophim_109c1aca
-
-        show bulgaria med conniving
-        $ bul.screen = 'right_7big'
-        bul "（まあ俺とロシアさんって\n　なかよし！とは言えないまでも\n　他のヨーロッパの国よりは\n　仲が良好な方だと思うから\n　こんな事をしても多分\n　それほどひどい事には\n　ならないはずなんだわー！）" id stophim_5102abb4
-
-        show romania med tired sweat laugh
-        $ rom.screen = 'left_3'
-        rom "（あ…、あー…）" id stophim_8a71a952
-
-        show bulgaria med conniving eyesclosed
-        $ bul.screen = 'right_4long'
-        bul "（この裏事情がなかったら\n　普通に帰ってたんだわ…\n　他の皆さんにも良い所\n　お見せできるしな。うん）" id stophim_0fc4d76e
-
-        show romania med tired sweat laugh
-        $ rom.screen = 'left_4long'
-        rom "（そうなんだねー！\n　この場も救って\n　対外アピールも出来ちゃう\n　ブルガリア流石なんだよー）" id stophim_20a5e4d8
-
-        show bulgaria med ello
-        $ bul.screen = 'right_4long'
-        bul "俺は菓子を食っていない！\n盾になってでも！みなさんを！\nお守りするんだわー！" id stophim_6775b8a1
-
-
-        ## New scene
-        hide bulgaria
-        hide romania
-
-        scene bg aura1
-
-        show russia 2 large hmmm isee onlayer chara at pos_transform(xpos=-200, ypos=-50)
-        $ rus.screen = 'right_4'
-        rus "え…。君がみんなの\n盾になるっていうの\nブルガリア君？" id stophim_1321376f
-
-        show russia large mmph onlayer chara:
-            xpos 200 ypos -40
-        
-        $ rus.screen = 'left_1'
-        rus "んー…。" id stophim_fd42778c
-
-        hide snow2_0
-        hide snowfront2_0
-        show russia large chuckle onlayer chara
-        $ rus.screen = 'left_4'
-        rus "わかった。\n君がそう言うなら\n今日は止めておくね" id stophim_70418c9f
-
-        hide russia
-
-        ## New scene
-        scene bg classroom1
-
-        show romania med shocked eh at pos_transform(xpos=400, ypos=-40)
-        show bulgaria med conniving at pos_transform(xpos=100,ypos=-40)
-        play music "music/carnaval_de_paris_elliot_simons.ogg"
-        $ bul.screen = 'left_3'
-        bul "えっ、まじっすか！\nあざーっす！\nあざーっす！" id stophim_025e173f
-
-        $ rom.screen = 'right_1'
-        rom "すごい！本当に！？" id stophim_06388748
-
-        show england waahahaha at pos_transform(xpos=-90,yalign=0.0) behind bulgaria
-        $ eng.screen = 'left_4long'
-        eng "はははは！ロシア、お前が\nこの程度で引っ込むとは\nやはり薬ははったりだったか！\n多分はったりだ！はったりだよな…？" id stophim_d2a17599
-
-        ## New scene
-        scene bg exterior1 at pan_to_top
-        na "こうしてブルガリアさんの機転により、\nこの場を丸く収める事が出来たのだった。" id stophim_249636d1
-
-        $ _skip_appear_effect = True
-        na "ロシアさんの薬を噂っぽくぼかして７話目にして、\n後日イギリスが一人で１００話も語ったため\n１０７つの怖い話として校内新聞に載せられた。" id stophim_0b8ee69b
-
-        na "全てそこそこほどほどに\n綺麗にまとまる！　　　　…はずだった。" id stophim_2ab3c212
-        $ _skip_appear_effect = False
-        stop music fadeout 1
-
-        ## New scene
-        scene black
-        pause 0.3
-
-        $ bul.screen = 'center_1'
-        bul "………ん！？" id stophim_e7131160
-
-        scene bg bul0
-        $ bul.screen = 'left_3'
-        bul "…あれ？\n俺、何してたっけ？" id stophim_2e6b0042
-
-        scene bg bul1
-        play music "music/collision_course_paolo_bolio_hq.ogg"
-        $ bul.screen = 'center_1'
-        bul "えっなんだこれ！？" id stophim_77f4beb2
-
-        $ bul.screen = 'center_3'
-        bul "えええ！？\nちょ…なにが\nどうなってんだわー！？{nw}" id stophim_b286e950
-
-        play sound "sfx/hit34.ogg"
-        camera at shake_7s5
-        camera screens at shake_7s5
-        $ _skip_appear_effect = True
-        extend ""
-        $ _skip_appear_effect = False
-
-
-        camera
-        camera screens
-
-        $ rus.screen = 'left_3'
-        rus "おはようブルガリア君！\n君の英雄的行為\nかっこよかったよ" id stophim_886905b6
-
-        scene bgbul 2 at pan_bul2
-        show bulvfx
-        $ bul.screen = 'center_3'
-        bul "ロシアさん…！？\nえ、あざっす…" id stophim_c6628b52
-        
-        $ bul.screen = 'center_3'
-        bul "でも何でこんな展開\nになるんだわー！？\nあっ、いや。ですかー！{nw}" id stophim_1b277827
-
-        play sound "sfx/hit34.ogg"
-        $ window_transform = shake_7s9
-        $ _skip_appear_effect = True
-        extend ""
-        $ _skip_appear_effect = False
-        $ window_transform = None
-
-        $ rus.screen = 'left_3'
-        rus "君が代わりに\nなるんだーって\n言ったじゃない" id stophim_259d5e1c
-
-        show bgbul 3
-        $ bul.screen = 'center_3'
-        bul "こういうのじゃなくて\nもっとカッコイイ\n感じの身代わりでぇ…！！" id stophim_4420e5b9
-        $ _skip_appear_effect = True
-        bul "割と俺とロシアさんとの\n関係だって良好な方\nじゃないっすかー！！" id stophim_782d8e5b
-        $ _skip_appear_effect = False
-
-
-        $ rus.screen = 'left_3'
-        rus "しょうがないよ\nこういう役回りの子が\n出るのが伝統だもの" id stophim_e61ef841
-
-        show bgbul 5
-        $ bul.screen = 'center_3'
-        bul "伝統！？　伝統って\nなんなんだわー！！？" id stophim_00738668
-
-        $ rus.screen = 'left_1'
-        rus "しらないにゃん♪" id stophim_33de9b00
-
-        show bgbul 4
-        $ bul.screen = 'center_3'
-        bul "え…それって…\nだってあの時ロシアさん\nいなかったじゃ…" id stophim_37131345
-
-        $ rus.screen = 'left_3'
-        rus "これ？　何でも許して\nもらえる魔法の言葉だよ\nあっ、そうだ！" id stophim_dbc52dbc
-        
-        $ rus.screen = 'left_3'
-        rus "目立てて\n良かったね♪{nw}" id stophim_d118f906
-
-        play sound "sfx/ding27.ogg"
-        $ window_transform = shake_7s6
-        $ _skip_appear_effect = True
-        extend ""
-        $ _skip_appear_effect = False
-        $ window_transform = None
-        stop sound
-
-        
-        show bgbul 3
-        $ bul.screen = 'center_3'
-        bul "最初っから…！\n最初っからー！！{nw}" id stophim_6cb88e8b
-
-        play sound "sfx/hit34.ogg"
-        camera screens at sshake
-        stop music fadeout 2
-        $ _skip_appear_effect = True
-        extend ""
-        $ _skip_appear_effect = False
-        camera screens
-
-        $ rus.screen = 'left_4'
-        rus "君達の会話って\n流しっぱなしにすると\n癒し効果があるから好きだよ" id stophim_0ba32b4e
-
-        scene bg exterior
-        play music "music/11_liarliar.ogg"
-        show screen staffroll() nopredict
-        
-        $ bul.screen = 'left_4'
-        bul "あ！でもよく考えたら\n確かにおいしい\nポジションですわ！\nあざーっす！あざーっす！{nw}" id stophim_3556432d
-        
-        play sound "sfx/hit34.ogg"
-        $ window_transform = shake_7s7
-        $ _skip_appear_effect = True
-        extend "{nw=5.0}"
-        $ _skip_appear_effect = False
-        $ window_transform = None
-
-        $ rus.screen = 'center_3'
-        rus "君って意外と\n神経図太いよね{nw=2.0}" id stophim_e1c6c2ea
-
-        scene bg exterior4
-        pause 2
-        scene bg exterior5
-        pause 2
-        scene bg exterior6
-        pause 2
-        scene bg exterior8
-        pause
-        stop music
-
-        $ persistent.game_finished = True
-        return
-
-    label donothing:
-        show snow2_0 onlayer vfx_back
-        show snowfront2_0 onlayer vfx_front
-
-        $ audio_crossFade(1, "music/39_USbattlesong.ogg")
-        show america med angry yell onlayer chara at pos_transform(xpos=100,ypos=-30)
-        $ ame.screen = 'right_3'
-        ame "やめるんだロシア！\n君がやめないのなら\n俺が君を止めるまでだ！" id donothing_9e5b1917
-
-        hide america
-
-        scene bg aura1
-        show russia large smiling onlayer chara at pos_transform(xpos=200,ypos=-50)
-        $ rus.screen = 'right_4long'
-        rus "ふふっ\nそのお願いは聞けないかなぁ。\nそれに今の君に\nそんな力はないでしょう？" id donothing_d70e96ff
-        show russia large happy
-
-        $ ame.screen = 'left_4long'
-        ame "確かに今の俺には\n君に対抗できる力が出せない。\nだがそれで俺は諦めない！{nw}" id donothing_b8455794
-
-        play sound "sfx/hit51.ogg"
-        $ window_transform = shake_7s8
-        $ _skip_appear_effect = True
-        extend ""
-        $ _skip_appear_effect = False
-        $ window_transform = None
-
-        hide russia
-        window show
-        scene bg aura2
-        show america large angry yell onlayer chara at pos_transform(xpos=100,ypos=-50)
-        
-        $ ame.screen = 'right_3'
-        ame "そうとも！\n信じていれば！\n夢は叶うんだぞ！{nw=0.5}" id donothing_4db270a6
-        play sound "sfx/BIGBEAST.WAV"
-        camera at ripple2
-        camera screens at ripple2
-        hide snow2_0
-        hide snowfront2_0
-        show bg aura3 with {'master':circle_dissolve2}
-
-        show sparkle_up onlayer vfx_back
-        show sparkle_radiate onlayer vfx_front
-        extend "{nw=2}"
-        camera at sshake_long
-        camera screens
-        extend "{nw=2}"
-        hide america with {'chara':Dissolve(0.2)}
-        hide sparkle_radiate with {'vfx_front':Dissolve(0.2)}
-        pause 0.5
-        window auto
-
-
-
-        scene bg aura1
-        camera at sshake_long
-        show russia 2 large cry yaaah onlayer chara at pos_transform(xpos=0,ypos=-30)
-        play sound "sfx/MONSTER1.WAV"
-        $ rus.screen = 'right_4long'
-        rus "そんな…！\n君のどこにそんな力が！？\n嘘だよこんなの…！{nw=1}" id donothing_7b331410
-
-        stop music fadeout 3
-        stop music1 fadeout 3
-
-        play sound2 "sfx/Jurassic loop.wav"
-        hide sparkle_up
-        hide russia
-        camera
-        show white screen
-        pause 6
-        
-        camera
-        stop sound
-        play music "music/International_Uplifting_Dance-full_length_track.ogg"
-
-        scene bg exterior2 at pan_to_top
-        show america eksdee at pos_transform(xpos=300,ypos=30)
-        $ ame.screen = 'center_3long'
-        ame "っていう映画を\n作ろうと思ってるんだよ！\nどうだい面白そうだろう！" id donothing_a2cc0ec7
-
-        show russia mmph at pos_transform(xpos=50,ypos=30) behind america
-        $ rus.screen = 'left_3'
-        rus "えーまた僕を悪役にするの？\nアメリカ君、君って\n逆に僕のこと好きでしょ？" id donothing_7c44211d
-
-
-        call start_credits from _call_start_credits
-        
-
-        show america youreallyare
-        $ ame.screen = 'center_3'
-        ame "おいおい！\nどうして\nそうなるんだい！？{nw=2.78}" id donothing_8317ac46
-
-
-        show russia happy
-        $ rus.screen = 'left_4'
-        rus "だって多少時代背景や\n舞台設定に無理があっても\n何が何でも僕を黒幕\nしたがるじゃない…。{nw=2.78}" id donothing_427f0b6c
-
-        show russia smiling ufufu
-        $ rus.screen = 'left_4long'
-        rus "そこまでして僕黒幕オチを\n多用する背景には\n僕への好意があるんじゃないかと\n疑わざるを得ないよ。{nw=2.78}" id donothing_049c45b4
-        
-        show america whatyousay
-        $ ame.screen = 'center_3long'
-        ame "ＮＯＯＯ！\n黒幕と陰謀っていったら\n君ってイメージなだけだよ！！{nw=2.78}" id donothing_cea25ed6
-
-        show russia glum
-        $ rus.screen = 'left_4long'
-        rus "そうかなぁ。\n君よりはクリーンなつもりだよ？\nだって何が起こっても\n背後は僕！って言われるじゃない。{nw=2.78}" id donothing_b92b412d
-
-        show russia smiling ufufu
-        $ rus.screen = 'left_4long'
-        rus "…まあその通りなんだけど。\nそれってとってもわかりやすくて\nみんなから見えてるわけだから\n陰謀や黒幕とは言えないよ。{nw=2.78}" id donothing_9f34fc55
-
-        show america sneer
-        $ ame.screen = 'right_4'
-        ame "た、確かに…！\n映画的にも黒幕予想が\nイージーすぎて\nナンセンスだね！{nw=2.78}" id donothing_d19cefa0
-
-
-        scene bg exterior4
-
-        $ rus.screen = 'left_3'
-        rus "じゃあ今度は\n誰黒幕にする？{nw=2.78}" id donothing_f443eb14
-
-        $ ame.screen = 'center_3'
-        ame "君以外で…？！\nどうやれっていうんだい！{nw=2.78}" id donothing_75f5c236
-
-        $ rus.screen = 'left_3'
-        rus "こうしていつも通りの\nアメリカ君の映画が\nできるわけだね。{nw=2.78}" id donothing_780e2b04
-
-        $ rus.screen = 'left_4long'
-        rus "フランス君ほどとは\n言わないけどひねろうよ。\nスペイン君みたいに\n最後の５分で暴走するのも良いね。{nw=2.78}" id donothing_158654f4
-        
-        $ ame.screen = 'center_3'
-        ame "それなら最近\n新しいタイプの\nエンディングを考えて…！{nw=2.78}" id donothing_820f8046
-        
-        $ rus.screen = 'left_4'
-        rus "家の中の怪奇現象は全部\n宇宙人がやってましたオチと\n友だちが悪魔化して全滅オチ\nじゃないよね？{nw=2.78}" id donothing_00bfdef7
-        
-        stop music fadeout 3
-        $ ame.screen = 'center_3'
-        ame "くっ！\n君厳しいよ！{nw=5.0}" id donothing_fa690420
-
-
-
-
-        pause 5.0
-
-
-        $ persistent.game_finished = True
-        return
-
-
-
+label stophim:
+    play music "music/Dancing_Fool.ogg"
+
+    show snow2_0 onlayer vfx_back
+    show snowfront2_0 onlayer vfx_front
+
+    show bulgaria med eek onlayer chara at pos_transform(xpos=440,ypos=-40)
+    $ bul.screen = 'right_4'
+    bul "ロ…ロシアさんっ！\nちょっとそれは\nやめるんだわー！" id stophim_a4c8c443
+
+    show romania med shocked eh onlayer chara behind bulgaria:
+        xpos 0 ypos -40
+        parallel:
+            linear 1 xoffset 140
+        parallel:
+            linear 0.1 yoffset 0
+            easein 0.2 yoffset -40
+            easein 0.2 yoffset 30
+            easein 0.2 yoffset -20
+            easein 0.2 yoffset 10
+            easein 0.1 yoffset -5
+            easein 0.1 yoffset 0
+
+    pause 1
+    $ rom.screen = 'left_3'
+    rom "ちょっ！\n何言ってるんだよー\nそれならおいらが…" id stophim_109c1aca
+
+    show bulgaria med conniving
+    $ bul.screen = 'right_7big'
+    bul "（まあ俺とロシアさんって\n　なかよし！とは言えないまでも\n　他のヨーロッパの国よりは\n　仲が良好な方だと思うから\n　こんな事をしても多分\n　それほどひどい事には\n　ならないはずなんだわー！）" id stophim_5102abb4
+
+    show romania med tired sweat laugh
+    $ rom.screen = 'left_3'
+    rom "（あ…、あー…）" id stophim_8a71a952
+
+    show bulgaria med conniving eyesclosed
+    $ bul.screen = 'right_4long'
+    bul "（この裏事情がなかったら\n　普通に帰ってたんだわ…\n　他の皆さんにも良い所\n　お見せできるしな。うん）" id stophim_0fc4d76e
+
+    show romania med tired sweat laugh
+    $ rom.screen = 'left_4long'
+    rom "（そうなんだねー！\n　この場も救って\n　対外アピールも出来ちゃう\n　ブルガリア流石なんだよー）" id stophim_20a5e4d8
+
+    show bulgaria med ello
+    $ bul.screen = 'right_4long'
+    bul "俺は菓子を食っていない！\n盾になってでも！みなさんを！\nお守りするんだわー！" id stophim_6775b8a1
+
+
+    ## New scene
+    hide bulgaria
+    hide romania
+
+    scene bg aura1
+
+    show russia 2 large hmmm isee onlayer chara at pos_transform(xpos=-200, ypos=-50)
+    $ rus.screen = 'right_4'
+    rus "え…。君がみんなの\n盾になるっていうの\nブルガリア君？" id stophim_1321376f
+
+    show russia large mmph onlayer chara:
+        xpos 200 ypos -40
+    
+    $ rus.screen = 'left_1'
+    rus "んー…。" id stophim_fd42778c
+
+    hide snow2_0
+    hide snowfront2_0
+    show russia large chuckle onlayer chara
+    $ rus.screen = 'left_4'
+    rus "わかった。\n君がそう言うなら\n今日は止めておくね" id stophim_70418c9f
+
+    hide russia
+
+    ## New scene
+    scene bg classroom1
+
+    show romania med shocked eh at pos_transform(xpos=400, ypos=-40)
+    show bulgaria med conniving at pos_transform(xpos=100,ypos=-40)
+    play music "music/carnaval_de_paris_elliot_simons.ogg"
+    $ bul.screen = 'left_3'
+    bul "えっ、まじっすか！\nあざーっす！\nあざーっす！" id stophim_025e173f
+
+    $ rom.screen = 'right_1'
+    rom "すごい！本当に！？" id stophim_06388748
+
+    show england waahahaha at pos_transform(xpos=-90,yalign=0.0) behind bulgaria
+    $ eng.screen = 'left_4long'
+    eng "はははは！ロシア、お前が\nこの程度で引っ込むとは\nやはり薬ははったりだったか！\n多分はったりだ！はったりだよな…？" id stophim_d2a17599
+
+    ## New scene
+    scene bg exterior1 at pan_to_top
+    na "こうしてブルガリアさんの機転により、\nこの場を丸く収める事が出来たのだった。" id stophim_249636d1
+
+    $ _skip_appear_effect = True
+    na "ロシアさんの薬を噂っぽくぼかして７話目にして、\n後日イギリスが一人で１００話も語ったため\n１０７つの怖い話として校内新聞に載せられた。" id stophim_0b8ee69b
+
+    na "全てそこそこほどほどに\n綺麗にまとまる！　　　　…はずだった。" id stophim_2ab3c212
+    $ _skip_appear_effect = False
+    stop music fadeout 1
+
+    ## New scene
+    scene black
+    pause 0.3
+
+    $ bul.screen = 'center_1'
+    bul "………ん！？" id stophim_e7131160
+
+    scene bg bul0
+    $ bul.screen = 'left_3'
+    bul "…あれ？\n俺、何してたっけ？" id stophim_2e6b0042
+
+    scene bg bul1
+    play music "music/collision_course_paolo_bolio_hq.ogg"
+    $ bul.screen = 'center_1'
+    bul "えっなんだこれ！？" id stophim_77f4beb2
+
+    $ bul.screen = 'center_3'
+    $ _pending_sound = ("sfx/hit34.ogg", "sound")
+    $ _pending_camera_transform = [([shake_7s5], "master"), ([shake_7s5], "screens")]
+    bul "えええ！？\nちょ…なにが\nどうなってんだわー！？" id stophim_b286e950
+    $ _pending_camera_transform = None
+    camera at reset
+    camera screens at reset
+
+
+    $ rus.screen = 'left_3'
+    rus "おはようブルガリア君！\n君の英雄的行為\nかっこよかったよ" id stophim_886905b6
+
+    scene bgbul 2 at pan_bul2
+    show bulvfx
+    $ bul.screen = 'center_3'
+    bul "ロシアさん…！？\nえ、あざっす…" id stophim_c6628b52
+    
+    $ bul.screen = 'center_3'
+    $ _pending_window_transform = (shake_7s9)
+    $ _pending_sound = ("sfx/hit34.ogg", "sound")
+    bul "でも何でこんな展開\nになるんだわー！？\nあっ、いや。ですかー！" id stophim_1b277827
+
+    $ rus.screen = 'left_3'
+    rus "君が代わりに\nなるんだーって\n言ったじゃない" id stophim_259d5e1c
+
+    show bgbul 3
+    $ bul.screen = 'center_3'
+    bul "こういうのじゃなくて\nもっとカッコイイ\n感じの身代わりでぇ…！！" id stophim_4420e5b9
+    $ _skip_appear_effect = True
+    bul "割と俺とロシアさんとの\n関係だって良好な方\nじゃないっすかー！！" id stophim_782d8e5b
+    $ _skip_appear_effect = False
+
+
+    $ rus.screen = 'left_3'
+    rus "しょうがないよ\nこういう役回りの子が\n出るのが伝統だもの" id stophim_e61ef841
+
+    show bgbul 5
+    $ bul.screen = 'center_3'
+    bul "伝統！？　伝統って\nなんなんだわー！！？" id stophim_00738668
+
+    $ rus.screen = 'left_1'
+    rus "しらないにゃん♪" id stophim_33de9b00
+
+    show bgbul 4
+    $ bul.screen = 'center_3'
+    bul "え…それって…\nだってあの時ロシアさん\nいなかったじゃ…" id stophim_37131345
+
+    $ rus.screen = 'left_3'
+    rus "これ？　何でも許して\nもらえる魔法の言葉だよ\nあっ、そうだ！" id stophim_dbc52dbc
+    
+    $ rus.screen = 'left_3'
+    $ _pending_window_transform = (shake_7s6)
+    $ _pending_sound = ("sfx/ding27.ogg", "sound")
+    rus "目立てて\n良かったね♪" id stophim_d118f906
+    stop sound
+
+    
+    show bgbul 3
+    $ bul.screen = 'center_3'
+    
+    $ _pending_sound = ("sfx/hit34.ogg", "sound")
+    $ _pending_stop_music = 2
+    $ _pending_camera_transform = [([sshake], "screens")]
+    bul "最初っから…！\n最初っからー！！" id stophim_6cb88e8b
+    $ _pending_camera_transform = None
+
+
+    $ rus.screen = 'left_4'
+    rus "君達の会話って\n流しっぱなしにすると\n癒し効果があるから好きだよ" id stophim_0ba32b4e
+
+    scene bg exterior
+    show staffroll:
+        ypos 600
+    play music "music/11_liarliar.ogg"
+
+    show staffroll with {'master': None}:
+        linear 4 ypos 40
+    
+    $ bul.screen = 'left_4'
+    $ _pending_window_transform = (shake_7s7)
+    $ _pending_sound = ("sfx/hit34.ogg", "sound")
+    bul "あ！でもよく考えたら\n確かにおいしい\nポジションですわ！\nあざーっす！あざーっす！{nw=2}" id stophim_3556432d
+    
+    show staffroll with {'master': None}:
+        linear 4 ypos -450
+
+    $ rus.screen = 'center_3'
+    rus "君って意外と\n神経図太いよね{nw=3}" id stophim_e1c6c2ea
+
+    show staffroll with {'master': None}:
+        linear 3 ypos -770
+    pause 2.5
+
+    show bg exterior4 behind staffroll
+    show staffroll with {'master': None}:
+        linear 7 ypos -1630
+    pause 6.5
+
+    show bg exterior5 behind staffroll
+    show staffroll with {'master': None}:
+        linear 7 ypos -2305
+    pause 6.2
+
+    show bg exterior6 behind staffroll
+    show staffroll with {'master': None}:
+        linear 7 ypos -2765
+    pause 6.5
+
+    show bg exterior8 behind staffroll
+    show staffroll with {'master': None}:
+        easein 8 ypos -3000
+    pause 8
+    show staffroll with {'master': None}:
+        linear 3.5 alpha 0
+    pause 3.5
+
+    stop music fadeout 3
+    pause 1
+
+    $ persistent.game_finished = True
+
+    $ quick_menu = False
+
+    scene white screen with fade_white
+    
+    pause 0.5
+    
+    return
+
+label donothing:
+    show snow2_0 onlayer vfx_back
+    show snowfront2_0 onlayer vfx_front
+
+    $ audio_crossFade(1, "music/39_USbattlesong.ogg")
+    show america med angry yell onlayer chara at pos_transform(xpos=100,ypos=-30)
+    $ ame.screen = 'right_3'
+    ame "やめるんだロシア！\n君がやめないのなら\n俺が君を止めるまでだ！" id donothing_9e5b1917
+
+    hide america
+
+    scene bg aura1
+    show russia large smiling onlayer chara at pos_transform(xpos=200,ypos=-50)
+    $ rus.screen = 'right_4long'
+    rus "ふふっ\nそのお願いは聞けないかなぁ。\nそれに今の君に\nそんな力はないでしょう？" id donothing_d70e96ff
+    show russia large happy
+
+    $ ame.screen = 'left_4long'
+    $ _pending_window_transform = (shake_7s8)
+    $ _pending_sound = ("sfx/hit51.ogg", "sound")
+    ame "確かに今の俺には\n君に対抗できる力が出せない。\nだがそれで俺は諦めない！" id donothing_b8455794
+
+    hide russia
+    window show
+    scene bg aura2
+    show america large angry yell onlayer chara at pos_transform(xpos=100,ypos=-50)
+    
+    $ ame.screen = 'right_3'
+    ame "そうとも！\n信じていれば！\n夢は叶うんだぞ！{nw=0.5}" id donothing_4db270a6
+    play sound "sfx/BIGBEAST.WAV"
+    camera at ripple2
+    camera screens at ripple2
+    hide snow2_0
+    hide snowfront2_0
+    show bg aura3 with {'master':circle_dissolve2}
+
+    show sparkle_up onlayer vfx_back
+    show sparkle_radiate onlayer vfx_front
+    extend "{nw=2}"
+    camera at sshake_long
+    camera screens
+    extend "{nw=2}"
+    hide america with {'chara':Dissolve(0.2)}
+    hide sparkle_radiate with {'vfx_front':Dissolve(0.2)}
+    pause 0.5
+    window auto
+
+
+
+    scene bg aura1
+    camera at sshake_long
+    show russia 2 large cry yaaah onlayer chara at pos_transform(xpos=0,ypos=-30)
+    play sound "sfx/MONSTER1.WAV"
+    $ rus.screen = 'right_4long'
+    rus "そんな…！\n君のどこにそんな力が！？\n嘘だよこんなの…！{nw=1}" id donothing_7b331410
+
+    stop music fadeout 3
+    stop music1 fadeout 3
+    $ quick_menu = False
+
+    play sound2 "sfx/Jurassic loop.wav"
+    hide sparkle_up
+    hide russia
+    camera
+    show white screen
+    pause 6
+    
+    camera
+    stop sound
+    play music "music/International_Uplifting_Dance-full_length_track.ogg"
+
+    scene bg exterior2 at pan_to_top
+    $ quick_menu = True
+    show america eksdee at pos_transform(xpos=300,ypos=30)
+    $ ame.screen = 'center_3long'
+    ame "っていう映画を\n作ろうと思ってるんだよ！\nどうだい面白そうだろう！" id donothing_a2cc0ec7
+
+    show staffroll with {'master': None}:
+        ypos 600
+    show russia mmph at pos_transform(xpos=50,ypos=30) behind america
+    $ rus.screen = 'left_3'
+    rus "えーまた僕を悪役にするの？\nアメリカ君、君って\n逆に僕のこと好きでしょ？" id donothing_7c44211d
+
+    show staffroll with {'master': None}:
+        linear 4 ypos 230 # next nw + 1
+
+    show america youreallyare
+    $ ame.screen = 'center_3'
+    ame "おいおい！\nどうして\nそうなるんだい！？{nw=3}" id donothing_8317ac46
+
+    show staffroll with {'master': None}:
+        linear 5.5 ypos -320
+
+    show russia happy
+    $ rus.screen = 'left_4'
+    rus "だって多少時代背景や\n舞台設定に無理があっても\n何が何でも僕を黒幕\nしたがるじゃない…。{nw=3.5}" id donothing_427f0b6c
+
+    show staffroll with {'master': None}:
+        linear 6 ypos -980
+
+    show russia smiling ufufu
+    $ rus.screen = 'left_4long'
+    rus "そこまでして僕黒幕オチを\n多用する背景には\n僕への好意があるんじゃないかと\n疑わざるを得ないよ。{nw=4.5}" id donothing_049c45b4
+
+    show staffroll with {'master': None}:
+        linear 5 ypos -1470
+
+    show america whatyousay
+    $ ame.screen = 'center_3long'
+    ame "ＮＯＯＯ！\n黒幕と陰謀っていったら\n君ってイメージなだけだよ！！{nw=3.7}" id donothing_cea25ed6
+
+    show staffroll with {'master': None}:
+        linear 6 ypos -1980
+
+    show russia glum
+    $ rus.screen = 'left_4long'
+    rus "そうかなぁ。\n君よりはクリーンなつもりだよ？\nだって何が起こっても\n背後は僕！って言われるじゃない。{nw=4.5}" id donothing_b92b412d
+
+    show staffroll with {'master': None}:
+        linear 6 ypos -2410
+
+    show russia smiling ufufu
+    $ rus.screen = 'left_4long'
+    rus "…まあその通りなんだけど。\nそれってとってもわかりやすくて\nみんなから見えてるわけだから\n陰謀や黒幕とは言えないよ。{nw=4}" id donothing_9f34fc55
+
+
+    show staffroll with {'master': None}:
+        linear 6 ypos -2660
+
+    show america sneer
+    $ ame.screen = 'right_4'
+    ame "た、確かに…！\n映画的にも黒幕予想が\nイージーすぎて\nナンセンスだね！{nw=3}" id donothing_d19cefa0
+
+    hide america
+    hide russia
+    show bg exterior4
+
+    pause 1
+
+    show staffroll with {'master': None}:
+        linear 2.5 ypos -2780
+
+    $ rus.screen = 'left_3'
+    rus "じゃあ今度は\n誰黒幕にする？{nw=1.5}" id donothing_f443eb14
+
+    show staffroll with {'master': None}:
+        linear 3 ypos -2870
+
+    $ ame.screen = 'center_3'
+    ame "君以外で…？！\nどうやれっていうんだい！{nw=2}" id donothing_75f5c236
+
+    show staffroll with {'master': None}:
+        linear 4 ypos -2970
+
+    $ rus.screen = 'left_3'
+    rus "こうしていつも通りの\nアメリカ君の映画が\nできるわけだね。{nw=3}" id donothing_780e2b04
+
+    show staffroll with {'master': None}:
+        easein 3.7 ypos -3000
+
+    $ rus.screen = 'left_4long'
+    rus "フランス君ほどとは\n言わないけどひねろうよ。\nスペイン君みたいに\n最後の５分で暴走するのも良いね。{nw=3.7}" id donothing_158654f4
+    
+    show staffroll with {'master': None}:
+        linear 3.2 alpha 0.0
+
+    $ ame.screen = 'center_3'
+    ame "それなら最近\n新しいタイプの\nエンディングを考えて…！{nw=2.2}" id donothing_820f8046
+
+
+    $ rus.screen = 'left_4'
+    rus "家の中の怪奇現象は全部\n宇宙人がやってましたオチと\n友だちが悪魔化して全滅オチ\nじゃないよね？{nw=4}" id donothing_00bfdef7
+    
+
+    stop music fadeout 3
+    $ ame.screen = 'center_3'
+    ame "くっ！\n君厳しいよ！{nw=2}" id donothing_fa690420
+
+    pause 1
+    $ persistent.game_finished = True
+
+    $ quick_menu = False
+
+    scene white screen with fade_white
+    pause 0.5
+    
+    return
 
     

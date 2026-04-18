@@ -24,125 +24,121 @@ translate russian strings:
 
     # game/screens/preferences.rpy:153
     old "Source Han Sans Lite"
-    new ""
+    new "Source Han Sans Lite"
 
     # game/screens/preferences.rpy:153
     old "MS ゴシック"
-    new ""
-
-# TODO: Translation updated at 2026-04-01 14:33
-
-translate russian strings:
+    new "MS Gothic"
 
     # game/screens/preferences.rpy:165
     old "IBMPlexSans"
-    new ""
+    new "IBMPlexSans"
 
     # game/screens/preferences.rpy:165
     old "MS P明朝"
-    new ""
+    new "MS P Минчо"
 
     # game/screens/preferences.rpy:165
     old "MS Pゴシック"
-    new ""
+    new "MS P Gothic"
 
     # game/screens/preferences.rpy:165
     old "MS 明朝"
-    new ""
+    new "MS Минчо"
 
     # game/screens/preferences.rpy:165
     old "BIZ UD明朝 Medium"
-    new ""
+    new "BIZ UDМинчо Medium"
 
     # game/screens/preferences.rpy:165
     old "BIZ UDゴシック"
-    new ""
+    new "BIZ UD Gothic"
 
     # game/screens/preferences.rpy:165
     old "BIZ UDP明朝 Medium"
-    new ""
+    new "BIZ UDP Минчо Medium"
 
     # game/screens/preferences.rpy:165
     old "BIZ UDPゴシック"
-    new ""
+    new "BIZ UDP Gothic"
 
     # game/screens/preferences.rpy:165
     old "メイリオ"
-    new ""
+    new "Мейрио"
 
     # game/screens/preferences.rpy:165
     old "Meiryo UI"
-    new ""
+    new "Meiryo UI"
 
     # game/screens/preferences.rpy:165
     old "MS UI Gothic"
-    new ""
+    new "MS UI Gothic"
 
     # game/screens/preferences.rpy:165
     old "Noto Sans JP"
-    new ""
+    new "Noto Sans JP"
 
-    # game/screens/preferences.rpy:165
+    # game/screens/preferences.rpy:155
     old "Noto Sans JP Black"
-    new ""
+    new "Noto Sans JP Black"
 
-    # game/screens/preferences.rpy:165
+    # game/screens/preferences.rpy:155
     old "Noto Sans JP Demilight"
-    new ""
+    new "Noto Sans JP Demilight"
 
-    # game/screens/preferences.rpy:165
+    # game/screens/preferences.rpy:155
     old "Noto Sans JP Light"
-    new ""
+    new "Noto Sans JP Light"
 
-    # game/screens/preferences.rpy:165
+    # game/screens/preferences.rpy:155
     old "Noto Sans JP Medium"
-    new ""
+    new "Noto Sans JP Medium"
 
-    # game/screens/preferences.rpy:165
+    # game/screens/preferences.rpy:155
     old "Noto Sans JP Thin"
-    new ""
+    new "Noto Sans JP Thin"
 
-    # game/screens/preferences.rpy:165
+    # game/screens/preferences.rpy:155
     old "UD デジタル 教科書体 N-B"
-    new ""
+    new "UD Цифровой Кёкашо N-B"
 
-    # game/screens/preferences.rpy:165
+    # game/screens/preferences.rpy:155
     old "UD デジタル 教科書体 NK-B"
-    new ""
+    new "UD Цифровой Кёкашо NK-B"
 
-    # game/screens/preferences.rpy:165
+    # game/screens/preferences.rpy:155
     old "UD デジタル 教科書体 NK-R"
-    new ""
+    new "UD Цифровой Кёкашо NK-R"
 
-    # game/screens/preferences.rpy:165
+    # game/screens/preferences.rpy:155
     old "UD デジタル 教科書体 NP-B"
-    new ""
+    new "UD Цифровой Кёкашо NP-B"
 
-    # game/screens/preferences.rpy:165
+    # game/screens/preferences.rpy:155
     old "UD デジタル 教科書体 NP-R"
-    new ""
+    new "UD Цифровой Кёкашо NP-R"
 
-    # game/screens/preferences.rpy:165
+    # game/screens/preferences.rpy:155
     old "UD デジタル 教科書体 N-R"
-    new ""
+    new "UD Цифровой Кёкашо N-R"
 
     # game/screens/preferences.rpy:165
     old "游明朝"
-    new ""
+    new "Ю Минчо"
 
     # game/screens/preferences.rpy:165
     old "游明朝 Demibold"
-    new ""
+    new "Ю Минчо Demibold"
 
     # game/screens/preferences.rpy:165
     old "游明朝 Light"
-    new ""
+    new "Ю Минчо Light"
 
     # game/screens/preferences.rpy:165
     old "游ゴシック Medium"
-    new ""
+    new "Ю Gothic Medium"
 
     # game/screens/preferences.rpy:165
     old "Yu Gothic UI Semibold"
-    new ""
+    new "Yu Gothic UI Semibold"
 

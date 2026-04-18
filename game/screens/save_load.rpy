@@ -124,8 +124,7 @@ screen file_slots(title):
 
 define memo_text_size = 16
 
-translate english python:
-    memo_text_size = 12
+
 
 
 screen savegameName(slot, accept=NullAction()):
@@ -168,7 +167,7 @@ screen savegameName(slot, accept=NullAction()):
         xsize 258
         ysize 28
         scrollbars "horizontal"
-        draggable True
+        draggable False
         mousewheel "horizontal"
         input:
             id "save_name_input"
@@ -231,6 +230,7 @@ style slot_vscrollbar:
 define config.thumbnail_width = 270
 define config.thumbnail_height = 180
 define file_slot_rows = 50
+define chars_in_savename = 13
 
 ## Python
 
@@ -241,9 +241,8 @@ init python:
         cleaned = renpy.filter_text_tags(store._last_raw_what, allow=[])
         cleaned = cleaned.strip()
         cleaned = "".join(ch for ch in cleaned if ch.isprintable())
-        cleaned = cleaned[:13]
+        cleaned = cleaned[:chars_in_savename]
         return cleaned
-
 
     def get_save_preview(slot):
         if FileLoadable(slot):

@@ -20,6 +20,7 @@ define config.log = "log.txt"
 
 define gui.text_size = 20
 define gui.kerning_dialogue = 4
+define gui.kerning_nvl = 10
 define gui.line_spacing = 10
 define narr_text_size = (610, 200)
 define gal_text_size = 16

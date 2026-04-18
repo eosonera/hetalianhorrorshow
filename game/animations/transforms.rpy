@@ -12,7 +12,7 @@ image blue screen = "#0000FF"
 
 define circle_dissolve = ImageDissolve("images/vfx/circle_dissolve2.png", 0.3, reverse=True)
 define circle_dissolve2 = ImageDissolve("images/vfx/circle_dissolve2.png", 1, reverse=True)
-define circle_dissolve3 = ImageDissolve("images/vfx/circle_dissolve2.png", 1, reverse=True)
+define circle_dissolve3 = ImageDissolve("images/vfx/circle_dissolve2.png", 0.3, reverse=True)
 
 transform blur_fade(duration=2.0, *, new_widget=None, old_widget=None):
 
@@ -34,6 +34,7 @@ transform blur_fade(duration=2.0, *, new_widget=None, old_widget=None):
     blur 8
     linear (duration / 2):
         blur 0
+
 
 transform zoominzoomout(duration=1.0, *, new_widget=None, old_widget=None):
 
@@ -57,7 +58,6 @@ transform zoominzoomout(duration=1.0, *, new_widget=None, old_widget=None):
         xcenter .5
 
 
-
 ####################################################################################
 ## Transforms ######################################################################
 ####################################################################################
@@ -77,10 +77,6 @@ transform pan_to_top_slow:
 transform pan_to_top_ext0:
     yalign 1.0
     easein 7 yalign 0.0
-
-transform pan_to_top_dur(dur=1.6):
-    yalign 1.0
-    easein dur yalign 0.0
 
 transform pan_to_bottom:
     yalign 0.0
@@ -104,8 +100,6 @@ transform bow:
     yoffset 0
     easein 0.45 yoffset +35
     easein 0.3 yoffset 0
-
-
 
 
 transform stop_offset:

@@ -10,7 +10,7 @@ define config.name = "The HETALIAN HORROR SHOW"
 define gui.show_name = False
 
 ## Game ver
-define config.version = "0.1.5"
+define config.version = "0.1.6"
 
 ## ASCII-only, no white space short name
 define build.name = "thehetalianhorrorshow"

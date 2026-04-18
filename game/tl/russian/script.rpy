@@ -4,7 +4,7 @@
 translate russian start_8479585a:
 
     # na "「７カ国が集まる国際怖い話会合があるから\n　そこで話を聞いてきてくれないかなー？」\n{vspace=12}{space=155}その一言でそれは始まった。" id start_8479585a
-    na "«Семь стран соберутся на международном вечере страшилок\nхочешь ли ты присоединиться и послушать их истории?»\n{vspace=8}{space=155}Всё началось с этих слов." id start_8479585a
+    na "«Семь стран соберутся на международном вечере страшилок хочешь ли ты присоединиться и послушать их истории?»\n{vspace=8}{space=155}Всё началось с этих слов." id start_8479585a
 
 # game/script.rpy:27
 translate russian start_d72426f3:
@@ -28,7 +28,7 @@ translate russian start_f8af57b9:
 translate russian start_fe490979:
 
     # rom "{size=-2}でも…その、上司に、お前\nそんな事してる暇ないだろって\n言われちゃってー…。{/size}" id start_fe490979
-    rom "{size=-2}Но...в общем, мой босс говорит, что у меня нет времени на такие глупости...{/size}" id start_fe490979
+    rom "{size=-2}Но... в общем, мой босс говорит, что у меня нет времени на такие глупости...{/size}" id start_fe490979
 
 # game/script.rpy:44
 translate russian start_6074a98b:
@@ -75,8 +75,8 @@ translate russian start_4a9432bb:
 # game/script.rpy:72
 translate russian start_c71f0dd7:
 
-    # rom "お願いだよー！！\nお菓子あげるから！{nw}" id start_c71f0dd7
-    rom "Пожааалуйста!!!\nЯ тебя конфеткой угощу!{nw}" id start_c71f0dd7
+    # rom "お願いだよー！！\nお菓子あげるから！" id start_c71f0dd7
+    rom "Пожааалуйста!!!\nЯ тебя конфеткой угощу!" id start_c71f0dd7
 
 # game/script.rpy:81
 translate russian start_bc7df12d:
@@ -118,8 +118,8 @@ translate russian start_d37301ef:
 # game/script.rpy:104
 translate russian start_239fc5ac:
 
-    # bul "もう一声ぇっ！{nw}" id start_239fc5ac
-    bul "И ещё разок!{nw}" id start_239fc5ac
+    # bul "もう一声ぇっ！" id start_239fc5ac
+    bul "И ещё разок!" id start_239fc5ac
 
 # game/script.rpy:112
 translate russian start_6b148d73:
@@ -131,14 +131,14 @@ translate russian start_6b148d73:
 # game/script.rpy:116
 translate russian start_97b31921:
 
-    # bul "俺三万歳！！\nつまり俺の国力は\n３万あるんだわー！{nw}" id start_97b31921
-    bul "Мне 30,000 лет!\nКороч, я обладаю национальной силой равной 30,000!{nw}" id start_97b31921
+    # bul "俺三万歳！！\nつまり俺の国力は\n３万あるんだわー！" id start_97b31921
+    bul "Мне 30,000 лет!\nКороч, я обладаю национальной силой равной 30,000!" id start_97b31921
 
 # game/script.rpy:129
 translate russian start_e5a62779:
 
-    # rom "こいつ盛ったぁー！！{nw}" id start_e5a62779
-    rom "Ты преувелииичиваешь!{nw}" id start_e5a62779
+    # rom "こいつ盛ったぁー！！" id start_e5a62779
+    rom "Ты преувелииичиваешь!" id start_e5a62779
 
 # game/script.rpy:144
 translate russian start_300040ae:
@@ -155,8 +155,8 @@ translate russian start_c62956d7:
 # game/script.rpy:153
 translate russian start_091ebbd4:
 
-    # bul "ぷぷぷぷ～\nぷんにょにょ～（鼻歌）{nw}" id start_091ebbd4
-    bul "Хм-хм-хм-хм～\nХм-мм-мм～ (напевает){nw}" id start_091ebbd4
+    # bul "ぷぷぷぷ～\nぷんにょにょ～（鼻歌）" id start_091ebbd4
+    bul "Хм-хм-хм-хм～\nХм-мм-мм～ (напевает)" id start_091ebbd4
 
 # game/script.rpy:174
 translate russian start_5ef33473:
@@ -167,8 +167,8 @@ translate russian start_5ef33473:
 # game/script.rpy:178
 translate russian start_76f6ac0e:
 
-    # bul "ふんごっ\nふんごっ（鼻歌）{nw}" id start_76f6ac0e
-    bul "Хмм-ммх\nхмм-ммх (напевает){nw}" id start_76f6ac0e
+    # bul "ふんごっ\nふんごっ（鼻歌）" id start_76f6ac0e
+    bul "Хмм-ммх\nхмм-ммх (напевает)" id start_76f6ac0e
 
 # game/script.rpy:187
 translate russian start_fcb03828:
@@ -179,14 +179,14 @@ translate russian start_fcb03828:
 # game/script.rpy:192
 translate russian start_7c634a5e:
 
-    # rom "どうすればいいんだよぅこれー。{nw=1}" id start_7c634a5e
+    # rom "どうすればいいんだよぅこれー。{nw}" id start_7c634a5e
     rom "Что же мне теперь делааать?{cps=1}             {/cps}{nw}" id start_7c634a5e
 
 # game/script.rpy:194
 translate russian start_6f8a9988:
 
-    # extend "\n…あっ！そうだ！\nこの仕事すると…目立てるよ！{nw}" id start_6f8a9988
-    extend "\n...А! Точно!\nЕсли ты сделаешь это для меня...\nТы будешь замечен!{nw}" id start_6f8a9988
+    # extend "\n…あっ！そうだ！\nこの仕事すると…目立てるよ！" id start_6f8a9988
+    extend "\n...А! Точно!\nЕсли ты сделаешь это для меня...\nТы будешь замечен!" id start_6f8a9988
 
 # game/script.rpy:206
 translate russian start_63665121:
@@ -252,7 +252,7 @@ translate russian start_cc76127d:
 translate russian start_1db23734:
 
     # bul "うう…、ちくしょうちくしょう…。\nユーロ圏の新聞めー…。\n人の気持ちもしらねーで\n普通にこういう事書くんだわ…。\n手厳しいんだわー…。うっうっ…。\n金がねェンだよ…！国内建て直す\n金が手に入るまで働くしかねぇんだわ…。" id start_1db23734
-    bul "{size=-3}Аргх...черт, черт...\nГребанные европейские газеты...\nОни прост печатают эту брехню, не зная че ваще люди чувствуют.\nЭто так жестоко... *всхлип*...\nУ меня ваще нет бабла...! Конечно мне над' батрачить пока я не достану достаточно денег, чтоб восстановить страну...{/size}" id start_1db23734
+    bul "Аргх...черт, черт...\nГребанные европейские газеты...\nОни прост печатают эту брехню, не зная че ваще люди чувствуют.\nЭто так жестоко... *всхлип*...\nУ меня ваще нет бабла...! Конечно мне над' батрачить пока я не достану достаточно денег, чтоб восстановить страну..." id start_1db23734
 
 # game/script.rpy:259
 translate russian start_1bce4555:
@@ -275,8 +275,8 @@ translate russian start_d4d62c12:
 # game/script.rpy:271
 translate russian start_fc180838:
 
-    # bul "ちょっくら司会進行として\n国としての存在感\nアピッてくるんだわ！！{nw}" id start_fc180838
-    bul "Я выступлю в качестве модератора и продемонстрирую свое присутствие как страна!!{nw}" id start_fc180838
+    # bul "ちょっくら司会進行として\n国としての存在感\nアピッてくるんだわ！！" id start_fc180838
+    bul "Я выступлю в качестве модератора и продемонстрирую свое присутствие как страна!!" id start_fc180838
 
 # game/script.rpy:281
 translate russian start_0f5baf6e:
@@ -287,8 +287,8 @@ translate russian start_0f5baf6e:
 # game/script.rpy:284
 translate russian start_c6e01564:
 
-    # bul "そしてこのゲームの\n主役も頂くんだわ！{nw}" id start_c6e01564
-    bul "И я стану главным героем в этой игре!{nw}" id start_c6e01564
+    # bul "そしてこのゲームの\n主役も頂くんだわ！" id start_c6e01564
+    bul "И я стану главным героем в этой игре!" id start_c6e01564
 
 # game/script.rpy:296
 translate russian start_caf63c9d:

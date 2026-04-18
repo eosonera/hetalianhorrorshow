@@ -35,12 +35,13 @@ screen confirm(message, yes_action, no_action=None):
     else:
         key "game_menu" action yes_action
 
-
+define confirm_prompt_text_kerning = 0
 
 style confirm_prompt_text:
     color "#000"
     size 13
     layout "subtitle"
+    kerning confirm_prompt_text_kerning
 
 style confirm_button:
     background "gui/button/confirm_button_0.png"
@@ -158,5 +159,6 @@ style input_prompt:
 
 style input:
     xalign 0.0
+    kerning confirm_prompt_text_kerning
     xmaximum 1116
     color "#000"

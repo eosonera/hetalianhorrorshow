@@ -175,20 +175,20 @@ label story1:
 
     ## Shake
 
+    camera at reset
+    camera screens at reset
     play sound1 "sfx/attack00.ogg"
     window auto
-    story "ずぶっ！！{nw}" id story1_247b3f31
-    camera at sshake
-    camera screens at sshake
-    extend ""
-
+    $ _pending_camera_transform = [([sshake], "camera"), ([sshake], "screens")]
+    story "ずぶっ！！" id story1_247b3f31
+    $ _pending_camera_transform = None
 
     story "…？　踏み出した足が急に軽くなりました。" id story1_b7efe14d
     nvl clear
 
     
     story "そして…、{nw}" id story1_a34218b1
-    play music "music/echo.ogg"
+    play music1 "music/echo.ogg"
     extend "\n\nずぶずぶずぶずぶっ！！{nw}" id story1_ae81ea49
     play sound1 ("sfx/attack00.ogg")
     camera at sshake
@@ -242,15 +242,15 @@ label story1:
     nvl clear
 
 
-    play music1 "sfx/WATER03.wav" fadein 1
+    play music "sfx/WATER03.wav" fadein 1
     story "ええと…僕たち国ですから\nこういう事で死ぬことはないですし、\n皆さんもそれをよくご存じですから、\n聞いてる分には怖くないかもしれませんがっ、\n本当に怖かったんですよ…。" id story1_b12e0b34
     
     hide ripples vfx
     show bg water behind nvl_textbox
     with {'master': Dissolve(0.3)}
-    story "それに！苦しさは人間も僕らも一緒！\n生きながら苦しい時間が続くって\n最悪じゃないですか…。{nw}" id story1_35923771
-    stop music fadeout 3
-    extend ""
+    story "それに！苦しさは人間も僕らも一緒！\n生きながら苦しい時間が続くって\n最悪じゃないですか…。" id story1_35923771
+    stop music1 fadeout 3
+
     nvl clear
 
     $ quick_menu = False
@@ -258,13 +258,14 @@ label story1:
     with SquareScatter(time=0.5, grid=16)
     show ripples vfx
     show nvl_textbox
+    show black behind nvl_textbox:
+        alpha 0.0
     $ quick_menu = True
     
+    $ _pending_stop_music = 1
+    $ _pending_sprite_transform = [("black", unhide_s1)]
+    story "\nそして僕の体は冷たい湖の中に…。\n苦しい！息ができない…！" id story1_9e7a8af0
 
-    story "\nそして僕の体は冷たい湖の中に…。\n苦しい！息ができない…！{nw}" id story1_9e7a8af0
-    show black behind nvl_textbox with {'master': Dissolve(0.5)}
-    stop music1 fadeout 1
-    extend ""
     
     hide ripples vfx with {'master': Dissolve(0.3)}
     hide bg water
@@ -272,24 +273,17 @@ label story1:
     story "\n\n\n\n\n\n…と思ったのも一瞬でした。" id story1_d3d01bda
     nvl clear
 
-    show black:
-        alpha 1.0
-        pause 2.5
-        linear 0.5 alpha 0.0
-    show white screen behind nvl_textbox
-    story "\nフードに何かが引っかかったような感触がして\n何が起こったのか確認する間もなく、\n僕の体は一気に引っ張られました！{nw}" id story1_ef982f81
-    
-    $ quick_menu = False
-    camera screens at old_film_distort_x
-    pause 1
-    $ quick_menu = True
-    extend ""
-    camera screens
-
-    $ quick_menu = False
+    show white screen behind nvl_textbox:
+        alpha 0
+    $ _pending_camera_transform = [([old_film_distort_x], "screens")]
+    $ _pending_sprite_transform = [("white screen", unhide_s1)]
+    story "\nフードに何かが引っかかったような感触がして\n何が起こったのか確認する間もなく、\n僕の体は一気に引っ張られました！" id story1_ef982f81
     camera at old_film_distort_x1
     camera screens at old_film_distort_x1
+    $ _pending_camera_transform = None
 
+    $ quick_menu = False
+    
     hide nvl_textbox
     #hide white screen
 
@@ -297,15 +291,13 @@ label story1:
     show bg forest2 with {'master': Dissolve(0.3)}
     show nvl_textbox
     pause 1
-    $ quick_menu = True
     camera
     camera screens
 
-
-    story "ばしゃあ！と音がして少しの衝撃。\nと同時に濡れた肌に風を感じます。{nw}" id story1_a3f5e0af
-    camera at sshake
-    camera screens at sshake
-    extend ""
+    $ quick_menu = True
+    $ _pending_camera_transform = [([sshake], "camera"), ([sshake], "screens")]
+    story "ばしゃあ！と音がして少しの衝撃。\nと同時に濡れた肌に風を感じます。" id story1_a3f5e0af
+    $ _pending_camera_transform = None
     nvl clear
     camera
     
@@ -344,11 +336,12 @@ label story1:
 
     story "\n気が付くと僕は自分の家で寝ていたんです。\n今までの事は夢だと思いましたが、\n溺れた時の服が乾燥機に入ってたんですよ…。" id story1_2baf04c4
     nvl clear
-    pause 1.0
+    #pause 1.0
 
-    ## ADD BLUR FADE WHITE
+    #show white screen with blur_fade
+    #pause 0.2
 
-    scene bg classroom_window
+    scene bg classroom_window with fade_white
     show finland large sup at pos_transform(xpos=450, ypos=-40)
     show nvl_textbox
     
@@ -381,12 +374,11 @@ label story1:
     
 
     $ fin.screen = 'center_4long'
-    fin "ふわふわした話！！？{nw}" id story1_9ab7897d
-    play sound "sfx/hit34.ogg"
-    $ window_transform = shake_0p3
+    $ _pending_window_transform = (shake_0p3)
+    $ _pending_sound = ("sfx/hit34.ogg", "sound")
+    fin "ふわふわした話！！？" id story1_9ab7897d
     $ _skip_appear_effect = True
-    extend ""
-    $ window_transform = None
+    $ _pending_window_transform = None
     extend "\nえっ、すいません！\n僕結構真面目に怖い話を\nしたんですけれど…。" id story1_674410e3
     $ _skip_appear_effect = False
 
@@ -405,13 +397,10 @@ label story1:
 
     show finland nyaaaa
     $ fin.screen = 'center_3'
-    fin "ふわふわってどういう\n意味でのふわふわ\nなんですかー！{nw}" id story1_921c0f53
-    play sound "sfx/crumple04.ogg"
-    $ window_transform = shake_1s1
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
-    $ window_transform = None
+    $ _pending_window_transform = (shake_1s1)
+    $ _pending_sound = ("sfx/crumple04.ogg", "sound")
+    fin "ふわふわってどういう\n意味でのふわふわ\nなんですかー！" id story1_921c0f53
+    stop sound
 
     scene bg classroom2
     

@@ -28,7 +28,7 @@ translate russian meeting_76b2fe88:
 translate russian meeting_067e54c7:
 
     # story "うん。だから大目にみてにゃん。\nにゃんってつけとけば、\nだいたい許してもらえるらしいって\n誰かが言ってたにゃん。\nにゃんにゃんなんだわー。\nにゃんにゃん。" id meeting_067e54c7
-    story "Ага. Так что не давите на меня, мяу. Кто-то сказал, что люди простят почти всё что угодно, если вставлять „мяу“ посреди\nсвоих слов, мяу.\nМяу мяу, я говорю.\nМяу мяу." id meeting_067e54c7
+    story "Ага. Так что не давите на меня, мяу. Кто-то сказал, что люди простят почти всё что угодно, если вставлять „мяу“ посреди своих слов, мяу.\nМяу мяу, я говорю.\nМяу мяу." id meeting_067e54c7
 
 # game/scenario/0meeting.rpy:26
 translate russian meeting_76b2fe88_1:
@@ -273,13 +273,13 @@ translate russian meeting_70190d88:
 translate russian meeting_ffe5f0ec:
 
     # fin "…あっ。そうでしたか…！\nごめんなさい！\nドイツさんの好きなものに\n口挟むなんて無粋な真似を…！" id meeting_ffe5f0ec
-    fin "...Ох. Правда...?!\nИзвините!\nВмешиваться в то, что нравится Германии было бы нетактично...!" id meeting_ffe5f0ec
+    fin "...Ох. Правда...?!\nИзвините! Вмешиваться в то, что нравится Германии было бы нетактично...!" id meeting_ffe5f0ec
 
 # game/scenario/0meeting.rpy:280
 translate russian meeting_8c935a5a:
 
     # fin "あっ！たしかに僕も、\nちょっとダメな所があった方が\n可愛いなぁって思いますよ！ええ！" id meeting_8c935a5a
-    fin "Ох! Но я уверен,\nчто маленькие несовершенства делают людей милее! Да!" id meeting_8c935a5a
+    fin "Ох! Но я уверен, что маленькие несовершенства делают людей милее! Да!" id meeting_8c935a5a
 
 # game/scenario/0meeting.rpy:285
 translate russian meeting_0c6d0b4d:
@@ -394,7 +394,7 @@ translate russian meeting_c494b965:
 translate russian meeting_d9ad4b8f:
 
     # extend "ジェレ○ー…。{nw=1}" id meeting_d9ad4b8f
-    extend "Джере*...{nw=1}" id meeting_d9ad4b8f
+    extend " Джере*...{nw=1}" id meeting_d9ad4b8f
 
 # game/scenario/0meeting.rpy:462
 translate russian meeting_948f9926:
@@ -461,7 +461,7 @@ translate russian meeting_444b0c42:
 translate russian meeting_353efc4b:
 
     # eng "よう、日本。{size=-8}セカンド。{/size}" id meeting_353efc4b
-    eng "Йо, Япония.{size=-4}Ещё раз.{/size}" id meeting_353efc4b
+    eng "Йо, Япония.{size=-4} Ещё раз.{/size}" id meeting_353efc4b
 
 # game/scenario/0meeting.rpy:541
 translate russian meeting_dbc0159a:

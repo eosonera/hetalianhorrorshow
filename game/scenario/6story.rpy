@@ -2,6 +2,7 @@
 
 label story6:
     stop music
+    $ _pending_window_transform = None
     scene bg exterior5
     with Dissolve(0.2)
     pause 0.2
@@ -39,10 +40,12 @@ label story6:
 
     show spain large concern
     show nvl_textbox
-    story "\n\nワンさんは俺の家初めて\nやったから知らんかったんや…。\n　\nワンさんを狙とる黒ーい影が\nぎょうさんおるっちゅー事を…。{nw}" id story6_88afc890
-    show black with {'master': Dissolve(0.8)}
-    stop music fadeout 3
-    extend ""
+    show black behind nvl_textbox:
+        alpha 0
+    $ _pending_stop_music = 3
+    $ _pending_sprite_transform = [("black", unhide_s3)]
+    story "\n\nワンさんは俺の家初めて\nやったから知らんかったんや…。\n　\nワンさんを狙とる黒ーい影が\nぎょうさんおるっちゅー事を…。" id story6_88afc890
+
     nvl clear
 
     play music "sfx/New York traffic from a rooftop upper east side.ogg"
@@ -90,13 +93,16 @@ label story6:
     story "ワンさんが財布開いた\nその時やった…！" id story6_94b3a7cf
     show bg white behind nvl_textbox
     with flash
-    play sound "sfx/wood_hit_wood_1.ogg"
+    play sound2 "sfx/wood_hit_wood_1.ogg"
     play sound1 "sfx/coin01.ogg"
     play music "sfx/Subway station-New York-6 line-51st street-voices-some pa.ogg"
-    story "ガキがジャンプしたか思うと\nワンさんの財布に入っとった\n１００ユーロ札ばっかわっしと掴むと\n猛ダッシュしよった！{nw}" id story6_9cde0fcb
-    show bg runaway behind nvl_textbox with {'master': Dissolve(0.2)}
-    play sound2 "sfx/run_wait.ogg"
-    extend ""
+
+    show bg runaway behind nvl_textbox:
+        alpha 0
+    $ _pending_sound = ("sfx/run_wait.ogg", "sound")
+    $ _pending_sprite_transform = [("bg runaway", unhide_s1, Dissolve(0.2))]
+    story "ガキがジャンプしたか思うと\nワンさんの財布に入っとった\n１００ユーロ札ばっかわっしと掴むと\n猛ダッシュしよった！" id story6_9cde0fcb
+
     nvl clear
 
     stop music fadeout 2
@@ -139,17 +145,17 @@ label story6:
     show bg strangle behind nvl_textbox
     story "これは…" id story6_88fecc5f
 
-    
-    extend "\n最近はやりの首絞め強盗や！{nw}" id story6_996b431a
-    play sound "sfx/hit43_a.ogg"
-    camera at sshake
-    camera screens at sshake
-    extend ""
+    $ _pending_camera_transform = [([sshake], "master"), ([sshake], "screens")]
+    $ _pending_sound = ("sfx/hit43_a.ogg", "sound")
+    extend "\n最近はやりの首絞め強盗や！" id story6_996b431a
+
+    $ _pending_camera_transform = None
     nvl clear
     camera
     camera screens
     
-    story "その名の通り\n首を絞めとる間にバッグを奪うっちゅー\n獲物がおるから、首絞めるくらいの\n野生返りも甚だしい手口やで！{nw}" id story6_0fa348b6
+    story "その名の通り\n首を絞めとる間にバッグを奪うっちゅー\n獲物がおるから、首絞めるくらいの\n野生返りも甚だしい手口やで！" id story6_0fa348b6
+    
     stop music fadeout 1
     story "サバンナの方が住みやすいんとちゃうかなぁ…。" id story6_89f62fd0
 
@@ -234,10 +240,9 @@ label story6:
     show nvl_textbox 
     story "「ほな、パスポートとクレジットカードで\n　身元証明するさかい、ちょっと貸したってね」" id story6_50c30390
     
-    story "せやけど早よ助け求めたいワンさんは\n言われるまま渡してもうたん。{nw}" id story6_1a357a72
-    stop music fadeout 3
-    play sound "sfx/paper.ogg"
-    extend ""
+    $ _pending_stop_music = 3
+    $ _pending_sound = ("sfx/paper.ogg", "sound")
+    story "せやけど早よ助け求めたいワンさんは\n言われるまま渡してもうたん。" id story6_1a357a72
     nvl clear
 
     scene bg casual
@@ -315,26 +320,17 @@ label story6:
 
     show spain wahaha at pos_transform(xpos=200, yoffset=1.0) behind bulgaria
     $ spa.screen = 'center_3'
-    spa "ほんまに！？\n美人な子やったら\nええやんなぁ！{nw}" id story6_f9d9ea8c
-
-    play sound "sfx/ding27.ogg"
-    $ window_transform = shake_6s1
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
-    $ window_transform = None
+    $ _pending_window_transform = (shake_6s1)
+    $ _pending_sound = ("sfx/ding27.ogg", "sound")
+    spa "ほんまに！？\n美人な子やったら\nええやんなぁ！" id story6_f9d9ea8c
     stop sound
 
     show england scream at pos_transform(xpos=60, yoffset=1.0)
     $ eng.screen = 'left_3'
-    eng "ええやんなじゃ\nねーだろ！！{nw}" id story6_ecd792a2
+    $ _pending_window_transform = (shake_6s2)
+    $ _pending_sound = ("sfx/hit_s04.ogg", "sound")
+    eng "ええやんなじゃ\nねーだろ！！" id story6_ecd792a2
 
-    play sound "sfx/hit_s04.ogg"
-    $ window_transform = shake_6s2
-    $ _skip_appear_effect = True
-    extend ""
-    $ _skip_appear_effect = False
-    $ window_transform = None
     stop sound
     
     scene bg classroom2

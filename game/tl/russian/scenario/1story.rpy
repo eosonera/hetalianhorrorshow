@@ -10,7 +10,7 @@ translate russian story1_18244fb9:
 translate russian story1_eb82e6d4:
 
     # story "わっ、僕が一番でいいのでしょうか？\nヨーロッパや北欧の国の名前並べる時\nいつも僕は中頃か後ろだったりするので、\n一番目ってちょっと嬉しいですね。" id story1_eb82e6d4
-    story "Воу, вы точно не против, если я буду первый?\nЯ всегда где-то в середине или конце списка имен стран Европы или севера, так что я даже немного рад, что буду первый." id story1_eb82e6d4
+    story "Воу, вы точно не против, если я буду первый? Я всегда где-то в середине или конце списка имен стран Европы или севера, так что я даже немного рад, что буду первый." id story1_eb82e6d4
 
 # game/scenario/1story.rpy:21
 translate russian story1_76b2fe88:
@@ -22,7 +22,7 @@ translate russian story1_76b2fe88:
 translate russian story1_3dea0bd1:
 
     # story "あっブっさん一つ聞いても？\n怖い話ってやはり幽霊的なものですか？\nそれとも人間が怖い話ですか？" id story1_3dea0bd1
-    story "Ох, Бул, можно один вопрос?\nПод страшилками вы имеете в виду что-то типо историй о призраках?\nИли история, где люди делают что-то пугающее?" id story1_3dea0bd1
+    story "Ох, Бул, можно один вопрос? Под страшилками вы имеете в виду что-то типо историй о призраках? Или история, где люди делают что-то пугающее?" id story1_3dea0bd1
 
 # game/scenario/1story.rpy:28
 translate russian story1_e584c917:
@@ -52,7 +52,7 @@ translate russian story1_76b2fe88_2:
 translate russian story1_9722ed60:
 
     # story "あれは初冬の事でした…。\n\n僕の家は冬になるとお日様が\nほとんど見えなくなります。" id story1_9722ed60
-    story "Это случилось в начале зимы...\n\nУ меня дома,\nсолнце едва появляется зимой." id story1_9722ed60
+    story "Это случилось в начале зимы...\n\nУ меня дома, солнце едва появляется зимой." id story1_9722ed60
 
 # game/scenario/1story.rpy:42
 translate russian story1_76b2fe88_3:
@@ -64,13 +64,13 @@ translate russian story1_76b2fe88_3:
 translate russian story1_39460519:
 
     # story "お日様が見えないと、\nなんだか気分も落ち込みます。" id story1_39460519
-    story "Без солнца,\nстановится немного уныло." id story1_39460519
+    story "Без солнца, становится немного уныло." id story1_39460519
 
 # game/scenario/1story.rpy:53
 translate russian story1_98bdc12e:
 
     # story "だからそんな日は人や機械や人工物が\n全く見えない場所に行きたくなるんですよね。\nだからちょっとの食料とコーヒーをもって\n僕は森に入ったんです…。" id story1_98bdc12e
-    story "Так что я почувствовал сильное желание отправиться куда-то,\nгде не будет ни людей, ни машин, ни чего-либо соделанного людьми. И вот я уже упаковал еду и кофе и отправился в лес..." id story1_98bdc12e
+    story "Так что я почувствовал сильное желание отправиться куда-то, где не будет ни людей, ни машин, ни чего-либо соделанного людьми. И вот я уже упаковал еду и кофе и отправился в лес..." id story1_98bdc12e
 
 # game/scenario/1story.rpy:54
 translate russian story1_76b2fe88_4:
@@ -89,19 +89,19 @@ translate russian story1_f2c37f86:
 translate russian story1_3cb4343e:
 
     # fin "えええっ！？\nぼ、僕まだ怖い話\n言ってないですよ…？" id story1_3cb4343e
-    fin "Чтооо?!\nЯ-я же ещё не добрался\nдо страшной части...?" id story1_3cb4343e
+    fin "Чтооо?!\nЯ-я же ещё не добрался до страшной части...?" id story1_3cb4343e
 
 # game/scenario/1story.rpy:73
 translate russian story1_25772a1d:
 
     # story "ごっほん、それでですねー。\n僕は数日分の食料を詰め込み、\n森の中を進みました。" id story1_25772a1d
-    story "Кхм, возвращаясь к истории...\nЯ взял еды с расчетом на пару дней\nи направился глубоко в лес." id story1_25772a1d
+    story "Кхм, возвращаясь к истории...\nЯ взял еды с расчетом на пару дней и направился глубоко в лес." id story1_25772a1d
 
 # game/scenario/1story.rpy:74
 translate russian story1_9f6fb536:
 
     # story "日が出てるのは数時間ですから、\n野宿する場所を早く\n見つけなければなりません。" id story1_9f6fb536
-    story "Солнце появляется только\nна пару часов, так что нужно было скорее найти место, чтобы разбить лагерь. " id story1_9f6fb536
+    story "Солнце появляется только на пару часов, так что нужно было скорее найти место, чтобы разбить лагерь. " id story1_9f6fb536
 
 # game/scenario/1story.rpy:76
 translate russian story1_4bb829d1:
@@ -145,7 +145,7 @@ translate russian story1_3db3c991:
 translate russian story1_71bb5559:
 
     # story "聞こえるのは自分の息と服の音、足音。\nそれから時々鳥の声。\n沢山の音であふれた生活が\n遠い昔のようです。" id story1_71bb5559
-    story "Я слышал собственное дыхание и шуршание одежды, звук шагов.\nИ время от времени голоса птиц.\nЖизнь наполненная множеством звуков, казалась оставшейся где-то в далеком прошлом." id story1_71bb5559
+    story "Я слышал собственное дыхание и шуршание одежды, звук шагов. И время от времени голоса птиц. Жизнь наполненная множеством звуков, казалась оставшейся где-то в далеком прошлом." id story1_71bb5559
 
 # game/scenario/1story.rpy:92
 translate russian story1_76b2fe88_6:
@@ -157,7 +157,7 @@ translate russian story1_76b2fe88_6:
 translate russian story1_5fc0b86d:
 
     # story "途中、森と同じ色をした\nカモシカ君に出会い手を振ると\n目線で挨拶を返してくれます。\n良い子たちなんですよ。" id story1_5fc0b86d
-    story "По пути я встретил оленя, шерсть которого сливалась с лесом\nи когда я помахал ему, он ответил на приветствие взглядом.\nОни такие милашки." id story1_5fc0b86d
+    story "По пути я встретил оленя, шерсть которого сливалась с лесом и когда я помахал ему, он ответил на приветствие взглядом. Они такие милашки." id story1_5fc0b86d
 
 # game/scenario/1story.rpy:101
 translate russian story1_76b2fe88_7:
@@ -187,7 +187,7 @@ translate russian story1_40ae678a:
 translate russian story1_67044706:
 
     # story "森の中の夜もいいんですよ。\n夜はとっても長いんですけど、\n音も空も昼間より賑やかになります。" id story1_67044706
-    story "Лес в ночи тоже прекрасен.\nНочи очень, очень длинные,\nно звуки и небо гораздо оживлённее, чем днем." id story1_67044706
+    story "Лес в ночи тоже прекрасен. Ночи очень, очень длинные, но звуки и небо гораздо оживлённее, чем днем." id story1_67044706
 
 # game/scenario/1story.rpy:121
 translate russian story1_3d7cb46b:
@@ -195,13 +195,13 @@ translate russian story1_3d7cb46b:
     # nvl clear
     # story "\nフクロウの声があちこちから聞こえて、\n時々はもってなんだか合唱してるみたいです。\n空にはたくさんの星が目に見えない速度で\nぐるーっと回ります。" id story1_3d7cb46b
     nvl clear
-    story "\nЯ мог услышать сов тут и там\nи порой они ухали все разом будто хор. В небе множество звезд кружило на невиданной скорости." id story1_3d7cb46b
+    story "\nЯ мог услышать сов тут и там и порой они ухали все разом будто хор. В небе множество звезд кружило на невиданной скорости." id story1_3d7cb46b
 
 # game/scenario/1story.rpy:124
 translate russian story1_b8b4a374:
 
     # story "僕たちからすれば空に描いた光る点々でも、\n一つ一つが大きな星なんですよね…。\n宇宙は大きいなぁ…。" id story1_b8b4a374
-    story "Хотя с нашей точки зрения, это просто сверкающие точки, нарисованные на небе,\nкаждая из них - огромная звезда.\nВселенная так огромна..." id story1_b8b4a374
+    story "Хотя с нашей точки зрения, это просто сверкающие точки, нарисованные на небе, каждая из них - огромная звезда. Вселенная так огромна..." id story1_b8b4a374
 
 # game/scenario/1story.rpy:125
 translate russian story1_76b2fe88_9:
@@ -213,7 +213,7 @@ translate russian story1_76b2fe88_9:
 translate russian story1_9bbc6b9f:
 
     # story "コーヒーを飲みながら、\n考え事をしたり、しなかったり、\nただそこにある物を眺めたり…\nそんなふうに過ごします。" id story1_9bbc6b9f
-    story "Пока я пил свой кофе,\nЯ то погружался глубоко в свои мысли, то возвраался и просто любовался всем, что меня окружало...\nВот так я провел время." id story1_9bbc6b9f
+    story "Пока я пил свой кофе, Я то погружался глубоко в свои мысли, то возвраался и просто любовался всем, что меня окружало...\nВот так я провел время." id story1_9bbc6b9f
 
 # game/scenario/1story.rpy:132
 translate russian story1_ea461b45:
@@ -286,8 +286,8 @@ translate russian story1_ca0497ec:
 # game/scenario/1story.rpy:180
 translate russian story1_247b3f31:
 
-    # story "ずぶっ！！{nw}" id story1_247b3f31
-    story "Плюх!!{nw}" id story1_247b3f31
+    # story "ずぶっ！！" id story1_247b3f31
+    story "Плюх!!" id story1_247b3f31
 
 # game/scenario/1story.rpy:186
 translate russian story1_b7efe14d:
@@ -331,13 +331,13 @@ translate russian story1_76b2fe88_12:
 translate russian story1_7e157b70:
 
     # story "そこは湖にうっすら張った氷に\n雪が乗ってるだけの\n危険な場所だったんです…！" id story1_7e157b70
-    story "Это место было опасно,\nтолько лишь тонкий слой льда на\nповерхности озера и снег, покрывающий его." id story1_7e157b70
+    story "Это место было опасно, только лишь тонкий слой льда на поверхности озера и снег, покрывающий его." id story1_7e157b70
 
 # game/scenario/1story.rpy:203
 translate russian story1_27af72b2:
 
     # story "そんな場所に踏み入れてしまった僕の体は\n足先からずぶずぶと薄い氷の\nその先へと向かっていきます。" id story1_27af72b2
-    story "Я бездумно ступил туда\nи теперь под моим собственным весом меня затягивало в снег навстречу тонкому слою льда." id story1_27af72b2
+    story "Я бездумно ступил туда и теперь под моим собственным весом меня затягивало в снег навстречу тонкому слою льда." id story1_27af72b2
 
 # game/scenario/1story.rpy:204
 translate russian story1_76b2fe88_13:
@@ -349,13 +349,13 @@ translate russian story1_76b2fe88_13:
 translate russian story1_5158e7b2:
 
     # story "助けを呼ぼうにも僕自身人がいない場所を\n選んできているので絶望的です。\n携帯電話の類も全部\nおいてきてしまっています。" id story1_5158e7b2
-    story "Я хотел позвать на помощь,\nно я же сам выбрал это безлюдное место, я был в отчаянии.\nЯ даже телефон с собой не взял." id story1_5158e7b2
+    story "Я хотел позвать на помощь, но я же сам выбрал это безлюдное место, я был в отчаянии. Я даже телефон с собой не взял." id story1_5158e7b2
 
 # game/scenario/1story.rpy:211
 translate russian story1_38e85ade:
 
     # story "ポケットにあるのはサルミアッキのみ！\nサルミアッキはおいしいけれど\n僕のピンチを救ってはくれない！" id story1_38e85ade
-    story "Всё что было в моих карманах - солёная лакрица!\nЛакрица вкусная, но это никак\nне могло спасти меня!" id story1_38e85ade
+    story "Всё что было в моих карманах - солёная лакрица! Лакрица вкусная, но это никак не могло спасти меня!" id story1_38e85ade
 
 # game/scenario/1story.rpy:212
 translate russian story1_76b2fe88_14:
@@ -378,7 +378,7 @@ translate russian story1_57af3057:
 # game/scenario/1story.rpy:224
 translate russian story1_b8725207:
 
-    # extend "\n氷が派手に割れたー！{nw}" id story1_b8725207
+    # extend "\n氷が派手に割れたー！{nw=0.5}" id story1_b8725207
     extend "\nЛед разломился в мгновение ока!{nw=0.5}" id story1_b8725207
 
 # game/scenario/1story.rpy:241
@@ -397,13 +397,13 @@ translate russian story1_76b2fe88_15:
 translate russian story1_b12e0b34:
 
     # story "ええと…僕たち国ですから\nこういう事で死ぬことはないですし、\n皆さんもそれをよくご存じですから、\n聞いてる分には怖くないかもしれませんがっ、\n本当に怖かったんですよ…。" id story1_b12e0b34
-    story "Ээм...Так как мы страны\nЯ не смог бы умереть из-за этого,\nкак всем хорошо известно,\nпоэтому это может звучать не страшно, но было и правда очень страшно." id story1_b12e0b34
+    story "Ээм...Так как мы страны Я не смог бы умереть из-за этого, как всем хорошо известно, поэтому это может звучать не страшно, но было и правда очень страшно." id story1_b12e0b34
 
 # game/scenario/1story.rpy:251
 translate russian story1_35923771:
 
-    # story "それに！苦しさは人間も僕らも一緒！\n生きながら苦しい時間が続くって\n最悪じゃないですか…。{nw}" id story1_35923771
-    story "И ещё! Мы страдаем так же как люди! Это ведь ещё хуже, разве нет, ты продолжаешь страдать, но при этом не можешь умереть...?{nw}" id story1_35923771
+    # story "それに！苦しさは人間も僕らも一緒！\n生きながら苦しい時間が続くって\n最悪じゃないですか…。" id story1_35923771
+    story "И ещё! Мы страдаем так же как люди! Это ведь ещё хуже, разве нет, ты продолжаешь страдать, но при этом не можешь умереть...?" id story1_35923771
 
 # game/scenario/1story.rpy:254
 translate russian story1_76b2fe88_16:
@@ -414,8 +414,8 @@ translate russian story1_76b2fe88_16:
 # game/scenario/1story.rpy:264
 translate russian story1_9e7a8af0:
 
-    # story "\nそして僕の体は冷たい湖の中に…。\n苦しい！息ができない…！{nw}" id story1_9e7a8af0
-    story "\nИ в этом ледяном озере, мое тело...\nБольно! Я не могу дышать...!{nw}" id story1_9e7a8af0
+    # story "\nそして僕の体は冷たい湖の中に…。\n苦しい！息ができない…！" id story1_9e7a8af0
+    story "\nИ в этом ледяном озере, мое тело...\nБольно! Я не могу дышать...!" id story1_9e7a8af0
 
 # game/scenario/1story.rpy:272
 translate russian story1_d3d01bda:
@@ -432,14 +432,14 @@ translate russian story1_76b2fe88_17:
 # game/scenario/1story.rpy:280
 translate russian story1_ef982f81:
 
-    # story "\nフードに何かが引っかかったような感触がして\n何が起こったのか確認する間もなく、\n僕の体は一気に引っ張られました！{nw}" id story1_ef982f81
-    story "\nПоказалось что что-то твердое зацепилось за капюшон.\nЯ не уверен что произошло,\nмое тело вытянуло одним рывком!{nw}" id story1_ef982f81
+    # story "\nフードに何かが引っかかったような感触がして\n何が起こったのか確認する間もなく、\n僕の体は一気に引っ張られました！" id story1_ef982f81
+    story "\nПоказалось что что-то твердое зацепилось за капюшон. Я не уверен что произошло, мое тело вытянуло одним рывком!" id story1_ef982f81
 
 # game/scenario/1story.rpy:305
 translate russian story1_a3f5e0af:
 
-    # story "ばしゃあ！と音がして少しの衝撃。\nと同時に濡れた肌に風を感じます。{nw}" id story1_a3f5e0af
-    story "\nВсплеск и легкий удар.\nИ в тот же момент я почувствовал как ветер обдувает мою мокрую кожу.{nw}" id story1_a3f5e0af
+    # story "ばしゃあ！と音がして少しの衝撃。\nと同時に濡れた肌に風を感じます。" id story1_a3f5e0af
+    story "\nВсплеск и легкий удар.\nИ в тот же момент я почувствовал как ветер обдувает мою мокрую кожу." id story1_a3f5e0af
 
 # game/scenario/1story.rpy:309
 translate russian story1_76b2fe88_18:
@@ -471,7 +471,7 @@ translate russian story1_6a053c06:
     # nvl clear
     # story "\n僕の意識はどんどん遠くなっていって…\nすとんと落ちるように気絶してしまいました。" id story1_6a053c06
     nvl clear
-    story "\nЯ стремительно терял сознание...\nИ затем с глухим стуком я провалился во тьму." id story1_6a053c06
+    story "\nЯ стремительно терял сознание... И затем с глухим стуком я провалился во тьму." id story1_6a053c06
 
 # game/scenario/1story.rpy:334
 translate russian story1_15a4b966:
@@ -489,7 +489,7 @@ translate russian story1_76b2fe88_19:
 translate russian story1_2baf04c4:
 
     # story "\n気が付くと僕は自分の家で寝ていたんです。\n今までの事は夢だと思いましたが、\n溺れた時の服が乾燥機に入ってたんですよ…。" id story1_2baf04c4
-    story "\nКогда я очнулся, я уже был в своей кровати, у себя дома.\nЯ подумал, что всё произошедшее было сном, но одежда, в которой я утонул была в сушилке..." id story1_2baf04c4
+    story "\nКогда я очнулся, я уже был в своей кровати, у себя дома. Я подумал, что всё произошедшее было сном, но одежда, в которой я утонул была в сушилке..." id story1_2baf04c4
 
 # game/scenario/1story.rpy:346
 translate russian story1_76b2fe88_20:
@@ -539,49 +539,49 @@ translate russian story1_28ca9edf:
 translate russian story1_4b7f24c5:
 
     # bul "ひどくふわふわした話\nあざーっした！" id story1_4b7f24c5
-    bul "Спасибо за эту\nужасно милую историю!" id story1_4b7f24c5
+    bul "Спасибо за эту ужасно милую историю!" id story1_4b7f24c5
 
 # game/scenario/1story.rpy:384
 translate russian story1_9ab7897d:
 
-    # fin "ふわふわした話！！？{nw}" id story1_9ab7897d
-    fin "Милую историю?!!{nw}" id story1_9ab7897d
+    # fin "ふわふわした話！！？" id story1_9ab7897d
+    fin "Милую историю?!!" id story1_9ab7897d
 
 # game/scenario/1story.rpy:390
 translate russian story1_674410e3:
 
     # extend "\nえっ、すいません！\n僕結構真面目に怖い話を\nしたんですけれど…。" id story1_674410e3
-    extend "\nОх, простите!\nЯ думал, что рассказал довольно жуткую историю..." id story1_674410e3
+    extend "\nОх, простите! Я думал, что рассказал довольно жуткую историю..." id story1_674410e3
 
 # game/scenario/1story.rpy:396
 translate russian story1_9db0829d:
 
     # fin "妖精が助けてくれるって\n怖くないですか…？" id story1_9db0829d
-    fin "Получить помощь\nот фей не страшно...?" id story1_9db0829d
+    fin "Получить помощь от фей не страшно...?" id story1_9db0829d
 
 # game/scenario/1story.rpy:400
 translate russian story1_ce2dd2ba:
 
     # ame "なかなかふわふわしていて\n面白かったぞ！" id story1_ce2dd2ba
-    ame "Это было довольно мило\nи интересно!" id story1_ce2dd2ba
+    ame "Это было довольно мило и интересно!" id story1_ce2dd2ba
 
 # game/scenario/1story.rpy:404
 translate russian story1_46462028:
 
     # eng "俺は嫌いじゃない。\nいいんじゃないか。\nフィンランドらしく\nふわふわしていて。" id story1_46462028
-    eng "Мне в общем понравилось.\nНеплохая история, да?\nОна милая прям как ты, Финляндия." id story1_46462028
+    eng "Мне в общем понравилось. Неплохая история, да? Она милая прям как ты, Финляндия." id story1_46462028
 
 # game/scenario/1story.rpy:408
 translate russian story1_921c0f53:
 
-    # fin "ふわふわってどういう\n意味でのふわふわ\nなんですかー！{nw}" id story1_921c0f53
-    fin "Милая,\nда в каком месте\nона милая?!{nw}" id story1_921c0f53
+    # fin "ふわふわってどういう\n意味でのふわふわ\nなんですかー！" id story1_921c0f53
+    fin "Милая, да в каком месте она милая?!" id story1_921c0f53
 
 # game/scenario/1story.rpy:422
 translate russian story1_5ca81584:
 
     # bul "じゃあ次の\nふわふわした話\nお願いしゃーす！" id story1_5ca81584
-    bul "Ладно, следующую\nмилую историю,\nпожалустаааа!" id story1_5ca81584
+    bul "Ладно, следующую милую историю, пожалустаааа!" id story1_5ca81584
 
 # game/scenario/1story.rpy:425
 translate russian story1_b0885707:

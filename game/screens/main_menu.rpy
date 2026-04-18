@@ -29,23 +29,13 @@ screen main_menu():
     add "gui/menu_main/title.png" at mm_title
     add "gui/menu_main/title2.png" at mm_title2
 
+    use debug_toggle()
+
     vbox:
         style_prefix "mm"
         xalign 1.0
         yalign 1.0
         text "hetascanlations\n[config.name!t] remake\nversion [config.version]"
-
-    vbox:
-        xalign 1.0
-        yalign 0.0
-        label("Debug menu")
-        textbutton("Jump to Meeting"):
-            action Start("meeting")
-        for ch in list_ch:
-            textbutton ("Jump to [ch]"):
-                action Start(ch)
-        textbutton("Splashscreen"):
-            action Start("splashscreen")
 
 
     fixed:
@@ -116,9 +106,10 @@ style mm_text:
 #################################################################################
 
 transform mm_title:
-    zoom 2.0 rotate -190 xycenter(454,294)
+    alpha 0.0 zoom 2.0 rotate -190 xycenter(100,250)
+    #linear 0.75 alpha 0.0 zoom 2.0 rotate -190 xycenter(100,250)
 
-    linear .7 zoom 1.0 rotate 0 xycenter(450,300) #0-0:43
+    linear .7 alpha 1.0 zoom 1.0 rotate 0 xycenter(450,300) #0-0:43
     linear .3 rotate 10 #0:43-1:0
 
     linear .2 rotate -10 zoom 1.1
@@ -136,8 +127,8 @@ transform mm_title:
 
 transform mm_title2:
     alpha 0.0
-    1.55
-    linear 0.45 alpha 1
+    time 1.55
+    linear 0.45 alpha 1.0
     time 2.5
     block:
         linear 1.35 yoffset -3
@@ -151,6 +142,7 @@ transform mm_title2:
 
 transform mm_fade_in:
     alpha 0.0
+    #0.75
     linear 1.25 alpha 1.0
 
 transform mm_fade_in_bg:
@@ -159,6 +151,7 @@ transform mm_fade_in_bg:
 
 transform mm_imagebutton_bg:
     alpha 0.0
+    #0.75
     linear 1.25 alpha 0.78
 
 
@@ -227,4 +220,29 @@ transform sunlight2_1_mm:
 
 
 
-#################################################################################
+
+screen debug_menu():
+    zorder 100
+    vbox:
+        xalign 1.0
+        yalign 0.0
+        
+        label("Debug Menu")  # Removed quotes from label text
+        
+        textbutton("Jump to Meeting"):
+            action Start("meeting")
+        
+        for ch in list_ch:
+            textbutton ("Jump to [ch]"):
+                action Start(ch)
+        
+        textbutton("Splashscreen"):
+            action Start("splashscreen")
+        
+        textbutton("Close"):
+            action Hide("debug_menu")
+
+
+screen debug_toggle():
+    layer "bottom"
+    key 'K_p' action ToggleScreen("debug_menu")

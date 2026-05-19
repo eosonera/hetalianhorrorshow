@@ -10,7 +10,7 @@ define config.name = "The HETALIAN HORROR SHOW"
 define gui.show_name = False
 
 ## Game ver
-define config.version = "0.1.6"
+define config.version = "0.1.7"
 
 ## ASCII-only, no white space short name
 define build.name = "thehetalianhorrorshow"
@@ -85,15 +85,6 @@ default preferences.show_empty_window = True
 define config.skip_indicator = False
 
 define config.default_textshader = 'typewriter'
-
-
-## Preference defaults #########################################################
-
-## Controls the default text speed. The default, 0, is infinite, while any other
-## number is the number of characters per second to type out.
-
-
-
 
 
 ## The default auto-forward delay. Larger numbers lead to longer waits, with 0

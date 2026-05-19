@@ -40,7 +40,7 @@ translate english story1_76b2fe88_1:
 translate english story1_dd069e56:
 
     # story "そうですか！\nでしたらちょうど良い話があります"
-    story "Okay, then!\nIn that case, I have the perfect one."
+    story "Okay, then! \nIn that case, I have the perfect one."
 
 # game/scenario/1story.rpy:33
 translate english story1_76b2fe88_2:
@@ -52,7 +52,7 @@ translate english story1_76b2fe88_2:
 translate english story1_9722ed60:
 
     # story "あれは初冬の事でした…。\n\n僕の家は冬になるとお日様が\nほとんど見えなくなります。"
-    story "It happened in the early winter...\n\nThe sun is barely visible at my house during this time of year."
+    story "It happened in the early winter... \n\nThe sun is barely visible at my house during that time of year."
 
 # game/scenario/1story.rpy:40
 translate english story1_76b2fe88_3:
@@ -88,13 +88,13 @@ translate english story1_f2c37f86:
 translate english story1_3cb4343e:
 
     # fin "えええっ！？\nぼ、僕まだ怖い話\n言ってないですよ…？"
-    fin "Whaaat!?\nI-I haven't even gotten to the scary part yet...?"
+    fin "Whaaat!? \nI-I haven't even gotten to the scary part yet...?"
 
 # game/scenario/1story.rpy:71
 translate english story1_25772a1d:
 
     # story "ごっほん、それでですねー。\n僕は数日分の食料を詰め込み、\n森の中を進みました。"
-    story "Ahem, anyway...\nI got enough food together for a few days and headed deep into the forest."
+    story "Ahem, anyway... \nI got enough food together for a few days and headed deep into the forest."
 
 # game/scenario/1story.rpy:72
 translate english story1_9f6fb536:
@@ -120,7 +120,7 @@ translate english story1_4ec0b15b:
 translate english story1_515c0840:
 
     # story "さくさく。\nぎゅっぎゅっ。\nざく、ざく。\nもふっもふっ。"
-    story "Rustle rustle.\nSquish squish.\nCrunch, crunch.\nPuff puff."
+    story "Rustle rustle. \nSquish squish. \nCrunch, crunch. \nPuff puff."
 
 # game/scenario/1story.rpy:79
 translate english story1_9bbe293f:
@@ -138,7 +138,7 @@ translate english story1_76b2fe88_5:
 translate english story1_3db3c991:
 
     # story "紅葉の季節も終わり、\n森は灰色っぽくなりましたが、\n苔やベリーの木にはまだ色があって、\n音と色を楽しみながら\n森を進むのも良い物です。"
-    story "The season for fall colors had ended, and the forest had turned all grayish, but the moss and the berries on the trees still offered little pops of color. It was nice, just enjoying the sounds and the colors while walking through the forest."
+    story "The season for fall colors had ended, and the forest had become all grayish, but the moss and the berries on the trees still offered little touches of color. It was nice to just take a walk through the forest enjoying the sounds and the colors."
 
 # game/scenario/1story.rpy:88
 translate english story1_71bb5559:
@@ -156,7 +156,7 @@ translate english story1_76b2fe88_6:
 translate english story1_5fc0b86d:
 
     # story "途中、森と同じ色をした\nカモシカ君に出会い手を振ると\n目線で挨拶を返してくれます。\n良い子たちなんですよ。"
-    story "On the way, I met a reindeer who was the same color as the forest. When I waved, it returned my greeting with a look. They're such darlings."
+    story "On the way, I met a wild goat who was the same color as the forest. When I waved, it returned my greeting with a look. They're such sweet creatures."
 
 # game/scenario/1story.rpy:99
 translate english story1_76b2fe88_7:
@@ -168,7 +168,7 @@ translate english story1_76b2fe88_7:
 translate english story1_57025bb1:
 
     # story "あっでもヘラジカ君には\n気を付けて下さいね。\nヘラジカ君酔った勢いで\n人跳ねますから…。\n\n毎年僕も跳ねられるんですよね…。\n強すぎます…。"
-    story "Ah, but please watch out for moose. They can get crazy drunk and jump out at you...\n\nThat happens to me every year, you know...? They're way too strong..."
+    story "Ah, but please watch out for moose. They're known to run people over when they're drunk... \n\nIt's something that I have to deal with every year as well... They're way too strong..."
 
 # game/scenario/1story.rpy:105
 translate english story1_76b2fe88_8:
@@ -194,13 +194,13 @@ translate english story1_3d7cb46b:
     # nvl clear
     # story "\nフクロウの声があちこちから聞こえて、\n時々はもってなんだか合唱してるみたいです。\n空にはたくさんの星が目に見えない速度で\nぐるーっと回ります。"
     nvl clear
-    story "\nI would hear owls here and there, and sometimes they would call together, like in a chorus. In the sky, all those stars would be spinning at an unseen speed."
+    story "\nI would hear owls all around me, and sometimes they would call together, like in a chorus. Meanwhile, the stars in the sky would be spinning at speeds too small to notice."
 
 # game/scenario/1story.rpy:122
 translate english story1_b8b4a374:
 
     # story "僕たちからすれば空に描いた光る点々でも、\n一つ一つが大きな星なんですよね…。\n宇宙は大きいなぁ…。"
-    story "Even though, from our point of view, they look like shimmering dots drawn onto the sky, every single one of them is a giant astronomical object.\nSpace is so huge..."
+    story "To us, they may look like shimmering dots drawn onto the sky, but every single one of them is a giant astronomical object. Space is so huge..."
 
 # game/scenario/1story.rpy:123
 translate english story1_76b2fe88_9:
@@ -212,13 +212,13 @@ translate english story1_76b2fe88_9:
 translate english story1_9bbc6b9f:
 
     # story "コーヒーを飲みながら、\n考え事をしたり、しなかったり、\nただそこにある物を眺めたり…\nそんなふうに過ごします。"
-    story "While I was drinking my coffee, I would get lost in my thoughts, then come out of it, and just gaze at whatever was around me...\nThat's how I spent my time."
+    story "While I was drinking my coffee, I would get lost in my thoughts, then come out of it, and just gaze at whatever was around me... \nThat's how I spent my time."
 
 # game/scenario/1story.rpy:130
 translate english story1_ea461b45:
 
     # story "それから眠くなったら寝ます！\nいつも時間に縛られてますから\n森にいる日は夜更かししても\nとっても早く寝てもいいのです。"
-    story "After a while, I got tired, so I went to sleep! I'm usually pressed for time, but when I'm in the forest, I have the freedom to stay up or go to bed whenever I want."
+    story "After a while, I was getting sleepy, so I decided to call it a night! I'm usually pressed for time, but when I'm in the forest, I have the freedom to stay up or go to bed whenever I want."
 
 # game/scenario/1story.rpy:131
 translate english story1_76b2fe88_10:
@@ -242,13 +242,13 @@ translate english story1_713cb033:
 translate english story1_24e2072e:
 
     # extend "\n起きると真っ白でした。"
-    extend "\nI woke up, and everything was\npure white."
+    extend "\nI woke up, and everything was pure white."
 
 # game/scenario/1story.rpy:145
 translate english story1_a24db63d:
 
     # story "そう、雪が降ったんです！\n雪！雪ー！"
-    story "Of course, it had snowed!\nSnow! Snooow!"
+    story "Of course, it had snowed! \nSnow! Snooow!"
 
 # game/scenario/1story.rpy:147
 translate english story1_30985ce0:
@@ -262,7 +262,7 @@ translate english story1_30985ce0:
 translate english story1_fdc500c9:
 
     # story "そして僕はまだ誰も踏んでいない\n真っ白に囲まれている！！"
-    story "And I was surrounded by pure white that nobody had stepped on yet!!"
+    story "And I was surrounded by pristine whiteness, untouched by anyone else's footsteps!!"
 
 # game/scenario/1story.rpy:155
 translate english story1_e700ed26:
@@ -374,7 +374,7 @@ translate english story1_b8725207:
 translate english story1_4c08f6d0:
 
     # story "おひゃあ！もう駄目だ…！\n落ちる…！"
-    story "Aagh! It was no use...!\nI was sinking...!"
+    story "Aagh! It was no use...! \nI was sinking...!"
 
 # game/scenario/1story.rpy:232
 translate english story1_76b2fe88_14:
@@ -404,7 +404,7 @@ translate english story1_76b2fe88_15:
 translate english story1_9e7a8af0:
 
     # story "\nそして僕の体は冷たい湖の中に…。\n苦しい！息ができない…！"
-    story "\nAnd here I was, my body submerged in a freezing cold lake...\nI was in agony! I couldn't breathe...! "
+    story "\nAnd here I was, my body submerged in a freezing cold lake... \nI was in agony! I couldn't breathe...! "
 
 # game/scenario/1story.rpy:263
 translate english story1_d3d01bda:
@@ -428,7 +428,7 @@ translate english story1_ef982f81:
 translate english story1_a3f5e0af:
 
     # story "ばしゃあ！と音がして少しの衝撃。\nと同時に濡れた肌に風を感じます。"
-    story "A splash! Then, a small impact. At the same time, I felt the wind on my wet skin."
+    story "A splash! Then, a small impact. As this happened, I felt the wind on my wet skin."
 
 # game/scenario/1story.rpy:295
 translate english story1_76b2fe88_17:
@@ -440,7 +440,7 @@ translate english story1_76b2fe88_17:
 translate english story1_8d10c5dc:
 
     # story "\nここは…雪の上？\n湖の底から体が勝手に地上に…？"
-    story "\nWas I... on the snow?\nHad my body moved from the bottom of the lake to the surface on its own...?"
+    story "\nWas I... on the snow? \nHad my body moved from the bottom of the lake to the surface on its own...?"
 
 # game/scenario/1story.rpy:299
 translate english story1_8140aebe:
@@ -452,7 +452,7 @@ translate english story1_8140aebe:
 translate english story1_ec3a4cfa:
 
     # story "そこに誰かがいる気がします。\nこんな森の中に誰が…？"
-    story "It seemed as though someone was there.\nWho could have been in that forest...?"
+    story "There seemed to have been someone else there. Who could have been here, deep in this forest...?"
 
 # game/scenario/1story.rpy:301
 translate english story1_6a053c06:
@@ -460,7 +460,7 @@ translate english story1_6a053c06:
     # nvl clear
     # story "\n僕の意識はどんどん遠くなっていって…\nすとんと落ちるように気絶してしまいました。"
     nvl clear
-    story "\nI was steadily losing consciousness...\nAnd I suddenly passed out."
+    story "\nI was steadily losing consciousness... \nAnd I suddenly passed out."
 
 # game/scenario/1story.rpy:321
 translate english story1_15a4b966:
@@ -490,15 +490,15 @@ translate english story1_76b2fe88_19:
 translate english story1_abd4b566:
 
     # story "きっとあれは妖精です！\n妖精が僕を助けてくれたんですよ…！"
-    story "It must have been a fairy!\nA fairy helped me...!"
+    story "It must have been a fairy! \nA fairy helped me...!"
 
 # game/scenario/1story.rpy:347
 translate english story1_c33d8f72:
 
     # story "でもこんな事を僕が言うと\n「酒飲んでたんだべ！」とか\n「仲間…（ニヨニヨ）」とか\n言われて信じていただけないので\n今日の今日まで心の中に留めておりました！"
-    story "But whenever I told people that, I'd get,{nw}"
-    story_indent "“You musta been drinking!” and,\n“My colleagues... (snicker)”{nw}"
-    story "and no one ever believes me so I've kept it to myself until today!"
+    story "But whenever I say that, I'd get things like,{nw}"
+    story_indent "“You musta been drinking!” and, \n“One 'f my colleagues... (smirk)”{nw}"
+    story "and no one would believe me so I've kept it to myself until today!"
 
 # game/scenario/1story.rpy:348
 translate english story1_76b2fe88_20:
@@ -540,49 +540,49 @@ translate english story1_9ab7897d:
 translate english story1_674410e3:
 
     # extend "\nえっ、すいません！\n僕結構真面目に怖い話を\nしたんですけれど…。"
-    extend "\nOh, I'm sorry!\nI thought I had told quite a seriously scary story..."
+    extend "\nHuh? I'm sorry! \nI thought I was telling a pretty seriously scary story..."
 
 # game/scenario/1story.rpy:377
 translate english story1_9db0829d:
 
     # fin "妖精が助けてくれるって\n怖くないですか…？"
-    fin "Being saved by fairies isn't scary...?"
+    fin "The idea of a fairy coming to save you doesn't scare any of you...?"
 
 # game/scenario/1story.rpy:381
 translate english story1_ce2dd2ba:
 
     # ame "なかなかふわふわしていて\n面白かったぞ！"
-    ame "That was pretty fluffy and interesting!"
+    ame "I actually thought it was pretty light and kinda fun!"
 
 # game/scenario/1story.rpy:385
 translate english story1_46462028:
 
     # eng "俺は嫌いじゃない。\nいいんじゃないか。\nフィンランドらしく\nふわふわしていて。"
-    eng "I don't hate it. It's kind of nice, right?\nIt's fluffy, just like you, Finland."
+    eng "I don't dislike it. I thought it was alright. It's pretty easygoing, just like you Finland."
 
 # game/scenario/1story.rpy:390
 translate english story1_921c0f53:
 
     # fin "ふわふわってどういう\n意味でのふわふわ\nなんですかー！"
-    fin "Fluffy, fluffy in what way, exactly!?"
+    fin "Easygoing, easy in what way, exactly!?"
 
 # game/scenario/1story.rpy:399
 translate english story1_5ca81584:
 
     # bul "じゃあ次の\nふわふわした話\nお願いしゃーす！"
-    bul "Alright, time for the next fluffy story, pleeease!"
+    bul "Alright, time for the next lighthearted story, pleeease!"
 
 # game/scenario/1story.rpy:402
 translate english story1_b0885707:
 
     # jpn "ふわふわした話…！？\nすいません、用意して\nおりませんでした…。"
-    jpn "A fluffy story...!?\nI'm sorry, I haven't prepared one..."
+    jpn "A lighthearted story...!? \nI'm sorry, I haven't prepared one..."
 
 # game/scenario/1story.rpy:405
 translate english story1_b5e4c11e:
 
     # fin "わーごめんなさい！\nしなくて大丈夫です！"
-    fin "Whoa, I'm sorry! You don't have to tell one!"
+    fin "Agh, I'm sorry! You don't have to tell one!"
 
 # TODO: Translation updated at 2025-08-30 16:56
 

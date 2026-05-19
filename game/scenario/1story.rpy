@@ -367,6 +367,8 @@ label story1:
     $ bul.screen = 'right_1'
     bul "…………。" id story1_28ca9edf
 
+    show bulgaria conniving
+
     $ bul.screen = 'right_3'
     bul "ひどくふわふわした話\nあざーっした！" id story1_4b7f24c5
 

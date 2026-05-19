@@ -16,43 +16,43 @@ translate russian story7_9dd7a492:
 translate russian story7_378a8f1f:
 
     # rom "えっと、みんな！\n今日は集まってくれて\nありがとうなんだよー" id story7_378a8f1f
-    rom "Что ж, ребята!\nСпасибо всем, что\nсобрались здесь сегодня." id story7_378a8f1f
+    rom "Что ж, ребята! \nСпасибо всем, что собрались здесь сегодня." id story7_378a8f1f
 
 # game/scenario/7story.rpy:42
 translate russian story7_5b3c969a:
 
     # ame "ルーマニアじゃないか！\nもしかして７つ目の\n怖い話をするのって\n君だったのかい！？" id story7_5b3c969a
-    ame "Румыния!\nЭто ты тот, кто будет\nрассказывать седьмую\nстрашную историю?!" id story7_5b3c969a
+    ame "Румыния! \nЭто ты тот, кто будет рассказывать седьмую страшную историю?!" id story7_5b3c969a
 
 # game/scenario/7story.rpy:46
 translate russian story7_2edc087d:
 
     # rom "あ！ううん！\n７人目はおいら\nじゃないんだよー" id story7_2edc087d
-    rom "Ах! Нет!\nЯ не седьмой." id story7_2edc087d
+    rom "Ах! Нет! \nЯ не седьмой." id story7_2edc087d
 
 # game/scenario/7story.rpy:60
 translate russian story7_3dca6e2d:
 
     # rom "えっと…、そうそう！\n今日のお礼と\n差し入れに来ましたっ！" id story7_3dca6e2d
-    rom "Эммм... ох, точно!\nЯ принес немного закусок в качестве благодарности, что вы пришли сегодня!" id story7_3dca6e2d
+    rom "Эммм... ох, точно! \nЯ принес немного закусок в качестве благодарности, что вы пришли сегодня!" id story7_3dca6e2d
 
 # game/scenario/7story.rpy:66
 translate russian story7_ad38888c:
 
     # eng "そうなのかよ\nちょうど６人全員\n話終えたところだぞ" id story7_ad38888c
-    eng "Вот как?\nВсе шестеро из нас только что закончили рассказывать свои истории." id story7_ad38888c
+    eng "Вот как? \nВсе шестеро из нас только что закончили рассказывать свои истории." id story7_ad38888c
 
 # game/scenario/7story.rpy:79
 translate russian story7_4b8bd771:
 
     # spa "もしかして\n７人目誘うの\n忘れ取ったんちゃうか？\nどじっこさんやなぁ！" id story7_4b8bd771
-    spa "Ты же не забыл пригласить седьмого?\nНу что за растяпа!" id story7_4b8bd771
+    spa "Ты же не забыл пригласить седьмого? \nНу что за растяпа!" id story7_4b8bd771
 
 # game/scenario/7story.rpy:88
 translate russian story7_002d0375:
 
     # rom "あ、えと、\nこの後、来るんだよー！{nw}" id story7_002d0375
-    rom "Ах, ух, он скоро придет!{nw}" id story7_002d0375
+    rom "Ах, ух, он скоро придет! {nw}" id story7_002d0375
 
 # game/scenario/7story.rpy:92
 translate russian story7_9790a031:
@@ -64,19 +64,19 @@ translate russian story7_9790a031:
 translate russian story7_0d830a7f:
 
     # spa "そか！そんなら\n安心やんなー！" id story7_0d830a7f
-    spa "Вот как!\nХорошо!" id story7_0d830a7f
+    spa "Вот как! \nХорошо!" id story7_0d830a7f
 
 # game/scenario/7story.rpy:108
 translate russian story7_15becd0d:
 
     # fin "モイ！\nルーマニア君\n差し入れってなに！？" id story7_15becd0d
-    fin "Moi!\nРумыния, а какие\nзакуски ты принес?!" id story7_15becd0d
+    fin "Moi! \nРумыния, а какие закуски ты принес?!" id story7_15becd0d
 
 # game/scenario/7story.rpy:121
 translate russian story7_4d0cca12:
 
     # rom "あっ、そうだ！\nお菓子とジュース…！\n…えと今配るんだよー！" id story7_4d0cca12
-    rom "Ах, точно! Немного сладостей и сок...!\n...ух, сейчас раздам!" id story7_4d0cca12
+    rom "Ах, точно! Немного сладостей и сок...! \n...ух, сейчас раздам!" id story7_4d0cca12
 
 # game/scenario/7story.rpy:125
 translate russian story7_a37a4537:
@@ -100,7 +100,7 @@ translate russian story7_5688e25d:
 translate russian story7_0caf85f6:
 
     # rom "えへへ…そうかなー…\nあっイギリスもお菓子\nどうぞなんだよー" id story7_0caf85f6
-    rom "Эхехе...\nНаверное ты прав...\nАх, Англия, угощайся." id story7_0caf85f6
+    rom "Эхехе... \nНаверное ты прав... \nАх, Англия, угощайся." id story7_0caf85f6
 
 # game/scenario/7story.rpy:154
 translate russian story7_9feff1de:
@@ -124,25 +124,25 @@ translate russian story7_3b1b5942:
 translate russian story7_56a4d789:
 
     # rom "…あ、あははは…\nありがとうなんだよー" id story7_56a4d789
-    rom "...А, ахахаха...\nСпасибо." id story7_56a4d789
+    rom "...А, ахахаха... \nСпасибо." id story7_56a4d789
 
 # game/scenario/7story.rpy:188
 translate russian story7_85994eed:
 
     # bul "ちょー…\nお前忙しいとか\n言ってただろー" id story7_85994eed
-    bul "Чт-...\nТы же сказал,\nчто был занят." id story7_85994eed
+    bul "Чт-... \nТы же сказал,  что был занят." id story7_85994eed
 
 # game/scenario/7story.rpy:213
 translate russian story7_aa94871d:
 
     # bul "ん。あれ？\nあとこの集会って\n魔術部のイギ太郎が…" id story7_aa94871d
-    bul "Хм. Хах?\nПосле этой встречи Англия\nиз клуба магии..." id story7_aa94871d
+    bul "Хм. Хах? \nПосле этой встречи Англия из клуба магии..." id story7_aa94871d
 
 # game/scenario/7story.rpy:224
 translate russian story7_ad8be397:
 
     # rom "え？　あっ！ちょうど\n時間が出来たというか！\n{size=-5}{color=#C0C0C0}…ちょっと待っててねー{/color}{/size}" id story7_ad8be397
-    rom "Э? А! Думаю, можно сказать, что это заняло немного времени!\n{size=-2}{color=#C0C0C0}...погоди немного{/color}{/size}" id story7_ad8be397
+    rom "Э? А! Думаю, можно сказать, что это заняло немного времени! \n{size=-2}{color=#C0C0C0}...погоди немного{/color}{/size}" id story7_ad8be397
 
 # game/scenario/7story.rpy:228
 translate russian story7_3b83e8e1:
@@ -154,19 +154,19 @@ translate russian story7_3b83e8e1:
 translate russian story7_ed821300:
 
     # rom "あのねブルガリア…\nえとその…\n今のうちに帰った方が\n良いんだよー…" id story7_ed821300
-    rom "Эм, Болгария...\nэм, ну...\nТебе стоит сейчас же уйти..." id story7_ed821300
+    rom "Эм, Болгария... \nэм, ну... \nТебе стоит сейчас же уйти..." id story7_ed821300
 
 # game/scenario/7story.rpy:269
 translate russian story7_7e1aef07:
 
     # bul "なんでなんだわ！？\nまさかお前おいしいところ\n持って行こうって腹じゃ…！" id story7_7e1aef07
-    bul "Че?!\nТолько не говори, что ты хочешь\nзабрать всё внимание себе...!" id story7_7e1aef07
+    bul "Че?! \nТолько не говори, что ты хочешь забрать всё внимание себе...!" id story7_7e1aef07
 
 # game/scenario/7story.rpy:273
 translate russian story7_78b4c722:
 
     # rom "ちがうよう…！\nいいからできるだけ\n早く帰るんだよー！" id story7_78b4c722
-    rom "Да нет же...!\nПросто иди домой поскорее!" id story7_78b4c722
+    rom "Да нет же...! \nПросто иди домой поскорее!" id story7_78b4c722
 
 # game/scenario/7story.rpy:283
 translate russian story7_9a4a8e97:
@@ -190,7 +190,7 @@ translate russian story7_ee4d9049:
 translate russian story7_7d6a98b4:
 
     # rom "うん！\n今日はありがとう\nなんだよー" id story7_7d6a98b4
-    rom "Ага!\nСпасибо, что помог сегодня." id story7_7d6a98b4
+    rom "Ага! \nСпасибо, что помог сегодня." id story7_7d6a98b4
 
 # game/scenario/7story.rpy:309
 translate russian story7_c0ae8bd3:
@@ -226,7 +226,7 @@ translate russian story7_2a6e2e94:
 translate russian story7_95375b13:
 
     # eng "お…お前かっ！\nまあなんとなく\nそんな気はしていたがな！" id story7_95375b13
-    eng "Т-...Ты?!\nНу, я мог предположить!" id story7_95375b13
+    eng "Т-...Ты?! \nНу, я мог предположить!" id story7_95375b13
 
 # game/scenario/7story.rpy:396
 translate russian story7_effdb45f:
@@ -251,19 +251,19 @@ translate russian story7_b6819907:
 
     # story "まず一通目だよ。なになに…。\n\n{color=#FFE5FC}「ろしあさんは\n　ふとっているのですか？」{/color}" id story7_b6819907
     story "И вооот, первое письмо. Посмотрим...{nw}"
-    story_indent"\n\n{color=#FFE5FC}«Россия набрал\nнемного веса?»{/color}" id story7_b6819907
+    story_indent"\n\n{color=#FFE5FC}«Россия набрал немного веса?»{/color}" id story7_b6819907
 
 # game/scenario/7story.rpy:408
 translate russian story7_a29d84b8:
 
     # story "…………。\n僕の家は寒いから\nちょっと骨太なだけだよ。" id story7_a29d84b8
-    story "\n...... \nЭто просто у меня дома так холодно\nи кость у меня немного толстая." id story7_a29d84b8
+    story "\n...... \nЭто просто у меня дома так холодно и кость у меня немного толстая." id story7_a29d84b8
 
 # game/scenario/7story.rpy:411
 translate russian story7_a926d614:
 
     # extend "\n…手紙を送ってくれた君って\n割と近くに住んでるんだね！" id story7_a926d614
-    extend "\n...Ты, тот кто отправил это письмо,\nдолжно быть живешь довольно близко!" id story7_a926d614
+    extend "\n...Ты, тот кто отправил это письмо, должно быть живешь довольно близко!" id story7_a926d614
 
 # game/scenario/7story.rpy:412
 translate russian story7_7dee5968:
@@ -277,7 +277,7 @@ translate russian story7_7dee5968:
 translate russian story7_65dba745:
 
     # extend "\n\n{color=#FFE5FC}「ろしあさんへ\n　国境なんていうものがあるから\n　けんかするんだとおもいます\n　世界中の国境をなくせば\n　みんなのこころやかんがえが\n　一つになるはずです」{/color}" id story7_65dba745
-    story_indent "\n{color=#FFE5FC}«Для России,\nЯ думаю, что люди ссорятся, потому что существует такая штука, как границы. Если бы границы по всему миру исчезли, умы и сердца всех людей стали бы едины.»{/color}" id story7_65dba745
+    story_indent "\n{color=#FFE5FC}«Для России, \nЯ думаю, что люди ссорятся, потому что существует такая штука, как границы. Если бы границы по всему миру исчезли, умы и сердца всех людей стали бы едины.»{/color}" id story7_65dba745
 
 # game/scenario/7story.rpy:418
 translate russian story7_76b2fe88_1:
@@ -303,7 +303,7 @@ translate russian story7_d3753c7e:
     # nvl clear
     # story "まず君の家の敷地っていう概念を取っ払って\n君の家の家族を色んな家族と\nぐちゃぐちゃに混ぜたり\n取り替えたりしてみようよ。\n君と知らない人のこころやかんがえが\nひとつになるはずだよ。\n　\n大きくても小さくても\n君が望んでる事だもの。\nがんばろう！" id story7_d3753c7e
     nvl clear
-    story "Давай попробуем представить, что понятие личной собственности исчезло, перемешаем и заменим твою семью чужой. Это должно заставить твоё сердце и разум стать стать одним целым с абсолютно чужими тебе людьми.\n \nМного это или мало, это именно то, о чем ты просил.\nУдачи!" id story7_d3753c7e
+    story "Давай попробуем представить, что понятие личной собственности исчезло, перемешаем и заменим твою семью чужой. Это должно заставить твоё сердце и разум стать стать одним целым с абсолютно чужими тебе людьми. \n \nМного это или мало, это именно то, о чем ты просил. \nУдачи!" id story7_d3753c7e
 
 # game/scenario/7story.rpy:428
 translate russian story7_76b2fe88_2:
@@ -351,7 +351,7 @@ translate russian story7_76b2fe88_4:
 translate russian story7_d399208a:
 
     # story "でもそれって実現するの\n今のままだととっても難しいよね…。\n　\n手を強く握って連れてきた子って\n目を離したすきに\nいなくなっちゃうでしょう？\nまったくリトアニアったら…。" id story7_d399208a
-    story "Но возможно ли\nвоплотить такую мечту...\n \nДаже если привести кого-то, крепко держа его за руку, он исчезнет, как только отведешь взгляд, разве не так? Например, Литва..." id story7_d399208a
+    story "Но возможно ли воплотить такую мечту... \n \nДаже если привести кого-то, крепко держа его за руку, он исчезнет, как только отведешь взгляд, разве не так? Например, Литва..." id story7_d399208a
 
 # game/scenario/7story.rpy:447
 translate russian story7_76b2fe88_5:
@@ -363,7 +363,7 @@ translate russian story7_76b2fe88_5:
 translate russian story7_b625f22c:
 
     # story "でもなでなでし続けるだけだと\nにこにこはしてくれるけれど、\n一緒に暮らせるまで長そうだし…。\n　\nそこで僕は考えたんだ。" id story7_b625f22c
-    story "Они могут сколько угодно улыбаться, если продолжать гладить их по голове, но, похоже, до совместной жизни ещё далеко...\n \nЯ обдумал это." id story7_b625f22c
+    story "Они могут сколько угодно улыбаться, если продолжать гладить их по голове, но, похоже, до совместной жизни ещё далеко... \n \nЯ обдумал это." id story7_b625f22c
 
 # game/scenario/7story.rpy:451
 translate russian story7_76b2fe88_6:
@@ -375,7 +375,7 @@ translate russian story7_76b2fe88_6:
 translate russian story7_9d53603d:
 
     # story "どうやったら今のままの\nみんなが僕の家に来てくれるのか。\n　\n昔みたいに僕が連れてくる形じゃなくて、\nみんなの方から自主的にね！\nその方がいいよね。" id story7_9d53603d
-    story "Как же мне убедить всех прийти ко мне домой?\n \nЯ уже не тот, что раньше, когда приводил их силой. Каждый должен сам захотеть этого!\nЭто было бы хорошо." id story7_9d53603d
+    story "Как же мне убедить всех прийти ко мне домой? \n \nЯ уже не тот, что раньше, когда приводил их силой. Каждый должен сам захотеть этого! \nЭто было бы хорошо." id story7_9d53603d
 
 # game/scenario/7story.rpy:455
 translate russian story7_76b2fe88_7:
@@ -387,7 +387,7 @@ translate russian story7_76b2fe88_7:
 translate russian story7_e8013caf:
 
     # story "みんながみんなのままなんだけど\n僕の事が大好きになっちゃう\nお薬を作ったんだ！\n　\nこんな感じかなぁって\n練ったりちぎったり溶解してみたら\nできたんだよ！" id story7_e8013caf
-    story "Я просто замешивал,\nразрывал и растворял вещи, думая „может быть, так“, и в итоге это получилось!" id story7_e8013caf
+    story "Я просто замешивал, \nразрывал и растворял вещи, думая „может быть, так“, и в итоге это получилось!" id story7_e8013caf
 
 # game/scenario/7story.rpy:459
 translate russian story7_76b2fe88_8:
@@ -399,13 +399,13 @@ translate russian story7_76b2fe88_8:
 translate russian story7_a64eb484:
 
     # story "大丈夫！安心してね！\n性格は全然変わらないから\n口では嫌だって言えるし\n抵抗だってできるよ。" id story7_a64eb484
-    story "Всё в порядке! Успокойтесь!\nВаша личность совсем не измениться, вы сможете говорить „нет“, возражать и противостоять мне." id story7_a64eb484
+    story "Всё в порядке! Успокойтесь! \nВаша личность совсем не измениться, вы сможете говорить „нет“, возражать и противостоять мне." id story7_a64eb484
 
 # game/scenario/7story.rpy:465
 translate russian story7_89c732c4:
 
     # extend "\n　\nでも僕が強くお願いすると\n逆らえなくなっちゃうんだ。" id story7_89c732c4
-    extend "\n　\nНо если я властно скажу вам сделать\nчто-то, вы не сможете не повиноваться." id story7_89c732c4
+    extend "\n　\nНо если я властно скажу вам сделать что-то, вы не сможете не повиноваться." id story7_89c732c4
 
 # game/scenario/7story.rpy:466
 translate russian story7_76b2fe88_9:
@@ -429,7 +429,7 @@ translate russian story7_76b2fe88_10:
 translate russian story7_afcde6d2:
 
     # rom "ご…ごめんなさいっ！\nごめんよごめんよー\nみんなーっ！" id story7_afcde6d2
-    rom "П-...Простите!\nМне очень жаль,\nпростите меняя!" id story7_afcde6d2
+    rom "П-...Простите! \nМне очень жаль, простите меняя!" id story7_afcde6d2
 
 # game/scenario/7story.rpy:505
 translate russian story7_09841c42:
@@ -441,19 +441,19 @@ translate russian story7_09841c42:
 translate russian story7_b8b3afeb:
 
     # rom "ロシアさんちに\nおいらの弟がひと人ぢ…\nじゃない友好的ホームステイ\nしてるんだよー…！" id story7_b8b3afeb
-    rom "Мой младший брат находится в доме России в качестве заложника...\nТо есть, он участвует там в дружеской программе обмена...!!" id story7_b8b3afeb
+    rom "Мой младший брат находится в доме России в качестве заложника... \nТо есть, он участвует там в дружеской программе обмена...!!" id story7_b8b3afeb
 
 # game/scenario/7story.rpy:515
 translate russian story7_b7c0ba93:
 
     # rom "それでその…\n今配ったお菓子に…！\nううっ…ごめんよぅ…\nおいらがふがいないばっかりに…" id story7_b7c0ba93
-    rom "И, эм...\nв сладостях, которые я раздал...!\nУууу...извините...\nЯ вечно такой недотепа..." id story7_b7c0ba93
+    rom "И, эм... \nв сладостях, которые я раздал...! \nУууу...извините... \nЯ вечно такой недотепа..." id story7_b7c0ba93
 
 # game/scenario/7story.rpy:525
 translate russian story7_79b6d094:
 
     # rus "もう！ルーマニア君\n先にネタバレしちゃ\nだめだよー。" id story7_79b6d094
-    rus "Ой-ой!\nРумыния, пожалуйста, не раскрывай всё раньше времени." id story7_79b6d094
+    rus "Ой-ой! \nРумыния, пожалуйста, не раскрывай всё раньше времени." id story7_79b6d094
 
 # game/scenario/7story.rpy:545
 translate russian story7_6aebc3e7:
@@ -465,25 +465,25 @@ translate russian story7_6aebc3e7:
 translate russian story7_ae8f0180:
 
     # ame "ＤＤＤＤＤ！\nそんなイギリスの\nファンタジーみたいな薬\n作れるわけないんだぞ！" id story7_ae8f0180
-    ame "DDDDD!\nДа ты ваще никак не мог создать такое „лекарство“, такое разве что только в британских фантастических романах!" id story7_ae8f0180
+    ame "DDDDD! \nДа ты ваще никак не мог создать такое „лекарство“, такое разве что только в британских фантастических романах!" id story7_ae8f0180
 
 # game/scenario/7story.rpy:553
 translate russian story7_f01bac54:
 
     # eng "そ、そうだ…！\nそんな薬あるわけないだろ！\n{size=-5}ってお前俺に対してどんな認識なんだよ！{/size}" id story7_f01bac54
-    eng "В-верно...!\nТакого просто не может быть!\n{size=-3}Хей, ты че там вякнул про меня?!{/size}" id story7_f01bac54
+    eng "В-верно...! \nТакого просто не может быть! \n{size=-3}Хей, ты че там вякнул про меня?!{/size}" id story7_f01bac54
 
 # game/scenario/7story.rpy:560
 translate russian story7_85172fa2:
 
     # rus "んーどうかな？\n時間が立てば\n分かるんじゃないかな" id story7_85172fa2
-    rus "Хмм, правда ли?\nНу, поживем - увидим." id story7_85172fa2
+    rus "Хмм, правда ли? \nНу, поживем - увидим." id story7_85172fa2
 
 # game/scenario/7story.rpy:575
 translate russian story7_3f048254:
 
     # fin "謀りましたね！\n僕お菓子僕いっぱい\n食べちゃったん\nですけど…！" id story7_3f048254
-    fin "Ты обманул меня!\nЯ съел так много угощений...!" id story7_3f048254
+    fin "Ты обманул меня! \nЯ съел так много угощений...!" id story7_3f048254
 
 # game/scenario/7story.rpy:579
 translate russian story7_6924f121:
@@ -501,13 +501,13 @@ translate russian story7_a545eee0:
 translate russian story7_c516660c:
 
     # ger "思い出せ！今まで\n「よくわからないけど\n　すごいものが出来たよー！」\nという事が何度あった！？" id story7_c516660c
-    ger "Вспомните!\nКак много раз до этого он говорил:\n„Я не совсем понял, но сделал что-то потрясающее!“?!" id story7_c516660c
+    ger "Вспомните! \nКак много раз до этого он говорил:\n„Я не совсем понял, но сделал что-то потрясающее!“?!" id story7_c516660c
 
 # game/scenario/7story.rpy:592
 translate russian story7_6208f4e2:
 
     # ger "どうやったら\nお前にそれが作れる！？\nということを平気でやるのが\nロシアではないのか！" id story7_6208f4e2
-    ger "„Как кто-то вообще может такое сделать!?“\nРоссия как раз и славится тем, что делает такие вещи с легкостью!" id story7_6208f4e2
+    ger "„Как кто-то вообще может такое сделать!?“ \nРоссия как раз и славится тем, что делает такие вещи с легкостью!" id story7_6208f4e2
 
 # game/scenario/7story.rpy:596
 translate russian story7_3dd0a280:
@@ -531,13 +531,13 @@ translate russian story7_48aa3636:
 translate russian story7_c962e036:
 
     # eng "あああああああ！！\nいやだ！いやすぎる！" id story7_c962e036
-    eng "Ааааааааааа!!\nУжасно! Просто ужасно!" id story7_c962e036
+    eng "Ааааааааааа!! \nУжасно! Просто ужасно!" id story7_c962e036
 
 # game/scenario/7story.rpy:632
 translate russian story7_3bf446ee:
 
     # spa "あっせやけどお願い聞こえんくらい\n離れたら大丈夫や思うで！\nほな！帰ろかー！" id story7_3bf446ee
-    spa "Ах, но думаю, что пока мы не слышим его приказ, мы можем уйти и всё будет в порядке!\nСейчас! Идёмте домой!" id story7_3bf446ee
+    spa "Ах, но думаю, что пока мы не слышим его приказ, мы можем уйти и всё будет в порядке! \nСейчас! Идёмте домой!" id story7_3bf446ee
 
 # game/scenario/7story.rpy:637
 translate russian story7_7a388682:
@@ -556,31 +556,31 @@ translate russian story7_e767e6e2:
 translate russian story7_83848811:
 
     # rus "ごめんね。みんな。\nでもこれから僕たち\nとっても仲良くなれるから\nみんな幸せだよね？" id story7_83848811
-    rus "Мне жаль. Ребята.\nНо так мы наконец поладим, так что все будут счастливы, да ведь?" id story7_83848811
+    rus "Мне жаль. Ребята. \nНо так мы наконец поладим, так что все будут счастливы, да ведь?" id story7_83848811
 
 # game/scenario/7story.rpy:678
 translate russian story7_c61548e2:
 
     # rom "うわーん！\n皆ごめんよごめんよー！\nこんなのってないよー" id story7_c61548e2
-    rom "Уваааа!\nИзвините, простите меня!\nОн не упоминал это." id story7_c61548e2
+    rom "Уваааа! \nИзвините, простите меня! \nОн не упоминал это." id story7_c61548e2
 
 # game/scenario/7story.rpy:687
 translate russian story7_3f5fd2bf:
 
     # ame "くそっ！\nこれじゃあ寒すぎて…\n力が出ないじゃないか！" id story7_3f5fd2bf
-    ame "Черт!\nЕсли станет ещё холоднее...\nЯ потеряю свою силу!" id story7_3f5fd2bf
+    ame "Черт! \nЕсли станет ещё холоднее... \nЯ потеряю свою силу!" id story7_3f5fd2bf
 
 # game/scenario/7story.rpy:705
 translate russian story7_8bac0689:
 
     # eng "なんだよこの雪！\nいつもの力が出せれば\nこんな奴なんかに…！！" id story7_8bac0689
-    eng "Это что снег?!\nЕсли он использует свою силу, тогда мы...!!" id story7_8bac0689
+    eng "Это что снег?! \nЕсли он использует свою силу, тогда мы...!!" id story7_8bac0689
 
 # game/scenario/7story.rpy:709
 translate russian story7_51fcdbe8:
 
     # bul "それある意味\n死亡フラグなんだわー" id story7_51fcdbe8
-    bul "Это, в каком то смысле,\nсмертный приговор." id story7_51fcdbe8
+    bul "Это, в каком то смысле, \nсмертный приговор." id story7_51fcdbe8
 
 # game/scenario/7story.rpy:723
 translate russian story7_98c5cd80:
@@ -592,19 +592,19 @@ translate russian story7_98c5cd80:
 translate russian story7_e50d5526:
 
     # rus "大丈夫。\n僕は怖くないよ？" id story7_e50d5526
-    rus "Все будет хорошо.\nЯ не боюсь, видишь?" id story7_e50d5526
+    rus "Все будет хорошо. \nЯ не боюсь, видишь?" id story7_e50d5526
 
 # game/scenario/7story.rpy:751
 translate russian stophim_a4c8c443:
 
     # bul "ロ…ロシアさんっ！\nちょっとそれは\nやめるんだわー！" id stophim_a4c8c443
-    bul "Р-...Россия!\nЯ не дам этому произойти!" id stophim_a4c8c443
+    bul "Р-...Россия! \nЯ не дам этому произойти!" id stophim_a4c8c443
 
 # game/scenario/7story.rpy:768
 translate russian stophim_109c1aca:
 
     # rom "ちょっ！\n何言ってるんだよー\nそれならおいらが…" id stophim_109c1aca
-    rom "Эй!\nЧто ты говоришь?\nЕсли так, тогда я..." id stophim_109c1aca
+    rom "Эй! Что ты говоришь? Если так, тогда я..." id stophim_109c1aca
 
 # game/scenario/7story.rpy:772
 translate russian stophim_5102abb4:
@@ -628,19 +628,19 @@ translate russian stophim_0fc4d76e:
 translate russian stophim_20a5e4d8:
 
     # rom "（そうなんだねー！\n　この場も救って\n　対外アピールも出来ちゃう\n　ブルガリア流石なんだよー）" id stophim_20a5e4d8
-    rom "(Ты прав!\nТы и поможешь всем нам, и мнение о тебе станет лучше, как и ожидалось от Болгарии)" id stophim_20a5e4d8
+    rom "(Ты прав! Ты и поможешь всем нам, и мнение о тебе станет лучше, как и ожидалось от Болгарии)" id stophim_20a5e4d8
 
 # game/scenario/7story.rpy:788
 translate russian stophim_6775b8a1:
 
     # bul "俺は菓子を食っていない！\n盾になってでも！みなさんを！\nお守りするんだわー！" id stophim_6775b8a1
-    bul "Я не ел сладости!\nТак что я буду щитом или чет такое!\nЯ защищу! Всех!" id stophim_6775b8a1
+    bul "Я не ел сладости! Так что я буду щитом или чет такое! Я защищу! Всех!" id stophim_6775b8a1
 
 # game/scenario/7story.rpy:798
 translate russian stophim_1321376f:
 
     # rus "え…。君がみんなの\n盾になるっていうの\nブルガリア君？" id stophim_1321376f
-    rus "Э...Так ты станешь\nщитом для всех,\nБолгария?" id stophim_1321376f
+    rus "Э...Так ты станешь щитом для всех, Болгария?" id stophim_1321376f
 
 # game/scenario/7story.rpy:804
 translate russian stophim_fd42778c:
@@ -652,13 +652,13 @@ translate russian stophim_fd42778c:
 translate russian stophim_70418c9f:
 
     # rus "わかった。\n君がそう言うなら\n今日は止めておくね" id stophim_70418c9f
-    rus "Понятненько.\nЕсли ты так говоришь,\nтогда я отступлю на этот раз." id stophim_70418c9f
+    rus "Понятненько. \nЕсли ты так говоришь, \nтогда я отступлю на этот раз." id stophim_70418c9f
 
 # game/scenario/7story.rpy:819
 translate russian stophim_025e173f:
 
     # bul "えっ、まじっすか！\nあざーっす！\nあざーっす！" id stophim_025e173f
-    bul "Э-, серьёзно?!\nСпасибки!\nСпасибушки!" id stophim_025e173f
+    bul "Э-, серьёзно?! \nСпасибки! \nСпасибушки!" id stophim_025e173f
 
 # game/scenario/7story.rpy:822
 translate russian stophim_06388748:
@@ -676,7 +676,7 @@ translate russian stophim_d2a17599:
 translate russian stophim_249636d1:
 
     # na "こうしてブルガリアさんの機転により、\nこの場を丸く収める事が出来たのだった。" id stophim_249636d1
-    na "И вот, благодаря смекалке Болгарии,\nэта история закончилась на дружелюбной ноте." id stophim_249636d1
+    na "И вот, благодаря смекалке Болгарии, \nэта история закончилась на дружелюбной ноте." id stophim_249636d1
 
 # game/scenario/7story.rpy:833
 translate russian stophim_0b8ee69b:
@@ -688,7 +688,7 @@ translate russian stophim_0b8ee69b:
 translate russian stophim_2ab3c212:
 
     # na "全てそこそこほどほどに\n綺麗にまとまる！　　　　…はずだった。" id stophim_2ab3c212
-    na "Всё закончилось довольно неплохо！\n　　...или же так всё должно было быть." id stophim_2ab3c212
+    na "Всё закончилось довольно неплохо！\n        ...или же так всё должно было быть." id stophim_2ab3c212
 
 # game/scenario/7story.rpy:844
 translate russian stophim_e7131160:
@@ -700,7 +700,7 @@ translate russian stophim_e7131160:
 translate russian stophim_2e6b0042:
 
     # bul "…あれ？\n俺、何してたっけ？" id stophim_2e6b0042
-    bul "...Хах?\nЧто происходит?" id stophim_2e6b0042
+    bul "...Хах? \nЧто происходит?" id stophim_2e6b0042
 
 # game/scenario/7story.rpy:853
 translate russian stophim_77f4beb2:
@@ -712,7 +712,7 @@ translate russian stophim_77f4beb2:
 translate russian stophim_b286e950:
 
     # bul "えええ！？\nちょ…なにが\nどうなってんだわー！？" id stophim_b286e950
-    bul "Эээ?!\nЭй...\nЧто случилось?!" id stophim_b286e950
+    bul "Эээ?! \nЭй... \nЧто случилось?!" id stophim_b286e950
 
 # game/scenario/7story.rpy:870
 translate russian stophim_886905b6:
@@ -724,25 +724,25 @@ translate russian stophim_886905b6:
 translate russian stophim_c6628b52:
 
     # bul "ロシアさん…！？\nえ、あざっす…" id stophim_c6628b52
-    bul "Россия...?!\nЭ, спасиб..." id stophim_c6628b52
+    bul "Россия...?! \nЭ, спасиб..." id stophim_c6628b52
 
 # game/scenario/7story.rpy:878
 translate russian stophim_1b277827:
 
     # bul "でも何でこんな展開\nになるんだわー！？\nあっ、いや。ですかー！" id stophim_1b277827
-    bul "Но какого черта\nтак всё обернулось?\nОй, нет, то есть...!" id stophim_1b277827
+    bul "Но какого черта так всё обернулось? \nОй, нет, то есть...!" id stophim_1b277827
 
 # game/scenario/7story.rpy:888
 translate russian stophim_259d5e1c:
 
     # rus "君が代わりに\nなるんだーって\n言ったじゃない" id stophim_259d5e1c
-    rus "Ты сказал,\nчто защитишь их,\nразве не так?" id stophim_259d5e1c
+    rus "Ты сказал, что защитишь их, разве не так?" id stophim_259d5e1c
 
 # game/scenario/7story.rpy:892
 translate russian stophim_4420e5b9:
 
     # bul "こういうのじゃなくて\nもっとカッコイイ\n感じの身代わりでぇ…！！" id stophim_4420e5b9
-    bul "Да нет же, я хотел\nпожертвовать собой,\nно типо круто...!" id stophim_4420e5b9
+    bul "Да нет же, я хотел пожертвовать собой, но типо круто...!" id stophim_4420e5b9
 
 # game/scenario/7story.rpy:894
 translate russian stophim_782d8e5b:
@@ -754,7 +754,7 @@ translate russian stophim_782d8e5b:
 translate russian stophim_e61ef841:
 
     # rus "しょうがないよ\nこういう役回りの子が\n出るのが伝統だもの" id stophim_e61ef841
-    rus "Ничего не поделать,\nпо традиции должна быть девушка с подобной ролью." id stophim_e61ef841
+    rus "В конце концов, это традиция. Кто-то всегда должен играть такую роль." id stophim_e61ef841
 
 # game/scenario/7story.rpy:903
 translate russian stophim_00738668:
@@ -772,7 +772,7 @@ translate russian stophim_33de9b00:
 translate russian stophim_37131345:
 
     # bul "え…それって…\nだってあの時ロシアさん\nいなかったじゃ…" id stophim_37131345
-    bul "Э...Тогда...\nно, в тот раз,\nРоссия же не был там..." id stophim_37131345
+    bul "Э...Тогда... \nно, в тот раз, \nРоссия же не был там..." id stophim_37131345
 
 # game/scenario/7story.rpy:913
 translate russian stophim_dbc52dbc:
@@ -790,19 +790,19 @@ translate russian stophim_d118f906:
 translate russian stophim_6cb88e8b:
 
     # bul "最初っから…！\n最初っからー！！" id stophim_6cb88e8b
-    bul "С самого начала...!\nС самого начала!!" id stophim_6cb88e8b
+    bul "С самого начала...! \nС самого начала!!" id stophim_6cb88e8b
 
 # game/scenario/7story.rpy:940
 translate russian stophim_0ba32b4e:
 
     # rus "君達の会話って\n流しっぱなしにすると\n癒し効果があるから好きだよ" id stophim_0ba32b4e
-    rus "Мне нравится, что всегда, когда\nвы болтаете друг с другом,\nя чувствую себя лучше." id stophim_0ba32b4e
+    rus "Мне нравится, что всегда, когда вы болтаете друг с другом, я чувствую себя лучше." id stophim_0ba32b4e
 
 # game/scenario/7story.rpy:947
 translate russian stophim_3556432d:
 
     # bul "あ！でもよく考えたら\n確かにおいしい\nポジションですわ！\nあざーっす！あざーっす！{nw=2}" id stophim_3556432d
-    bul "А! Ну, если подумать, это,\nконечно, очень хорошая позиция!\nСпасиб! Спасибки!{nw=2}" id stophim_3556432d
+    bul "А! Ну, если подумать, это, конечно, очень хорошая позиция! \nСпасиб! Спасибки!{nw=2}" id stophim_3556432d
 
 
 # game/scenario/7story.rpy:957
@@ -815,25 +815,25 @@ translate russian stophim_e1c6c2ea:
 translate russian donothing_9e5b1917:
 
     # ame "やめるんだロシア！\n君がやめないのなら\n俺が君を止めるまでだ！" id donothing_9e5b1917
-    ame "Сдавайся, Россия!\nЕсли не прекратишь,\nто я заставлю тебя!" id donothing_9e5b1917
+    ame "Сдавайся, Россия! \nЕсли не прекратишь, \nто я заставлю тебя!" id donothing_9e5b1917
 
 # game/scenario/7story.rpy:986
 translate russian donothing_d70e96ff:
 
     # rus "ふふっ\nそのお願いは聞けないかなぁ。\nそれに今の君に\nそんな力はないでしょう？" id donothing_d70e96ff
-    rus "Фуфу,\nне хочу, я не буду подчиняться.\nКроме того, сейчас ты не в силах\nзаставить меня, не так ли?" id donothing_d70e96ff
+    rus "Фуфу, \nне хочу, я не буду подчиняться. \nКроме того, сейчас ты не в силах\nзаставить меня, не так ли?" id donothing_d70e96ff
 
 # game/scenario/7story.rpy:990
 translate russian donothing_b8455794:
 
     # ame "確かに今の俺には\n君に対抗できる力が出せない。\nだがそれで俺は諦めない！" id donothing_b8455794
-    ame "Я определенно не могу использовать сейчас свои силы, чтобы противостоять тебе.\nНо я не сдамся!" id donothing_b8455794
+    ame "Я определенно не могу использовать сейчас свои силы, чтобы противостоять тебе. \nНо я не сдамся!" id donothing_b8455794
 
 # game/scenario/7story.rpy:1006
 translate russian donothing_4db270a6:
 
     # ame "そうとも！\n信じていれば！\n夢は叶うんだぞ！{nw=0.5}" id donothing_4db270a6
-    ame "К черту болтовню!\nЕсли я верю всей душой!\nМечта станет явью!{nw=0.5}" id donothing_4db270a6
+    ame "К черту болтовню! \nЕсли я верю всей душой! \nМечта станет явью!{nw=0.5}" id donothing_4db270a6
 
 # game/scenario/7story.rpy:1016
 translate russian donothing_c2f9334d:
@@ -851,7 +851,7 @@ translate russian donothing_c2f9334d_1:
 translate russian donothing_7b331410:
 
     # rus "そんな…！\n君のどこにそんな力が！？\n嘘だよこんなの…！{nw=1}" id donothing_7b331410
-    rus "Не может быть...!\nТы когда это получил такую силу?!\nНевозможно, это...!{nw=1}" id donothing_7b331410
+    rus "Не может быть...! \nТы когда это получил такую силу?! \nНевозможно, это...!{nw=1}" id donothing_7b331410
 
 # game/scenario/7story.rpy:1046
 translate russian donothing_a2cc0ec7:
@@ -864,13 +864,13 @@ translate russian donothing_7c44211d:
 
     # rus "えーまた僕を悪役にするの？\nアメリカ君、君って\n逆に僕のこと好きでしょ？" id donothing_7c44211d
     $ rus.screen = 'left_4long'
-    rus "Эээ, ты собираешься\nснова сделать меня злодеем?\nКажется, я наоборот очень нравлюсь тебе, Америка, не так ли?" id donothing_7c44211d
+    rus "Эээ, ты собираешься снова сделать меня злодеем? \nКажется, я наоборот очень нравлюсь тебе, Америка, не так ли?" id donothing_7c44211d
 
 # game/scenario/7story.rpy:1056
 translate russian donothing_8317ac46:
 
     # ame "おいおい！\nどうして\nそうなるんだい！？{nw=5.0}" id donothing_8317ac46
-    ame "Хей, хей!\nКак ты вообще пришел\nк такому выводу?!{nw=2.5}" id donothing_8317ac46
+    ame "Хей, хей! \nКак ты вообще пришел к такому выводу?!{nw=2.5}" id donothing_8317ac46
 
 # game/scenario/7story.rpy:1060
 translate russian donothing_427f0b6c:
@@ -889,44 +889,44 @@ translate russian donothing_049c45b4:
 translate russian donothing_cea25ed6:
 
     # ame "ＮＯＯＯ！\n黒幕と陰謀っていったら\n君ってイメージなだけだよ！！{nw=5.0}" id donothing_cea25ed6
-    ame "NOOO!\nПросто ты самый первый, кто приходит на ум, когда речь заходит о злодеях и конспирологии!!{nw=2}" id donothing_cea25ed6
+    ame "NOOO! \nПросто ты самый первый, кто приходит на ум, когда речь заходит о злодеях и конспирологии!!{nw=2}" id donothing_cea25ed6
 
 # game/scenario/7story.rpy:1072
 translate russian donothing_b92b412d:
 
     # rus "そうかなぁ。\n君よりはクリーンなつもりだよ？\nだって何が起こっても\n背後は僕！って言われるじゃない。{nw=5.0}" id donothing_b92b412d
-    rus "Вот как?\nЯ думаю, что я более честный, чем ты, ты же знаешь? В конце концов, что бы ни случилось, все говорят, что это я за этим стою.{nw=2.1}" id donothing_b92b412d
+    rus "Вот как? \nЯ думаю, что я более честный, чем ты, ты же знаешь? В конце концов, что бы ни случилось, все говорят, что это я за этим стою.{nw=2.1}" id donothing_b92b412d
 
 # game/scenario/7story.rpy:1076
 translate russian donothing_9f34fc55:
 
     # rus "…まあその通りなんだけど。\nそれってとってもわかりやすくて\nみんなから見えてるわけだから\n陰謀や黒幕とは言えないよ。{nw=5.0}" id donothing_9f34fc55
-    rus "...ну, вот так вот.\nНо поскольку это так очевидно и каждый может это предсказать, их нельзя назвать интригами или гениальными планами.{nw=2.5}" id donothing_9f34fc55
+    rus "...ну, вот так вот. \nНо поскольку это так очевидно и каждый может это предсказать, их нельзя назвать интригами или гениальными планами.{nw=2.5}" id donothing_9f34fc55
 
 # game/scenario/7story.rpy:1080
 translate russian donothing_d19cefa0:
 
     # ame "た、確かに…！\n映画的にも黒幕予想が\nイージーすぎて\nナンセンスだね！{nw=5.0}" id donothing_d19cefa0
     $ rus.screen = 'right_4long'
-    ame "И-, и правда...!\nЕсли в фильме легко угадать, кто является главным злодеем, это просто nonsense!{nw=1.3}" id donothing_d19cefa0
+    ame "И-, и правда...! \nЕсли в фильме легко угадать, кто является главным злодеем, это просто nonsense!{nw=1.3}" id donothing_d19cefa0
 
 # game/scenario/7story.rpy:1086
 translate russian donothing_f443eb14:
 
     # rus "じゃあ今度は\n誰黒幕にする？{nw=5.0}" id donothing_f443eb14
-    rus "Так, кого же ты хочешь\nсделать злодеем на этот раз?{nw=1}" id donothing_f443eb14
+    rus "Так, кого же ты хочешь сделать злодеем на этот раз?{nw=1}" id donothing_f443eb14
 
 # game/scenario/7story.rpy:1089
 translate russian donothing_75f5c236:
 
     # ame "君以外で…？！\nどうやれっていうんだい！{nw=5.0}" id donothing_75f5c236
-    ame "Кроме тебя...?!\nКто же это мог бы быть?!{nw=1.3}" id donothing_75f5c236
+    ame "Кроме тебя...?! \nКто же это мог бы быть?!{nw=1.3}" id donothing_75f5c236
 
 # game/scenario/7story.rpy:1092
 translate russian donothing_780e2b04:
 
     # rus "こうしていつも通りの\nアメリカ君の映画が\nできるわけだね。{nw=5.0}" id donothing_780e2b04
-    rus "Так вот как создаются\nтипичные американские\nфильмы, хах?{nw=2.2}" id donothing_780e2b04
+    rus "Так вот как создаются типичные американские фильмы, хах?{nw=2.2}" id donothing_780e2b04
 
 # game/scenario/7story.rpy:1095
 translate russian donothing_158654f4:
@@ -950,7 +950,7 @@ translate russian donothing_00bfdef7:
 translate russian donothing_fa690420:
 
     # ame "くっ！\n君厳しいよ！{nw=5.0}" id donothing_fa690420
-    ame "Угх!\nТебя трудно угодить!{nw=2}" id donothing_fa690420
+    ame "Угх! \nТебя трудно угодить!{nw=2}" id donothing_fa690420
 
 translate russian strings:
 

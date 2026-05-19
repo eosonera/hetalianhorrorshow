@@ -10,7 +10,7 @@ translate english meeting_6f284491:
 translate english meeting_f770514f:
 
     # story "…イタリアを木の枝でつつくくらいしか\n出番なかったころにしてみたら\n大躍進じゃね？。"
-    story "...Given that I've barely shown up so far other than to poke Italy with a stick,  I've made quite a lot of progress since then, haven't I?"
+    story "...Given that I've barely shown up so far other than to poke Italy with a stick, I've made quite a lot of progress since then, haven't I?"
 
 # game/scenario/0meeting.rpy:19
 translate english meeting_d12d006f:
@@ -28,7 +28,7 @@ translate english meeting_76b2fe88:
 translate english meeting_067e54c7:
 
     # story "うん。だから大目にみてにゃん。\nにゃんってつけとけば、\nだいたい許してもらえるらしいって\n誰かが言ってたにゃん。\nにゃんにゃんなんだわー。\nにゃんにゃん。"
-    story "Yeah. So, go easy on me, meow.\nSomeone once told me that people will forgive pretty much anything if you tack a “meow” at the end of it, meow.\nMeow meow, I say.\nMeow meow."
+    story "Yeah. So, go easy on me, meow. \nSomeone once told me that people will forgive pretty much anything if you tack a “meow” at the end of it, meow. \nMeow meow, I say. \nMeow meow."
 
 # game/scenario/0meeting.rpy:26
 translate english meeting_76b2fe88_1:
@@ -58,7 +58,7 @@ translate english meeting_26cd72cd:
 translate english meeting_105c1e3d:
 
     # story "つまり怖い話の最中、\nイギ太郎が何かを召還しても、\nアメ助が怪力を振るおうと、\n俺の命は保証されている。…はず。"
-    story "In other words, I should be safe even if Eng-bert summons something or Ameri-bob brandishes his super-strength at me while we're in the middle of telling our scary stories.\n...Maybe."
+    story "In other words, I should be safe even if Eng-bert summons something or Ameri-bob brandishes his super-strength at me while we're in the middle of telling our scary stories. \n...Maybe."
 
 # game/scenario/0meeting.rpy:49
 translate english meeting_fe4be6ef:
@@ -84,7 +84,7 @@ translate english meeting_76b2fe88_3:
 translate english meeting_9c59d4bd:
 
     # story "\n\n俺は意を決してドアを開ける。"
-    story "\n\nI braced myself and open the door..."
+    story "\n\nI'm bracing myself and opening the door..."
 
 # game/scenario/0meeting.rpy:65
 translate english meeting_76b2fe88_4:
@@ -96,7 +96,7 @@ translate english meeting_76b2fe88_4:
 translate english meeting_6fdf6096:
 
     # eng "あっ、\nブルガリア…！"
-    eng "Oh,\nBulgaria...!"
+    eng "Oh, \nBulgaria...!"
 
 # game/scenario/0meeting.rpy:101
 translate english meeting_28ca9edf:
@@ -114,13 +114,13 @@ translate english meeting_c63ce14a:
 translate english meeting_11c14e61:
 
     # bul "うーい。あざーっす！\nあと微妙な似顔絵\nあざーっす！！"
-    bul "Okey dokey. Thanks, dude!\nAnd, thanks for those questionable portraits!"
+    bul "Okey dokey. Thanks, dude! \nAnd, thanks for those questionable portraits!"
 
 # game/scenario/0meeting.rpy:116
 translate english meeting_4577a2fc:
 
     # eng "ちげぇよ！\nこれはもう俺が来たときには\n描かれててだな！\n決して俺が描いたものじゃ…！"
-    eng "No way!\nThose were already there when I arrived!\nI definitely didn't draw...!"
+    eng "No way! \nThose were already there when I arrived! \nI definitely didn't draw...!"
 
 # game/scenario/0meeting.rpy:122
 translate english meeting_93aa6207:
@@ -132,32 +132,32 @@ translate english meeting_93aa6207:
 translate english meeting_c56e9700:
 
     # eng "ううっ、\nだから違う…！"
-    eng "Ughh,\nI bloody told you you're wrong...!"
+    eng "Ughh, I bloody told you you're wrong...!"
 
 # game/scenario/0meeting.rpy:129
 translate english meeting_67061957:
 
     # bul "似顔絵あざーっす\nあざーっす！！"
-    bul "Thanks for the portraits, dude.\nThaaanks!!"
+    bul "Thanks for the portraits, dude. \nThaaanks!!"
 
 # game/scenario/0meeting.rpy:139
 translate english meeting_ac6e7fc8:
 
     # jpn "失礼します。\nおやブルガリアさん。\nもう来てらしたんですか。"
-    jpn "Excuse me.\nAh, Mr. Bulgaria.\nYou're already here?"
+    jpn "Excuse me. \nAh, Mr. Bulgaria. \nYou're already here?"
 
 # game/scenario/0meeting.rpy:143
 translate english meeting_ae0e0230:
 
     # jpn "お待たせしてしまい\nすいません。\n今日は怖い話の会ですよね。"
-    jpn "Sorry to keep you waiting.\nToday is the scary story meeting, correct?"
+    jpn "Sorry to keep you waiting. Today is the scary story meeting, correct?"
 
 # game/scenario/0meeting.rpy:147
 translate english meeting_ccf88991:
 
     # bul "いや俺も今\n来たところなんで\n全然平気なんだわー。\n怖い話会場ここっす。"
     $ bul.screen = 'right_4long'
-    bul "Nah, I just got here, too, so it's no problem at all.\nThis is where the scary story meeting is taking place."
+    bul "Nah, I just got here, too, so it's no problem at all. \nThis is where the scary story meeting is taking place."
 
 # game/scenario/0meeting.rpy:150
 translate english meeting_66f0dfe9:
@@ -170,19 +170,19 @@ translate english meeting_66f0dfe9:
 translate english meeting_2c8beb39:
 
     # eng "だ…だからっ！\n描いたのは\n俺じゃないぞ！"
-    eng "L... like I said!\nI'm not the one who drew them!"
+    eng "L... like I said! \nI'm not the one who drew them!"
 
 # game/scenario/0meeting.rpy:157
 translate english meeting_d497e58c:
 
     # jpn "こんにちはイギリスさん。\nこれは…、なんとも\n可愛らしい絵ですね。"
-    jpn "Hello, Mr. England.\nThose are... quite adorable drawings,\naren't they?"
+    jpn "Hello, Mr. England. \nThose are... quite adorable drawings, aren't they?"
 
 # game/scenario/0meeting.rpy:161
 translate english meeting_1049dc72:
 
     # eng "よう日本。\nふふん！俺の絵じゃないが\nそういう感想もあるな。\n俺の絵じゃないが！"
-    eng "Hey, Japan.\nHmph! They're not mine, but you could say that.\nThey're not mine, though!"
+    eng "Hey, Japan. \nHmph! They're not mine, but you could say that. \nThey're not mine, though!"
 
 # game/scenario/0meeting.rpy:176
 translate english meeting_f507db78:
@@ -194,31 +194,31 @@ translate english meeting_f507db78:
 translate english meeting_a2386473:
 
     # jpn "ああ、ドイツさん\nこんにち…"
-    jpn "Ah, hello,\nMr. Ger..."
+    jpn "Ah, hello, Mr. Ger..."
 
 # game/scenario/0meeting.rpy:190
 translate english meeting_aa6f5c9e:
 
     # bul "ギャー！！\nドイツー！！"
-    bul "Yaagh!!\nGermany!!"
+    bul "Yaagh!! \nGermany!!"
 
 # game/scenario/0meeting.rpy:194
 translate english meeting_017512fd:
 
     # ger "…なぜ、いちいち\n俺を見るたび\nお前は叫ぶんだ…。"
-    ger "...Why do you scream every time\nyou see me...?"
+    ger "...Why do you scream every time you see me...?"
 
 # game/scenario/0meeting.rpy:199
 translate english meeting_8bc364fe:
 
     # bul "そ、そりゃ叫びますよ！\nいづもいづも…、俺のごと\n目のかだきにする\nじゃないですかぁ…。"
-    bul "W-Why shouldn't I!?\nYou're always, always...\nMaking me out to be the bad guy, you know?"
+    bul "W-Why shouldn't I!? \nYou're always, always... \nMaking me out to be the bad guy, you know?"
 
 # game/scenario/0meeting.rpy:202
 translate english meeting_1b4aaa87:
 
     # bul "ううう…俺だって\n頑張ってんすよぉ…。"
-    bul "*sob*...\nI'm doing my best too..."
+    bul "*sob*... I'm doing my best too..."
 
 # game/scenario/0meeting.rpy:206
 translate english meeting_c7cb7a8f:
@@ -230,25 +230,25 @@ translate english meeting_c7cb7a8f:
 translate english meeting_6a78162d:
 
     # ger "少々貴様の成績が悪いから、\nもう少し本気を出して\n頑張ってもらいたいと思ってだな…。"
-    ger "Your grades haven't been so great,\nso I just want you to make more of an effort\nand work a bit harder."
+    ger "Your grades haven't been so great, so I just want you to make more of an effort and work a bit harder."
 
 # game/scenario/0meeting.rpy:210
 translate english meeting_7888aea4:
 
     # ger "あー…、なんだその…、\n結果を急ぐあまり言い方が\nきつくなっていたかもしれん。\n今度からは気を付ける…。"
-    ger "Ah... But I guess...\nI may have become too harsh in order to rush the results.\nI'll be more careful from now on..."
+    ger "Ah... But I guess... \nI may have become too harsh in order to rush the results. I'll be more careful from now on..."
 
 # game/scenario/0meeting.rpy:213
 translate english meeting_ed02d8a3:
 
     # bul "ほんどうですかっ！？\nあざーっすあざーっす！"
-    bul "You mean it!?\nThanks, dude! Thanks!"
+    bul "You mean it!? \nThanks, dude! Thanks!"
 
 # game/scenario/0meeting.rpy:220
 translate english meeting_7d12a595:
 
     # fin "ドイツさんまた甘やかすー。\n頑張ってるのはみんな一緒ですよ。\n厳しい事を言うのも当然です。"
-    fin "Mr. Germany, you're being a softy again.\nWe're all doing our best.\nOf course you'd sound strict."
+    fin "Mr. Germany, you're being a softy again. \nWe're all doing our best. \nOf course you'd sound strict."
 
 # game/scenario/0meeting.rpy:226
 translate english meeting_8399c926:
@@ -260,33 +260,33 @@ translate english meeting_8399c926:
 translate english meeting_a79f8310:
 
     # bul "ぐあっ！\n正論直で打ち込むの\n止めてください！！\nその通りでございます！"
-    bul "Ugh!\nPlease stop dedicating yourself\nto being the voice of reason!!\nYou're totally right!"
+    bul "Ugh! \nPlease stop dedicating yourself to being the voice of reason!! You're totally right!"
 
 # game/scenario/0meeting.rpy:239
 translate english meeting_70190d88:
 
     # eng "フィンランド。\nこいつダメなやつほど\n過保護になる癖があるんだ\nわかってやれ。"
     $ eng.screen = 'right_4long'
-    eng "Finland,\nhe has a tendency to get overprotective\nover even the most pathetic sorts.\nYou have to understand that."
+    eng "Finland, \nhe has a tendency to get overprotective over even the most pathetic sorts. You have to understand that."
 
 
 # game/scenario/0meeting.rpy:242
 translate english meeting_ffe5f0ec:
 
     # fin "…あっ。そうでしたか…！\nごめんなさい！\nドイツさんの好きなものに\n口挟むなんて無粋な真似を…！"
-    fin "...Oh. Is that so...!?\nI'm sorry! How tactless of me\nto interfere with what Germany likes...!"
+    fin "...Oh. Is that so...!? \nI'm sorry! How tactless of me to interfere with what Germany likes...!"
 
 # game/scenario/0meeting.rpy:246
 translate english meeting_8c935a5a:
 
     # fin "あっ！たしかに僕も、\nちょっとダメな所があった方が\n可愛いなぁって思いますよ！ええ！"
-    fin "Oh! But I definitely think\nit's more endearing to be a bit flawed! Yeah!"
+    fin "Oh! But I definitely think it's more endearing to be a bit flawed! Yeah!"
 
 # game/scenario/0meeting.rpy:252
 translate english meeting_0c6d0b4d:
 
     # ger "ちょっと待て！\nその言い方だと俺がダメなヤツに弱い\nダメな奴みたいではないか！"
-    ger "Wait a minute!\nAren't you kind of making me sound\nlike a good-for-nothing who's soft\non good-for-nothings!?"
+    ger "Wait a minute! \nAren't you kind of making me sound like a good-for-nothing who's soft on good-for-nothings!?"
 
 # game/scenario/0meeting.rpy:257
 translate english meeting_d33e8482:
@@ -299,7 +299,7 @@ translate english meeting_d33e8482:
 translate english meeting_d063b29e:
 
     # ger "だ…断じて\nそのような事はない！\n…むっ？"
-    ger "Th...\nThat's absolutely not true!\n...Hm?"
+    ger "Th... \nThat's absolutely not true! \n...Hm?"
 
 # game/scenario/0meeting.rpy:274
 translate english meeting_25982e53:
@@ -311,7 +311,7 @@ translate english meeting_25982e53:
 translate english meeting_ba69b9b0:
 
     # jpn "はっ、アメリカさん！\nどうもこんにち……"
-    jpn "Ah, Mr. America!\nHello th..."
+    jpn "Ah, Mr. America! \nHello th..."
 
 # game/scenario/0meeting.rpy:291
 translate english meeting_cfbaf66c:
@@ -323,25 +323,25 @@ translate english meeting_cfbaf66c:
 translate english meeting_78fe9b40:
 
     # fin "えっその後ろの方…\nアフ○ダイテ・ジョーンズ！？\nジェレ○ー・ウェイド…\nとベア・グリ○ス…じゃないですか！？"
-    fin "Wait, those people behind you...\nAphr*dite Jones!?\nJer*my Wade...\nand Bear Gr*lls, right!?"
+    fin "Wait, those people behind you... \nAphr*dite Jones!? \nJer*my Wade... \nand Bear Gr*lls, right!?"
 
 # game/scenario/0meeting.rpy:317
 translate english meeting_0a9eaa0c:
 
     # ame "よく気が付いたね！今日のために\nホラーのスペシャルメンバーを\n集めてきたんだよ！！"
-    ame "I'm glad you noticed them!\nI gathered an all-star horror cast\nfor today's meeting!!"
+    ame "I'm glad you noticed them! \nI gathered an all-star horror cast for today's meeting!!"
 
 # game/scenario/0meeting.rpy:324
 translate english meeting_38b36246:
 
     # eng "ホラーっぽいのは\n最初の一人だけだろ！！\nそれに他二人は\nイギリス人じゃねーか！"
-    eng "But the only horror-ish\none is that first one!\nAnd aren't the other two British!?"
+    eng "But the only horror-ish one is that first one! And aren't the other two British!?"
 
 # game/scenario/0meeting.rpy:330
 translate english meeting_4c2bc1e7:
 
     # ame "ノープロブレムだぞ！\n彼らの話す怖い話に\n期待しててくれよみんな！\n俺も楽しみだぞ！"
-    ame "No problem!\nGet ready for the scary stories they're going to tell, guys!\nI'm psyched for them, too!"
+    ame "No problem! \nGet ready for the scary stories they're going to tell, guys! \nI'm psyched for them, too!"
 
 # game/scenario/0meeting.rpy:337
 translate english meeting_419fd707:
@@ -359,13 +359,13 @@ translate english meeting_a21737bc:
 translate english meeting_3ca06ef2:
 
     # ame "なんだってっ！？\n君は彼らの怖い話を\n聞きたくないのかい…！？"
-    ame "What did you say!?\nYou don't want to hear their scary stories...!?"
+    ame "What did you say!? \nYou don't want to hear their scary stories...!?"
 
 # game/scenario/0meeting.rpy:361
 translate english meeting_9ae7959c:
 
     # fin "うわあああ、\n僕は聞きたいです！"
-    fin "Waaaah,\nI wanna hear them!"
+    fin "Waaaah, I wanna hear them!"
 
 # game/scenario/0meeting.rpy:366
 translate english meeting_7f59d522:
@@ -419,13 +419,13 @@ translate english meeting_84f52b83:
 translate english meeting_83310ae5:
 
     # fin "すごいです！実物初めて見ました！\nすぐ行っちゃいましたけど…！\n僕けっこうアメリカさんの家の\nテレビ見る方なので嬉しかったです！"
-    fin "That was amazing!\nI've never seen them in person before!\nBut they left so quickly...! I watch a lot of American TV, so I'm really happy!"
+    fin "That was amazing! \nI've never seen them in person before! \nBut they left so quickly...! \nI watch a lot of American TV, so I'm really happy!"
 
 # game/scenario/0meeting.rpy:418
 translate english meeting_038dc829:
 
     # eng "それでそんなに興奮してたのか…。\nそういえばフィンランドが作る\nテレビ番組ってなんかゆるいよな…。"
-    eng "You got that excited over them...?\nSpeaking of which, the TV shows you make have kind of an easy-going feel to them, Finland..."
+    eng "You got that excited over them...? \nSpeaking of which, the TV shows you make have kind of an easy-going feel to them, Finland..."
 
 # game/scenario/0meeting.rpy:423
 translate english meeting_6dc2756c:
@@ -444,13 +444,13 @@ translate english meeting_91e8c642:
 translate english meeting_18b5414e:
 
     # jpn "すいません、みなさん。\n私のタイミングが悪く…\n挨拶をしそびれてしまいましたので\n改めて挨拶させてください。"
-    jpn "I'm sorry, everyone. I came at a bad time...\nI didn't greet you, so please allow me to do so now."
+    jpn "I'm sorry, everyone. I came at a bad time... \nI didn't greet you, so please allow me to do so now."
 
 # game/scenario/0meeting.rpy:442
 translate english meeting_1cc65628:
 
     # fin "あっ僕こそすいません！\nモイっ！日本さん"
-    fin "Oh, I'm sorry, too!\nMoi, Mr. Japan!"
+    fin "Oh, I'm sorry, too! \nMoi, Mr. Japan!"
 
 # game/scenario/0meeting.rpy:447
 translate english meeting_444b0c42:
@@ -474,19 +474,19 @@ translate english meeting_dbc0159a:
 translate english meeting_e4ee19e9:
 
     # jpn "いっ…一斉！？\n…ありがとうございます。\n宜しくお願い致します。"
-    jpn "All... All at once!?\n...Thank you. I'm looking forward to today's meeting."
+    jpn "All... All at once!? \n...Thank you. I'm looking forward to today's meeting."
 
 # game/scenario/0meeting.rpy:471
 translate english meeting_ddcfcc6f:
 
     # bul "どうもどうもなんだわー。\nって俺は二回目っすね。"
-    bul "Hiya, hiya.\nThat's the second time I've greeted you."
+    bul "Hiya, hiya. \nThat's the second time I've greeted you."
 
 # game/scenario/0meeting.rpy:476
 translate english meeting_14004e94:
 
     # jpn "ええ、二回目ですが、\n改めまして宜しく\nお願い致します。"
-    jpn "Yes, it is the second time.\nThank you very much\nonce again."
+    jpn "Yes, it is the second time. \nThank you very much once again."
 
 # game/scenario/0meeting.rpy:481
 translate english meeting_e99f73e0:
@@ -504,19 +504,19 @@ translate english meeting_72ae2573:
 translate english meeting_0bb90662:
 
     # eng "一人スペインだろ？\nあいつが重要なビジネスの事と\n親分面できること以外で\n時間通りに来ると思うなよ。"
-    eng "Spain is one of them, right?\nDon't get your hopes up about him being on time to anything that isn't important business or something where he can show his 'boss' side."
+    eng "Spain is one of them, right? \nDon't get your hopes up about him being on time to anything that isn't important business or something where he can show his 'boss' side."
 
 # game/scenario/0meeting.rpy:497
 translate english meeting_9630bdc7:
 
     # ame "彼なら今カフェで\n日光浴してるんじゃないかな？\nもうすぐにでも始めないかい？"
-    ame "I bet he's sunbathing in a cafe right about now or something.\nShall we get started right away?"
+    ame "I bet he's sunbathing in a cafe right about now or something. Shall we get started right away?"
 
 # game/scenario/0meeting.rpy:500
 translate english meeting_c9537931:
 
     # bul "うーい。\nじゃ、はじめまーす。"
-    bul "Okey-dokey.\nThen let's get staaarted."
+    bul "Okey-dokey. \nThen let's get staaarted."
 
 # game/scenario/0meeting.rpy:505
 translate english meeting_8b295b55:

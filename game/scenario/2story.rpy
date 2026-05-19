@@ -291,7 +291,7 @@ label story2:
     $ _pending_camera_transform = [([shake_2s5], "master"), ([shake_0m10], "screens")]
     story "　\n　\n　\n　\n　\n俺のルームメイトの\nトニーのそっくりさんだったんだ…！！" id story2_b042fccd
     nvl clear
-    $ _pending_camera_transform = None
+    $ _pending_camera_transform = None 
 
     camera
     camera screens

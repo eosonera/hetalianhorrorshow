@@ -2,8 +2,6 @@
 
 
 define gui.language = "unicode"
-
-define config.enable_language_autodetect = True
     
 default list_languages = [
     ("日本語", None),
@@ -64,7 +62,7 @@ translate english python:
     gui.nvl_width2 = gui.nvl_width - 200
     gal_text_size = 14
     confirm_prompt_text_kerning = -1
-    gui.kerning_dialogue = 0
+    gui.kerning_dialogue = 1
     gui.kerning_narrator = -2
     gui.kerning_nvl = -5
 
@@ -98,7 +96,7 @@ translate english python:
     window_size_left1 = (280, 130)
     window_size_left3 = (300, 130)
     window_size_left4 = (340, 130)
-    window_size_left4long = (460, 150)
+    window_size_left4long = (420, 150)
     window_size_center1 = (420, 130)
     window_size_center3 = (280, 130)
     window_size_center3long = (420, 130)
@@ -207,3 +205,23 @@ old russian
     window_size_center4long = (450, 150)
 
 '''
+
+
+init -1 python:
+    def my_language_fallback(locale, region):
+        
+        if locale == "ja":
+            return None # Your default language (Russian)
+            
+        elif locale == "ru":
+            return "russian" # Make sure this matches your folder in game/tl/
+            
+        #elif locale == "es":
+            #return "spanish"
+            
+        # If it's not one of your supported languages, force English
+        return "english" 
+
+
+    config.locale_to_language_function = my_language_fallback
+    config.enable_language_autodetect = True

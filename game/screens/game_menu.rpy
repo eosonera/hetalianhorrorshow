@@ -126,7 +126,11 @@ screen game_menu(title):
             idle "gui/menu_game/6help.png"
             if not renpy.variant("mobile"):
                 at menu_hover_float
-            action ShowMenu("menu_open2")
+                action [
+                    Hide(current_tab_screen) if current_tab_screen else NullAction(),
+                    SetVariable("current_tab_screen", None),
+                    ShowMenu("menu_open2")
+                ]
             
 
 

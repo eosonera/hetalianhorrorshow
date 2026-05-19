@@ -134,7 +134,7 @@ init python:
 
 
 transform dark_pos:
-    matrixcolor TintMatrix("#ebebeb")
+    #matrixcolor TintMatrix("#ebebeb")
     xpos 440 yalign 0.0
 
 transform center:

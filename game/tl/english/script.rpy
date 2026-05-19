@@ -4,7 +4,7 @@
 translate english start_8479585a:
 
     # na "「７カ国が集まる国際怖い話会合があるから\n　そこで話を聞いてきてくれないかなー？」\n{vspace=12}{space=155}その一言でそれは始まった。"
-    na "“Seven nations are going to gather for\nthe International Conference of Scary Stories.\nDo you want to come and listen to what they have to say?”\n{vspace=8} {space=155}It started with those words."
+    na "“Seven nations are going to gather for the International Conference of Scary Stories. Do you want to come and listen to what they have to say?”\n{vspace=8} {space=155}It started with those words."
 
 # game/script.rpy:24
 translate english start_d72426f3:
@@ -16,7 +16,7 @@ translate english start_d72426f3:
 translate english start_4d123f7b:
 
     # rom "ごめんね～。\nほんとはおいらが\nやりたかったんだけどさー。"
-    rom "Sorry～\nI actually wanted to go myself..."
+    rom "Sorry～ \nI actually wanted to go myself..."
 
 # game/script.rpy:33
 translate english start_f8af57b9:
@@ -34,25 +34,25 @@ translate english start_fe490979:
 translate english start_6074a98b:
 
     # bul "いやそれ俺もだけどね。\n俺も遊ぶ暇あったら\n内職しろって\n言われてるんだわー。"
-    bul "Nah, I get it, same here.\nMine tells me I should go get a side hustle if I've got time to play around."
+    bul "Nah, I get it, same here. \nMine tells me I should go get a side hustle if I've got time to play around."
 
 # game/script.rpy:42
 translate english start_8f7e5e1b:
 
     # rom "そうだったの！？\nでもお前いっつも\nフラフラしてるじゃんかー！"
-    rom "He says that!?\nBut you {i}are{/i} just messin' around all the time, aren't you?!"
+    rom "He says that!? \nBut you {i}are{/i} just messin' around all the time, aren't you?!"
 
 # game/script.rpy:46
 translate english start_fe5ba20e:
 
     # bul "ふざけんなー！\n自分で行けオラァ！"
-    bul "Screw you!\nYou're going to the meeting by yourself!"
+    bul "Screw you! \nYou're going to the meeting by yourself!"
 
 # game/script.rpy:50
 translate english start_d6cfb26b:
 
     # rom "なんて友だち甲斐が\nないんだよー！頼むよー！\n頼める人がいないんだよー"
-    rom "What kind of useless friend are yoou?!\nI'm begging youuu!\nThere's no one else I can aaask."
+    rom "What kind of useless friend are yoou?! \nI'm begging youuu! \nThere's no one else I can aaask."
 
 # game/script.rpy:54
 translate english start_c66e6f28:
@@ -64,19 +64,19 @@ translate english start_c66e6f28:
 translate english start_028db6fd:
 
     # rom "え！？ えーと…。\nロシアさんは{size=-5}存在自体がー…\n怖いっていうか…。{/size}"
-    rom "Wha!? Um...\nWell, his {size=-3}mere presence...\nis frightening in and of itself...{/size}"
+    rom "Wha!? Um... \nWell, his {size=-3}mere presence... \nis frightening in and of itself...{/size}"
 
 # game/script.rpy:62
 translate english start_4a9432bb:
 
     # bul "そこら辺は\n…否定はしないわー"
-    bul "I...\nwill not deny that."
+    bul "I... \nwill not deny that."
 
 # game/script.rpy:68
 translate english start_c71f0dd7:
 
     # rom "お願いだよー！！\nお菓子あげるから！"
-    rom "Pleeease!!?\nI'll give you some sweets!"
+    rom "Pleeease!!? \nI'll give you some sweets!"
 
 # game/script.rpy:72
 translate english start_bc7df12d:
@@ -143,31 +143,31 @@ translate english start_e5a62779:
 translate english start_300040ae:
 
     # bul "盛ってねーから！\nそういうわけで俺の方が\n年上だから俺はいかない！"
-    bul "Am not!\nAnyway, I'm your senior, so I'm not going!"
+    bul "Am not! \nAnyway, I'm your senior, so I'm not going!"
 
 # game/script.rpy:129
 translate english start_c62956d7:
 
     # rom "やーだー！その理屈わかんないよー\n頼むよー！行ってよー！\nいらとお前の付き合いだろー！！"
-    rom "Nooo! You don't understand!\nPleeease! Just go!\nYou and I are friennnds!!"
+    rom "Nooo! You don't understand! \nPleeease! Just go! \nYou and I are friennnds!!"
 
 # game/script.rpy:135
 translate english start_091ebbd4:
 
     # bul "ぷぷぷぷ～\nぷんにょにょ～（鼻歌）"
-    bul "Hm-hm-hm-hm~\nHm-mm-mm~ (humming)"
+    bul "Hm-hm-hm-hm~ \nHm-mm-mm~ (humming)"
 
 # game/script.rpy:140
 translate english start_5ef33473:
 
     # rom "やだー変な歌うたいながら\nおいらの周りまわらないでー。\nやめてよー"
-    rom "Nooo, don't walk around me\nhumming a weird song! Stooop!"
+    rom "Nooo, don't walk around me humming a weird song! Stooop!"
 
 # game/script.rpy:144
 translate english start_76f6ac0e:
 
     # bul "ふんごっ\nふんごっ（鼻歌）"
-    bul "Hmm-mmh\nhmm-mmh (humming)"
+    bul "Hmm-mmh \nhmm-mmh (humming)"
 
 # game/script.rpy:148
 translate english start_fcb03828:
@@ -185,7 +185,7 @@ translate english start_7c634a5e:
 translate english start_6f8a9988:
 
     # extend "\n…あっ！そうだ！\nこの仕事すると…目立てるよ！"
-    extend "\n...Ah! I've got it!\nIf you do this for me... You'll get noticed!"
+    extend "\n...Ah! I've got it! \nIf you do this for me... You'll get noticed!"
 
 # game/script.rpy:165
 translate english start_63665121:
@@ -197,19 +197,19 @@ translate english start_63665121:
 translate english start_028c8b01:
 
     # rom "他のみんなと対等な目線で\n話せるよー！"
-    rom "You'll be able to speak on the same level\nas everyone else!"
+    rom "You'll be able to speak on the same level as everyone else!"
 
 # game/script.rpy:173
 translate english start_c0e5473b:
 
     # bul "つまり…\nどういうことだ？"
-    bul "So...\nLike what?"
+    bul "So... \nLike what?"
 
 # game/script.rpy:177
 translate english start_ebbafdad:
 
     # rom "だから！司会進行として！\nいつもは上からにゃーにゃー\n言ってくるみんなをブルガリアが\n先導できるってこと！！"
-    rom "Well! As the moderator!\nYou'll be able to lead all the people\nwho've always talked down at us!!"
+    rom "Well! As the moderator! \nYou'll be able to lead all the people who've always talked down at us!!"
 
 # game/script.rpy:181
 translate english start_15292df2:
@@ -233,31 +233,31 @@ translate english start_70786b2a:
 translate english start_ab6fbfcb:
 
     # na2 "この二国って加入してから\n足引っ張ってるだけですよね。\nだから反対してたんですよ。"
-    na2 "Those two countries have just been\ndragging their feet since they joined.\nThat's why I was against it."
+    na2 "Those two countries have just been dragging their feet since they joined. That's why I was against it."
 
 # game/script.rpy:200
 translate english start_b1038b62:
 
     # na2 "せんせー！\nブルガリア君とルーマニア君が\n出稼ぎに来て邪魔臭いです。"
-    na2 "Teacher!\nBulgaria and Romania have moved over here for work, but they're getting in the way of everything."
+    na2 "Teacher! \nBulgaria and Romania have moved over here for work, but they're getting in the way of everything."
 
 # game/script.rpy:203
 translate english start_cc76127d:
 
     # na2 "ブルガリア君とルーマニア君って\nＥＵに必要ですか？\nこいつら追い出してトルコ入れた方が\n有意義だと思いますー"
-    na2 "Does the EU really need\nBulgaria and Romania?\nI think it would be better to kick\nthem out and accept Turkey instead."
+    na2 "Does the EU really need Bulgaria and Romania? I think it would be better to kick them out and accept Turkey instead."
 
 # game/script.rpy:213
 translate english start_1db23734:
 
     # bul "うう…、ちくしょうちくしょう…。\nユーロ圏の新聞めー…。\n人の気持ちもしらねーで\n普通にこういう事書くんだわ…。\n手厳しいんだわー…。うっうっ…。\n金がねェンだよ…！国内建て直す\n金が手に入るまで働くしかねぇんだわ…。"
-    bul "{size=-1}Ugh... dammit, dammit!\nDamn Eurozone newspapers...\nThey're just writin' this stuff without knowin' how the people really feel...\nThey're so harsh... *sob*...\nWe dun have any money...!\nWe have no choice but to work until we have the funds to rebuild the country...{/size}"
+    bul "{size=-1}Ugh... dammit, dammit! \nDamn Eurozone newspapers... \nThey're just writin' this stuff without knowin' how the people really feel... \nThey're so harsh... *sob*... \nWe dun have any money...! \nWe have no choice but to work until we have the funds to rebuild the country...{/size}"
 
 # game/script.rpy:218
 translate english start_1bce4555:
 
     # rom "泣かないでよぉブルガリア…！\nおいらブルガリアを悲しませたくて\n思い出させたわけじゃないよぉ…"
-    rom "Don't cry, Bulgariaa!\nI didn't bring this up because\nI wanted to make you saaad..."
+    rom "Don't cry, Bulgariaa! \nI didn't bring this up because I wanted to make you saaad..."
 
 # game/script.rpy:222
 translate english start_1530bf19:
@@ -281,13 +281,13 @@ translate english start_fc180838:
 translate english start_0f5baf6e:
 
     # rom "そうだよブルガリア！\nその意気だよ\n頑張ろうねぇ～！！"
-    rom "That's right, Bulgaria!\nThat's the spirit!\nGo for it~!!"
+    rom "That's right, Bulgaria! \nThat's the spirit! \nGo for it~!!"
 
 # game/script.rpy:244
 translate english start_c6e01564:
 
     # bul "そしてこのゲームの\n主役も頂くんだわ！"
-    bul "And I'll be the main\ncharacter in this game!"
+    bul "And I'll be the main character in this game!"
 
 # game/script.rpy:249
 translate english start_caf63c9d:

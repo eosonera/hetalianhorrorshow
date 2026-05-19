@@ -891,6 +891,7 @@ label stophim:
         easein 8 ypos -3000
     pause 8
     show staffroll with {'master': None}:
+        ypos -3000
         linear 3.5 alpha 0
     pause 3.5
 
@@ -1071,6 +1072,7 @@ label donothing:
     rus "フランス君ほどとは\n言わないけどひねろうよ。\nスペイン君みたいに\n最後の５分で暴走するのも良いね。{nw=3.7}" id donothing_158654f4
     
     show staffroll with {'master': None}:
+        ypos -3000
         linear 3.2 alpha 0.0
 
     $ ame.screen = 'center_3'

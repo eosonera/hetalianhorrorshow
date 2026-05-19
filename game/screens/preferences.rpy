@@ -155,12 +155,12 @@ screen font():
     style_prefix "font"
 
     add "gui/menu_game/font.png":
-        xpos 251
-        ypos 86
+        xpos 272
+        ypos 101
 
     add "gui/scrollbar/scrollbar.png":
-        xpos 578
-        ypos 172
+        xpos 599
+        ypos 187
 
     default list_fonts = [
         (("IBMPlexSans"), "IBMPlexSans.ttf"),
@@ -205,36 +205,44 @@ screen font():
         #(_("Yu Gothic UI Semilight"), "YuGothUISemilight.ttf"),
     ]
 
-    viewport:
-        xpos 316
-        ypos 168
+    controller_viewport:
+        xpos 337
+        ypos 183
         xsize 284
         ysize 202
-        mousewheel True draggable True pagekeys True
-        scrollbars "vertical" yinitial 1.0
+        mousewheel True draggable renpy.variant("touch") pagekeys True
+        id "my_viewport" vscroll_style "nudge"
+        scroll_delay (0.2, 0.2)
+        extra_scroll dict(up=-100, down=100)
+        trap_focus ("up", "down", "left", "right")
+        scrollbars "vertical" yinitial 0
 
         frame:
-            vbox:
-                spacing 3
-                ysize 16
-                for name, file in list_fonts:
+            has vbox
+            spacing -10
+            for name, file in list_fonts:
+                hbox:
+                    add "gui/button/check_0.png":
+                        ypos -3
+                        alpha (1.0 if gui.preference("font") == file else 0.0)
                     textbutton ("[name!t]"):
+                        style "font_button"
                         action gui.SetPreference("font", file)
+                        
+    vbar value YScrollValue("my_viewport") style 'font_vscrollbar' keyboard_focus False:
+        xpos 596
+        ypos 188
 
-style font_button:
-    properties gui.button_properties("radio_button")
-    selected_foreground "gui/button/check_0.png"
-    padding (35, 0, 0, 0)
-    yalign 0.5
-
-style font_button_selected_foreground:
-    yalign 0.5
-    yoffset 30
-
+style font_button
+    #properties gui.button_properties("radio_button")
+    #selected_foreground "gui/button/check_2.png"
+    #padding (35, 0, 0, 0)
+    #yalign 0.5
     
 
 style font_button_text:
     color "#583F34"
+    hover_color "#A0684A" 
     size 16
     xalign 1.0
 

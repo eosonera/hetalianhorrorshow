@@ -80,7 +80,8 @@ label story5:
     $ _pending_window_transform = (shake_5s2)
     $ _pending_sound = ("sfx/gun09_r.ogg", "sound")
     ame "ゴ…ゴーストが…っ\n君の目の前に…っ！？\nなんて恐ろしいんだっ！" id story5_492388cf
-    
+
+
     stop sound
 
     show bulgaria conniving at pos_transform(xpos=0, yoffset=1.0) behind england

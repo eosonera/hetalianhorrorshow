@@ -48,10 +48,14 @@ screen file_slots(title):
 
     frame:
 
-        viewport:
+        controller_viewport:
             style_prefix "slot"
-            mousewheel True draggable True pagekeys True
+            mousewheel True draggable renpy.variant("touch") pagekeys True
             scrollbars "vertical"
+            id "saveload_viewport" vscroll_style "nudge"
+            scroll_delay (0.2, 0.2)
+            extra_scroll dict(up=-100, down=100)
+            trap_focus ("up", "down", "left", "right")
             xpos 213
             ypos 243
             xsize 508
@@ -118,6 +122,9 @@ screen file_slots(title):
                                     style "slot_load_text"
                                 else:
                                     style "slot_save_text"
+        vbar value YScrollValue("saveload_viewport") style 'slot_vscrollbar' keyboard_focus False:
+            xpos 696
+            ypos 243
                             
 
 
@@ -132,6 +139,10 @@ screen savegameName(slot, accept=NullAction()):
     zorder 200
     style_prefix "confirm_input"
 
+    on "show" action Function(
+        Namer,
+        get_last_textline() if FileLoadable(slot) else (store.save_name or get_last_textline())
+    )
 
     add "gui/menu_game/confirm_input.png":
         xpos 206
@@ -171,7 +182,7 @@ screen savegameName(slot, accept=NullAction()):
         mousewheel "horizontal"
         input:
             id "save_name_input"
-            default store.save_name or get_last_textline()
+            default (get_last_textline() if FileLoadable(slot) else (store.save_name or get_last_textline()))
             changed scroll_input_with_caret
             length 27
             yalign 1.0

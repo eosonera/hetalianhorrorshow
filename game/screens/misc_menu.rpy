@@ -35,7 +35,7 @@ screen language():
             xsize 330
             ysize 200
             mousewheel True draggable True pagekeys True
-            scrollbars "vertical" yinitial 1.0
+            scrollbars "vertical" yinitial 0
 
             frame:
                 vbox:
@@ -50,7 +50,7 @@ style language_button_text is gui_text
 style language_button is radio_button
 style language_button_text:
     color "#583F34"
-    hover_color '#5e422b'
+    hover_color '#A0684A'
     size 20
     xalign 1.0
 style language_vscrollbar is font_vscrollbar
@@ -113,26 +113,47 @@ screen preferences():
                     frame:
                         style "pref_frame"
                         has vbox
-                        spacing 8
-                        style_prefix "radio"
+                        
                         label _("ディスプレイ")
-                        textbutton _("ウィンドウ"):
-                            # Ensures this button is selected when
-                            # not in fullscreen.
-                            selected not preferences.fullscreen
-                            action Preference("display", "window")
-                        textbutton _("フルスクリーン"):
-                            action Preference("display", "fullscreen")
+                        null height 10
+                        hbox:
+                            spacing 3
+                            add "gui/button/check_0.png":
+                                ypos -3
+                                alpha (1.0 if _preferences.fullscreen == False else 0.0)
+                            textbutton _("ウィンドウ"):
+                                # Ensures this button is selected when not in fullscreen.
+                                selected not preferences.fullscreen
+                                action Preference("display", "window")
+                        hbox:
+                            spacing 3
+                            add "gui/button/check_0.png":
+                                ypos -3
+                                alpha (1.0 if _preferences.fullscreen == True else 0.0)
+                            textbutton _("フルスクリーン"):
+                                action Preference("display", "fullscreen")
 
                 if renpy.variant("pc") or renpy.variant("web"):
                     frame:
                         style "pref_frame"
                         has vbox
-                        spacing 8
-                        style_prefix "radio"
+                        
                         label _("セーブメモ")
-                        textbutton _("On") action [SetVariable("persistent.saveName", True)]
-                        textbutton _("Off") action [SetVariable("persistent.saveName", False)]
+                        null height 10
+                        hbox:
+                            spacing 3
+                            add "gui/button/check_0.png":
+                                ypos -3
+                                alpha (1.0 if persistent.saveName == True else 0.0)
+                            textbutton _("On"):
+                                action [SetVariable("persistent.saveName", True)]
+                        hbox:
+                            spacing 3
+                            add "gui/button/check_0.png":
+                                ypos -3
+                                alpha (1.0 if persistent.saveName == False else 0.0)
+                            textbutton _("Off"):
+                                action [SetVariable("persistent.saveName", False)]
 
             vbox:
                 spacing 10
@@ -140,26 +161,46 @@ screen preferences():
                 frame:
                     style "pref_frame"
                     has vbox
-                    spacing 8
-                    style_prefix "radio"
+                    
                     label _("未読テキストもスキップ")
-                    textbutton _("On"):
-                        action Preference("skip", "all")
-                    textbutton _("Off"):
-                        action Preference("skip", "seen")
+                    null height 10
+                    hbox:
+                        spacing 3
+                        add "gui/button/check_0.png":
+                            ypos -3
+                            alpha (1.0 if _preferences.skip_unseen == True else 0.0)
+                        textbutton _("On"):
+                            action Preference("skip", "all")
+                    hbox:
+                        spacing 3
+                        add "gui/button/check_0.png":
+                            ypos -3
+                            alpha (1.0 if _preferences.skip_unseen == False else 0.0)
+                        textbutton _("Off"):
+                            action Preference("skip", "seen")
 
                 frame:
                     style "pref_frame"
                     has vbox
-                    spacing 8
-                    style_prefix "radio"
+                    
                     label _("選択肢の後もスキップ継続")
-                    textbutton _("On"):
-                        action Preference("after choices", "skip")
-                    textbutton _("Off"):
-                        action Preference("after choices", "stop")
+                    null height 10
+                    hbox:
+                        spacing 3
+                        add "gui/button/check_0.png":
+                            ypos -3
+                            alpha (1.0 if _preferences.skip_after_choices == True else 0.0)
+                        textbutton _("On"):
+                            action Preference("after choices", "skip")
+                    hbox:
+                        spacing 3
+                        add "gui/button/check_0.png":
+                            ypos -3
+                            alpha (1.0 if _preferences.skip_after_choices == False else 0.0)
+                        textbutton _("Off"):
+                            action Preference("after choices", "stop")
 
-        null height 10     
+        null height -20     
         frame:
             style "pref_frame"
             xfill True
@@ -176,6 +217,11 @@ style remover_button_text:
 style pref_frame:
     padding (0, 0)
     xfill True
+
+style pref2_button_text:
+    color "#583F34"
+    hover_color '#A0684A'
+    yalign 0.5
 
 
 #style pref2_vscrollbar is history_vscrollbar
@@ -210,14 +256,19 @@ screen about():
             action ShowMenu("menu_open2")
 
     style_prefix "about"
-    viewport:
+    controller_viewport:
         xpos 227
         ypos 202
-        xsize 462
+        xsize 450
         ysize 230
-        mousewheel True draggable True pagekeys True
-        scrollbars "vertical" yinitial 1.0
-
+        mousewheel True draggable renpy.variant("touch") pagekeys True
+        id "about_viewport" vscroll_style "nudge"
+        scroll_delay (0.2, 0.2)
+        extra_scroll dict(up=-100, down=100)
+        trap_focus ("up", "down", "left", "right")
+        scrollbars "vertical" yinitial 0.0
+        which_stick "both"
+        focus_scroll True
 
         vbox:
             spacing 10
@@ -258,6 +309,9 @@ screen about():
                     style_prefix "about1"
                     label ("Feniksdev")
                     text ("Marquee for Ren'Py, Controller Support")
+    vbar value YScrollValue("about_viewport") style "about_vscrollbar":
+        xpos 673
+        ypos 202
 
         
             
@@ -451,7 +505,7 @@ style help_label_text:
     textalign 0
 
 style help_button_text:
-    hover_color '#5e422b'
+    hover_color '#A0684A'
 
 style help_vscrollbar is history_vscrollbar
 style help_vscrollbar:

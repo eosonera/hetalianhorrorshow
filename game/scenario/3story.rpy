@@ -14,7 +14,7 @@ label story3:
     show nvl_textbox
     with Dissolve(0.25)
 
-    $ _pending_sprite_transform = [("japan large contemplation", jpn_2s1, Dissolve(0.2))]
+    $ _pending_sprite_transform = [("japan large contemplation", jpn_2s1, None)]
     story "三番目にお話しさせて頂きます。\n宜しくお願い致します。" id story3_1e299711
 
 
@@ -324,9 +324,10 @@ label story3:
     $ _pending_camera_transform = [([shake_2s8], "screens")]
     $ _pending_sprite_transform = [("japan large closedmouth sweat", pos_transform(xpos=450, ypos=-80), Dissolve(0.2))]
     story "{size=+12}{cps=5}……【老｜お】い。{/cps}{/size}" id story3_e8275d2f
+    nvl clear
     $ _pending_camera_transform = None
 
-    nvl clear
+    
     camera screens
 
 

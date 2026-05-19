@@ -12,6 +12,10 @@ init python:
         if event == "begin":
             if store.window_transform is not None:
                 store.window_transform = None
+            if getattr(store, '_pending_clear_camera', False):
+                renpy.layer_at_list([], layer="master")
+                renpy.layer_at_list([], layer="screens")
+                store._pending_clear_camera = False
 
         if event == "slow_done":
 
@@ -51,6 +55,7 @@ init python:
                     renpy.layer_at_list(transforms, layer=layer)
                 renpy.restart_interaction()
                 store._pending_camera_transform = None
+                store._pending_clear_camera = True
 
             # music
             if store._pending_music:
@@ -106,7 +111,7 @@ define na2 = Character(None,
 
 define story = Character(None,
     kind = nvl,
-    ctc="ctc_button", #ctc_arrow
+    ctc="ctc_arrow", #ctc_arrow
     ctc_position="nestled",
     callback=dialogue_callback)
 

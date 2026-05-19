@@ -8,15 +8,15 @@ init python:
         ctc_frames.append((frame, 0.1))
 
 image ctc_button = Animation(*sum(ctc_frames, ()))
-'''
+
 init python:
     ctc_a_frames = []
-    for i in range(8):
-        frame = f"gui/arrow-ctc/arrow_{i}.png"
+    for i in range(9):
+        frame = f"gui/arrow/arrow{i}.png"
         ctc_a_frames.append((frame, 0.1))
 
 image ctc_arrow = Animation(*sum(ctc_a_frames, ()))
-'''
+
 
 image thumb_hover_anim:
     "gui/slider/thumb_0.png"

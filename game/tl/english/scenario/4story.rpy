@@ -10,13 +10,13 @@ translate english story4_0323968c:
 translate english story4_0de11457:
 
     # story "もう俺の番か。\nふむ、参ったな。" id story4_0de11457
-    story "Is it my turn now?\nHmm, I'm at a loss." id story4_0de11457
+    story "Is it my turn now? \nHmm, I'm at a loss." id story4_0de11457
 
 # game/scenario/4story.rpy:22
 translate english story4_441a4c9e:
 
     # story "…俺はここ数日、あー…\n俗にいう怪奇現象に\n悩まされていてだな…。" id story4_441a4c9e
-    story "...For the past few days,\nI've been plagued by, ah... \nWhat's commonly referred to\nas a bizarre phenomenon..." id story4_441a4c9e
+    story "...For the past few days, \nI've been plagued by, ah... \nWhat's commonly referred to\nas a bizarre phenomenon..." id story4_441a4c9e
 
 # game/scenario/4story.rpy:26
 translate english story4_3f0b9594:
@@ -52,7 +52,7 @@ translate english story4_76b2fe88_1:
 translate english story4_472a74c9:
 
     # story "分かった。\nでは俺の家で起こった\n怪奇現象の話をしよう。" id story4_472a74c9
-    story "Alright.\nThen let me tell you about what had happened." id story4_472a74c9
+    story "Alright. \nThen let me tell you about what had happened." id story4_472a74c9
 
 # game/scenario/4story.rpy:37
 translate english story4_76b2fe88_2:
@@ -82,7 +82,7 @@ translate english story4_76b2fe88_3:
 translate english story4_c761605a:
 
     # story "……………。\n　\nああー…笑ってくれ。\n今にして思えば何故こんな現象に\n本気で恐怖していたのか……。" id story4_c761605a
-    story "......\n  \nAh... Go ahead and laugh.\nNow that I think about it, I don't know why I was so shaken by this phenomenon..." id story4_c761605a
+    story "...... \n  \nAh... Go ahead and laugh. \nNow that I think about it, I don't know why I was so shaken by this phenomenon..." id story4_c761605a
 
 # game/scenario/4story.rpy:56
 translate english story4_76b2fe88_4:
@@ -128,7 +128,7 @@ translate english story4_2f1085a7:
     # nvl clear
     # story "それに、俺の家の厳重な\nセキュリティー下にありながら\n警報すらならさず現れる鎧…。\n　\n一体…何者なんだ！\n何故俺の家に現れる！\n訴えたいことがあるなら\n口頭か筆記してくれ！" id story4_2f1085a7
     nvl clear
-    story "Also, despite my house's tight security, the armour appeared without triggering a single alarm...\n \nWho... the hell was behind it?! Why was this happening at my house?! If anyone has a complaint to make against me, let it be done in person or in writing!" id story4_2f1085a7
+    story "Also, despite my house's tight security, the armour appeared without triggering a single alarm... \n \nWho... the hell was behind it?! Why was this happening at my house?! If anyone has a complaint to make against me, let it be done in person or in writing!" id story4_2f1085a7
 
 # game/scenario/4story.rpy:72
 translate english story4_7bc20324:
@@ -136,7 +136,7 @@ translate english story4_7bc20324:
     # nvl clear
     # story "…ごほん。仕方がないので\n俺は鎧を観察することにした。\n　\n観察して分かったのが\n鎧との遭遇場所は仕事部屋付近が多い。\nそして何故かパソコンを勝手に起動させる。" id story4_7bc20324
     nvl clear
-    story "...Ahem. With no other options left, I decided to observe the armour.\n \nWhat I learned was that I saw the armour most frequently near the office. And for some reason, it would boot up the computer on its own." id story4_7bc20324
+    story "...Ahem. With no other options left, I decided to observe the armour. \n \nWhat I learned was that I saw the armour most frequently near the office. And for some reason, it would boot up the computer on its own." id story4_7bc20324
 
 # game/scenario/4story.rpy:75
 translate english story4_bfce9e9b:
@@ -144,7 +144,7 @@ translate english story4_bfce9e9b:
     # nvl clear
     # story "今まで超常現象の類は、\n全て科学で説明できると思っていたのだが\n家中のセキュリティのかいくぐり、\n俺が全力で追いかけても\n追いつけない鎧…。\n\nこれは科学で証明できるのか？\n鎧の持ち主が幽霊になって\n往年の甲冑姿で現れたのでは？\nと考えるようになっていた。" id story4_bfce9e9b
     nvl clear
-    story "I had always believed that every supernatural phenomenon could be explained scientifically, but here was a suit of armour that could somehow slip past all the security in my house and outrun my fastest sprint...\n\Was there a way to prove this with science? Had the armour's owner become a ghost, now haunting the suit of armour from his glory days? I had begun to entertain such thoughts." id story4_bfce9e9b
+    story "I had always believed that every supernatural phenomenon could be explained scientifically, but here was a suit of armour that could somehow slip past all the security in my house and outrun my fastest sprint... \n\Was there a way to prove this with science? Had the armour's owner become a ghost, now haunting the suit of armour from his glory days? I had begun to entertain such thoughts." id story4_bfce9e9b
 
 # game/scenario/4story.rpy:77
 translate english story4_d09a6f13:
@@ -166,7 +166,7 @@ translate english story4_440ccdcf:
     # nvl clear
     # story "おかしな点はもう一つある。\n　\n夜になると俺の家に現れる動く鎧は\n年代も製造された場所も違う二つの鎧の\nパーツを繋ぎあわせて一つの鎧にしていた。\n　\n鎧の持ち主が鎧に取り憑いたのならば\n果たしてそんなことをするだろうか？" id story4_440ccdcf
     nvl clear
-    story "There was one more inconsistency.\n \nThe suit of armour that came to life in my house at night was actually an amalgamation of pieces from two different suits, made from different manufacturers from different times.\nIf the spirit of the original owner had indeed possessed the armour, would he really have refashioned it like that?" id story4_440ccdcf
+    story "There was one more inconsistency. \n \nThe suit of armour that came to life in my house at night was actually an amalgamation of pieces from two different suits, made from different manufacturers from different times. \nIf the spirit of the original owner had indeed possessed the armour, would he really have refashioned it like that?" id story4_440ccdcf
 
 # game/scenario/4story.rpy:82
 translate english story4_76b2fe88_5:
@@ -178,7 +178,7 @@ translate english story4_76b2fe88_5:
 translate english story4_717cf02b:
 
     # ger "すまないが日本\nまだだ。まだ耐えてくれ" id story4_717cf02b
-    ger "Sorry, Japan, there's still more.\nHang in there." id story4_717cf02b
+    ger "Sorry, Japan, there's still more. \nHang in there." id story4_717cf02b
 
 # game/scenario/4story.rpy:99
 translate english story4_5801e524:
@@ -240,7 +240,7 @@ translate english story4_76b2fe88_7:
 translate english story4_f7379636:
 
     # story "{size=+15}　\n　\n「俺様だっ！！」{/size}" id story4_f7379636
-    story_indent "{size=+15} \n\n \n“It's the awesome me!”{/size}" id story4_f7379636
+    story "{size=+15} \n\n \n“It's the awesome me!”{/size}" id story4_f7379636
 
 # game/scenario/4story.rpy:139
 translate english story4_76b2fe88_8:
@@ -258,7 +258,7 @@ translate english story4_27a4b855:
 translate english story4_1e926c4b:
 
     # eng "最初から犯人\nお前の兄貴しかいねーだろ！" id story4_1e926c4b
-    eng "So the culprit was just your older\nbrother from the very beginning!" id story4_1e926c4b
+    eng "So the culprit was just your older brother from the very beginning!" id story4_1e926c4b
 
 # game/scenario/4story.rpy:164
 translate english story4_c85d1002:

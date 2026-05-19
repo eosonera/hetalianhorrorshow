@@ -34,10 +34,12 @@ screen history():
             ypos 202
             xsize 462
             ysize 230
-            id "hist_vp"
-            mousewheel True draggable True pagekeys True
-            scrollbars "vertical"
-            yinitial 1.0
+            mousewheel True draggable renpy.variant("touch") pagekeys True
+            id "hist_viewport" vscroll_style "nudge"
+            scroll_delay (0.2, 0.2)
+            extra_scroll dict(up=-100, down=100)
+            trap_focus ("up", "down", "left", "right")
+            scrollbars "vertical" yinitial 1.0
             which_stick "both"
             focus_scroll True
 
@@ -61,8 +63,8 @@ screen history():
             if not _history_list:
                 label (" ")
 
-        vbar value YScrollValue("hist_vp") style "history_vscrollbar":
-            xpos 674
+        vbar value YScrollValue("hist_viewport") style "history_vscrollbar":
+            xpos 673
             ypos 202
 
 

@@ -219,10 +219,9 @@ init python:
     from renpy.python import NoRollback
 
     def jitter_diagonal_func(dist=50, duration=2.0, interval=0.1):
-        """
-        Returns a Ren'Py transform function that jitters an image
-        diagonally up to 'dist' every 'interval' seconds, for 'duration' seconds.
-        """
+
+        # Transform function that jitters an image diagonally up to 'dist' every 'interval' seconds, for 'duration' seconds.
+
 
         def f(trans, st, at):
             # st = time since this transform started

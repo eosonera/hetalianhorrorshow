@@ -387,7 +387,7 @@ translate russian story7_76b2fe88_7:
 translate russian story7_e8013caf:
 
     # story "みんながみんなのままなんだけど\n僕の事が大好きになっちゃう\nお薬を作ったんだ！\n　\nこんな感じかなぁって\n練ったりちぎったり溶解してみたら\nできたんだよ！" id story7_e8013caf
-    story "Я просто замешивал, \nразрывал и растворял вещи, думая „может быть, так“, и в итоге это получилось!" id story7_e8013caf
+    story "Я создал лекарство, которое заставляет всех любить меня, но позволяет всем оставаться собой! \n\nЯ просто смешивал и растворял вещи, всякие штуки „может быть, так“, и в итоге это получилось!" id story7_e8013caf
 
 # game/scenario/7story.rpy:459
 translate russian story7_76b2fe88_8:
@@ -465,7 +465,7 @@ translate russian story7_6aebc3e7:
 translate russian story7_ae8f0180:
 
     # ame "ＤＤＤＤＤ！\nそんなイギリスの\nファンタジーみたいな薬\n作れるわけないんだぞ！" id story7_ae8f0180
-    ame "DDDDD! \nДа ты ваще никак не мог создать такое „лекарство“, такое разве что только в британских фантастических романах!" id story7_ae8f0180
+    ame "DDDDD!\n Да ты ваще никак не мог создать такое „лекарство“, это похоже на то, что Англия мог бы придумать в одной из своих фантазий!" id story7_ae8f0180
 
 # game/scenario/7story.rpy:553
 translate russian story7_f01bac54:
@@ -501,7 +501,7 @@ translate russian story7_a545eee0:
 translate russian story7_c516660c:
 
     # ger "思い出せ！今まで\n「よくわからないけど\n　すごいものが出来たよー！」\nという事が何度あった！？" id story7_c516660c
-    ger "Вспомните! \nКак много раз до этого он говорил:\n„Я не совсем понял, но сделал что-то потрясающее!“?!" id story7_c516660c
+    ger "Вспомните! \nКак много раз до этого он говорил: \n„Я не совсем понял, но сделал что-то потрясающее!“?!" id story7_c516660c
 
 # game/scenario/7story.rpy:592
 translate russian story7_6208f4e2:
@@ -543,7 +543,7 @@ translate russian story7_3bf446ee:
 translate russian story7_7a388682:
 
     # extend "\n…ドアノブつめたっ！" id story7_7a388682
-    extend "\n...Ручка застряла!" id story7_7a388682
+    extend "\n...Ручка заледенела!" id story7_7a388682
 
 # game/scenario/7story.rpy:656
 translate russian story7_e767e6e2:
@@ -592,7 +592,7 @@ translate russian story7_98c5cd80:
 translate russian story7_e50d5526:
 
     # rus "大丈夫。\n僕は怖くないよ？" id story7_e50d5526
-    rus "Все будет хорошо. \nЯ не боюсь, видишь?" id story7_e50d5526
+    rus "Всё в порядке. \nВы же знаете, я не страшный." id story7_e50d5526
 
 # game/scenario/7story.rpy:751
 translate russian stophim_a4c8c443:
@@ -610,7 +610,7 @@ translate russian stophim_109c1aca:
 translate russian stophim_5102abb4:
 
     # bul "（まあ俺とロシアさんって\n　なかよし！とは言えないまでも\n　他のヨーロッパの国よりは\n　仲が良好な方だと思うから\n　こんな事をしても多分\n　それほどひどい事には\n　ならないはずなんだわー！）" id stophim_5102abb4
-    bul "(Ну, я не могу сказать, что Россия и я – близкие друзья, но даже так, в сравнении с другими странами Европы, наши отношения с ним не так уж плохи, так что даже если я выкину че нить такое, ничего ужасного не случиться!)" id stophim_5102abb4
+    bul "(Ну, я не могу сказать, что Россия и я - близкие друзья, но даже так, в сравнении с другими странами Европы, наши отношения с ним не так уж плохи, так что даже если я выкину че нить такое, ничего ужасного не случиться!)" id stophim_5102abb4
 
 # game/scenario/7story.rpy:776
 translate russian stophim_8a71a952:
@@ -640,7 +640,7 @@ translate russian stophim_6775b8a1:
 translate russian stophim_1321376f:
 
     # rus "え…。君がみんなの\n盾になるっていうの\nブルガリア君？" id stophim_1321376f
-    rus "Э...Так ты станешь щитом для всех, Болгария?" id stophim_1321376f
+    rus "Э...Так ты станешь щитом для всех, Боличка?" id stophim_1321376f
 
 # game/scenario/7story.rpy:804
 translate russian stophim_fd42778c:
@@ -688,7 +688,7 @@ translate russian stophim_0b8ee69b:
 translate russian stophim_2ab3c212:
 
     # na "全てそこそこほどほどに\n綺麗にまとまる！　　　　…はずだった。" id stophim_2ab3c212
-    na "Всё закончилось довольно неплохо！\n        ...или же так всё должно было быть." id stophim_2ab3c212
+    na "Всё закончилось довольно неплохо!\n        ...или же так всё должно было быть." id stophim_2ab3c212
 
 # game/scenario/7story.rpy:844
 translate russian stophim_e7131160:
@@ -718,7 +718,7 @@ translate russian stophim_b286e950:
 translate russian stophim_886905b6:
 
     # rus "おはようブルガリア君！\n君の英雄的行為\nかっこよかったよ" id stophim_886905b6
-    rus "Доброе утро, Болгария! Твой героизм был крут." id stophim_886905b6
+    rus "Доброе утро, Боля! Твой героизм был крут." id stophim_886905b6
 
 # game/scenario/7story.rpy:875
 translate russian stophim_c6628b52:
@@ -754,7 +754,7 @@ translate russian stophim_782d8e5b:
 translate russian stophim_e61ef841:
 
     # rus "しょうがないよ\nこういう役回りの子が\n出るのが伝統だもの" id stophim_e61ef841
-    rus "В конце концов, это традиция. Кто-то всегда должен играть такую роль." id stophim_e61ef841
+    rus "Кто-то всегда должен взять на себя такую роль. В конце концов, это уже стало традицией." id stophim_e61ef841
 
 # game/scenario/7story.rpy:903
 translate russian stophim_00738668:
@@ -784,7 +784,7 @@ translate russian stophim_dbc52dbc:
 translate russian stophim_d118f906:
 
     # rus "目立てて\n良かったね♪" id stophim_d118f906
-    rus "Я рад, что тебе удалось выделиться, хах♪" id stophim_d118f906
+    rus "Я рад, что тебе удалось выделиться~♪" id stophim_d118f906
 
 # game/scenario/7story.rpy:929
 translate russian stophim_6cb88e8b:
@@ -877,7 +877,7 @@ translate russian donothing_427f0b6c:
 
     # rus "だって多少時代背景や\n舞台設定に無理があっても\n何が何でも僕を黒幕\nしたがるじゃない…。{nw=5.0}" id donothing_427f0b6c
     $ rus.screen = 'left_4long'
-    rus "Потому что даже когда это не вписывается в исторический контекст или обстановку рассказа, ты всегда настаиваешь на том, чтобы сделать меня злодейским вдохновителем...{nw=1.5}" id donothing_427f0b6c
+    rus "Потому что даже когда это не вписывается в исторический контекст или обстановку рассказа, ты всегда настаиваешь на том, чтобы сделать меня главным злодеем...{nw=1.5}" id donothing_427f0b6c
 
 # game/scenario/7story.rpy:1064
 translate russian donothing_049c45b4:
@@ -895,13 +895,13 @@ translate russian donothing_cea25ed6:
 translate russian donothing_b92b412d:
 
     # rus "そうかなぁ。\n君よりはクリーンなつもりだよ？\nだって何が起こっても\n背後は僕！って言われるじゃない。{nw=5.0}" id donothing_b92b412d
-    rus "Вот как? \nЯ думаю, что я более честный, чем ты, ты же знаешь? В конце концов, что бы ни случилось, все говорят, что это я за этим стою.{nw=2.1}" id donothing_b92b412d
+    rus "Вот как? \nЯ думаю, что я более честный, чем ты, разве не так? В конце концов, что бы ни случилось, все говорят, что это я за всем стою.{nw=2.1}" id donothing_b92b412d
 
 # game/scenario/7story.rpy:1076
 translate russian donothing_9f34fc55:
 
     # rus "…まあその通りなんだけど。\nそれってとってもわかりやすくて\nみんなから見えてるわけだから\n陰謀や黒幕とは言えないよ。{nw=5.0}" id donothing_9f34fc55
-    rus "...ну, вот так вот. \nНо поскольку это так очевидно и каждый может это предсказать, их нельзя назвать интригами или гениальными планами.{nw=2.5}" id donothing_9f34fc55
+    rus "...Ну, вот так вот. \nНо поскольку это абсолютно очевидно и предсказуемо, такое нельзя назвать интригами или гениальными планами.{nw=2.5}" id donothing_9f34fc55
 
 # game/scenario/7story.rpy:1080
 translate russian donothing_d19cefa0:
@@ -932,7 +932,7 @@ translate russian donothing_780e2b04:
 translate russian donothing_158654f4:
 
     # rus "フランス君ほどとは\n言わないけどひねろうよ。\nスペイン君みたいに\n最後の５分で暴走するのも良いね。{nw=5.0}" id donothing_158654f4
-    rus "Не увлекайтесь, как Франция, а постарайтесь внести в сюжет неожиданный поворот. Было бы славно разгуляться в последние пять минут, как это делает Испания.{nw=3}" id donothing_158654f4
+    rus "Не увлекайся, как Франция, а постарайся внести в сюжет неожиданный поворот. Было бы славно разгуляться в последние пять минут, как это делает Испания.{nw=3}" id donothing_158654f4
 
 # game/scenario/7story.rpy:1098
 translate russian donothing_820f8046:
@@ -956,7 +956,7 @@ translate russian strings:
 
     # game/scenario/7story.rpy:732
     old "成り行きに任せる"
-    new "Пусть всё идёт своим чередом"
+    new "Пусть всё идёт своим чередом."
 
     # game/scenario/7story.rpy:732
     old "俺が止める！！"

@@ -116,9 +116,10 @@ screen game_menu(title):
             xpos 700
             ypos 432
             idle "gui/menu_game/5mainmenu.png"
+            action MainMenu(confirm=True, save=False)
             if not renpy.variant("mobile"):
                 at menu_hover_float
-            action MainMenu(confirm=True, save=False)
+            
 
         imagebutton:
             xalign 0.0
@@ -126,11 +127,11 @@ screen game_menu(title):
             idle "gui/menu_game/6help.png"
             if not renpy.variant("mobile"):
                 at menu_hover_float
-                action [
-                    Hide(current_tab_screen) if current_tab_screen else NullAction(),
-                    SetVariable("current_tab_screen", None),
-                    ShowMenu("menu_open2")
-                ]
+            action [
+                Hide(current_tab_screen) if current_tab_screen else NullAction(),
+                SetVariable("current_tab_screen", None),
+                ShowMenu("menu_open2")
+            ]
             
 
 

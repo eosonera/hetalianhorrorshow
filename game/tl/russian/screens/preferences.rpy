@@ -36,19 +36,23 @@ translate russian strings:
 
     # game/screens/preferences.rpy:165
     old "MS P明朝"
-    new "MS P Минчо"
+    new "MS P Mincho"
 
     # game/screens/preferences.rpy:165
     old "MS Pゴシック"
     new "MS P Gothic"
 
+    # game/screens/preferences.rpy:155
+    old "游ゴシック Light"
+    new "Yu Gothic Light"
+
     # game/screens/preferences.rpy:165
     old "MS 明朝"
-    new "MS Минчо"
+    new "MS Mincho"
 
     # game/screens/preferences.rpy:165
     old "BIZ UD明朝 Medium"
-    new "BIZ UDМинчо Medium"
+    new "BIZ UDMincho Medium"
 
     # game/screens/preferences.rpy:165
     old "BIZ UDゴシック"
@@ -56,7 +60,7 @@ translate russian strings:
 
     # game/screens/preferences.rpy:165
     old "BIZ UDP明朝 Medium"
-    new "BIZ UDP Минчо Medium"
+    new "BIZ UDP Mincho Medium"
 
     # game/screens/preferences.rpy:165
     old "BIZ UDPゴシック"
@@ -64,7 +68,7 @@ translate russian strings:
 
     # game/screens/preferences.rpy:165
     old "メイリオ"
-    new "Мейрио"
+    new "Meiryo"
 
     # game/screens/preferences.rpy:165
     old "Meiryo UI"
@@ -100,45 +104,49 @@ translate russian strings:
 
     # game/screens/preferences.rpy:155
     old "UD デジタル 教科書体 N-B"
-    new "UD Цифровой Кёкашо N-B"
+    new "UD Digital Kyokasho N-B"
 
     # game/screens/preferences.rpy:155
     old "UD デジタル 教科書体 NK-B"
-    new "UD Цифровой Кёкашо NK-B"
+    new "UD Digital Kyokasho NK-B"
 
     # game/screens/preferences.rpy:155
     old "UD デジタル 教科書体 NK-R"
-    new "UD Цифровой Кёкашо NK-R"
+    new "UD Digital Kyokasho NK-R"
 
     # game/screens/preferences.rpy:155
     old "UD デジタル 教科書体 NP-B"
-    new "UD Цифровой Кёкашо NP-B"
+    new "UD Digital Kyokasho NP-B"
 
     # game/screens/preferences.rpy:155
     old "UD デジタル 教科書体 NP-R"
-    new "UD Цифровой Кёкашо NP-R"
+    new "UD Digital Kyokasho NP-R"
 
     # game/screens/preferences.rpy:155
     old "UD デジタル 教科書体 N-R"
-    new "UD Цифровой Кёкашо N-R"
+    new "UD Digital Kyokasho N-R"
 
     # game/screens/preferences.rpy:165
     old "游明朝"
-    new "Ю Минчо"
+    new "Yu Mincho"
 
     # game/screens/preferences.rpy:165
     old "游明朝 Demibold"
-    new "Ю Минчо Demibold"
+    new "Yu Mincho Demibold"
 
     # game/screens/preferences.rpy:165
     old "游明朝 Light"
-    new "Ю Минчо Light"
+    new "Yu Mincho Light"
 
     # game/screens/preferences.rpy:165
     old "游ゴシック Medium"
-    new "Ю Gothic Medium"
+    new "Yu Gothic Medium"
 
     # game/screens/preferences.rpy:165
     old "Yu Gothic UI Semibold"
     new "Yu Gothic UI Semibold"
+
+    # game/screens/preferences.rpy:165
+    old "游ゴシック"
+    new "Yu Gothic"
 

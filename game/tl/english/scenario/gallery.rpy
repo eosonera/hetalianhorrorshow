@@ -10,7 +10,7 @@ translate english gallery_840ee7e0:
 translate english gallery_e2430e66:
 
     # gal "おまけ\n目隠しなしのア○ロダイテ・ジョーンズ\nベ○グリルスとジェレ○ーウェイド。"
-    gal "Bonus\nAphr*dite Jones, Jer*my Wade,\nand Bear Gr*lls without censor bars."
+    gal "Bonus\nAphr*dite Jones, Jer*my Wade,\nand Bear Gr*lls without their eyes covered."
 
 # game/scenario/gallery.rpy:58
 translate english gallery_7f7c0376:

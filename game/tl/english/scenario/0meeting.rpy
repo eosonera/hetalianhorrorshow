@@ -16,7 +16,7 @@ translate english meeting_f770514f:
 translate english meeting_d12d006f:
 
     # story "ＷＷ２で木の枝でつつく以外にも\nわりかし何やってんだお前って\n行動してたのは国内がバラバラだったから、\nしょーがねーんだわ…。"
-    story "Besides poking people with sticks, there were a lot of 'what are you even doing?!' moments during WWII, but the whole country was in disarray, so that's just how it was..."
+    story "Besides poking people with sticks, there were a lot of ‘what are you even doing?!’ moments during WWII, but the whole country was in disarray, so that's just how it was..."
 
 # game/scenario/0meeting.rpy:21
 translate english meeting_76b2fe88:
@@ -58,7 +58,7 @@ translate english meeting_26cd72cd:
 translate english meeting_105c1e3d:
 
     # story "つまり怖い話の最中、\nイギ太郎が何かを召還しても、\nアメ助が怪力を振るおうと、\n俺の命は保証されている。…はず。"
-    story "In other words, I should be safe even if Eng-bert summons something or Ameri-bob brandishes his super-strength at me while we're in the middle of telling our scary stories. \n...Maybe."
+    story "In other words, I should be safe even if Eng-bert summons something or Ameri-bob brandishes his super-strength while we're in the middle of telling our scary stories. \n...Maybe."
 
 # game/scenario/0meeting.rpy:49
 translate english meeting_fe4be6ef:
@@ -144,7 +144,7 @@ translate english meeting_67061957:
 translate english meeting_ac6e7fc8:
 
     # jpn "失礼します。\nおやブルガリアさん。\nもう来てらしたんですか。"
-    jpn "Excuse me. \nAh, Mr. Bulgaria. \nYou're already here?"
+    jpn "Excuse me. \nAh, Bulgaria-san. \nYou're already here?"
 
 # game/scenario/0meeting.rpy:143
 translate english meeting_ae0e0230:
@@ -176,7 +176,7 @@ translate english meeting_2c8beb39:
 translate english meeting_d497e58c:
 
     # jpn "こんにちはイギリスさん。\nこれは…、なんとも\n可愛らしい絵ですね。"
-    jpn "Hello, Mr. England. \nThose are... quite adorable drawings, aren't they?"
+    jpn "Hello, England-san. \nThose are... quite adorable drawings, aren't they?"
 
 # game/scenario/0meeting.rpy:161
 translate english meeting_1049dc72:
@@ -194,7 +194,7 @@ translate english meeting_f507db78:
 translate english meeting_a2386473:
 
     # jpn "ああ、ドイツさん\nこんにち…"
-    jpn "Ah, hello, Mr. Ger..."
+    jpn "Ah, hello, Germany-sa..."
 
 # game/scenario/0meeting.rpy:190
 translate english meeting_aa6f5c9e:
@@ -311,7 +311,7 @@ translate english meeting_25982e53:
 translate english meeting_ba69b9b0:
 
     # jpn "はっ、アメリカさん！\nどうもこんにち……"
-    jpn "Ah, Mr. America! \nHello th..."
+    jpn "Ah, America-san! \nHello th..."
 
 # game/scenario/0meeting.rpy:291
 translate english meeting_cfbaf66c:
@@ -383,7 +383,7 @@ translate english meeting_6c742b57:
 translate english meeting_edb082a2:
 
     # ame "今日はありがとう。{nw=1}"
-    ame "That's all for now, thanks.{nw=1}"
+    ame "Thanks for coming today.{nw=1}"
 
 # game/scenario/0meeting.rpy:382
 translate english meeting_c494b965:

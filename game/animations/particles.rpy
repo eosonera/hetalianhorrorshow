@@ -132,9 +132,9 @@ init python:
             xspawn=(0, 800),     # spawn x-range
             yspawn=(400, 450),   # spawn y-range
             ybottom=None):       # optional bottom boundary
-        """
-        Creates a river effect using particles with x/y spawn ranges and bottom boundary.
-        """
+        
+        #Creates a river effect using particles with x/y spawn ranges and bottom boundary.
+        
         return Particles(RiverFactory(image=d,
                                     count=count,
                                     border=border,
@@ -348,10 +348,10 @@ init python:
                 start=0,
                 fast=False,
                 center=None):
-        """
-        Radiates particles outward from the center.
-        `d` - particle sprite (spark, dust puff, etc.)
-        """
+
+        # Radiates particles outward from the center.
+        # `d` - particle sprite (spark, dust puff, etc.)
+
         return Particles(RadiateFactory(image=d,
                                         count=count,
                                         speed=speed,

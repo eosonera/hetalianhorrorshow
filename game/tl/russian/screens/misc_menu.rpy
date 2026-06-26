@@ -1,14 +1,4 @@
-﻿# TODO: Translation updated at 2025-12-18 14:20
-
-translate russian strings:
-
-    # game/screens/misc_menu.rpy:8
-    old "Language"
-    new ""
-
-    # game/screens/misc_menu.rpy:72
-    old "Preferences"
-    new ""
+﻿translate russian strings:
 
     # game/screens/misc_menu.rpy:105
     old "ディスプレイ"
@@ -39,16 +29,28 @@ translate russian strings:
     new "Переходов"
 
     # game/screens/misc_menu.rpy:128
-    old "Save game names"
+    old "セーブメモ"
     new "Название сохраненных игр?"
+
+    # game/screens/misc_menu.rpy:168
+    old "セーブプレビュー"
+    new "Показывать миниатюры сохранений"
+
+    # game/screens/misc_menu.rpy:242
+    old "全ての永続データを削除する"
+    new "УДАЛИТЬ ВСЕ СОХРАНЯЕМЫЕ ДАННЫЕ"
+
+    # game/screens/misc_menu.rpy:122
+    old "全ての永続データを削除してもよろしいですか？\nこれによりゲームが初期状態にリセットされ、\nこの操作は元に戻せません。"
+    new "Вы уверены, что хотите удалить все постоянные данные? \nЭто приведет к сбросу настроек игры до значений по умолчанию, и данное действие нельзя будет отменить."
+
+    # game/screens/misc_menu.rpy:242
+    old "全てのセーブデータを削除"
+    new "УДАЛИТЬ ВСЕ СОХРАНЕННЫЕ ДАННЫЕ"
 
     # game/screens/misc_menu.rpy:135
     old "全てのセーブデータを消去しますか？"
     new "Удалить все сохраненные данные?"
-
-    # game/screens/misc_menu.rpy:155
-    old "About"
-    new ""
 
     # game/screens/misc_menu.rpy:184
     old "[config.name!t] remake"
@@ -59,12 +61,12 @@ translate russian strings:
     new "Версия [config.version!t]"
 
     # game/screens/misc_menu.rpy:186
-    old "Full fan remake and translation of The Hetalian Horror Show by the hetascanlations team."
-    new "Полная фанатская переработка и перевод игры «The Hetalian Horror Show» от команды hetascanlations."
+    old "hetascanlationsチームによる『The Hetalian Horror Show』の完全ファンリメイクおよび翻訳版。"
+    new "Полный фанатский ремейк и перевод игры «The Hetalian Horror Show» от команды hetascanlations."
 
     # game/screens/misc_menu.rpy:191
-    old "クレジット"
-    new "Кредиты"
+    old "リメイク版クレジット"
+    new "Над ремейком работали"
 
     # game/screens/misc_menu.rpy:194
     old "制作"
@@ -214,6 +216,10 @@ translate russian strings:
     old "On"
     new "Вкл"
 
+    # game/screens/misc_menu.rpy:130
+    old "Off"
+    new "Выкл"
+
     # game/screens/misc_menu.rpy:138
     old "未読テキストもスキップ"
     new "Пропустить непрочитанный текст"
@@ -222,23 +228,27 @@ translate russian strings:
     old "選択肢の後もスキップ継続"
     new "Продолжайте пропускать варианты после выбора"
 
-    # game/screens/misc_menu.rpy:158
-    old "DELETE ALL SAVE DATA"
-    new ""
-
     # game/screens/misc_menu.rpy:225
-    old "English translation"
-    new ""
+    old "英語訳"
+    new "Перевод на английский"
 
     # game/screens/misc_menu.rpy:229
-    old "Special thanks to"
-    new ""
-
-    # game/screens/misc_menu.rpy:442
-    old "Menu"
-    new ""
+    old "特別なお礼"
+    new "Особые благодарности"
 
     # game/screens/misc_menu.rpy:501
-    old "Made with {a=https://ja.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
-    new ""
+    old "{a=https://ja.renpy.org/}Ren'Py{/a} を使用して作成 [renpy.version_only].\n\n[renpy.license!t]"
+    new "Создано с помощью {a=https://renpy.org/}Ren'Py [renpy.version_only].\n\n[renpy.license!t]"
+
+    # game/screens/misc_menu.rpy:339
+    old "ロシア語訳"
+    new "Перевод на русский"
+
+    # game/screens/misc_menu.rpy:343
+    old "以前の英語訳"
+    new "Предыдущий перевод на английский"
+
+    # game/screens/misc_menu.rpy:348
+    old "Renpyコード"
+    new "Написание кода для Renpy"
 

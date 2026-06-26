@@ -2,17 +2,13 @@
 
 translate english strings:
 
-    # game/screens/misc_menu.rpy:114
+    # game/screens/misc_menu.rpy:143
     old "セーブメモ"
     new "Save game names"
 
-    # game/screens/misc_menu.rpy:8
-    old "Language"
-    new "Language"
-
-    # game/screens/misc_menu.rpy:65
-    old "Preferences"
-    new "Preferences"
+    # game/screens/misc_menu.rpy:168
+    old "セーブプレビュー"
+    new "Show save thumbnails"
 
     # game/screens/misc_menu.rpy:91
     old "ディスプレイ"
@@ -34,9 +30,21 @@ translate english strings:
     old "選択肢の後もスキップ継続"
     new "Keep skipping after choices"
 
-    # game/screens/misc_menu.rpy:122
+    # game/screens/misc_menu.rpy:245
+    old "全ての永続データを削除する"
+    new "DELETE ALL PERSISTENT DATA"
+
+    # game/screens/misc_menu.rpy:246
+    old "全ての永続データを削除してもよろしいですか？\nこれによりゲームが初期状態にリセットされ、\nこの操作は元に戻せません。"
+    new "Are you sure you want to delete all persistent data? \nThis will reset the game to its default state and \ncannot be undone."
+
+    # game/screens/misc_menu.rpy:248
+    old "全てのセーブデータを削除"
+    new "DELETE ALL SAVE DATA"
+
+    # game/screens/misc_menu.rpy:249
     old "全てのセーブデータを消去しますか？"
-    new "Are you sure you want to delete all saves?"
+    new "Are you sure you want to delete all save data?"
 
     # game/screens/misc_menu.rpy:142
     old "About"
@@ -51,12 +59,12 @@ translate english strings:
     new "Version [config.version!t]"
 
     # game/screens/misc_menu.rpy:173
-    old "Full fan remake and translation of The Hetalian Horror Show by the hetascanlations team."
+    old "hetascanlationsチームによる『The Hetalian Horror Show』の完全ファンリメイクおよび翻訳版。"
     new "Full fan remake and translation of The Hetalian Horror Show by the hetascanlations team."
 
     # game/screens/misc_menu.rpy:178
-    old "クレジット"
-    new "Credits"
+    old "リメイク版クレジット"
+    new "Remake credits"
 
     # game/screens/misc_menu.rpy:181
     old "制作"
@@ -199,39 +207,31 @@ translate english strings:
     new "Calibrate"
 
     # game/screens/misc_menu.rpy:445
-    old "Made with {a=https://ja.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
+    old "{a=https://ja.renpy.org/}Ren'Py{/a} を使用して作成 [renpy.version_only].\n\n[renpy.license!t]"
     new "Made with {a=https://renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]"
 
-# TODO: Translation updated at 2026-04-01 13:23
-
-translate english strings:
-
     # game/screens/misc_menu.rpy:207
-    old "English translation"
+    old "英語訳"
     new "English translation"
-
-# TODO: Translation updated at 2026-04-11 21:33
-
-translate english strings:
 
     # game/screens/misc_menu.rpy:130
     old "On"
     new "On"
 
-    # game/screens/misc_menu.rpy:158
-    old "DELETE ALL SAVE DATA"
-    new "DELETE ALL SAVE DATA"
-
     # game/screens/misc_menu.rpy:230
-    old "Russian translation"
+    old "ロシア語訳"
     new "Russian translation"
 
     # game/screens/misc_menu.rpy:234
-    old "Previous English translation"
+    old "以前の英語訳"
     new "Previous English translation"
 
     # game/screens/misc_menu.rpy:238
-    old "Special thanks to"
+    old "Renpyコード"
+    new "Renpy code"
+
+    # game/screens/misc_menu.rpy:238
+    old "特別なお礼"
     new "Special thanks to"
 
     # game/screens/misc_menu.rpy:451

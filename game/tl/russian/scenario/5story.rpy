@@ -34,20 +34,20 @@ translate russian story5_76b2fe88_1:
 translate russian story5_c078f8b7:
 
     # story "あの日はフランスが押し付けてきた\n謎のきのこの調理法に頭を抱えていた。" id story5_c078f8b7
-    story "В тот день я ломал голову над загадочным рецептом грибного блюда, который мне навязала Франция." id story5_c078f8b7
+    story "В тот день я ломал голову над загадочным рецептом грибного блюда, который мне навязал Франция." id story5_c078f8b7
 
 # game/scenario/5story.rpy:30
 translate russian story5_7c1520e6:
 
     # story "冷蔵庫に放置しようものなら\n\n「あっ、ごめんごめーん。\n　今度はもっと料理初心者にも\n　優しい高級食材持ってくるからー\n　調理器具もー。子供用のほしいー？」" id story5_7c1520e6
-    story "Если бы я проигнорировала это и оставила записку на холодильнике,{nw}"
+    story "Проигнорируй я ту записку на холодильнике, он, конечно же, потом сказал бы что-то вроде:{nw}"
     story_indent "«Ах, извини-извини. В следующий раз принесу тебе лучшие ингредиенты для новичков, которые легче приготовить и кухонную утварь, в том числе. Может быть хочешь что-то для мелких детишек?»" id story5_7c1520e6
 
 # game/scenario/5story.rpy:31
 translate russian story5_6a3cf795:
 
     # story "なんて満面のしたり顔で\n行ってくるに違いない…！" id story5_6a3cf795
-    story "— вот что он, вероятно, сказал бы, когда вернулся, с самодовольной улыбкой на лице...!" id story5_6a3cf795
+    story "Да ещё и самодовольно ухмыляясь...!" id story5_6a3cf795
 
 # game/scenario/5story.rpy:32
 translate russian story5_76b2fe88_2:
@@ -156,7 +156,7 @@ translate russian story5_274d4766:
 
     # bul "幽霊唐突すぎる！" id story5_274d4766
     $ bul.screen = 'left_3'
-    bul "Призрак появился слишком внезапно!" id story5_274d4766
+    bul "Призрак - это слишком внезапно!" id story5_274d4766
 
 # game/scenario/5story.rpy:110
 translate russian story5_343eeea9:
@@ -249,7 +249,7 @@ translate russian story5_7c8ffea7:
 translate russian story5_e134b004:
 
     # ame "Ｇｒｅａｔ！\nチュロス！\nチュロスじゃないか！\n俺は君に会いたかった！" id story5_e134b004
-    ame "Great! \nЧуррос!\nЧуррос уже здесь!\nЯ скучал по тебе, чуррос!" id story5_e134b004
+    ame "Great! \nЧуррос! \nЭто же чуррос! \nЯ так ждал тебя!" id story5_e134b004
 
 # TODO: Translation updated at 2026-04-01 14:33
 

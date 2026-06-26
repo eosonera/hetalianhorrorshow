@@ -6,6 +6,13 @@
 
 ## Save game names based on BadMustard's code: https://www.badmustard.itch.io/renpy-save-game-names
 
+if renpy.variant("pc") or renpy.variant("web"):
+    default persistent.saveName = True
+    default persistent.savePreview = True
+else:
+    default persistent.saveName = False
+    default persistent.savePreview = False
+
 screen save():
     if gamemenu_open:
         modal False
@@ -32,6 +39,8 @@ screen file_slots(title):
         modal False
     else:
         modal True
+
+    on "show" action [Function(invalidate_preview_cache), Function(build_slot_cache)]
     
     button:
         if main_menu:
@@ -64,20 +73,31 @@ screen file_slots(title):
             vbox:
                 spacing 0
 
+                $ is_load = bool(renpy.get_screen("load"))
+                $ use_save_name = (renpy.variant("pc") or renpy.variant("web")) and persistent.saveName
+                $ show_save_preview = (renpy.variant("pc") or renpy.variant("web")) and persistent.savePreview
+
                 for slot in range(1, file_slot_rows + 1):
+
+                    $ d = _slot_data_cache.get(slot, {
+                        "time": "--/-- --:--",
+                        "name": 27*'-',
+                        "newest": False,
+                        "loadable": False,
+                    })
 
                     button:
                         ysize 25
                         xsize 460
-                        hovered ShowTransient("dynamic_preview", what=get_save_preview(slot))
-                        unhovered Hide("dynamic_preview")
-                        if renpy.get_screen("load"):
+                        hovered (ShowTransient("dynamic_preview", what=_preview_cache.get(slot)) if show_save_preview else None)
+                        unhovered (Hide("dynamic_preview") if show_save_preview else None)
+                        if is_load:
                             hover_background Solid("#c4e9ff80")
                         else:
                             hover_background Solid("#baffe480")
                         
 
-                        if renpy.get_screen("save") and persistent.saveName:
+                        if renpy.get_screen("save") and use_save_name:
                             action [Function(SetSaveName, slot), Show("savegameName", slot=slot, accept=FileSave(slot))]
                         elif renpy.get_screen("load") and FileLoadable(slot):
                             action Show("confirm",
@@ -85,10 +105,16 @@ screen file_slots(title):
                             yes_action=FileLoad(slot, confirm=False), no_action=Hide("confirm"))
 
                         else:
-                            action [Function(SetSaveName, slot), FileAction(slot)]
+                            action [
+                                Function(SetSaveName, slot),
+                                FileSave(slot),
+                                Function(invalidate_preview_cache, slot),
+                                Function(build_slot_cache),
+                            ]
+
 
                         hbox:
-                            if FileNewest(slot):
+                            if d["newest"]:
                                 frame:
                                     xsize 32
                                     yoffset -6
@@ -101,27 +127,29 @@ screen file_slots(title):
                             null width 2
 
                             text "[slot:02d].":
-                                if renpy.get_screen("load"):
+                                if is_load:
                                     style "slot_load_text"
                                 else:
                                     style "slot_save_text"
                             
                             null width 7
 
-                            $ file_time = FileTime(slot, format=_("%m/%d  %H:%M"), empty="--/--  --:--") or "--/-- --:--"
+                            $ file_time = d["time"]
                             text "[file_time]":
-                                if renpy.get_screen("load"):
+                                if is_load:
                                     style "slot_load_text"
                                 else:
                                     style "slot_save_text"
 
                             null width 25
                             
-                            text FileJson(slot, key="_save_name", empty=27*'-'):
-                                if renpy.get_screen("load"):
+                            $ slot_name = d["name"]
+                            text "[slot_name]":
+                                if is_load:
                                     style "slot_load_text"
                                 else:
                                     style "slot_save_text"
+                                    
         vbar value YScrollValue("saveload_viewport") style 'slot_vscrollbar' keyboard_focus False:
             xpos 696
             ypos 243
@@ -160,6 +188,18 @@ screen savegameName(slot, accept=NullAction()):
             xalign 0.5
             
 
+    hbox:
+        xpos 307
+        ypos 315  
+        spacing 11
+        textbutton _("OK"):
+            action [accept, Function(invalidate_preview_cache, slot), Function(build_slot_cache), Hide("savegameName")]
+            keyboard_focus False
+
+        textbutton _("キャンセル"):
+            action Hide("savegameName")
+            keyboard_focus False
+
     frame:
         xpos 292
         ypos 289
@@ -189,24 +229,20 @@ screen savegameName(slot, accept=NullAction()):
             xalign 0.0
             xsize None
             color "#000"
+            
 
-    timer 0.05 repeat True action Function(scroll_input_with_caret)
 
-    hbox:
-        xpos 307
-        ypos 315  
-        spacing 11
-        textbutton _("OK"):
-            action [accept, Hide("savegameName")]
-
-        textbutton _("キャンセル"):
-            action Hide("savegameName")
 
 
 ## Styles
 
 style confirm_input_button is confirm_button
 style confirm_input_button_text is confirm_button_text
+style confirm_input_button:
+    background "gui/button/confirm_button_0.png"
+    hover_background "gui/button/confirm_button_1.png"
+    keyboard_focus False
+
 style confirm_input_prompt_text is confirm_prompt_text
 style confirm_input_prompt_text:
     color "#000"
@@ -248,6 +284,9 @@ define chars_in_savename = 13
 init python:
     import string
 
+    # Save game names
+
+    # Get last textline and clean
     def get_last_textline():
         cleaned = renpy.filter_text_tags(store._last_raw_what, allow=[])
         cleaned = cleaned.strip()
@@ -255,13 +294,7 @@ init python:
         cleaned = cleaned[:chars_in_savename]
         return cleaned
 
-    def get_save_preview(slot):
-        if FileLoadable(slot):
-            preview = FileScreenshot(slot)
-            return TrackCursor(preview)
-        else:
-            return None
-
+    # Set save name
     def SetSaveName(slot):
         Namer(FileSaveName(slot))
     def Namer(name):
@@ -271,6 +304,7 @@ init python:
             store.save_name = get_last_textline()
 
 init python:
+    # Caret scroll
     def scroll_input_with_caret(new_text=None):
         if new_text is not None:
             Namer(new_text)
@@ -294,6 +328,43 @@ init python:
         elif caret_px > current_scroll + vp_width - avg_char_width:
             viewport_disp.xadjustment.value = caret_px - vp_width + avg_char_width + 10
 
+init python:
+    # Save preview
+    _preview_cache = {}
+
+    def get_save_preview(slot):
+        if slot not in _preview_cache:
+            if FileLoadable(slot):
+                _preview_cache[slot] = TrackCursor(FileScreenshot(slot))
+            else:
+                _preview_cache[slot] = None
+        return _preview_cache[slot]
+
+    def invalidate_preview_cache(slot=None):
+        if slot is None:
+            _preview_cache.clear()
+        else:
+            _preview_cache.pop(slot, None)
+
+    _slot_data_cache = {}
+
+    def build_slot_cache():
+        _slot_data_cache.clear()
+        _preview_cache.clear()
+        for slot in range(1, file_slot_rows + 1):
+            loadable = FileLoadable(slot)
+            _slot_data_cache[slot] = {
+                "time":     FileTime(slot, format=_("%m/%d  %H:%M"), empty="--/--  --:--") or "--/-- --:--",
+                "name":     FileJson(slot, key="_save_name", empty=27*'-'),
+                "newest":   FileNewest(slot),
+                "loadable": loadable,
+            }
+            if loadable:
+                _preview_cache[slot] = TrackCursor(FileScreenshot(slot))
+            else:
+                _preview_cache[slot] = None
+
+
 
 init python:
 
@@ -303,6 +374,7 @@ init python:
             self.child = renpy.displayable(child)
             self.x = None
             self.y = None
+            self._last_redraw = 0
 
         def render(self, width, height, st, at):
             rv = renpy.Render(width, height)
@@ -316,6 +388,9 @@ init python:
             if (x != self.x) or (y != self.y):
                 self.x = x
                 self.y = y
-                renpy.redraw(self, 0)
+                # Redraw screenshot every 60 fps
+                if st - self._last_redraw > 0.016:
+                    self._last_redraw = st
+                    renpy.redraw(self, 0)
 
 

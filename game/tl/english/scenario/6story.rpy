@@ -104,7 +104,7 @@ translate english story6_445852eb:
     # nvl clear
     # story "まあ可愛らしい！そう思ったワンさんは\n絵葉書を買ったろう思たんやって。"
     nvl clear
-    story "‘Well now, ain't that just adorable!' Thought Mr. Wang, so he figured he'd go ahead and buy a postcard."
+    story "‘Well now, ain't that just adorable!’ Thought Mr. Wang, so he figured he'd go ahead and buy a postcard."
 
 # game/scenario/6story.rpy:60
 translate english story6_5eadaa5d:
@@ -178,7 +178,7 @@ translate english story6_94b3a7cf:
 translate english story6_9cde0fcb:
 
     # story "ガキがジャンプしたか思うと\nワンさんの財布に入っとった\n１００ユーロ札ばっかわっしと掴むと\n猛ダッシュしよった！"
-    story "The rascal jumped up, grabbed a 100-euro bill out from Mr. Wang’s wallet, and hightailed it outta there!"
+    story "The rascal jumped up, grabbed a 100-euro note out from Mr. Wang’s wallet, and hightailed it outta there!"
 
 # game/scenario/6story.rpy:99
 translate english story6_76b2fe88_6:
@@ -418,7 +418,7 @@ translate english story6_a7e65f28:
     # nvl clear
     # story "短時間に二回も被害にあってねんで！\nもっと緊迫感もてや！なんて思うたんかしらんけど\nワンさんはちょいイラついた声で急かしたん。"
     nvl clear
-    story "‘I'd been hit with two incidents back-to-back! Show some urgency!' I dunno if that's what he was thinkin' or what, but Mr. Wang's impatient tone urged as much."
+    story "Now I dunno if he was thinkin', ‘I've been hit with two incidents back-to-back! Show some urgency!’ or what, but Mr. Wang's impatient tone urged as much."
 
 # game/scenario/6story.rpy:205
 translate english story6_c7c76c50:

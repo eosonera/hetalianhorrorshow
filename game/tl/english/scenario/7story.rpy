@@ -509,7 +509,7 @@ translate english story7_c516660c:
 translate english story7_6208f4e2:
 
     # ger "どうやったら\nお前にそれが作れる！？\nということを平気でやるのが\nロシアではないのか！"
-    ger "Isn't Russia exactly the kind of person known for casually doing things that make you wonder, \n“How on earth did you manage to create that!?”"
+    ger "Isn't Russia exactly the kind of person known for casually doing things that make you wonder how on earth he managed to create that!?"
 
 # game/scenario/7story.rpy:596
 translate english story7_3dd0a280:
@@ -617,7 +617,7 @@ translate english stophim_109c1aca:
 translate english stophim_5102abb4:
 
     # bul "（まあ俺とロシアさんって\n　なかよし！とは言えないまでも\n　他のヨーロッパの国よりは\n　仲が良好な方だと思うから\n　こんな事をしても多分\n　それほどひどい事には\n　ならないはずなんだわー！）"
-    bul "(Well, I can't say that Russia and I are close friends, but I think we have a better relationship than other European countries, so I don't think doing something like this will cause too much trouble!)"
+    bul "(Well, I can't say that Mr. Russia and I are close friends, but I think we have a better relationship than other European countries, so I don't think doing something like this will cause too much trouble!)"
 
 # game/scenario/7story.rpy:776
 translate english stophim_8a71a952:
@@ -647,7 +647,7 @@ translate english stophim_6775b8a1:
 translate english stophim_1321376f:
 
     # rus "え…。君がみんなの\n盾になるっていうの\nブルガリア君？"
-    rus "Huh... So you're saying you're going to be everyone's shield, Bulgari-ushka?"
+    rus "Huh... So you're saying you're going to be everyone's shield, Bolichka?"
 
 # game/scenario/7story.rpy:804
 translate english stophim_fd42778c:
@@ -725,7 +725,7 @@ translate english stophim_b286e950:
 translate english stophim_886905b6:
 
     # rus "おはようブルガリア君！\n君の英雄的行為\nかっこよかったよ"
-    rus "Good morning, Bulgari-ushka! Your acts of heroism were impressive."
+    rus "Good morning, Bolichka! Your acts of heroism were impressive."
 
 # game/scenario/7story.rpy:875
 translate english stophim_c6628b52:

@@ -10,13 +10,13 @@ translate english story2_3fcfeae8:
 translate english story2_ec3298b7:
 
     # story "俺の番かい？\nああ、二番でも構わないんだぞ。\n気を使ってくれなくても平気さ！"
-    story "Is it my turn? \nAh, second's fine, really. \nNo need to worry!"
+    story "Is it my turn? \nOh, I don't mind going second, really. \nNo need to worry!"
 
 # game/scenario/2story.rpy:23
 translate english story2_4d148afe:
 
     # story "俺だっていつもいつも\nナンバーワンにこだわってる\nわけじゃないからな。"
-    story "I'm not always obsessed with being number one."
+    story "I'm not always obsessed with being number one, you know."
 
 # game/scenario/2story.rpy:24
 translate english story2_76b2fe88:
@@ -28,19 +28,19 @@ translate english story2_76b2fe88:
 translate english story2_2c0b6678:
 
     # eng "嘘だ！お前いつも\n一番にこだわるだろ"
-    eng "Liar! You always insist on going first."
+    eng "Liar! You' a're always particular about going first."
 
 # game/scenario/2story.rpy:33
 translate english story2_49a1d355:
 
     # ame "ＮＯ！\nプライドに関わる\nところだけだよ！"
-    ame "No! \nIt's just a matter of pride!"
+    ame "No! \nOnly when my pride is on the line!"
 
 # game/scenario/2story.rpy:46
 translate english story2_2ad11d81:
 
     # bul "その漫才、\n始まると長そうなんで\nちょっちょと怖い話\nしちゃってくれますか？"
-    bul "Hey, your double act comedy routine looks like it's gonna drag on, so can you tell us your scary story instead?"
+    bul "Hey, your double act comedy routine looks like it's gonna drag on, so can you tell us your scary story already?"
 
 # game/scenario/2story.rpy:52
 translate english story2_89e31498:
@@ -53,13 +53,13 @@ translate english story2_89e31498:
 translate english story2_8cef616d:
 
     # ame "ＯＫ！それじゃあ\n俺の体験した怖い話を\n披露させてもらうんだぞ！"
-    ame "OK! Well then, let me tell you about this genuinely scary story that I personally experienced!"
+    ame "OK! Well then, let me tell you about this scary story that I personally experienced!"
 
 # game/scenario/2story.rpy:65
 translate english story2_b80f9fac:
 
     # story "\nあれは俺が民家に迫りくる\nバッファローの大群を\n一頭一頭キャッチして\n手作業で向きを変えていた時の話…。"
-    story "\nIt was back when I was dealing with these bison that were charging toward people's houses and I had to catch ‘em, one by one, and turn them away with my bare hands..."
+    story "\nThis was when a huge herd of buffalo were charging toward someone's house and I had to catch ‘em, one by one, and turn them away with my bare hands..."
 
 # game/scenario/2story.rpy:66
 translate english story2_76b2fe88_1:
@@ -83,7 +83,7 @@ translate english story2_f1213b36:
 translate english story2_c752e978:
 
     # extend "\n君はバッファローの群れが\n家に向かってきても怖くないのかい？"
-    extend "\nAren't you afraid of a herd of bison stampeding towards your house?"
+    extend "\nAren't you afraid of a herd of buffalo stampeding towards your house?"
 
 # game/scenario/2story.rpy:98
 translate english story2_3611319e:
@@ -95,25 +95,25 @@ translate english story2_3611319e:
 translate english story2_ecb25a40:
 
     # ame "バッファローのボスが俺めがけて\n突進してくるシーンは全俺が震えるほど\nスリルに満ち溢れてるんだぞ！\n吹き飛ばされたけど民家は守ったんだ！"
-    ame "The scene where the bison boss rushes at me is so thrilling that it makes me shake! But I sent it packing in the end and saved that house!"
+    ame "The scene where the boss buffalo rushes at me is so thrilling that it makes me tremble! But I sent it packing and the house was saved!"
 
 # game/scenario/2story.rpy:112
 translate english story2_f9650383:
 
     # bul "もうバッファローより\nアメリカさん自体が\n怖ぇーっす！"
-    bul "I'm more scared of Mr. America himself than the bison!"
+    bul "I'm more scared of Mr. America himself than the buffalo!"
 
 # game/scenario/2story.rpy:118
 translate english story2_51f85803:
 
     # ame "こうなったらとっておきの\nゾンビとモンスターがマウンテンになる\nあの話をするしかないようだね…！"
-    ame "Looks like I'll just have to tell that story about zombies and monsters piling up into a mountain...!"
+    ame "Looks like I'll just have to tell the other story I have about zombies and monsters piling up into a mountain...!"
 
 # game/scenario/2story.rpy:122
 translate english story2_aa907b78:
 
     # bul "もーちょい\n身近に感じる怖い話\nプリーズなんだわー！"
-    bul "C'mooon, tell us a scary story that feels a bit more familiar!"
+    bul "C'mooon, tell us a scary story that feels a bit more relatable!"
 
 # game/scenario/2story.rpy:126
 translate english story2_ec3fa10c:
@@ -137,7 +137,7 @@ translate english story2_76b2fe88_2:
 translate english story2_7eab1ce8:
 
     # na2 "{size=+6}――ッ！！？{/size}"
-    na2 "{size=+6}――!!?{/size}"
+    na2 "{size=+6}——!!?{/size}"
 
 # game/scenario/2story.rpy:169
 translate english story2_65cd50a5:
@@ -155,32 +155,32 @@ translate english story2_144b3000:
 translate english story2_909b71e5:
 
     # eng "そそそそそうだぞ！\nそれ国家機密レベルだろ！？\n聞かされる俺らも危ないだろ！"
-    eng "T-t-t-t-t-that's right! \nSurely that's classified information!? \nWe could be in danger if we were to hear it!"
+    eng "T-t-t-t-t-that's right! \nSurely that’s top secret information, isn’t it!? \nYou're putting us in danger just letting us hear it!"
 
 # game/scenario/2story.rpy:208
 translate english story2_3551935b:
 
     # bul "ちょ…俺ら消される\nタイプの怖さは\n求めてねーんだわー！"
-    bul "We...We're not looking for the ‘forcibly disappeared’ type of scary...!"
+    bul "Wait... We're not looking for the type of scary that's gonna get us  ‘forcibly disappeared’...!"
 
 # game/scenario/2story.rpy:212
 translate english story2_23caa78b:
 
     # ame "ＨＡＨＡＨＡ！\nいきなり怖がってくれて\n嬉しいんだぞ！"
-    ame "HAHAHA! \nI'm glad you guys are all suddenly scared of me!"
+    ame "HAHAHA! \nI'm glad you guys got scared right away!"
 
 # game/scenario/2story.rpy:227
 translate english story2_b720c3fa:
 
     # ame "なんだいイギリス\n君のその顔！！\nＤＤＤＤＤＤＤＤ！"
-    ame "What the hell, England! \nYour face!! \nDDDDDDDD!"
+    ame "What's with that look on your face, England!! \nDDDDDDDD!"
 
 # game/scenario/2story.rpy:238
 translate english story2_072bd0c2:
 
     # ame "さっきのスリルと感動の\nバッファローの話に比べたら\nキッズ用のファンタジーさ！\n安心して聞いてくれ！"
     $ ame.screen = 'left_4long'
-    ame "Compared to the thrilling and inspiring bison story I just told you, this is basically just a children's fairy tale! Have a listen and relax!"
+    ame "Compared to the thrilling and inspiring buffalo story, this is just a children's fairy tale! Have a listen without worry!"
 
 # game/scenario/2story.rpy:247
 translate english story2_62232ffc:
@@ -199,13 +199,13 @@ translate english story2_de4c902d:
 translate english story2_c6b074f3:
 
     # story "それで上司に呼び出された俺は\nエリア５１の地下２１階を\n上司と二人で進んでいったんだ…。"
-    story "So my boss called me in, and he and I made our way down to the 21st basement floor of Area 51...."
+    story "So my boss called me in, and the two of us made our way down to the 21st basement floor of Area 51...."
 
 # game/scenario/2story.rpy:268
 translate english story2_5abb5092:
 
     # story "２１階…？\nエリア５１の地下って１７階までって\n聞いていたけどどういうことだい？\n俺は上司にストレートに質問してみた。"
-    story "The 21st floor...? \nI'd heard that the basement in Area 51 only went down to the 17th floor, so I was like, what's this mean? \nI asked my boss straight out."
+    story "The 21st floor...? \nI'd heard that the basement in Area 51 only went down to the 17th floor. What's going on here? \nI asked my boss, getting straight to the point."
 
 # game/scenario/2story.rpy:269
 translate english story2_38514aff:
@@ -324,7 +324,7 @@ translate english story2_f7f24f4c:
     # nvl clear
     # story "{k=8}　\n「え。あ。いや普通に宇宙人ですよ…？\n　トニーさんって…？」\n\nなんて言い出すんだよ！\n分かった今日一日君は宇宙人キャラでいくんだな！\nＯＫ！　俺も付き合ってやるんだぞ！{/k}"
     nvl clear
-    story_indent "\n\n“Eh. Um. No, I'm just a normal alien...? \n Who's Tony...?{nw}"
+    story_indent "\n\n“Eh. Um. No, I'm just a normal alien...? \nWho's Tony...?{nw}"
     story "\nThis was what he said! \nAlright, so he was gonna commit to playing an alien character today! OK! Then I'd play along too!"
 
 # game/scenario/2story.rpy:344
@@ -492,7 +492,7 @@ translate english story2_9e1fbadb:
 translate english story2_6d14a5f3:
 
     # bul "…お話しあざーっす！\n俺は何も聞いていない\n機密情報なんて\n聞いてないんだわー…"
-    bul "...Cheers to that story! \nI didn't hear anything! I didn't hear any classified information or anything like that...!"
+    bul "...Thanks for the story dude! \nI didn't hear a thing! I certainly didn't hear any classified information or anything like that...!"
 
 # game/scenario/2story.rpy:457
 translate english story2_c892c3cc:

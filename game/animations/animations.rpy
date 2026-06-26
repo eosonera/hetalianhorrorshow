@@ -49,6 +49,23 @@ define pause_dissolve = MultipleTransition([
     False, Dissolve(0.25),
     True])
 
+
+
+## Credits ######################################################################
+
+
+transform credit_scroll:
+    ypos 600
+    linear 20.25 yoffset -3000
+
+
+
+screen staffroll():
+    zorder 99
+    add "gui/staffroll.png"# at credit_scroll
+
+
+
 ## Cutscenes ######################################################################
 
 ## Meeting #######################################################

@@ -54,6 +54,7 @@ translate english python:
 translate english python:
     #define gui.language = "unicode"
     memo_text_size = 12
+    remover_button_text_size = 20
     chars_in_savename = 26
     gui.text_size = 14
     gui.choice_button_text = 16
@@ -123,6 +124,7 @@ translate russian python:
 translate russian python:
     #define gui.language = "unicode"
     memo_text_size = 12
+    remover_button_text_size = 14
     chars_in_savename = 26
     gui.text_size = 14
     gui.choice_button_text = 16
@@ -170,7 +172,7 @@ translate russian python:
     window_size_center3long = (435, 130)
     window_size_center4long = (385, 150)
 
-    """
+"""
 narr_window_size = (700, 200)
 window_size_right1 = (300, 130)
 window_size_right3 = (375, 130)
@@ -185,9 +187,7 @@ window_size_center1 = (420, 130)
 window_size_center3 = (340, 130)
 window_size_center3long = (480, 130)
 window_size_center4long = (480, 150)
-"""
 
-'''
 old russian
     narr_window_size = (700, 200)
     window_size_right1 = (300, 130)
@@ -204,22 +204,22 @@ old russian
     window_size_center3long = (435, 130)
     window_size_center4long = (450, 150)
 
-'''
+"""
+
 
 
 init -1 python:
     def my_language_fallback(locale, region):
         
         if locale == "ja":
-            return None # Your default language (Russian)
+            return None
             
         elif locale == "ru":
-            return "russian" # Make sure this matches your folder in game/tl/
+            return "russian"
             
         #elif locale == "es":
             #return "spanish"
             
-        # If it's not one of your supported languages, force English
         return "english" 
 
 

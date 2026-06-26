@@ -16,7 +16,7 @@ translate english start_d72426f3:
 translate english start_4d123f7b:
 
     # rom "ごめんね～。\nほんとはおいらが\nやりたかったんだけどさー。"
-    rom "Sorry～ \nI actually wanted to go myself..."
+    rom "Sorry～ \nI actually wanted to do this myself..."
 
 # game/script.rpy:33
 translate english start_f8af57b9:
@@ -94,14 +94,14 @@ translate english start_b3b001cd:
 translate english start_1fcc0816:
 
     # bul "んー ま、\nかれこれ…３？"
-    bul "Hmm... Well, about... 3... something?"
+    bul "Hmm... Well, about... 3... \nsomething?"
 
 # game/script.rpy:85
 translate english start_3d397b61:
 
     # rom "３００じゃないよね?"
     $ rom.screen = 'left_3'
-    rom "You're not 300 years old, are you?"
+    rom "You're not 300 years old, \nare you?"
 
 # game/script.rpy:89
 translate english start_59e783b8:
@@ -185,7 +185,7 @@ translate english start_7c634a5e:
 translate english start_6f8a9988:
 
     # extend "\n…あっ！そうだ！\nこの仕事すると…目立てるよ！"
-    extend "\n...Ah! I've got it! \nIf you do this for me... You'll get noticed!"
+    extend "\n...Ah! I've got it! \nIf you do this for me... \nYou'll get noticed!"
 
 # game/script.rpy:165
 translate english start_63665121:

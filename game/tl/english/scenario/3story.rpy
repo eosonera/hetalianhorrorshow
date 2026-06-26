@@ -46,7 +46,7 @@ translate english story3_76b2fe88_1:
 translate english story3_b3c8b40e:
 
     # story "昼間は活気にあふれた賑やかな道も\n夜になると人通りも少なく\nひっそりとしていて\nまるで別の場所のような錯覚に襲われます。"
-    story "The streets, lively and bustling during the day, were deserted and quiet at night, striking me with the illusion of being in a completely different place."
+    story "The streets, lively and bustling during the day, were deserted and quiet at night, giving me the illusion of being in a completely different place."
 
 # game/scenario/3story.rpy:47
 translate english story3_76b2fe88_2:
@@ -58,13 +58,13 @@ translate english story3_76b2fe88_2:
 translate english story3_47f7f7e6:
 
     # story "光源はぼんやりとした街燈と\n遠くに見える住宅の灯りしかありません。\nそれが雨の日ともなると\nさらに弱々しく淡く見えました。"
-    story "The only light came from the dim streetlights and the distant glow of residential lights. On a rainy day, they looked even weaker and dimmer."
+    story "The only sources of light came from the dim streetlights and the distant glow of residential lights. On a rainy day, they looked even weaker and dimmer."
 
 # game/scenario/3story.rpy:56
 translate english story3_c7836389:
 
     # story "下を見れば\n水たまりの中の\n街燈の光が雨に合わせて\n忙しなく揺れています。"
-    story "Looking down, you would see the streetlights' reflection in the puddles restlessly jittering, shaken by the raindrops."
+    story "Looking down, the lights of streetlights reflected in the puddles would jitter restlessly as the rain fell."
 
 # game/scenario/3story.rpy:57
 translate english story3_630ea9c0:
@@ -72,13 +72,13 @@ translate english story3_630ea9c0:
     # nvl clear
     # story "その日は風向きの関係で\n傘を前の方に向けて\n差すことになってしまい\n前の視界が塞がれると同時に\n足元や背後が気になってしまいます。"
     nvl clear
-    story "Because of the wind direction that day, I had to point my umbrella forward, which obstructed my view ahead, and caused me to worry about my footing and anything that could be behind me."
+    story "Because of where the wind was blowing that day, I had to hold my umbrella in front of me, which obstructed my view ahead, and caused me to worry about my footing and anything that could be behind me."
 
 # game/scenario/3story.rpy:61
 translate english story3_8813e9c1:
 
     # story "長い直線の道路なのに\n今日に限って車すら通りません。"
-    story "Alongside me, the road was long and straight, and yet, no cars were passing by that day."
+    story "The road alongside me was long and straight, and yet, no cars were passing by that day."
 
 # game/scenario/3story.rpy:62
 translate english story3_76b2fe88_3:
@@ -126,7 +126,7 @@ translate english story3_f1fe5855:
 translate english story3_48f3c4c2:
 
     # story "私の靴の音が\n反響しているのかと思いましたが、\n確かに水を吸った履物の音が\n背後から聞こえてきます。"
-    story "At first, I thought it was the echoing of my own footsteps, but I could clearly hear the squelch of wet footwear coming from behind me."
+    story "At first, I thought it was the echoing of my own footsteps, but I could clearly hear the sound of wet footwear coming from behind me."
 
 # game/scenario/3story.rpy:95
 translate english story3_b77c6f42:
@@ -134,7 +134,7 @@ translate english story3_b77c6f42:
     # nvl clear
     # story "ぺた、ぺたという\n濡れた地面から足が離れる時の音と\nその足が地面について靴の中の水が\n押し出されるぐじゅっ、ぐじゅっという\n不気味な音が静かな路地に交互に響きます。"
     nvl clear
-    story "The pitter-patter of feet lifting from the wet ground, and the eerie squelching of water being squeezed out of shoes as those feet landed, echoed alternately in the quiet alley."
+    story "The pitter-patter of feet lifting from the wet ground, and the eerie squelching of water being squeezed out of shoes as those feet landed, echoed, one following the other, in the quiet alley."
 
 # game/scenario/3story.rpy:98
 translate english story3_76b2fe88_5:
@@ -208,7 +208,7 @@ translate english story3_76b2fe88_9:
 translate english story3_e546a53b:
 
     # story "私は、心の中に芽生えた\n小さな恐怖感から逃れるため\n頭の中を考え事でいっぱいにしている間も\nその音は私と同じ速度で、\n五メートルほどの間隔を保ちながら\nついてきます。"
-    story "Even while I filled my mind with thoughts to escape the small sense of fear that had sprouted within me, that sound followed me at the same speed, maintaining a distance of about five meters."
+    story "Even as I filled my mind with thoughts to escape the small sense of fear that had sprouted within me, that sound followed me at the same speed, maintaining a distance of about five meters."
 
 # game/scenario/3story.rpy:156
 translate english story3_584f5ae1:
@@ -337,7 +337,7 @@ translate english story3_4189d091:
 translate english story3_f0dc5ef0:
 
     # story "はぁ…。\n私にそっくりで、和服を着ていて\n傘を差さずにずぶ濡れで\n背後を等間隔で歩いているだけの方に\n何を恐れる必要があったのか…。"
-    story "Hmm... \nA man who looked exactly like me, wearing a kimono, walking behind me at an equal pace, completely soaked, without an umbrella... Why had I felt any need to fear him?"
+    story "Sigh... \nA man who looked exactly like me, wearing a kimono, walking behind me at a steady pace, completely soaked, without an umbrella... Why had I felt any need to fear him?"
 
 # game/scenario/3story.rpy:218
 translate english story3_6f8d30d8:
@@ -345,7 +345,7 @@ translate english story3_6f8d30d8:
     # nvl clear
     # story "それにすでに彼は\n服のまま海に入ったが如く\n全身濡れておりましたので\n私が手渡した傘が\nお役に立てないばかりか\nお荷物になってしまっていたら\n申し訳なく思います。"
     nvl clear
-    story "Furthermore, since he was already soaked from head to toe as if he had walked into the sea fully clothed, I felt sorry for him, since the umbrella I handed him probably ended up being not only useless, but also an additional burden."
+    story "Furthermore, he was already soaked from head to toe as if he had walked into the sea fully clothed, so I felt terrible that the umbrella I handed him probably ended up being not only useless, but also an additional burden to him."
 
 # game/scenario/3story.rpy:222
 translate english story3_531f856d:
@@ -391,7 +391,7 @@ translate english story3_e8d51713:
 translate english story3_1bc6e8d6:
 
     # extend "\n\n\nまず一つ目。\n私に非常によく似た普通の方。"
-    extend "\n\n\nThe first:\nA normal person who\nlooks very similar to me."
+    extend "\n\n\nThe first: \nA normal person who\nlooks very similar to me."
 
 # game/scenario/3story.rpy:246
 translate english story3_9b2160b1:
@@ -427,13 +427,13 @@ translate english story3_76b2fe88_16:
 translate english story3_965b4871:
 
     # story "そして二つ目の可能性。\n西洋でいうドッペルゲンガーです。"
-    story "And the second possibility:\nIt's what Westerners call a doppelgänger."
+    story "And the second possibility: \nIt's what Westerners call a doppelgänger."
 
 # game/scenario/3story.rpy:258
 translate english story3_9262e330:
 
     # story "西洋ではドッペルゲンガーのような\n「もう一人の自分」は死や不幸といった\n不浄や不吉なものとして\n扱われる事が多いようですね。"
-    story "In the West, an “alternate self,” like a doppelgänger, is often regarded as something unholy or ominous, associated with death or misfortune."
+    story "In the West, a “second self,” like a doppelgänger, is often regarded as something impure or ominous, associated with death or misfortune."
 
 # game/scenario/3story.rpy:259
 translate english story3_76b2fe88_17:
@@ -493,7 +493,7 @@ translate english story3_76b2fe88_20:
 translate english story3_3f4606cb:
 
     # story "四つ目。\n　\n　\nブータンさんがプライベートで\n私の家に観光で遊びにいらしていた。"
-    story "Fourth:\n \n \nBhutan-san was visiting my house to do some personal sightseeing."
+    story "Fourth: \n\n\nBhutan-san was visiting my house to do some personal sightseeing."
 
 # game/scenario/3story.rpy:290
 translate english story3_ff0e55f4:
@@ -533,7 +533,7 @@ translate english story3_76b2fe88_21:
 translate english story3_f996fea8:
 
     # story "後で直接お話を伺ってみたのですが、\n　\n{color=#F4F4D2}「私ではないが、もし私だとしても\n　気にしないでください」{/color}"
-    story "I tried asking him personally about it afterwards, but {nw}"
+    story "I tried asking him directly about it afterwards, but {nw}"
     story_indent "\n{color=#F4F4D2}“It wasn't me, but even if it had been, please don't trouble yourself over it,”{/color}"
 
 # game/scenario/3story.rpy:306
@@ -678,13 +678,13 @@ translate english story3_7b5844cd:
 translate english story3_277eafee:
 
     # bul "俺も実は結構歳いって…\n大丈夫っすよね。\nうん大丈夫なんだわー！"
-    bul "I'm actually getting on in years too... But it's fine, right? Yeah, it's totally fine!"
+    bul "I'm actually getting on in years too... \nBut it's fine, right? Yeah, it's totally fine!"
 
 # game/scenario/3story.rpy:424
 translate english story3_ffe4e766:
 
     # ger "どうも気になる話だな\n俺の方で調査してみよう\n後で詳しい場所と証言を頼む"
-    ger "That story really bothers me, so I'll investigate it myself.  I'll need the detailed location and your testimony later."
+    ger "I'm rather concerned about what you told us, so I’ll look into it myself. Let me know afterwards about the exact location and any further details you have."
 
 # game/scenario/3story.rpy:428
 translate english story3_2fa621a2:
@@ -870,6 +870,20 @@ translate english story3_d41d8cd9_26:
 
 # game/scenario/3story.rpy:436
 translate english story3_d41d8cd9_27:
+
+    # nvl clear
+    nvl clear
+
+# TODO: Translation updated at 2026-06-10 15:29
+
+# game/scenario/3story.rpy:380
+translate english story3_d41d8cd9_28:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:421
+translate english story3_d41d8cd9_29:
 
     # nvl clear
     nvl clear

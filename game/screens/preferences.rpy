@@ -10,6 +10,9 @@ init python:
     renpy.music.register_channel("sound1", mixer= "sfx", loop=False)
     renpy.music.register_channel("sound2", mixer= "sfx", loop=False)
 
+    renpy.music.register_channel("music1", mixer="music", loop=True, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True)
+
+
     def linear_volume_display(mixer):
         raw = preferences.get_volume(mixer)
         if raw <= 0.0:
@@ -17,6 +20,26 @@ init python:
         import math
         slider = math.log10(raw) / 2 + 1
         return int(slider * 100)
+
+
+    def audio_crossFade(fadeTime, music):
+        oldChannel = None
+        newChannel = None
+        if renpy.music.get_playing(channel="music") is not None and renpy.music.get_playing(channel="music1") is None:
+            oldChannel = "music"
+            newChannel = "music1"
+        elif renpy.music.get_playing(channel="music") is None and renpy.music.get_playing(channel="music1") is not None:
+            oldChannel = "music1"
+            newChannel = "music"
+        elif renpy.music.get_playing(channel="music") is None and renpy.music.get_playing(channel="music1") is None:
+            oldChannel = None
+            newChannel = "music"
+            
+        if oldChannel is not None:
+            renpy.music.stop(channel= oldChannel, fadeout=fadeTime)
+            
+        if newChannel is not None:
+            renpy.music.play(music, channel=newChannel, loop=None,fadein=fadeTime)
 
 
 screen volume():
@@ -196,13 +219,20 @@ screen font():
         (_("游明朝 Demibold"), "YuMinDB.ttf"),
         (_("游明朝 Light"), "YuMinl.ttf"),
 
-        #(_("游ゴシック"), "YuGoth.ttf"),
-        #(_("游ゴシック Light"), "YuGothL.ttf"),
+        (_("游ゴシック"), "YuGoth.ttf"),
+        (_("游ゴシック Light"), "YuGothL.ttf"),
         (_("游ゴシック Medium"), "YuGothM.ttf"),
-        #(_("Yu Gothic UI"), "YuGothUI.ttf"),
-        #(_("Yu Gothic UI Light"), "YuGothUIL.ttf"),
+        (_("Yu Gothic UI"), "YuGothUI.ttf"),
+        (_("Yu Gothic UI Light"), "YuGothUIL.ttf"),
         (("Yu Gothic UI Semibold"), "YuGothUISemibold.ttf"),
-        #(_("Yu Gothic UI Semilight"), "YuGothUISemilight.ttf"),
+        (_("Yu Gothic UI Semilight"), "YuGothUISemilight.ttf"),
+    ]
+
+    default list_fonts_jp = [
+        "UDDigiKyokashoN-B.ttf",
+        "UDDigiKyokashoNK-B.ttf",
+        "UDDigiKyokashoNK-R.ttf",
+        "UDDigiKyokashoN-R.ttf",
     ]
 
     controller_viewport:
@@ -221,6 +251,8 @@ screen font():
             has vbox
             spacing -10
             for name, file in list_fonts:
+                if file in list_fonts_jp and _preferences.language != "None":
+                    continue
                 hbox:
                     add "gui/button/check_0.png":
                         ypos -3

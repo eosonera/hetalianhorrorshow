@@ -40,14 +40,14 @@ translate russian story2_49a1d355:
 translate russian story2_2ad11d81:
 
     # bul "その漫才、\n始まると長そうなんで\nちょっちょと怖い話\nしちゃってくれますか？" id story2_2ad11d81
-    bul "Эй, твой дуэт комедийных номеров займет много времени, так что может, лучше расскажешь нам свою страшную историю?" id story2_2ad11d81
+    bul "Ну что за клоунада. Если вы начнете спорить, то это надолго, когда я уже услышу страшилку?" id story2_2ad11d81
 
 # game/scenario/2story.rpy:50
 translate russian story2_89e31498:
 
     # eng "漫才じゃないぞ！" id story2_89e31498
     $ eng.screen = 'left_3'
-    eng "Это не комедийный номер!" id story2_89e31498
+    eng "Это не клоунада!" id story2_89e31498
 
 # game/scenario/2story.rpy:61
 translate russian story2_8cef616d:
@@ -119,7 +119,7 @@ translate russian story2_aa907b78:
 translate russian story2_ec3fa10c:
 
     # ame "ＯＫ！安心してくれたまえ！\nこれ以外にもスキュアリーな話は\n用意しているんだぞ！" id story2_ec3fa10c
-    ame "ОК! Не кипяшуй!\nЯ подготовил больше\nстляшных историй!" id story2_ec3fa10c
+    ame "ОК! Не кипяшуй!\nУ меня для вас еще масса других scary историй!" id story2_ec3fa10c
 
 # game/scenario/2story.rpy:150
 translate russian story2_09fd4bfd:
@@ -355,7 +355,7 @@ translate russian story2_585c8f64:
     # story "だから俺は言った。\n\n「ははあ。\n　君が本当に宇宙人だっていうなら\n　ミステリーサークルが作れるはずだよ！」" id story2_585c8f64
     nvl clear
     story "Вот что я сказал:{nw}"
-    story_indent "\n«Хахаа.\nЕсли ты и правда пришелец, нарисуй мне несколько загадочных кругов!»" id story2_585c8f64
+    story_indent "\n«Хахаа.\nЕсли ты и правда пришелец, нарисуй-ка парочку загадочных кругов!»" id story2_585c8f64
 
 # game/scenario/2story.rpy:390
 translate russian story2_615a20e3:
@@ -369,8 +369,8 @@ translate russian story2_615a20e3:
 translate russian story2_0654576b:
 
     # extend "\n　フォトショップ 【Ｃ Ｃ ｜クロップサークル】は\n　専門外なんでちょっと使えない、ですね…。\n　なんかごめんなさい…」\n　\nなんだい！やっぱり君、\nただのトニーのそっくりさんじゃないか！" id story2_0654576b
-    extend "\n{k=8}работа сфотошопом CC {/k}{k=4}【(crop circles)｜круги на полях】 {/k}вне моей компетенции, так что я не очень хорош в этом, хах... извините...».{nw}"
-    story "\nЧто! Я думал ты просто\nнапросто двойник Тони!" id story2_0654576b
+    extend "\n{k=8}Photoshop CC 【(crop circles)｜круги на полях】 не \nвходит в сферу моих знаний, так что, боюсь, нет... \nизвините...».{nw}"
+    story "\nЧто! Я думал ты просто напросто двойник Тони!" id story2_0654576b
 
 # game/scenario/2story.rpy:396
 translate russian story2_3f1d93c3:

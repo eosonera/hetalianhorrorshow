@@ -184,7 +184,7 @@ translate russian story3_76b2fe88_7:
 translate russian story3_b573c2af:
 
     # story "　\n　\n　\n　\n傘の隙間から見えたのは、\nぐっしょりと濡れた着物の裾と\n泥で変色した足袋と草履…。{nw=1}" id story3_b573c2af
-    story "　\n　\n　\n　\nЧерез пространство между землей и краем моего зонтика я увидела подол кимоно, промокший от воды, таби-носки и зори-сандалии, обесцвеченные грязью...{nw=1}" id story3_b573c2af
+    story "　\n　\n　\n　\nИз под края зонта я увидел до нитки вымокший подол кимоно, таби, испачканные грязью, и гэта...{nw=1}" id story3_b573c2af
 
 # game/scenario/3story.rpy:134
 translate russian story3_76b2fe88_8:
@@ -196,7 +196,7 @@ translate russian story3_76b2fe88_8:
 translate russian story3_c082051e:
 
     # story "\n祭りがある日ではありませんし、\nそのあたりには和装で行う\n習い事教室はなかったはずです。\n　\n男性の和装は珍しいですしね。\nそれに雨に打たれたというよりは\n水の中に落ちたような濡れ方…。\n如何なされたのでしょうか…。" id story3_c082051e
-    story "\nВ тот день не было никакого фестиваля, и поблизости не проводились уроки, где ученикам необходимо носить традиционную одежду.\n\nРедко можно увидеть японца в традиционной одежде. Более того, он так вымок, что казалось будто бы причина этому не дождь, а падение в воду...\nЯ задавался вопросом, что с ним случилось..." id story3_c082051e
+    story "\nЭто не был праздничный день и поблизости не проводились уроки, где ученикам необходимо носить традиционную одежду.\n\nНе часто японские мужчины носят кимоно. Более того, он так вымок, что казалось причина этому не дождь, а падение в воду...\nИнтересно почему..." id story3_c082051e
 
 # game/scenario/3story.rpy:139
 translate russian story3_76b2fe88_9:
@@ -250,7 +250,7 @@ translate russian story3_08f2ebbe:
     # nvl clear
     # story "まずは前。…もう少し前。\nそして気を引き締めて後ろ…。" id story3_08f2ebbe
     nvl clear
-    story "Сначала я посмотрел вперед. ...Затем чуть дальше.\nЗатем собрался с духом и оглянулся..." id story3_08f2ebbe
+    story "Сперва перед собой.  ...ещё немного.\nЗатем собрался с духом и оглянулся..." id story3_08f2ebbe
 
 # game/scenario/3story.rpy:178
 translate russian story3_82cf7bd3:
@@ -564,13 +564,13 @@ translate russian story3_6bede216:
 translate russian story3_3290eab9:
 
     # story "如何しても{nw=1}" id story3_3290eab9
-    story "Что бы ни было,{nw=1}" id story3_3290eab9
+    story "Как бы ни старался...{nw=1}" id story3_3290eab9
 
 # game/scenario/3story.rpy:317
 translate russian story3_0cb8fff4:
 
     # extend "\n頭から離れない{nw=1}" id story3_0cb8fff4
-    extend " я не могу выбросить из головы пятую возможность,{nw=1}" id story3_0cb8fff4
+    extend " я не могу выкинуть её из головы,{nw=1}" id story3_0cb8fff4
 
 # game/scenario/3story.rpy:319
 translate russian story3_9587ddf5:
@@ -872,6 +872,20 @@ translate russian story3_d41d8cd9_26:
 
 # game/scenario/3story.rpy:436
 translate russian story3_d41d8cd9_27:
+
+    # nvl clear
+    nvl clear
+
+# TODO: Translation updated at 2026-06-10 15:29
+
+# game/scenario/3story.rpy:380
+translate russian story3_d41d8cd9_28:
+
+    # nvl clear
+    nvl clear
+
+# game/scenario/3story.rpy:421
+translate russian story3_d41d8cd9_29:
 
     # nvl clear
     nvl clear

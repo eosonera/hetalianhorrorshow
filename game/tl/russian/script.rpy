@@ -16,7 +16,7 @@ translate russian start_d72426f3:
 translate russian start_4d123f7b:
 
     # rom "ごめんね～。\nほんとはおいらが\nやりたかったんだけどさー。" id start_4d123f7b
-    rom "Извини～\nЯ сам хотел туда поехать..." id start_4d123f7b
+    rom "Извини～\nЯ хотел пойти туда сам..." id start_4d123f7b
 
 # game/script.rpy:38
 translate russian start_f8af57b9:
@@ -46,7 +46,7 @@ translate russian start_8f7e5e1b:
 translate russian start_fe5ba20e:
 
     # bul "ふざけんなー！\n自分で行けオラァ！" id start_fe5ba20e
-    bul "Да ну тебя!\nИди на встречу сам!" id start_fe5ba20e
+    bul "Да ну тебя!\nВали сам туда!" id start_fe5ba20e
 
 # game/script.rpy:55
 translate russian start_d6cfb26b:
@@ -64,7 +64,7 @@ translate russian start_c66e6f28:
 translate russian start_028db6fd:
 
     # rom "え！？ えーと…。\nロシアさんは{size=-5}存在自体がー…\n怖いっていうか…。{/size}" id start_028db6fd
-    rom "Э?! Ну...\nодно только {size=-2}его присутствие...\nвызывает страх...{/size}" id start_028db6fd
+    rom "Э?! Ну...\nНу это, Россия... {size=-2}одно его существование...\nдовольно страшно...{/size}" id start_028db6fd
 
 # game/script.rpy:67
 translate russian start_4a9432bb:
@@ -144,7 +144,7 @@ translate russian start_e5a62779:
 translate russian start_300040ae:
 
     # bul "盛ってねーから！\nそういうわけで俺の方が\n年上だから俺はいかない！" id start_300040ae
-    bul "А вот и нет!\nВ любом случае, я твой старший, так что я не пойду!" id start_300040ae
+    bul "А вот и нет!\nВ любом случае, я твой старшак, так что никуда я не пойду!" id start_300040ae
 
 # game/script.rpy:148
 translate russian start_c62956d7:
@@ -186,7 +186,7 @@ translate russian start_7c634a5e:
 translate russian start_6f8a9988:
 
     # extend "\n…あっ！そうだ！\nこの仕事すると…目立てるよ！" id start_6f8a9988
-    extend "\n...А! Точно!\nЕсли ты сделаешь это для меня...\nТы будешь замечен!" id start_6f8a9988
+    extend "\n...А! Точно!\nЕсли ты сходишь за меня...\nТы будешь замечен!" id start_6f8a9988
 
 # game/script.rpy:206
 translate russian start_63665121:
@@ -210,7 +210,7 @@ translate russian start_c0e5473b:
 translate russian start_ebbafdad:
 
     # rom "だから！司会進行として！\nいつもは上からにゃーにゃー\n言ってくるみんなをブルガリアが\n先導できるってこと！！" id start_ebbafdad
-    rom "Что ж! Как модератор!\nТы сможешь руководить всеми людьми, которые всегда нас унижали!!" id start_ebbafdad
+    rom "Что ж! Как ведущий!\nТы сможешь руководить всеми людьми, которые всегда нас унижали!!" id start_ebbafdad
 
 # game/script.rpy:222
 translate russian start_15292df2:
@@ -282,7 +282,7 @@ translate russian start_fc180838:
 translate russian start_0f5baf6e:
 
     # rom "そうだよブルガリア！\nその意気だよ\n頑張ろうねぇ～！！" id start_0f5baf6e
-    rom "Так держать, Болгария!!\nНе падать духом!\nВперед～!!" id start_0f5baf6e
+    rom "Так держать, Болгария!!\nНе падать духом!\nДавай вместе постараемся изо всех сил~!!!" id start_0f5baf6e
 
 # game/script.rpy:284
 translate russian start_c6e01564:

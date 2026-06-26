@@ -4,7 +4,7 @@
 translate russian meeting_6f284491:
 
     # story "俺が怖い話を聞く司会進行役…。" id meeting_6f284491
-    story "Повышение до слушателя\nстрашилок..." id meeting_6f284491
+    story "Повышение до слушателя страшилок..." id meeting_6f284491
 
 # game/scenario/0meeting.rpy:15
 translate russian meeting_f770514f:
@@ -16,7 +16,7 @@ translate russian meeting_f770514f:
 translate russian meeting_d12d006f:
 
     # story "ＷＷ２で木の枝でつつく以外にも\nわりかし何やってんだお前って\n行動してたのは国内がバラバラだったから、\nしょーがねーんだわ…。" id meeting_d12d006f
-    story "Во время Второй мировой войны, помимо того, что людей тыкали палками, было много моментов, когда хотелось спросить: „Что вы вообще делаете?!“, но вся страна была в хаосе, так что это было нормально..." id meeting_d12d006f
+    story "Пока все такие, „Что ты вообще делал всё это время пока шла Вторая Мировая, кроме того, что тыкал людей палкой“, моя страна была в беспорядке, поэтому что мне ещё оставалось делать..." id meeting_d12d006f
 
 # game/scenario/0meeting.rpy:21
 translate russian meeting_76b2fe88:
@@ -322,7 +322,7 @@ translate russian meeting_cfbaf66c:
 translate russian meeting_78fe9b40:
 
     # fin "えっその後ろの方…\nアフ○ダイテ・ジョーンズ！？\nジェレ○ー・ウェイド…\nとベア・グリ○ス…じゃないですか！？{nw}" id meeting_78fe9b40
-    fin "Погоди, эти люди позади тебя...\nА*родита Джонс?!\nДжере* Уэйд...\nИ Бе* Гриллс, да?!{nw}" id meeting_78fe9b40
+    fin "Погоди, эти люди позади тебя...\nАфр*дита Джонс?!\nДжер*ми Уэйд...\nИ Беар Гр*ллс, да?!{nw}" id meeting_78fe9b40
 
 # game/scenario/0meeting.rpy:367
 translate russian meeting_0a9eaa0c:
@@ -388,19 +388,19 @@ translate russian meeting_edb082a2:
 translate russian meeting_c494b965:
 
     # extend "\nアフロ○イテ…。{nw=1}" id meeting_c494b965
-    extend "\nА*родита...{nw=1}" id meeting_c494b965
+    extend "\nАфр*дита... {nw=1}" id meeting_c494b965
 
 # game/scenario/0meeting.rpy:459
 translate russian meeting_d9ad4b8f:
 
     # extend "ジェレ○ー…。{nw=1}" id meeting_d9ad4b8f
-    extend " Джере*...{nw=1}" id meeting_d9ad4b8f
+    extend "Джер*ми... {nw=1}" id meeting_d9ad4b8f
 
 # game/scenario/0meeting.rpy:462
 translate russian meeting_948f9926:
 
     # extend "\nベア・グリ○ス…。{nw=1}" id meeting_948f9926
-    extend "\nБе* Гриллс...{nw=1}" id meeting_948f9926
+    extend "\nБеар Гр*ллс...{nw=1}" id meeting_948f9926
 
 # game/scenario/0meeting.rpy:464
 translate russian meeting_c1259a18:
@@ -473,7 +473,7 @@ translate russian meeting_dbc0159a:
 translate russian meeting_e4ee19e9:
 
     # jpn "いっ…一斉！？\n…ありがとうございます。\n宜しくお願い致します。" id meeting_e4ee19e9
-    jpn "{size=-2}Все...Все сразу?!\n...Спасибо. Я с нетерпением жду начала собрания.{/size}" id meeting_e4ee19e9
+    jpn "Все...Все сразу?!\n...Спасибо. Я с нетерпением жду начала собрания." id meeting_e4ee19e9
 
 # game/scenario/0meeting.rpy:555
 translate russian meeting_ddcfcc6f:
@@ -504,7 +504,7 @@ translate russian meeting_0bb90662:
 
     # eng "一人スペインだろ？\nあいつが重要なビジネスの事と\n親分面できること以外で\n時間通りに来ると思うなよ。" id meeting_0bb90662
     $ eng.screen = 'right_4long'
-    eng "Один из них - Испания, да?\nНе ожидай, что он явиться вовремя куда-либо, если это не связано с важным бизнесом или чего-то, где он может продемонстрировать свою „боссовскую“ сторону." id meeting_0bb90662
+    eng "Один из них - Испания, да?\nНе ожидай, что он явиться вовремя куда-либо, если это не связано с важным бизнесом или где он может показать себя „боссом“." id meeting_0bb90662
 
 # game/scenario/0meeting.rpy:590
 translate russian meeting_9630bdc7:

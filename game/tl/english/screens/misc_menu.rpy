@@ -23,27 +23,27 @@ translate english strings:
     new "Fullscreen"
 
     # game/screens/misc_menu.rpy:104
-    old "未読テキストもスキップ"
+    old "未読スキップ"
     new "Skip unread text"
 
     # game/screens/misc_menu.rpy:106
-    old "選択肢の後もスキップ継続"
+    old "選択肢のスキップ続行"
     new "Keep skipping after choices"
 
     # game/screens/misc_menu.rpy:245
-    old "全ての永続データを削除する"
+    old "保持データを削除"
     new "DELETE ALL PERSISTENT DATA"
 
     # game/screens/misc_menu.rpy:246
-    old "全ての永続データを削除してもよろしいですか？\nこれによりゲームが初期状態にリセットされ、\nこの操作は元に戻せません。"
+    old "保持データを削除しますか？\nデフォルトの設定値に復元して、この操作は元に戻せません。"
     new "Are you sure you want to delete all persistent data? \nThis will reset the game to its default state and \ncannot be undone."
 
     # game/screens/misc_menu.rpy:248
-    old "全てのセーブデータを削除"
+    old "セーブデータを削除"
     new "DELETE ALL SAVE DATA"
 
     # game/screens/misc_menu.rpy:249
-    old "全てのセーブデータを消去しますか？"
+    old "セーブデータを削除しますか？"
     new "Are you sure you want to delete all save data?"
 
     # game/screens/misc_menu.rpy:142
@@ -227,11 +227,11 @@ translate english strings:
     new "Previous English translation"
 
     # game/screens/misc_menu.rpy:238
-    old "Renpyコード"
+    old "Ren'Pyコード"
     new "Renpy code"
 
     # game/screens/misc_menu.rpy:238
-    old "特別なお礼"
+    old "特別な感謝"
     new "Special thanks to"
 
     # game/screens/misc_menu.rpy:451

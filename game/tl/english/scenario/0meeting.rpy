@@ -84,7 +84,7 @@ translate english meeting_76b2fe88_3:
 translate english meeting_9c59d4bd:
 
     # story "\n\n俺は意を決してドアを開ける。"
-    story "\n\nI'm bracing myself and opening the door..."
+    story "\n\nI brace myself and open the door..."
 
 # game/scenario/0meeting.rpy:65
 translate english meeting_76b2fe88_4:
@@ -150,7 +150,7 @@ translate english meeting_ac6e7fc8:
 translate english meeting_ae0e0230:
 
     # jpn "お待たせしてしまい\nすいません。\n今日は怖い話の会ですよね。"
-    jpn "Sorry to keep you waiting. Today is the scary story meeting, correct?"
+    jpn "Sorry to keep you waiting. Today is the scary story conference, correct?"
 
 # game/scenario/0meeting.rpy:147
 translate english meeting_ccf88991:
@@ -236,13 +236,13 @@ translate english meeting_6a78162d:
 translate english meeting_7888aea4:
 
     # ger "あー…、なんだその…、\n結果を急ぐあまり言い方が\nきつくなっていたかもしれん。\n今度からは気を付ける…。"
-    ger "Ah... But I guess... \nI may have become too harsh in order to rush the results. I'll be more careful from now on..."
+    ger "Ah... But I guess... \nI may have come across too harsh in order to rush the results. I'll be more careful from now on..."
 
 # game/scenario/0meeting.rpy:213
 translate english meeting_ed02d8a3:
 
     # bul "ほんどうですかっ！？\nあざーっすあざーっす！"
-    bul "You mean it!? \nThanks, dude! Thanks!"
+    bul "You mean it!? \nThanks a bunch, dude!"
 
 # game/scenario/0meeting.rpy:220
 translate english meeting_7d12a595:
@@ -293,7 +293,7 @@ translate english meeting_d33e8482:
 
     # eng "その通りだろ？"
     #$ eng.screen = 'right_3'
-    eng "Isn't that the case?"
+    eng "That's the case, innit?"
 
 # game/scenario/0meeting.rpy:262
 translate english meeting_d063b29e:
@@ -365,13 +365,13 @@ translate english meeting_3ca06ef2:
 translate english meeting_9ae7959c:
 
     # fin "うわあああ、\n僕は聞きたいです！"
-    fin "Waaaah, I wanna hear them!"
+    fin "Waaaah, I want to hear them!"
 
 # game/scenario/0meeting.rpy:366
 translate english meeting_7f59d522:
 
     # bul "国際怖い話なんで\nアメリカさんの口から\n聞かせて下さいっす！"
-    bul "Since this is the Scary Story Conference, we want to hear you tell your own story, Mr. America!"
+    bul "Since this is the Scary Story Conference, we want to hear your own story, Mr. America!"
 
 # game/scenario/0meeting.rpy:371
 translate english meeting_6c742b57:

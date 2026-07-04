@@ -55,6 +55,8 @@ translate english python:
     #define gui.language = "unicode"
     memo_text_size = 12
     remover_button_text_size = 20
+    ruby_text_size = 14
+    ruby_kern_size = 4
     chars_in_savename = 26
     gui.text_size = 14
     gui.choice_button_text = 16
@@ -124,6 +126,8 @@ translate russian python:
 translate russian python:
     #define gui.language = "unicode"
     memo_text_size = 12
+    ruby_text_size = 14
+    ruby_kern_size = 4
     remover_button_text_size = 14
     chars_in_savename = 26
     gui.text_size = 14
@@ -132,7 +136,7 @@ translate russian python:
     gui.nvl_width = 600
     gui.nvl_width2 = gui.nvl_width - 200
     gal_text_size = 14
-    confirm_prompt_text_kerning = -1
+    confirm_prompt_text_kerning = 1
     gui.kerning_dialogue = 0
     gui.kerning_narrator = -2
     gui.kerning_nvl = -5

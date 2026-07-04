@@ -339,10 +339,12 @@ style nvl_window:
     xsize gui.nvl_width
     padding (32, 61, 0, 70)
 
+define ruby_text_size = 14
+define ruby_kern_size = 2
 
-style ruby_style is default:
-    size gui.text_size - 6
-    kerning gui.kerning_dialogue -2
+style ruby_style is default: 
+    size ruby_text_size
+    kerning ruby_kern_size
     yoffset -35
     color None
 

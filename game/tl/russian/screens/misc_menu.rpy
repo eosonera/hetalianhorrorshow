@@ -37,19 +37,19 @@
     new "Показывать миниатюры сохранений"
 
     # game/screens/misc_menu.rpy:242
-    old "全ての永続データを削除する"
+    old "保持データを削除"
     new "УДАЛИТЬ ВСЕ СОХРАНЯЕМЫЕ ДАННЫЕ"
 
     # game/screens/misc_menu.rpy:122
-    old "全ての永続データを削除してもよろしいですか？\nこれによりゲームが初期状態にリセットされ、\nこの操作は元に戻せません。"
+    old "保持データを削除しますか？\nデフォルトの設定値に復元して、この操作は元に戻せません。"
     new "Вы уверены, что хотите удалить все постоянные данные? \nЭто приведет к сбросу настроек игры до значений по умолчанию, и данное действие нельзя будет отменить."
 
     # game/screens/misc_menu.rpy:242
-    old "全てのセーブデータを削除"
+    old "セーブデータを削除"
     new "УДАЛИТЬ ВСЕ СОХРАНЕННЫЕ ДАННЫЕ"
 
     # game/screens/misc_menu.rpy:135
-    old "全てのセーブデータを消去しますか？"
+    old "セーブデータを削除しますか？"
     new "Удалить все сохраненные данные?"
 
     # game/screens/misc_menu.rpy:184
@@ -221,11 +221,11 @@ translate russian strings:
     new "Выкл"
 
     # game/screens/misc_menu.rpy:138
-    old "未読テキストもスキップ"
+    old "未読スキップ"
     new "Пропустить непрочитанный текст"
 
     # game/screens/misc_menu.rpy:147
-    old "選択肢の後もスキップ継続"
+    old "選択肢のスキップ続行"
     new "Продолжайте пропускать варианты после выбора"
 
     # game/screens/misc_menu.rpy:225
@@ -233,7 +233,7 @@ translate russian strings:
     new "Перевод на английский"
 
     # game/screens/misc_menu.rpy:229
-    old "特別なお礼"
+    old "特別な感謝"
     new "Особые благодарности"
 
     # game/screens/misc_menu.rpy:501
@@ -249,6 +249,6 @@ translate russian strings:
     new "Предыдущий перевод на английский"
 
     # game/screens/misc_menu.rpy:348
-    old "Renpyコード"
+    old "Ren'Pyコード"
     new "Написание кода для Renpy"
 

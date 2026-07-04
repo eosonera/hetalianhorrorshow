@@ -2,6 +2,8 @@
 
 screen menu_open2():
     tag menu
+    modal True
+    
     use game_menu2(_("Menu")):
         style_prefix "open"
 
@@ -14,6 +16,9 @@ screen game_menu2(title):
 
     add "gui/menu_game/bg_game_menu2.png"
     add "gui/menu_game/menu_flower.png"
+
+    if main_menu:
+        key "mousedown_3" action Return()
 
     vbox:
         style_prefix "gm"
@@ -149,12 +154,12 @@ screen about():
 
                 null height 10
 
-                label _("Renpyコード")
+                label _("Ren'Pyコード")
 
                 hbox:
                     style_prefix "about1"
                     label ("Badmustard")
-                    text ("Renpy save game names")
+                    text ("Ren'Py save game names")
                 hbox:
                     style_prefix "about1"
                     label ("Feniksdev")
@@ -162,7 +167,7 @@ screen about():
 
                 null height 10
 
-                label _("特別なお礼")
+                label _("特別な感謝")
 
                 vbox:
                     style_prefix "about1"
@@ -330,7 +335,7 @@ screen preferences():
                 spacing 10
                 xsize 220
                 vbox:
-                    label _("未読テキストもスキップ")
+                    label _("未読スキップ")
                     null height 10
                     hbox:
                         spacing 10
@@ -350,7 +355,7 @@ screen preferences():
                                 action Preference("skip", "seen")
 
                 vbox:
-                    label _("選択肢の後もスキップ継続")
+                    label _("選択肢のスキップ続行")
                     null height 10
                     hbox:
                         spacing 10
@@ -376,12 +381,12 @@ screen preferences():
         #xfill True
         vbox:
             spacing 10
-            textbutton _("全てのセーブデータを削除"):
-                action Confirm(_("全てのセーブデータを消去しますか？"),
+            textbutton _("セーブデータを削除"):
+                action Confirm(_("セーブデータを削除しますか？"),
                 Function(delete_all_saves), no=None)
                 style "remover_button"
-            textbutton _("全ての永続データを削除する"):
-                action Confirm(_("全ての永続データを削除してもよろしいですか？\nこれによりゲームが初期状態にリセットされ、\nこの操作は元に戻せません。"),
+            textbutton _("保持データを削除"):
+                action Confirm(_("保持データを削除しますか？\nデフォルトの設定値に復元して、この操作は元に戻せません。"),
                 Function(persistent._clear, progress=True), no=None)
                 style "remover_button"
 

@@ -34,7 +34,7 @@ translate english story7_2edc087d:
 translate english story7_3dca6e2d:
 
     # rom "えっと…、そうそう！\n今日のお礼と\n差し入れに来ましたっ！"
-    rom "Um... Oh, right! \nI came over to bring you all a little something for as thanks for today!"
+    rom "Um... Oh, right! \nI came over to bring little something for you all as thanks for today!"
 
 # game/scenario/7story.rpy:66
 translate english story7_ad38888c:
@@ -46,7 +46,7 @@ translate english story7_ad38888c:
 translate english story7_4b8bd771:
 
     # spa "もしかして\n７人目誘うの\n忘れ取ったんちゃうか？\nどじっこさんやなぁ！"
-    spa "Didya forget to invite the seventh person? That's mighty clumsy!"
+    spa "Didja forget to invite the seventh person? That's mighty clumsy!"
 
 # game/scenario/7story.rpy:88
 translate english story7_002d0375:
@@ -173,7 +173,7 @@ translate english story7_78b4c722:
 translate english story7_9a4a8e97:
 
     # bul "…なんかヤバイ？"
-    bul "...Is it something dangerous?"
+    bul "...Should I be worried?"
 
 # game/scenario/7story.rpy:287
 translate english story7_3d0f0081:
@@ -215,7 +215,7 @@ translate english story7_65241561:
 translate english story7_e52d93f4:
 
     # ame "ロシア！最後に話すのは\n君だったのかい。\nまさに見計らってたかのような\nナイスタイミングじゃないか！"
-    ame "Russia! So you'll be the last one to tell a story. \nIt's like you planned it that way! \nNice timing, right?!"
+    ame "Russia! So you're the last one who will tell us a story. \nIt's as if you planned it that way! \nNice timing, right?!"
 
 # game/scenario/7story.rpy:359
 translate english story7_2a6e2e94:
@@ -233,13 +233,13 @@ translate english story7_95375b13:
 translate english story7_effdb45f:
 
     # story "それじゃあ最後は僕の番だね。\nんー。どうしよう。\n怖い話なんて知らないな。\nどうしようかな？{nw=0.2}"
-    story "Well then, I'll be the last to go. Hmm. What to do... I don't know any scary stories. What should I do?{nw=0.2}"
+    story "Well then, I'll be the last to go. Hmm. Oh dear... I don't know any scary stories. What should I do?{nw=0.2}"
 
 # game/scenario/7story.rpy:399
 translate english story7_58cff93f:
 
     # extend "\n\nそうだ！ここに僕宛の\nお手紙があるからこれを読もう。\nうん。それがいいね。"
-    extend "\n\nI know! There's a few letters here addressed to me, so I'll read them out loud. Yeah. That's a good idea."
+    extend "\n\nI know! There's a few letters here that are addressed to me, so I'll read them out loud. Yeah. That's a good idea."
 
 # game/scenario/7story.rpy:400
 translate english story7_76b2fe88:
@@ -251,7 +251,7 @@ translate english story7_76b2fe88:
 translate english story7_b6819907:
 
     # story "まず一通目だよ。なになに…。\n\n{color=#FFE5FC}「ろしあさんは\n　ふとっているのですか？」{/color}"
-    story "Starting with the first letter. Let's see...{nw}"
+    story "Here's the first letter. Let's see...{nw}"
     story_indent "\n\n{color=#FFE5FC}“Mr. Russia, \nAre you getting fat?”{/color}"
 
 # game/scenario/7story.rpy:408
@@ -279,7 +279,7 @@ translate english story7_7dee5968:
 translate english story7_65dba745:
 
     # extend "\n\n{color=#FFE5FC}「ろしあさんへ\n　国境なんていうものがあるから\n　けんかするんだとおもいます\n　世界中の国境をなくせば\n　みんなのこころやかんがえが\n　一つになるはずです」{/color}"
-    story_indent "\n{color=#FFE5FC}“Dear Mr. Russia, \nI think people fight because of things like borders. If we could take away all the borders in the world, everyone's hearts and minds would surely become one.”{/color}"
+    story_indent "\n{color=#FFE5FC}“Dear Mr. Russia, \nI think people fight because things like borders exist. If we could take away all the borders in the world, everyone's hearts and minds would surely become one.”{/color}"
 
 # game/scenario/7story.rpy:418
 translate english story7_76b2fe88_1:
@@ -305,7 +305,7 @@ translate english story7_d3753c7e:
     # nvl clear
     # story "まず君の家の敷地っていう概念を取っ払って\n君の家の家族を色んな家族と\nぐちゃぐちゃに混ぜたり\n取り替えたりしてみようよ。\n君と知らない人のこころやかんがえが\nひとつになるはずだよ。\n　\n大きくても小さくても\n君が望んでる事だもの。\nがんばろう！"
     nvl clear
-    story "First, let's get rid of the concept of your own house and try mixing up and swapping your family with all sorts of other families. Your hearts and minds will surely become one with those of people you don’t know. \n\nWhether it's big or small, that’s what you desire. \nSo let's do our best!"
+    story "First, let's get rid of the concept of your own house and try mixing up and swapping your family with all sorts of other families. Your hearts and minds will surely become one with those of people you don’t know. \n\nWhether it's big or small, that’s what you desire. \nSo do your best!"
 
 translate english story7_76b2fe88_2:
 
@@ -406,7 +406,7 @@ translate english story7_a64eb484:
 translate english story7_89c732c4:
 
     # extend "\n　\nでも僕が強くお願いすると\n逆らえなくなっちゃうんだ。"
-    extend "\n \nBut if I were to make a strong request, you wouldn't be able to refuse me."
+    extend "\n \nBut if I were to firmly ask you to do me a favor, you wouldn't be able to refuse me."
 
 # game/scenario/7story.rpy:466
 translate english story7_76b2fe88_9:
@@ -449,7 +449,7 @@ translate english story7_b8b3afeb:
 translate english story7_b7c0ba93:
 
     # rom "それでその…\n今配ったお菓子に…！\nううっ…ごめんよぅ…\nおいらがふがいないばっかりに…"
-    rom "So, um... \nThose snacks I just handed out...! \n*sob*... I'm so sorry... \nIt's all my fault..."
+    rom "So, um... \nThese snacks I just handed out...! \n*sob*... I'm so sorry... \nIt's all my fault..."
 
 # game/scenario/7story.rpy:525
 translate english story7_79b6d094:
@@ -503,7 +503,7 @@ translate english story7_a545eee0:
 translate english story7_c516660c:
 
     # ger "思い出せ！今まで\n「よくわからないけど\n　すごいものが出来たよー！」\nという事が何度あった！？"
-    ger "Think back! How many times has he said, \n“I don't know how, but I've created something amazing!”?"
+    ger "Think about it! How many times has he said, \n“I don't know how, but I've created something amazing!”?"
 
 # game/scenario/7story.rpy:592
 translate english story7_6208f4e2:
@@ -539,7 +539,7 @@ translate english story7_c962e036:
 translate english story7_3bf446ee:
 
     # spa "あっせやけどお願い聞こえんくらい\n離れたら大丈夫や思うで！\nほな！帰ろかー！"
-    spa "Oh, but I reckon if we get far enough away that we can't hear his commands, it'll be alright! \nWell then! Let's head on back home!"
+    spa "Oh, I reckon if we get far enough away that we can't hear his commands, we should be fine! \nWell then! Let's head on back home!"
 
 # game/scenario/7story.rpy:637
 translate english story7_7a388682:
@@ -551,7 +551,7 @@ translate english story7_7a388682:
 translate english story7_e767e6e2:
 
     # rus "効いてくるまで\n少し時間がかかるから\nもうちょっとだけ\nこの部屋にいようね。"
-    rus "It'll take a bit of time before it takes effect, so let's stay in this room a little longer, okay?"
+    rus "It'll take a bit of time for it to take effect, so let's stay in this room a little longer, okay?"
 
 # game/scenario/7story.rpy:664
 translate english story7_83848811:
@@ -593,7 +593,7 @@ translate english story7_98c5cd80:
 translate english story7_e50d5526:
 
     # rus "大丈夫。\n僕は怖くないよ？"
-    rus "It'll be alright. \nI'm not scared, see?"
+    rus "But it'll be alright. \nI'm nothing to be afraid of, you know."
 
 ###########################
 ###########################
@@ -641,7 +641,7 @@ translate english stophim_20a5e4d8:
 translate english stophim_6775b8a1:
 
     # bul "俺は菓子を食っていない！\n盾になってでも！みなさんを！\nお守りするんだわー！"
-    bul "I didn't eat any sweets! I'll shield everyone with my body if I have to! I'll protect you all!"
+    bul "I didn't eat any of his sweets! I'll protect you all! Even if I have to act as a shield!"
 
 # game/scenario/7story.rpy:798
 translate english stophim_1321376f:
@@ -653,19 +653,19 @@ translate english stophim_1321376f:
 translate english stophim_fd42778c:
 
     # rus "んー…。"
-    rus "Nnnh..."
+    rus "Hmm..."
 
 # game/scenario/7story.rpy:810
 translate english stophim_70418c9f:
 
     # rus "わかった。\n君がそう言うなら\n今日は止めておくね"
-    rus "I understand. \nIf you're asking me to, I'll stop for today."
+    rus "Alright. \nIf you say so, then I'll hold off for today."
 
 # game/scenario/7story.rpy:819
 translate english stophim_025e173f:
 
     # bul "えっ、まじっすか！\nあざーっす！\nあざーっす！"
-    bul "Oh, seriously?! \nCheers! \nCheers!"
+    bul "Oh, for real?! \nThanks a bunch, dude!"
 
 # game/scenario/7story.rpy:822
 translate english stophim_06388748:
@@ -695,7 +695,7 @@ translate english stophim_0b8ee69b:
 translate english stophim_2ab3c212:
 
     # na "全てそこそこほどほどに\n綺麗にまとまる！　　　　…はずだった。"
-    na "It was all reasonably and neatly wrapped up, more or less! \n        ...or so it should have been."
+    na "It was all wrapped up neatly, more or less! \n        ...or so it should have been."
 
 # game/scenario/7story.rpy:844
 translate english stophim_e7131160:
@@ -737,7 +737,7 @@ translate english stophim_c6628b52:
 translate english stophim_1b277827:
 
     # bul "でも何でこんな展開\nになるんだわー！？\nあっ、いや。ですかー！"
-    bul "But why the hell did it have to turn out this way!? \nOh, wait... I mean...!"
+    bul "But why the hell did it have to turn out this way!? \nOh, wait... I mean... What's going on here, Mr. Russia, sir?!"
 
 # game/scenario/7story.rpy:888
 translate english stophim_259d5e1c:
@@ -779,7 +779,7 @@ translate english stophim_33de9b00:
 translate english stophim_37131345:
 
     # bul "え…それって…\nだってあの時ロシアさん\nいなかったじゃ…"
-    bul "Um... That's... \nBut you weren't there when we talked about that, Mr. Russia..."
+    bul "Wait... That's... \nBut you weren't there when we talked about that, Mr. Russia..."
 
 # game/scenario/7story.rpy:913
 translate english stophim_dbc52dbc:
@@ -809,7 +809,7 @@ translate english stophim_0ba32b4e:
 translate english stophim_3556432d:
 
     # bul "あ！でもよく考えたら\n確かにおいしい\nポジションですわ！\nあざーっす！あざーっす！{nw=2}"
-    bul "Ah! But now that I've thought about it, this is actually a pretty sweet deal! \nThanks, dude! Thanks!{nw=2}"
+    bul "Ah! But come to think of it, this is actually a pretty sweet deal! \nThanks, dude! Thanks!{nw=2}"
 
 
 # game/scenario/7story.rpy:957
@@ -829,7 +829,7 @@ translate english stophim_e1c6c2ea:
 translate english donothing_9e5b1917:
 
     # ame "やめるんだロシア！\n君がやめないのなら\n俺が君を止めるまでだ！"
-    ame "Stop it, Russia! \nIf you don't put an end to this, I'll have to stop you!"
+    ame "Hold it, Russia! \nIf you don't put an end to this, I'll have to stop you!"
 
 # game/scenario/7story.rpy:986
 translate english donothing_d70e96ff:
@@ -841,7 +841,7 @@ translate english donothing_d70e96ff:
 translate english donothing_b8455794:
 
     # ame "確かに今の俺には\n君に対抗できる力が出せない。\nだがそれで俺は諦めない！"
-    ame "It's true that I don't have the strength to fight you. \nBut that doesn't mean I'm giving up!"
+    ame "It's true that I don't have the strength to fight you. But that doesn't mean I'm giving up!"
 
 # game/scenario/7story.rpy:1006
 translate english donothing_4db270a6:

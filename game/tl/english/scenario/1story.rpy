@@ -22,7 +22,7 @@ translate english story1_76b2fe88:
 translate english story1_3dea0bd1:
 
     # story "あっブっさん一つ聞いても？\n怖い話ってやはり幽霊的なものですか？\nそれとも人間が怖い話ですか？"
-    story "Oh, Mr. Bul, just one question? By scary story, do you mean like, a ghost story? Or should it be a story where the people in it are what's scary?"
+    story "Oh, Mr. Bul, just one question. By scary story, do you mean like, a ghost story? Or should it be a story where the people in it are what's scary?"
 
 # game/scenario/1story.rpy:26
 translate english story1_e584c917:
@@ -52,7 +52,7 @@ translate english story1_76b2fe88_2:
 translate english story1_9722ed60:
 
     # story "あれは初冬の事でした…。\n\n僕の家は冬になるとお日様が\nほとんど見えなくなります。"
-    story "It happened in the early winter... \n\nThe sun is barely visible at my house during that time of year."
+    story "It happened in the early winter... \n\nThe sun is barely visible at my house at this time of year."
 
 # game/scenario/1story.rpy:40
 translate english story1_76b2fe88_3:
@@ -138,7 +138,7 @@ translate english story1_76b2fe88_5:
 translate english story1_3db3c991:
 
     # story "紅葉の季節も終わり、\n森は灰色っぽくなりましたが、\n苔やベリーの木にはまだ色があって、\n音と色を楽しみながら\n森を進むのも良い物です。"
-    story "The season for fall colors had ended, and the forest had become all grayish, but the moss and the berries on the trees still offered little touches of color. It was nice to just take a walk through the forest enjoying the sounds and the colors."
+    story "The season for fall colors had ended, and the forest had become all grayish, but the moss and the berry trees still offered little touches of color. It was nice to just take a walk through the forest enjoying the sounds and the colors."
 
 # game/scenario/1story.rpy:88
 translate english story1_71bb5559:
@@ -200,7 +200,7 @@ translate english story1_3d7cb46b:
 translate english story1_b8b4a374:
 
     # story "僕たちからすれば空に描いた光る点々でも、\n一つ一つが大きな星なんですよね…。\n宇宙は大きいなぁ…。"
-    story "To us, they may look like shimmering dots drawn onto the sky, but every single one of them is a giant astronomical object. Space is so huge..."
+    story "To us, they may look like shimmering dots drawn onto the sky, but every single one of them is a giant celestial object. Space is so huge..."
 
 # game/scenario/1story.rpy:123
 translate english story1_76b2fe88_9:
@@ -212,13 +212,13 @@ translate english story1_76b2fe88_9:
 translate english story1_9bbc6b9f:
 
     # story "コーヒーを飲みながら、\n考え事をしたり、しなかったり、\nただそこにある物を眺めたり…\nそんなふうに過ごします。"
-    story "While I was drinking my coffee, I would get lost in my thoughts, then come out of it, and just gaze at whatever was around me... \nThat's how I spent my time."
+    story "While I was drinking my coffee, I would wander in and out of my thoughts, and just gaze at whatever was around me... \nThat's how I spent my time."
 
 # game/scenario/1story.rpy:130
 translate english story1_ea461b45:
 
     # story "それから眠くなったら寝ます！\nいつも時間に縛られてますから\n森にいる日は夜更かししても\nとっても早く寝てもいいのです。"
-    story "After a while, I was getting sleepy, so I decided to call it a night! I'm usually pressed for time, but when I'm in the forest, I have the freedom to stay up or go to bed whenever I want."
+    story "After a while, I was getting sleepy, so I decided to call it a night! I'm usually pressed for time, but when I'm in the forest, I have the freedom to stay up or go to sleep whenever I want."
 
 # game/scenario/1story.rpy:131
 translate english story1_76b2fe88_10:
@@ -230,7 +230,7 @@ translate english story1_76b2fe88_10:
 translate english story1_e69e9c86:
 
     # story "……………。"
-    story "......"
+    story "..............."
 
 # game/scenario/1story.rpy:139
 translate english story1_713cb033:
@@ -262,7 +262,7 @@ translate english story1_30985ce0:
 translate english story1_fdc500c9:
 
     # story "そして僕はまだ誰も踏んでいない\n真っ白に囲まれている！！"
-    story "And I was surrounded by pristine whiteness, untouched by anyone else's footsteps!!"
+    story "And I was surrounded by pure white that nobody had stepped on yet!!"
 
 # game/scenario/1story.rpy:155
 translate english story1_e700ed26:
@@ -326,7 +326,7 @@ translate english story1_7e157b70:
 translate english story1_27af72b2:
 
     # story "そんな場所に踏み入れてしまった僕の体は\n足先からずぶずぶと薄い氷の\nその先へと向かっていきます。"
-    story "I'd carelessly stepped onto it, and now my weight was pulling me down, feet first, through the snow towards the thin ice."
+    story "I'd carelessly stepped onto it, and now my weight was pulling me down, feet first, through the thin ice."
 
 # game/scenario/1story.rpy:197
 translate english story1_76b2fe88_12:
@@ -452,7 +452,7 @@ translate english story1_8140aebe:
 translate english story1_ec3a4cfa:
 
     # story "そこに誰かがいる気がします。\nこんな森の中に誰が…？"
-    story "There seemed to have been someone else there. Who could have been here, deep in this forest...?"
+    story "Someone else seemed to be there. Who could it have been, deep in this forest...?"
 
 # game/scenario/1story.rpy:301
 translate english story1_6a053c06:
@@ -497,7 +497,7 @@ translate english story1_c33d8f72:
 
     # story "でもこんな事を僕が言うと\n「酒飲んでたんだべ！」とか\n「仲間…（ニヨニヨ）」とか\n言われて信じていただけないので\n今日の今日まで心の中に留めておりました！"
     story "But whenever I say that, I'd get things like,{nw}"
-    story_indent "“You musta been drinking!” and, \n“One 'f my colleagues... (smirk)”{nw}"
+    story_indent "“You musta been drinking!” and, \n“One 'f us... (smirk)”{nw}"
     story "and no one would believe me so I've kept it to myself until today!"
 
 # game/scenario/1story.rpy:348
@@ -510,7 +510,7 @@ translate english story1_76b2fe88_20:
 translate english story1_13ee2293:
 
     # story "こんな現代に人を助けてくれる妖精が\n生きてるってすごくないですか？\nある意味怖くはないですか？"
-    story "Isn't it amazing that there are fairies who help people, even in this day and age? In a way, it's not that scary, right?"
+    story "Isn't it amazing that there are fairies who help people, even in this day and age? In a way, it is kinda scary, right?"
 
 # game/scenario/1story.rpy:353
 translate english story1_07f26bdc:
@@ -558,7 +558,7 @@ translate english story1_ce2dd2ba:
 translate english story1_46462028:
 
     # eng "俺は嫌いじゃない。\nいいんじゃないか。\nフィンランドらしく\nふわふわしていて。"
-    eng "I don't dislike it. I thought it was alright. It's pretty easygoing, just like you Finland."
+    eng "I don't dislike it. I thought it was alright. It's pretty easygoing, just like you, Finland."
 
 # game/scenario/1story.rpy:390
 translate english story1_921c0f53:

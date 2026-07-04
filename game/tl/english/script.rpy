@@ -4,25 +4,25 @@
 translate english start_8479585a:
 
     # na "「７カ国が集まる国際怖い話会合があるから\n　そこで話を聞いてきてくれないかなー？」\n{vspace=12}{space=155}その一言でそれは始まった。"
-    na "“Seven nations are going to gather for the International Conference of Scary Stories. Do you want to come and listen to what they have to say?”\n{vspace=8} {space=155}It started with those words."
+    na "“Seven nations are going to gather for the International Conference of Scary Stories. Do you want to come and listen to what they have to say?”\n{vspace=8} {space=155}It all started with those words."
 
 # game/script.rpy:24
 translate english start_d72426f3:
 
     # bul "えっ俺が？"
-    bul "Wha— me?"
+    bul "Who? Me?"
 
 # game/script.rpy:29
 translate english start_4d123f7b:
 
     # rom "ごめんね～。\nほんとはおいらが\nやりたかったんだけどさー。"
-    rom "Sorry～ \nI actually wanted to do this myself..."
+    rom "Sorry～ \nI actually wanted to do it myself..."
 
 # game/script.rpy:33
 translate english start_f8af57b9:
 
     # rom "{size=-2}魔術部のイギ…\nほにゃららさんに{size=-5}ごほごほっ{/size}\nいつやるんだって\nせっつかれてるしー…。{/size}"
-    rom "{size=-1}One of the Magic Club members, Eng... \nEr, Mr. Blahblah {size=-2}(cough cough),{/size} keeps pestering me about when I'm going to attend...{/size}"
+    rom "{size=-1}One of the Magic Club members, Eng... \nEr, Mr. You-know-who {size=-2}(cough cough),{/size} keeps pestering me about when I'm going to attend...{/size}"
 
 # game/script.rpy:35
 translate english start_fe490979:
@@ -34,13 +34,13 @@ translate english start_fe490979:
 translate english start_6074a98b:
 
     # bul "いやそれ俺もだけどね。\n俺も遊ぶ暇あったら\n内職しろって\n言われてるんだわー。"
-    bul "Nah, I get it, same here. \nMine tells me I should go get a side hustle if I've got time to play around."
+    bul "Nah, I get it, same here. \nMine tells me I should go get a side hustle if I've got time for fun."
 
 # game/script.rpy:42
 translate english start_8f7e5e1b:
 
     # rom "そうだったの！？\nでもお前いっつも\nフラフラしてるじゃんかー！"
-    rom "He says that!? \nBut you {i}are{/i} just messin' around all the time, aren't you?!"
+    rom "Really!? \nBut you {i}are{/i} just loitering around all the time, right?!"
 
 # game/script.rpy:46
 translate english start_fe5ba20e:
@@ -52,7 +52,7 @@ translate english start_fe5ba20e:
 translate english start_d6cfb26b:
 
     # rom "なんて友だち甲斐が\nないんだよー！頼むよー！\n頼める人がいないんだよー"
-    rom "What kind of useless friend are yoou?! \nI'm begging youuu! \nThere's no one else I can aaask."
+    rom "How could you treat your friend like this!? \nI'm begging youuu! \nThere's no one else I can aaask."
 
 # game/script.rpy:54
 translate english start_c66e6f28:
@@ -101,7 +101,7 @@ translate english start_3d397b61:
 
     # rom "３００じゃないよね?"
     $ rom.screen = 'left_3'
-    rom "You're not 300 years old, \nare you?"
+    rom "You aren't 300 years old, \nare you?"
 
 # game/script.rpy:89
 translate english start_59e783b8:
@@ -149,7 +149,7 @@ translate english start_300040ae:
 translate english start_c62956d7:
 
     # rom "やーだー！その理屈わかんないよー\n頼むよー！行ってよー！\nいらとお前の付き合いだろー！！"
-    rom "Nooo! You don't understand! \nPleeease! Just go! \nYou and I are friennnds!!"
+    rom "Nooo! That doesn't make any sense! \nPleeease! Just go! \nYou and I are friennnds!!"
 
 # game/script.rpy:135
 translate english start_091ebbd4:
@@ -185,7 +185,7 @@ translate english start_7c634a5e:
 translate english start_6f8a9988:
 
     # extend "\n…あっ！そうだ！\nこの仕事すると…目立てるよ！"
-    extend "\n...Ah! I've got it! \nIf you do this for me... \nYou'll get noticed!"
+    extend "\n...Ah! I've got it! \nIf you do this for me... \nYou'll stand out!"
 
 # game/script.rpy:165
 translate english start_63665121:
@@ -233,7 +233,7 @@ translate english start_70786b2a:
 translate english start_ab6fbfcb:
 
     # na2 "この二国って加入してから\n足引っ張ってるだけですよね。\nだから反対してたんですよ。"
-    na2 "Those two countries have just been dragging their feet since they joined. That's why I was against it."
+    na2 "Those two countries have just been throwing a wrench into things since they joined. That's why I was against it."
 
 # game/script.rpy:200
 translate english start_b1038b62:

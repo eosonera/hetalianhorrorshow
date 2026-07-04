@@ -28,7 +28,7 @@ translate english story2_76b2fe88:
 translate english story2_2c0b6678:
 
     # eng "嘘だ！お前いつも\n一番にこだわるだろ"
-    eng "Liar! You' a're always particular about going first."
+    eng "Liar! You are always particular about going first."
 
 # game/scenario/2story.rpy:33
 translate english story2_49a1d355:
@@ -77,7 +77,7 @@ translate english story2_3f21d0b0:
 translate english story2_f1213b36:
 
     # ame "Ｗｈａｔ！？"
-    ame "What?!"
+    ame "What!?"
 
 # game/scenario/2story.rpy:92
 translate english story2_c752e978:
@@ -161,7 +161,7 @@ translate english story2_909b71e5:
 translate english story2_3551935b:
 
     # bul "ちょ…俺ら消される\nタイプの怖さは\n求めてねーんだわー！"
-    bul "Wait... We're not looking for the type of scary that's gonna get us  ‘forcibly disappeared’...!"
+    bul "Wait... We're not looking for the type of scary that's gonna get us executed...!"
 
 # game/scenario/2story.rpy:212
 translate english story2_23caa78b:
@@ -180,7 +180,7 @@ translate english story2_072bd0c2:
 
     # ame "さっきのスリルと感動の\nバッファローの話に比べたら\nキッズ用のファンタジーさ！\n安心して聞いてくれ！"
     $ ame.screen = 'left_4long'
-    ame "Compared to the thrilling and inspiring buffalo story, this is just a children's fairy tale! Have a listen without worry!"
+    ame "Compared to my thrilling and inspiring buffalo story, this is just a children's fairy tale! Don't worry, just have a listen!"
 
 # game/scenario/2story.rpy:247
 translate english story2_62232ffc:
@@ -199,7 +199,7 @@ translate english story2_de4c902d:
 translate english story2_c6b074f3:
 
     # story "それで上司に呼び出された俺は\nエリア５１の地下２１階を\n上司と二人で進んでいったんだ…。"
-    story "So my boss called me in, and the two of us made our way down to the 21st basement floor of Area 51...."
+    story "So my boss called me in, and the two of us made our way down to the 21st basement floor of Area 51..."
 
 # game/scenario/2story.rpy:268
 translate english story2_5abb5092:
@@ -219,7 +219,7 @@ translate english story2_38514aff:
 translate english story2_d4e0c4dd:
 
     # extend "\n\nだって。君、それアンサーになってないよ…。"
-    story "\n\But... That didn't answer my question..."
+    story "\nBut... That didn't answer my question..."
 
 # game/scenario/2story.rpy:276
 translate english story2_3770d437:
@@ -227,7 +227,7 @@ translate english story2_3770d437:
     # nvl clear
     # story "「…君にまで隠し事をしてしまって\n　本当に申し訳ないと思っている。\n　今から紹介する彼は…{color=#B5C1FC}宇宙人{/color}なんだ。\n　そしてこのエリア５１で働いている」"
     nvl clear
-    story_indent "\n“...I do owe you a sincere apology for keeping this a secret from you. The gentleman I'm about to introduce to you... Is an {color=#B5C1FC}extraterrestrial{/color}. \nAnd he works here in Area 51.”"
+    story_indent "\n“...I do owe you a sincere apology for keeping this a secret from you. The gentleman I'm about to introduce... \nIs an {color=#B5C1FC}extraterrestrial{/color}. \nAnd he works here in Area 51.”"
 
 # game/scenario/2story.rpy:281
 translate english story2_30c814b8:
@@ -245,7 +245,7 @@ translate english story2_76b2fe88_3:
 translate english story2_18250913:
 
     # story "\n「紹介しよう。\n　合衆国が技術提携を結んでいる\n　ＧＨ５３４７３星雲の\n　ＹＵ７８３４２星から\n　合衆国の視察に来た\n　ＭＡＴＡ・メッテシーア君だ」"
-    story_indent "\n“Allow me to introduce you. \nThis is Mata Mettesia, \nfrom the planet YU78342\nout in the GH53473 nebula. \nHe's here visiting the United\nStates under our technology\npartnership agreement.”"
+    story_indent "\n“Allow me to introduce you. \nThis is Mata Mettesia, \nfrom the planet YU78342\nof the GH53473 nebula. \nHe's here visiting the United\nStates under our technology\npartnership agreement.”"
 
 # game/scenario/2story.rpy:294
 translate english story2_8552af69:
@@ -306,7 +306,7 @@ translate english story2_76b2fe88_7:
 translate english story2_5ab8cca2:
 
     # story "　\nそしたら上司も「宇宙人」君も\nポカーンとした顔をしてるんだよ。\n　\nもー君達。\n俺がこの宇宙人ドッキリに引っかかったら\nHetatubeに動画アップする\nつもりだったんだろ！？"
-    story "\nBut my boss and the “alien” both just stared at me, all flabbergasted. \n\nC'mon, you guys. \nYou were gonna upload the video to HetaTube if I’d fallen for the alien prank, right!?!?"
+    story "\nBut my boss and the “alien” both just stared at me, all flabbergasted. \n\nC'mon, you guys. \nIf I’d fallen for the alien prank, you were gonna upload the video to HetaTube, right!?"
 
 # game/scenario/2story.rpy:338
 translate english story2_f48c6d62:
@@ -324,8 +324,8 @@ translate english story2_f7f24f4c:
     # nvl clear
     # story "{k=8}　\n「え。あ。いや普通に宇宙人ですよ…？\n　トニーさんって…？」\n\nなんて言い出すんだよ！\n分かった今日一日君は宇宙人キャラでいくんだな！\nＯＫ！　俺も付き合ってやるんだぞ！{/k}"
     nvl clear
-    story_indent "\n\n“Eh. Um. No, I'm just a normal alien...? \nWho's Tony...?{nw}"
-    story "\nThis was what he said! \nAlright, so he was gonna commit to playing an alien character today! OK! Then I'd play along too!"
+    story_indent "\n\n“Eh. Um. No, I'm just a normal alien...? \nWho's Tony...?”{nw}"
+    story "\nThat was what he said! \nAlright, so he was gonna commit to playing an alien character today! OK! Then I'd play along too!"
 
 # game/scenario/2story.rpy:344
 translate english story2_ddc443ca:
@@ -333,13 +333,13 @@ translate english story2_ddc443ca:
     # nvl clear
     # story "{k=3}「なんだいその設定！面白くていいよ。\n　星の名前はもう少し覚えやすくて\n　かっこいい方が良いぞ！\n　映画にした時に覚えられないと困るだろう？」{/k}"
     nvl clear
-    story_indent "\n“What a backstory! It's pretty interesting. But the planet's name should be cooler and more memorable! You don't want people forgetting it when it's turned into a movie, do you?”"
+    story_indent "\n“What a backstory! It's pretty interesting. But the planet should have a cooler name that's more memorable! You don't want people forgetting it when it's turned into a movie, do you?”"
 
 # game/scenario/2story.rpy:359
 translate english story2_4be20c23:
 
     # story "{k=8}「えー…、嘘ーん…。\n　この見た目の時点で\n　あっ宇宙人だ。って思いません？\n　それに多分そのトニーさんも宇宙人っすよ」{/k}"
-    story_indent "\n\n“Uhh... You've got it wrong... \Wouldn't my appearance just immediately make you think, ‘Oh, this guy's an alien'? And I'm pretty sure that your friend Tony is an alien too.”"
+    story_indent "\n\n“Uhh... You must be mistaken... Wouldn't my appearance just immediately make you think, ‘Oh, this guy's an alien'? And I'm pretty sure your friend Tony is an alien too.”"
 
 # game/scenario/2story.rpy:360
 translate english story2_e51a00d1:
@@ -347,7 +347,7 @@ translate english story2_e51a00d1:
     # nvl clear
     # story "トニーは正真正銘のアメリカ人だぞ！\n街を歩けばちょくちょく\n見かけるタイプじゃないか！\nそれを宇宙人って君…ＤＤＤＤＤ！\n\nそれに君、君。\nここはアメリカ合衆国だぞ？\n特殊メイクは朝飯前なのだよ！"
     nvl clear
-    story "Tony's a real American! \nYou see guys who look just like him all the time walking down the street! So to say he's an alien... DDDDD! \n\nAlso, look at him! \nIsn't this the United States of America? Special effects makeup is a piece of cake!"
+    story "But Tony's a real American! \nHe's the kinda guy you'd see all the time walking down the street! So to say he's an alien... DDDDD! \n\nAlso, look at him! \nIsn't this the United States of America? Special effects makeup must be a piece of cake!"
 
 # game/scenario/2story.rpy:363
 translate english story2_585c8f64:
@@ -370,8 +370,8 @@ translate english story2_615a20e3:
 translate english story2_0654576b:
 
     # extend "\n　フォトショップ 【Ｃ Ｃ ｜クロップサークル】は\n　専門外なんでちょっと使えない、ですね…。\n　なんかごめんなさい…」\n　\nなんだい！やっぱり君、\nただのトニーのそっくりさんじゃないか！"
-    extend "\nPhotoshop CC (Crop Circles) is outside my area of expertise, so I'm afraid not... Sorry about that...”{nw}"
-    story "\nWhat! So in the end, he was just a guy who looks like Tony!"
+    extend "\nPhotoshop CC (crop circles) is outside my area of expertise, so I'm afraid not... Sorry about that...”{nw}"
+    story "\nWhat! So in the end, he {i}was{/i} just a guy who looks like Tony!"
 
 # game/scenario/2story.rpy:372
 translate english story2_3f1d93c3:
@@ -403,7 +403,7 @@ translate english story2_76b2fe88_9:
 translate english story2_a83e8ea7:
 
     # story "ドラマの話で盛り上がってたら\n彼が思い出したように"
-    story "We were having a good time talking about dramas, and he suddenly remembered something."
+    story "We were having a good time talking about dramas, when he suddenly remembered something."
 
 # game/scenario/2story.rpy:395
 translate english story2_ef7600bc:
@@ -419,7 +419,7 @@ translate english story2_0aa5539a:
     # story "「へぇ！君の船か！\n　是非とも乗ってみたいんだぞ！」\n\nクルージングも好きだからね。\n真っ先にＹｅｓ！って答えたよ。\nエリア５１に勤めていると\nクルージング船が買えるんだな。"
     nvl clear
     story_indent "\n“Whoa! You have a ship!? I definitely wanna go on a ride!”{nw}"
-    story "\nI mean, I do like cruises, so I immediately replied with an enthusiastic “Yes!” \nWorking at Area 51 must pay well if he could afford to buy a cruise ship."
+    story "\nI mean, I do like cruises, so I immediately replied with an enthusiastic “Yes!” \nWorking at Area 51 must pay well if he can afford to buy a cruise ship."
 
 # game/scenario/2story.rpy:400
 translate english story2_76b2fe88_10:

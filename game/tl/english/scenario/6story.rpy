@@ -22,7 +22,7 @@ translate english story6_76b2fe88:
 translate english story6_4530b679:
 
     # story "ほな、怖い話やんなぁ。\n俺の怖い話は日常に\n食い込んでくるタイプやで～。\n早速話させてもらうでー。"
-    story "Now then, a scary story, ey? Mine's the kinda scary story that creeps into everyday life~. \nI'll get right to talking then!"
+    story "Now then, a scary story, ey? Mine's the kinda scary story that I find creepin' into everyday life~. \nI'll get right to talking then!"
 
 # game/scenario/6story.rpy:22
 translate english story6_76b2fe88_1:
@@ -34,7 +34,7 @@ translate english story6_76b2fe88_1:
 translate english story6_d84df516:
 
     # story "\nこれはアジアからの観光客が体験した話。\n…仮にワンさんとでもしとこか。\nなんや俺アジア人ゆーと\nワンさんってイメージやねん。\nイタちゃんの映画のせいやんな。"
-    story "\nThis here's the story of what an Asian tourist had experienced. \n...Let's call 'im 'Mr. Wang' fer now. \nHuh, for some reason, when I think of an 'Asian person,' I just picture a 'Mr. Wang,' ya know? I blame Italito's movies fer that..."
+    story "\nThis here's the story of what an Asian tourist had experienced. \n...Let's call 'im 'Mr. Wang' fer now. \nFer some reason, when I think of an 'Asian person,' I just picture a 'Mr. Wang,' ya know? I blame Italito's movies fer that..."
 
 # game/scenario/6story.rpy:27
 translate english story6_6882a1ea:
@@ -72,7 +72,7 @@ translate english story6_76b2fe88_2:
 translate english story6_88afc890:
 
     # story "\n\nワンさんは俺の家初めて\nやったから知らんかったんや…。\n　\nワンさんを狙とる黒ーい影が\nぎょうさんおるっちゅー事を…。"
-    story "\n\nMr. Wang didn't know right well, since it was his first time in my house... \n \n...that a whole lotta dark shadows were gunnin' after 'im..."
+    story "\n\nSince it was his first time visitin' my house, Mr. Wang didn't know right well... \n \n...that a whole lotta dark shadows were gunnin' after 'im..."
 
 # game/scenario/6story.rpy:46
 translate english story6_76b2fe88_3:
@@ -96,7 +96,7 @@ translate english story6_fb88e71b:
 translate english story6_27cf66bf:
 
     # story "と下から声がしたん、\nそこに１０歳くらいの男の子がおってな。\n絵葉書こうて～って叫んでるん。"
-    story "\nA voice called out from below, coming from this boy 'bout ten years old. He was callin' for people to buy some postcards."
+    story "\nA voice called out from below, comin' from this boy 'bout ten years old. He was callin' for people to buy some postcards."
 
 # game/scenario/6story.rpy:57
 translate english story6_445852eb:
@@ -140,7 +140,7 @@ translate english story6_38b5b283:
 translate english story6_6429e0ff:
 
     # story "\nえ…安すぎんとちゃうかって？\nほんまに！？、普通これくらいちゃうん！？\n俺、特別安い方なんかな…。\nそうなん…。"
-    story "\nHuh... You all think that ain't enough or somethin'? \nNo kiddin'!? Ain't that a normal 'mount!? Maybe I'm just 'specially broke... \nYeah, sounds about right..."
+    story "\nWait... You all think that ain't enough or somethin'? \nSeriously!? Ain't that a normal 'mount!? Maybe I'm just 'specially broke... \nYeah, sounds 'bout right..."
 
 # game/scenario/6story.rpy:80
 translate english story6_5ecbbcbb:
@@ -164,7 +164,7 @@ translate english story6_70baa050:
 translate english story6_6b658eb9:
 
     # story "高い思うても言い値で\n買うたることにしたらしいで。\nワンさん金持ちやんな。"
-    story "Despite his misgivings, he still decided ta pay the asking price. Mr. Wang's rich, ain't he??"
+    story "Despite his misgivings, he still decided ta pay the asking price. Mr. Wang's rich, ain't he?"
 
 # game/scenario/6story.rpy:88
 translate english story6_94b3a7cf:
@@ -178,7 +178,7 @@ translate english story6_94b3a7cf:
 translate english story6_9cde0fcb:
 
     # story "ガキがジャンプしたか思うと\nワンさんの財布に入っとった\n１００ユーロ札ばっかわっしと掴むと\n猛ダッシュしよった！"
-    story "The rascal jumped up, grabbed a 100-euro note out from Mr. Wang’s wallet, and hightailed it outta there!"
+    story "The rascal jumped up, grabbed a bunch of 100-euro notes out from Mr. Wang’s wallet, and hightailed it outta there!"
 
 # game/scenario/6story.rpy:99
 translate english story6_76b2fe88_6:
@@ -208,7 +208,7 @@ translate english story6_76b2fe88_7:
 translate english story6_d0372bdd:
 
     # story "…悪ガキもなんとかせんとなぁ…。\n普通に暮らせるくらいなら\n社会保障とかいろいろやっとるさかい\n盗みとかせえへんくてもええのに…。\nその辺、地方役所なにやっとんのかな。\n俺も反省せんとやなぁ。"
-    story "..Somethin' oughta be done 'bout them delinquents...  If they could just live a normal life, with all the social welfare 'n support systems 'vailable, they shouldn't hafta resort to theft... I wonder what the local gov'mint's doin' 'bout that. I suppose I oughta reflect on myself too."
+    story "..Somethin' oughta be done 'bout them delinquents...  If they could just live a normal life, with all the social welfare 'n support systems 'vailable, they shouldn't hafta resort to theft... I wonder what the local gov'mint's doin' 'bout that. I suppose I should reflect on myself too."
 
 # game/scenario/6story.rpy:117
 translate english story6_44aa1f7b:
@@ -304,7 +304,7 @@ translate english story6_76b2fe88_11:
 translate english story6_c1b6aa94:
 
     # story "ほな、このままうかうかしとったら\nいつ第二第三の首絞めに\nエンカウントするかわからん！\n警察や！思うたワンさんは\n走って警察を探すことにしたんやって。"
-    story "Well, if he kept dawdlin', there was no telling when he'd encounter a second or third stranglin'! Mr. Wang reckoned he oughta tell the police, so he decided to run off and search for them."
+    story "Well, if he kept dawdlin', there was no tellin' when he'd encounter a second or third stranglin'! Mr. Wang reckoned he oughta tell the police, so he decided to run off and search for them."
 
 # game/scenario/6story.rpy:164
 translate english story6_76b2fe88_12:
@@ -346,7 +346,7 @@ translate english story6_1ec35c69:
 translate english story6_80daeb48:
 
     # story "お、俺かてもうちょっと急ぐで！"
-    story "E-even I should show some sense of urgency!"
+    story "E-even I could show some sense of urgency!"
 
 # game/scenario/6story.rpy:177
 translate english story6_f7788c46:
@@ -354,7 +354,7 @@ translate english story6_f7788c46:
     # nvl clear
     # story "{color=#FFE5F7}「ほんで、今日どないすんの？\n　金ないんならホテル泊まれへんやろ。\n　大使館いって帰りーや。ほな！」{/color}"
     nvl clear
-    story_indent "\n\n{color=#FFE5F7}“So, what're ya doin' today? If ya got no money, ya can't stay at a hotel. Go to the embassy and head home. There!”{/color}"
+    story_indent "\n\n{color=#FFE5F7}“So, what're ya doin' today? If ya got no money, ya can't stay at a hotel. Go to the embassy and head home. See ya!”{/color}"
 
 # game/scenario/6story.rpy:180
 translate english story6_7633cc15:
@@ -372,7 +372,7 @@ translate english story6_76b2fe88_14:
 translate english story6_8f19ed5d:
 
     # story "ワンさんは手元の翻訳機で\n\n{color=#D9DED3}「{/color}{color=#FFB5B5}パスポートもある{/color}{color=#D9DED3}し、\n　幸い{/color}{color=#FFB5B5}クレジットカードは取られてない{/color}{color=#D9DED3}から\n　ホテルくらいは何とかなる。\n　だけど、あの{/color}{color=#FFB5B5}バッグには大事なもの{/color}{color=#D9DED3}が\n　入っていてどうしても取り返したい」{/color}\n　\nって伝えたん。"
-    story "Using a translation program he had on hand, Mr. Wang conveyed what he wanted to say,{nw}"
+    story "Using a translation program he had on hand, Mr. Wang conveyed what he wanted to say:{nw}"
     story_indent "\n{color=#D9DED3}“I {/color}{color=#FFB5B5}still have my passport,{/color}{color=#D9DED3} and thankfully my {/color}{color=#FFB5B5}credit card wasn't stolen,{/color}{color=#D9DED3} so I can manage to stay at a hotel. But there are {/color}{color=#FFB5B5}important things in that bag,{/color}{color=#D9DED3}so I absolutely must get it back,”{/color}"
 
 # game/scenario/6story.rpy:186
@@ -469,7 +469,7 @@ translate english story6_76b2fe88_19:
 translate english story6_77595613:
 
     # story "\n\n\n「家族は何人おるのー？\n　嫁おるん？何歳何歳？」"
-    story_indent "\n\n\n“So, how many people are in your family? Got a wife? How old are y'all?”"
+    story_indent "\n\n\n“So, how many people are in your family? Got a wife? How old are ya?”"
 
 # game/scenario/6story.rpy:221
 translate english story6_62a950ed:
@@ -502,7 +502,7 @@ translate english story6_761939fb:
 translate english story6_ae91938a:
 
     # story "大使館…にしてはカジュアルすぎんとちゃう？\n普通警備員とかおるんとちゃうの？"
-    story "Wasn't it... too casual for an embassy? Weren't there supposed to be security guards or somethin'?"
+    story "Wasn't it... a bit too casual for an embassy? Weren't there supposed to be security guards or somethin'?"
 
 # game/scenario/6story.rpy:230
 translate english story6_76b2fe88_21:
@@ -544,7 +544,7 @@ translate english story6_76b2fe88_23:
 translate english story6_125083fb:
 
     # story "　\n　\n　\nそれから二度と、\n警官は、戻ってこんかった…。"
-    story " \n \n \nAnd after that, \nthe police officer never returned..."
+    story " \n \n \nBut the officer never returned afterwards..."
 
 # game/scenario/6story.rpy:256
 translate english story6_42d10041:
@@ -622,7 +622,7 @@ translate english story6_76b2fe88_28:
 translate english story6_c1eab80a:
 
     # story "\nもう二度と来てくれんと思たけど\nワンさん暇見つけては\nちょくちょく遊びに来てくれはるん。\nごっつうれしーわぁ。"
-    story "\nI thought he'd never come back, but Mr. Wang keeps making regular visits whenever he has some free time. Makes me mighty happy, I tell ya."
+    story "\nI thought he'd never come back, but Mr. Wang keeps makin' regular visits whenever he has some free time. Makes me mighty happy, I tell ya."
 
 # game/scenario/6story.rpy:287
 translate english story6_f6aed5a5:

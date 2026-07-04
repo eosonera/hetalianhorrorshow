@@ -4,7 +4,7 @@
 translate russian start_8479585a:
 
     # na "「７カ国が集まる国際怖い話会合があるから\n　そこで話を聞いてきてくれないかなー？」\n{vspace=12}{space=155}その一言でそれは始まった。" id start_8479585a
-    na "«Семь стран соберутся на международном вечере страшилок хочешь ли ты присоединиться и послушать их истории?»\n{vspace=8}{space=155}Всё началось с этих слов." id start_8479585a
+    na "«Семь стран соберутся на международном вечере страшилок. Хочешь ли ты присоединиться и послушать их истории?»\n{vspace=8}{space=155}Всё началось с этих слов." id start_8479585a
 
 # game/script.rpy:27
 translate russian start_d72426f3:
@@ -16,7 +16,7 @@ translate russian start_d72426f3:
 translate russian start_4d123f7b:
 
     # rom "ごめんね～。\nほんとはおいらが\nやりたかったんだけどさー。" id start_4d123f7b
-    rom "Извини～\nЯ хотел пойти туда сам..." id start_4d123f7b
+    rom "Извини～\nЯ хотел сделать всё сам..." id start_4d123f7b
 
 # game/script.rpy:38
 translate russian start_f8af57b9:
@@ -52,7 +52,7 @@ translate russian start_fe5ba20e:
 translate russian start_d6cfb26b:
 
     # rom "なんて友だち甲斐が\nないんだよー！頼むよー！\n頼める人がいないんだよー" id start_d6cfb26b
-    rom "Настоящий друг так бы не сказаааал!\nЯ рассчитываю на тебяааー!\nМне больше не на кого рассчитываааать." id start_d6cfb26b
+    rom "Настоящий друг так бы не сказаааал!\nЯ рассчитываю на тебяааー!\nМне больше некого попросиииить." id start_d6cfb26b
 
 # game/script.rpy:59
 translate russian start_c66e6f28:
@@ -234,7 +234,7 @@ translate russian start_70786b2a:
 translate russian start_ab6fbfcb:
 
     # na2 "この二国って加入してから\n足引っ張ってるだけですよね。\nだから反対してたんですよ。" id start_ab6fbfcb
-    na2 "С тех пор, как они присоединились, эти две страны только и делают, что тормозят. Вот почему я был против." id start_ab6fbfcb
+    na2 "С тех пор, как они присоединились, эти две страны только и делают, что мешаются под ногами. Вот почему я был против." id start_ab6fbfcb
 
 # game/script.rpy:241
 translate russian start_b1038b62:

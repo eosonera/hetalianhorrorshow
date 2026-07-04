@@ -41,13 +41,13 @@ translate english story5_7c1520e6:
 
     # story "冷蔵庫に放置しようものなら\n\n「あっ、ごめんごめーん。\n　今度はもっと料理初心者にも\n　優しい高級食材持ってくるからー\n　調理器具もー。子供用のほしいー？」"
     story "Had I ignored it and left it tacked to the fridge, he'd of course go out of his way to tell me,{nw}"
-    story_indent "“Next time, I'll bring you the finest ingredients, perfect for a novice. As well as kitchen utensils. Would you like me to bring you the kind that children use?”"
+    story_indent "“Oh, sorry, my mistake. Next time, I'll bring you the finest ingredients, perfect for a novice. As well as kitchen utensils. Would you like me to bring you the kind that children use?”"
 
 # game/scenario/5story.rpy:26
 translate english story5_6a3cf795:
 
     # story "なんて満面のしたり顔で\n行ってくるに違いない…！"
-    story "And he'd smirk at me like a right prat while doing so...!"
+    story "And he'd smirk at me like a right prat while he did so...!"
 
 # game/scenario/5story.rpy:27
 translate english story5_76b2fe88_2:
@@ -101,7 +101,7 @@ translate english story5_cf4ddedf:
 translate english story5_47e598fd:
 
     # story "\nあれは突然やってきた…！"
-    story "\nThat it appeared out of nowhere...!"
+    story "\nThat it appeared, out of nowhere...!"
 
 # game/scenario/5story.rpy:44
 translate english story5_76b2fe88_5:
@@ -156,14 +156,14 @@ translate english story5_274d4766:
 
     # bul "幽霊唐突すぎる！"
     $ bul.screen = 'left_3'
-    bul "The ghost appeared too suddenly!"
+    bul "It really did come out of nowhere!"
 
 # game/scenario/5story.rpy:77
 translate english story5_343eeea9:
 
     # eng "怖いのはここからだ。"
     $ eng.screen = 'center_3'
-    eng "This is where the story takes a truly terrifying turn."
+    eng "This is where our story takes a truly terrifying turn."
 
 # game/scenario/5story.rpy:81
 translate english story5_e84aa9f3:
@@ -218,7 +218,7 @@ translate english story5_a9d08782:
 translate english story5_94cee313:
 
     # bul "あっ別にあとで\n文章にするから\n全然大丈夫っすよ。"
-    bul "Oh, it's no problem, \nI was gonna write the stories down later anyway."
+    bul "Oh, it's totally fine, \nI was gonna write the stories down later anyway."
 
 # game/scenario/5story.rpy:120
 translate english story5_dc9f3461:
@@ -250,7 +250,7 @@ translate english story5_e134b004:
 
     # ame "Ｇｒｅａｔ！\nチュロス！\nチュロスじゃないか！\n俺は君に会いたかった！"
     $ ame.screen = 'left_4long'
-    ame "Great! \nChurros! \nThe churros are here, right! \nI missed you, churros!"
+    ame "Great! \nChurros! \nThe churros are here! \nI missed you, churros!"
 
 # TODO: Translation updated at 2026-04-01 13:23
 

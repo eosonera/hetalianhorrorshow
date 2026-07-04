@@ -178,7 +178,7 @@ translate russian story6_94b3a7cf:
 translate russian story6_9cde0fcb:
 
     # story "ガキがジャンプしたか思うと\nワンさんの財布に入っとった\n１００ユーロ札ばっかわっしと掴むと\n猛ダッシュしよった！" id story6_9cde0fcb
-    story "Мальчуган подпрыгнул и тут же выхвалил 100 евро из кошелька и побежал со всех ног!" id story6_9cde0fcb
+    story "Мальчуган подпрыгнул и тут же выхвалил из его кошелька охапку 100-евровых купюр из кошелька и побежал со всех ног!" id story6_9cde0fcb
 
 # game/scenario/6story.rpy:99
 translate russian story6_76b2fe88_6:
@@ -470,7 +470,7 @@ translate russian story6_76b2fe88_19:
 translate russian story6_77595613:
 
     # story "\n\n\n「家族は何人おるのー？\n　嫁おるん？何歳何歳？」" id story6_77595613
-    story_indent "\n\n\n\n«На сколько большая у вас семья?\nВы женаты?\nСколько ей, сколько ей?»" id story6_77595613
+    story_indent "\n\n\n\n«На сколько большая у вас семья? Вы женаты? А сколько вам лет, а?»" id story6_77595613
 
 # game/scenario/6story.rpy:221
 translate russian story6_62a950ed:

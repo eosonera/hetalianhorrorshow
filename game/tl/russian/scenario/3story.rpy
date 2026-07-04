@@ -679,7 +679,7 @@ translate russian story3_7b5844cd:
 translate russian story3_277eafee:
 
     # bul "俺も実は結構歳いって…\n大丈夫っすよね。\nうん大丈夫なんだわー！" id story3_277eafee
-    bul "На самом деле, я тоже уже старик...\nВсё же будет в порядке?\nАга, я буду в порядке!" id story3_277eafee
+    bul "На самом деле, я тоже уже старик...\nВсё же будет в порядке?\nАга! Я ваще в полном порядке!" id story3_277eafee
 
 # game/scenario/3story.rpy:424
 translate russian story3_ffe4e766:

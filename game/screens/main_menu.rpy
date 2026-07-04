@@ -13,7 +13,6 @@ init python:
 
 screen main_menu():
 
-    ## This ensures that any other menu screen is replaced.
     tag menu
 
     add "white screen"
@@ -31,11 +30,11 @@ screen main_menu():
 
     use debug_toggle()
 
-    vbox:
-        style_prefix "mm"
-        xalign 1.0
-        yalign 1.0
-        text "hetascanlations\n[config.name!t] remake\nversion [config.version]"
+    #vbox:
+        #style_prefix "mm"
+        #xalign 1.0
+        #yalign 1.0
+        #text "hetascanlations\n[config.name!t] remake\nversion [config.version]"
 
 
     fixed:

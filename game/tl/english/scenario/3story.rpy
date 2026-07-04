@@ -146,7 +146,7 @@ translate english story3_76b2fe88_5:
 translate english story3_b7d97d1b:
 
     # story "途中道を２度ほど曲がりましたが、\n足音は同じ距離、同じ間隔で聞こえてくる…。\n　\n…つけてきているわけではないと\n思いたいのですが、如何せん不気味です。"
-    story "I made two turns along the way, but the footsteps could still be heard at the same distance and the same interval... \n \n...I convinced myself they weren't following me, but it was unsettling no matter what."
+    story "I made two turns along the way, but the footsteps continued to follow, at the same distance, at the same interval... \n \n...I wanted to believe they weren't following me, but it was unsettling no matter what."
 
 # game/scenario/3story.rpy:104
 translate english story3_76b2fe88_6:
@@ -208,7 +208,7 @@ translate english story3_76b2fe88_9:
 translate english story3_e546a53b:
 
     # story "私は、心の中に芽生えた\n小さな恐怖感から逃れるため\n頭の中を考え事でいっぱいにしている間も\nその音は私と同じ速度で、\n五メートルほどの間隔を保ちながら\nついてきます。"
-    story "Even as I filled my mind with thoughts to escape the small sense of fear that had sprouted within me, that sound followed me at the same speed, maintaining a distance of about five meters."
+    story "Even as I filled my mind with thoughts to escape the small sense of fear that had sprouted within me, that sound followed me at the same pace, maintaining a distance of about five meters."
 
 # game/scenario/3story.rpy:156
 translate english story3_584f5ae1:
@@ -276,7 +276,7 @@ translate english story3_a43bbb4e:
     # nvl clear
     # story "最初、鏡でもあるのかと思いましたが、\n彼は傘もささず、全身ずぶ濡れの和装で、\n大量の水分を吸った布地が、\n背後の街燈の光を鈍く反射させています。"
     nvl clear
-    story "My first thought was that there might have been a mirror, but he had no umbrella, and was dressed in a completely sodden kimono, whose fabric, heavy with water, shimmered dully in the light of the streetlights behind him."
+    story "At first, I thought that I was looking through a mirror, but he had no umbrella, and was dressed in a completely sodden kimono, whose fabric, heavy with water, shimmered dully in the light of the streetlights behind him."
 
 # game/scenario/3story.rpy:190
 translate english story3_579c308d:
@@ -288,7 +288,7 @@ translate english story3_579c308d:
 translate english story3_da67871a:
 
     # story "鏡と見まがうほど\n私と瓜二つの方でした。"
-    story "Yet, to the point of being able to mistake him for a mirror image, he looked exactly like me."
+    story "And yet, he looked exactly like me, to the point where I could mistake him for a mirror image."
 
 # game/scenario/3story.rpy:194
 translate english story3_76b2fe88_11:
@@ -345,7 +345,7 @@ translate english story3_6f8d30d8:
     # nvl clear
     # story "それにすでに彼は\n服のまま海に入ったが如く\n全身濡れておりましたので\n私が手渡した傘が\nお役に立てないばかりか\nお荷物になってしまっていたら\n申し訳なく思います。"
     nvl clear
-    story "Furthermore, he was already soaked from head to toe as if he had walked into the sea fully clothed, so I felt terrible that the umbrella I handed him probably ended up being not only useless, but also an additional burden to him."
+    story "Furthermore, he was already soaked from head to toe as if he had walked into the sea fully clothed, so I feel terrible that the umbrella I handed him probably ended up being not only useless, but also an additional burden to him."
 
 # game/scenario/3story.rpy:222
 translate english story3_531f856d:
@@ -353,7 +353,7 @@ translate english story3_531f856d:
     # nvl clear
     # story "その晩、布団に潜り込んだものの\n先ほどの私によく似た方が\n気になってしまい\nなかなか寝付けません。"
     nvl clear
-    story "That night, I slipped into my futon, but sleep eluded me because I was so preoccupied with the man who had so strongly resembled me earlier."
+    story "That night, I slipped into my futon, but I found sleep elusive, because I was so preoccupied with the man who had so strongly resembled me earlier."
 
 # game/scenario/3story.rpy:230
 translate english story3_8d9a0842:
@@ -373,7 +373,7 @@ translate english story3_eff9618d:
 translate english story3_d094b60f:
 
     # story "\n結果。朝の五時まで眠れず\n酷い目にあいました…。\n考えすぎるのもよくありません…。"
-    story "In the end, I lay awake until five in the morning, which was quite the ordeal... It really is no good to overthink things..."
+    story "In the end, I laid awake until five in the morning, which was quite the ordeal... It really is no good to overthink things..."
 
 # game/scenario/3story.rpy:234
 translate english story3_76b2fe88_14:
@@ -385,7 +385,7 @@ translate english story3_76b2fe88_14:
 translate english story3_e8d51713:
 
     # story "それで彼について考えうる可能性を\n私なりに五つにまとめてみたのですが…。{nw}"
-    story "So I have come up with what I think are the five most likely possibilities for him...{nw}"
+    story "So I have come up with what I think are the five most likely possibilities of who he might have been...{nw}"
 
 # game/scenario/3story.rpy:243
 translate english story3_1bc6e8d6:
@@ -445,7 +445,7 @@ translate english story3_76b2fe88_17:
 translate english story3_c2356440:
 
     # story "しかし私の家の地方によっては\n姿を借りて現れた神様であったり、\n吉兆の知らせであったりするため、\n摩訶不思議ではあるものの、\n怖い物ではありませんね。"
-    story "However, in some regions of my house, it's seen as a deity that has manifested by borrowing a form, or a sign of good fortune. So, while mysterious, it's not something to be feared."
+    story "However, in some regions of my house, it's seen as a deity that has manifested by taking on a human form, or a sign of good fortune. So, while mysterious, it's not something to be feared."
 
 # game/scenario/3story.rpy:264
 translate english story3_76b2fe88_18:
@@ -475,7 +475,7 @@ translate english story3_76b2fe88_19:
 translate english story3_13397d71:
 
     # story "考えられる理由としては、\n私という存在に何かあった時や、\n大幅に変わるやもしれない\n事態になった時の換えの品。\nいわゆるストックです…。"
-    story "This could be so that, in case something happens to me, or if a situation arises where I might change drastically, there are replacements. A “stock,” so to say..."
+    story "One possible reason could be that, if something happens to me, or if a situation arises that could lead to drastic changes, there are replacements. A “stock,” so to say..."
 
 # game/scenario/3story.rpy:285
 translate english story3_ee3186d9:
@@ -501,7 +501,7 @@ translate english story3_ff0e55f4:
     # nvl clear
     # story "ブータンさんが最近流行りの\n貸し着物で観光を楽しんでいた所、\n急に雨が降ってきたが、\nどこに傘が売っているのか分からず、\n聞くに聞けず、私についてきた…説です。"
     nvl clear
-    story "While he was out wearing a trendy kimono he had rented, he got caught in the rain. He didn't know where to purchase an umbrella, so he followed me without asking anything ...is the theory."
+    story "While he was out wearing a trendy kimono he had rented, he got caught in the rain. He didn't know where to purchase an umbrella, and he couldn't bring himself to ask, so he followed me \n...is the theory."
 
 # game/scenario/3story.rpy:292
 translate english story3_b65cef91:
@@ -521,7 +521,7 @@ translate english story3_476a26e5:
 translate english story3_098cd4fb:
 
     # story "それにとてもシャイな方ですから\n話しかけられなかった可能性はありますよね。"
-    story "And since he's very shy, it's possibile that he couldn't bring himself to talk to me."
+    story "And since he's very shy, it's possible that he couldn't bring himself to talk to me."
 
 # game/scenario/3story.rpy:299
 translate english story3_76b2fe88_21:
@@ -558,7 +558,7 @@ translate english story3_76b2fe88_22:
 translate english story3_6bede216:
 
     # story "そして最後の一つ。\n私としてはこれだけは\n考えたくなかったのですが…"
-    story "And the last one: \nPersonally, this was the one thing I didn't want to consider......"
+    story "And the last one: \nPersonally, this was the one thing I didn't want to consider..."
 
 # game/scenario/3story.rpy:315
 translate english story3_3290eab9:
@@ -594,13 +594,13 @@ translate english story3_76b2fe88_23:
 translate english story3_458c3e33:
 
     # eng "{size=+5}ぐああぁっ！！{/size}"
-    eng "{size=+5}Gaaaah!!{/size}"
+    eng "{size=+5}Gaaah!!{/size}"
 
 # game/scenario/3story.rpy:356
 translate english story3_a7aff70d:
 
     # ame "{size=+2}えっ！！\n君もしかして何か\n自覚症状があるのかい！？{/size}"
-    ame "{size=+2}What!! \nDo you happen to know if you have any symptoms!?{/size}"
+    ame "{size=+2}What!! \nAre you actually experiencing some symptoms!?{/size}"
 
 # game/scenario/3story.rpy:367
 translate english story3_74b6c537:
@@ -612,13 +612,13 @@ translate english story3_74b6c537:
 translate english story3_fa383dca:
 
     # jpn "手前のものばかり見るのが\nいけない事とはわかりつつも…。\nくっ、不甲斐ない…。"
-    jpn "I know it's wrong to only look at what's right in front of me... \nUgh, how pathetic..."
+    jpn "I know it's wrong to only look at what's right in front of me... \nUgh, I sound so pathetic..."
 
 # game/scenario/3story.rpy:377
 translate english story3_30483c36:
 
     # story "あの日は暗く…雨も降っており、\n更に多少距離がありましたので\n\n実はしっかり見たと思ってても\n実はそれほど見てなかったのではないかという\n疑念が払拭出来ないのです…！"
-    story "It was dark back then... It was also raining heavily, and there was a bit of distance between us. \n\nEven though I thought I saw clearly, I can't shake the suspicion that I actually didn't get a good look!"
+    story "It was dark that day... and it was raining, plus there was a bit of distance between us. \n\nBut I can't shake the suspicion that even though I thought I saw him clearly, I might not have actually seen him that well...!"
 
 # game/scenario/3story.rpy:378
 translate english story3_76b2fe88_24:
@@ -630,7 +630,7 @@ translate english story3_76b2fe88_24:
 translate english story3_41fe28b9:
 
     # story "それに最近、どうにも変と言いますか。\nリモコンや新聞を変な所に置いていたり、\n縁側でだらだらと飼い犬を撫でるだけで\n休日を過ごしてしまったり\nどうにも、どうにも私自身\n鈍ってるように感じるのです…！"
-    story "And lately, things just feel strange. I've been finding the remote or newspaper misplaced in strange spots and I end up spending my days off just idly petting my dog on the porch. Somehow... somehow I feel like I myself am getting dull...!"
+    story "And, I guess you could say, things have just been feeling strange lately. I've been leaving the remote or newspaper in odd places, or I end up spending my day off just lounging on the porch, idly petting my dog. Somehow... I can't help but feel like I'm slowing down...!"
 
 # game/scenario/3story.rpy:383
 translate english story3_5bfee16c:
@@ -648,7 +648,7 @@ translate english story3_76b2fe88_25:
 translate english story3_aa63bc1b:
 
     # story "それとガリ○リ君が発売当初は\n齧って食べられていたはずなのに、\n今ではなめてしか食べられない\n私がいるのに気づいた時の絶望感たるや…！"
-    story "And yet, when I realized that nowadays I can only manage to lick a Garig*ri-kun, even though I was able to bite into one when they were first released, you could not imagine the despair I felt...!"
+    story "And yet, when I realized that these days I can only manage to lick a Garig*ri-kun, even though I was able to bite into one when they were first released, you could not imagine the despair I felt...!"
 
 # game/scenario/3story.rpy:394
 translate english story3_0409e854:
@@ -672,19 +672,19 @@ translate english story3_dee9a6a1:
 translate english story3_7b5844cd:
 
     # fin "まるで自分に\n言い聞かせるよう\nじゃないですかぁ！"
-    fin "It's as if you're trying to convince yourself!"
+    fin "You sound like you're trying to convince yourself!"
 
 # game/scenario/3story.rpy:417
 translate english story3_277eafee:
 
     # bul "俺も実は結構歳いって…\n大丈夫っすよね。\nうん大丈夫なんだわー！"
-    bul "I'm actually getting on in years too... \nBut it's fine, right? Yeah, it's totally fine!"
+    bul "I'm actually getting on in years too... \nBut I'm fine, right? Yeah! I'm totally okay!"
 
 # game/scenario/3story.rpy:424
 translate english story3_ffe4e766:
 
     # ger "どうも気になる話だな\n俺の方で調査してみよう\n後で詳しい場所と証言を頼む"
-    ger "I'm rather concerned about what you told us, so I’ll look into it myself. Let me know afterwards about the exact location and any further details you have."
+    ger "That's rather concerning, so I’ll look into it myself. Please provide me with the location and your testimony in detail later."
 
 # game/scenario/3story.rpy:428
 translate english story3_2fa621a2:

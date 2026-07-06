@@ -28,9 +28,13 @@ init python:
         float shadow_alpha = 0.0;
         float total = 0.0;
 
-        // Gaussian blur kernel (square, radial falloff)
-        for (float x = -u__radius; x <= u__radius; x += 1.0) {
-            for (float y = -u__radius; y <= u__radius; y += 1.0) {
+        const float MAX_RADIUS = 12.0; // must cover the largest u__radius you'll ever use
+
+        for (float x = -MAX_RADIUS; x <= MAX_RADIUS; x += 1.0) {
+            if (abs(x) > u__radius) continue;
+            for (float y = -MAX_RADIUS; y <= MAX_RADIUS; y += 1.0) {
+                if (abs(y) > u__radius) continue;
+
                 float dist = length(vec2(x, y));
                 float weight = exp(-(dist * dist) / (2.0 * u__spread * u__spread));
 
@@ -42,15 +46,12 @@ init python:
 
         shadow_alpha /= total;
 
-        vec4 shadow = vec4(u__shadow_color.rgb,
-                        shadow_alpha * u__shadow_color.a);
-
+        vec4 shadow = vec4(u__shadow_color.rgb, shadow_alpha * u__shadow_color.a);
         vec4 text = texture2D(tex0, v__uv);
 
-        // outline included in shader
         gl_FragColor = shadow * (1.0 - text.a) + text;
         """,
-
+        
         u__shadow_color="#000000",
         u__offset=(-5.0, -5.0),
         u__radius=9.0,

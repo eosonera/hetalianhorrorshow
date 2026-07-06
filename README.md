@@ -4,10 +4,15 @@
 <br>
 <br>
 
+[(Original game available here)](http://himaruya.blog61.fc2.com/blog-entry-1753.html)
+
 A game where the Hetalia crew tells stories that seem scary but aren't really.
 <br>
+<br>
 
-Full Ren'Py fan remake of The Hetalian Horror Show by the [hetascanlations](https://hetascanlations.tumblr.com/) team. 
+Full Ren'Py fan remake of The Hetalian Horror Show by the [hetascanlations](https://hetascanlations.tumblr.com/) team.
+<br>
+The game itself can be read in less than 2 hours and is very linear, with only once choice leading to either a 'good' or 'bad' end.​
 
 ## Download, Tips, & Info:
 

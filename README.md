@@ -1,5 +1,8 @@
 # The Hetalian Horror Show Remake
 
+<img width="630" height="500" alt="icon" src="https://github.com/user-attachments/assets/17f0edc1-79e9-4fea-a38b-fa100fa2e69b" />
+
+
 A game where the Hetalia crew tells stories that seem scary but aren't really.
 
 

@@ -17,19 +17,27 @@ Currently available in the original Japanese, English, and Russian. Please conta
 <br>
 
 <br>
+
+General game tips:
+
+- From the in-game menu or from the main menu, click the "?" on the bottom left to view the new 'misc' menu
+  
+- While in-game, selecting the "X" icon will hide the user interface
+
+<br>
+
 Tips for Mac and PC versions:
 
-- Right clicking while in-game or pressing the escape key will show the in-game menu.
+- While in-game, right click or press the escape key will show the in-game menu.
 
 - From the in-game menu or from the main menu, click the "?" on the bottom left and then click "Help" to view a list of keybinds for the game.
 
-- If you turn on the "Skip unread text" option in the options submenu of the "?" menu, you can skip through the game really quickly by either pressing skip or holding down the control key.
+- If you turn on the "Skip unread text" option in the options submenu of the "?" misc menu, you can skip through the game really quickly by either pressing skip or holding down the control key.
 
 
 <br>
 Tips for Android version:
-
-- Google is implementing changes that will make directly installing apps on Android more difficult​, so if the Android version​ fails to install, try enabling Developer Mode on your device.
+- While in-game, selecting the "System" icon will open the in-game menu
 
 <br>
 <br>

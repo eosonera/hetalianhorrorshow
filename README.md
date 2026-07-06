@@ -37,6 +37,7 @@ Tips for Mac and PC versions:
 
 <br>
 Tips for Android version:
+
 - While in-game, selecting the "System" icon will open the in-game menu
 
 <br>

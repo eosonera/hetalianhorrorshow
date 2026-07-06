@@ -13,12 +13,14 @@ Full Ren'Py fan remake of The Hetalian Horror Show by the [hetascanlations](http
 
 Download [here](https://github.com/eosonera/hetalianhorrorshow/releases) or on [Itch.io](https://eosonera.itch.io/hetalianhorrorshow)
 
-Though this game is not scary, due to the 'bad end,' it is not recommended for anyone under the age of 16. Player discretion is advised. Content warnings are in [this post](https://hetascanlations.tumblr.com/post/821390610016714752/the-hetalian-horror-show-remake-release).
+Though this game is not scary, due to the 'bad end,' **it is not recommended for anyone under the age of 16.** Player discretion is advised. Content warnings are in [this post](https://hetascanlations.tumblr.com/post/821390610016714752/the-hetalian-horror-show-remake-release).
 
 Currently playable in:
 - Japanese (the original game text)
 - English (by [spaghetti](http://spaghettifelice.tumblr.com/) and [eosonera](https://eosonera.tumblr.com) of [hetascanlations](https://hetascanlations.tumblr.com/))
 - Russian (by [sunflowerpieivan](https://www.tumblr.com/sunflowerpieivan))
+
+​Programming entirely by [eosonera](https://eosonera.tumblr.com).
 
 Please contact me at [eosonera](https://eosonera.tumblr.com) or through my gmail address of the same name if you would like to contribute a translation.
 
@@ -61,4 +63,15 @@ Tips for Android version:
   - Ctrl skips dialogue while being held down​
   - Tab toggles dialogue skipping​
 - Added controller support
-- Added a debug menu that allows you to skip to various points in the game, activated by pressing the P key while on the main menu​​
+- Added a debug menu that allows you to skip to various points in the game, activated by pressing the P key while on the main menu​
+
+### Special thanks to:
+- donamoeba
+- jammerlea
+- lysandre
+- Em
+- nekotalia
+<br>
+
+- yunyomal
+- mosaku

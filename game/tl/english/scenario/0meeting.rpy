@@ -157,7 +157,7 @@ translate english meeting_ccf88991:
 
     # bul "いや俺も今\n来たところなんで\n全然平気なんだわー。\n怖い話会場ここっす。"
     $ bul.screen = 'right_4long'
-    bul "Nah, I just got here, too, so it's no problem at all. \nThis is where the scary story meeting is taking place."
+    bul "Nah, I just got here, too, so it's no problem at all. This is where the scary story meeting is taking place."
 
 # game/scenario/0meeting.rpy:150
 translate english meeting_66f0dfe9:

@@ -30,7 +30,7 @@ Currently playable in:
 Please contact me at [eosonera](https://eosonera.tumblr.com) or through my gmail address of the same name if you would like to contribute a translation.
 
 
-### Tips & Info
+### Tips & Info:
 General game tips:
 
 - From the in-game menu or from the main menu, click the "?" on the bottom left to view the new 'misc' menu

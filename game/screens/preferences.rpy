@@ -187,10 +187,7 @@ screen font():
 
     default list_fonts = [
         (("IBMPlexSans"), "IBMPlexSans.ttf"),
-        (_("Source Han Sans Lite"), "SourceHanSans-Light.otf"),
-        (_("MS P明朝"), "mspmincho.ttf"),
         (_("MS Pゴシック"), "mspgothic.ttf"),
-        (_("MS 明朝"), "msmincho.ttf"),
         (_("MS ゴシック"), "msgothic.ttf"),
         
         (_("BIZ UD明朝 Medium"), "BIZ-UDMinchoM.ttf"),
@@ -201,13 +198,6 @@ screen font():
         (("Meiryo UI"), "meiryoui.ttf"),
         (("MS UI Gothic"), "msuigothic.ttf"),
 
-        (("Noto Sans JP"), "NotoSansCJKJPRegular.ttf"),
-        (("Noto Sans JP Black"), "NotoSansCJKJPBlack.ttf"),
-        (("Noto Sans JP Demilight"), "NotoSansCJKJPDemilight.ttf"),
-        (("Noto Sans JP Light"), "NotoSansCJKJPLight.ttf"),
-        (("Noto Sans JP Medium"), "NotoSansCJKJPMedium.ttf"),
-        (("Noto Sans JP Thin"), "NotoSansCJKJPthin.ttf"),
-
         (_("UD デジタル 教科書体 N-B"), "UDDigiKyokashoN-B.ttf"), # monospace bold
         (_("UD デジタル 教科書体 NK-B"), "UDDigiKyokashoNK-B.ttf"), #alphanumeric characters and kana are proportionally spaced, bold
         (_("UD デジタル 教科書体 NK-R"), "UDDigiKyokashoNK-R.ttf"), #alphanumeric characters and kana are proportionally spaced, regular
@@ -215,9 +205,6 @@ screen font():
         (_("UD デジタル 教科書体 NP-R"), "UDDigiKyokashoNP-R.ttf"), #alphanumeric characters are proportionally spaced, regular
         (_("UD デジタル 教科書体 N-R"), "UDDigiKyokashoN-R.ttf"), #monospace regular
 
-        (_("游明朝"), "YuMin.ttf"),
-        (_("游明朝 Demibold"), "YuMinDB.ttf"),
-        (_("游明朝 Light"), "YuMinl.ttf"),
 
         (_("游ゴシック"), "YuGoth.ttf"),
         (_("游ゴシック Light"), "YuGothL.ttf"),

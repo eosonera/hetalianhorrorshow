@@ -307,7 +307,7 @@ image snow_alien = Dust("snow_a", count=3, xradius=300, yradius=70, center=(0,20
 
 init python:
     rain_frames = []
-    for i in range(0, 180, 1):
+    for i in range(0, 24, 1):
         frame = "images/vfx/window_rain/glass{:03}.png".format(i)
         rain_frames.append((frame, 0.065))
 

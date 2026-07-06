@@ -10,10 +10,12 @@ define config.name = "The HETALIAN HORROR SHOW"
 define gui.show_name = False
 
 ## Game ver
-define config.version = "0.1.8"
+define config.version = "1.0"
 
 ## ASCII-only, no white space short name
 define build.name = "thehetalianhorrorshow"
+
+define build.itch_project = "eosonera/hetalianhorrorshow"
 
 ## Sounds and music ############################################################
 

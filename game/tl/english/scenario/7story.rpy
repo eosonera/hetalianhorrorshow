@@ -34,7 +34,7 @@ translate english story7_2edc087d:
 translate english story7_3dca6e2d:
 
     # rom "えっと…、そうそう！\n今日のお礼と\n差し入れに来ましたっ！"
-    rom "Um... Oh, right! \nI came over to bring little something for you all as thanks for today!"
+    rom "Um... Oh, right! \nI came over to bring a little something for you all as thanks for today!"
 
 # game/scenario/7story.rpy:66
 translate english story7_ad38888c:
@@ -215,7 +215,7 @@ translate english story7_65241561:
 translate english story7_e52d93f4:
 
     # ame "ロシア！最後に話すのは\n君だったのかい。\nまさに見計らってたかのような\nナイスタイミングじゃないか！"
-    ame "Russia! So you're the last one who will tell us a story. \nIt's as if you planned it that way! \nNice timing, right?!"
+    ame "Russia! So you're the last one who will tell us a story. It's as if you planned it that way! \nNice timing, right?!"
 
 # game/scenario/7story.rpy:359
 translate english story7_2a6e2e94:

@@ -341,7 +341,7 @@ translate english meeting_38b36246:
 translate english meeting_4c2bc1e7:
 
     # ame "ノープロブレムだぞ！\n彼らの話す怖い話に\n期待しててくれよみんな！\n俺も楽しみだぞ！"
-    ame "No problem! \nGet ready for the scary stories they're going to tell, guys! \nI'm psyched for them, too!"
+    ame "No problem! \nGet ready for the scary stories they're going to tell, guys! I'm psyched for them, too!"
 
 # game/scenario/0meeting.rpy:337
 translate english meeting_419fd707:

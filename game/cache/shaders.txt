@@ -1,38 +1,38 @@
-renpy.alpha renpy.geometry renpy.texture
-renpy.geometry renpy.solid
-old_film renpy.geometry renpy.texture
-renpy.geometry renpy.texture textshader.typewriter
-ripple renpy.texture renpy.texture
+renpy.blur renpy.blur
+renpy.blur renpy.geometry
 renpy.texture textshader.typewriter renpy.texture textshader.typewriter
 renpy.dissolve renpy.dissolve
-renpy.texture renpy.texture
-eos.ripple renpy.geometry renpy.texture
-renpy.matrixcolor renpy.texture
-renpy.geometry renpy.texture ripple
-renpy.alpha renpy.solid
-watt.wave renpy.texture renpy.texture
-renpy.dissolve renpy.geometry
-renpy.solid
-renpy.alpha renpy.alpha renpy.texture
-renpy.alpha renpy.blur renpy.geometry
-renpy.imagedissolve renpy.imagedissolve
-renpy.geometry renpy.texture textshader.shadow textshader.typewriter
 renpy.geometry renpy.imagedissolve
-renpy.alpha renpy.geometry renpy.solid
-renpy.geometry renpy.texture
-renpy.geometry renpy.texture textshader.TextShadow textshader.typewriter
-old_film renpy.texture renpy.texture
-renpy.blur renpy.blur
-renpy.alpha renpy.texture -renpy.texture renpy.blur renpy.texture -renpy.texture renpy.blur
-renpy.alpha renpy.texture
-renpy.alpha renpy.texture textshader.typewriter renpy.texture textshader.typewriter
-renpy.blur renpy.geometry
-renpy.geometry renpy.matrixcolor renpy.texture
-eos.ripple renpy.texture renpy.texture
-renpy.texture -renpy.texture renpy.blur renpy.texture -renpy.texture renpy.blur
-renpy.geometry renpy.texture watt.wave
-renpy.texture
-renpy.ftl
+renpy.matrixcolor renpy.texture
 renpy.alpha renpy.geometry renpy.texture textshader.typewriter
-renpy.texture textshader.typewriter textshader.shadow renpy.texture textshader.typewriter textshader.shadow
+old_film renpy.geometry renpy.texture
+renpy.dissolve renpy.geometry
+renpy.alpha renpy.blur renpy.geometry
+renpy.geometry renpy.texture
+renpy.alpha renpy.texture textshader.typewriter renpy.texture textshader.typewriter
+renpy.texture
+renpy.alpha renpy.texture -renpy.texture renpy.blur renpy.texture -renpy.texture renpy.blur
+old_film renpy.texture renpy.texture
+renpy.alpha renpy.geometry renpy.texture
+renpy.geometry renpy.texture ripple
+renpy.texture renpy.texture
+renpy.geometry renpy.texture watt.wave
+renpy.geometry renpy.texture textshader.shadow textshader.typewriter
+renpy.alpha renpy.texture
+eos.ripple renpy.geometry renpy.texture
+renpy.texture -renpy.texture renpy.blur renpy.texture -renpy.texture renpy.blur
+renpy.solid
+renpy.geometry renpy.solid
+watt.wave renpy.texture renpy.texture
+renpy.geometry renpy.matrixcolor renpy.texture
 renpy.texture textshader.typewriter textshader.TextShadow renpy.texture textshader.typewriter textshader.TextShadow
+renpy.alpha renpy.geometry renpy.solid
+eos.ripple renpy.texture renpy.texture
+renpy.geometry renpy.texture textshader.TextShadow textshader.typewriter
+renpy.ftl
+renpy.alpha renpy.alpha renpy.texture
+renpy.geometry renpy.texture textshader.typewriter
+ripple renpy.texture renpy.texture
+renpy.alpha renpy.solid
+renpy.texture textshader.typewriter textshader.shadow renpy.texture textshader.typewriter textshader.shadow
+renpy.imagedissolve renpy.imagedissolve

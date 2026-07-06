@@ -1,23 +1,29 @@
 # The Hetalian Horror Show Remake
 
-Download [here](https://github.com/eosonera/hetalianhorrorshow/releases) or on [Itch.io](https://eosonera.itch.io/hetalianhorrorshow)
-
 <img width="630" height="500" alt="icon" src="https://github.com/user-attachments/assets/17f0edc1-79e9-4fea-a38b-fa100fa2e69b" />
 <br>
 <br>
 
 A game where the Hetalia crew tells stories that seem scary but aren't really.
-
+<br>
 
 Full Ren'Py fan remake of The Hetalian Horror Show by the [hetascanlations](https://hetascanlations.tumblr.com/) team. 
 
-Currently available in the original Japanese, English, and Russian. Please contact me if you would like to contribute a translation.
+## Download, Tips, & Info:
 
-<br>
-<br>
+Download [here](https://github.com/eosonera/hetalianhorrorshow/releases) or on [Itch.io](https://eosonera.itch.io/hetalianhorrorshow)
 
-<br>
+Though this game is not scary, due to the 'bad end,' it is not recommended for anyone under the age of 16. Player discretion is advised. Content warnings are in [this post](https://hetascanlations.tumblr.com/post/821390610016714752/the-hetalian-horror-show-remake-release).
 
+Currently playable in:
+- Japanese (the original game text)
+- English (by [spaghetti](http://spaghettifelice.tumblr.com/) and [eosonera](https://eosonera.tumblr.com) of [hetascanlations](https://hetascanlations.tumblr.com/))
+- Russian (by [sunflowerpieivan](https://www.tumblr.com/sunflowerpieivan))
+
+Please contact me at [eosonera](https://eosonera.tumblr.com) or through my gmail address of the same name if you would like to contribute a translation.
+
+
+### Tips & Info
 General game tips:
 
 - From the in-game menu or from the main menu, click the "?" on the bottom left to view the new 'misc' menu
@@ -34,16 +40,13 @@ Tips for Mac and PC versions:
 
 - If you turn on the "Skip unread text" option in the options submenu of the "?" misc menu, you can skip through the game really quickly by either pressing skip or holding down the control key.
 
-
 <br>
 Tips for Android version:
 
 - While in-game, selecting the "System" icon will open the in-game menu
 
-<br>
-<br>
   
-Changes from the original version:
+### Changes from the original version:
 
 - Added a menu that allows language selection, accessible from main menu ​by selecting ​the 🌐​ icon​
 - Added a new 'misc' menu with an 'about' submenu, an 'options' submenu, and a 'help' submenu, accessible from main menu and game menu by selecting the "?" icon. In the 'bonus options' submenu, it is possible to:

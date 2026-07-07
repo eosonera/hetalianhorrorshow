@@ -271,7 +271,7 @@ screen preferences():
             box_wrap True
             spacing 5
             
-            if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("touch"):
+            if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("touch")):
                 vbox:
                     spacing 10
                     xsize 220

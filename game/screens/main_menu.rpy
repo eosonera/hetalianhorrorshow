@@ -71,7 +71,7 @@ screen main_menu():
             idle "gui/menu_main/title_06.png"
             hover "gui/menu_main/title2_06.png"
             
-            if renpy.variant("pc") or renpy.variant("web"):
+            if renpy.variant("pc"):
                 activate_sound "sfx/bell01.ogg"
                 action Quit(confirm=not main_menu)
             else:

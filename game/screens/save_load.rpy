@@ -6,7 +6,7 @@
 
 ## Save game names based on BadMustard's code: https://www.badmustard.itch.io/renpy-save-game-names
 
-if renpy.variant("pc") or renpy.variant("web"):
+if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("touch")):
     default persistent.saveName = True
     default persistent.savePreview = True
 else:
@@ -74,8 +74,8 @@ screen file_slots(title):
                 spacing 0
 
                 $ is_load = bool(renpy.get_screen("load"))
-                $ use_save_name = (renpy.variant("pc") or renpy.variant("web")) and persistent.saveName
-                $ show_save_preview = (renpy.variant("pc") or renpy.variant("web")) and persistent.savePreview
+                $ use_save_name = (renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("touch"))) and persistent.saveName
+                $ show_save_preview = (renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("touch"))) and persistent.savePreview
 
                 for slot in range(1, file_slot_rows + 1):
 

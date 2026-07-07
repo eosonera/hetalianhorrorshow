@@ -20,6 +20,13 @@ screen game_menu2(title):
     if main_menu:
         key "mousedown_3" action Return()
 
+    if renpy.variant("mobile") or renpy.variant("touch") and not main_menu:
+        imagebutton:
+            xalign 1.0
+            yalign 0
+            idle "gui/button/return.png"
+            action Return()
+
     vbox:
         style_prefix "gm"
         xalign 1.0
@@ -32,7 +39,7 @@ screen game_menu2(title):
             xpos 50
             ypos 160
             idle "gui/menu_game/menu_05.png"
-            if not renpy.variant("mobile"):
+            if not renpy.variant("mobile") or renpy.variant("touch"):
                 at menu_jump
             action ShowMenu("about")
 
@@ -40,13 +47,13 @@ screen game_menu2(title):
             xpos 50
             ypos 216
             idle "gui/menu_game/menu_06.png"
-            if not renpy.variant("mobile"):
+            if not renpy.variant("mobile") or renpy.variant("touch"):
                 at menu_jump
             action ShowMenu("preferences")
 
     
 
-        if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
+        if not renpy.variant("mobile") or renpy.variant("touch"):
             imagebutton:
                 xpos 50
                 ypos 272
@@ -58,19 +65,14 @@ screen game_menu2(title):
             xpos 700
             ypos 432
             idle "gui/menu_game/5mainmenu.png"
-            if not renpy.variant("mobile"):
+            if not renpy.variant("mobile") or renpy.variant("touch"):
                 at menu_hover_float
             if main_menu:
                 action Return()
             else:
                 action MainMenu(confirm=True, save=False)
 
-        if renpy.variant("mobile") and not main_menu:
-            imagebutton:
-                xalign 1.0
-                yalign 0
-                idle "gui/button/return.png"
-                action Return()
+
         
 
 
@@ -101,7 +103,9 @@ screen about():
         xpos 681
         ypos 196
 
-    if renpy.variant("mobile"):
+    key "mousedown_3" action ShowMenu("menu_open2")
+
+    if renpy.variant("mobile") or renpy.variant("touch"):
         imagebutton:
             xalign 1.0
             yalign 0
@@ -238,7 +242,9 @@ screen preferences():
 
     use game_menu2(("Preferences"))
 
-    if renpy.variant("mobile"):
+    key "mousedown_3" action ShowMenu("menu_open2")
+
+    if renpy.variant("mobile") or renpy.variant("touch"):
         imagebutton:
             xalign 1.0
             yalign 0
@@ -265,7 +271,7 @@ screen preferences():
             box_wrap True
             spacing 5
             
-            if renpy.variant("pc") or renpy.variant("web"):
+            if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("touch")):
                 vbox:
                     spacing 10
                     xsize 220
@@ -427,6 +433,15 @@ screen help():
     modal False
 
     use game_menu2(_("Help"))
+
+    key "mousedown_3" action ShowMenu("menu_open2")
+
+    if renpy.variant("mobile") or renpy.variant("touch"):
+        imagebutton:
+            xalign 1.0
+            yalign 0
+            idle "gui/button/return.png"
+            action ShowMenu("menu_open2")
 
     add "gui/menu_game/about.png":
         xpos 138
@@ -601,7 +616,9 @@ screen language():
 
     style_prefix "language"
 
-    if renpy.variant("mobile"):
+    key "mousedown_3" action ShowMenu("menu_open2")
+
+    if renpy.variant("mobile") or renpy.variant("touch"):
         imagebutton:
             xalign 1.0
             yalign 0

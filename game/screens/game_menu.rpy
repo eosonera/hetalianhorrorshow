@@ -42,7 +42,7 @@ screen quick_menu():
                     insensitive "gui/menu_quick/3_skip_2.png"
                     action Skip() alternate Skip(fast=True, confirm=False)
             imagebutton:
-                    if renpy.variant("mobile"):
+                    if renpy.variant("mobile") or renpy.variant("touch"):
                         xpos 84
                     else:
                         xpos 738
@@ -52,7 +52,7 @@ screen quick_menu():
                     #insensitive "gui/menu_quick/5_hide_2.png"
                     action HideInterface()
 
-            if renpy.variant("mobile"):
+            if renpy.variant("mobile") or renpy.variant("touch"):
                 imagebutton:
                     xpos 738
                     yalign 1.0
@@ -84,7 +84,7 @@ screen game_menu(title):
             xpos 100
             ypos 432
             idle "gui/menu_game/0save.png"
-            if not renpy.variant("mobile"):
+            if not renpy.variant("mobile") or renpy.variant("touch"):
                 at menu_hover_float
             action switch_tab("save"), SetVariable("gamemenu_open", True)
 
@@ -92,7 +92,7 @@ screen game_menu(title):
             xpos 220
             ypos 432
             idle "gui/menu_game/1load.png"
-            if not renpy.variant("mobile"):
+            if not renpy.variant("mobile") or renpy.variant("touch"):
                 at menu_hover_float
             action switch_tab("load"), SetVariable("gamemenu_open", True)
 
@@ -100,7 +100,7 @@ screen game_menu(title):
             xpos 340
             ypos 432
             idle "gui/menu_game/2backlog.png"
-            if not renpy.variant("mobile"):
+            if not renpy.variant("mobile") or renpy.variant("touch"):
                 at menu_hover_float
             action switch_tab("history")
 
@@ -108,7 +108,7 @@ screen game_menu(title):
             xpos 460
             ypos 432
             idle "gui/menu_game/3auto.png"
-            if not renpy.variant("mobile"):
+            if not renpy.variant("mobile") or renpy.variant("touch"):
                 at menu_hover_float
             action [Preference("auto-forward", "enable"), Return()]
             
@@ -117,7 +117,7 @@ screen game_menu(title):
             ypos 432
             idle "gui/menu_game/5mainmenu.png"
             action MainMenu(confirm=True, save=False)
-            if not renpy.variant("mobile"):
+            if not renpy.variant("mobile") or renpy.variant("touch"):
                 at menu_hover_float
             
 
@@ -125,7 +125,7 @@ screen game_menu(title):
             xalign 0.0
             yalign 1.0
             idle "gui/menu_game/6help.png"
-            if not renpy.variant("mobile"):
+            if not renpy.variant("mobile") or renpy.variant("touch"):
                 at menu_hover_float
             action [
                 Hide(current_tab_screen) if current_tab_screen else NullAction(),
@@ -139,7 +139,7 @@ screen game_menu(title):
             xpos 50
             ypos 160
             idle "gui/menu_game/menu_01.png"
-            if not renpy.variant("mobile"):
+            if not renpy.variant("mobile") or renpy.variant("touch"):
                 at menu_jump
             action switch_tab("text_speed")
 
@@ -147,7 +147,7 @@ screen game_menu(title):
             xpos 50
             ypos 216
             idle "gui/menu_game/menu_02.png"
-            if not renpy.variant("mobile"):
+            if not renpy.variant("mobile") or renpy.variant("touch"):
                 at menu_jump
             action switch_tab("autotext_speed")
 
@@ -155,7 +155,7 @@ screen game_menu(title):
             xpos 50
             ypos 272
             idle "gui/menu_game/menu_03.png"
-            if not renpy.variant("mobile"):
+            if not renpy.variant("mobile") or renpy.variant("touch"):
                 at menu_jump
             action switch_tab("font") 
 
@@ -163,11 +163,11 @@ screen game_menu(title):
             xpos 50
             ypos 328
             idle "gui/menu_game/menu_04.png"
-            if not renpy.variant("mobile"):
+            if not renpy.variant("mobile") or renpy.variant("touch"):
                 at menu_jump
             action switch_tab("volume")
 
-        if renpy.variant("mobile"):
+        if renpy.variant("mobile") or renpy.variant("touch"):
             imagebutton:
                 xalign 1.0
                 yalign 0

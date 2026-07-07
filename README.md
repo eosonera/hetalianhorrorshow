@@ -63,9 +63,13 @@ Tips for Android version:
   - Toggle the ability to skip text that has not been read yet
   - Toggle the ability to skip past choices
 - Various Ren'Py keybindings have been incorporated into the game, listed in the 'help' submenu​​, but among the most helpful:
-  - Scrolling up with the mouse wheel rolls back to earlier dialogue
+  - Scrolling up with the mouse wheel (or pressing the Android back button​) rolls back to earlier dialogue
   - Scrolling down with the mouse wheel rolls for​ward to later dialogue​
   - Ctrl skips dialogue while being held down​
   - Tab toggles dialogue skipping​
 - Added controller support
 - Added a debug menu that allows you to skip to various points in the game, activated by pressing the P key while on the main menu​
+- A few sound effects in Story 1 had been assigned to the voice channel instead of the SFX channel, this has been corrected
+- Two cases of mistaken characters when transcribing English words into Japanese in Story 2 corrected​:
+  - スキュアリー →​ スケアリー (scuary→scary​ )
+  - ユナイデットステイツ → ​ユナイテッドステイツ​ (Unidet States→United States​)

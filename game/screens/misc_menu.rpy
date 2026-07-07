@@ -20,6 +20,13 @@ screen game_menu2(title):
     if main_menu:
         key "mousedown_3" action Return()
 
+    if renpy.variant("mobile") and not main_menu:
+        imagebutton:
+            xalign 1.0
+            yalign 0
+            idle "gui/button/return.png"
+            action Return()
+
     vbox:
         style_prefix "gm"
         xalign 1.0
@@ -65,12 +72,7 @@ screen game_menu2(title):
             else:
                 action MainMenu(confirm=True, save=False)
 
-        if renpy.variant("mobile") and not main_menu:
-            imagebutton:
-                xalign 1.0
-                yalign 0
-                idle "gui/button/return.png"
-                action Return()
+
         
 
 
@@ -100,6 +102,8 @@ screen about():
     add "gui/scrollbar/log_1.png":
         xpos 681
         ypos 196
+
+    key "mousedown_3" action ShowMenu("menu_open2")
 
     if renpy.variant("mobile"):
         imagebutton:
@@ -237,6 +241,8 @@ screen preferences():
     tag menu
 
     use game_menu2(("Preferences"))
+
+    key "mousedown_3" action ShowMenu("menu_open2")
 
     if renpy.variant("mobile"):
         imagebutton:
@@ -600,6 +606,8 @@ screen language():
     modal True
 
     style_prefix "language"
+
+    key "mousedown_3" action ShowMenu("menu_open2")
 
     if renpy.variant("mobile"):
         imagebutton:

@@ -28,7 +28,7 @@ init python:
         float shadow_alpha = 0.0;
         float total = 0.0;
 
-        const float MAX_RADIUS = 12.0; // must cover the largest u__radius you'll ever use
+        const float MAX_RADIUS = 12.0;
 
         for (float x = -MAX_RADIUS; x <= MAX_RADIUS; x += 1.0) {
             if (abs(x) > u__radius) continue;

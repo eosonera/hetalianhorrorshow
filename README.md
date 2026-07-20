@@ -1,6 +1,7 @@
 # The Hetalian Horror Show Remake
 
-<img width="630" height="500" alt="icon" src="https://github.com/user-attachments/assets/17f0edc1-79e9-4fea-a38b-fa100fa2e69b" />
+<img width="900" height="187" alt="banner" src="https://github.com/user-attachments/assets/de8dfb71-9d64-4714-b381-02fc49bfeb53" />
+
 <br>
 <br>
 
@@ -12,7 +13,9 @@ A game where the Hetalia crew tells stories that seem scary but aren't really.
 
 Full Ren'Py fan remake of The Hetalian Horror Show by the [hetascanlations](https://hetascanlations.tumblr.com/) team.
 <br>
-The game itself can be read in less than 2 hours and is very linear, with only once choice leading to either a 'good' or 'bad' end.​
+The game itself can be read in less than 2 hours and is very linear, with only once choice leading to either a 'good' or 'bad' end.
+
+**All assets used in this game belong to Himaruya Hidekaz and kitayume.*​* This is a non-commercial fan remake of a free game.
 
 ## Download, Tips, & Info:
 
@@ -28,7 +31,6 @@ Currently playable in:
 ​Programming entirely by [eosonera](https://eosonera.tumblr.com).
 
 Please contact me at [eosonera](https://eosonera.tumblr.com) or through my gmail address of the same name if you would like to contribute a translation.
-
 
 ### Tips & Info:
 General game tips:
@@ -54,7 +56,9 @@ Tips for Android version:
 
   
 ### Changes from the original version:
+A few additions were made for improved quality of life but otherwise my intention with this remake was to make it as close to the original version as possible.
 
+- For the web version available on Itch.io, a few fonts had to be removed and the non-particle rain animation in story 3 had to be cut shorter to make the game smaller. These changes are not in the downloadable versions.
 - Added a menu that allows language selection, accessible from main menu ​by selecting ​the 🌐​ icon​
 - Added a new 'misc' menu with an 'about' submenu, an 'options' submenu, and a 'help' submenu, accessible from main menu and game menu by selecting the "?" icon. In the 'bonus options' submenu, it is possible to:
   - Toggle display between windowed and fullscreen
@@ -70,6 +74,16 @@ Tips for Android version:
 - Added controller support
 - Added a debug menu that allows you to skip to various points in the game, activated by pressing the P key while on the main menu​
 - A few sound effects in Story 1 had been assigned to the voice channel instead of the SFX channel, this has been corrected
+- Due to the differences in the particle systems of Livemaker and Ren'Py, the behavior of the particles is slightly different in this game.
 - Two cases of mistaken characters when transcribing English words into Japanese in Story 2 corrected​:
   - スキュアリー →​ スケアリー (scuary→scary​ )
   - ユナイデットステイツ → ​ユナイテッドステイツ​ (Unidet States→United States​)
+ 
+
+## Compiling the game yourself:
+If you would like to view the scripts and programming behind the game, you can open it in the Ren'Py Visual Novel Engine's developer mode.
+
+1. Download the latest version of Ren'Py 8.x [here](https://www.renpy.org/latest.html)
+2. Open Ren'Py and click 'Preferences' to see where your project directory is, or to change its location.
+3. Clone this repository into your Ren'Py projects directory.
+4. Click 'Refresh' in Ren'Py and you should now see this project. From there, click 'Lauch' to launch the game.

@@ -15,7 +15,7 @@ Full Ren'Py fan remake of The Hetalian Horror Show by the [hetascanlations](http
 <br>
 The game itself can be read in less than 2 hours and is very linear, with only once choice leading to either a 'good' or 'bad' end.
 
-**All assets used in this game belong to Himaruya Hidekaz and kitayume.*​* This is a non-commercial fan remake of a free game.
+**All assets used in this game belong to Himaruya Hidekaz and kitayume.**  This is a non-commercial fan remake of a free game.
 
 ## Download, Tips, & Info:
 
